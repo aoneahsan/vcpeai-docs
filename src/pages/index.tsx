@@ -57,7 +57,7 @@ const SECTIONS: Section[] = [
   },
   {
     title: 'Account and sync',
-    text: 'What a sign-in adds, how sync works, how to delete your data.',
+    text: 'How to connect your account, how sync works, how to delete your data.',
     to: '/docs/account-and-sync',
     icon: 'sync',
   },

@@ -4,17 +4,17 @@ sidebar_label: Netflix
 description: Speed and the core controls work on Netflix; the Netflix extras are off until you switch them on, and recovery keys take over in one case.
 ---
 
-Speed and the core controls work on Netflix; the Netflix extras are off until you switch them on. You switch them on the Netflix Features tab in Settings, which is behind a sign-in, and [Account and sync](/docs/account-and-sync) covers that.
+Speed and the core controls work on Netflix; the Netflix extras are off until you switch them on. You switch them on the Netflix Features tab in Settings, which needs an account, and [Account and sync](/docs/account-and-sync) covers that.
 
 ## The core controls
 
-Press `]` to go 0.1x faster and `[` to go 0.1x slower, signed in or signed out.
+Press `]` to go 0.1x faster and `[` to go 0.1x slower, with or without an account.
 
 ## Netflix extras are opt-in
 
 1. Open Settings.
 2. Go to the **Netflix Features** tab.
-3. Sign in if the tab asks you to.
+3. Connect an account if the tab asks you to.
 4. Turn on an extra with its enable switch.
 5. Reload the Netflix page.
 

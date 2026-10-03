@@ -14,7 +14,7 @@ It's a browser extension. You set the speed, loop a part, and change the sound a
 
 The Video Controls Plus team writes the extension, these docs and the release notes. What changed in each release is in the [changelog](/changelog).
 
-The docs describe what the extension does today, and a control that needs a sign-in says so on its page.
+The docs describe what the extension does today, and a control that needs [an account](/docs/account-and-sync) says so on its page.
 
 ## How to reach the team
 

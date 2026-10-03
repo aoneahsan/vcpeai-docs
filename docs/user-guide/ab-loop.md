@@ -1,10 +1,10 @@
 ---
 title: Loop a part of a video with an A-B loop
 sidebar_label: A-B loop
-description: Set point A and point B and the video replays the stretch between them, forever, once, or 1 to 20 times; the A-B loop needs a sign-in.
+description: Set point A and point B and the video replays the stretch between them, forever, once, or 1 to 20 times; the A-B loop needs an account.
 ---
 
-An A-B loop replays the stretch between two points you set. Looping needs a sign-in. Speed control does not. If the loop keys do nothing, [sign in first](/docs/account-and-sync).
+An A-B loop replays the stretch between two points you set. Looping needs [an account](/docs/account-and-sync). Speed control does not. If the loop keys do nothing, connect an account first.
 
 ## Set a loop
 

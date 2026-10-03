@@ -4,7 +4,7 @@ sidebar_label: Display and widget
 description: Pick the floating widget or notification only, set the widget's position, size and how it opens, and choose a theme and a language.
 ---
 
-You choose how the controls appear on the page in Settings, on the General tab under **Display Mode**. It works signed out.
+You choose how the controls appear on the page in Settings, on the General tab under **Display Mode**. It works without an account.
 
 ## Display modes
 

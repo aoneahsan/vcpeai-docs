@@ -4,9 +4,9 @@ sidebar_label: AI features
 description: Video summaries and LinkedIn writing help run through a daily allowance, your own OpenAI or Anthropic key, or a local model; here is what each one sends.
 ---
 
-Video Controls Plus has two AI features: a summary of a YouTube video made from its captions, and writing help on LinkedIn. Both are off until you start them. With your own key or a local model they run signed out, and only the daily allowance asks you to [sign in](/docs/account-and-sync).
+Video Controls Plus has two AI features: a summary of a YouTube video made from its captions, and writing help on LinkedIn. Both are off until you start them. With your own key or a local model they need no account, and only the shared allowance needs a [connected account](/docs/account-and-sync).
 
-To start a summary, open the popup (the toolbar icon, or `Alt + V`, a [browser-level shortcut](/docs/keyboard-shortcuts/defaults)) on a YouTube watch page and click **Summarize this video**. Writing help starts on LinkedIn, and the [LinkedIn page](/docs/platforms/linkedin) covers it.
+To start a summary, open the popup (the toolbar icon, or `Alt + V`, a [browser-level shortcut](/docs/keyboard-shortcuts/defaults)) on a YouTube watch page and click **Summarize this video**. The button is on YouTube watch pages only. Writing help starts on LinkedIn, and the [LinkedIn page](/docs/platforms/linkedin) covers it.
 
 Every playback control works without them.
 
@@ -16,11 +16,13 @@ Open Settings and go to the **AI Features** tab. On the **AI provider** card, pi
 
 | Way | Option on the card | What you need | Where your text goes |
 |---|---|---|---|
-| The daily allowance | The first option | A Google sign-in. No key. | To the Video Controls Plus AI proxy, which forwards the request to OpenAI |
-| Your own key | **Your OpenAI key** or **Your Anthropic key** | An OpenAI or Anthropic API key | Directly from your browser to OpenAI or Anthropic, using your key |
-| A local model | **Local (Ollama)** | Ollama running on your machine | Nowhere. It stays on your device. |
+| The shared allowance | **Shared allowance** | A connected account. No key. | To the Video Controls Plus server, which forwards the request to OpenAI on the team's key |
+| Your own key | **Your OpenAI key** or **Your Anthropic key** | An OpenAI or Anthropic API key. No account. | Directly from your browser to OpenAI or Anthropic, using your key |
+| A local model | **Local (Ollama)** | Ollama running on your machine. No account. | Nowhere. It stays on your device. |
 
-The daily allowance is small, and the AI Features tab in Settings shows how many runs are left today. When they are used up, add your own key or come back the next day.
+The shared allowance is 3 runs a day. The runs are counted on the server, against your account, so they are the same 3 in every browser you connect. The AI Features tab shows how many are left today, and when they are used up you add your own key or come back the next day.
+
+Your own key and a local model have no limit from the team.
 
 ## What is sent
 
@@ -37,7 +39,7 @@ A summary is made from the captions, so a YouTube video with no captions or tran
 
 ## What is kept
 
-The Video Controls Plus team does not store the content of your AI requests.
+The Video Controls Plus team does not store the content of your AI requests. With the shared allowance, the server keeps the count of your runs for the day.
 
 An API key you add is stored locally in your browser. It is not sent to the team. It is sent to the provider it belongs to, because that is how the provider accepts your request.
 
@@ -45,6 +47,6 @@ Once your text reaches OpenAI or Anthropic, their own privacy policies apply to 
 
 ## When AI is not available
 
-Every AI feature falls back to the built-in generators when AI is not available. The result is then made by the extension's own rules and not by a model.
+A video summary falls back to the built-in generator when AI is not available, and the summary is then made by the extension's own rules. No model is used.
 
 For everything else the extension records, see [Privacy and permissions](/docs/privacy-and-permissions).

@@ -20,13 +20,15 @@ The same links are on the website's [install page](https://vcpeai.aoneahsan.com/
 2. Add the extension, and confirm when the browser shows the permissions.
 3. Pin it to the toolbar from the browser's Extensions button, so the popup is one click away.
 
-A welcome page opens inside the extension. Walk through it or skip it.
+A welcome page opens inside the extension. Walk through it or skip it. One of its steps offers **Connect to your account**, and you can skip that step and connect later.
 
 ## On Firefox
 
 The add-on needs Firefox 140 or newer, and Firefox shows the data the add-on collects when you add it.
 
-There is no Google sign-in in the Firefox add-on today, so the signed-out controls ([list](/docs/account-and-sync)) work on Firefox and the controls that need a sign-in are not available there. [Account and sync](/docs/account-and-sync) lists them.
+Firefox also asks for two optional data permissions: usage events are sent only if "technical and interaction data" is allowed, and page content is sent only after you allow "website content", which the add-on asks for the first time it is needed. [Privacy and permissions](/docs/privacy-and-permissions) lists what each one covers.
+
+Connecting to your account works on Firefox the same way as on Chrome and Edge, and the controls that need a connected account are listed in [Account and sync](/docs/account-and-sync) with the steps to connect.
 
 ## What the browser asks for
 

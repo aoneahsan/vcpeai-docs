@@ -1,10 +1,10 @@
 ---
 title: Change a keyboard shortcut
 sidebar_label: Change a shortcut
-description: Give any shortcut another key in Settings, switch shortcuts off one by one or by section, and keep your keys across devices while signed in.
+description: Give any shortcut another key in Settings, switch shortcuts off one by one or by section, and keep your keys across devices with a connected account.
 ---
 
-Open Settings, go to the Keyboard Shortcuts tab, and give the shortcut another key. Every shortcut on that tab can be changed, and it works signed out.
+Open Settings, go to the Keyboard Shortcuts tab, and give the shortcut another key. Every shortcut on that tab can be changed, and it works without an account.
 
 ## Change a key
 
@@ -42,9 +42,9 @@ The Netflix Recovery Controls section has its own **Reset** button, which resets
 
 ## Your keys on another device
 
-Your key bindings are saved in this browser. While you're signed in they're also saved to your account, and another device picks them up the next time you open Settings on it.
+Your key bindings are saved in this browser. While an account is connected they're also saved to it, and another device picks them up the next time you open Settings on it.
 
-Signed out, they stay in this browser. See [what sign-in adds](/docs/account-and-sync).
+Without an account, they stay in this browser. See [what connecting adds](/docs/account-and-sync).
 
 ## Limits
 

@@ -1,10 +1,10 @@
 ---
 title: Skip intros, recaps and credits automatically
 sidebar_label: Auto-skip
-description: Auto-skip clicks the skip buttons that Netflix, Prime Video and YouTube show; it is off by default and needs a sign-in.
+description: Auto-skip clicks the skip buttons that Netflix, Prime Video and YouTube show; it is off by default and needs an account.
 ---
 
-Auto-skip clicks the skip button for you when Netflix, Prime Video or YouTube shows one. The skip switches are off until you turn them on, and all of them need a sign-in. [Account and sync](/docs/account-and-sync) covers what sign-in adds.
+Auto-skip clicks the skip button for you when Netflix, Prime Video or YouTube shows one. The skip switches are off until you turn them on, and all of them need an account. [Account and sync](/docs/account-and-sync) covers what connecting adds.
 
 ## What it clicks
 
@@ -51,9 +51,9 @@ Press `Ctrl + Alt + S` to skip the intro yourself, or click **Skip Intro** on th
 | Control | What it skips | Where |
 |---|---|---|
 | Silence Skip | The silent parts of a video | Widget, Smart tab, **Silence Skip** |
-| SponsorBlock | Sponsor segments | Settings, New Features tab, which needs a sign-in |
+| SponsorBlock | Sponsor segments | Settings, New Features tab, which needs an account |
 
-Silence Skip works signed out.
+Silence Skip works without an account.
 
 ## Related keys
 

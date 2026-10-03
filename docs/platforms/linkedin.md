@@ -4,7 +4,7 @@ sidebar_label: LinkedIn
 description: On LinkedIn the core video controls work, and a set of LinkedIn tools run from the widget or the right-click menu; switches are in Settings.
 ---
 
-On LinkedIn it does a lot more than control a video: it scores your profile, tracks your job applications and exports your posts, and each tool runs the moment you pick it from the widget or the right-click menu. The core video controls work as on any site. The tools that are on by default run signed out. To switch one on or off you need the LinkedIn Features tab in Settings, and that tab is behind a sign-in ([what sign-in adds](/docs/account-and-sync)).
+On LinkedIn it does a lot more than control a video: it scores your profile, tracks your job applications and exports your posts, and each tool runs the moment you pick it from the widget or the right-click menu. The core video controls work as on any site. The tools that are on by default run without an account. To switch one on or off you need the LinkedIn Features tab in Settings, and that tab needs an account ([what connecting adds](/docs/account-and-sync)).
 
 ## The tools
 
@@ -29,7 +29,7 @@ A tool that waits until you pick it is on by default. A tool that puts something
 
 1. Open Settings.
 2. Go to the **LinkedIn Features** tab.
-3. Sign in if the tab asks you to.
+3. Connect an account if the tab asks you to.
 
 The tools are grouped: Profile, Content Creation, Post & Feed, Connections, Messaging, Jobs, Analytics, Export, Privacy and Productivity.
 

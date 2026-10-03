@@ -4,7 +4,7 @@ sidebar_label: Notes and bookmarks
 description: Save notes with the video timestamp from the widget's Tools tab, export them as Markdown, text or JSON, and add a bookmark at the current moment.
 ---
 
-Each note you take while you watch is saved with the timestamp, and notes export as Markdown, text or JSON. Notes work signed out, and they are on the widget's **Tools** tab, under **Notes & Extraction**.
+Each note you take while you watch is saved with the timestamp, and notes export as Markdown, text or JSON. Notes work without an account, and they are on the widget's **Tools** tab, under **Notes & Extraction**.
 
 ## Take a note
 
@@ -32,7 +32,7 @@ The Markdown export puts each note on its own line with its timestamp, so the fi
 
 ## Add a bookmark
 
-Click **Bookmark** on the Tools tab, or press `Ctrl + Alt + O`. The key needs a [sign-in](/docs/account-and-sync).
+Click **Bookmark** on the Tools tab, or press `Ctrl + Alt + O`. The key needs [an account](/docs/account-and-sync).
 
 The bookmark is added at the current moment. Bookmarks are add-only today.
 

@@ -1,10 +1,10 @@
 ---
 title: Take a screenshot of a video frame
 sidebar_label: Screenshots
-description: Press Ctrl + Alt + C to save the current video frame as PNG or JPEG, download it or copy it, with an optional timestamp; it needs a sign-in.
+description: Press Ctrl + Alt + C to save the current video frame as PNG or JPEG, download it or copy it, with an optional timestamp; it needs an account.
 ---
 
-Press `Ctrl + Alt + C` to save the current frame as PNG or JPEG; it needs a [sign-in](/docs/account-and-sync).
+Press `Ctrl + Alt + C` to save the current frame as PNG or JPEG; it needs [an account](/docs/account-and-sync).
 
 ## Take a screenshot
 

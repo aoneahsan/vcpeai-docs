@@ -4,7 +4,7 @@ sidebar_label: Speed control
 description: Change video speed in 0.1x steps with the bracket keys or the widget slider up to 4x, type a custom speed up to 16x, and use 8 preset speeds.
 ---
 
-Press `]` or `[` for 0.1x steps, or drag the slider in the widget up to 4x. The bracket keys work on their own, without `Ctrl + Alt`, and speed control works signed out.
+Press `]` or `[` for 0.1x steps, or drag the slider in the widget up to 4x. The bracket keys work on their own, without `Ctrl + Alt`, and speed control works without an account.
 
 ## The speed keys
 

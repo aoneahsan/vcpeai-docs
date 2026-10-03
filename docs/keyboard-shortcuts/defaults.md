@@ -6,13 +6,13 @@ description: "Every default key in Video Controls Plus: letter and digit keys ne
 
 Letter and digit keys need `Ctrl + Alt`; only `[`, `]`, `=`, `\`, `'`, `,`, `.` and `Esc` work alone. That keeps the extension's keys away from the keys a site's own player uses.
 
-A "Yes" in the last column means the key works after you sign in with Google, and [Account and sync](/docs/account-and-sync) lists what sign-in adds.
+A "Yes" in the last column means the key works with a connected account, and [Account and sync](/docs/account-and-sync) lists what connecting adds.
 
 ## Speed
 
 The Speed Control section in Settings holds the speed keys and the widget keys.
 
-| Key | What it does | Needs a sign-in |
+| Key | What it does | Needs an account |
 |---|---|---|
 | `[` | Decrease speed by 0.1x | No |
 | `]` | Increase speed by 0.1x | No |
@@ -24,14 +24,14 @@ The Speed Control section in Settings holds the speed keys and the widget keys.
 
 ## Advanced controls
 
-| Key | What it does | Needs a sign-in |
+| Key | What it does | Needs an account |
 |---|---|---|
 | `Ctrl + Alt + P` | Picture-in-Picture on or off | No |
 | `Ctrl + Alt + S` | Skip intro, on Netflix and Prime Video | Yes |
 
 ## Preset speeds
 
-| Key | What it does | Needs a sign-in |
+| Key | What it does | Needs an account |
 |---|---|---|
 | `Ctrl + Alt + 1` | Preset: 0.5x | No |
 | `Ctrl + Alt + 2` | Preset: 1x | No |
@@ -46,7 +46,7 @@ There is no ninth preset by default. Add a ninth preset to use `Ctrl + Alt + 9`.
 
 ## A-B loop
 
-| Key | What it does | Needs a sign-in |
+| Key | What it does | Needs an account |
 |---|---|---|
 | `Ctrl + Alt + A` | Set the loop start point (A) | Yes |
 | `Ctrl + Alt + B` | Set the loop end point (B) | Yes |
@@ -55,7 +55,7 @@ There is no ninth preset by default. Add a ninth preset to use `Ctrl + Alt + 9`.
 
 ## Audio controls
 
-| Key | What it does | Needs a sign-in |
+| Key | What it does | Needs an account |
 |---|---|---|
 | `Ctrl + Alt + U` | Boost up by 20% | Yes |
 | `Ctrl + Alt + Y` | Boost down by 20% | Yes |
@@ -63,7 +63,7 @@ There is no ninth preset by default. Add a ninth preset to use `Ctrl + Alt + 9`.
 
 ## Filters and screenshot
 
-| Key | What it does | Needs a sign-in |
+| Key | What it does | Needs an account |
 |---|---|---|
 | `Ctrl + Alt + F` | Show or hide the filters panel | Yes |
 | `Ctrl + Alt + G` | Grayscale on or off | Yes |
@@ -73,7 +73,7 @@ There is no ninth preset by default. Add a ninth preset to use `Ctrl + Alt + 9`.
 
 ## Navigation
 
-| Key | What it does | Needs a sign-in |
+| Key | What it does | Needs an account |
 |---|---|---|
 | `,` | Step back one frame | No |
 | `.` | Step forward one frame | No |
@@ -82,7 +82,7 @@ There is no ninth preset by default. Add a ninth preset to use `Ctrl + Alt + 9`.
 
 ## Bookmarks
 
-| Key | What it does | Needs a sign-in |
+| Key | What it does | Needs an account |
 |---|---|---|
 | `Ctrl + Alt + O` | Add a bookmark at the current moment | Yes |
 

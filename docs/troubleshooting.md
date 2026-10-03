@@ -1,7 +1,7 @@
 ---
 title: When Video Controls Plus is not working on a site
 sidebar_label: Troubleshooting
-description: What to check when Video Controls Plus does not appear on a site, a key does nothing, a control is unavailable, or a setting has no effect.
+description: What to check when Video Controls Plus does not appear on a site, a key does nothing, connecting fails, or a setting has no effect.
 ---
 
 Check that the site is not paused in the popup, then reload the page. That is the first thing to check, and the rest are below, each as what you see, why, and what to do.
@@ -29,18 +29,55 @@ The full table is in [Default shortcuts](/docs/keyboard-shortcuts/defaults).
 
 ## Loop, audio boost, filters or screenshots are unavailable
 
-**Why:** these open after you sign in. So do auto-skip and the bookmark key, `Ctrl + Alt + O`.
+**Why:** these open after you connect the extension to your account. So do auto-skip and the bookmark key, `Ctrl + Alt + O`.
 
 1. Open Settings and go to the Account & Sync tab.
-2. Sign in with Google.
+2. Press **Connect to your account**, and confirm on the website.
 
-See [what sign-in adds](/docs/account-and-sync).
+This is the same on Chrome, Edge and Firefox. See [the steps and what connecting adds](/docs/account-and-sync).
 
-## On Firefox, the sign-in controls are missing
+## The connect tab did not open
 
-**Why:** there is no Google sign-in in the Firefox add-on today, so the A-B loop, audio boost, filters, screenshots, auto-skip, the bookmark key and cloud sync are unavailable on Firefox.
+**Why:** the browser did not open the tab, or you closed it.
 
-There is no step for this one. The signed-out controls ([list](/docs/account-and-sync)) work on Firefox.
+1. Go back to the extension. It shows **Waiting for you to connect...** and your code.
+2. Press **Open the page again**.
+
+## The code on the website is different
+
+**Why:** the page belongs to another request, not the one this browser is waiting on.
+
+1. Press **Cancel** on the page.
+2. Start again from the extension with **Connect to your account**.
+
+Do not press **Connect this browser** while the two codes differ.
+
+## The connect request ran out of time
+
+**Why:** the code lasts 10 minutes, and after that the website shows **This request is no longer valid.** and the extension says the request ran out of time.
+
+1. Go back to the extension.
+2. Press **Try again**, and confirm on the website within 10 minutes.
+
+## Too many attempts
+
+**Why:** the extension asked to connect too many times in a short while.
+
+1. Wait a few minutes.
+2. Press **Try again**.
+
+## Connected, but your lists are empty
+
+**Why:** an account that existed before 16.0.0 opens empty until we finish moving the old cloud data, which follows this release. Nothing saved in your browser is affected.
+
+There is no step for this one. [Account and sync](/docs/account-and-sync) says what an account holds.
+
+## On Firefox, an upload or an AI run says Firefox needs your permission
+
+**Why:** on Firefox, page content (a screenshot you upload, a transcript you save to the account, captions for an AI run) is sent only after you allow "website content". The add-on asks the first time you use one of those.
+
+1. Allow it when Firefox asks.
+2. Or open the add-on's permissions in Firefox and allow it there, then try again.
 
 ## The speed stops at 4x
 
@@ -58,11 +95,11 @@ There is no step for this one. The signed-out controls ([list](/docs/account-and
 
 On Netflix, every extra starts off. See [Netflix](/docs/platforms/netflix).
 
-## The YouTube, Netflix or LinkedIn tab in Settings shows a sign-in prompt
+## The YouTube, Netflix or LinkedIn tab in Settings asks you to connect
 
-**Why:** those tabs are behind a sign-in. The YouTube and LinkedIn extras that are on by default still run signed out; only the tab where you switch them asks for the sign-in.
+**Why:** those tabs need a connected account, while the YouTube and LinkedIn extras that are on by default still run without one; only the tab where you switch them asks.
 
-1. Sign in on the Account & Sync tab.
+1. Connect on the Account & Sync tab.
 2. Open the tab again.
 
 ## The widget is in English and Settings is not
@@ -83,9 +120,9 @@ See [Change a shortcut](/docs/keyboard-shortcuts/rebinding).
 
 ## Your shortcuts are different on another device
 
-**Why:** a device picks up your keys the next time you open Settings on it, while you are signed in.
+**Why:** a device picks up your keys the next time you open Settings on it, while it is connected to your account.
 
-1. Sign in on that device.
+1. Connect the extension on that device.
 2. Open Settings.
 
 ## Still stuck

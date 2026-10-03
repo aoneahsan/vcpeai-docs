@@ -1,10 +1,10 @@
 ---
 title: Adjust the picture with video filters
 sidebar_label: Video filters
-description: After you sign in, set brightness, contrast and saturation from 0% to 200%, use grayscale, invert or night mode, and save up to 20 presets.
+description: With a connected account, set brightness, contrast and saturation from 0% to 200%, use grayscale, invert or night mode, and save up to 20 presets.
 ---
 
-The filters are brightness, contrast and saturation from 0% to 200%, plus grayscale, invert and night mode. Once you are signed in ([what sign-in adds](/docs/account-and-sync)), press `Ctrl + Alt + F` to open the Filters tab in the widget.
+The filters are brightness, contrast and saturation from 0% to 200%, plus grayscale, invert and night mode. With a connected account ([what connecting adds](/docs/account-and-sync)), press `Ctrl + Alt + F` to open the Filters tab in the widget.
 
 ## The controls
 

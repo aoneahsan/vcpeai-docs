@@ -4,7 +4,7 @@ sidebar_label: YouTube
 description: On YouTube the core controls work as on any site, and each of the YouTube extras has its own switch in Settings; most are on by default.
 ---
 
-On YouTube you get the same controls as everywhere and a set of extras made for YouTube: Comment Search, a Dislike Counter, a Channel Blocker and subtitle and thumbnail downloads are on from the start, and each one has its own switch in Settings. The extras that are on by default run signed out. Only the YouTube Features tab in Settings, where you switch them, is behind a sign-in, and [Account and sync](/docs/account-and-sync) covers that.
+On YouTube you get the same controls as everywhere and a set of extras made for YouTube: Comment Search, a Dislike Counter, a Channel Blocker and subtitle and thumbnail downloads are on from the start, and each one has its own switch in Settings. The extras that are on by default run without an account. Only the YouTube Features tab in Settings, where you switch them, needs an account, and [Account and sync](/docs/account-and-sync) covers that.
 
 ## The core controls
 
@@ -31,7 +31,7 @@ Ad Skip clicks the button YouTube shows. It does not remove ads, and it does not
 
 1. Open Settings.
 2. Go to the **YouTube Features** tab.
-3. Sign in if the tab asks you to.
+3. Connect an account if the tab asks you to.
 
 The extras are grouped: Comments, Discovery & Blocking, Navigation, Viewing Experience, Player, Productivity, Learning, Analytics, Advanced and Downloads.
 

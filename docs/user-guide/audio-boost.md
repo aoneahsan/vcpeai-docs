@@ -1,10 +1,10 @@
 ---
 title: Boost the audio past 100%
 sidebar_label: Audio boost
-description: Raise a video's volume up to 400% and switch on normalize to even out loud and quiet parts; audio boost needs a sign-in.
+description: Raise a video's volume up to 400% and switch on normalize to even out loud and quiet parts; audio boost needs an account.
 ---
 
-Audio boost raises the volume beyond 100%, up to 400%, after you [sign in](/docs/account-and-sync). Press `Ctrl + Alt + U` to raise the boost and `Ctrl + Alt + Y` to lower it.
+Audio boost raises the volume beyond 100%, up to 400%, after you [connect an account](/docs/account-and-sync). Press `Ctrl + Alt + U` to raise the boost and `Ctrl + Alt + Y` to lower it.
 
 ## The audio keys
 
@@ -32,7 +32,7 @@ The extension remembers the volume and the mute state per site. Set YouTube quie
 
 ## More audio controls
 
-It does a lot more with the sound than make it louder: bass boost, noise reduction, vocal isolation and five more are each one button under **Advanced Audio** on the widget's Audio tab. The tab asks for a sign-in, so you reach them after signing in.
+It does a lot more with the sound than make it louder: bass boost, noise reduction, vocal isolation and five more are each one button under **Advanced Audio** on the widget's Audio tab. The tab needs an account, so you reach them after connecting one.
 
 | Button | What it does |
 |---|---|
