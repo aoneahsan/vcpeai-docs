@@ -1,15 +1,47 @@
 # Video Controls Plus Docs
 
-> Documentation for the Video Controls Plus browser extension.
+> Control your online video player the way you want it, and get special features on each website.
 
-## Pages
+## Docs
 
-- Home: https://vcpeai-docs.aoneahsan.com/
-- Introduction: https://vcpeai-docs.aoneahsan.com/docs/intro
-- Changelog: https://vcpeai-docs.aoneahsan.com/changelog
-- Documentation site: https://vcpeai-docs.aoneahsan.com/changelog/documentation-site
-- Sitemap: https://vcpeai-docs.aoneahsan.com/sitemap
-- Feed: https://vcpeai-docs.aoneahsan.com/feed
+- [What Video Controls Plus is](https://vcpeai-docs.aoneahsan.com/docs/intro): Video Controls Plus is a browser extension that adds playback controls to HTML5 video on any site, with extra tools on YouTube, Netflix and LinkedIn.
+- [Install Video Controls Plus](https://vcpeai-docs.aoneahsan.com/docs/getting-started/install): Add Video Controls Plus from the Chrome Web Store, Microsoft Edge Add-ons or Firefox Add-ons, and speed control works as soon as it is installed.
+- [Your first video with Video Controls Plus](https://vcpeai-docs.aoneahsan.com/docs/getting-started/first-run): Open a video, change the speed with the bracket keys, find the widget and the popup, and see which controls need a sign-in.
+- [Pause the extension on one site](https://vcpeai-docs.aoneahsan.com/docs/getting-started/pause-per-site): Pause Video Controls Plus on a single site from the popup, for 1 hour, 4 hours, 1 day, 1 week, or until you turn it back on.
+- [Control the playback speed](https://vcpeai-docs.aoneahsan.com/docs/user-guide/speed-control): Change video speed in 0.1x steps with the bracket keys or the widget slider up to 4x, type a custom speed up to 16x, and use 8 preset speeds.
+- [Loop a part of a video with an A-B loop](https://vcpeai-docs.aoneahsan.com/docs/user-guide/ab-loop): Set point A and point B and the video replays the stretch between them, forever, once, or 1 to 20 times; the A-B loop needs a sign-in.
+- [Boost the audio past 100%](https://vcpeai-docs.aoneahsan.com/docs/user-guide/audio-boost): Raise a video's volume up to 400% and switch on normalize to even out loud and quiet parts; audio boost needs a sign-in.
+- [Adjust the picture with video filters](https://vcpeai-docs.aoneahsan.com/docs/user-guide/video-filters): After you sign in, set brightness, contrast and saturation from 0% to 200%, use grayscale, invert or night mode, and save up to 20 presets.
+- [Take a screenshot of a video frame](https://vcpeai-docs.aoneahsan.com/docs/user-guide/screenshots): Press Ctrl + Alt + C to save the current video frame as PNG or JPEG, download it or copy it, with an optional timestamp; it needs a sign-in.
+- [Take notes and add bookmarks while you watch](https://vcpeai-docs.aoneahsan.com/docs/user-guide/notes-and-bookmarks): Save notes with the video timestamp from the widget's Tools tab, export them as Markdown, text or JSON, and add a bookmark at the current moment.
+- [Watch in Picture-in-Picture](https://vcpeai-docs.aoneahsan.com/docs/user-guide/picture-in-picture): Press Ctrl + Alt + P to put the video in a Picture-in-Picture window, or let it enter on its own when you scroll away; it works signed out.
+- [Skip intros, recaps and credits automatically](https://vcpeai-docs.aoneahsan.com/docs/user-guide/auto-skip): Auto-skip clicks the skip buttons that Netflix, Prime Video and YouTube show; it is off by default and needs a sign-in.
+- [Choose how the controls appear on the page](https://vcpeai-docs.aoneahsan.com/docs/user-guide/display-and-widget): Pick the floating widget or notification only, set the widget's position, size and how it opens, and choose a theme and a language.
+- [Default keyboard shortcuts](https://vcpeai-docs.aoneahsan.com/docs/keyboard-shortcuts/defaults): Every default key in Video Controls Plus: letter and digit keys need Ctrl + Alt, and only the bracket, punctuation and Esc keys work alone.
+- [Change a keyboard shortcut](https://vcpeai-docs.aoneahsan.com/docs/keyboard-shortcuts/rebinding): Give any shortcut another key in Settings, switch shortcuts off one by one or by section, and keep your keys across devices while signed in.
+- [Video Controls Plus on YouTube](https://vcpeai-docs.aoneahsan.com/docs/platforms/youtube): On YouTube the core controls work as on any site, and each of the YouTube extras has its own switch in Settings; most are on by default.
+- [Video Controls Plus on Netflix](https://vcpeai-docs.aoneahsan.com/docs/platforms/netflix): Speed and the core controls work on Netflix; the Netflix extras are off until you switch them on, and recovery keys take over in one case.
+- [Video Controls Plus on LinkedIn](https://vcpeai-docs.aoneahsan.com/docs/platforms/linkedin): On LinkedIn the core video controls work, and a set of LinkedIn tools run from the widget or the right-click menu; switches are in Settings.
+- [Which sites Video Controls Plus works on](https://vcpeai-docs.aoneahsan.com/docs/platforms/other-sites): Video Controls Plus works on any site that plays a standard HTML5 video, including embedded players, with extra tools on YouTube, Netflix and LinkedIn.
+- [AI features and what they send](https://vcpeai-docs.aoneahsan.com/docs/ai-features): Video summaries and LinkedIn writing help run through a daily allowance, your own OpenAI or Anthropic key, or a local model; here is what each one sends.
+- [Account, sync, export and delete](https://vcpeai-docs.aoneahsan.com/docs/account-and-sync): What a Google sign-in adds to Video Controls Plus, how to delete your data, how settings sync works, and how to export your settings.
+- [Privacy and permissions](https://vcpeai-docs.aoneahsan.com/docs/privacy-and-permissions): What Video Controls Plus stores and records, signed out and signed in, and what each browser permission is used for.
+- [When Video Controls Plus is not working on a site](https://vcpeai-docs.aoneahsan.com/docs/troubleshooting): What to check when Video Controls Plus does not appear on a site, a key does nothing, a control is unavailable, or a setting has no effect.
+- [Frequently asked questions](https://vcpeai-docs.aoneahsan.com/docs/faq): Short answers about speed, A-B loop, audio boost, screenshots, filters, shortcuts, supported sites, Netflix, privacy and deleting your data.
+- [About Video Controls Plus](https://vcpeai-docs.aoneahsan.com/docs/about): Video Controls Plus is a browser extension for HTML5 video, built and maintained by the Video Controls Plus team.
+
+## Changelog
+
+- [Changelog](https://vcpeai-docs.aoneahsan.com/changelog): Release notes, one entry per release.
+- [Version 15.3.0](https://vcpeai-docs.aoneahsan.com/changelog/15-3-0)
+- [Version 15.2.0](https://vcpeai-docs.aoneahsan.com/changelog/15-2-0)
+- [Version 15.1.0](https://vcpeai-docs.aoneahsan.com/changelog/15-1-0)
+- [Version 15.0.0](https://vcpeai-docs.aoneahsan.com/changelog/15-0-0)
+
+## Site
+
+- [Sitemap](https://vcpeai-docs.aoneahsan.com/sitemap)
+- [Feed](https://vcpeai-docs.aoneahsan.com/feed)
 
 ## Machine-readable
 

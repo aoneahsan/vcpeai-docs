@@ -6,7 +6,8 @@ import styles from './index.module.css';
 
 const INSTALL_URL = 'https://vcpeai.aoneahsan.com/install';
 const DOCS_HOME = '/docs/intro';
-const LEDE = 'Documentation for the Video Controls Plus browser extension.';
+const LEDE =
+  'Control your online video player the way you want it, and get special features on each website.';
 
 type IconName =
   | 'play'
@@ -20,24 +21,70 @@ type IconName =
   | 'question'
   | 'list';
 
-type Section = { title: string; to: string; icon: IconName };
+type Section = { title: string; text: string; to: string; icon: IconName };
 
-/**
- * One card per sidebar category. Each `to` is its own field so a card can be re-pointed at its
- * category page once that page is in the production build; until then every card opens the
- * introduction, because the build fails on a link to a page that does not exist.
- */
+/** One card per sidebar category: what the reader finds there, and the first page of it. */
 const SECTIONS: Section[] = [
-  { title: 'Getting started', to: DOCS_HOME, icon: 'play' },
-  { title: 'User guide', to: DOCS_HOME, icon: 'sliders' },
-  { title: 'Keyboard shortcuts', to: DOCS_HOME, icon: 'keyboard' },
-  { title: 'Platforms', to: DOCS_HOME, icon: 'screens' },
-  { title: 'AI features', to: DOCS_HOME, icon: 'spark' },
-  { title: 'Account and sync', to: DOCS_HOME, icon: 'sync' },
-  { title: 'Privacy and permissions', to: DOCS_HOME, icon: 'shield' },
-  { title: 'Troubleshooting', to: DOCS_HOME, icon: 'wrench' },
-  { title: 'FAQ', to: DOCS_HOME, icon: 'question' },
-  { title: 'Changelog', to: DOCS_HOME, icon: 'list' },
+  {
+    title: 'Getting started',
+    text: 'Install it, press your first key, and pause it on one site.',
+    to: '/docs/getting-started/install',
+    icon: 'play',
+  },
+  {
+    title: 'User guide',
+    text: 'Speed, A-B loop, audio boost, filters, screenshots and notes, one page each.',
+    to: '/docs/user-guide/speed-control',
+    icon: 'sliders',
+  },
+  {
+    title: 'Keyboard shortcuts',
+    text: 'Every default key, and how to give a shortcut another key.',
+    to: '/docs/keyboard-shortcuts/defaults',
+    icon: 'keyboard',
+  },
+  {
+    title: 'Platforms',
+    text: 'The extras on YouTube, Netflix and LinkedIn, and how other sites work.',
+    to: '/docs/platforms/youtube',
+    icon: 'screens',
+  },
+  {
+    title: 'AI features',
+    text: 'Video summaries and LinkedIn writing help, and what each one sends.',
+    to: '/docs/ai-features',
+    icon: 'spark',
+  },
+  {
+    title: 'Account and sync',
+    text: 'What a sign-in adds, how sync works, how to delete your data.',
+    to: '/docs/account-and-sync',
+    icon: 'sync',
+  },
+  {
+    title: 'Privacy and permissions',
+    text: 'What is recorded, and what each permission is for.',
+    to: '/docs/privacy-and-permissions',
+    icon: 'shield',
+  },
+  {
+    title: 'Troubleshooting',
+    text: 'What you see, why it happens, and the step that fixes it.',
+    to: '/docs/troubleshooting',
+    icon: 'wrench',
+  },
+  {
+    title: 'FAQ',
+    text: 'Short answers to the questions people ask first.',
+    to: '/docs/faq',
+    icon: 'question',
+  },
+  {
+    title: 'Changelog',
+    text: 'What changed in the last four releases.',
+    to: '/changelog',
+    icon: 'list',
+  },
 ];
 
 const ICON_PATHS: Record<IconName, React.JSX.Element> = {
@@ -126,7 +173,10 @@ export default function Home(): React.JSX.Element {
                   <span className={styles.tile}>
                     <Icon name={section.icon} />
                   </span>
-                  <span className={styles.cardTitle}>{section.title}</span>
+                  <span className={styles.cardBody}>
+                    <span className={styles.cardTitle}>{section.title}</span>
+                    <span className={styles.cardText}>{section.text}</span>
+                  </span>
                   <svg
                     className={styles.arrow}
                     viewBox="0 0 24 24"

@@ -5,9 +5,9 @@
   "packageManager": "yarn@4.17.1",
   "description": "Documentation for Video Controls Plus, a browser extension for video playback control.",
   "scripts": {
-    "start": "docusaurus start --port 5911",
+    "start": "docusaurus start --port 5912",
     "build": "docusaurus build",
-    "serve": "docusaurus serve --port 5911",
+    "serve": "docusaurus serve --port 5912",
     "clear": "docusaurus clear",
     "typecheck": "tsc"
   },

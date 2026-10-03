@@ -44,7 +44,7 @@ const sidebars: SidebarsConfig = {
     'privacy-and-permissions',
     'troubleshooting',
     'faq',
-    'changelog',
+    { type: 'link', label: 'Changelog', href: '/changelog' },
     'about',
   ],
 };

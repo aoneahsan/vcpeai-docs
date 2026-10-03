@@ -32,7 +32,7 @@ A pull request needs a passing build before it is merged.
 ```bash
 corepack enable        # use the pinned Yarn version
 yarn install
-yarn start             # local dev server on port 5911
+yarn start             # local dev server on port 5912
 yarn typecheck         # must pass
 yarn build             # must pass with no warning; it is also the link checker
 ```

@@ -18,7 +18,7 @@ control. Built with [Docusaurus](https://docusaurus.io/) and served from GitHub 
 ```bash
 corepack enable     # use the pinned Yarn version (yarn@4.17.1)
 yarn install
-yarn start          # local dev server on port 5911
+yarn start          # local dev server on port 5912
 ```
 
 <a id="build"></a>
@@ -27,7 +27,7 @@ yarn start          # local dev server on port 5911
 ```bash
 yarn typecheck      # TypeScript, no emit
 yarn build          # production build; fails on any broken link or anchor
-yarn serve          # serve the built site on port 5911
+yarn serve          # serve the built site on port 5912
 ```
 
 A page with `draft: true` in its front matter is left out of the production build and its sidebar.

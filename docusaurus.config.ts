@@ -7,7 +7,8 @@ import { themes as prismThemes } from 'prism-react-renderer';
 const SITE_URL = 'https://vcpeai-docs.aoneahsan.com';
 const PRODUCT_URL = 'https://vcpeai.aoneahsan.com';
 const REPO_URL = 'https://github.com/aoneahsan/vcpeai-docs';
-const TAGLINE = 'Documentation for the Video Controls Plus browser extension.';
+const TAGLINE =
+  'Control your online video player the way you want it, and get special features on each website.';
 
 /** Shape published to `/sitemap` and `/feed` through `usePluginData('vcpeai-discovery')`. */
 type DiscoveryEntry = { title: string; description: string; permalink: string; tags: string[] };
@@ -275,6 +276,10 @@ const config: Config = {
           title: 'Docs',
           items: [
             { label: 'Introduction', to: '/docs/intro' },
+            { label: 'Install', to: '/docs/getting-started/install' },
+            { label: 'Keyboard shortcuts', to: '/docs/keyboard-shortcuts/defaults' },
+            { label: 'Troubleshooting', to: '/docs/troubleshooting' },
+            { label: 'FAQ', to: '/docs/faq' },
             { label: 'Changelog', to: '/changelog' },
           ],
         },
@@ -294,7 +299,7 @@ const config: Config = {
           ],
         },
       ],
-      copyright: `© ${new Date().getFullYear()} Video Controls Plus team`,
+      copyright: `Written and maintained by the Video Controls Plus team. © ${new Date().getFullYear()} Video Controls Plus team`,
     },
     prism: {
       theme: prismThemes.github,

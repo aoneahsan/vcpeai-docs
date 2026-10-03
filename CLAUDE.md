@@ -22,7 +22,7 @@ yarn typecheck
 yarn build
 ```
 
-`yarn start` and `yarn serve` use port **5911**. Do not start either unless the owner asks or a
+`yarn start` and `yarn serve` use port **5912**. Do not start either unless the owner asks or a
 render check needs it. Use Yarn only; never npm or pnpm.
 
 ## Map
