@@ -1,0 +1,17 @@
+# Video Controls Plus Docs
+
+> Documentation for the Video Controls Plus browser extension.
+
+## Pages
+
+- Home: https://vcpeai-docs.aoneahsan.com/
+- Introduction: https://vcpeai-docs.aoneahsan.com/docs/intro
+- Changelog: https://vcpeai-docs.aoneahsan.com/changelog
+- Documentation site: https://vcpeai-docs.aoneahsan.com/changelog/documentation-site
+- Sitemap: https://vcpeai-docs.aoneahsan.com/sitemap
+- Feed: https://vcpeai-docs.aoneahsan.com/feed
+
+## Machine-readable
+
+- XML sitemap: https://vcpeai-docs.aoneahsan.com/sitemap.xml
+- RSS feed: https://vcpeai-docs.aoneahsan.com/feed.xml

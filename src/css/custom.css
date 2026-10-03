@@ -1,0 +1,89 @@
+/**
+ * Video Controls Plus docs theme on Infima.
+ *
+ * Source of every value: the product website's stylesheet and the extension icon.
+ * - Neutrals (page, ink, muted, border) are the website's zinc scale, light and dark.
+ * - Brand indigo #6366f1 and the emerald plus #10b981 come from the icon; the deep indigo pair
+ *   #1e1b4b / #312e81 and the light indigo #818cf8 come from the website's share image.
+ * - Light-theme link colour is one step darker than the brand (#4f46e5) so text on white passes
+ *   4.5:1; the brand value itself is kept for surfaces and the mark.
+ * - Type is the website's system stack. No font is downloaded.
+ */
+
+:root {
+  --vcp-brand: #6366f1;
+  --vcp-accent: #10b981;
+  --vcp-deep-from: #1e1b4b;
+  --vcp-deep-to: #312e81;
+  --vcp-border: #e4e4e7;
+  --vcp-muted: #f4f4f5;
+  --vcp-muted-ink: #71717a;
+
+  --ifm-color-primary: #4f46e5;
+  --ifm-color-primary-dark: #3d33e2;
+  --ifm-color-primary-darker: #3429e0;
+  --ifm-color-primary-darkest: #241ac4;
+  --ifm-color-primary-light: #6159e8;
+  --ifm-color-primary-lighter: #6a63ea;
+  --ifm-color-primary-lightest: #8d87ef;
+
+  --ifm-background-color: #ffffff;
+  --ifm-background-surface-color: #ffffff;
+  --ifm-font-color-base: #09090b;
+  --ifm-toc-border-color: var(--vcp-border);
+  --ifm-hr-background-color: var(--vcp-border);
+
+  --ifm-font-family-base: -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu,
+    sans-serif;
+  --ifm-font-family-monospace: ui-monospace, SFMono-Regular, Menlo, Consolas, 'Liberation Mono',
+    monospace;
+  --ifm-line-height-base: 1.6;
+  --ifm-code-font-size: 92%;
+  --ifm-heading-font-weight: 650;
+  --ifm-global-radius: 0.5rem;
+
+  --docusaurus-highlighted-code-line-bg: rgba(99, 102, 241, 0.12);
+}
+
+[data-theme='dark'] {
+  --vcp-border: #27272a;
+  --vcp-muted: #18181b;
+  --vcp-muted-ink: #a1a1aa;
+
+  --ifm-color-primary: #818cf8;
+  --ifm-color-primary-dark: #6370f6;
+  --ifm-color-primary-darker: #5462f6;
+  --ifm-color-primary-darkest: #2738f3;
+  --ifm-color-primary-light: #9fa8fa;
+  --ifm-color-primary-lighter: #aeb6fa;
+  --ifm-color-primary-lightest: #dbdefd;
+
+  --ifm-background-color: #09090b;
+  --ifm-background-surface-color: #111113;
+  --ifm-font-color-base: #fafafa;
+
+  --docusaurus-highlighted-code-line-bg: rgba(129, 140, 248, 0.18);
+}
+
+.navbar__title {
+  font-weight: 700;
+  letter-spacing: -0.01em;
+}
+
+/* Wide product name next to the logo would push the menu button off a 320px screen. */
+@media (max-width: 420px) {
+  .navbar__title {
+    font-size: 0.95rem;
+  }
+}
+
+.footer--dark {
+  --ifm-footer-background-color: var(--vcp-deep-from);
+  --ifm-footer-link-hover-color: #c7d2fe;
+}
+
+/* One visible focus ring everywhere, in the mark's emerald. */
+:focus-visible {
+  outline: 3px solid var(--vcp-accent);
+  outline-offset: 2px;
+}
