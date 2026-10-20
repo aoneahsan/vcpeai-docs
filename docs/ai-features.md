@@ -1,52 +1,49 @@
 ---
 title: AI features and what they send
 sidebar_label: AI features
-description: Video summaries and LinkedIn writing help run through a daily allowance, your own OpenAI or Anthropic key, or a local model; here is what each one sends.
+description: Video summaries and LinkedIn writing help run on the Shared allowance, your own OpenAI or Anthropic key, or a local model. Speak runs on the Shared allowance only. Here is what each one sends.
 ---
 
-Video Controls Plus has two AI features: a summary of a YouTube video made from its captions, and writing help on LinkedIn. Both are off until you start them. With your own key or a local model they need no account, and only the shared allowance needs a [connected account](/docs/account-and-sync).
+Video Controls Plus has three AI features: a summary of a YouTube video made from its captions, writing help on LinkedIn, and Speak, which turns what you say into a note. Each runs only when you start it. Your own key or a local model needs no account, and the Shared allowance and Speak need a [connected account](/docs/account-and-sync).
 
-To start a summary, open the popup (the toolbar icon, or `Alt + V`, a [browser-level shortcut](/docs/keyboard-shortcuts/defaults)) on a YouTube watch page and click **Summarize this video**. The button is on YouTube watch pages only. Writing help starts on LinkedIn, and the [LinkedIn page](/docs/platforms/linkedin) covers it.
-
-Every playback control works without them.
+Open the popup on a YouTube watch page and press **Summarize this video**. Writing help starts on LinkedIn ([LinkedIn page](/docs/platforms/linkedin)). Every playback control works without AI.
 
 ## Three ways to run it
 
-Open Settings and go to the **AI Features** tab. On the **AI provider** card, pick one. You can switch at any time.
+Pick one on the **AI provider** card, in Settings → **AI Features**.
 
-| Way | Option on the card | What you need | Where your text goes |
-|---|---|---|---|
-| The shared allowance | **Shared allowance** | A connected account. No key. | To the Video Controls Plus server, which forwards the request to OpenAI on the team's key |
-| Your own key | **Your OpenAI key** or **Your Anthropic key** | An OpenAI or Anthropic API key. No account. | Directly from your browser to OpenAI or Anthropic, using your key |
-| A local model | **Local (Ollama)** | Ollama running on your machine. No account. | Nowhere. It stays on your device. |
+| Option on the card | What you need | Where your text goes |
+|---|---|---|
+| **Shared allowance** | A connected account | To the Video Controls Plus server, which sends it to Anthropic. On Pro or Team only, when that route is unavailable, it goes to OpenAI instead. |
+| **Your OpenAI key** or **Your Anthropic key** | Your API key, no account | Straight from your browser to that provider |
+| **Local (Ollama)** | Ollama on your machine | Nowhere. It stays on your device. |
 
-The shared allowance is 3 runs a day. The runs are counted on the server, against your account, so they are the same 3 in every browser you connect. The AI Features tab shows how many are left today, and when they are used up you add your own key or come back the next day.
+A summary, a LinkedIn writing-help answer or a Speak proposal uses 1 of your plan's daily runs on the Shared allowance, and the popup's AI card shows how many you've used today. Each plan's daily runs and its AI level (Spark, Pulse or Surge) are on [Plans](https://vcpeai.aoneahsan.com/plans).
 
-Your own key and a local model have no limit from the team.
+On Free, AI sometimes pauses. The card says "AI is resting until …", your runs are untouched, and everything else works. On Pro and Team the run goes to a second provider instead, and your own key and a local model have no limit from the team.
+
+## Speak
+
+Say it, then check what was written before anything is saved. Speak is in three places:
+
+- **The extension:** **Speak a note** on the widget's **Tools** tab, on any video. It pins the note at that moment of the video.
+- **The website:** Notes, Flashcards, Contact and Feature requests.
+- **The Android app:** the same four pages.
+
+A recording is up to 2 minutes. The first time, the extension opens a page, "Allow the microphone for Speak", to ask once. A recording where nothing was heard, or that failed to upload, uses no run. Speak works on the Shared allowance only.
 
 ## What is sent
 
-Only the text the feature needs is sent, and only when you start it.
-
-| Feature | Text that is sent |
+| Feature | What is sent |
 |---|---|
-| Video summary | The caption or transcript text of the current YouTube video |
+| Video summary | The caption or transcript text of the video |
 | LinkedIn writing help | The text you are drafting |
+| Speak | Your recording, to our server, which sends the audio for a transcript and then only the transcripts to the AI (see [Three ways to run it](#three-ways-to-run-it)) |
 
-No other page content is sent. The video itself is not sent.
-
-A summary is made from the captions, so a YouTube video with no captions or transcript gives the feature no text, and there is no summary.
+While you record, your browser's own speech recognition may also send your voice to your browser's maker. The video itself is never sent.
 
 ## What is kept
 
-The Video Controls Plus team does not store the content of your AI requests. With the shared allowance, the server keeps the count of your runs for the day.
+Your recording, its transcripts and the proposal are deleted within 24 hours, or at once when you press **Discard**, and if our file storage cannot be reached at that moment, the audio file is removed at the next hourly check. For a summary or writing help, the team does not store the text you send or the answer. For each Shared allowance run, the server keeps a usage record for 13 months, without your text, and a count of today's runs. A key you add stays in your browser and goes only to its provider.
 
-An API key you add is stored locally in your browser. It is not sent to the team. It is sent to the provider it belongs to, because that is how the provider accepts your request.
-
-Once your text reaches OpenAI or Anthropic, their own privacy policies apply to it. With a local model, the text you submit does not leave your device.
-
-## When AI is not available
-
-A video summary falls back to the built-in generator when AI is not available, and the summary is then made by the extension's own rules. No model is used.
-
-For everything else the extension records, see [Privacy and permissions](/docs/privacy-and-permissions).
+Without AI, a summary falls back to the extension's built-in generator, with no model. The microphone and everything else are on [Privacy and permissions](/docs/privacy-and-permissions).

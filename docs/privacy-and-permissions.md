@@ -30,7 +30,8 @@ Audio download is processed on your device. A screenshot stays on your device un
 | Settings | With a connected account and sync on | Your settings, synced to your account |
 | What you save to your account | With a connected account, each only when you save it | Notes, watch-later items, uploaded screenshots, extracted video details (the right-click extract action) and transcripts you save to the account, each with the video's title and address |
 | Error reports | While Third-Party Error Tracking is on | Crash reports sent to Sentry |
-| AI text | Only when you start an AI feature | The captions of the video, or the text you are drafting. See [AI features](/docs/ai-features). |
+| AI text | Only when you start an AI feature | The captions of the video, or the text you are drafting. A usage record for each Shared allowance run is kept for 13 months, without the text. See [AI features](/docs/ai-features). |
+| Speak recordings | Only when you record with Speak | Your voice, up to 2 minutes, with its transcripts and the proposed note. All three are deleted within 24 hours, or at once when you press **Discard** ([privacy policy](https://vcpeai.aoneahsan.com/privacy), 1.8). |
 
 In usage events a site is its hostname, such as youtube.com. Full addresses, page paths and page titles are not part of an event.
 
@@ -63,9 +64,10 @@ Third-Party Error Tracking is separate from Usage analytics, so turning one off 
 | Service | What it holds |
 |---|---|
 | Supabase | The database and the sign-in for your account |
-| FilesHub | Stored screenshots, and the email the team sends |
+| FilesHub | Stored screenshots, Speak recordings for up to 24 hours, and the email the team sends |
 | Sentry | Crash reports, while Third-Party Error Tracking is on |
 | ipapi.co | Receives your IP address for the location lookup, while Usage analytics is on |
+| Anthropic, OpenAI and Groq | The text of an AI run you start, and the audio or transcripts of a Speak recording. [AI features](/docs/ai-features) says which one gets what. |
 
 Four features contact a service of their own, each only while you use the feature: SponsorBlock (`sponsor.ajay.app`), Netflix subtitle translation or dual subtitles (`api.mymemory.translated.net`), Netflix ratings with your own key (`www.omdbapi.com`), and an AI summary that has to fetch a video's captions (`video.google.com/timedtext`).
 
@@ -75,9 +77,21 @@ The policy lists these as not collected: the videos you watch, video content or 
 
 Your data is not sold.
 
+## The microphone
+
+Speak is the only feature that uploads your voice, and the microphone is asked for the first time you use it.
+
+| Where | What you see |
+|---|---|
+| The extension | **Speak a note** shows "Allow the microphone once". Press **Open the microphone page**, and a tab called "Allow the microphone for Speak" opens. Press **Allow microphone**, then choose Allow in your browser's own box. You do this once. |
+| The Android app | The app asks for the microphone permission when you first press record in Speak. |
+| The Firefox add-on | Firefox also asks for its optional "Personal communications" data permission before anything is recorded or sent. |
+
+The microphone is on only while you record. If you block it, the page tells you where to switch it back on. Turn Speak off in Settings, on the **AI Features** tab, and the extension stops offering it.
+
 ## What each permission is for
 
-The extension asks for six permissions and for access to sites. It does not ask for the `identity` permission, because there is no sign-in inside the extension.
+The extension asks for six permissions and for access to sites, and on Chrome and Edge for a seventh, `offscreen`. It does not ask for the `identity` permission, because there is no sign-in inside the extension. The microphone is not a permission it asks for at install.
 
 | Permission | Why the extension asks for it |
 |---|---|
@@ -87,18 +101,20 @@ The extension asks for six permissions and for access to sites. It does not ask 
 | `alarms` | Timers for the sleep timer, sending queued sync and usage batches, checking a pending account connection, refreshing remote switches, lifting a per-site pause when it ends, and one daily check for an announcement notification. |
 | `notifications` | Shows speed changes, loop status and sleep timer alerts when the widget is hidden or the display mode is Notification Only |
 | `scripting` | Brings the controls to a video embedded inside another page, and only into a frame that contains a video |
+| `offscreen` (Chrome and Edge) | Lets Speak record in a hidden page of the extension and send the recording from there, so the recording keeps going while the upload runs. Firefox records in its background page and does not need it. |
 | Access to all sites | Finds and controls the video on any site you open |
 
 Access to all sites is the broad one. The extension needs it because a video can be on any site. While a site is [paused](/docs/getting-started/pause-per-site), the extension does nothing there.
 
 ## On Firefox
 
-Firefox asks for two optional data permissions, and each one gates what is sent.
+Firefox asks for three optional data permissions, and each one gates what is sent.
 
 | Firefox permission | What it gates |
 |---|---|
 | Technical and interaction data | Usage events are sent only if it is allowed. The Usage analytics switch asks for it. |
 | Website content | Page content (a screenshot you upload, a transcript you save to the account, captions for an AI run) is sent only after you allow it. The add-on asks the first time you use one of those. |
+| Personal communications | A Speak recording and its transcripts are sent only after you allow it. The add-on asks the first time you use Speak. |
 
 ## Other apps from the same team
 
