@@ -84,7 +84,7 @@ There is no ninth preset by default. Add a ninth preset to use `Ctrl + Alt + 9`.
 
 | Key | What it does | Needs an account |
 |---|---|---|
-| `Ctrl + Alt + O` | Add a bookmark at the current moment | Yes |
+| `Ctrl + Alt + O` | Add a bookmark at the current moment; connected saves sync to your account | No |
 
 ## Browser-level shortcuts
 

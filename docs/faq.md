@@ -34,7 +34,7 @@ Letter and digit keys need `Ctrl + Alt`; only `[`, `]`, `=`, `\`, `'`, `,`, `.` 
 
 ## Can I take notes while watching videos?
 
-Yes: notes are saved with the timestamp and can be exported as Markdown, text or JSON, from the widget's Tools tab, and they work without an account. `Ctrl + Alt + O` adds a bookmark at the current moment, and that key needs a connected account. See [Notes and bookmarks](/docs/user-guide/notes-and-bookmarks).
+Yes. Connect an account to save timestamped notes and export them as Markdown, text or JSON from the widget's Tools tab. `Ctrl + Alt + O` adds a bookmark at the current moment without an account. A new bookmark saved while connected also appears in your account's Bookmarks library. See [Notes and bookmarks](/docs/user-guide/notes-and-bookmarks).
 
 ## Which video platforms does it support?
 

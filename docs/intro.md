@@ -12,7 +12,7 @@ It ships for Chrome, Edge and Firefox.
 
 Speed comes first. Press `]` to go 0.1x faster and `[` to go 0.1x slower, and that works without an account.
 
-It does a lot more than change the speed: you can loop a part of a video with an A-B loop, boost the audio up to 400%, adjust brightness, contrast and saturation, save a frame as a screenshot, and keep notes with the timestamp. Without an account, you have speed, presets, frame step, Picture-in-Picture, share timestamp, theater mode, notes and the widget. The A-B loop, audio boost, filters, screenshots and auto-skip open after you [connect an account](/docs/account-and-sync).
+It does a lot more than change the speed: you can loop a part of a video with an A-B loop, boost the audio up to 400%, adjust brightness, contrast and saturation, save a frame as a screenshot, and keep notes with the timestamp. Without an account, you have speed, presets, frame step, Picture-in-Picture, share timestamp, browser-local bookmarks and the widget. The A-B loop, audio boost, filters, screenshots, notes and auto-skip open after you [connect an account](/docs/account-and-sync).
 
 ## What these docs cover
 

@@ -28,7 +28,7 @@ Audio download is processed on your device. A screenshot stays on your device un
 | Account | With a connected account | Email address, display name, profile photo and your Google account id |
 | This browser | With a connected account | A device name, the browser, the operating system, the extension version and when it was last seen |
 | Settings | With a connected account and sync on | Your settings, synced to your account |
-| What you save to your account | With a connected account, each only when you save it | Notes, watch-later items, uploaded screenshots, extracted video details (the right-click extract action) and transcripts you save to the account, each with the video's title and address |
+| What you save to your account | With a connected account, each only when you save it | Notes, bookmarks, watch-later items, uploaded screenshots, extracted video details (the right-click extract action) and transcripts you save to the account, each with the video's title and address. A bookmark also saves its timestamp. |
 | Error reports | While Third-Party Error Tracking is on | Crash reports sent to Sentry |
 | AI text | Only when you start an AI feature | The captions of the video, or the text you are drafting. A usage record for each Shared allowance run is kept for 13 months, without the text. See [AI features](/docs/ai-features). |
 | Speak recordings | Only when you record with Speak | Your voice, up to 2 minutes, with its transcripts and the proposed note. All three are deleted within 24 hours, or at once when you press **Discard** ([privacy policy](https://vcpeai.aoneahsan.com/privacy), 1.8). |

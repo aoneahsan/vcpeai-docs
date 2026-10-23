@@ -30,7 +30,7 @@ Settings opens in its own tab.
 
 ## What needs a connected account
 
-Speed, presets, frame step, Picture-in-Picture, share timestamp, theater mode, notes and the widget work without an account. These controls open after you connect one:
+Speed, presets, frame step, Picture-in-Picture, share timestamp, theater mode, browser-local bookmarks and the widget work without an account. These controls open after you connect one:
 
 | Control | Key to try after you connect |
 |---|---|
@@ -38,7 +38,7 @@ Speed, presets, frame step, Picture-in-Picture, share timestamp, theater mode, n
 | Audio boost | `Ctrl + Alt + U` |
 | Video filters | `Ctrl + Alt + F` |
 | Screenshots | `Ctrl + Alt + C` |
-| The bookmark key | `Ctrl + Alt + O` |
+| Timestamped notes | **Note** on the widget's Tools tab |
 | Auto-skip | Switched on in Settings |
 
 There is no sign-in inside the extension. Your account is on vcpeai.aoneahsan.com, and you press **Connect to your account** in the popup or on the Account & Sync tab in Settings to connect to it. It works on Chrome, Edge and Firefox, and [Account and sync](/docs/account-and-sync) has the steps, what connecting adds and what it records.

@@ -29,7 +29,7 @@ The full table is in [Default shortcuts](/docs/keyboard-shortcuts/defaults).
 
 ## Loop, audio boost, filters or screenshots are unavailable
 
-**Why:** these open after you connect the extension to your account. So do auto-skip and the bookmark key, `Ctrl + Alt + O`.
+**Why:** these open after you connect the extension to your account. So does auto-skip. The bookmark key, `Ctrl + Alt + O`, also works without an account and saves locally.
 
 1. Open Settings and go to the Account & Sync tab.
 2. Press **Connect to your account**, and confirm on the website.
