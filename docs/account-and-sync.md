@@ -28,12 +28,12 @@ The code lasts 10 minutes. If you closed the tab, press **Open the page again** 
 | Video filters | [Video filters](/docs/user-guide/video-filters) |
 | Screenshots | [Screenshots](/docs/user-guide/screenshots) |
 | Auto-skip | [Auto-skip](/docs/user-guide/auto-skip) |
-| The bookmark key, [`Ctrl + Alt + O`](/docs/keyboard-shortcuts/defaults) | [Notes and bookmarks](/docs/user-guide/notes-and-bookmarks) |
+| Timestamped account notes and connected bookmark saves | [Notes and bookmarks](/docs/user-guide/notes-and-bookmarks) |
 | Cloud sync | This page |
 | The New Features, YouTube, Netflix and LinkedIn tabs in Settings | [YouTube](/docs/platforms/youtube), [Netflix](/docs/platforms/netflix), [LinkedIn](/docs/platforms/linkedin) |
 | The shared AI allowance | [AI features](/docs/ai-features) |
 
-Without an account, you have speed, presets, frame step, Picture-in-Picture, share timestamp, theater mode, notes and the widget.
+Without an account, you have speed, presets, frame step, Picture-in-Picture, share timestamp, theater mode, bookmarks saved in this browser and the widget.
 
 The YouTube and LinkedIn extras that are on by default run without an account, and only the Settings tab where you switch them asks you to connect.
 
@@ -46,7 +46,7 @@ Connected, the extension stores your account data and your settings, and while t
 1. Connect the extension to your account.
 2. Open the Account & Sync tab in Settings and turn on **Enable Cloud Sync**.
 
-Your settings are uploaded when you turn it on. Your speeds, key bindings and site settings are synced. The tab shows the last sync time.
+Your settings are uploaded when you turn it on. Your speeds, key bindings and site settings are synced. The tab shows the last sync time. Bookmarks saved while connected sync to your account separately from this settings switch; bookmarks made while signed out remain in that browser.
 
 | Button | What it does |
 |---|---|
