@@ -26,7 +26,7 @@ The Speed Control section in Settings holds the speed keys and the widget keys.
 
 | Key | What it does | Needs an account |
 |---|---|---|
-| `Ctrl + Alt + P` | Picture-in-Picture on or off | No |
+| `Ctrl + Alt + P` | Picture-in-Picture on or off | Yes |
 | `Ctrl + Alt + S` | Skip intro, on Netflix and Prime Video | Yes |
 
 ## Preset speeds
