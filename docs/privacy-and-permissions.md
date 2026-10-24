@@ -8,7 +8,7 @@ Video Controls Plus keeps your settings in your browser. While the **Usage analy
 
 Turn the switch off and none of the usage recording happens.
 
-It does not record the videos you watch, their titles or their addresses. A connected account keeps a video's title and address only with something you save to it: a note, a watch-later item, an uploaded screenshot, extracted video details or a transcript.
+It does not record the videos you watch, their titles or their addresses, unless you turn on Watch History, which is off by default. Saved items are the other exception. A connected account keeps a video's title and address only with something you save to it or start from it: a note, a bookmark or diary entry, a watch-later item, an uploaded screenshot, extracted video details, a transcript, a flashcard saved from a video, a learning-path video, a collection item or a watch party.
 
 This page is a plain reading of the [privacy policy](https://vcpeai.aoneahsan.com/privacy). The policy is the legal text. Where the two differ, the policy is the one that counts.
 
@@ -17,6 +17,8 @@ This page is a plain reading of the [privacy policy](https://vcpeai.aoneahsan.co
 Your settings, your keyboard shortcuts, the speed remembered for each video, your playback position, your filter presets and your audio settings are stored in your browser. They go to your account only when you connect the extension and turn sync on.
 
 Audio download is processed on your device. A screenshot stays on your device unless you choose a cloud action for it, which uploads the image.
+
+Watch limits count minutes on this device only, and their PIN is hashed and never synced. The Study timer's counts and the chapters made from a video's captions stay in this browser. GIFs, clips, time-lapses and contact sheets are made on your device and saved as downloads.
 
 ## What is recorded
 
@@ -28,7 +30,9 @@ Audio download is processed on your device. A screenshot stays on your device un
 | Account | With a connected account | Email address, display name, profile photo and your Google account id |
 | This browser | With a connected account | A device name, the browser, the operating system, the extension version and when it was last seen |
 | Settings | With a connected account and sync on | Your settings, synced to your account |
-| What you save to your account | With a connected account, each only when you save it | Notes, bookmarks, watch-later items, uploaded screenshots, extracted video details (the right-click extract action) and transcripts you save to the account, each with the video's title and address. A bookmark also saves its timestamp. |
+| What you save to your account | With a connected account, each only when you save it | Notes, bookmarks, watch-later items, uploaded screenshots, extracted video details (the right-click extract action) and transcripts you save to the account, each with the video's title and address. A bookmark also saves its timestamp, and a diary entry is a bookmark that also holds a mood and your words. Flashcards saved from a video (a quiz moment, or a word with the caption line on screen as its example), learning-path videos and collection items are kept the same way. |
+| Watch History | Only after you turn on **Watch History** in Settings, on the **Privacy & Data** tab, and play a video while connected. It is off by default for each connected account on each browser. | For each viewing session of 15 seconds or more: the video's title and address, the watch time, the last position, the parts of the video you played, the date, the playback speed and the features you used. Turning the switch off stops new sessions from being recorded. What is already there stays in your account until you delete it on the website or delete your account. |
+| Watch parties | When you start or join a watch party | The video's address and title, the party code, and who joined and when. While the party runs, play, pause, a jump to a new time and the speed are passed to its members through Supabase Realtime and are not stored. |
 | Error reports | While Third-Party Error Tracking is on | Crash reports sent to Sentry |
 | AI text | Only when you start an AI feature | The captions of the video, or the text you are drafting. A usage record for each Shared allowance run is kept for 13 months, without the text. See [AI features](/docs/ai-features). |
 | Speak recordings | Only when you record with Speak | Your voice, up to 2 minutes, with its transcripts and the proposed note. All three are deleted within 24 hours, or at once when you press **Discard** ([privacy policy](https://vcpeai.aoneahsan.com/privacy), 1.8). |
@@ -63,17 +67,17 @@ Third-Party Error Tracking is separate from Usage analytics, so turning one off 
 
 | Service | What it holds |
 |---|---|
-| Supabase | The database and the sign-in for your account |
+| Supabase | The database and the sign-in for your account, and the live sync of a watch party |
 | FilesHub | Stored screenshots, Speak recordings for up to 24 hours, and the email the team sends |
 | Sentry | Crash reports, while Third-Party Error Tracking is on |
 | ipapi.co | Receives your IP address for the location lookup, while Usage analytics is on |
 | Anthropic, OpenAI and Groq | The text of an AI run you start, and the audio or transcripts of a Speak recording. [AI features](/docs/ai-features) says which one gets what. |
 
-Four features contact a service of their own, each only while you use the feature: SponsorBlock (`sponsor.ajay.app`), Netflix subtitle translation or dual subtitles (`api.mymemory.translated.net`), Netflix ratings with your own key (`www.omdbapi.com`), and an AI summary that has to fetch a video's captions (`video.google.com/timedtext`).
+Five features contact a service of their own, each only while you use the feature: SponsorBlock (`sponsor.ajay.app`), Netflix subtitle translation or dual subtitles (`api.mymemory.translated.net`), Netflix ratings with your own key (`www.omdbapi.com`), an AI summary that has to fetch a video's captions (`video.google.com/timedtext`), and **Look up** in the widget's **Save a word** (`en.wiktionary.org`), which receives only the one word you typed. The policy's section 5.9 lists one more service, for a feature these docs do not cover yet.
 
 ## What is not collected
 
-The policy lists these as not collected: the videos you watch, video content or media files apart from a screenshot you choose to upload, your browsing on pages where the extension does nothing, passwords, payment information, and the content of pages you visit apart from text you send to an AI feature yourself and what the four features above send to their own services.
+The policy lists these as not collected: the videos you watch (unless you turn on Watch History), video content or media files apart from a screenshot you choose to upload, your browsing on pages where the extension does nothing, passwords, payment information, and the content of pages you visit apart from text you send to an AI feature yourself and what the five features above send to their own services.
 
 Your data is not sold.
 
@@ -91,7 +95,7 @@ The microphone is on only while you record. If you block it, the page tells you 
 
 ## What each permission is for
 
-The extension asks for six permissions and for access to sites, and on Chrome and Edge for a seventh, `offscreen`. It does not ask for the `identity` permission, because there is no sign-in inside the extension. The microphone is not a permission it asks for at install.
+The extension asks for seven permissions and for access to sites, and on Chrome and Edge for an eighth, `offscreen`. It does not ask for the `identity` permission, because there is no sign-in inside the extension. The microphone is not a permission it asks for at install.
 
 | Permission | Why the extension asks for it |
 |---|---|
@@ -100,6 +104,7 @@ The extension asks for six permissions and for access to sites, and on Chrome an
 | `contextMenus` | Adds the right-click menu items |
 | `alarms` | Timers for the sleep timer, sending queued sync and usage batches, checking a pending account connection, refreshing remote switches, lifting a per-site pause when it ends, and one daily check for an announcement notification. |
 | `notifications` | Shows speed changes, loop status and sleep timer alerts when the widget is hidden or the display mode is Notification Only |
+| `clipboardWrite` | Copies a link to your clipboard from the right-click items "Copy Page URL" and "Copy URL with Timestamp"; the clipboard is never read |
 | `scripting` | Brings the controls to a video embedded inside another page, and only into a frame that contains a video |
 | `offscreen` (Chrome and Edge) | Lets Speak record in a hidden page of the extension and send the recording from there, so the recording keeps going while the upload runs. Firefox records in its background page and does not need it. |
 | Access to all sites | Finds and controls the video on any site you open |
@@ -113,7 +118,7 @@ Firefox asks for three optional data permissions, and each one gates what is sen
 | Firefox permission | What it gates |
 |---|---|
 | Technical and interaction data | Usage events are sent only if it is allowed. The Usage analytics switch asks for it. |
-| Website content | Page content (a screenshot you upload, a transcript you save to the account, captions for an AI run) is sent only after you allow it. The add-on asks the first time you use one of those. |
+| Website content | Page content (a screenshot you upload, a transcript you save to the account, captions for an AI run, a word you save with its caption line) is sent only after you allow it. The add-on asks the first time you use one of those. |
 | Personal communications | A Speak recording and its transcripts are sent only after you allow it. The add-on asks the first time you use Speak. |
 
 ## Other apps from the same team

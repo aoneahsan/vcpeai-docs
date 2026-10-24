@@ -1,7 +1,7 @@
 ---
 title: Default keyboard shortcuts
 sidebar_label: Default shortcuts
-description: "Every default key in Video Controls Plus: letter and digit keys need Ctrl + Alt, and only the bracket, punctuation and Esc keys work alone."
+description: "Every default key in Video Controls Plus: letter and digit keys need Ctrl + Alt, only the bracket, punctuation and Esc keys work alone, and the optional shortcuts start with no key."
 ---
 
 Letter and digit keys need `Ctrl + Alt`; only `[`, `]`, `=`, `\`, `'`, `,`, `.` and `Esc` work alone. That keeps the extension's keys away from the keys a site's own player uses.
@@ -85,6 +85,30 @@ There is no ninth preset by default. Add a ninth preset to use `Ctrl + Alt + 9`.
 | Key | What it does | Needs an account |
 |---|---|---|
 | `Ctrl + Alt + O` | Add a bookmark at the current moment; connected saves sync to your account | No |
+
+## Optional shortcuts with no key
+
+These start with no key. In Settings, open the Keyboard Shortcuts tab, find the group, press **Set**, then press the keys you want. If a key already belongs to another shortcut, Settings tells you which one and takes you to it.
+
+| Group in Settings | Shortcut | Needs an account |
+|---|---|---|
+| Comfort | Toggle eye comfort | No |
+| Comfort | Toggle colour vision | No |
+| Comfort | Toggle caption style | No |
+| Comfort | Toggle reading guide | No |
+| Study | Start or pause the study timer | No |
+| Study | Show or hide the transcript | No |
+| Effects | Turn effects on or off | Yes |
+| Effects | Blur a region of the video | Yes |
+| Audio tools | Turn audio tools on or off | Yes |
+| Audio tools | Swap left and right | Yes |
+| Capture | Record or stop a clip | Yes |
+| Capture | Make a GIF | Yes |
+| Capture | Annotate a screenshot | Yes |
+| Automation | Block autoplay on this site | No |
+| Automation | Start or stop the speed ramp | No |
+
+Each one is explained on its own page: [Comfort and accessibility](/docs/user-guide/comfort-and-accessibility), [Study tools](/docs/user-guide/study-tools), [Visual effects and zoom](/docs/user-guide/visual-effects), [Audio tools](/docs/user-guide/audio-tools), [Capture and export](/docs/user-guide/capture-and-export) and [Playback automation](/docs/user-guide/playback-automation).
 
 ## Browser-level shortcuts
 
