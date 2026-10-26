@@ -12,7 +12,7 @@ const sidebars: SidebarsConfig = {
       type: 'category',
       label: 'Getting started',
       collapsed: false,
-      items: ['getting-started/install', 'getting-started/first-run', 'getting-started/pause-per-site'],
+      items: ['getting-started/install', 'getting-started/first-run', 'getting-started/pause-per-site', 'getting-started/website-tours'],
     },
     {
       type: 'category',

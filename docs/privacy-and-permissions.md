@@ -58,7 +58,7 @@ They are on the same tab.
 | Switch | Default | What it controls |
 |---|---|---|
 | Third-Party Error Tracking | On | Crash reports to Sentry |
-| Marketing Communications | Off | One thing: an occasional browser notification about new features or another product from the team. No marketing email is sent. |
+| Marketing Communications | Off | One thing: an occasional browser notification about new features or another product from the team. Email is separate: product news reaches account holders, each email with a one-click unsubscribe link. |
 | Settings Sync | On | Storing your settings with your account |
 
 Third-Party Error Tracking is separate from Usage analytics, so turning one off does not turn off the other. Under **Your Data** on the same tab you can export or delete your data, and [Account and sync](/docs/account-and-sync) has the steps.
