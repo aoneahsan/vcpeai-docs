@@ -1,7 +1,7 @@
 ---
 title: Account, sync, export and delete
 sidebar_label: Account and sync
-description: How to connect Video Controls Plus to your account on the website, what connecting adds, how sync works, and how to export or delete your data.
+description: How to connect Video Controls Plus to your account on the website, what connecting adds, how sync works, how to buy Pro, and how to export or delete your data.
 ---
 
 There is no sign-in inside the extension. You create your account on [vcpeai.aoneahsan.com](https://vcpeai.aoneahsan.com), where you sign in with Google, and then you connect the extension to it. Connecting works the same way on Chrome, Edge and Firefox.
@@ -75,5 +75,20 @@ Open the **Data Management** tab in Settings.
 
 - **Export Settings** downloads your settings as a JSON file. You choose whether to include video memory and filter presets.
 - **Import Settings** restores from a file you exported: **Replace All** replaces your current settings, and **Merge** keeps your current values where the file has none.
+
+## Plans and payment
+
+Every feature works on Free. Pro raises your daily AI runs and your AI level, for one person, and Team does the same
+for each member. The prices are on [Plans](https://vcpeai.aoneahsan.com/plans).
+
+To get Pro, sign in on the website, open Plans and press **Upgrade to Pro**, monthly or yearly. You pay on Polar's
+checkout page, and Pro starts on your account as soon as Polar confirms the payment.
+
+Polar emails you a link to its customer portal, where you can cancel, change your card and download invoices. Cancel
+any time. Your plan runs to the end of the period you paid for.
+
+Team is set up with us: press **Choose Team** on Plans, which opens the [contact page](https://vcpeai.aoneahsan.com/contact).
+
+Plans are bought on the website only, never inside the extension or the Android app.
 
 For anything else about your account, use the [contact page](https://vcpeai.aoneahsan.com/contact).
