@@ -1,0 +1,26 @@
+{
+  "version.label": {
+    "message": "Siguiente",
+    "description": "The label for version current"
+  },
+  "sidebar.docsSidebar.category.Getting started": {
+    "message": "Comienzo",
+    "description": "The label for category 'Getting started' in sidebar 'docsSidebar'"
+  },
+  "sidebar.docsSidebar.category.User guide": {
+    "message": "Guía de usuario",
+    "description": "The label for category 'User guide' in sidebar 'docsSidebar'"
+  },
+  "sidebar.docsSidebar.category.Keyboard shortcuts": {
+    "message": "Atajos de teclado",
+    "description": "The label for category 'Keyboard shortcuts' in sidebar 'docsSidebar'"
+  },
+  "sidebar.docsSidebar.category.Platforms": {
+    "message": "Plataformas",
+    "description": "The label for category 'Platforms' in sidebar 'docsSidebar'"
+  },
+  "sidebar.docsSidebar.link.Changelog": {
+    "message": "Cambio",
+    "description": "The label for link 'Changelog' in sidebar 'docsSidebar', linking to '/changelog'"
+  }
+}

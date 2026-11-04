@@ -9,6 +9,7 @@
     "build": "docusaurus build",
     "serve": "docusaurus serve --port 5912",
     "clear": "docusaurus clear",
+    "write-translations": "docusaurus write-translations",
     "typecheck": "tsc"
   },
   "dependencies": {

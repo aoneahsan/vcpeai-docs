@@ -1,0 +1,22 @@
+{
+  "title": {
+    "message": "Video Controls Plus",
+    "description": "The title in the navbar"
+  },
+  "logo.alt": {
+    "message": "Logo Video Controls Plus",
+    "description": "The alt text of navbar logo"
+  },
+  "item.label.Docs": {
+    "message": "Docs",
+    "description": "Navbar item with label Docs"
+  },
+  "item.label.Changelog": {
+    "message": "Cambio",
+    "description": "Navbar item with label Changelog"
+  },
+  "item.label.Product website": {
+    "message": "Sitio web del producto",
+    "description": "Navbar item with label Product website"
+  }
+}

@@ -9,6 +9,14 @@ const PRODUCT_URL = 'https://vcpeai.aoneahsan.com';
 const REPO_URL = 'https://github.com/aoneahsan/vcpeai-docs';
 const TAGLINE =
   'Control your online video player the way you want it, and get special features on each website.';
+const TRANSLATION_LOCALES = ['en', 'es', 'fr', 'de', 'pt-BR', 'ja', 'zh-CN', 'hi', 'ar', 'ru', 'id', 'it', 'ko', 'tr', 'vi', 'pl'];
+// Keep unfinished translations out of the public build. Preview them locally with
+// VCPEAI_TRANSLATION_PREVIEW_LOCALE=es, then promote reviewed locales here one at a time.
+const PUBLISHED_LOCALES = ['en'];
+const previewLocale = process.env.VCPEAI_TRANSLATION_PREVIEW_LOCALE;
+const BUILD_LOCALES = previewLocale && TRANSLATION_LOCALES.includes(previewLocale) && previewLocale !== 'en'
+  ? ['en', previewLocale]
+  : PUBLISHED_LOCALES;
 
 /** Shape published to `/sitemap` and `/feed` through `usePluginData('vcpeai-discovery')`. */
 type DiscoveryEntry = { title: string; description: string; permalink: string; tags: string[] };
@@ -65,6 +73,7 @@ async function waitForBlogRss(file: string, timeoutMs = 60_000): Promise<void> {
  * page keeps a list that can drift, and publishes the changelog RSS at the root `/feed.xml`.
  */
 function discoveryPlugin(): Plugin {
+  let hasListedBlogPosts = false;
   return {
     name: 'vcpeai-discovery',
     async allContentLoaded({ allContent, actions }) {
@@ -113,10 +122,14 @@ function discoveryPlugin(): Plugin {
           date: new Date(metadata.date).toISOString(),
         }))
         .sort((a, b) => b.date.localeCompare(a.date));
+      hasListedBlogPosts = updates.length > 0;
 
       actions.setGlobalData({ docGroups, updates });
     },
     async postBuild({ outDir }) {
+      // An unlisted translation preview has no public blog entries and Docusaurus
+      // consequently emits no RSS file. There is nothing to copy in that case.
+      if (!hasListedBlogPosts) return;
       // Root `/feed.xml` is the changelog RSS. Its XSL and CSS travel with it so the relative
       // `rss.xsl` / `rss.css` references still resolve from the site root.
       const source = path.join(outDir, 'changelog');
@@ -177,7 +190,10 @@ const config: Config = {
 
   i18n: {
     defaultLocale: 'en',
-    locales: ['en'],
+    locales: BUILD_LOCALES,
+    localeConfigs: {
+      ar: { direction: 'rtl' },
+    },
   },
 
   headTags: [
@@ -255,6 +271,7 @@ const config: Config = {
         src: 'img/logo.svg',
       },
       items: [
+        { type: 'localeDropdown', position: 'right' },
         {
           type: 'docSidebar',
           sidebarId: 'docsSidebar',

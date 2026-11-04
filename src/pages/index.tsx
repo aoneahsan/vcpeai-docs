@@ -2,12 +2,13 @@ import React from 'react';
 import Layout from '@theme/Layout';
 import Link from '@docusaurus/Link';
 import useBaseUrl from '@docusaurus/useBaseUrl';
+import Translate, { translate } from '@docusaurus/Translate';
 import styles from './index.module.css';
 
 const INSTALL_URL = 'https://vcpeai.aoneahsan.com/install';
 const DOCS_HOME = '/docs/intro';
 const LEDE =
-  'Control your online video player the way you want it, and get special features on each website.';
+  translate({ id: 'home.lede', message: 'Control your online video player the way you want it, and get special features on each website.' });
 
 type IconName =
   | 'play'
@@ -26,62 +27,62 @@ type Section = { title: string; text: string; to: string; icon: IconName };
 /** One card per sidebar category: what the reader finds there, and the first page of it. */
 const SECTIONS: Section[] = [
   {
-    title: 'Getting started',
-    text: 'Install it, press your first key, and pause it on one site.',
+    title: translate({ id: 'home.gettingStarted.title', message: 'Getting started' }),
+    text: translate({ id: 'home.gettingStarted.text', message: 'Install it, press your first key, and pause it on one site.' }),
     to: '/docs/getting-started/install',
     icon: 'play',
   },
   {
-    title: 'User guide',
-    text: 'Speed, A-B loop, audio boost, filters, screenshots and notes, one page each.',
+    title: translate({ id: 'home.userGuide.title', message: 'User guide' }),
+    text: translate({ id: 'home.userGuide.text', message: 'Speed, A-B loop, audio boost, filters, screenshots and notes, one page each.' }),
     to: '/docs/user-guide/speed-control',
     icon: 'sliders',
   },
   {
-    title: 'Keyboard shortcuts',
-    text: 'Every default key, and how to give a shortcut another key.',
+    title: translate({ id: 'home.keyboard.title', message: 'Keyboard shortcuts' }),
+    text: translate({ id: 'home.keyboard.text', message: 'Every default key, and how to give a shortcut another key.' }),
     to: '/docs/keyboard-shortcuts/defaults',
     icon: 'keyboard',
   },
   {
-    title: 'Platforms',
-    text: 'The extras on YouTube, Netflix and LinkedIn, and how other sites work.',
+    title: translate({ id: 'home.platforms.title', message: 'Platforms' }),
+    text: translate({ id: 'home.platforms.text', message: 'The extras on YouTube, Netflix and LinkedIn, and how other sites work.' }),
     to: '/docs/platforms/youtube',
     icon: 'screens',
   },
   {
-    title: 'AI features',
-    text: 'Video summaries and LinkedIn writing help, and what each one sends.',
+    title: translate({ id: 'home.ai.title', message: 'AI features' }),
+    text: translate({ id: 'home.ai.text', message: 'Video summaries and LinkedIn writing help, and what each one sends.' }),
     to: '/docs/ai-features',
     icon: 'spark',
   },
   {
-    title: 'Account and sync',
-    text: 'How to connect your account, how sync works, how to delete your data.',
+    title: translate({ id: 'home.account.title', message: 'Account and sync' }),
+    text: translate({ id: 'home.account.text', message: 'How to connect your account, how sync works, how to delete your data.' }),
     to: '/docs/account-and-sync',
     icon: 'sync',
   },
   {
-    title: 'Privacy and permissions',
-    text: 'What is recorded, and what each permission is for.',
+    title: translate({ id: 'home.privacy.title', message: 'Privacy and permissions' }),
+    text: translate({ id: 'home.privacy.text', message: 'What is recorded, and what each permission is for.' }),
     to: '/docs/privacy-and-permissions',
     icon: 'shield',
   },
   {
-    title: 'Troubleshooting',
-    text: 'What you see, why it happens, and the step that fixes it.',
+    title: translate({ id: 'home.troubleshooting.title', message: 'Troubleshooting' }),
+    text: translate({ id: 'home.troubleshooting.text', message: 'What you see, why it happens, and the step that fixes it.' }),
     to: '/docs/troubleshooting',
     icon: 'wrench',
   },
   {
-    title: 'FAQ',
-    text: 'Short answers to the questions people ask first.',
+    title: translate({ id: 'home.faq.title', message: 'FAQ' }),
+    text: translate({ id: 'home.faq.text', message: 'Short answers to the questions people ask first.' }),
     to: '/docs/faq',
     icon: 'question',
   },
   {
-    title: 'Changelog',
-    text: 'What changed in the last four releases.',
+    title: translate({ id: 'home.changelog.title', message: 'Changelog' }),
+    text: translate({ id: 'home.changelog.text', message: 'What changed in the last four releases.' }),
     to: '/changelog',
     icon: 'list',
   },
@@ -155,17 +156,17 @@ export default function Home(): React.JSX.Element {
             <p className={styles.lede}>{LEDE}</p>
             <div className={styles.actions}>
               <Link className={`${styles.button} ${styles.primary}`} to={DOCS_HOME}>
-                Read the docs
+                <Translate id="home.readDocs">Read the docs</Translate>
               </Link>
               <Link className={`${styles.button} ${styles.secondary}`} href={INSTALL_URL}>
-                Get the extension
+                <Translate id="home.getExtension">Get the extension</Translate>
               </Link>
             </div>
           </div>
           <Scrubber />
         </header>
 
-        <nav className={styles.sections} aria-label="Documentation sections">
+        <nav className={styles.sections} aria-label={translate({ id: 'home.sectionsAria', message: 'Documentation sections' })}>
           <ul className={styles.grid}>
             {SECTIONS.map((section) => (
               <li key={section.title} className={styles.cell}>

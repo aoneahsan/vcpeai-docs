@@ -121,7 +121,7 @@
 /* External-link glyph Docusaurus appends: keep it aligned inside the pill. */
 .button svg {
   flex: none;
-  margin-left: 0.4rem;
+  margin-inline-start: 0.4rem;
 }
 
 /* ---------- The scrubber ---------- */
@@ -321,6 +321,14 @@
 .card:hover .arrow {
   color: var(--ifm-color-primary);
   transform: translateX(3px);
+}
+
+:global(html[dir='rtl']) .arrow {
+  transform: scaleX(-1);
+}
+
+:global(html[dir='rtl']) .card:hover .arrow {
+  transform: scaleX(-1) translateX(3px);
 }
 
 @keyframes rise {

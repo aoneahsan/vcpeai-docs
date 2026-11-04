@@ -1,0 +1,14 @@
+{
+  "title": {
+    "message": "Journal des changements Video Controls Plus",
+    "description": "The title for the blog used in SEO"
+  },
+  "description": {
+    "message": "Notes de sortie pour Video Controls Plus.",
+    "description": "The description for the blog used in SEO"
+  },
+  "sidebar.title": {
+    "message": "Entrées récentes",
+    "description": "The label for the left sidebar"
+  }
+}

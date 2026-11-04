@@ -3,6 +3,8 @@ import Layout from '@theme/Layout';
 import Link from '@docusaurus/Link';
 import { useHistory, useLocation } from '@docusaurus/router';
 import { usePluginData } from '@docusaurus/useGlobalData';
+import Translate, { translate } from '@docusaurus/Translate';
+import useDocusaurusContext from '@docusaurus/useDocusaurusContext';
 import styles from './sitemap.module.css';
 
 type Entry = { title: string; description: string; permalink: string; tags: string[] };
@@ -12,10 +14,10 @@ type Discovery = { docGroups: Group[]; updates: (Entry & { date: string })[] };
 const PRODUCT_URL = 'https://vcpeai.aoneahsan.com';
 
 /** True when every word of the query appears in the entry's title, description or tags. */
-function matches(entry: Entry, query: string): boolean {
-  const haystack = [entry.title, entry.description, ...entry.tags].join(' ').toLowerCase();
+function matches(entry: Entry, query: string, locale: string): boolean {
+  const haystack = [entry.title, entry.description, ...entry.tags].join(' ').toLocaleLowerCase(locale);
   return query
-    .toLowerCase()
+    .toLocaleLowerCase(locale)
     .split(/\s+/)
     .filter(Boolean)
     .every((word) => haystack.includes(word));
@@ -42,16 +44,17 @@ function EntryCard({ entry }: { entry: Entry }): React.JSX.Element {
 /** Human sitemap: every doc and changelog entry, grouped by the docs sidebar, filterable through `?q=`. */
 export default function Sitemap(): React.JSX.Element {
   const { docGroups, updates } = usePluginData('vcpeai-discovery') as Discovery;
+  const { i18n } = useDocusaurusContext();
   const location = useLocation();
   const history = useHistory();
   const query = new URLSearchParams(location.search).get('q') ?? '';
 
   const groups = useMemo(() => {
-    const all: Group[] = [...docGroups, { label: 'Changelog', permalink: '/changelog', entries: updates }];
+    const all: Group[] = [...docGroups, { label: translate({ id: 'sitemap.changelog', message: 'Changelog' }), permalink: '/changelog', entries: updates }];
     return all
-      .map((group) => ({ ...group, entries: group.entries.filter((e) => matches(e, query)) }))
+      .map((group) => ({ ...group, entries: group.entries.filter((e) => matches(e, query, i18n.currentLocale)) }))
       .filter((group) => group.entries.length > 0);
-  }, [docGroups, updates, query]);
+  }, [docGroups, updates, query, i18n.currentLocale]);
 
   const onSearch = (value: string): void => {
     const params = new URLSearchParams(location.search);
@@ -62,15 +65,15 @@ export default function Sitemap(): React.JSX.Element {
   };
 
   return (
-    <Layout title="Sitemap" description="Every Video Controls Plus documentation page and changelog entry.">
+    <Layout title={translate({ id: 'sitemap.title', message: 'Sitemap' })} description={translate({ id: 'sitemap.description', message: 'Every Video Controls Plus documentation page and changelog entry.' })}>
       <main className="container margin-vert--xl">
-        <h1>Sitemap</h1>
+        <h1><Translate id="sitemap.heading">Sitemap</Translate></h1>
         <ul>
           <li>
             <Link to="pathname:///sitemap.xml">sitemap.xml</Link>
           </li>
           <li>
-            <Link to="/feed">Feed</Link>
+            <Link to="/feed"><Translate id="sitemap.feed">Feed</Translate></Link>
           </li>
           <li>
             <Link href={PRODUCT_URL}>Video Controls Plus</Link>
@@ -79,12 +82,12 @@ export default function Sitemap(): React.JSX.Element {
         <input
           type="search"
           className={styles.search}
-          aria-label="Filter pages"
-          placeholder="Filter pages"
+          aria-label={translate({ id: 'sitemap.filterAria', message: 'Filter pages' })}
+          placeholder={translate({ id: 'sitemap.filterPlaceholder', message: 'Filter pages' })}
           value={query}
           onChange={(event) => onSearch(event.target.value)}
         />
-        {groups.length === 0 && <p>No pages match “{query}”.</p>}
+        {groups.length === 0 && <p>{translate({ id: 'sitemap.noResults', message: 'No pages match “{query}”.' }, { query })}</p>}
         {groups.map((group) => (
           <section key={group.label}>
             <h2>{group.permalink ? <Link to={group.permalink}>{group.label}</Link> : group.label}</h2>

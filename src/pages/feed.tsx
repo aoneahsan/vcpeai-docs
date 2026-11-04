@@ -2,19 +2,21 @@ import React from 'react';
 import Layout from '@theme/Layout';
 import Link from '@docusaurus/Link';
 import { usePluginData } from '@docusaurus/useGlobalData';
+import useDocusaurusContext from '@docusaurus/useDocusaurusContext';
+import Translate, { translate } from '@docusaurus/Translate';
 
 type Update = { title: string; description: string; permalink: string; tags: string[]; date: string };
-
-const dateFormat = new Intl.DateTimeFormat('en-US', { dateStyle: 'long', timeZone: 'UTC' });
 
 /** Human feed: every changelog entry, newest first, with the machine-readable feeds linked above it. */
 export default function Feed(): React.JSX.Element {
   const { updates } = usePluginData('vcpeai-discovery') as { updates: Update[] };
+  const { i18n } = useDocusaurusContext();
+  const dateFormat = new Intl.DateTimeFormat(i18n.currentLocale, { dateStyle: 'long', timeZone: 'UTC' });
 
   return (
-    <Layout title="Feed" description="Video Controls Plus changelog entries, newest first, with RSS and Atom feeds.">
+    <Layout title={translate({ id: 'feed.title', message: 'Feed' })} description={translate({ id: 'feed.description', message: 'Video Controls Plus changelog entries, newest first, with RSS and Atom feeds.' })}>
       <main className="container container--fluid margin-vert--xl" style={{ maxWidth: '48rem' }}>
-        <h1>Feed</h1>
+        <h1><Translate id="feed.heading">Feed</Translate></h1>
         <ul>
           <li>
             <Link to="pathname:///feed.xml">feed.xml</Link> (RSS)
