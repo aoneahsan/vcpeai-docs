@@ -10,7 +10,8 @@
     "serve": "docusaurus serve --port 5912",
     "clear": "docusaurus clear",
     "write-translations": "docusaurus write-translations",
-    "typecheck": "tsc"
+    "typecheck": "tsc",
+    "deploy": "yarn build && npx -y wrangler@4 pages deploy build --project-name vcpeai-docs --branch main --commit-dirty=true"
   },
   "dependencies": {
     "@docusaurus/core": "3.10.2",
