@@ -64,8 +64,3 @@ render check needs it. Use Yarn only; never npm or pnpm.
 - The build reads page dates from Git (`showLastUpdateTime`, sitemap `lastmod`) and fails in a
   repository with no commits.
 - Do not read or edit `node_modules/`, `build/` or `.docusaurus/`.
-
-<!-- cloudflare-pages-v1 -->
-## Hosting: Cloudflare Pages
-
-This site deploys on Cloudflare Pages, project `vcpeai-docs`, domain `vcpeai-docs.aoneahsan.com` (rule: docs sites deploy on Cloudflare Pages, owner, 2026-11-05). Build and check it locally, then run `yarn deploy`. This replaces every GitHub Pages instruction elsewhere in this repo; no GitHub Actions and no `docusaurus deploy`.
