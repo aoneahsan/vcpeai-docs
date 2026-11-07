@@ -1,0 +1,1 @@
+"use strict";(self.webpackChunkvcpeai_docs=self.webpackChunkvcpeai_docs||[]).push([["3220"],{1912(e){e.exports=JSON.parse('{"blogBasePath":"/changelog","blogTitle":"Video Controls Plus changelog","authorsListPath":"/changelog/authors"}')}}]);
