@@ -6,60 +6,36 @@ last_update:
   date: 2026-11-07
 ---
 
-VideoControls is built on touch gestures. Ours is built on keys and an on-page widget, so this is a change of habit more than a move.
+VideoControls is made for fingers: tap, swipe, swipe up. If you watch on a touch screen and like having no settings page at all, it suits you better than we do, because our docs don't list touch gestures. If you sit at a keyboard, this is a change of habit more than a move: keys you can rebind, plus a widget on the page.
 
 **Last checked 2026-11-07.** A touch-gesture player: tap to play, swipe to seek, swipe up for 2x, and auto-pause in the background. <a href="https://microsoftedge.microsoft.com/addons/detail/videocontrols/eekpapilfneiildichepmllmkjocpgpf" target="_blank" rel="noopener noreferrer nofollow">Check VideoControls yourself</a>.
 
-## Move across
+## Swapping swipes for keys
 
-1. Install Video Controls Plus for your browser: [Install Video Controls Plus](../getting-started/install.md).
-2. Read which keys do what: [Default keyboard shortcuts](../keyboard-shortcuts/defaults.md).
-3. Set up the widget: [how the controls appear on the page](../user-guide/display-and-widget.md).
-4. If swipes on a touch screen are why you use it, keep VideoControls. Our docs do not list touch gestures.
-5. Turn VideoControls off on your browser's Extensions page, so two extensions don't answer the same keys. Remove it once your own sites work.
+1. [Install Video Controls Plus](../getting-started/install.md).
+2. Learn the keys that take over from your gestures: [Default keyboard shortcuts](../keyboard-shortcuts/defaults.md).
+3. Prefer something to click? Put the widget where your hand goes: [how the controls appear on the page](../user-guide/display-and-widget.md).
+4. On a laptop with a touch screen, run both for a week. Turn VideoControls off on the Extensions page only once the keys feel natural, and remove it after that.
 
-Each browser keeps an extension's settings to itself, so nothing carries over. You set them once here.
+Nothing carries over between extensions, so you start from the defaults above.
 
-## Who is better off with which
-
-- Choose VideoControls if you watch on a touch screen and want gestures for the basics with no settings page.
-- Choose Video Controls Plus if you want keyboard controls you can rebind, A-B loop, filters, notes and an account that keeps them.
-
-## What VideoControls costs
+## Price on the listing
 
 | Plan | Price | Notes |
 |---|---|---|
 | Store listing | Not stated on the pages we checked |  <a href="https://microsoftedge.microsoft.com/addons/detail/videocontrols/eekpapilfneiildichepmllmkjocpgpf" target="_blank" rel="noopener noreferrer nofollow">Source</a> |
 
-Our prices are on the website's [plans page](https://vcpeai.aoneahsan.com/plans).
+Our plans and prices are on the website's [plans page](https://vcpeai.aoneahsan.com/plans).
 
-## Side by side
+## Side by side, where its listing says something
 
-If their pages don't say, the row reads "Not stated on the pages we checked". That doesn't mean they can't do it.
+The listing describes gestures. It says nothing about loops, filters, notes, transcripts, flashcards, history, watch later, sync, special features for any site, or Chrome and Firefox, so those rows aren't shown.
 
 | What | Video Controls Plus | VideoControls |
 |---|---|---|
 | Speed control | Yes | Yes <a href="https://microsoftedge.microsoft.com/addons/detail/videocontrols/eekpapilfneiildichepmllmkjocpgpf" target="_blank" rel="noopener noreferrer nofollow">Source</a> |
-| A-B loop | Yes (needs a connected account) | Not stated on the pages we checked |
-| Video filters | Yes (needs a connected account) | Not stated on the pages we checked |
-| Notes | Yes | Not stated on the pages we checked |
-| Transcripts | Yes | Not stated on the pages we checked |
-| Flashcards | Yes (on the website, opened from the extension) | Not stated on the pages we checked |
-| Watch history | Yes (you switch it on, it's off by default) | Not stated on the pages we checked |
-| Watch later | Yes | Not stated on the pages we checked |
-| Cross-device sync | Yes | Not stated on the pages we checked |
-| Special features for YouTube | Yes | Not stated on the pages we checked |
-| Special features for LinkedIn | Yes | Not stated on the pages we checked |
-| Special features for Facebook | No (we only find the video there) | Not stated on the pages we checked |
-| Special features for Netflix | Yes | Not stated on the pages we checked |
-| Chrome | Yes | Not stated on the pages we checked |
-| Firefox | Yes | Not stated on the pages we checked |
 | Edge | Yes | Yes <a href="https://microsoftedge.microsoft.com/addons/detail/videocontrols/eekpapilfneiildichepmllmkjocpgpf" target="_blank" rel="noopener noreferrer nofollow">Source</a> |
 
-## Where we fall short today
-
-- We are not on Google Play today.
-- On Facebook we only find the video. There are no special features for Facebook today.
-- Our store listings name Chrome, Firefox and Edge. Brave is not named in them.
+Touch is also where we're thin: there's no Android app on Google Play yet. On Facebook we only find the video, with no special features, and our store listings name Chrome, Firefox and Edge but not Brave.
 
 The website has the [full comparison with VideoControls](https://vcpeai.aoneahsan.com/compare/extensions/videocontrols).

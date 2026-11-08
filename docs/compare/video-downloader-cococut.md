@@ -6,56 +6,33 @@ last_update:
   date: 2026-11-07
 ---
 
-CocoCut downloads video and records streams. We control video while you watch it, so there is no real move across: these two do different jobs.
+CocoCut catches HLS streams and, when a video won't download, records it instead, with no account. That's a downloader's job, and we don't do it. Video Controls Plus is for watching better: speed, loops, filters, notes and history in one account. Keep CocoCut for the hard downloads.
 
 **Last checked 2026-11-07.** A downloader for Chrome and Edge that catches HLS streams and records what it can't download, free with an optional premium. <a href="https://cococut.net/" target="_blank" rel="noopener noreferrer nofollow">Check video downloader - CocoCut yourself</a>.
 
-## Where to start
+## Where to start here
 
-1. Install Video Controls Plus for your browser: [Install Video Controls Plus](../getting-started/install.md).
-2. Keep it for downloads. To make a GIF or record a clip while you watch, read [Capture and export](../user-guide/capture-and-export.md).
+1. [Install Video Controls Plus](../getting-started/install.md) and leave CocoCut where it is.
+2. If you were recording a stream only to keep a moment of it, a clip or GIF made while you watch may do: [Capture and export](../user-guide/capture-and-export.md).
 
-## Who is better off with which
-
-- Choose CocoCut if you want a downloader with a recording mode for the hard cases and no account.
-- Choose Video Controls Plus if you want to watch better, not download: speed, loops, filters, notes and history in one account.
-
-## What video downloader - CocoCut costs
+## Free and Premium
 
 | Plan | Price | Notes |
 |---|---|---|
 | Free | $0 forever | Free version downloads almost any video <a href="https://cococut.net/articles/faq.html" target="_blank" rel="noopener noreferrer nofollow">Source</a> |
 | Premium | Not stated on the pages we checked | Optional, by one-time purchase or subscription; amounts not stated on the pages we checked <a href="https://cococut.net/" target="_blank" rel="noopener noreferrer nofollow">Source</a> |
 
-Our prices are on the website's [plans page](https://vcpeai.aoneahsan.com/plans).
+See ours on the website's [plans page](https://vcpeai.aoneahsan.com/plans).
 
-## Side by side
+## What both pages state
 
-If their pages don't say, the row reads "Not stated on the pages we checked". That doesn't mean they can't do it.
+CocoCut's pages cover downloading and recording. Speed, loops, filters, notes, transcripts, flashcards, history, watch later, sync, site extras and Firefox aren't mentioned, so we show only the two browsers both name.
 
 | What | Video Controls Plus | video downloader - CocoCut |
 |---|---|---|
-| Speed control | Yes | Not stated on the pages we checked |
-| A-B loop | Yes (needs a connected account) | Not stated on the pages we checked |
-| Video filters | Yes (needs a connected account) | Not stated on the pages we checked |
-| Notes | Yes | Not stated on the pages we checked |
-| Transcripts | Yes | Not stated on the pages we checked |
-| Flashcards | Yes (on the website, opened from the extension) | Not stated on the pages we checked |
-| Watch history | Yes (you switch it on, it's off by default) | Not stated on the pages we checked |
-| Watch later | Yes | Not stated on the pages we checked |
-| Cross-device sync | Yes | Not stated on the pages we checked |
-| Special features for YouTube | Yes | Not stated on the pages we checked |
-| Special features for LinkedIn | Yes | Not stated on the pages we checked |
-| Special features for Facebook | No (we only find the video there) | Not stated on the pages we checked |
-| Special features for Netflix | Yes | Not stated on the pages we checked |
 | Chrome | Yes | Yes <a href="https://cococut.net/" target="_blank" rel="noopener noreferrer nofollow">Source</a> |
-| Firefox | Yes | Not stated on the pages we checked |
 | Edge | Yes | Yes <a href="https://cococut.net/" target="_blank" rel="noopener noreferrer nofollow">Source</a> |
 
-## Where we fall short today
-
-- We are not on Google Play today.
-- On Facebook we only find the video. There are no special features for Facebook today.
-- Our store listings name Chrome, Firefox and Edge. Brave is not named in them.
+Our gaps: no Google Play app, no special features on Facebook beyond finding the video, and Brave isn't one of the browsers our listings name (Chrome, Firefox and Edge are).
 
 The website has the [full comparison with video downloader - CocoCut](https://vcpeai.aoneahsan.com/compare/extensions/video-downloader-cococut).

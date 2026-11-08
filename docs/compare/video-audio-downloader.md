@@ -6,55 +6,32 @@ last_update:
   date: 2026-11-07
 ---
 
-Video & Audio Downloader lists the media on a page for download. We control video while you watch it, so there is no real move across.
+Video & Audio Downloader is a toolbar popup that lists the media playing in the tab, so you can download it, copy its link or zip the lot. It isn't for YouTube. We don't download anything: we control the video on the page, with YouTube extras, loops, notes and watch later. The two sit side by side without a move between them.
 
 **Last checked 2026-11-07.** A toolbar popup that lists the media playing in the tab for download or link copy; not for YouTube. <a href="https://microsoftedge.microsoft.com/addons/detail/video-audio-downloader/ijgjhlfeehehjgionndhjjfckmobedee" target="_blank" rel="noopener noreferrer nofollow">Check Video & Audio Downloader yourself</a>.
 
-## Where to start
+## Where to begin
 
-1. Install Video Controls Plus for your browser: [Install Video Controls Plus](../getting-started/install.md).
-2. Keep it for downloads. To make a GIF or record a clip while you watch, read [Capture and export](../user-guide/capture-and-export.md).
+1. [Install Video Controls Plus](../getting-started/install.md). Keep the downloader's popup for saving files.
+2. To grab a moment rather than the whole file, a GIF or recorded clip may be enough: [Capture and export](../user-guide/capture-and-export.md).
 
-## Who is better off with which
-
-- Choose Video & Audio Downloader if you want a popup list of the media on the page and a zip of all of it.
-- Choose Video Controls Plus if you want to control the video on the page, with YouTube extras, loops, notes and watch later.
-
-## What Video & Audio Downloader costs
+## Price on its listing
 
 | Plan | Price | Notes |
 |---|---|---|
 | Store listing | Not stated on the pages we checked |  <a href="https://microsoftedge.microsoft.com/addons/detail/video-audio-downloader/ijgjhlfeehehjgionndhjjfckmobedee" target="_blank" rel="noopener noreferrer nofollow">Source</a> |
 
-Our prices are on the website's [plans page](https://vcpeai.aoneahsan.com/plans).
+What we charge is on the [plans page](https://vcpeai.aoneahsan.com/plans).
 
-## Side by side
+## Two rows with an answer on both sides
 
-If their pages don't say, the row reads "Not stated on the pages we checked". That doesn't mean they can't do it.
+Its listing is about finding and saving media. It doesn't speak to speed, loops, filters, notes, transcripts, flashcards, history, watch later, sync, LinkedIn, Facebook or Netflix features, Chrome or Firefox; those rows are hidden. It does say it isn't for YouTube.
 
 | What | Video Controls Plus | Video & Audio Downloader |
 |---|---|---|
-| Speed control | Yes | Not stated on the pages we checked |
-| A-B loop | Yes (needs a connected account) | Not stated on the pages we checked |
-| Video filters | Yes (needs a connected account) | Not stated on the pages we checked |
-| Notes | Yes | Not stated on the pages we checked |
-| Transcripts | Yes | Not stated on the pages we checked |
-| Flashcards | Yes (on the website, opened from the extension) | Not stated on the pages we checked |
-| Watch history | Yes (you switch it on, it's off by default) | Not stated on the pages we checked |
-| Watch later | Yes | Not stated on the pages we checked |
-| Cross-device sync | Yes | Not stated on the pages we checked |
 | Special features for YouTube | Yes | No <a href="https://microsoftedge.microsoft.com/addons/detail/video-audio-downloader/ijgjhlfeehehjgionndhjjfckmobedee" target="_blank" rel="noopener noreferrer nofollow">Source</a> |
-| Special features for LinkedIn | Yes | Not stated on the pages we checked |
-| Special features for Facebook | No (we only find the video there) | Not stated on the pages we checked |
-| Special features for Netflix | Yes | Not stated on the pages we checked |
-| Chrome | Yes | Not stated on the pages we checked |
-| Firefox | Yes | Not stated on the pages we checked |
 | Edge | Yes | Yes <a href="https://microsoftedge.microsoft.com/addons/detail/video-audio-downloader/ijgjhlfeehehjgionndhjjfckmobedee" target="_blank" rel="noopener noreferrer nofollow">Source</a> |
 
-## Where we fall short today
-
-- We are not on Google Play today.
-- On Facebook we only find the video. There are no special features for Facebook today.
-- Our store listings name Chrome, Firefox and Edge. Brave is not named in them.
+What we're missing today: a Google Play app, special features on Facebook (we only detect the video), and Brave in our store listings, which name Chrome, Firefox and Edge.
 
 The website has the [full comparison with Video & Audio Downloader](https://vcpeai.aoneahsan.com/compare/extensions/video-audio-downloader).

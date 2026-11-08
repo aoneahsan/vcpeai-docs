@@ -6,59 +6,34 @@ last_update:
   date: 2026-11-07
 ---
 
-Video Controls for TikTok works on TikTok only. TikTok has no special features here, so check it on your own feed first.
+If TikTok is the only site you watch, Video Controls for TikTok is built for it: keys, a remembered volume and pop-out windows, there and nowhere else. We have no special features for TikTok. What we offer is one set of keys, speed to 16x, loops and notes on every site you watch, so test it on your own feed before you change anything.
 
 **Last checked 2026-11-07.** Keys, speed from .25x to 2x, a remembered volume and pop-out windows for TikTok on the web. <a href="https://microsoftedge.microsoft.com/addons/detail/video-controls-for-tiktok/ebdnngofmgnaionkomakdfobijebolcn" target="_blank" rel="noopener noreferrer nofollow">Check Video Controls for TikTok yourself</a>.
 
-## Move across
+## Trying it on your own feed
 
-1. Install Video Controls Plus for your browser: [Install Video Controls Plus](../getting-started/install.md).
-2. Open a TikTok video and try the bracket keys. Read [Which sites Video Controls Plus works on](../platforms/other-sites.md) if nothing happens.
-3. Set the keys you used there: [Change a keyboard shortcut](../keyboard-shortcuts/rebinding.md).
-4. Turn Video Controls for TikTok off on your browser's Extensions page, so two extensions don't answer the same keys. Remove it once your own sites work.
+1. [Install Video Controls Plus](../getting-started/install.md).
+2. Turn Video Controls for TikTok off for now, open a TikTok video and press the bracket keys. If the speed doesn't change, read [Which sites Video Controls Plus works on](../platforms/other-sites.md).
+3. Map the keys your fingers learned on TikTok: [Change a keyboard shortcut](../keyboard-shortcuts/rebinding.md).
+4. Scroll a while. If it does what you need, remove Video Controls for TikTok; if you miss it, turn it back on and keep ours for other sites.
 
-Each browser keeps an extension's settings to itself, so nothing carries over. You set them once here.
-
-## Who is better off with which
-
-- Choose Video Controls for TikTok if TikTok is the only site you watch and you want its keys and remembered volume there.
-- Choose Video Controls Plus if you watch on more sites than TikTok and want one set of keys, speed to 16x, loops and notes everywhere.
-
-## What Video Controls for TikTok costs
+## Its "Pro features" and price
 
 | Plan | Price | Notes |
 |---|---|---|
 | Store listing | Not stated on the pages we checked | The listing names 'Pro features' but no price; not stated on the pages we checked <a href="https://microsoftedge.microsoft.com/addons/detail/video-controls-for-tiktok/ebdnngofmgnaionkomakdfobijebolcn" target="_blank" rel="noopener noreferrer nofollow">Source</a> |
 
-Our prices are on the website's [plans page](https://vcpeai.aoneahsan.com/plans).
+Our plans and prices: the website's [plans page](https://vcpeai.aoneahsan.com/plans).
 
-## Side by side
+## Where its listing and ours overlap
 
-If their pages don't say, the row reads "Not stated on the pages we checked". That doesn't mean they can't do it.
+Its listing is about TikTok. It says nothing about loops, filters, notes, transcripts, flashcards, history, watch later, sync, features for YouTube, LinkedIn, Facebook or Netflix, Chrome or Firefox, so we've hidden those rows.
 
 | What | Video Controls Plus | Video Controls for TikTok |
 |---|---|---|
 | Speed control | Yes | Yes <a href="https://microsoftedge.microsoft.com/addons/detail/video-controls-for-tiktok/ebdnngofmgnaionkomakdfobijebolcn" target="_blank" rel="noopener noreferrer nofollow">Source</a> |
-| A-B loop | Yes (needs a connected account) | Not stated on the pages we checked |
-| Video filters | Yes (needs a connected account) | Not stated on the pages we checked |
-| Notes | Yes | Not stated on the pages we checked |
-| Transcripts | Yes | Not stated on the pages we checked |
-| Flashcards | Yes (on the website, opened from the extension) | Not stated on the pages we checked |
-| Watch history | Yes (you switch it on, it's off by default) | Not stated on the pages we checked |
-| Watch later | Yes | Not stated on the pages we checked |
-| Cross-device sync | Yes | Not stated on the pages we checked |
-| Special features for YouTube | Yes | Not stated on the pages we checked |
-| Special features for LinkedIn | Yes | Not stated on the pages we checked |
-| Special features for Facebook | No (we only find the video there) | Not stated on the pages we checked |
-| Special features for Netflix | Yes | Not stated on the pages we checked |
-| Chrome | Yes | Not stated on the pages we checked |
-| Firefox | Yes | Not stated on the pages we checked |
 | Edge | Yes | Yes <a href="https://microsoftedge.microsoft.com/addons/detail/video-controls-for-tiktok/ebdnngofmgnaionkomakdfobijebolcn" target="_blank" rel="noopener noreferrer nofollow">Source</a> |
 
-## Where we fall short today
-
-- We are not on Google Play today.
-- On Facebook we only find the video. There are no special features for Facebook today.
-- Our store listings name Chrome, Firefox and Edge. Brave is not named in them.
+TikTok isn't our only thin spot. On Facebook we find the video and offer no special features, there's no Google Play app, and our listings name Chrome, Firefox and Edge, not Brave.
 
 The website has the [full comparison with Video Controls for TikTok](https://vcpeai.aoneahsan.com/compare/extensions/video-controls-for-tiktok).

@@ -6,60 +6,35 @@ last_update:
   date: 2026-11-07
 ---
 
-Video Player plays local files and transcodes formats. We control video on the sites you visit, so keep it if local files are why you have it.
+Video Player opens files from your own disk and transcodes formats the browser can't play, like AVI and WMV. If that's why you installed it, keep it: our docs cover video on websites, not local files. If you mostly used its audio boost, speed and repeat on sites you visit, those have a home here, along with filters, notes and an account across devices.
 
 **Last checked 2026-11-07.** A media player extension: audio boost to 300%, speed to 8x, repeat, screenshots, local files and transcoding of formats the browser lacks. <a href="https://microsoftedge.microsoft.com/addons/detail/video-player/bobjnignhcpkfnjcgegmdjijonimcmke" target="_blank" rel="noopener noreferrer nofollow">Check Video Player yourself</a>.
 
-## Move across
+## Splitting the jobs between the two
 
-1. Install Video Controls Plus for your browser: [Install Video Controls Plus](../getting-started/install.md).
-2. Use [Audio boost](../user-guide/audio-boost.md) for quiet video. It goes to 400% and needs an account.
-3. Change speed up to 16x: [Control the playback speed](../user-guide/speed-control.md).
-4. For local files and formats like AVI and WMV, keep Video Player. Our docs cover video on websites.
-5. Turn Video Player off on your browser's Extensions page, so two extensions don't answer the same keys. Remove it once your own sites work.
+1. [Install Video Controls Plus](../getting-started/install.md) and keep Video Player for your local files.
+2. Quiet video on a website? [Audio boost](../user-guide/audio-boost.md) goes to 400% here and needs an account.
+3. Speed on websites runs to 16x: [Control the playback speed](../user-guide/speed-control.md).
+4. If you never open local files or need formats like AVI and WMV, turn Video Player off on the Extensions page and remove it later. If you do, leave both installed; they cover different video.
 
-Each browser keeps an extension's settings to itself, so nothing carries over. You set them once here.
-
-## Who is better off with which
-
-- Choose Video Player if you play local files in the browser or need formats like AVI and WMV transcoded.
-- Choose Video Controls Plus if you control video on the sites you visit and want loops, filters, notes and an account across devices.
-
-## What Video Player costs
+## What the listing shows for price
 
 | Plan | Price | Notes |
 |---|---|---|
 | Store listing | Not stated on the pages we checked |  <a href="https://microsoftedge.microsoft.com/addons/detail/video-player/bobjnignhcpkfnjcgegmdjijonimcmke" target="_blank" rel="noopener noreferrer nofollow">Source</a> |
 
-Our prices are on the website's [plans page](https://vcpeai.aoneahsan.com/plans).
+Ours can be found on the website's [plans page](https://vcpeai.aoneahsan.com/plans).
 
-## Side by side
+## The rows its listing gives us
 
-If their pages don't say, the row reads "Not stated on the pages we checked". That doesn't mean they can't do it.
+Video Player's listing is about playback and formats. Filters, notes, transcripts, flashcards, history, watch later, sync, special features for sites, Chrome and Firefox aren't stated, so those rows are hidden.
 
 | What | Video Controls Plus | Video Player |
 |---|---|---|
 | Speed control | Yes | Yes <a href="https://microsoftedge.microsoft.com/addons/detail/video-player/bobjnignhcpkfnjcgegmdjijonimcmke" target="_blank" rel="noopener noreferrer nofollow">Source</a> |
 | A-B loop | Yes (needs a connected account) | Partly <a href="https://microsoftedge.microsoft.com/addons/detail/video-player/bobjnignhcpkfnjcgegmdjijonimcmke" target="_blank" rel="noopener noreferrer nofollow">Source</a> |
-| Video filters | Yes (needs a connected account) | Not stated on the pages we checked |
-| Notes | Yes | Not stated on the pages we checked |
-| Transcripts | Yes | Not stated on the pages we checked |
-| Flashcards | Yes (on the website, opened from the extension) | Not stated on the pages we checked |
-| Watch history | Yes (you switch it on, it's off by default) | Not stated on the pages we checked |
-| Watch later | Yes | Not stated on the pages we checked |
-| Cross-device sync | Yes | Not stated on the pages we checked |
-| Special features for YouTube | Yes | Not stated on the pages we checked |
-| Special features for LinkedIn | Yes | Not stated on the pages we checked |
-| Special features for Facebook | No (we only find the video there) | Not stated on the pages we checked |
-| Special features for Netflix | Yes | Not stated on the pages we checked |
-| Chrome | Yes | Not stated on the pages we checked |
-| Firefox | Yes | Not stated on the pages we checked |
 | Edge | Yes | Yes <a href="https://microsoftedge.microsoft.com/addons/detail/video-player/bobjnignhcpkfnjcgegmdjijonimcmke" target="_blank" rel="noopener noreferrer nofollow">Source</a> |
 
-## Where we fall short today
-
-- We are not on Google Play today.
-- On Facebook we only find the video. There are no special features for Facebook today.
-- Our store listings name Chrome, Firefox and Edge. Brave is not named in them.
+Besides local files, we lack a Google Play app, offer only video detection on Facebook, and don't name Brave in listings that name Chrome, Firefox and Edge.
 
 The website has the [full comparison with Video Player](https://vcpeai.aoneahsan.com/compare/extensions/video-player-extension).
