@@ -15,9 +15,17 @@ export default function Feed(): React.JSX.Element {
 
   return (
     <Layout title={translate({ id: 'feed.title', message: 'Feed' })} description={translate({ id: 'feed.description', message: 'Video Controls Plus changelog entries, newest first, with RSS and Atom feeds.' })}>
-      <main className="container container--fluid margin-vert--xl" style={{ maxWidth: '48rem' }}>
-        <h1><Translate id="feed.heading">Feed</Translate></h1>
-        <ul>
+      <main className="vcp-utility">
+        <div className="vcp-utility-intro">
+          <p className="vcp-eyebrow"><Translate id="feed.discovery">Documentation / Discovery</Translate></p>
+          <h1><Translate id="feed.heading">Feed and sitemap.</Translate></h1>
+          <p><Translate id="feed.intro">The feed lists changelog entries newest first. The sitemap groups every guide and release entry under the docs navigation.</Translate></p>
+          <div className="vcp-utility-tabs"><Link className="active" to="/feed"><Translate id="feed.tab">Feed</Translate></Link><Link to="/sitemap"><Translate id="feed.sitemapTab">Sitemap</Translate></Link></div>
+        </div>
+        <div className="vcp-utility-sheet">
+        <p className="vcp-eyebrow"><Translate id="feed.machineFeeds">Machine-readable feeds</Translate></p>
+        <h2><Translate id="feed.follow">Follow the changelog.</Translate></h2>
+        <ul className="vcp-utility-links">
           <li>
             <Link to="pathname:///feed.xml">feed.xml</Link> (RSS)
           </li>
@@ -29,7 +37,7 @@ export default function Feed(): React.JSX.Element {
           </li>
         </ul>
         {updates.map((update) => (
-          <article key={update.permalink} className="margin-vert--lg">
+          <article key={update.permalink} className="vcp-feed-entry">
             <h2 className="margin-bottom--xs">
               <Link to={update.permalink}>{update.title}</Link>
             </h2>
@@ -39,6 +47,7 @@ export default function Feed(): React.JSX.Element {
             {update.description && <p className="margin-top--sm">{update.description}</p>}
           </article>
         ))}
+        </div>
       </main>
     </Layout>
   );

@@ -273,47 +273,53 @@ const config: Config = {
       },
       items: [
         { type: 'localeDropdown', position: 'right' },
-        {
-          type: 'docSidebar',
-          sidebarId: 'docsSidebar',
-          position: 'left',
-          label: 'Docs',
-        },
-        { to: '/changelog', label: 'Changelog', position: 'left' },
-        {
-          href: PRODUCT_URL,
-          label: 'Product website',
-          position: 'right',
-        },
+        { href: `${PRODUCT_URL}/features`, label: 'Features', position: 'left' },
+        { href: `${PRODUCT_URL}/how-it-works`, label: 'How it works', position: 'left' },
+        { type: 'docSidebar', sidebarId: 'docsSidebar', position: 'left', label: 'Docs' },
+        { href: `${PRODUCT_URL}/compare/extensions`, label: 'Compare', position: 'left' },
+        { href: `${PRODUCT_URL}/plans`, label: 'Plans', position: 'left' },
+        { href: `${PRODUCT_URL}/about`, label: 'About', position: 'left' },
+        { href: `${PRODUCT_URL}/contact`, label: 'Contact', position: 'left' },
+        { href: `${PRODUCT_URL}/install`, label: 'Install ↗', position: 'left', className: 'vcp-nav-install' },
       ],
     },
     footer: {
       style: 'dark',
       links: [
         {
-          title: 'Docs',
-          items: [
-            { label: 'Introduction', to: '/docs/intro' },
-            { label: 'Install', to: '/docs/getting-started/install' },
-            { label: 'Keyboard shortcuts', to: '/docs/keyboard-shortcuts/defaults' },
-            { label: 'Troubleshooting', to: '/docs/troubleshooting' },
-            { label: 'FAQ', to: '/docs/faq' },
-            { label: 'Changelog', to: '/changelog' },
-          ],
-        },
-        {
-          title: 'Site',
-          items: [
-            { label: 'Sitemap', to: '/sitemap' },
-            { label: 'Feed', to: '/feed' },
-          ],
-        },
-        {
           title: 'Video Controls Plus',
           items: [
-            { label: 'Product website', href: PRODUCT_URL },
-            { label: 'Privacy policy', href: `${PRODUCT_URL}/privacy` },
+            { label: TAGLINE, href: PRODUCT_URL },
+          ],
+        },
+        {
+          title: 'Explore',
+          items: [
+            { label: 'Features', href: `${PRODUCT_URL}/features` },
+            { label: 'How it works', href: `${PRODUCT_URL}/how-it-works` },
+            { label: 'Compare', href: `${PRODUCT_URL}/compare/extensions` },
+            { label: 'Plans', href: `${PRODUCT_URL}/plans` },
+            { label: 'About', href: `${PRODUCT_URL}/about` },
+          ],
+        },
+        {
+          title: 'Get started',
+          items: [
+            { label: 'Install', href: `${PRODUCT_URL}/install` },
+            { label: 'Website guides', href: `${PRODUCT_URL}/docs` },
+            { label: 'Full documentation', to: '/docs/intro' },
+            { label: 'Page index', to: '/sitemap' },
+          ],
+        },
+        {
+          title: 'Help & legal',
+          items: [
+            { label: 'FAQ', to: '/docs/faq' },
             { label: 'Contact', href: `${PRODUCT_URL}/contact` },
+            { label: 'Policy pages', href: `${PRODUCT_URL}/privacy` },
+            { label: 'Sitemap', to: '/sitemap' },
+            { label: 'Changelog', to: '/changelog' },
+            { label: 'Feed', to: '/feed' },
           ],
         },
       ],

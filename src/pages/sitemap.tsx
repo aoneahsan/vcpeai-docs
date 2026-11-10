@@ -66,9 +66,17 @@ export default function Sitemap(): React.JSX.Element {
 
   return (
     <Layout title={translate({ id: 'sitemap.title', message: 'Sitemap' })} description={translate({ id: 'sitemap.description', message: 'Every Video Controls Plus documentation page and changelog entry.' })}>
-      <main className="container margin-vert--xl">
-        <h1><Translate id="sitemap.heading">Sitemap</Translate></h1>
-        <ul>
+      <main className="vcp-utility">
+        <div className="vcp-utility-intro">
+        <p className="vcp-eyebrow"><Translate id="sitemap.discovery">Documentation / Discovery</Translate></p>
+        <h1><Translate id="sitemap.heading">Feed and sitemap.</Translate></h1>
+        <p><Translate id="sitemap.intro">The feed lists changelog entries newest first. The sitemap groups every guide and release entry under the docs navigation.</Translate></p>
+        <div className="vcp-utility-tabs"><Link to="/feed"><Translate id="sitemap.feedTab">Feed</Translate></Link><Link className="active" to="/sitemap"><Translate id="sitemap.tab">Sitemap</Translate></Link></div>
+        </div>
+        <div className="vcp-utility-sheet">
+        <p className="vcp-eyebrow"><Translate id="sitemap.pageIndex">Documentation / Page index</Translate></p>
+        <h2><Translate id="sitemap.findGuide">Find a guide.</Translate></h2>
+        <ul className="vcp-utility-links">
           <li>
             <Link to="pathname:///sitemap.xml">sitemap.xml</Link>
           </li>
@@ -98,6 +106,7 @@ export default function Sitemap(): React.JSX.Element {
             </div>
           </section>
         ))}
+        </div>
       </main>
     </Layout>
   );
