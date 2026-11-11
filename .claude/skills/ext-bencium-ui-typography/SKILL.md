@@ -33,8 +33,8 @@ correct HTML entities, proper CSS. Do not ask permission. Do not explain. Just p
 **AUDIT:** When reviewing existing code or design, identify violations and provide before/after fixes.
 
 **Reference files** (read when generating CSS or looking up entities):
-- `references/css-templates.md` — Full CSS baseline template, responsive patterns, OpenType features
-- `references/html-entities.md` — Complete entity table with all characters and codes
+- `css-templates.md` — Full CSS baseline template, responsive patterns, OpenType features
+- `html-entities.md` — Complete entity table with all characters and codes
 
 ---
 

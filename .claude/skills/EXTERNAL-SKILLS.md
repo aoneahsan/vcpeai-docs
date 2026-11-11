@@ -6,6 +6,6 @@ This project-local fork comes from the reviewed cloned-skills library. Product a
 
 | Skill folder | Source | Commit | Purpose | Fixups |
 |---|---|---|---|---|
-| `ext-bencium-ui-typography` | `bencium-marketplace` | `0e3ba07` | Typography guidance for the documentation redesign | Copied the product's vetted fork, including its matching frontmatter name. |
+| `ext-bencium-ui-typography` | `bencium-marketplace` | `0e3ba07` | Typography guidance for the documentation redesign | Copied the product's vetted fork with matching frontmatter; corrected reference paths to the copied root-level files (2026-11-11). |
 
 Re-sync deliberately: re-vet the source, copy it again, and verify its frontmatter and references.
