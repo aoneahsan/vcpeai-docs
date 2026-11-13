@@ -75,6 +75,13 @@ const sidebars: SidebarsConfig = {
     'ai-features',
     'account-and-sync',
     'privacy-and-permissions',
+    {
+      type: 'category',
+      label: 'White-label & licensing',
+      description: 'Run Video Controls Plus under your own brand, or buy the source outright.',
+      link: { type: 'doc', id: 'white-label/index' },
+      items: ['white-label/what-you-get', 'white-label/setup', 'white-label/updates', 'white-label/verify', 'white-label/faq'],
+    },
     'troubleshooting',
     'faq',
     { type: 'link', label: 'Changelog', href: '/changelog' },
