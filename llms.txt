@@ -29,6 +29,12 @@
 - [Privacy and permissions](https://vcpeai-docs.aoneahsan.com/docs/privacy-and-permissions): What Video Controls Plus stores and records, with and without an account, where the data lives, and what each browser permission is used for.
 - [When Video Controls Plus is not working on a site](https://vcpeai-docs.aoneahsan.com/docs/troubleshooting): What to check when Video Controls Plus does not appear on a site, a key does nothing, connecting fails, or a setting has no effect.
 - [Frequently asked questions](https://vcpeai-docs.aoneahsan.com/docs/faq): Short answers about speed, A-B loop, audio boost, screenshots, filters, shortcuts, supported sites, Netflix, privacy and deleting your data.
+- [White-label and licensing](https://vcpeai-docs.aoneahsan.com/docs/white-label): Run Video Controls Plus under your own brand on Chrome, Firefox and Edge, hosted and updated by the team, or buy the source outright.
+- [What you get with a white-label license or a buyout](https://vcpeai-docs.aoneahsan.com/docs/white-label/what-you-get): What a license delivers, and what a buyout hands over.
+- [White-label setup, step by step](https://vcpeai-docs.aoneahsan.com/docs/white-label/setup): From payment to your extension going live on the three stores.
+- [White-label updates and renewals](https://vcpeai-docs.aoneahsan.com/docs/white-label/updates): Six months included; renew by license key.
+- [Verify a white-label license](https://vcpeai-docs.aoneahsan.com/docs/white-label/verify): Check a license by key or domain, and the license file each deployment serves.
+- [White-label questions](https://vcpeai-docs.aoneahsan.com/docs/white-label/faq): What businesses ask first.
 - [About Video Controls Plus](https://vcpeai-docs.aoneahsan.com/docs/about): Video Controls Plus is a browser extension for HTML5 video, built and maintained by the Video Controls Plus team.
 
 ## Changelog
