@@ -27,6 +27,10 @@ Your copy keeps running on its last version. A [renewal](./updates.md) brings up
 
 Yes, until someone buys it outright. After a buyout we stop selling it, and every license sold before it keeps its terms.
 
+## Is there anything to pay after a buyout?
+
+Yes, a royalty of 7% of the gross revenue Video Controls Plus earns, not counting sales tax or VAT you collect. You pay it every quarter with a revenue statement, for as long as it earns revenue, and it is still owed if you sell it on.
+
 ## Who pays for the store accounts and the domain?
 
 You do. Your domain, your developer account on each store and any paid service you choose are yours.

@@ -17,6 +17,7 @@ There are two ways to buy, and the [white-label page](https://vcpeai.aoneahsan.c
 | Source code | Stays with us | Every repository that builds the extension is handed to you |
 | Can we sell it to others | Yes, until someone buys it outright | No, sales stop after a buyout |
 | Updates | Six months included, then renewals | Six months included, then renewals |
+| Paid after the first payment | Renewals, if you want more updates | Renewals if you want them, and a royalty of 7% of its gross revenue, paid quarterly for as long as it earns |
 
 Video Controls Plus is sold as one platform group: the browser extension, on Chrome, Firefox and Edge together. With one group there is nothing to bundle, so no bundle discount applies.
 

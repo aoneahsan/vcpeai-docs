@@ -28,4 +28,6 @@ A license does not include the source code, and it is not exclusive: we may lice
 
 After a buyout you run it as you like. Hosting, store accounts and paid services you choose are your costs.
 
+The buyout also carries a royalty: you pay us 7% of the gross revenue Video Controls Plus earns, not counting sales tax or VAT you collect. You pay it every quarter with a revenue statement, for as long as it earns revenue, and it is still owed if you sell it on. The [license terms](https://vcpeai.aoneahsan.com/white-label/license-terms) say the same.
+
 The full wording is in the [license terms](https://vcpeai.aoneahsan.com/white-label/license-terms) and section 14 of the [Terms of Service](https://vcpeai.aoneahsan.com/terms#policy-section-14).

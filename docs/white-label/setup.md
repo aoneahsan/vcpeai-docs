@@ -9,7 +9,7 @@ last_update:
 
 After you pay, the license email arrives with your license key and these steps. Store review times are set by each store, so the dates depend on them.
 
-1. **Pay on the pricing page.** Fill in your name, email, and the domain your website will use, then press **Continue to payment**. The payment page opens in the same tab.
+1. **Pay on the pricing page.** Fill in your name, email, and the domain your website will use, then press **Continue to payment**. The payment page opens in the same tab. You pay by Wise bank transfer there and send us the transfer reference; your license is issued once we have confirmed the transfer.
 2. **Reply to the license email** with your product name, your logo as an SVG or a large PNG, your colors, and your domain.
 3. **We build your copy.** The extension and its website carry your name and colors. We send you the store listing text and screenshots to approve.
 4. **We publish the extension** under your developer accounts on the Chrome Web Store, Firefox Add-ons and Microsoft Edge Add-ons. You add us to each account, or give us access the way the store allows.
