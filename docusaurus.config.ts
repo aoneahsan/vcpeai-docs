@@ -219,13 +219,15 @@ const config: Config = {
           editUrl: `${REPO_URL}/tree/main/`,
           // Feeds `<lastmod>` in sitemap.xml from each page's last commit.
           showLastUpdateTime: true,
-          // `exclude` replaces the defaults, so they are restated before the two project entries.
+          // `exclude` replaces the defaults, so they are restated before the project entries
+          // (the internal fixed-path files MANUAL-TASKS.md and PACKAGES.md, and the story records).
           exclude: [
             '**/_*.{js,jsx,ts,tsx,md,mdx}',
             '**/_*/**',
             '**/*.test.{js,jsx,ts,tsx}',
             '**/__tests__/**',
             'MANUAL-TASKS.md',
+            'PACKAGES.md',
             'story/**',
           ],
         },
