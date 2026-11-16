@@ -1,3 +1,4 @@
+import { execFileSync } from 'node:child_process';
 import fs from 'node:fs/promises';
 import path from 'node:path';
 import type { Config, Plugin } from '@docusaurus/types';
@@ -58,6 +59,40 @@ type LoadedBlog = {
  * wait (and copy directly) once core orders `postBuild` or the blog can write a root feed path.
  * Fails the build rather than shipping without `/feed.xml`.
  */
+/** A source file's last commit date (`YYYY-MM-DD`); the docs are built from a full clone. */
+function gitDate(file: string): string {
+  const iso = execFileSync('git', ['log', '-1', '--format=%cI', '--', file], { encoding: 'utf8' }).trim();
+  if (!iso) throw new Error(`sitemap lastmod: ${file} has no commit yet; commit it before building`);
+  return iso.slice(0, 10);
+}
+
+type SitemapOptions = Exclude<Preset.Options['sitemap'], false | undefined>;
+
+/**
+ * A truthful `<lastmod>` on every sitemap URL (SA-VCPEAI-007). Docs and posts keep their own git dates. The pages
+ * built from code take the date their words last changed: the home its source file, `/changelog` and `/feed` the
+ * newest post, `/sitemap` the newest page. An undated URL fails the build.
+ */
+const createSitemapItems: SitemapOptions['createSitemapItems'] = async ({ defaultCreateSitemapItems, ...rest }) => {
+  const items = await defaultCreateSitemapItems(rest);
+  const pathOf = (url: string) => new URL(url).pathname.replace(/\/$/, '') || '/';
+  const newest = (keep: (p: string) => boolean) =>
+    items.filter((item) => item.lastmod && keep(pathOf(item.url))).map((item) => String(item.lastmod)).sort().at(-1);
+  const newestPost = newest((p) => p.startsWith('/changelog/'));
+  const fill: Record<string, string | undefined> = {
+    '/': gitDate('src/pages/index.tsx'),
+    '/changelog': newestPost,
+    '/feed': newestPost,
+    '/sitemap': newest(() => true),
+  };
+  return items.map((item) => {
+    if (item.lastmod) return item;
+    const lastmod = fill[pathOf(item.url)];
+    if (!lastmod) throw new Error(`sitemap lastmod: ${item.url} has no date`);
+    return { ...item, lastmod };
+  });
+};
+
 async function waitForBlogRss(file: string, timeoutMs = 60_000): Promise<void> {
   const deadline = Date.now() + timeoutMs;
   while (Date.now() < deadline) {
@@ -249,8 +284,10 @@ const config: Config = {
         },
         sitemap: {
           lastmod: 'date',
-          ignorePatterns: ['/changelog/tags/**', '/changelog/archive', '/search'],
+          // Tag lists are navigation, not answers: kept out of the sitemap and noindexed by their theme wrappers.
+          ignorePatterns: ['/changelog/tags/**', '/changelog/archive', '/search', '/docs/tags', '/docs/tags/**'],
           filename: 'sitemap.xml',
+          createSitemapItems,
         },
         theme: {
           customCss: './src/css/custom.css',
