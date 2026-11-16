@@ -74,6 +74,8 @@ const sidebars: SidebarsConfig = {
     },
     'ai-features',
     'account-and-sync',
+    'invitations',
+    'updates-and-versions',
     'privacy-and-permissions',
     {
       type: 'category',
