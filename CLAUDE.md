@@ -7,9 +7,11 @@ This public repository builds the Video Controls Plus Docusaurus site, served at
 only the file native to the active agent and change both together. Product source lives in the
 sibling `../video-controls-plus-extension/` repository, which is private.
 
+<!-- fleet:node-26-13-1 v1 --> Node 26.13.1 LTS (.nvmrc), packages latest — 2026-11-16
+
 ## Stack
 
-Docusaurus 3.10.2 (`future.v4`, `@docusaurus/faster`), React 19, TypeScript ~6.0.3, Yarn 4
+Docusaurus 3.10.2 (`future.v4`, `@docusaurus/faster`), React 19, TypeScript ~7.0.2, Node 26.13.1 LTS (`.nvmrc`), Yarn 4
 (`nodeLinker: node-modules`), `@easyops-cn/docusaurus-search-local`. No analytics, no environment
 variables, no backend.
 
