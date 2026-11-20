@@ -25,3 +25,8 @@
 .sitemapBand { padding: 4rem 0; background: var(--vcp-paper-raised); }
 .sitemapBand a { font-weight: 750; }
 @media (max-width: 799px) { .hero .wrap, .grid { grid-template-columns: 1fr; } .hero h1 { font-size: clamp(3.6rem, 13vw, 6rem); } .timeline { min-height: 11rem; } }
+
+/* Hero "also on" row: every other released surface, small, above the fold (2026-11-20). */
+.also { display: flex; flex-wrap: wrap; align-items: center; gap: .4rem 1rem; margin: 1rem 0 0; font-size: .9rem; }
+.also span { color: var(--vcp-stage-muted); }
+.also a { min-height: 2.75rem; display: inline-flex; align-items: center; color: var(--vcp-stage-ink); }

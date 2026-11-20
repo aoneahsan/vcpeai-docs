@@ -4,6 +4,7 @@ import path from 'node:path';
 import type { Config, Plugin } from '@docusaurus/types';
 import type * as Preset from '@docusaurus/preset-classic';
 import { themes as prismThemes } from 'prism-react-renderer';
+import { CURRENT_SURFACE, PLATFORMS } from './src/data/platforms';
 
 const SITE_URL = 'https://vcpeai-docs.aoneahsan.com';
 const PRODUCT_URL = 'https://vcpeai.aoneahsan.com';
@@ -84,6 +85,7 @@ const createSitemapItems: SitemapOptions['createSitemapItems'] = async ({ defaul
     '/changelog': newestPost,
     '/feed': newestPost,
     '/sitemap': newest(() => true),
+    '/apps': gitDate('src/pages/apps.tsx'),
   };
   return items.map((item) => {
     if (item.lastmod) return item;
@@ -312,14 +314,24 @@ const config: Config = {
       },
       items: [
         { type: 'localeDropdown', position: 'right' },
-        { href: `${PRODUCT_URL}/features`, label: 'Features', position: 'left' },
-        { href: `${PRODUCT_URL}/how-it-works`, label: 'How it works', position: 'left' },
+        { href: `${PRODUCT_URL}/features`, label: 'Features', position: 'left', className: 'vcp-nav-xxwide' },
+        { href: `${PRODUCT_URL}/how-it-works`, label: 'How it works', position: 'left', className: 'vcp-nav-xwide' },
         { type: 'docSidebar', sidebarId: 'docsSidebar', position: 'left', label: 'Docs' },
-        { href: `${PRODUCT_URL}/compare/extensions`, label: 'Compare', position: 'left' },
-        { href: `${PRODUCT_URL}/plans`, label: 'Plans', position: 'left' },
-        { href: `${PRODUCT_URL}/about`, label: 'About', position: 'left' },
-        { href: `${PRODUCT_URL}/contact`, label: 'Contact', position: 'left' },
-        { href: `${PRODUCT_URL}/install`, label: 'Install ↗', position: 'left', className: 'vcp-nav-install' },
+        { href: `${PRODUCT_URL}/compare/extensions`, label: 'Compare', position: 'left', className: 'vcp-nav-xwide' },
+        { href: `${PRODUCT_URL}/plans`, label: 'Plans', position: 'left', className: 'vcp-nav-wide' },
+        { href: `${PRODUCT_URL}/about`, label: 'About', position: 'left', className: 'vcp-nav-wide' },
+        { href: `${PRODUCT_URL}/contact`, label: 'Contact', position: 'left', className: 'vcp-nav-wide' },
+        {
+          type: 'dropdown',
+          label: 'Get Video Controls Plus',
+          position: 'left',
+          className: 'vcp-nav-install',
+          items: [
+            { label: 'Install guide', href: `${PRODUCT_URL}/install` },
+            ...PLATFORMS.filter((platform) => platform.id !== CURRENT_SURFACE).map((platform) => ({ label: platform.name, href: platform.href })),
+            { label: 'All apps', to: '/apps' },
+          ],
+        },
       ],
     },
     footer: {
@@ -329,6 +341,13 @@ const config: Config = {
           title: 'Video Controls Plus',
           items: [
             { label: TAGLINE, href: PRODUCT_URL },
+          ],
+        },
+        {
+          title: 'Get Video Controls Plus',
+          items: [
+            ...PLATFORMS.filter((platform) => platform.id !== CURRENT_SURFACE).map((platform) => ({ label: platform.name, href: platform.href })),
+            { label: 'All apps', to: '/apps' },
           ],
         },
         {

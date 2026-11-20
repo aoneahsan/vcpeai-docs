@@ -2,6 +2,13 @@
 
 > Control your online video player the way you want it, and get special features on each website.
 
+## Get Video Controls Plus
+
+- [All apps](https://vcpeai-docs.aoneahsan.com/apps): Every released surface: Chrome Web Store, Firefox Add-ons, Microsoft Edge Add-ons, the website and these docs.
+- [Chrome Web Store](https://chromewebstore.google.com/detail/video-controls-plus/ihafdbecgnhendhckoknblmcminoikdb)
+- [Firefox Add-ons](https://addons.mozilla.org/en-US/firefox/addon/video-controls-plus/)
+- [Microsoft Edge Add-ons](https://microsoftedge.microsoft.com/addons/detail/video-controls-plus/ghjcpobkbbhefdlgffopfhlepkgcknlb)
+
 ## Docs
 
 - [What Video Controls Plus is](https://vcpeai-docs.aoneahsan.com/docs/intro): Video Controls Plus is a browser extension that adds playback controls to HTML5 video on any site, with extra tools on YouTube, Netflix and LinkedIn.

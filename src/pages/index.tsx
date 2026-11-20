@@ -2,6 +2,7 @@ import React from 'react';
 import Layout from '@theme/Layout';
 import Link from '@docusaurus/Link';
 import Translate, { translate } from '@docusaurus/Translate';
+import { PRIMARY_PLATFORM, SECONDARY_PLATFORMS } from '../data/platforms';
 import styles from './index.module.css';
 
 const LEDE = translate({ id: 'home.lede', message: 'Control your online video player the way you want it, and get special features on each website.' });
@@ -26,8 +27,9 @@ export default function Home(): React.JSX.Element {
         <h1>Video Controls Plus</h1><p className={styles.lede}>{LEDE}</p>
         <div className={styles.actions}>
           <Link className={styles.primary} to="/docs/intro"><Translate id="home.readDocs">Read the docs</Translate> ↗</Link>
-          <Link className={styles.secondary} href="https://vcpeai.aoneahsan.com/install"><Translate id="home.getExtension">Get the extension</Translate> ↗</Link>
+          <Link className={styles.secondary} href={PRIMARY_PLATFORM.href}><Translate id="home.addToChrome">Add to Chrome</Translate> ↗</Link>
         </div>
+        <p className={styles.also}><span><Translate id="home.alsoOn">Also on</Translate></span>{SECONDARY_PLATFORMS.map((platform) => <Link key={platform.id} href={platform.href}>{platform.shortName} ↗</Link>)}<Link to="/apps"><Translate id="home.allApps">All apps</Translate> →</Link></p>
       </div>
       <div className={styles.timeline} aria-hidden="true"><span>0:00</span><span className={styles.track}><i /></span><span>10:00</span></div>
     </div></section>

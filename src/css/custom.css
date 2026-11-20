@@ -69,8 +69,8 @@
 .navbar__link { white-space: nowrap; padding-inline: .3rem; }
 .navbar__link svg { display: inline-block; width: .6rem; height: .6rem; vertical-align: middle; margin-inline-start: .1rem; }
 .navbar__search { margin-inline-start: .2rem; }
-.vcp-nav-install { background: var(--vcp-blue); color: var(--vcp-on-blue) !important; border-radius: .5rem; min-height: 2.8rem; display: inline-flex; align-items: center; }
-.footer__links { display: grid; grid-template-columns: minmax(0, 1.5fr) repeat(3, minmax(0, 1fr)); gap: 2rem; }
+.vcp-nav-install { text-transform: none; font-size: .78rem; background: var(--vcp-blue); color: var(--vcp-on-blue) !important; border-radius: .5rem; min-height: 2.8rem; display: inline-flex; align-items: center; }
+.footer__links { display: grid; grid-template-columns: minmax(0, 1.5fr) repeat(4, minmax(0, 1fr)); gap: 2rem; }
 .footer__col { max-width: none; }
 .footer__col:first-child .footer__link-item { display: inline-block; max-width: 22rem; color: var(--vcp-stage-muted); }
 .navbar__link--active, .menu__link--active, .table-of-contents__link--active { color: var(--vcp-link); }
@@ -91,6 +91,11 @@
 @media (max-width: 420px) { .navbar__title { font-size: 1.1rem; } }
 @media (max-width: 799px) { .footer__links { grid-template-columns: repeat(2, minmax(0, 1fr)); } .footer__col:first-child { grid-column: 1 / -1; } }
 @media (max-width: 996px) { .navbar > .navbar__inner .vcp-nav-install { display: none; } }
+/* The desktop bar fits every item only from 1440 px; between the phone menu and that, the website links that the
+   footer also carries step out so the bar never overlaps itself (2026-11-20). */
+@media (min-width: 997px) and (max-width: 1439px) { .navbar > .navbar__inner .vcp-nav-wide { display: none; } }
+@media (min-width: 997px) and (max-width: 1279px) { .navbar > .navbar__inner .vcp-nav-xwide { display: none; } }
+@media (min-width: 997px) and (max-width: 1099px) { .navbar > .navbar__inner .vcp-nav-xxwide { display: none; } }
 .vcp-utility { width: min(calc(100% - 2rem), 84rem); margin: clamp(4rem, 7vw, 8rem) auto; display: grid; grid-template-columns: minmax(0, .8fr) minmax(0, 1.2fr); gap: clamp(2rem, 5vw, 5rem); align-items: start; }
 .vcp-utility-intro h1 { font: 700 clamp(4rem, 7vw, 7rem)/.95 var(--vcp-display); margin: 1rem 0; }
 .vcp-utility-intro p:not(.vcp-eyebrow) { font-size: clamp(1.08rem, 1.8vw, 1.4rem); color: var(--vcp-muted); line-height: 1.55; }
