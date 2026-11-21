@@ -2,12 +2,27 @@
 <feed xmlns="http://www.w3.org/2005/Atom">
     <id>https://vcpeai-docs.aoneahsan.com/changelog</id>
     <title>Video Controls Plus changelog</title>
-    <updated>2026-10-26T12:00:00.000Z</updated>
+    <updated>2026-11-21T12:00:00.000Z</updated>
     <generator>https://github.com/jpmonette/feed</generator>
     <link rel="alternate" href="https://vcpeai-docs.aoneahsan.com/changelog"/>
     <subtitle>Release notes for Video Controls Plus.</subtitle>
     <icon>https://vcpeai-docs.aoneahsan.com/img/logo.svg</icon>
     <rights>© 2026 Video Controls Plus team</rights>
+    <entry>
+        <title type="html"><![CDATA[Website: Other apps and two-step sign-in]]></title>
+        <id>https://vcpeai-docs.aoneahsan.com/changelog/other-apps-and-two-step</id>
+        <link href="https://vcpeai-docs.aoneahsan.com/changelog/other-apps-and-two-step"/>
+        <updated>2026-11-21T12:00:00.000Z</updated>
+        <summary type="html"><![CDATA[Reach your own library from a script, Claude, ChatGPT or your own server, and add a code from your phone after Google on the website.]]></summary>
+        <content type="html"><![CDATA[<p>Your account on the website has two new pages: <strong>Other apps</strong>, for tools you connect to your own library, and <strong>Security</strong>, for a second step after Google.</p>
+<ul>
+<li class=""><strong>New: access keys.</strong> Make a key on <strong>Other apps</strong> for a script or a spreadsheet sync, tick what it reaches, and use it with the API. <a class="" href="https://vcpeai-docs.aoneahsan.com/docs/developers/access-keys">Access keys</a>.</li>
+<li class=""><strong>New: assistants.</strong> Connect Claude, ChatGPT, Claude Code or Cursor and ask about your notes, bookmarks and flashcards. Anything an assistant asks to delete waits on the website for your yes. <a class="" href="https://vcpeai-docs.aoneahsan.com/docs/developers/assistants">Assistants</a>.</li>
+<li class=""><strong>New: webhooks.</strong> Your server gets a short signed message the moment you save a note or a bookmark. What you wrote stays out of it unless you tick <strong>Include what was written</strong>. <a class="" href="https://vcpeai-docs.aoneahsan.com/docs/developers/webhooks">Webhooks</a>.</li>
+<li class=""><strong>New: two-step sign-in.</strong> A six-digit code from your phone after Google, ten recovery codes, and <strong>Remember this browser for 7 days</strong> if you tick it. With it on, the extension stays connected for 7 days at a time, then asks you to connect again. <a class="" href="https://vcpeai-docs.aoneahsan.com/docs/developers/two-step-sign-in">Two-step sign-in</a>.</li>
+</ul>
+<p>Keys, assistants and webhooks are on every plan, Free included. Everything for developers is in <a class="" href="https://vcpeai-docs.aoneahsan.com/docs/developers">Video Controls Plus for developers</a>.</p>]]></content>
+    </entry>
     <entry>
         <title type="html"><![CDATA[Website: page tours and How it works]]></title>
         <id>https://vcpeai-docs.aoneahsan.com/changelog/website-tours</id>
