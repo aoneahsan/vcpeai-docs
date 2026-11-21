@@ -121,6 +121,10 @@ Firefox asks for three optional data permissions, and each one gates what is sen
 | Website content | Page content (a screenshot you upload, a transcript you save to the account, captions for an AI run, a word you save with its caption line) is sent only after you allow it. The add-on asks the first time you use one of those. |
 | Personal communications | A Speak recording and its transcripts are sent only after you allow it. The add-on asks the first time you use Speak. |
 
+## Keys, assistants and webhooks you connect
+
+Nothing reaches your library from outside unless you set it up yourself, in **Account → Other apps** on the website. An access key, an assistant such as Claude or ChatGPT, or a webhook address reaches only the parts you tick, and never your sign-in, payments, voice notes, AI history or usage analytics. A webhook message carries the item's id, its video and the time, and what you wrote only when you tick **Include what was written** for that address; a transcript's text never goes out. What each one can reach, and how to take it back: [Video Controls Plus for developers](/docs/developers).
+
 ## Other apps from the same team
 
 Settings has a tab that lists other apps from the same team. The list comes with the extension, and nothing is fetched to show it. Announcements shown beside it are read from the team's backend. No ad network and no ad SDK are in the extension.

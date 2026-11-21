@@ -42,6 +42,13 @@
 - [White-label updates and renewals](https://vcpeai-docs.aoneahsan.com/docs/white-label/updates): Six months included; renew by license key.
 - [Verify a white-label license](https://vcpeai-docs.aoneahsan.com/docs/white-label/verify): Check a license by key or domain, and the license file each deployment serves.
 - [White-label questions](https://vcpeai-docs.aoneahsan.com/docs/white-label/faq): What businesses ask first.
+- [Video Controls Plus for developers](https://vcpeai-docs.aoneahsan.com/docs/developers): Read and change your own bookmarks, notes, flashcards and more from a script, Claude or ChatGPT, or your own server.
+- [Access keys](https://vcpeai-docs.aoneahsan.com/docs/developers/access-keys): Make a vcp_pat_ key for a tool you run, choose what it reaches and when it stops, and show, replace or remove it.
+- [The Video Controls Plus API](https://vcpeai-docs.aoneahsan.com/docs/developers/api): Request shape, pages, errors, limits and a curl example for every part of your library.
+- [Connect Claude, ChatGPT, Claude Code or Cursor](https://vcpeai-docs.aoneahsan.com/docs/developers/assistants): The MCP address, what you approve on the website, and why an assistant's delete waits for your yes.
+- [Webhooks](https://vcpeai-docs.aoneahsan.com/docs/developers/webhooks): Every event, what a Standard Webhooks message carries, signature checks in Node and Python, and retries.
+- [Two-step sign-in](https://vcpeai-docs.aoneahsan.com/docs/developers/two-step-sign-in): A code after Google, ten recovery codes, a remembered browser for 7 days, and the extension's 7 days.
+- [Developers changelog](https://vcpeai-docs.aoneahsan.com/docs/developers/changelog): Changes to the API, assistant address, webhooks and two-step sign-in.
 - [About Video Controls Plus](https://vcpeai-docs.aoneahsan.com/docs/about): Video Controls Plus is a browser extension for HTML5 video, built and maintained by the Video Controls Plus team.
 
 ## Changelog
@@ -62,3 +69,6 @@
 
 - XML sitemap: https://vcpeai-docs.aoneahsan.com/sitemap.xml
 - RSS feed: https://vcpeai-docs.aoneahsan.com/feed.xml
+- OpenAPI 3.1: https://gjajgvsjhdbtrpvfiuwl.supabase.co/functions/v1/api/v1/openapi.json
+- OpenAPI as Markdown: https://gjajgvsjhdbtrpvfiuwl.supabase.co/functions/v1/api/v1/openapi.md
+- MCP server (Streamable HTTP): https://gjajgvsjhdbtrpvfiuwl.supabase.co/functions/v1/mcp

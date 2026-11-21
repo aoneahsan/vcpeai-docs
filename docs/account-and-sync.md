@@ -76,6 +76,12 @@ Open the **Data Management** tab in Settings.
 - **Export Settings** downloads your settings as a JSON file. You choose whether to include video memory and filter presets.
 - **Import Settings** restores from a file you exported: **Replace All** replaces your current settings, and **Merge** keeps your current values where the file has none.
 
+## Two-step sign-in and other apps
+
+On the website, **Account → Security** adds a code from your phone after Google. With it on, a connected extension is trusted for 7 days, then asks you to connect again. Removing a browser there signs the extension out on it. Details: [Two-step sign-in](/docs/developers/two-step-sign-in).
+
+**Account → Other apps** gives your own tools a way into your library: access keys for scripts, Claude or ChatGPT, and webhooks for your server. See [Video Controls Plus for developers](/docs/developers).
+
 ## Plans and payment
 
 Every feature works on Free. Pro raises your daily AI runs and your AI level, for one person, and Team does the same

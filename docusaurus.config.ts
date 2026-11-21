@@ -366,6 +366,7 @@ const config: Config = {
             { label: 'Install', href: `${PRODUCT_URL}/install` },
             { label: 'Website guides', href: `${PRODUCT_URL}/docs` },
             { label: 'Full documentation', to: '/docs/intro' },
+            { label: 'Developers', to: '/docs/developers' },
             { label: 'Page index', to: '/sitemap' },
           ],
         },
