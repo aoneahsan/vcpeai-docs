@@ -5,11 +5,12 @@ import { useHistory, useLocation } from '@docusaurus/router';
 import { usePluginData } from '@docusaurus/useGlobalData';
 import Translate, { translate } from '@docusaurus/Translate';
 import useDocusaurusContext from '@docusaurus/useDocusaurusContext';
+import { BLOG_PATH } from '@site/src/data/blog';
 import styles from './sitemap.module.css';
 
 type Entry = { title: string; description: string; permalink: string; tags: string[] };
 type Group = { label: string; permalink?: string; entries: Entry[] };
-type Discovery = { docGroups: Group[]; updates: (Entry & { date: string })[] };
+type Discovery = { docGroups: Group[]; updates: (Entry & { date: string })[]; posts: (Entry & { date: string })[] };
 
 const PRODUCT_URL = 'https://vcpeai.aoneahsan.com';
 
@@ -41,20 +42,24 @@ function EntryCard({ entry }: { entry: Entry }): React.JSX.Element {
   );
 }
 
-/** Human sitemap: every doc and changelog entry, grouped by the docs sidebar, filterable through `?q=`. */
+/** Human sitemap: every doc, changelog entry and post, grouped by the docs sidebar, filterable through `?q=`. */
 export default function Sitemap(): React.JSX.Element {
-  const { docGroups, updates } = usePluginData('vcpeai-discovery') as Discovery;
+  const { docGroups, updates, posts } = usePluginData('vcpeai-discovery') as Discovery;
   const { i18n } = useDocusaurusContext();
   const location = useLocation();
   const history = useHistory();
   const query = new URLSearchParams(location.search).get('q') ?? '';
 
   const groups = useMemo(() => {
-    const all: Group[] = [...docGroups, { label: translate({ id: 'sitemap.changelog', message: 'Changelog' }), permalink: '/changelog', entries: updates }];
+    const all: Group[] = [
+      ...docGroups,
+      { label: translate({ id: 'sitemap.changelog', message: 'Changelog' }), permalink: '/changelog', entries: updates },
+      { label: translate({ id: 'sitemap.blog', message: 'Blog' }), permalink: BLOG_PATH, entries: posts },
+    ];
     return all
       .map((group) => ({ ...group, entries: group.entries.filter((e) => matches(e, query, i18n.currentLocale)) }))
       .filter((group) => group.entries.length > 0);
-  }, [docGroups, updates, query, i18n.currentLocale]);
+  }, [docGroups, updates, posts, query, i18n.currentLocale]);
 
   const onSearch = (value: string): void => {
     const params = new URLSearchParams(location.search);
@@ -65,12 +70,24 @@ export default function Sitemap(): React.JSX.Element {
   };
 
   return (
-    <Layout title={translate({ id: 'sitemap.title', message: 'Sitemap' })} description={translate({ id: 'sitemap.description', message: 'Every Video Controls Plus documentation page and changelog entry.' })}>
+    <Layout
+      title={translate({ id: 'sitemap.title', message: 'Sitemap' })}
+      description={
+        posts.length > 0
+          ? translate({ id: 'sitemap.description_with_posts', message: 'Every Video Controls Plus documentation page, changelog entry and post.' })
+          : translate({ id: 'sitemap.description', message: 'Every Video Controls Plus documentation page and changelog entry.' })
+      }>
       <main className="vcp-utility">
         <div className="vcp-utility-intro">
         <p className="vcp-eyebrow"><Translate id="sitemap.discovery">Documentation / Discovery</Translate></p>
         <h1><Translate id="sitemap.heading">Feed and sitemap.</Translate></h1>
-        <p><Translate id="sitemap.intro">The feed lists changelog entries newest first. The sitemap groups every guide and release entry under the docs navigation.</Translate></p>
+        <p>
+          {posts.length > 0 ? (
+            <Translate id="sitemap.intro_with_posts">The feed lists changelog entries, then posts, newest first. The sitemap groups every guide, release entry and post under the docs navigation.</Translate>
+          ) : (
+            <Translate id="sitemap.intro">The feed lists changelog entries newest first. The sitemap groups every guide and release entry under the docs navigation.</Translate>
+          )}
+        </p>
         <div className="vcp-utility-tabs"><Link to="/feed"><Translate id="sitemap.feedTab">Feed</Translate></Link><Link className="active" to="/sitemap"><Translate id="sitemap.tab">Sitemap</Translate></Link></div>
         </div>
         <div className="vcp-utility-sheet">

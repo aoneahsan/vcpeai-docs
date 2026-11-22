@@ -1,9 +1,12 @@
 import { execFileSync } from 'node:child_process';
+import { existsSync, readdirSync } from 'node:fs';
 import fs from 'node:fs/promises';
 import path from 'node:path';
-import type { Config, Plugin } from '@docusaurus/types';
+import type { Config, Plugin, PluginConfig } from '@docusaurus/types';
 import type * as Preset from '@docusaurus/preset-classic';
+import type { Options as BlogPluginOptions } from '@docusaurus/plugin-content-blog';
 import { themes as prismThemes } from 'prism-react-renderer';
+import { BLOG_DESCRIPTION, BLOG_PATH, BLOG_TITLE } from './src/data/blog';
 import { CURRENT_SURFACE, PLATFORMS } from './src/data/platforms';
 
 const SITE_URL = 'https://vcpeai-docs.aoneahsan.com';
@@ -19,6 +22,41 @@ const previewLocale = process.env.VCPEAI_TRANSLATION_PREVIEW_LOCALE;
 const BUILD_LOCALES = previewLocale && TRANSLATION_LOCALES.includes(previewLocale) && previewLocale !== 'en'
   ? ['en', previewLocale]
   : PUBLISHED_LOCALES;
+
+// The posts blog (posts/, served at /blog) loads only once posts/ holds a post, so the site never ships an empty
+// blog page, feed or Blog link. The changelog stays the default blog instance, in blog/ at /changelog.
+const POSTS_DIR = path.join(__dirname, 'posts');
+const HAS_POSTS = existsSync(POSTS_DIR) && readdirSync(POSTS_DIR).some((name) => name.endsWith('.md') || name.endsWith('.mdx'));
+
+const POSTS_BLOG: PluginConfig = [
+  '@docusaurus/plugin-content-blog',
+  {
+    id: 'posts',
+    path: 'posts',
+    routeBasePath: BLOG_PATH.slice(1),
+    blogTitle: BLOG_TITLE,
+    blogDescription: BLOG_DESCRIPTION,
+    blogSidebarTitle: 'Recent posts',
+    blogSidebarCount: 10,
+    postsPerPage: 10,
+    showReadingTime: false,
+    // A post's git date is shown under it and becomes its sitemap lastmod.
+    showLastUpdateTime: true,
+    showLastUpdateAuthor: false,
+    // Every author is defined once, in posts/authors.yml; a tag needs a posts/tags.yml first.
+    onInlineAuthors: 'throw',
+    onInlineTags: 'throw',
+    onUntruncatedBlogPosts: 'throw',
+    feedOptions: {
+      type: ['rss', 'atom'],
+      xslt: true,
+      title: BLOG_TITLE,
+      description: BLOG_DESCRIPTION,
+      copyright: `© ${new Date().getFullYear()} Video Controls Plus team`,
+      language: 'en',
+    },
+  } satisfies BlogPluginOptions,
+];
 
 /** Shape published to `/sitemap` and `/feed` through `usePluginData('vcpeai-discovery')`. */
 type DiscoveryEntry = { title: string; description: string; permalink: string; tags: string[] };
@@ -71,19 +109,22 @@ type SitemapOptions = Exclude<Preset.Options['sitemap'], false | undefined>;
 
 /**
  * A truthful `<lastmod>` on every sitemap URL (SA-VCPEAI-007). Docs and posts keep their own git dates. The pages
- * built from code take the date their words last changed: the home its source file, `/changelog` and `/feed` the
- * newest post, `/sitemap` the newest page. An undated URL fails the build.
+ * built from code take the date their words last changed: the home its source file, `/changelog` the newest
+ * changelog entry, `/blog` the newest post, `/feed` the newest of both, `/sitemap` the newest page. An undated URL
+ * fails the build.
  */
 const createSitemapItems: SitemapOptions['createSitemapItems'] = async ({ defaultCreateSitemapItems, ...rest }) => {
   const items = await defaultCreateSitemapItems(rest);
   const pathOf = (url: string) => new URL(url).pathname.replace(/\/$/, '') || '/';
   const newest = (keep: (p: string) => boolean) =>
     items.filter((item) => item.lastmod && keep(pathOf(item.url))).map((item) => String(item.lastmod)).sort().at(-1);
-  const newestPost = newest((p) => p.startsWith('/changelog/'));
+  const newestEntry = newest((p) => p.startsWith('/changelog/'));
+  const newestPost = newest((p) => p.startsWith(`${BLOG_PATH}/`));
   const fill: Record<string, string | undefined> = {
     '/': gitDate('src/pages/index.tsx'),
-    '/changelog': newestPost,
-    '/feed': newestPost,
+    '/changelog': newestEntry,
+    [BLOG_PATH]: newestPost,
+    '/feed': [newestEntry, newestPost].filter(Boolean).sort().at(-1),
     '/sitemap': newest(() => true),
     '/apps': gitDate('src/pages/apps.tsx'),
   };
@@ -105,9 +146,24 @@ async function waitForBlogRss(file: string, timeoutMs = 60_000): Promise<void> {
   throw new Error(`vcpeai-discovery: ${file} was not written within ${timeoutMs} ms`);
 }
 
+/** A blog instance's listed entries, newest first, in the shape `/sitemap` and `/feed` read. */
+function listedEntries(content: LoadedBlog | undefined): DiscoveryUpdate[] {
+  return (content?.blogPosts ?? [])
+    .filter((post) => !post.metadata.unlisted)
+    .map(({ metadata }) => ({
+      title: metadata.title,
+      description: metadata.description,
+      permalink: metadata.permalink,
+      tags: metadata.tags.map((t) => t.label),
+      date: new Date(metadata.date).toISOString(),
+    }))
+    .sort((a, b) => b.date.localeCompare(a.date));
+}
+
 /**
  * Feeds the human `/sitemap` and `/feed` pages from the docs and blog plugins' own data, so neither
- * page keeps a list that can drift, and publishes the changelog RSS at the root `/feed.xml`.
+ * page keeps a list that can drift, and publishes the changelog RSS at the root `/feed.xml`. The posts
+ * blog keeps its own `/blog/rss.xml` and `/blog/atom.xml`.
  */
 function discoveryPlugin(): Plugin {
   let hasListedBlogPosts = false;
@@ -116,6 +172,7 @@ function discoveryPlugin(): Plugin {
     async allContentLoaded({ allContent, actions }) {
       const docsContent = allContent['docusaurus-plugin-content-docs']?.default as LoadedDocs | undefined;
       const blogContent = allContent['docusaurus-plugin-content-blog']?.default as LoadedBlog | undefined;
+      const postsContent = allContent['docusaurus-plugin-content-blog']?.posts as LoadedBlog | undefined;
 
       const version = docsContent?.loadedVersions[0];
       const docs = new Map((version?.docs ?? []).filter((d) => !d.unlisted).map((d) => [d.id, d]));
@@ -149,19 +206,11 @@ function discoveryPlugin(): Plugin {
         ...groups,
       ].filter((g) => g.entries.length > 0);
 
-      const updates: DiscoveryUpdate[] = (blogContent?.blogPosts ?? [])
-        .filter((post) => !post.metadata.unlisted)
-        .map(({ metadata }) => ({
-          title: metadata.title,
-          description: metadata.description,
-          permalink: metadata.permalink,
-          tags: metadata.tags.map((t) => t.label),
-          date: new Date(metadata.date).toISOString(),
-        }))
-        .sort((a, b) => b.date.localeCompare(a.date));
+      const updates = listedEntries(blogContent);
+      const posts = listedEntries(postsContent);
       hasListedBlogPosts = updates.length > 0;
 
-      actions.setGlobalData({ docGroups, updates });
+      actions.setGlobalData({ docGroups, updates, posts });
     },
     async postBuild({ outDir }) {
       // An unlisted translation preview has no public blog entries and Docusaurus
@@ -206,8 +255,8 @@ const config: Config = {
     },
   },
 
-  // Plugin data for /sitemap and /feed, plus the root /feed.xml.
-  plugins: [discoveryPlugin],
+  // Plugin data for /sitemap and /feed, plus the root /feed.xml; the posts blog once it has a post.
+  plugins: [discoveryPlugin, ...(HAS_POSTS ? [POSTS_BLOG] : [])],
 
   themes: [
     [
@@ -218,7 +267,9 @@ const config: Config = {
         indexBlog: true,
         indexPages: true,
         docsRouteBasePath: '/docs',
-        blogRouteBasePath: '/changelog',
+        // The posts blog joins the index once it is loaded (HAS_POSTS).
+        blogDir: HAS_POSTS ? ['blog', 'posts'] : 'blog',
+        blogRouteBasePath: HAS_POSTS ? ['/changelog', BLOG_PATH] : '/changelog',
         highlightSearchTermsOnTargetPage: true,
         searchResultLimits: 10,
       },
@@ -289,7 +340,19 @@ const config: Config = {
         sitemap: {
           lastmod: 'date',
           // Tag lists are navigation, not answers: kept out of the sitemap and noindexed by their theme wrappers.
-          ignorePatterns: ['/changelog/tags/**', '/changelog/archive', '/search', '/docs/tags', '/docs/tags/**'],
+          ignorePatterns: [
+            '/changelog/tags/**',
+            '/changelog/archive',
+            `${BLOG_PATH}/tags`,
+            `${BLOG_PATH}/tags/**`,
+            `${BLOG_PATH}/authors`,
+            `${BLOG_PATH}/authors/**`,
+            `${BLOG_PATH}/archive`,
+            `${BLOG_PATH}/page/**`,
+            '/search',
+            '/docs/tags',
+            '/docs/tags/**',
+          ],
           filename: 'sitemap.xml',
           createSitemapItems,
         },
@@ -317,6 +380,7 @@ const config: Config = {
         { href: `${PRODUCT_URL}/features`, label: 'Features', position: 'left', className: 'vcp-nav-xxwide' },
         { href: `${PRODUCT_URL}/how-it-works`, label: 'How it works', position: 'left', className: 'vcp-nav-xwide' },
         { type: 'docSidebar', sidebarId: 'docsSidebar', position: 'left', label: 'Docs' },
+        ...(HAS_POSTS ? [{ to: BLOG_PATH, label: 'Blog', position: 'left' as const, className: 'vcp-nav-blog' }] : []),
         { href: `${PRODUCT_URL}/compare/extensions`, label: 'Compare', position: 'left', className: 'vcp-nav-xwide' },
         { href: `${PRODUCT_URL}/plans`, label: 'Plans', position: 'left', className: 'vcp-nav-wide' },
         { href: `${PRODUCT_URL}/about`, label: 'About', position: 'left', className: 'vcp-nav-wide' },
@@ -378,6 +442,7 @@ const config: Config = {
             { label: 'Policy pages', href: `${PRODUCT_URL}/privacy` },
             { label: 'Sitemap', to: '/sitemap' },
             { label: 'Changelog', to: '/changelog' },
+            ...(HAS_POSTS ? [{ label: 'Blog', to: BLOG_PATH }] : []),
             { label: 'Feed', to: '/feed' },
           ],
         },

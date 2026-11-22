@@ -1,6 +1,6 @@
 # Video Controls Plus Documentation Site Guide
 
-**Last Updated:** 2026-10-03
+**Last Updated:** 2026-11-22
 
 This public repository builds the Video Controls Plus Docusaurus site, served at
 `https://vcpeai-docs.aoneahsan.com` from GitHub Pages. `CLAUDE.md` and `AGENTS.md` are mirrors; read
@@ -33,6 +33,7 @@ render check needs it. Use Yarn only; never npm or pnpm.
 |---|---|
 | `docs/` | Documentation pages in nested topic folders |
 | `blog/` | Changelog entries at `/changelog`; source of the feeds |
+| `posts/` | Posts at `/blog` (author `team` in `posts/authors.yml`, marker `<!-- truncate -->`, no tags). The posts blog, its `/blog/rss.xml` and `/blog/atom.xml`, its search entries and the Blog links load only once `posts/` holds a post; commit a post before building, because its git date is its sitemap `lastmod`. `/feed.xml` stays the changelog |
 | `sidebars.ts` | Curated navigation; update it in the same change as a page |
 | `docusaurus.config.ts` | Site config and the inline `vcpeai-discovery` plugin (data for `/sitemap` and `/feed`, copies `changelog/rss.xml` to `/feed.xml`) |
 | `src/css/custom.css` | Brand theme on Infima, light and dark |
