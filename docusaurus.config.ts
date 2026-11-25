@@ -1,8 +1,8 @@
 import { execFileSync } from 'node:child_process';
-import { existsSync, readdirSync } from 'node:fs';
+import { existsSync, readdirSync, readFileSync } from 'node:fs';
 import fs from 'node:fs/promises';
 import path from 'node:path';
-import type { Config, Plugin, PluginConfig } from '@docusaurus/types';
+import type { Config, LoadContext, Plugin, PluginConfig } from '@docusaurus/types';
 import type * as Preset from '@docusaurus/preset-classic';
 import type { Options as BlogPluginOptions } from '@docusaurus/plugin-content-blog';
 import { themes as prismThemes } from 'prism-react-renderer';
@@ -165,7 +165,21 @@ function listedEntries(content: LoadedBlog | undefined): DiscoveryUpdate[] {
  * page keeps a list that can drift, and publishes the changelog RSS at the root `/feed.xml`. The posts
  * blog keeps its own `/blog/rss.xml` and `/blog/atom.xml`.
  */
-function discoveryPlugin(): Plugin {
+/**
+ * Docusaurus ships this config and every route module path to the browser, so a require.resolve() plugin or any
+ * other absolute path would publish this machine's folders in main.js. Fails the build when one appears.
+ */
+function assertNoLocalPaths(outDir: string, siteDir: string): void {
+  const jsDir = path.join(outDir, 'assets', 'js');
+  const forms = [siteDir.split(path.sep).join('/'), siteDir.split(path.sep).join('\\\\')];
+  for (const file of readdirSync(jsDir).filter((name) => name.endsWith('.js'))) {
+    const text = readFileSync(path.join(jsDir, file), 'utf8');
+    const found = forms.find((form) => text.includes(form));
+    if (found) throw new Error(`${file} carries the local path ${found}: name plugins by package, never require.resolve()`);
+  }
+}
+
+function discoveryPlugin({ siteDir }: LoadContext): Plugin {
   let hasListedBlogPosts = false;
   return {
     name: 'vcpeai-discovery',
@@ -213,6 +227,7 @@ function discoveryPlugin(): Plugin {
       actions.setGlobalData({ docGroups, updates, posts });
     },
     async postBuild({ outDir }) {
+      assertNoLocalPaths(outDir, siteDir);
       // An unlisted translation preview has no public blog entries and Docusaurus
       // consequently emits no RSS file. There is nothing to copy in that case.
       if (!hasListedBlogPosts) return;
@@ -260,8 +275,9 @@ const config: Config = {
 
   themes: [
     [
-      // Bundled local search: no external service, no key.
-      require.resolve('@easyops-cn/docusaurus-search-local'),
+      // Bundled local search: no external service, no key. Named by package, never require.resolve(): the
+      // config ships to the browser, and a resolved path would publish this machine's folders.
+      '@easyops-cn/docusaurus-search-local',
       {
         hashed: true,
         indexBlog: true,
