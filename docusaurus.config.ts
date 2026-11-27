@@ -16,7 +16,7 @@ const PRODUCT_URL = 'https://vcpeai.aoneahsan.com';
 const REPO_URL = 'https://github.com/aoneahsan/vcpeai-docs';
 const TAGLINE =
   'Control your online video player the way you want it, and get special features on each website.';
-const TRANSLATION_LOCALES = ['en', 'es', 'fr', 'de', 'pt-BR', 'ja', 'zh-CN', 'hi', 'ar', 'ru', 'id', 'it', 'ko', 'tr', 'vi', 'pl'];
+const TRANSLATION_LOCALES = ['en', 'zh-Hans', 'hi', 'es', 'ar', 'fr', 'pt-BR', 'ru', 'ja', 'ur'];
 // Keep unfinished translations out of the public build. Preview them locally with
 // VCPEAI_TRANSLATION_PREVIEW_LOCALE=es, then promote reviewed locales here one at a time.
 const PUBLISHED_LOCALES = ['en'];
@@ -319,6 +319,7 @@ const config: Config = {
     locales: BUILD_LOCALES,
     localeConfigs: {
       ar: { direction: 'rtl' },
+      ur: { direction: 'rtl' },
     },
   },
 
