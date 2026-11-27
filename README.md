@@ -36,9 +36,7 @@ The build reads page dates from Git, so it needs at least one commit in the repo
 <a id="deploy"></a>
 ## 📦 Deploy&nbsp;[#](#deploy)
 
-Pushing to `main` builds and deploys to GitHub Pages through
-[`.github/workflows/deploy-pages.yml`](.github/workflows/deploy-pages.yml). The custom domain is set
-by [`static/CNAME`](static/CNAME). This site is never deployed to any other host.
+The site is built locally and its generated `build/` tree is pushed to the `gh-pages` branch. GitHub Pages serves that branch at the custom domain in [`static/CNAME`](static/CNAME). Pushing source to `main` alone does not publish a new build.
 
 <a id="structure"></a>
 ## 🗂 Structure&nbsp;[#](#structure)

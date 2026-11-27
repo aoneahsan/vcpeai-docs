@@ -67,3 +67,7 @@ curl -s $D/feed.xml | grep -o '<atom:link[^>]*>'
 # R6: JSON-LD in the initial HTML
 curl -s $D/ | grep -o '"@type":"\(WebSite\|Organization\|Person\|SoftwareApplication\)"' | sort -u
 ```
+
+### 2026-11-27 ecosystem publication checkpoint
+
+Docs source `a8ebb96` was published as `9db4072` on `gh-pages`. `/ecosystem/`, `/ecosystem/achat/`, `/about-developer/` returned HTTP 200 and each live HTML response was byte-identical to the corresponding local production output. This establishes publication and asset identity only. The logged-in desktop session owns 1440/390 visual behavior and GSC, Bing, Yandex and analytics results in the root `SEARCH-ENGINE-DESKTOP-HANDOFF.md`; no indexing or visual pass is inferred.
