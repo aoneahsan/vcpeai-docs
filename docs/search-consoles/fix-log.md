@@ -5,6 +5,10 @@ Newest entry first, one section per filed issue. This folder is excluded from th
 `live-verified` is ours; `indexed` belongs to Google. The website half is in `aoneahsan/video-controls-plus-extension`
 → `docs/search-consoles/fix-log.md`.
 
+## 2026-11-28 API spec links and localized preview — source only
+
+The built API guide followed two external Supabase OpenAPI links. The source now gives both links `nofollow noopener noreferrer` and opens them in a new tab. A fresh English build and typecheck passed; the emitted `/docs/developers/api/` HTML contains both relation sets. The `zh-Hans` preview also builds: its sitemap date mapper recognizes locale-prefixed code pages, and the output gate recognizes the locale's 404 and search pages. Its 268 HTML files pass the build contract. `zh-Hans` remains unpublished and its draft messages are still English; no translated or indexed result is claimed. Publication and desktop browser proof remain open.
+
 ## 2026-11-27 Standard Webhooks link — published, browser proof delegated
 
 The emitted Developers webhooks page followed a third-party Standard Webhooks link. Docs source `2a3c479` now emits `rel="noopener noreferrer nofollow"` for the external link opened in a new tab. `yarn typecheck && yarn build` passed. GitHub Pages branch commit `6aaf776` serves `/docs/developers/webhooks/` at HTTP 200 with SHA-256 `b58b7dc5f4f9d2352081e6b93b99aa1dd5e12d137b27191d4a2c48fe949364f9`, byte-identical to the local output; the live HTML carries all three relation tokens. This proves transport and emitted HTML; desktop task `VCP-DESKTOP-001` owns browser and search-engine outcome. Own store, package and product links remain followed.

@@ -14,7 +14,7 @@ last_update:
 https://gjajgvsjhdbtrpvfiuwl.supabase.co/functions/v1/api/v1
 ```
 
-The machine-readable description is the OpenAPI 3.1 document at [`/openapi.json`](https://gjajgvsjhdbtrpvfiuwl.supabase.co/functions/v1/api/v1/openapi.json), with a Markdown copy at [`/openapi.md`](https://gjajgvsjhdbtrpvfiuwl.supabase.co/functions/v1/api/v1/openapi.md). Neither needs a key.
+The machine-readable description is the OpenAPI 3.1 document at <a href="https://gjajgvsjhdbtrpvfiuwl.supabase.co/functions/v1/api/v1/openapi.json" target="_blank" rel="nofollow noopener noreferrer">`/openapi.json`</a>, with a Markdown copy at <a href="https://gjajgvsjhdbtrpvfiuwl.supabase.co/functions/v1/api/v1/openapi.md" target="_blank" rel="nofollow noopener noreferrer">`/openapi.md`</a>. Neither needs a key.
 
 The examples below keep the start of the address and the key in two shell variables:
 
