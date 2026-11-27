@@ -119,26 +119,43 @@ type SitemapOptions = Exclude<Preset.Options['sitemap'], false | undefined>;
  */
 const createSitemapItems: SitemapOptions['createSitemapItems'] = async ({ defaultCreateSitemapItems, ...rest }) => {
   const items = await defaultCreateSitemapItems(rest);
-  const pathOf = (url: string) => new URL(url).pathname.replace(/\/$/, '') || '/';
+  const routeOf = (url: string): { route: string; locale: string } => {
+    const pathname = new URL(url).pathname.replace(/\/$/, '') || '/';
+    const locale = TRANSLATION_LOCALES.find((code) => pathname === `/${code}` || pathname.startsWith(`/${code}/`));
+    return { route: locale ? pathname.slice(locale.length + 1) || '/' : pathname, locale: locale ?? 'en' };
+  };
+  const sourceDate = (file: string, locale: string): string => {
+    const dates = [gitDate(file)];
+    const messages = `i18n/${locale}/code.json`;
+    if (locale !== 'en' && existsSync(messages)) dates.push(gitDate(messages));
+    return dates.sort().at(-1)!;
+  };
   const newest = (keep: (p: string) => boolean) =>
-    items.filter((item) => item.lastmod && keep(pathOf(item.url))).map((item) => String(item.lastmod)).sort().at(-1);
+    items.filter((item) => item.lastmod && keep(routeOf(item.url).route)).map((item) => String(item.lastmod)).sort().at(-1);
   const newestEntry = newest((p) => p.startsWith('/changelog/'));
   const newestPost = newest((p) => p.startsWith(`${BLOG_PATH}/`));
-  const fill: Record<string, string | undefined> = {
-    '/': gitDate('src/pages/index.tsx'),
-    '/changelog': newestEntry,
-    [BLOG_PATH]: newestPost,
-    '/feed': [newestEntry, newestPost].filter(Boolean).sort().at(-1),
-    '/sitemap': newest(() => true),
-    '/apps': gitDate('src/pages/apps.tsx'),
-    '/about-developer': gitDate('src/pages/about-developer.mdx'),
-    '/ecosystem': gitDate('src/pages/ecosystem/index.tsx'),
-  };
+  const fills = new Map<string, Record<string, string | undefined>>();
   return items.map((item) => {
     if (item.lastmod) return item;
-    const route = pathOf(item.url);
+    const { route, locale } = routeOf(item.url);
+    if (!fills.has(locale)) {
+      const latest = (dates: Array<string | undefined>): string | undefined => dates.filter(Boolean).sort().at(-1);
+      const changelogDate = newestEntry ?? sourceDate('docusaurus.config.ts', locale);
+      fills.set(locale, {
+        '/': sourceDate('src/pages/index.tsx', locale),
+        '/changelog': changelogDate,
+        '/changelog/archive': changelogDate,
+        [BLOG_PATH]: newestPost,
+        '/feed': latest([sourceDate('src/pages/feed.tsx', locale), newestEntry, newestPost]),
+        '/sitemap': latest([sourceDate('src/pages/sitemap.tsx', locale), newest(() => true)]),
+        '/apps': sourceDate('src/pages/apps.tsx', locale),
+        '/about-developer': sourceDate('src/pages/about-developer.mdx', locale),
+        '/ecosystem': sourceDate('src/pages/ecosystem/index.tsx', locale),
+      });
+    }
+    const fill = fills.get(locale)!;
     const productFile = `src/pages${route}.tsx`;
-    const lastmod = fill[route] ?? (route.startsWith('/ecosystem/') && existsSync(productFile) ? gitDate(productFile) : undefined);
+    const lastmod = fill[route] ?? (route.startsWith('/ecosystem/') && existsSync(productFile) ? sourceDate(productFile, locale) : undefined);
     if (!lastmod) throw new Error(`sitemap lastmod: ${item.url} has no date`);
     return { ...item, lastmod };
   });

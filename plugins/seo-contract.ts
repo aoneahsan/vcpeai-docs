@@ -23,6 +23,7 @@ import { type Redirect, seoRedirects } from './seo-redirects.ts';
 /** Pages allowed to differ: the real 404 and the search results page (a utility page kept out of the sitemap). */
 const PAGE_EXCEPTIONS = new Set(['404.html', 'search/index.html']);
 const REQUIRED_TYPES = ['WebSite', 'Organization', 'Person', 'SoftwareApplication'];
+const exceptionFile = (file: string): string => file.replace(/^[^/]+\/(404\.html|search\/index\.html)$/, '$1');
 
 function htmlFiles(dir: string, base = dir): string[] {
   return readdirSync(dir, { withFileTypes: true }).flatMap((entry) => {
@@ -44,7 +45,7 @@ const isRedirectPage = (html: string): boolean => /http-equiv=["']?refresh/i.tes
  * @returns the problems found, empty when the page passes
  */
 export function pageProblems(html: string, file: string, siteUrl: string): string[] {
-  if (PAGE_EXCEPTIONS.has(file) || isRedirectPage(html)) return [];
+  if (PAGE_EXCEPTIONS.has(exceptionFile(file)) || isRedirectPage(html)) return [];
   const problems: string[] = [];
   const titles = count(html, /<title[\s>]/g);
   const descriptions = count(html, /<meta[^>]+name=["']?description["']?[\s>/]/g);
@@ -91,7 +92,7 @@ export function checkBuild({ outDir, siteUrl, redirects, config }: {
   if (!/^\s*trailingSlash: true,/m.test(config)) problems.push('config: trailingSlash must be true, or GitHub Pages 404s the slashed form');
   if (!/^\s*onBrokenLinks: 'throw',/m.test(config)) problems.push("config: onBrokenLinks must be 'throw'");
   for (const file of htmlFiles(outDir)) {
-    if (!file.endsWith('index.html') && !PAGE_EXCEPTIONS.has(file)) {
+    if (!file.endsWith('index.html') && !PAGE_EXCEPTIONS.has(exceptionFile(file))) {
       problems.push(`${file}: a page outside <route>/index.html is a 404 for its slashed address`);
     }
     if (file.startsWith('docs/tags/') && !isRedirectPage(readFileSync(path.join(outDir, file), 'utf8'))) {
