@@ -1,0 +1,359 @@
+{
+  "sourceCommit": "7a3b7c0",
+  "vendored": "2026-11-27",
+  "currentProductId": "video-controls-plus",
+  "products": [
+    {
+      "id": "achat",
+      "name": "AchatAI",
+      "category": "web-app",
+      "liveUrl": "https://achat.aoneahsan.com",
+      "docsUrl": "https://achat-docs.aoneahsan.com",
+      "logo": "/ecosystem/achat.svg",
+      "card": "Find the people you choose by username, invite link or QR code, without sharing a phone number.",
+      "heading": "What does AchatAI do?",
+      "paragraphs": [
+        "AchatAI lets you message the people you choose on the web and Android. No number needed. You can find someone by username, an invite link or a QR code, so exchanging phone numbers is not the first step. If you want to start a room before setting up an account, anonymous rooms are available too.",
+        "That makes it a different kind of control from the one Video Controls Plus gives you: here you choose who you talk to and how they find you, while the extension lets you choose how a video plays. The products sit together because the Zaions team makes both, and each has its own place to start.",
+        "Open [AchatAI](https://achat.aoneahsan.com) to see its messaging flow. A conversation starts there, not inside the video player."
+      ],
+      "platformLabel": "Web and Android"
+    },
+    {
+      "id": "callvault",
+      "name": "CallVault",
+      "category": "mobile-app",
+      "liveUrl": "https://callvault.aoneahsan.com",
+      "docsUrl": "https://callvault-docs.aoneahsan.com",
+      "logo": "/ecosystem/callvault.svg",
+      "card": "Play back, search, annotate and export calls kept in your Android phone library.",
+      "heading": "What does CallVault do?",
+      "paragraphs": [
+        "CallVault keeps a phone-call library on Android. Play one back. It records through the audio source your phone makes available, then gives you playback, search, notes and export for the calls that were captured. The available audio source matters: the app cannot promise the same recording result on every phone.",
+        "You can leave recordings on the phone, and private cloud backup is a separate switch you enable if you want it. That is a useful distinction when a call contains details you need to find later, but you also want to decide where its recording lives.",
+        "Video Controls Plus keeps controls and learning notes around online video; CallVault deals with calls on an Android device. They are separate products from the same team. Open [CallVault](https://callvault.aoneahsan.com) to inspect its phone library and backup choice."
+      ],
+      "platformLabel": "Android"
+    },
+    {
+      "id": "capacitor-auth-manager",
+      "name": "Capacitor Auth Manager",
+      "category": "package",
+      "liveUrl": "https://www.npmjs.com/package/capacitor-auth-manager",
+      "docsUrl": "https://capacitor-auth-manager-docs.aoneahsan.com",
+      "logo": "/ecosystem/capacitor-auth-manager.svg",
+      "card": "Call Google sign-in the same way on web, Android and iOS, without a Firebase dependency.",
+      "heading": "What does Capacitor Auth Manager do?",
+      "paragraphs": [
+        "Capacitor Auth Manager gives an app one call for Google sign-in across web, Android and iOS. One call, three platforms. It is a package for people building Capacitor apps, and it does not require Firebase as a dependency. The same interface is the point: you can keep the sign-in call in one place while the platform underneath changes, without maintaining three different calls in your application code.",
+        "Google only. Version 3.x enables Google as its provider. That limit is useful to know before choosing it for an app that also needs another identity provider. Video Controls Plus has its own account connection; this package is a separate developer product and does not add a sign-in method to the extension.",
+        "Read the [Capacitor Auth Manager package](https://www.npmjs.com/package/capacitor-auth-manager) for its installation and platform instructions."
+      ],
+      "platformLabel": "npm package"
+    },
+    {
+      "id": "clearhire",
+      "name": "ClearHire",
+      "category": "web-app",
+      "liveUrl": "https://clearhire.aoneahsan.com",
+      "docsUrl": "https://clearhire-docs.aoneahsan.com",
+      "logo": "/ecosystem/clearhire.svg",
+      "card": "Turn structured work history into an ATS-friendly resume and check how it reads.",
+      "heading": "What does ClearHire do?",
+      "paragraphs": [
+        "ClearHire helps you turn structured work history into an ATS-friendly resume. Keep the evidence. You enter the roles and evidence behind your experience, then use its builder and checks to shape the document an employer will read, with career tools for tasks such as writing a stronger bullet and checking an existing resume.",
+        "That is a different sort of study record from notes attached to a video. If you watched a course with Video Controls Plus and need to describe a real skill you gained, ClearHire gives you a place to work on the resume itself. The products do not transfer notes or claim to verify a course for you. ClearHire also lists verified-employment workflows that add trust to a profile.",
+        "Open [ClearHire](https://clearhire.aoneahsan.com) to build or check a resume."
+      ],
+      "platformLabel": "Web and Android"
+    },
+    {
+      "id": "eatthis",
+      "name": "Eat This",
+      "category": "mobile-app",
+      "liveUrl": "https://eatthis.aoneahsan.com/",
+      "docsUrl": "https://eatthis-docs.aoneahsan.com/",
+      "logo": "/ecosystem/eatthis.svg",
+      "card": "Look for food by nutrient, feeling or time of day, then see what one serving gives you.",
+      "heading": "What does Eat This do?",
+      "paragraphs": [
+        "Eat This helps you look for food by nutrient, feeling or time of day. Start with one serving. Instead of starting with a long food list, you can begin with what you are trying to understand and see how much of a nutrient one serving provides, then compare that with a cheaper pick among the choices it presents.",
+        "This is a food information product, separate from the playback controls in Video Controls Plus. The common thread is a direct answer to the task in front of you: set the speed when you are watching, or inspect the serving when you are choosing food. A food question that calls for medical judgment belongs with a doctor; the product names that boundary.",
+        "Open [Eat This](https://eatthis.aoneahsan.com/) to search its food information."
+      ],
+      "platformLabel": "Android"
+    },
+    {
+      "id": "empora",
+      "name": "Empora",
+      "category": "wordpress-plugin-saas",
+      "liveUrl": "https://empora.aoneahsan.com",
+      "docsUrl": "https://empora-docs.aoneahsan.com",
+      "logo": "/ecosystem/empora.svg",
+      "card": "Switch on the WooCommerce modules your store needs inside one WordPress plugin.",
+      "heading": "What does Empora do?",
+      "paragraphs": [
+        "Empora puts WooCommerce modules inside one WordPress plugin, and you choose which parts belong in your store instead of treating every module as an all-or-nothing install. Pick a module. Start with the job your store needs done. Then switch on that module and leave the others out.",
+        "Its web dashboard handles licences and optional store connections. That dashboard serves store administration; it is not a video account or a Video Controls Plus feature. If you manage a WooCommerce shop, inspect the available modules and decide which store connection you actually want before enabling one. A store owner can examine the modules one at a time, which is more useful than switching on a feature whose effect they have not checked.",
+        "Open [Empora](https://empora.aoneahsan.com) to explore its own product page."
+      ],
+      "platformLabel": "WordPress / WooCommerce"
+    },
+    {
+      "id": "habitforge",
+      "name": "HabitForge",
+      "category": "web-app",
+      "liveUrl": "https://habitforge.aoneahsan.com",
+      "docsUrl": "https://habitforge-docs.aoneahsan.com",
+      "logo": "/ecosystem/habitforge.svg",
+      "card": "Watch a rope grow with your check-ins and fray where a habit stopped.",
+      "heading": "What does HabitForge do?",
+      "paragraphs": [
+        "HabitForge makes a habit visible as a rope, and each check-in thickens it; a missed stretch leaves a frayed part you can see when you look back over the days. The shape gives you a record of consistency without asking you to calculate a streak yourself. Keep going from there.",
+        "Friends, challenges and a leaderboard are available, and you can leave the leaderboard. The same account works on web and Android. Video Controls Plus can hold notes about a lesson you watched; HabitForge is where you record whether you did the recurring thing afterward. The products keep those records separately. A frayed section still tells you where the routine broke; it does not erase the earlier check-ins that made the rope.",
+        "Open [HabitForge](https://habitforge.aoneahsan.com) to explore its own product page."
+      ],
+      "platformLabel": "Web and Android"
+    },
+    {
+      "id": "labflow",
+      "name": "LabFlow",
+      "category": "web-app",
+      "liveUrl": "https://labflow.aoneahsan.com",
+      "docsUrl": "https://labflow-docs.aoneahsan.com",
+      "logo": "/ecosystem/labflow.svg",
+      "card": "Follow a diagnostic sample from order through validation to a released result.",
+      "heading": "What does LabFlow do?",
+      "paragraphs": [
+        "LabFlow follows diagnostic lab work from the patient and order through the sample, result and validation, where a draft result has a different place from one released to a patient. That distinction matters when several people handle the same sample. Follow the handoff.",
+        "Billing, inventory and quality control sit in the same system. LabFlow is for the people operating a diagnostic laboratory; it is not a personal health tracker and it does not interpret a video lesson. Visit it to inspect how an order moves to a released result and which staff actions belong in that path. That release step is for laboratory staff to verify, so a patient-facing result has a clear status in the workflow.",
+        "Open [LabFlow](https://labflow.aoneahsan.com) to explore its own product page."
+      ],
+      "platformLabel": "Web and Android"
+    },
+    {
+      "id": "lifewell",
+      "name": "LifeWell",
+      "category": "web-app",
+      "liveUrl": "https://lifewell.aoneahsan.com",
+      "docsUrl": "https://lifewell-docs.aoneahsan.com",
+      "logo": "/ecosystem/lifewell.svg",
+      "card": "Keep vitals, water, medication, sleep and nutrition in one health record.",
+      "heading": "What does LifeWell do?",
+      "paragraphs": [
+        "LifeWell keeps vitals, water, medication, sleep and nutrition together in one health record, and you can also record period, fertility and baby milestones as the days pass. When you need to look back, those everyday entries belong in one place instead of scattered notes. Keep your own record.",
+        "The product runs on web and Android and syncs across devices, which makes it useful for continuing an entry on a different screen, but it does not turn the record into a diagnosis or treatment. Video Controls Plus deals with online video controls and study notes; LifeWell holds health entries in its own account. The record is yours to review across days; a single entry is only one part of the picture you are keeping.",
+        "Open [LifeWell](https://lifewell.aoneahsan.com) to explore its own product page."
+      ],
+      "platformLabel": "Web and Android"
+    },
+    {
+      "id": "linux-cleanup",
+      "name": "linux-cleanup",
+      "category": "desktop-app-cli",
+      "liveUrl": "https://linux-cleanup.aoneahsan.com/",
+      "docsUrl": "https://linux-cleanup-docs.aoneahsan.com/",
+      "logo": "/ecosystem/linux-cleanup.svg",
+      "card": "See the Linux cache paths first, run a dry run, and inspect the receipt after cleanup.",
+      "heading": "What does linux-cleanup do?",
+      "paragraphs": [
+        "linux-cleanup shows the Linux cache paths it can remove before a real run, and you can inspect its limits, scan and run a dry run first. Those first two steps never delete. Read the paths before pressing on.",
+        "The desktop app is available for x86_64 Linux as AppImage and .deb, with a receipt after a real run. The MIT-licensed command line runs with npx. This is maintenance for your computer, separate from the browser controls in Video Controls Plus. If you want to understand exactly what a cleanup would touch, begin with the preview rather than a removal. A receipt gives you a record of what happened after the run, which a bare promise to clean the machine would not.",
+        "Open [linux-cleanup](https://linux-cleanup.aoneahsan.com/) to explore its own product page."
+      ],
+      "platformLabel": "Linux desktop and CLI"
+    },
+    {
+      "id": "macleanup",
+      "name": "macleanup",
+      "category": "desktop-app-cli",
+      "liveUrl": "https://github.com/aoneahsan/macleanup",
+      "docsUrl": null,
+      "logo": "/ecosystem/macleanup.svg",
+      "card": "Inspect macOS cleanup sections in a real dry run before anything is removed.",
+      "heading": "What does macleanup do?",
+      "paragraphs": [
+        "macleanup is a macOS cleanup tool with a real dry run before removal, and it shows its cleanup sections so you can inspect the intended work, and it refuses personal folders unconditionally. That boundary is part of the product, not a setting you have to remember to turn on. Check first.",
+        "The project is for maintaining a Mac, not managing browser video. If you want to free space, read the section list and dry-run result before deciding whether to carry out a real cleanup. Video Controls Plus and macleanup come from the same maker but do not share settings or a workflow. The dry run gives you a concrete list to consider; the refusal of personal folders remains in place for the real run.",
+        "Open [macleanup](https://github.com/aoneahsan/macleanup) to explore its own product page."
+      ],
+      "platformLabel": "macOS desktop and CLI"
+    },
+    {
+      "id": "native-update",
+      "name": "Native Update",
+      "category": "saas-package",
+      "liveUrl": "https://nativeupdate.aoneahsan.com",
+      "docsUrl": "https://nativeupdate-docs.aoneahsan.com",
+      "logo": "/ecosystem/native-update.svg",
+      "card": "Send Capacitor app bundle updates between store releases.",
+      "heading": "What does Native Update do?",
+      "paragraphs": [
+        "Native Update sends Capacitor app bundles between store releases, so app builders can publish a bundle for an installed app rather than waiting for a store listing to carry every web-layer change. The project also covers in-app store-update and review prompts. Start with the release path.",
+        "It has a self-hostable backend and is open source. That makes it a developer product with a release process to configure, not an update button for Video Controls Plus users. If you build Capacitor apps, read its platform and backend instructions before choosing how your own app will receive an update. The store still has its own release path, so the package describes both bundle delivery and the prompts around that store update.",
+        "Open [Native Update](https://nativeupdate.aoneahsan.com) to explore its own product page."
+      ],
+      "platformLabel": "Web and npm"
+    },
+    {
+      "id": "netcage",
+      "name": "NetCage",
+      "category": "mobile-app",
+      "liveUrl": "https://netcage.aoneahsan.com",
+      "docsUrl": "https://netcage-docs.aoneahsan.com",
+      "logo": "/ecosystem/netcage.svg",
+      "card": "Choose which Android apps may use Wi-Fi or mobile data, and when a rule applies.",
+      "heading": "What does NetCage do?",
+      "paragraphs": [
+        "NetCage lets you choose which Android apps may use Wi-Fi, mobile data or both, and a rule can stop one selected app from connecting while the rest of the phone stays online. You can group apps into profiles and apply rules on chosen days and times. Pick the app first.",
+        "The control lives at the Android app-connection level. It does not change a website player or the way Video Controls Plus connects to your account. If your concern is when a phone app should reach the network, inspect the rule targets and schedule before you switch a profile on. A scheduled profile is useful when the same connection rule should apply at some times of day and not at others.",
+        "Open [NetCage](https://netcage.aoneahsan.com) to explore its own product page."
+      ],
+      "platformLabel": "Android"
+    },
+    {
+      "id": "pregnancypal",
+      "name": "PregnancyPal",
+      "category": "web-app",
+      "liveUrl": "https://pregnancypal.aoneahsan.com",
+      "docsUrl": "https://pregnancypal-docs.aoneahsan.com",
+      "logo": "/ecosystem/pregnancypal.svg",
+      "card": "Keep pregnancy weeks, symptoms and appointments together, with a PDF to take to a doctor.",
+      "heading": "What does PregnancyPal do?",
+      "paragraphs": [
+        "PregnancyPal gives you a place to follow pregnancy week by week, where you can record symptoms, mood, vitals and appointments, and keep nutrition and exercise information beside the week you are in. The entries can become a doctor-friendly PDF when you need to bring your record to an appointment. Keep the dates together.",
+        "This is a personal tracking product, not medical advice or a replacement for a clinician. It has its own record and workflow; nothing from a Video Controls Plus video or note is added automatically. Visit PregnancyPal to see the week view and the information you can record. The PDF is a way to carry your own observations into a conversation, where a clinician can ask about their context.",
+        "Open [PregnancyPal](https://pregnancypal.aoneahsan.com) to explore its own product page."
+      ],
+      "platformLabel": "Web and Android"
+    },
+    {
+      "id": "rentparty",
+      "name": "RentParty",
+      "category": "web-app",
+      "liveUrl": "https://rentparty.aoneahsan.com",
+      "docsUrl": "https://rentparty-docs.aoneahsan.com",
+      "logo": "/ecosystem/rentparty.svg",
+      "card": "Pause a property-trading game and return with its bank and deeds in place.",
+      "heading": "What does RentParty do?",
+      "paragraphs": [
+        "RentParty is a property-trading game you can pause and return to another day, whether you pass one phone around, play against CPU characters or open an online room. When play stops, the game keeps the bank and deeds in place for the next session. Return to the same game.",
+        "That pause-and-resume detail matters more than a long list of game modes if everyone needs to put the phone down. RentParty is a game from the Zaions team; Video Controls Plus is an extension for online video. They have separate sessions and controls. Open RentParty to choose how the players will join. The next player can take a turn without having to rebuild the last session from memory or reassign every property.",
+        "Open [RentParty](https://rentparty.aoneahsan.com) to explore its own product page."
+      ],
+      "platformLabel": "Web and Android"
+    },
+    {
+      "id": "smsapp",
+      "name": "SMS App",
+      "category": "mobile-app",
+      "liveUrl": "https://smsapp.aoneahsan.com",
+      "docsUrl": "https://smsapp-docs.aoneahsan.com",
+      "logo": "/ecosystem/smsapp.svg",
+      "card": "Send single, batch or scheduled SMS through your own Android device.",
+      "heading": "What does SMS App do?",
+      "paragraphs": [
+        "SMS App sends text messages through your own Android device, and it supports a single message, a batch and a scheduled send, with device registration and volunteer-pool management for larger work. The phone is part of the sending path, so inspect that setup before planning a campaign. Use your device.",
+        "This Android-native product handles SMS delivery and the privacy choices around it. It does not send a message from Video Controls Plus, and an extension account does not become an SMS sender. Visit SMS App to see the device and message workflow before you prepare a batch. A schedule is only useful when the right registered device is available to send the message at the chosen time.",
+        "Open [SMS App](https://smsapp.aoneahsan.com) to explore its own product page."
+      ],
+      "platformLabel": "Android"
+    },
+    {
+      "id": "strata-storage",
+      "name": "Strata Storage",
+      "category": "package",
+      "liveUrl": "https://www.npmjs.com/package/strata-storage",
+      "docsUrl": "https://stratastorage-docs.aoneahsan.com",
+      "logo": "/ecosystem/strata-storage.svg",
+      "card": "Use one storage interface across browser storage and native Keychain or Keystore.",
+      "heading": "What does Strata Storage do?",
+      "paragraphs": [
+        "Strata Storage gives developers one interface over browser storage and native device storage, and the package covers localStorage, IndexedDB and cookies on the web, with Keychain and Keystore on native platforms. It has zero dependencies. Choose the layer that fits the data.",
+        "A shared API can make storage calls consistent across web, iOS and Android while those layers keep their different properties. This is a package for app builders, not a new Video Controls Plus setting. Read the package instructions to decide which layer and persistence behavior your app needs. The native secure stores and web stores are different places; one interface does not make their security properties identical.",
+        "Open [Strata Storage](https://www.npmjs.com/package/strata-storage) to explore its own product page."
+      ],
+      "platformLabel": "npm package"
+    },
+    {
+      "id": "tilawah",
+      "name": "Tilawah",
+      "category": "web-app",
+      "liveUrl": "https://tilawah.aoneahsan.com",
+      "docsUrl": null,
+      "logo": "/ecosystem/tilawah.svg",
+      "card": "Follow recorded Tajweed and Tafseer lessons at your own pace.",
+      "heading": "What does Tilawah do?",
+      "paragraphs": [
+        "Tilawah offers recorded Tajweed and Tafseer lessons you can follow at your own pace, and progress tracking shows which lessons you have worked through without needing a scheduled live session. If you want a person to listen to your recitation, live one-on-one sessions can be booked in your timezone. Pick the lesson or session.",
+        "Those are two different ways to learn: replay a recording when it suits you, or set a time with a teacher. Tilawah keeps that learning flow in its own product, while Video Controls Plus can adjust playback on standard online video, but it does not enroll you in a Tilawah lesson or connect the accounts. Check the time. The booked session uses the learner’s timezone, so the time shown for a live lesson needs to be checked before booking.",
+        "Open [Tilawah](https://tilawah.aoneahsan.com) to explore its own product page."
+      ],
+      "platformLabel": "Web"
+    },
+    {
+      "id": "trizlink",
+      "name": "Trizlink",
+      "category": "web-app",
+      "liveUrl": "https://trizlink.com",
+      "docsUrl": "https://docs.trizlink.com",
+      "logo": "/ecosystem/trizlink.svg",
+      "card": "Keep branded short links, a link-in-bio page and click analytics in one place.",
+      "heading": "What does Trizlink do?",
+      "paragraphs": [
+        "Trizlink keeps short links, a link-in-bio page and click analytics in one product. You can make a branded short link with a custom slug or put several destinations on one page. When a link is used, its click record helps you see what happened. Choose the destination.",
+        "Custom domains and built-in utilities are also listed. A Trizlink URL is a link you manage there; it is not a video control, and Video Controls Plus does not create or report its clicks. Visit Trizlink if you need a shorter address or one page for several links. A branded slug can make the destination easier to recognize, while the analytics tell you whether people used that address.",
+        "Open [Trizlink](https://trizlink.com) to explore its own product page."
+      ],
+      "platformLabel": "Web and Android"
+    },
+    {
+      "id": "waylock",
+      "name": "Waylock",
+      "category": "mobile-app",
+      "liveUrl": "https://waylock.aoneahsan.com",
+      "docsUrl": "https://waylock-docs.aoneahsan.com",
+      "logo": "/ecosystem/waylock.svg",
+      "card": "Hold chosen stops in place while you reorder the rest of an Android driving route.",
+      "heading": "What does Waylock do?",
+      "paragraphs": [
+        "Waylock is an Android planning layer over Google Maps for drivers and couriers, where you can hold chosen stops in place and reorder the rest around them. If you take a wrong turn, the chosen route remains visible beside the choice to return or take a new route. Keep your fixed stops fixed.",
+        "This is a route-planning job with a distinction that matters when the order of some deliveries cannot change, but the rest should adapt to the drive. It is separate from browser navigation. Visit Waylock to inspect how a route is held and revised on Android. A wrong turn does not remove the driver’s original choice; the route view offers the next decision without hiding it.",
+        "Open [Waylock](https://waylock.aoneahsan.com) to explore its own product page."
+      ],
+      "platformLabel": "Android"
+    },
+    {
+      "id": "windowsweep",
+      "name": "windowsweep",
+      "category": "desktop-app-cli",
+      "liveUrl": "https://windowsweep.aoneahsan.com",
+      "docsUrl": null,
+      "logo": "/ecosystem/windowsweep.svg",
+      "card": "Read every Windows cleanup path in a real dry run before choosing what to remove.",
+      "heading": "What does windowsweep do?",
+      "paragraphs": [
+        "windowsweep names every Windows cleanup path before touching one, and its 30 sections include a real dry run, and personal files are chosen row by row rather than silently included. It makes no network calls. Read the planned changes first.",
+        "You can run it with npx or use a Windows desktop app. A cleanup session belongs on the computer whose paths you want to inspect; it is separate from Video Controls Plus in the browser. Begin with the dry run, look at each section and only then decide whether a real cleanup is right for that machine. The row-by-row choice for personal files makes the real run a decision you can inspect, rather than an invisible default.",
+        "Open [windowsweep](https://windowsweep.aoneahsan.com) to explore its own product page."
+      ],
+      "platformLabel": "Windows desktop and CLI"
+    },
+    {
+      "id": "ztools",
+      "name": "ZTools",
+      "category": "web-app",
+      "liveUrl": "https://ztools.zaions.com",
+      "docsUrl": "https://ztools-docs.zaions.com",
+      "logo": "/ecosystem/ztools.svg",
+      "card": "Find browser-run formatters, converters, encoders and generators without uploading a file.",
+      "heading": "What does ZTools do?",
+      "paragraphs": [
+        "ZTools puts browser-run formatters, converters, encoders and generators in a searchable toolbox, where you open the utility for the job in front of you and work in the browser; the roster says nothing is uploaded. Find the exact tool first.",
+        "It also supports dark mode and offline use. ZTools is the place for a file or text utility, while Video Controls Plus stays focused on online video playback and learning. If you came here looking for a converter rather than a video control, follow the ZTools link and choose the tool that matches your input. The searchable catalog matters when you know the file or text job but not the name of the exact utility.",
+        "Open [ZTools](https://ztools.zaions.com) to explore its own product page."
+      ],
+      "platformLabel": "Web, Android and Chrome extension"
+    }
+  ]
+}

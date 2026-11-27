@@ -6,6 +6,7 @@ import { usePluginData } from '@docusaurus/useGlobalData';
 import Translate, { translate } from '@docusaurus/Translate';
 import useDocusaurusContext from '@docusaurus/useDocusaurusContext';
 import { BLOG_PATH } from '@site/src/data/blog';
+import { ecosystemProducts } from '@site/src/data/ecosystem';
 import styles from './sitemap.module.css';
 
 type Entry = { title: string; description: string; permalink: string; tags: string[] };
@@ -103,6 +104,9 @@ export default function Sitemap(): React.JSX.Element {
           <li>
             <Link href={PRODUCT_URL}>Video Controls Plus</Link>
           </li>
+          <li><Link to="/ecosystem">More from Zaions: every product</Link></li>
+          <li><Link to="/about-developer">About the developer</Link></li>
+          {ecosystemProducts.map((product) => <li key={product.id}><Link to={`/ecosystem/${product.id}`}>{product.name}</Link></li>)}
         </ul>
         <input
           type="search"

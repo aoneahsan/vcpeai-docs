@@ -62,6 +62,8 @@
 
 ## Site
 
+- [More from Zaions](https://vcpeai-docs.aoneahsan.com/ecosystem/): The other products from the team behind Video Controls Plus.
+- [About the developer](https://vcpeai-docs.aoneahsan.com/about-developer/): Ahsan Mahmood, the Zaions team and the project journey.
 - [Sitemap](https://vcpeai-docs.aoneahsan.com/sitemap/)
 - [Feed](https://vcpeai-docs.aoneahsan.com/feed/)
 
@@ -71,6 +73,31 @@
 - [Ahsan Mahmood](https://aoneahsan.com): developer, with the full list of his projects.
 - [Zaions](https://zaions.com): the products company behind Video Controls Plus and its sibling apps.
 - [Product website](https://vcpeai.aoneahsan.com): install links, plans, the comparison hub and the per-platform guides.
+
+## Other Zaions products
+
+- [AchatAI](https://vcpeai-docs.aoneahsan.com/ecosystem/achat/): Find the people you choose by username, invite link or QR code, without sharing a phone number.
+- [CallVault](https://vcpeai-docs.aoneahsan.com/ecosystem/callvault/): Play back, search, annotate and export calls kept in your Android phone library.
+- [Capacitor Auth Manager](https://vcpeai-docs.aoneahsan.com/ecosystem/capacitor-auth-manager/): Call Google sign-in the same way on web, Android and iOS, without a Firebase dependency.
+- [ClearHire](https://vcpeai-docs.aoneahsan.com/ecosystem/clearhire/): Turn structured work history into an ATS-friendly resume and check how it reads.
+- [Eat This](https://vcpeai-docs.aoneahsan.com/ecosystem/eatthis/): Look for food by nutrient, feeling or time of day, then see what one serving gives you.
+- [Empora](https://vcpeai-docs.aoneahsan.com/ecosystem/empora/): Switch on the WooCommerce modules your store needs inside one WordPress plugin.
+- [HabitForge](https://vcpeai-docs.aoneahsan.com/ecosystem/habitforge/): Watch a rope grow with your check-ins and fray where a habit stopped.
+- [LabFlow](https://vcpeai-docs.aoneahsan.com/ecosystem/labflow/): Follow a diagnostic sample from order through validation to a released result.
+- [LifeWell](https://vcpeai-docs.aoneahsan.com/ecosystem/lifewell/): Keep vitals, water, medication, sleep and nutrition in one health record.
+- [linux-cleanup](https://vcpeai-docs.aoneahsan.com/ecosystem/linux-cleanup/): See the Linux cache paths first, run a dry run, and inspect the receipt after cleanup.
+- [macleanup](https://vcpeai-docs.aoneahsan.com/ecosystem/macleanup/): Inspect macOS cleanup sections in a real dry run before anything is removed.
+- [Native Update](https://vcpeai-docs.aoneahsan.com/ecosystem/native-update/): Send Capacitor app bundle updates between store releases.
+- [NetCage](https://vcpeai-docs.aoneahsan.com/ecosystem/netcage/): Choose which Android apps may use Wi-Fi or mobile data, and when a rule applies.
+- [PregnancyPal](https://vcpeai-docs.aoneahsan.com/ecosystem/pregnancypal/): Keep pregnancy weeks, symptoms and appointments together, with a PDF to take to a doctor.
+- [RentParty](https://vcpeai-docs.aoneahsan.com/ecosystem/rentparty/): Pause a property-trading game and return with its bank and deeds in place.
+- [SMS App](https://vcpeai-docs.aoneahsan.com/ecosystem/smsapp/): Send single, batch or scheduled SMS through your own Android device.
+- [Strata Storage](https://vcpeai-docs.aoneahsan.com/ecosystem/strata-storage/): Use one storage interface across browser storage and native Keychain or Keystore.
+- [Tilawah](https://vcpeai-docs.aoneahsan.com/ecosystem/tilawah/): Follow recorded Tajweed and Tafseer lessons at your own pace.
+- [Trizlink](https://vcpeai-docs.aoneahsan.com/ecosystem/trizlink/): Keep branded short links, a link-in-bio page and click analytics in one place.
+- [Waylock](https://vcpeai-docs.aoneahsan.com/ecosystem/waylock/): Hold chosen stops in place while you reorder the rest of an Android driving route.
+- [windowsweep](https://vcpeai-docs.aoneahsan.com/ecosystem/windowsweep/): Read every Windows cleanup path in a real dry run before choosing what to remove.
+- [ZTools](https://vcpeai-docs.aoneahsan.com/ecosystem/ztools/): Find browser-run formatters, converters, encoders and generators without uploading a file.
 
 ## Machine-readable
 

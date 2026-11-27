@@ -99,6 +99,55 @@
 /* The Blog link (only present once the posts blog has a post) needs about 50 px more than the 1440 px bar has, so
    it joins the desktop bar from 1536 px; below that the footer and the phone menu carry it (2026-11-22). */
 @media (min-width: 997px) and (max-width: 1535px) { .navbar > .navbar__inner .vcp-nav-blog { display: none; } }
+.vcp-showcase { background: var(--vcp-stage); color: var(--vcp-stage-ink); padding: clamp(3rem, 6vw, 6rem) 1rem; }
+.vcp-showcase-inner { width: min(100%, 84rem); margin: auto; }
+.vcp-showcase-heading, .vcp-showcase-controls { display: flex; align-items: end; justify-content: space-between; gap: 1rem; }
+.vcp-showcase-heading h2 { color: inherit; font: 700 clamp(3rem, 6vw, 6rem)/.95 var(--vcp-display); margin: .6rem 0 2rem; }
+.vcp-showcase a { color: var(--vcp-stage-ink); }
+.vcp-showcase a:hover { color: var(--vcp-cue); }
+.vcp-showcase-rail { display: grid; grid-template-columns: 3rem minmax(0, 1fr) 3rem; align-items: center; gap: .6rem; }
+.vcp-showcase-rail > button, .vcp-showcase-controls button { border: 1px solid var(--vcp-stage-muted); border-radius: .4rem; background: transparent; color: var(--vcp-stage-ink); min-height: 3rem; min-width: 3rem; cursor: pointer; }
+.vcp-showcase-track { display: flex; overflow-x: auto; scroll-snap-type: x mandatory; scrollbar-width: none; }
+.vcp-showcase-track > article { box-sizing: border-box; flex: 0 0 100%; min-width: 0; display: flex; gap: clamp(1rem, 4vw, 3rem); align-items: start; padding: clamp(1rem, 3vw, 3rem); background: var(--vcp-paper); color: var(--vcp-ink); scroll-snap-align: start; }
+.vcp-showcase-track img { flex: none; object-fit: contain; }
+.vcp-showcase-track h3 { font: 700 clamp(2rem, 4vw, 3rem)/1 var(--vcp-display); margin: .4rem 0 1rem; }
+.vcp-showcase-track h3 a, .vcp-showcase-track article a { color: var(--vcp-link); }
+.vcp-showcase-track p { max-width: 60ch; }
+.vcp-showcase-number { font: 700 .75rem/1.4 var(--vcp-code); letter-spacing: .08em; text-transform: uppercase; color: var(--vcp-link); }
+.vcp-showcase-controls { align-items: center; margin-top: 1rem; font: 700 .8rem/1.4 var(--vcp-code); }
+.vcp-ecosystem-page { min-height: 70vh; background: var(--vcp-page); }
+.vcp-ecosystem-hero { padding: clamp(4rem, 8vw, 8rem) max(1rem, calc((100vw - 84rem) / 2)); background: var(--vcp-stage); color: var(--vcp-stage-ink); }
+.vcp-ecosystem-hero h1 { color: inherit; max-width: 12ch; font: 700 clamp(4rem, 8vw, 8rem)/.9 var(--vcp-display); }
+.vcp-ecosystem-hero p:not(.vcp-eyebrow) { max-width: 68ch; font-size: clamp(1.1rem, 1.8vw, 1.35rem); }
+.vcp-ecosystem-hero .vcp-eyebrow { color: var(--vcp-cue); }
+.vcp-ecosystem-hero a { color: var(--vcp-stage-ink); }
+.vcp-ecosystem-primary { display: inline-flex; margin-top: 1rem; min-height: 3rem; align-items: center; padding: .7rem 1.2rem; border: 1px solid var(--vcp-stage-ink); border-radius: .4rem; }
+.vcp-ecosystem-body, .vcp-ecosystem-back { width: min(calc(100% - 2rem), 84rem); margin: auto; padding: clamp(2rem, 5vw, 5rem) 0; }
+.vcp-ecosystem-toolbar { display: flex; justify-content: space-between; align-items: end; flex-wrap: wrap; gap: 1rem; margin-bottom: 2rem; }
+.vcp-ecosystem-toolbar h2 { font: 700 clamp(2.6rem, 5vw, 5rem)/.95 var(--vcp-display); margin: 0; }
+.vcp-ecosystem-toolbar div { display: flex; gap: .5rem; }
+.vcp-ecosystem-toolbar button { min-height: 3rem; padding: .6rem 1rem; border: 1px solid var(--vcp-rule); background: var(--vcp-paper); color: var(--vcp-ink); text-transform: capitalize; cursor: pointer; }
+.vcp-ecosystem-toolbar button[aria-pressed='true'] { background: var(--vcp-blue); color: var(--vcp-on-blue); border-color: var(--vcp-blue); }
+.vcp-ecosystem-cards { display: grid; grid-template-columns: repeat(3, minmax(0, 1fr)); gap: 1rem; }
+.vcp-ecosystem-cards.is-list { grid-template-columns: 1fr; }
+.vcp-ecosystem-cards article, .vcp-ecosystem-detail aside { min-width: 0; padding: clamp(1.5rem, 3vw, 3rem); border: 1px solid var(--vcp-rule); border-top: .3rem solid var(--vcp-cue); background: var(--vcp-paper); }
+.vcp-ecosystem-cards article h3 { font: 700 clamp(2rem, 3vw, 3rem)/1 var(--vcp-display); margin: 1rem 0; }
+.vcp-ecosystem-cards article p:not(.vcp-showcase-number) { max-width: 60ch; }
+.vcp-ecosystem-actions { display: flex; flex-wrap: wrap; gap: 1rem; margin-top: 1.25rem; }
+.vcp-ecosystem-actions a { min-height: 2.75rem; display: inline-flex; align-items: center; }
+.vcp-ecosystem-cards.is-list article { display: grid; grid-template-columns: 5rem minmax(0, 1fr); column-gap: 1.5rem; }
+.vcp-ecosystem-cards.is-list article .vcp-showcase-number { grid-column: 1 / -1; }
+.vcp-ecosystem-cards.is-list article img { grid-row: span 3; }
+.vcp-ecosystem-table-wrap { overflow-x: auto; }
+.vcp-ecosystem-table-wrap table { width: 100%; border-collapse: collapse; background: var(--vcp-paper); }
+.vcp-ecosystem-table-wrap th, .vcp-ecosystem-table-wrap td { text-align: start; padding: 1rem; border-bottom: 1px solid var(--vcp-rule); }
+.vcp-ecosystem-detail { display: grid; grid-template-columns: minmax(0, 1.4fr) minmax(18rem, .6fr); gap: clamp(2rem, 5vw, 5rem); }
+.vcp-ecosystem-detail > div { font-size: clamp(1.08rem, 1.6vw, 1.3rem); line-height: 1.65; }
+.vcp-ecosystem-detail > div p { margin: 0 0 1.5rem; }
+.vcp-ecosystem-detail aside h2 { font: 700 2.7rem/1 var(--vcp-display); }
+.vcp-ecosystem-back { padding-top: 0; }
+@media (max-width: 850px) { .vcp-ecosystem-cards { grid-template-columns: repeat(2, minmax(0, 1fr)); } .vcp-ecosystem-detail { grid-template-columns: 1fr; } }
+@media (max-width: 570px) { .vcp-ecosystem-cards { grid-template-columns: 1fr; } .vcp-showcase-rail { grid-template-columns: 2.75rem minmax(0, 1fr) 2.75rem; } .vcp-showcase-track > article { display: block; } .vcp-showcase-heading { align-items: start; } }
 .vcp-utility { width: min(calc(100% - 2rem), 84rem); margin: clamp(4rem, 7vw, 8rem) auto; display: grid; grid-template-columns: minmax(0, .8fr) minmax(0, 1.2fr); gap: clamp(2rem, 5vw, 5rem); align-items: start; }
 .vcp-utility-intro h1 { font: 700 clamp(4rem, 7vw, 7rem)/.95 var(--vcp-display); margin: 1rem 0; }
 .vcp-utility-intro p:not(.vcp-eyebrow) { font-size: clamp(1.08rem, 1.8vw, 1.4rem); color: var(--vcp-muted); line-height: 1.55; }

@@ -1,5 +1,5 @@
 import { execFileSync } from 'node:child_process';
-import { existsSync, readdirSync, readFileSync } from 'node:fs';
+import { existsSync, readdirSync, readFileSync, statSync } from 'node:fs';
 import fs from 'node:fs/promises';
 import path from 'node:path';
 import type { Config, LoadContext, Plugin, PluginConfig } from '@docusaurus/types';
@@ -102,6 +102,8 @@ type LoadedBlog = {
  */
 /** A source file's last commit date (`YYYY-MM-DD`); the docs are built from a full clone. */
 function gitDate(file: string): string {
+  const state = execFileSync('git', ['status', '--porcelain', '--', file], { encoding: 'utf8' }).trim();
+  if (state) return statSync(file).mtime.toISOString().slice(0, 10);
   const iso = execFileSync('git', ['log', '-1', '--format=%cI', '--', file], { encoding: 'utf8' }).trim();
   if (!iso) throw new Error(`sitemap lastmod: ${file} has no commit yet; commit it before building`);
   return iso.slice(0, 10);
@@ -129,10 +131,14 @@ const createSitemapItems: SitemapOptions['createSitemapItems'] = async ({ defaul
     '/feed': [newestEntry, newestPost].filter(Boolean).sort().at(-1),
     '/sitemap': newest(() => true),
     '/apps': gitDate('src/pages/apps.tsx'),
+    '/about-developer': gitDate('src/pages/about-developer.mdx'),
+    '/ecosystem': gitDate('src/pages/ecosystem/index.tsx'),
   };
   return items.map((item) => {
     if (item.lastmod) return item;
-    const lastmod = fill[pathOf(item.url)];
+    const route = pathOf(item.url);
+    const productFile = `src/pages${route}.tsx`;
+    const lastmod = fill[route] ?? (route.startsWith('/ecosystem/') && existsSync(productFile) ? gitDate(productFile) : undefined);
     if (!lastmod) throw new Error(`sitemap lastmod: ${item.url} has no date`);
     return { ...item, lastmod };
   });
@@ -423,6 +429,7 @@ const config: Config = {
         { href: `${PRODUCT_URL}/compare/extensions`, label: 'Compare', position: 'left', className: 'vcp-nav-xwide' },
         { href: `${PRODUCT_URL}/plans`, label: 'Plans', position: 'left', className: 'vcp-nav-wide' },
         { href: `${PRODUCT_URL}/about`, label: 'About', position: 'left', className: 'vcp-nav-wide' },
+        { to: '/ecosystem', label: 'More from Zaions', position: 'left', className: 'vcp-nav-xwide' },
         { href: `${PRODUCT_URL}/contact`, label: 'Contact', position: 'left', className: 'vcp-nav-wide' },
         {
           type: 'dropdown',
@@ -461,6 +468,8 @@ const config: Config = {
             { label: 'Compare', href: `${PRODUCT_URL}/compare/extensions` },
             { label: 'Plans', href: `${PRODUCT_URL}/plans` },
             { label: 'About', href: `${PRODUCT_URL}/about` },
+            { label: 'More from Zaions', to: '/ecosystem' },
+            { label: 'About the developer', to: '/about-developer' },
           ],
         },
         {
@@ -486,7 +495,7 @@ const config: Config = {
           ],
         },
       ],
-      copyright: `Written and maintained by the Video Controls Plus team. © ${new Date().getFullYear()} Video Controls Plus team`,
+      copyright: `Developed with love by the Zaions team. © ${new Date().getFullYear()} Video Controls Plus team`,
     },
     prism: {
       theme: prismThemes.github,
