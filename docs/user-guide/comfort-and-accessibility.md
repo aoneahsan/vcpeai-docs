@@ -22,11 +22,11 @@ Turn on **Eye comfort** and move **Warmth** (0% to 100%) for evening watching. O
 
 **Turn on by itself between set times** switches it on and off on its own. Set **From** and **Until**, and it starts at 21:00 and ends at 07:00 until you change them.
 
-## Colour vision
+## Color vision
 
-Pick a **Type**: Green-weak, Red-weak, Blue-yellow or No colour. Then pick a **Mode**:
+Pick a **Type**: Green-weak, Red-weak, Blue-yellow or No color. Then pick a **Mode**:
 
-- **Make colours clearer** shifts colors so they are easier to tell apart.
+- **Make colors clearer** shifts colors so they are easier to tell apart.
 - **Show how it looks** shows the video the way someone with that color vision sees it.
 
 ## Caption style
@@ -42,7 +42,7 @@ Choose a **Caption look** and a **Text size**.
 | Dark | Soft light text on dark gray |
 | Minimal | Smaller text on a lighter band |
 | Large print | Large bold yellow text |
-| Colourful | Bold green text on deep purple |
+| Colorful | Bold green text on deep purple |
 | Easy reading | A plain sans-serif with wider letter and word spacing and taller lines, dark text on cream |
 
 ## Reading guide
@@ -55,6 +55,6 @@ Comfort works with [Video filters](/docs/user-guide/video-filters) and the cinem
 
 ## Shortcuts
 
-The four Comfort shortcuts start with no key: "Toggle eye comfort", "Toggle colour vision", "Toggle caption style" and "Toggle reading guide". They are optional. Give one a key in Settings, as [Change a shortcut](/docs/keyboard-shortcuts/rebinding) shows.
+The four Comfort shortcuts start with no key: "Toggle eye comfort", "Toggle color vision", "Toggle caption style" and "Toggle reading guide". They are optional. Give one a key in Settings, as [Change a shortcut](/docs/keyboard-shortcuts/rebinding) shows.
 
 Next: [Visual effects and zoom](/docs/user-guide/visual-effects).

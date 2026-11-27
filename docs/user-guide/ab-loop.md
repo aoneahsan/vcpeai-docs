@@ -28,7 +28,7 @@ It helps with a guitar lesson that has one fast bar, a lecture where the proof g
 
 ## Loop modes
 
-You pick the mode on the widget's Loop tab, and the widget's labels are in English ([why](/docs/user-guide/display-and-widget)).
+You pick the mode on the widget's Loop tab. Its labels follow your browser language when that language is English, Spanish, French or German ([change the language](/docs/user-guide/display-and-widget)).
 
 | Mode | What happens at B |
 |---|---|

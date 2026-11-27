@@ -18,7 +18,7 @@ Floating Video Player floats the video over your other windows, and adds nothing
 ## One key instead of one extension
 
 1. [Install Video Controls Plus](../getting-started/install.md).
-2. Start a video and press `Ctrl + Alt + P`. It floats: [Watch in Picture-in-Picture](../user-guide/picture-in-picture.md).
+2. [Connect your account](../account-and-sync.md), start a video and press `Ctrl + Alt + P`. It floats: [Watch in Picture-in-Picture](../user-guide/picture-in-picture.md).
 3. On that same page there's a switch that floats the video by itself when you scroll away from it.
 4. Turn Floating Video Player off on the Extensions page so one extension, not two, floats your videos. Remove it once the key does what you need.
 

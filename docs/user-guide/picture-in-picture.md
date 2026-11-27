@@ -1,10 +1,10 @@
 ---
 title: Watch in Picture-in-Picture
 sidebar_label: Picture-in-Picture
-description: Press Ctrl + Alt + P to put the video in a Picture-in-Picture window, or let it enter on its own when you scroll away; it works without an account.
+description: Connect an account, then press Ctrl + Alt + P to put a video in a Picture-in-Picture window or let it enter when you scroll away.
 ---
 
-Press `Ctrl + Alt + P` to put the video in a Picture-in-Picture window, and press it again to bring it back. It works without an account.
+Connect an account, then press `Ctrl + Alt + P` to put the video in a Picture-in-Picture window. Press it again to bring the video back.
 
 ## Use it
 

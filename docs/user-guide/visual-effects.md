@@ -14,8 +14,8 @@ Open the widget's Filters tab and find **Looks & overlays**.
 
 | Control | What it does |
 |---|---|
-| **Colour grade** | One of 20 grades, such as Teal & orange, Film noir, Vintage 8mm, Golden hour and Moonlight, with a **Strength** slider |
-| **Art look** | Oil painting, Pencil sketch, Engraving or Coloured emboss |
+| **Color grade** | One of 20 grades, such as Teal & orange, Film noir, Vintage 8mm, Golden hour and Moonlight, with a **Strength** slider |
+| **Art look** | Oil painting, Pencil sketch, Engraving or Colored emboss |
 | **Sharpen** | 0% to 100%, in steps of 10, applied before the color tools |
 | **Vignette** | Darkens the corners of the picture |
 | **Film grain** | Adds grain, still or moving |

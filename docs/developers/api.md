@@ -107,7 +107,7 @@ A video is named by four fields across these parts: `platform` (the site, such a
 
 ### Bookmarks {#bookmarks}
 
-Moments you saved in a video: the time, a label, a note and a colour.
+Moments you saved in a video: the time, a label, a note and a color.
 
 | | |
 |---|---|

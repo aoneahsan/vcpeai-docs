@@ -52,7 +52,7 @@ There is also a compact mode and a reduced motion switch. The 11 fonts come with
 
 Settings and the popup are available in English, Spanish, French and German: **Auto-detect Language** follows your browser's language, and **Language** lets you pick one yourself.
 
-The widget is in English today. It stays in English when Settings is in Spanish, French or German.
+The widget follows your browser language in English, Spanish, French or German. If your browser uses another language, it falls back to English. The language you choose for Settings does not change the widget.
 
 ## Related keys
 

@@ -78,7 +78,7 @@ There is no ninth preset by default. Add a ninth preset to use `Ctrl + Alt + 9`.
 | `,` | Step back one frame | No |
 | `.` | Step forward one frame | No |
 | `Ctrl + Alt + X` | Copy a link with the timestamp | No |
-| `Ctrl + Alt + Z` | Theater/focus mode on or off | No |
+| `Ctrl + Alt + Z` | Theater mode on or off | No |
 
 ## Bookmarks
 
@@ -93,7 +93,8 @@ These start with no key. In Settings, open the Keyboard Shortcuts tab, find the 
 | Group in Settings | Shortcut | Needs an account |
 |---|---|---|
 | Comfort | Toggle eye comfort | No |
-| Comfort | Toggle colour vision | No |
+| Comfort | Toggle color vision | No |
+| Bookmarks | Toggle Focus Mode | No |
 | Comfort | Toggle caption style | No |
 | Comfort | Toggle reading guide | No |
 | Study | Start or pause the study timer | No |

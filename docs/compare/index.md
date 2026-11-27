@@ -26,7 +26,7 @@ Pick the extension you use now. Each page has the steps to move across, or says 
 - [Video Download Helper](./video-downloadhelper.md): A video downloader for Chrome, Firefox and Edge, free with a premium licence for unlimited downloads.
 - [video downloader - CocoCut](./video-downloader-cococut.md): A downloader for Chrome and Edge that catches HLS streams and records what it can't download, free with an optional premium.
 - [Video & Audio Downloader](./video-audio-downloader.md): A toolbar popup that lists the media playing in the tab for download or link copy; not for YouTube.
-- [Magic Actions for YouTube](./magic-actions-for-youtube.md): A YouTube-only theatre: cinema mode with colour presets, mouse-wheel volume, auto HD, repeat, frame grabs and hidden page elements.
+- [Magic Actions for YouTube](./magic-actions-for-youtube.md): A YouTube-only theatre: cinema mode with color presets, mouse-wheel volume, auto HD, repeat, frame grabs and hidden page elements.
 
 ## No longer available
 

@@ -14,7 +14,7 @@ Open any page with a video and press `]`. The video goes 0.1x faster, and you've
 4. Press `=` to go back to your default speed.
 5. Press `Ctrl + Alt + 4` to jump straight to 2x.
 
-That's speed control, and it needs no account. The same keyboard does a lot more than speed: `,` and `.` step the video one frame at a time, and `Ctrl + Alt + P` puts it in a Picture-in-Picture window, before you connect an account.
+That's speed control, and it needs no account. The same keyboard does more: `,` and `.` step the video one frame at a time. Picture-in-Picture opens after you connect an account.
 
 ## Find the widget
 
@@ -30,11 +30,12 @@ Settings opens in its own tab.
 
 ## What needs a connected account
 
-Speed, presets, frame step, Picture-in-Picture, share timestamp, theater mode, browser-local bookmarks and the widget work without an account. These controls open after you connect one:
+Speed, presets, frame step, share timestamp, theater mode, browser-local bookmarks and the widget work without an account. These controls open after you connect one:
 
 | Control | Key to try after you connect |
 |---|---|
 | A-B loop | `Ctrl + Alt + A`, then `Ctrl + Alt + B` |
+| Picture-in-Picture | `Ctrl + Alt + P` |
 | Audio boost | `Ctrl + Alt + U` |
 | Video filters | `Ctrl + Alt + F` |
 | Screenshots | `Ctrl + Alt + C` |

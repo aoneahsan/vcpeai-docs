@@ -46,7 +46,7 @@ The extras run only on youtube.com.
 
 ## How you run an extra
 
-You run an extra from the YouTube tab in the widget or from the right-click menu, and the labels there are in English today ([why](/docs/user-guide/display-and-widget)).
+You run an extra from the YouTube tab in the widget or from the right-click menu. The widget labels follow your browser language when it is English, Spanish, French or German ([change the language](/docs/user-guide/display-and-widget)).
 
 Only the extras you ticked for the right-click menu appear there. That keeps the menu short.
 

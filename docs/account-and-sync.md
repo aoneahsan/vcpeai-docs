@@ -24,6 +24,7 @@ The code lasts 10 minutes. If you closed the tab, press **Open the page again** 
 | Needs a connected account today | Page |
 |---|---|
 | A-B loop | [A-B loop](/docs/user-guide/ab-loop) |
+| Picture-in-Picture | [Picture-in-Picture](/docs/user-guide/picture-in-picture) |
 | Audio boost | [Audio boost](/docs/user-guide/audio-boost) |
 | Video filters | [Video filters](/docs/user-guide/video-filters) |
 | Screenshots | [Screenshots](/docs/user-guide/screenshots) |
@@ -33,7 +34,7 @@ The code lasts 10 minutes. If you closed the tab, press **Open the page again** 
 | The New Features, YouTube, Netflix and LinkedIn tabs in Settings | [YouTube](/docs/platforms/youtube), [Netflix](/docs/platforms/netflix), [LinkedIn](/docs/platforms/linkedin) |
 | The shared AI allowance | [AI features](/docs/ai-features) |
 
-Without an account, you have speed, presets, frame step, Picture-in-Picture, share timestamp, theater mode, bookmarks saved in this browser and the widget.
+Without an account, you have speed, presets, frame step, share timestamp, theater mode, bookmarks saved in this browser and the widget.
 
 The YouTube and LinkedIn extras that are on by default run without an account, and only the Settings tab where you switch them asks you to connect.
 

@@ -19,7 +19,7 @@ Video Popout is a single toolbar button: click it and the playing video pops int
 
 1. [Install Video Controls Plus](../getting-started/install.md).
 2. Pin it to the toolbar where Video Popout's button was. The popup is then one click away, just like before.
-3. For the pop-out itself, press `Ctrl + Alt + P` on the video: [Watch in Picture-in-Picture](../user-guide/picture-in-picture.md).
+3. [Connect your account](../account-and-sync.md), then press `Ctrl + Alt + P` on the video: [Watch in Picture-in-Picture](../user-guide/picture-in-picture.md).
 4. Unpin and turn off Video Popout on the Extensions page, so only one extension handles picture in picture, then remove it.
 
 ## What its listing says about price
