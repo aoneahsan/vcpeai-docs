@@ -8,7 +8,7 @@ On LinkedIn it does a lot more than control a video: it scores your profile, tra
 
 ## The tools
 
-A tool opens its panel, or it exports or downloads, at once.
+A tool opens its panel, or it exports or downloads, at once. Each of the 48 has its own section, with steps, an example and an FAQ, on the website's LinkedIn pages, starting with [profile tools](https://vcpeai.aoneahsan.com/features/linkedin-profile).
 
 | Tool | What it does | Default |
 |---|---|---|

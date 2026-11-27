@@ -1,7 +1,6 @@
 ---
 title: Access keys
 description: Make a Video Controls Plus access key for a tool you run, choose what it reaches and when it stops, and show, replace or remove it later.
-tags: [developers, api, access-keys]
 last_update:
   date: 2026-11-21
 ---

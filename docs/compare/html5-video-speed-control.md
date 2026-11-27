@@ -3,12 +3,17 @@ title: "Moving from HTML5 Video Speed Control"
 sidebar_label: "HTML5 Video Speed Control"
 description: "Move from HTML5 Video Speed Control to Video Controls Plus: real steps, its prices and feature rows with sources. Checked 2026-11-07."
 last_update:
-  date: 2026-11-07
+  date: 2026-11-27
 ---
 
 HTML5 Video Speed Control gives you keys to speed up, slow down, advance and rewind, and stops there. That's a fine place to stop if it's all you use. Coming here, your hands keep their keys; what's added is speed remembered per video, presets, loops, filters and notes, kept in one account.
 
 **Last checked 2026-11-07.** A keyboard speed controller for HTML5 video: speed up, slow down, advance and rewind. <a href="https://microsoftedge.microsoft.com/addons/detail/html5-video-speed-control/dpidphhdlkjaipgecjejekdeheeokfkf" target="_blank" rel="noopener noreferrer nofollow">Check HTML5 Video Speed Control yourself</a>.
+
+## Which one fits you
+
+- **HTML5 Video Speed Control:** Choose HTML5 Video Speed Control if you want keys for speed and seeking and no other feature.
+- **Video Controls Plus:** Choose Video Controls Plus if you want those keys plus per-video memory, presets, loops, filters and notes in one account.
 
 ## Same keys, new extension
 

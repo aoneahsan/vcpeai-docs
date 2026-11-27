@@ -2,7 +2,6 @@
 title: The Video Controls Plus API
 sidebar_label: The API
 description: The REST API for your own Video Controls Plus library, with the request shape, pages, errors, limits and a curl example for every part.
-tags: [developers, api, rest, openapi]
 last_update:
   date: 2026-11-21
 ---

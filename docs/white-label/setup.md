@@ -2,7 +2,6 @@
 title: White-label setup, step by step
 sidebar_label: Setup, step by step
 description: What happens after you pay for a Video Controls Plus white-label license, from sending your brand to your extension going live on Chrome, Firefox and Edge.
-tags: [white-label, setup]
 last_update:
   date: 2026-11-13
 ---

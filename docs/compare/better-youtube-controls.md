@@ -3,12 +3,17 @@ title: "Moving from Better YouTube Controls"
 sidebar_label: "Better YouTube Controls"
 description: "Move from Better YouTube Controls to Video Controls Plus: real steps, its prices and feature rows with sources. Checked 2026-11-07."
 last_update:
-  date: 2026-11-07
+  date: 2026-11-27
 ---
 
 Better YouTube Controls does one thing: on YouTube, up and down always mean volume and left and right always mean seek. If that fix is all you were missing, keep it. Here you decide what each key does yourself, and the keys work on other sites as well as YouTube, with loops, notes and watch later beside them.
 
 **Last checked 2026-11-07.** A tiny YouTube-only fix: up and down always change volume, left and right always seek. <a href="https://microsoftedge.microsoft.com/addons/detail/better-youtube-controls/bpljafjhnmghkiedehilngmbcpibahci" target="_blank" rel="noopener noreferrer nofollow">Check Better YouTube Controls yourself</a>.
+
+## Which one fits you
+
+- **Better YouTube Controls:** Choose Better YouTube Controls if that one arrow-key fix on YouTube is all you want.
+- **Video Controls Plus:** Choose Video Controls Plus if you want keys you can rebind on YouTube and every other site, plus loops, notes and watch later.
 
 ## Giving the arrow keys their jobs back
 

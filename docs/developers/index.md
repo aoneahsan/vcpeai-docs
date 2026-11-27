@@ -2,7 +2,6 @@
 title: Video Controls Plus for developers
 sidebar_label: Overview
 description: Read and change your own Video Controls Plus bookmarks, notes, flashcards and more from a script, Claude or ChatGPT, or your own server.
-tags: [developers, api, mcp, webhooks]
 last_update:
   date: 2026-11-21
 ---

@@ -3,12 +3,17 @@ title: "Video & Audio Downloader and Video Controls Plus"
 sidebar_label: "Video & Audio Downloader"
 description: "Video & Audio Downloader and Video Controls Plus do different jobs. How they differ, what each costs, and where to start here. Checked 2026-11-07."
 last_update:
-  date: 2026-11-07
+  date: 2026-11-27
 ---
 
 Video & Audio Downloader is a toolbar popup that lists the media playing in the tab, so you can download it, copy its link or zip the lot. It isn't for YouTube. We don't download anything: we control the video on the page, with YouTube extras, loops, notes and watch later. The two sit side by side without a move between them.
 
 **Last checked 2026-11-07.** A toolbar popup that lists the media playing in the tab for download or link copy; not for YouTube. <a href="https://microsoftedge.microsoft.com/addons/detail/video-audio-downloader/ijgjhlfeehehjgionndhjjfckmobedee" target="_blank" rel="noopener noreferrer nofollow">Check Video & Audio Downloader yourself</a>.
+
+## Which one fits you
+
+- **Video & Audio Downloader:** Choose Video & Audio Downloader if you want a popup list of the media on the page and a zip of all of it.
+- **Video Controls Plus:** Choose Video Controls Plus if you want to control the video on the page, with YouTube extras, loops, notes and watch later.
 
 ## Where to begin
 

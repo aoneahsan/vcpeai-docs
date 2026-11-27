@@ -3,12 +3,17 @@ title: "Moving from Super Video Speed Controller"
 sidebar_label: "Super Video Speed Controller"
 description: "Move from Super Video Speed Controller to Video Controls Plus: real steps, its prices and feature rows with sources. Checked 2026-11-07."
 last_update:
-  date: 2026-11-07
+  date: 2026-11-27
 ---
 
 Super Video Speed Controller changes speed with A, D and S, asks for no account and puts nothing else on the page. If speed is the only thing you want, it's free and it's enough. Moving is worth it when you want A-B loop, filters, notes, watch later and history too, in one account across Chrome, Firefox and Edge. There's little to carry: a speed and three keys.
 
 **Last checked 2026-11-07.** A speed-only extension for Chrome and Edge: presets, a custom percentage, and A, D and S keys. <a href="https://super-video-speed-controller.com/" target="_blank" rel="noopener noreferrer nofollow">Check Super Video Speed Controller yourself</a>.
+
+## Which one fits you
+
+- **Super Video Speed Controller:** Choose Super Video Speed Controller if speed is the one thing you want, with no account and nothing else on the page.
+- **Video Controls Plus:** Choose Video Controls Plus if you want speed and then a lot more: A-B loop, filters, notes, watch later and history, in one account on Chrome, Firefox and Edge.
 
 ## Bringing A, D and S with you
 

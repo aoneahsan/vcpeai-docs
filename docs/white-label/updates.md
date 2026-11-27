@@ -2,7 +2,6 @@
 title: White-label updates and renewals
 sidebar_label: Updates and renewals
 description: What an update is for a white-label copy of Video Controls Plus, the six months included with every license and buyout, and how to renew with your license key.
-tags: [white-label, updates, renewal]
 last_update:
   date: 2026-11-13
 ---

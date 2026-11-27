@@ -20,7 +20,7 @@ Press `]` to go 0.1x faster and `[` to go 0.1x slower, with or without an accoun
 
 On/off switches apply after that reload. Menu actions do not wait for one: opening a panel, starting a timer, exporting or downloading from the widget or the right-click menu happens at once.
 
-Each extra also has a "show in right-click menu" switch. The extras run only on netflix.com.
+Each extra also has a "show in right-click menu" switch. The extras run only on netflix.com. Every one of the 50 is described, with where Netflix's own protection limits it, in [the guide to every Netflix extra](https://vcpeai.aoneahsan.com/blog/netflix-extras-guide).
 
 | Extra | What it does | Default |
 |---|---|---|

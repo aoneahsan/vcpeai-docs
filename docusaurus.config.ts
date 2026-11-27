@@ -8,6 +8,8 @@ import type { Options as BlogPluginOptions } from '@docusaurus/plugin-content-bl
 import { themes as prismThemes } from 'prism-react-renderer';
 import { BLOG_DESCRIPTION, BLOG_PATH, BLOG_TITLE } from './src/data/blog';
 import { CURRENT_SURFACE, PLATFORMS } from './src/data/platforms';
+import { seoRedirects } from './plugins/seo-redirects';
+import { siteJsonLd } from './plugins/site-json-ld';
 
 const SITE_URL = 'https://vcpeai-docs.aoneahsan.com';
 const PRODUCT_URL = 'https://vcpeai.aoneahsan.com';
@@ -235,10 +237,17 @@ function discoveryPlugin({ siteDir }: LoadContext): Plugin {
       // `rss.xsl` / `rss.css` references still resolve from the site root.
       const source = path.join(outDir, 'changelog');
       await waitForBlogRss(path.join(source, 'rss.xml'));
-      for (const file of ['rss.xml', 'rss.xsl', 'rss.css']) {
-        const target = file === 'rss.xml' ? 'feed.xml' : file;
-        await fs.copyFile(path.join(source, file), path.join(outDir, target));
+      for (const file of ['rss.xsl', 'rss.css']) await fs.copyFile(path.join(source, file), path.join(outDir, file));
+      // The copy names itself as its own address, so `/feed.xml` is not a duplicate pointing at nobody (issue #1
+      // box 7: "Duplicate without user-selected canonical"). The changelog's own rss.xml keeps its address.
+      const rss = await fs.readFile(path.join(source, 'rss.xml'), 'utf8');
+      if (!rss.includes('<rss version="2.0"') || !rss.includes('<channel>')) {
+        throw new Error('vcpeai-discovery: changelog/rss.xml is not the RSS 2.0 shape this copy expects');
       }
+      const feed = rss
+        .replace('<rss version="2.0"', '<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom"')
+        .replace('<channel>', `<channel>\n        <atom:link href="${SITE_URL}/feed.xml" rel="self" type="application/rss+xml"/>`);
+      await fs.writeFile(path.join(outDir, 'feed.xml'), feed);
     },
   };
 }
@@ -250,7 +259,9 @@ const config: Config = {
 
   url: SITE_URL,
   baseUrl: '/',
-  trailingSlash: false,
+  // GitHub Pages serves `<route>/index.html` for both `/x` (301 to `/x/`) and `/x/`; `false` made every slashed
+  // address a 404 (aoneahsan/vcpeai-docs#1, SA-P26). `yarn seo:contract` fails the build if this flips back.
+  trailingSlash: true,
 
   organizationName: 'aoneahsan',
   projectName: 'vcpeai-docs',
@@ -271,7 +282,12 @@ const config: Config = {
   },
 
   // Plugin data for /sitemap and /feed, plus the root /feed.xml; the posts blog once it has a post.
-  plugins: [discoveryPlugin, ...(HAS_POSTS ? [POSTS_BLOG] : [])],
+  // The redirects keep every address search engines still ask for answering (tag pages, SA-P31/P32).
+  plugins: [
+    discoveryPlugin,
+    ...(HAS_POSTS ? [POSTS_BLOG] : []),
+    ['@docusaurus/plugin-client-redirects', { redirects: seoRedirects() }],
+  ],
 
   themes: [
     [
@@ -311,6 +327,8 @@ const config: Config = {
         href: `${SITE_URL}/feed.xml`,
       },
     },
+    // WebSite, the Zaions organization, the developer and the product, in every page's initial HTML (SA-P30).
+    { tagName: 'script', attributes: { type: 'application/ld+json' }, innerHTML: JSON.stringify(siteJsonLd(SITE_URL, PRODUCT_URL)) },
   ],
 
   presets: [
@@ -323,6 +341,8 @@ const config: Config = {
           editUrl: `${REPO_URL}/tree/main/`,
           // Feeds `<lastmod>` in sitemap.xml from each page's last commit.
           showLastUpdateTime: true,
+          // Generated tag pages were fleet boilerplate (SA-P32): a tag in front matter now fails the build.
+          onInlineTags: 'throw',
           // `exclude` replaces the defaults, so they are restated before the project entries
           // (the internal fixed-path files MANUAL-TASKS.md and PACKAGES.md, and the story records).
           exclude: [
@@ -333,6 +353,8 @@ const config: Config = {
             'MANUAL-TASKS.md',
             'PACKAGES.md',
             'story/**',
+            // The search-console fix record is for the people running the audit, never a public page.
+            'search-consoles/**',
           ],
         },
         blog: {
@@ -355,18 +377,19 @@ const config: Config = {
         },
         sitemap: {
           lastmod: 'date',
-          // Tag lists are navigation, not answers: kept out of the sitemap and noindexed by their theme wrappers.
+          // Docs carry no tags (their old tag addresses redirect, plugins/seo-redirects.ts). Archive and search are
+          // utility pages, kept out of the sitemap.
           ignorePatterns: [
             '/changelog/tags/**',
-            '/changelog/archive',
-            `${BLOG_PATH}/tags`,
+            '/changelog/archive/',
+            `${BLOG_PATH}/tags/`,
             `${BLOG_PATH}/tags/**`,
-            `${BLOG_PATH}/authors`,
+            `${BLOG_PATH}/authors/`,
             `${BLOG_PATH}/authors/**`,
-            `${BLOG_PATH}/archive`,
+            `${BLOG_PATH}/archive/`,
             `${BLOG_PATH}/page/**`,
-            '/search',
-            '/docs/tags',
+            '/search/',
+            '/docs/tags/',
             '/docs/tags/**',
           ],
           filename: 'sitemap.xml',

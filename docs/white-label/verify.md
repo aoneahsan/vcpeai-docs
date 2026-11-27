@@ -2,7 +2,6 @@
 title: Verify a white-label license
 sidebar_label: Verify a license
 description: How anyone can check that a white-label copy of Video Controls Plus is licensed, by its key or by its domain, and the license file every deployment serves.
-tags: [white-label, verify, license]
 last_update:
   date: 2026-11-13
 ---

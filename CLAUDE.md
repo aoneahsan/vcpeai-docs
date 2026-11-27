@@ -1,6 +1,6 @@
 # Video Controls Plus Documentation Site Guide
 
-**Last Updated:** 2026-11-22
+**Last Updated:** 2026-11-27
 
 This public repository builds the Video Controls Plus Docusaurus site, served at
 `https://vcpeai-docs.aoneahsan.com` from GitHub Pages. `CLAUDE.md` and `AGENTS.md` are mirrors; read
@@ -67,3 +67,9 @@ render check needs it. Use Yarn only; never npm or pnpm.
 - The build reads page dates from Git (`showLastUpdateTime`, sitemap `lastmod`) and fails in a
   repository with no commits.
 - Do not read or edit `node_modules/`, `build/` or `.docusaurus/`.
+- `trailingSlash: true` (GitHub Pages 404s the slashed form otherwise); every internal and `llms.txt` link uses the
+  slashed form. Pages carry no `tags` front matter (`onInlineTags: 'throw'`); old tag addresses redirect through
+  `plugins/seo-redirects.ts`, and a moved page gets an entry there in the same commit.
+- `yarn build` ends with `yarn seo:contract` (`plugins/seo-contract.ts`): one title, description, `<h1>` and
+  self-canonical per page, no `noindex` outside 404 and search, the site JSON-LD graph, the sitemap and every redirect.
+  Search-console fix records live in `docs/search-consoles/` (excluded from the build).

@@ -3,12 +3,17 @@ title: "Moving from Video Popout"
 sidebar_label: "Video Popout"
 description: "Move from Video Popout to Video Controls Plus: real steps, its prices and feature rows with sources. Checked 2026-11-07."
 last_update:
-  date: 2026-11-07
+  date: 2026-11-27
 ---
 
 Video Popout is a single toolbar button: click it and the playing video pops into a floating window. People who want exactly that button and nothing else should keep it. Here the same pop-out is a key press with no account, and speed, loops, filters, notes and watch later come with it.
 
 **Last checked 2026-11-07.** A one-button extension that pops the playing video into a floating window with the picture-in-picture API. <a href="https://microsoftedge.microsoft.com/addons/detail/video-popout/odihcnhicdilemcminjlkanojghdeoam" target="_blank" rel="noopener noreferrer nofollow">Check Video Popout yourself</a>.
+
+## Which one fits you
+
+- **Video Popout:** Choose Video Popout if you want one toolbar button that floats the video and nothing else.
+- **Video Controls Plus:** Choose Video Controls Plus if you want picture in picture together with speed, loops, filters, notes and watch later.
 
 ## Keeping the habit, changing the button
 

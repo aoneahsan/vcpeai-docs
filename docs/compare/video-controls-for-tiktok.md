@@ -3,12 +3,17 @@ title: "Moving from Video Controls for TikTok"
 sidebar_label: "Video Controls for TikTok"
 description: "Move from Video Controls for TikTok to Video Controls Plus: real steps, its prices and feature rows with sources. Checked 2026-11-07."
 last_update:
-  date: 2026-11-07
+  date: 2026-11-27
 ---
 
 If TikTok is the only site you watch, Video Controls for TikTok is built for it: keys, a remembered volume and pop-out windows, there and nowhere else. We have no special features for TikTok. What we offer is one set of keys, speed to 16x, loops and notes on every site you watch, so test it on your own feed before you change anything.
 
 **Last checked 2026-11-07.** Keys, speed from .25x to 2x, a remembered volume and pop-out windows for TikTok on the web. <a href="https://microsoftedge.microsoft.com/addons/detail/video-controls-for-tiktok/ebdnngofmgnaionkomakdfobijebolcn" target="_blank" rel="noopener noreferrer nofollow">Check Video Controls for TikTok yourself</a>.
+
+## Which one fits you
+
+- **Video Controls for TikTok:** Choose Video Controls for TikTok if TikTok is the only site you watch and you want its keys and remembered volume there.
+- **Video Controls Plus:** Choose Video Controls Plus if you watch on more sites than TikTok and want one set of keys, speed to 16x, loops and notes everywhere.
 
 ## Trying it on your own feed
 

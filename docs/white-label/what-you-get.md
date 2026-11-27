@@ -2,9 +2,8 @@
 title: What you get with a white-label license or a buyout
 sidebar_label: What you get
 description: What the Video Controls Plus team delivers with a white-label license of the browser extension, and what a source buyout hands over.
-tags: [white-label, licensing, buyout]
 last_update:
-  date: 2026-11-13
+  date: 2026-11-27
 ---
 
 A white-label license gets you the extension and its website, running under your brand and kept up to date by us. A buyout gets you the source code.
@@ -19,6 +18,20 @@ A white-label license gets you the extension and its website, running under your
 - **A license key and a license file** your deployment serves, so anyone can [check it](./verify.md).
 
 A license does not include the source code, and it is not exclusive: we may license the same product to other businesses until someone buys it outright.
+
+## What the Video Controls Plus build is made of
+
+These are the parts a license runs for you, and the parts a buyout hands over. They are specific to this product, so you can judge the work before you ask.
+
+| Part | What it is today |
+|---|---|
+| The extension | One codebase built with WXT, React and TypeScript: Manifest V3 for Chrome and Edge, Manifest V2 for Firefox. No remote code; every library ships inside the package, which is what the Chrome Web Store requires. |
+| Site tools | Three feature registries: 62 YouTube extras, 52 Netflix extras (50 with a switch, all off at install) and 48 LinkedIn tools. Each registry entry drives the switch in Settings, the widget tab and the right-click menu. |
+| Sign-in | No password in the extension. A person signs in with Google on the companion website, and the extension connects with a short code shown on both screens. The same flow works on Chrome, Edge and Firefox. |
+| The companion website | Built with Vite and React, in ten languages: the account pages the extension connects to, notes, bookmarks, watch later, plans and the developer pages. |
+| The backend | Postgres with row-level security, a schema written in Drizzle, and server functions for AI runs, file uploads, email, payments, the API, the assistant (MCP) address and webhooks. |
+
+The Android app is not part of the browser-extension group.
 
 ## With a source buyout
 

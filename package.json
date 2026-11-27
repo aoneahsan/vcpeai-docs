@@ -6,15 +6,17 @@
   "description": "Documentation for Video Controls Plus, a browser extension for video playback control.",
   "scripts": {
     "start": "docusaurus start --port 5912",
-    "build": "NODE_OPTIONS=--no-experimental-webstorage docusaurus build",
+    "build": "NODE_OPTIONS=--no-experimental-webstorage docusaurus build && yarn seo:contract",
     "serve": "docusaurus serve --port 5912",
     "clear": "docusaurus clear",
     "write-translations": "docusaurus write-translations",
-    "typecheck": "tsc"
+    "typecheck": "tsc",
+    "seo:contract": "node plugins/seo-contract.ts"
   },
   "dependencies": {
     "@docusaurus/core": "3.10.2",
     "@docusaurus/faster": "3.10.2",
+    "@docusaurus/plugin-client-redirects": "3.10.2",
     "@docusaurus/plugin-content-docs": "3.10.2",
     "@docusaurus/preset-classic": "3.10.2",
     "@docusaurus/theme-common": "3.10.2",

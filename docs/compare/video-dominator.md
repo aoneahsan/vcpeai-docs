@@ -3,12 +3,17 @@ title: "Moving from Video Dominator"
 sidebar_label: "Video Dominator"
 description: "Move from Video Dominator to Video Controls Plus: real steps, its prices and feature rows with sources. Checked 2026-11-07."
 last_update:
-  date: 2026-11-07
+  date: 2026-11-27
 ---
 
 Video Dominator lives on the mouse wheel: hold a key, roll, and the video seeks or changes rate. If your right hand never leaves the mouse, or you like its distraction-free custom player, stay with it. Our docs cover keys and the on-page widget, not wheel actions, so coming here means moving your hand to the keyboard.
 
 **Last checked 2026-11-07.** Mouse-wheel video control: hold a key over the video to seek, change rate from 0x to 16x, set volume, and open a custom player. <a href="https://microsoftedge.microsoft.com/addons/detail/video-dominator/hlejfomdddipabpeainiooiobjnkepoo" target="_blank" rel="noopener noreferrer nofollow">Check Video Dominator yourself</a>.
+
+## Which one fits you
+
+- **Video Dominator:** Choose Video Dominator if your hand stays on the mouse and you want wheel actions and a distraction-free custom player.
+- **Video Controls Plus:** Choose Video Controls Plus if you want keyboard controls, A-B loop, filters, notes, watch later and an account that keeps them.
 
 ## Off the wheel, onto the keys
 

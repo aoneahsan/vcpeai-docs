@@ -1,7 +1,6 @@
 ---
 title: Webhooks
 description: Every Video Controls Plus webhook event, what a signed message carries, how to check its signature in Node or Python, and how retries work.
-tags: [developers, webhooks, standard-webhooks]
 last_update:
   date: 2026-11-21
 ---

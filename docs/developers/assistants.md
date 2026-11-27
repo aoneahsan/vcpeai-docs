@@ -2,7 +2,6 @@
 title: Connect Claude, ChatGPT, Claude Code or Cursor
 sidebar_label: Assistants
 description: Give an assistant the Video Controls Plus address, choose on the website what it can reach, and ask it about your notes, bookmarks and flashcards.
-tags: [developers, mcp, assistants, claude, chatgpt]
 last_update:
   date: 2026-11-21
 ---

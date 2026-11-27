@@ -3,12 +3,17 @@ title: "Moving from Web Video Controller - NudgePlay"
 sidebar_label: "Web Video Controller - NudgePlay"
 description: "Move from Web Video Controller - NudgePlay to Video Controls Plus: real steps, its prices and feature rows with sources. Checked 2026-11-07."
 last_update:
-  date: 2026-11-07
+  date: 2026-11-27
 ---
 
 NudgePlay is a small widget that appears when you hover the player: play, pause and a speed it remembers for each video. If that small widget is what you like, keep it. Ours is a widget too, with speed to 16x, A-B loop, filters and notes on it, one account across your devices, and you choose how much of it shows.
 
 **Last checked 2026-11-07.** A small hover widget on the player for play, pause and speed from 0.1x to 5x, remembered per video. <a href="https://microsoftedge.microsoft.com/addons/detail/web-video-controller-nu/dmacnkcmaabfmgjdeobmjiehgdnppipi" target="_blank" rel="noopener noreferrer nofollow">Check Web Video Controller - NudgePlay yourself</a>.
+
+## Which one fits you
+
+- **Web Video Controller - NudgePlay:** Choose NudgePlay if you want a small on-player speed widget with per-video memory and nothing more.
+- **Video Controls Plus:** Choose Video Controls Plus if you want that widget and speed to 16x, A-B loop, filters, notes and one account across devices.
 
 ## One widget in place of another
 

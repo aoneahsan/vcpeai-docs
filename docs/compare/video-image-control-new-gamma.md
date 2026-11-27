@@ -3,12 +3,17 @@ title: "Moving from Video Image Control ( new gamma )"
 sidebar_label: "Video Image Control ( new gamma )"
 description: "Move from Video Image Control ( new gamma ) to Video Controls Plus: real steps, its prices and feature rows with sources. Checked 2026-11-07."
 last_update:
-  date: 2026-11-07
+  date: 2026-11-27
 ---
 
 Video Image Control is for fixing the picture: gamma, sharpness, brightness, sepia, flip. If gamma and sharpness sliders are what you open it for and a little speed is enough, it fits you. Here filters and visual effects do the picture work, most of them need a connected account, and speed runs to 16x alongside A-B loop and notes on Chrome, Firefox and Edge.
 
 **Last checked 2026-11-07.** A picture-correction extension: sharpness, brightness, contrast, saturation, gamma, grayscale, sepia, rotate and flip, with speed from 0.5x to 2.5x. <a href="https://microsoftedge.microsoft.com/addons/detail/video-image-control-new/gjjblcgfmgbgjlnffmdkojoikfpcidba" target="_blank" rel="noopener noreferrer nofollow">Check Video Image Control ( new gamma ) yourself</a>.
+
+## Which one fits you
+
+- **Video Image Control ( new gamma ):** Choose Video Image Control if you want gamma and sharpness sliders on the picture and only a little speed control.
+- **Video Controls Plus:** Choose Video Controls Plus if you want filters and speed to 16x, A-B loop, notes and an account, on Chrome, Firefox and Edge.
 
 ## Recreating your picture settings
 

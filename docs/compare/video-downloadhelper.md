@@ -3,12 +3,17 @@ title: "Video Download Helper and Video Controls Plus"
 sidebar_label: "Video Download Helper"
 description: "Video Download Helper and Video Controls Plus do different jobs. How they differ, what each costs, and where to start here. Checked 2026-11-07."
 last_update:
-  date: 2026-11-07
+  date: 2026-11-27
 ---
 
 Video Download Helper saves video from many sites to your disk, on Chrome, Firefox and Edge, for one licence. Video Controls Plus doesn't download. It controls the video while you watch: speed, loops, filters, notes and watch later in one account. So there's nothing to move across. If downloading is your job, keep Video Download Helper and add us beside it.
 
 **Last checked 2026-11-07.** A video downloader for Chrome, Firefox and Edge, free with a premium licence for unlimited downloads. <a href="https://downloadhelper.net/" target="_blank" rel="noopener noreferrer nofollow">Check Video Download Helper yourself</a>.
+
+## Which one fits you
+
+- **Video Download Helper:** Choose Video Download Helper if downloading from many sites is the job and you want it on all three browsers for one licence.
+- **Video Controls Plus:** Choose Video Controls Plus if you want to control the video while you watch it: speed, loops, filters, notes and watch later in one account.
 
 ## Running both
 

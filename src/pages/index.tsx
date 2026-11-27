@@ -6,6 +6,18 @@ import { PRIMARY_PLATFORM, SECONDARY_PLATFORMS } from '../data/platforms';
 import styles from './index.module.css';
 
 const LEDE = translate({ id: 'home.lede', message: 'Control your online video player the way you want it, and get special features on each website.' });
+// The page's own summary for search results: what these docs cover, in this product's numbers (vcpeai-docs#1 box 2).
+const DESCRIPTION = translate({
+  id: 'home.description',
+  message: 'Docs for Video Controls Plus: speed from 0.1x to 16x, the A-B loop, 400% audio boost, the YouTube, Netflix and LinkedIn extras, shortcuts and your data.',
+});
+/** What the extension does, in its own numbers, checked against the shipped-feature list (2026-11-27). */
+const FACTS = [
+  { title: '0.1x to 16x', text: 'Press [ or ] to change speed by 0.1x up to 4x; type a custom speed in the widget to go to 16x. Speed works without an account.', to: '/docs/user-guide/speed-control' },
+  { title: 'Ctrl + Alt, then a letter', text: 'Every letter and digit key starts with Ctrl + Alt so it never fights the site. Only [ ] = \\ \' , . and Esc work alone, and every key can be changed.', to: '/docs/keyboard-shortcuts/defaults' },
+  { title: '62 · 52 · 48', text: 'YouTube has 62 extras, most on from the start. Netflix has 52, and the 50 with a switch start off. LinkedIn has 48 tools.', to: '/docs/platforms/youtube' },
+  { title: 'A loop, 400%, filters', text: 'The A-B loop, audio boost to 400%, filters and screenshots need an account on the website. Connecting takes a short code, not a password.', to: '/docs/account-and-sync' },
+] as const;
 const SECTIONS = [
   { title: 'Getting started', text: 'Install it, press your first key, and pause it on one site.', to: '/docs/getting-started/install' },
   { title: 'User guide', text: 'Speed, A-B loop, audio boost, filters, screenshots and notes, one page each.', to: '/docs/user-guide/speed-control' },
@@ -23,7 +35,7 @@ const SECTIONS = [
 
 /** The approved documentation landing layout, with real published destinations. */
 export default function Home(): React.JSX.Element {
-  return <Layout description={LEDE}><main className={styles.page}>
+  return <Layout description={DESCRIPTION}><main className={styles.page}>
     <section className={styles.hero}><div className={styles.wrap}>
       <div><p className={styles.eyebrow}><Translate id="home.startHere">Documentation / Start here</Translate></p>
         <h1>Video Controls Plus</h1><p className={styles.lede}>{LEDE}</p>
@@ -35,8 +47,19 @@ export default function Home(): React.JSX.Element {
       </div>
       <div className={styles.timeline} aria-hidden="true"><span>0:00</span><span className={styles.track}><i /></span><span>10:00</span></div>
     </div></section>
+    <section className={styles.sections} aria-labelledby="docs-facts-title"><div className={styles.wrap}>
+      <p className={styles.eyebrow}><Translate id="home.factsLabel">01 / Before you read</Translate></p>
+      <h2 id="docs-facts-title"><Translate id="home.factsTitle">Four things people ask first.</Translate></h2>
+      <div className={styles.grid}>{FACTS.map((fact) =>
+        <Link key={fact.to} className={styles.card} to={fact.to}>
+          <strong>{fact.title}</strong>
+          <span>{fact.text}</span>
+          <small><Translate id="home.openArticle">Open article</Translate> ↗</small>
+        </Link>)}</div>
+      <p className={styles.credit}><Translate id="home.credit">Written by the Video Controls Plus team at</Translate> <Link href="https://zaions.com">Zaions</Link>, <Translate id="home.creditDeveloper">the products company of developer</Translate> <Link href="https://aoneahsan.com">Ahsan Mahmood</Link>. <Translate id="home.creditGuides">Step-by-step guides for each platform live on the</Translate> <Link href="https://vcpeai.aoneahsan.com/blog">Video Controls Plus blog</Link>.</p>
+    </div></section>
     <section className={styles.sections} aria-labelledby="docs-sections-title"><div className={styles.wrap}>
-      <p className={styles.eyebrow}><Translate id="home.sectionsLabel">01 / Documentation sections</Translate></p>
+      <p className={styles.eyebrow}><Translate id="home.sectionsLabel">02 / Documentation sections</Translate></p>
       <h2 id="docs-sections-title"><Translate id="home.pickNext">Pick the next page.</Translate></h2>
       <div className={styles.grid}>{SECTIONS.map((section, index) =>
         <Link key={section.to} className={styles.card} to={section.to}>

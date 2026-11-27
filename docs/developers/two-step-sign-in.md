@@ -1,7 +1,6 @@
 ---
 title: Two-step sign-in
 description: Add a six-digit code after Google to your Video Controls Plus account, keep ten recovery codes, remember a browser for 7 days, and connect the extension.
-tags: [developers, security, two-step-sign-in, account]
 last_update:
   date: 2026-11-21
 ---

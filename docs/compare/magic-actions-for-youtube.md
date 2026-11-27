@@ -3,12 +3,17 @@ title: "Moving from Magic Actions for YouTube"
 sidebar_label: "Magic Actions for YouTube"
 description: "Move from Magic Actions for YouTube to Video Controls Plus: real steps, its prices and feature rows with sources. Checked 2026-11-07."
 last_update:
-  date: 2026-11-07
+  date: 2026-11-27
 ---
 
 Magic Actions turns YouTube into a small theatre: cinema mode, 40 colour presets, mouse-wheel volume, auto HD. It's free and it only works on YouTube. If YouTube is all you watch and you love that cinema look, keep it. Here the YouTube extras each have their own switch, and the same controls follow you to Netflix, LinkedIn and any other video site, with notes and an account behind them.
 
 **Last checked 2026-11-07.** A YouTube-only theatre: cinema mode with colour presets, mouse-wheel volume, auto HD, repeat, frame grabs and hidden page elements. <a href="https://www.chromeactions.com/" target="_blank" rel="noopener noreferrer nofollow">Check Magic Actions for YouTube yourself</a>.
+
+## Which one fits you
+
+- **Magic Actions for YouTube:** Choose Magic Actions if YouTube is the only site you watch and you want its cinema look and 40 colour presets.
+- **Video Controls Plus:** Choose Video Controls Plus if you want YouTube extras and the same controls on Netflix, LinkedIn and any other video site, with notes and an account.
 
 ## Moving your YouTube setup
 

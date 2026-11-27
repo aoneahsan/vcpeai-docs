@@ -1,7 +1,6 @@
 ---
 title: Developers changelog
 description: Changes to the Video Controls Plus API, assistant address, webhooks and two-step sign-in, newest first.
-tags: [developers, changelog]
 last_update:
   date: 2026-11-21
 ---

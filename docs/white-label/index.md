@@ -2,7 +2,6 @@
 title: White-label and licensing
 sidebar_label: Overview
 description: Run Video Controls Plus under your own brand on Chrome, Firefox and Edge, hosted and updated by the Video Controls Plus team, or buy the source outright.
-tags: [white-label, licensing, buyout]
 last_update:
   date: 2026-11-13
 ---

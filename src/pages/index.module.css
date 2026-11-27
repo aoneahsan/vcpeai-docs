@@ -22,6 +22,7 @@
 .card:hover { border-color: var(--vcp-blue); color: var(--vcp-ink); text-decoration: none; }
 .card strong { font-size: clamp(2rem, 3vw, 3rem); }
 .card small { margin-top: auto; color: var(--vcp-link); font-weight: 800; }
+.credit { max-width: 52rem; margin: 2rem 0 0; color: var(--vcp-ink); line-height: 1.6; }
 .sitemapBand { padding: 4rem 0; background: var(--vcp-paper-raised); }
 .sitemapBand a { font-weight: 750; }
 @media (max-width: 799px) { .hero .wrap, .grid { grid-template-columns: 1fr; } .hero h1 { font-size: clamp(3.6rem, 13vw, 6rem); } .timeline { min-height: 11rem; } }

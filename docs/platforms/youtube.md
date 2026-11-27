@@ -33,7 +33,7 @@ Ad Skip clicks the button YouTube shows. It does not remove ads, and it does not
 2. Go to the **YouTube Features** tab.
 3. Connect an account if the tab asks you to.
 
-The extras are grouped: Comments, Discovery & Blocking, Navigation, Viewing Experience, Player, Productivity, Learning, Analytics, Advanced and Downloads.
+The extras are grouped: Comments, Discovery & Blocking, Navigation, Viewing Experience, Player, Productivity, Learning, Analytics, Advanced and Downloads. What each of the 62 does, and where it stops, is in [the guide to every YouTube extra](https://vcpeai.aoneahsan.com/blog/youtube-extras-guide).
 
 Each extra has two switches.
 
