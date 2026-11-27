@@ -5,6 +5,10 @@ Newest entry first, one section per filed issue. This folder is excluded from th
 `live-verified` is ours; `indexed` belongs to Google. The website half is in `aoneahsan/video-controls-plus-extension`
 → `docs/search-consoles/fix-log.md`.
 
+## 2026-11-27 Standard Webhooks link — source fix
+
+The emitted Developers webhooks page followed a third-party Standard Webhooks link. Its Markdown now emits `rel="nofollow"`; `yarn typecheck && yarn build` passed and the generated `docs/developers/webhooks/index.html` retains the link with that relation. Publication and live/browser proof follow separately. Own store, package and product links remain followed.
+
 ## 2026-11-27 later source checkpoint — comparison facts refreshed; console outcome unknown
 
 The product comparison roster was rechecked across all 21 rivals at `video-controls-plus-extension` commit `630362e`. Eighteen compare pages in this docs source now carry the 27 November source date and the corrected Video Download Helper **$9/year and $17 for life** observation; the earlier same-day $19/$39 observation remains recorded below because the vendor page may vary by context. Magic Actions' "Speed Booster" is preloading, not playback-rate control, so its page now describes video filters instead. The docs build passes its 110-page search contract. This change still needs the browser-render gate, publication and live proof. No GSC, Bing or Yandex indexing verdict is inferred.

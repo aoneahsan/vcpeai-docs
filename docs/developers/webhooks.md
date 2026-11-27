@@ -111,7 +111,7 @@ A settings change, and the test message:
 
 ## Checking a message came from us {#checking-a-message}
 
-Messages are signed with [Standard Webhooks](https://www.standardwebhooks.com/), so any Standard Webhooks library reads the secret as it is. To check by hand:
+Messages are signed with <a href="https://www.standardwebhooks.com/" rel="nofollow">Standard Webhooks</a>, so any Standard Webhooks library reads the secret as it is. To check by hand:
 
 1. Join `webhook-id`, `webhook-timestamp` and the **raw body**, exactly as received, with a `.` between each.
 2. Take your secret without `whsec_`, base64-decode it, and compute an HMAC-SHA256 of that text with it.
