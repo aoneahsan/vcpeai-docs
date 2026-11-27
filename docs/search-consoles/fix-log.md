@@ -7,7 +7,7 @@ Newest entry first, one section per filed issue. This folder is excluded from th
 
 ## 2026-11-27 Standard Webhooks link — published, browser proof delegated
 
-The emitted Developers webhooks page followed a third-party Standard Webhooks link. Docs source `01ca740` now emits `rel="nofollow"`; `yarn typecheck && yarn build` passed and the generated `docs/developers/webhooks/index.html` retains the link with that relation. GitHub Pages branch commit `070bc22` serves `/docs/developers/webhooks/` at HTTP 200 with SHA-256 `a6b2f39a50c59ab7edb0ac0688f1865549020963020eb6ef6eb187383b129c1e`, byte-identical to the local output. This proves transport and emitted HTML; desktop task `VCP-DESKTOP-001` owns browser and search-engine outcome. Own store, package and product links remain followed.
+The emitted Developers webhooks page followed a third-party Standard Webhooks link. Docs source `2a3c479` now emits `rel="noopener noreferrer nofollow"` for the external link opened in a new tab. `yarn typecheck && yarn build` passed. GitHub Pages branch commit `6aaf776` serves `/docs/developers/webhooks/` at HTTP 200 with SHA-256 `b58b7dc5f4f9d2352081e6b93b99aa1dd5e12d137b27191d4a2c48fe949364f9`, byte-identical to the local output; the live HTML carries all three relation tokens. This proves transport and emitted HTML; desktop task `VCP-DESKTOP-001` owns browser and search-engine outcome. Own store, package and product links remain followed.
 
 ## 2026-11-27 later source checkpoint — comparison facts refreshed; console outcome unknown
 
