@@ -1,14 +1,14 @@
 ---
 title: "Moving from Video Roll"
 sidebar_label: "Video Roll"
-description: "Move from Video Roll to Video Controls Plus: real steps, its prices and feature rows with sources. Checked 2026-11-07."
+description: "Move from Video Roll to Video Controls Plus with sourced steps, prices and feature rows. Prices checked 2026-11-27."
 last_update:
   date: 2026-11-27
 ---
 
 Video Roll is the nearest thing to us on this list: speed, loops and filters in a toolbox popup, free with a Pro plan. It also offers rotate, zoom, VR mode and audio tools like pitch and 3D surround in one popup, with no account. If that's what you want, and you don't need notes, stay. If you want your notes, watch later, history and settings in one account you can also open on the website, plus special features for YouTube, Netflix and LinkedIn, the move is mostly setting up the overlap again.
 
-**Last checked 2026-11-07.** A video toolbox extension: speed, loops, filters, picture in picture, screenshots, downloads and audio tools, free with a Pro plan. <a href="https://videoroll.app/" target="_blank" rel="noopener noreferrer nofollow">Check Video Roll yourself</a>.
+**Features checked 2026-11-07; prices checked 2026-11-27.** A video toolbox extension: speed, loops, filters, picture in picture, screenshots, downloads and audio tools, free with an advertised Pro plan. <a href="https://videoroll.app/" target="_blank" rel="noopener noreferrer nofollow">Check Video Roll yourself</a>.
 
 ## Which one fits you
 
@@ -28,8 +28,8 @@ Video Roll is the nearest thing to us on this list: speed, loops and filters in 
 | Plan | Price | Notes |
 |---|---|---|
 | Free | $0 forever | No login or payment required; limited video, audio, download and AI features <a href="https://videoroll.app/en/pricing" target="_blank" rel="noopener noreferrer nofollow">Source</a> |
-| Pro Monthly | $2 / month | All Pro features, cancel anytime <a href="https://videoroll.app/en/pricing" target="_blank" rel="noopener noreferrer nofollow">Source</a> |
-| Pro Annual | $19.2 / year | Shown beside $24 with Save 20% <a href="https://videoroll.app/en/pricing" target="_blank" rel="noopener noreferrer nofollow">Source</a> |
+| Pro Monthly | $2 / month advertised | The purchase button says Coming Soon <a href="https://videoroll.app/en/pricing" target="_blank" rel="noopener noreferrer nofollow">Source</a> |
+| Pro Annual | $19.2 / year advertised | Shown beside $24; the purchase button says Coming Soon <a href="https://videoroll.app/en/pricing" target="_blank" rel="noopener noreferrer nofollow">Source</a> |
 
 Compare with ours on the website's [plans page](https://vcpeai.aoneahsan.com/plans).
 
