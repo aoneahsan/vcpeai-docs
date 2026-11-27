@@ -5,7 +5,11 @@ Newest entry first, one section per filed issue. This folder is excluded from th
 `live-verified` is ours; `indexed` belongs to Google. The website half is in `aoneahsan/video-controls-plus-extension`
 → `docs/search-consoles/fix-log.md`.
 
-## vcpeai-docs#1 — [SEO][URGENT][PENDING] URL-level indexing + AEO fix list (audit 2026-11-27) · 2026-11-27 · commit `<pending>`
+## vcpeai-docs#1 — [SEO][URGENT][PENDING] URL-level indexing + AEO fix list (audit 2026-11-27) · 2026-11-27 · commit `d1e0b94` (gh-pages `cf7db96`)
+
+Live-verified 2026-11-27, google-pending (IndexNow 200 for every sitemap URL): `/docs/white-label` → 301 to the slashed
+form; WebSite, Person, Organization and SoftwareApplication in the home page's raw HTML; 0 unslashed URLs in
+`sitemap.xml`.
 
 Status: **built and contract-verified locally; deploy and live retest pending** (GitHub Pages publish is the main
 session's). Google outcome: google-pending. Also answers video-controls-plus-extension#3 body 5 and its AEO comment.
