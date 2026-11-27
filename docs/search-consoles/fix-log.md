@@ -5,9 +5,13 @@ Newest entry first, one section per filed issue. This folder is excluded from th
 `live-verified` is ours; `indexed` belongs to Google. The website half is in `aoneahsan/video-controls-plus-extension`
 → `docs/search-consoles/fix-log.md`.
 
-## 2026-11-27 recheck — source live; console outcome still unknown
+## 2026-11-27 later source checkpoint — comparison facts refreshed; console outcome unknown
 
-The earlier entry below is a pre-deploy snapshot. The docs home and `/docs/compare/video-downloadhelper/` answered 200 on 27 November, each with one raw `<title>`, `<h1>` and canonical. The docs build passes its 110-page search contract. Video Download Helper's official premium page now lists $19/year and $39 for life; this comparison draft reflects those prices, but it still needs visual proof, publication and a live retest. The root `SEARCH-ENGINE-DESKTOP-HANDOFF.md` asks a logged-in desktop session for GSC, Bing, Yandex and analytics evidence. No indexed result is claimed from the source or HTTP checks.
+The product comparison roster was rechecked across all 21 rivals at `video-controls-plus-extension` commit `630362e`. Eighteen compare pages in this docs source now carry the 27 November source date and the corrected Video Download Helper **$9/year and $17 for life** observation; the earlier same-day $19/$39 observation remains recorded below because the vendor page may vary by context. Magic Actions' "Speed Booster" is preloading, not playback-rate control, so its page now describes video filters instead. The docs build passes its 110-page search contract. This change still needs the browser-render gate, publication and live proof. No GSC, Bing or Yandex indexing verdict is inferred.
+
+## 2026-11-27 earlier recheck — source live; console outcome still unknown
+
+The earlier entry below is a pre-deploy snapshot. The docs home and `/docs/compare/video-downloadhelper/` answered 200 on 27 November, each with one raw `<title>`, `<h1>` and canonical. An earlier official premium-page observation showed $19/year and $39 for life; the later source checkpoint above records the fresh $9/$17 observation and asks for visual price context. The root `SEARCH-ENGINE-DESKTOP-HANDOFF.md` asks a logged-in desktop session for GSC, Bing, Yandex and analytics evidence. No indexed result is claimed from the source or HTTP checks.
 
 ## vcpeai-docs#1 — [SEO][URGENT][PENDING] URL-level indexing + AEO fix list (audit 2026-11-27) · 2026-11-27 · commit `d1e0b94` (gh-pages `cf7db96`)
 
@@ -37,7 +41,7 @@ Overruled by owner law (2026-11-27):
 - Box 6 "send `X-Robots-Tag: noindex`" → nothing to send: no `.md` mirror exists, and GitHub Pages has no headers.
 - Box 1 option (a), a script in `404.html` → never; `trailingSlash: true` gives real 301s.
 
-### Pending
+### Pending at original issue filing (superseded where the later checkpoints say so)
 
 | Box | Why not done | Who | Next action |
 |---|---|---|---|
