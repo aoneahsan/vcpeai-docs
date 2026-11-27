@@ -6,7 +6,8 @@ Tasks only the owner can do. Rows are appended here and moved to Completed by th
 
 | # | Task | Why only you | Detailed runbook | Status |
 |---|---|---|---|---|
-| 1 | Submit `https://vcpeai-docs.aoneahsan.com/sitemap.xml` to Google Search Console and Bing Webmaster Tools once the site is live | Both consoles need the owner's signed-in account and property verification | Search Console: add the property, then Sitemaps → enter `sitemap.xml`. Bing Webmaster Tools: add the site (or import from Search Console), then Sitemaps → Submit sitemap | ⏳ Pending |
+
+None. Search-engine console evidence and submission moved to the project root's `SEARCH-ENGINE-DESKTOP-HANDOFF.md` for a desktop session with the owner's logged-in browser. That work remains pending until the session returns proof.
 
 ## ✅ Completed
 

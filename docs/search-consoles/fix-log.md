@@ -5,6 +5,10 @@ Newest entry first, one section per filed issue. This folder is excluded from th
 `live-verified` is ours; `indexed` belongs to Google. The website half is in `aoneahsan/video-controls-plus-extension`
 → `docs/search-consoles/fix-log.md`.
 
+## 2026-11-27 recheck — source live; console outcome still unknown
+
+The earlier entry below is a pre-deploy snapshot. The docs home and `/docs/compare/video-downloadhelper/` answered 200 on 27 November, each with one raw `<title>`, `<h1>` and canonical. The docs build passes its 110-page search contract. Video Download Helper's official premium page now lists $19/year and $39 for life; this comparison draft reflects those prices, but it still needs visual proof, publication and a live retest. The root `SEARCH-ENGINE-DESKTOP-HANDOFF.md` asks a logged-in desktop session for GSC, Bing, Yandex and analytics evidence. No indexed result is claimed from the source or HTTP checks.
+
 ## vcpeai-docs#1 — [SEO][URGENT][PENDING] URL-level indexing + AEO fix list (audit 2026-11-27) · 2026-11-27 · commit `d1e0b94` (gh-pages `cf7db96`)
 
 Live-verified 2026-11-27, google-pending (IndexNow 200 for every sitemap URL): `/docs/white-label` → 301 to the slashed
