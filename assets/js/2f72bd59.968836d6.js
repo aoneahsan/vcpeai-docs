@@ -1,1 +1,0 @@
-"use strict";(self.webpackChunkvcpeai_docs=self.webpackChunkvcpeai_docs||[]).push([["209"],{9990(e){e.exports=JSON.parse('{"metadata":{"permalink":"/changelog","page":1,"postsPerPage":10,"totalPages":1,"totalCount":9,"blogDescription":"Release notes for Video Controls Plus.","blogTitle":"Video Controls Plus changelog"}}')}}]);

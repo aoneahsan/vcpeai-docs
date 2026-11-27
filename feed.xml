@@ -1,8 +1,9 @@
 <?xml version="1.0" encoding="utf-8"?><?xml-stylesheet type="text/xsl" href="rss.xsl"?>
-<rss version="2.0" xmlns:dc="http://purl.org/dc/elements/1.1/" xmlns:content="http://purl.org/rss/1.0/modules/content/">
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom" xmlns:dc="http://purl.org/dc/elements/1.1/" xmlns:content="http://purl.org/rss/1.0/modules/content/">
     <channel>
+        <atom:link href="https://vcpeai-docs.aoneahsan.com/feed.xml" rel="self" type="application/rss+xml"/>
         <title>Video Controls Plus changelog</title>
-        <link>https://vcpeai-docs.aoneahsan.com/changelog</link>
+        <link>https://vcpeai-docs.aoneahsan.com/changelog/</link>
         <description>Release notes for Video Controls Plus.</description>
         <lastBuildDate>Sat, 21 Nov 2026 12:00:00 GMT</lastBuildDate>
         <docs>https://validator.w3.org/feed/docs/rss2.html</docs>
@@ -11,23 +12,23 @@
         <copyright>© 2026 Video Controls Plus team</copyright>
         <item>
             <title><![CDATA[Website: Other apps and two-step sign-in]]></title>
-            <link>https://vcpeai-docs.aoneahsan.com/changelog/other-apps-and-two-step</link>
-            <guid>https://vcpeai-docs.aoneahsan.com/changelog/other-apps-and-two-step</guid>
+            <link>https://vcpeai-docs.aoneahsan.com/changelog/other-apps-and-two-step/</link>
+            <guid>https://vcpeai-docs.aoneahsan.com/changelog/other-apps-and-two-step/</guid>
             <pubDate>Sat, 21 Nov 2026 12:00:00 GMT</pubDate>
             <description><![CDATA[Reach your own library from a script, Claude, ChatGPT or your own server, and add a code from your phone after Google on the website.]]></description>
             <content:encoded><![CDATA[<p>Your account on the website has two new pages: <strong>Other apps</strong>, for tools you connect to your own library, and <strong>Security</strong>, for a second step after Google.</p>
 <ul>
-<li class=""><strong>New: access keys.</strong> Make a key on <strong>Other apps</strong> for a script or a spreadsheet sync, tick what it reaches, and use it with the API. <a class="" href="https://vcpeai-docs.aoneahsan.com/docs/developers/access-keys">Access keys</a>.</li>
-<li class=""><strong>New: assistants.</strong> Connect Claude, ChatGPT, Claude Code or Cursor and ask about your notes, bookmarks and flashcards. Anything an assistant asks to delete waits on the website for your yes. <a class="" href="https://vcpeai-docs.aoneahsan.com/docs/developers/assistants">Assistants</a>.</li>
-<li class=""><strong>New: webhooks.</strong> Your server gets a short signed message the moment you save a note or a bookmark. What you wrote stays out of it unless you tick <strong>Include what was written</strong>. <a class="" href="https://vcpeai-docs.aoneahsan.com/docs/developers/webhooks">Webhooks</a>.</li>
-<li class=""><strong>New: two-step sign-in.</strong> A six-digit code from your phone after Google, ten recovery codes, and <strong>Remember this browser for 7 days</strong> if you tick it. With it on, the extension stays connected for 7 days at a time, then asks you to connect again. <a class="" href="https://vcpeai-docs.aoneahsan.com/docs/developers/two-step-sign-in">Two-step sign-in</a>.</li>
+<li class=""><strong>New: access keys.</strong> Make a key on <strong>Other apps</strong> for a script or a spreadsheet sync, tick what it reaches, and use it with the API. <a class="" href="https://vcpeai-docs.aoneahsan.com/docs/developers/access-keys/">Access keys</a>.</li>
+<li class=""><strong>New: assistants.</strong> Connect Claude, ChatGPT, Claude Code or Cursor and ask about your notes, bookmarks and flashcards. Anything an assistant asks to delete waits on the website for your yes. <a class="" href="https://vcpeai-docs.aoneahsan.com/docs/developers/assistants/">Assistants</a>.</li>
+<li class=""><strong>New: webhooks.</strong> Your server gets a short signed message the moment you save a note or a bookmark. What you wrote stays out of it unless you tick <strong>Include what was written</strong>. <a class="" href="https://vcpeai-docs.aoneahsan.com/docs/developers/webhooks/">Webhooks</a>.</li>
+<li class=""><strong>New: two-step sign-in.</strong> A six-digit code from your phone after Google, ten recovery codes, and <strong>Remember this browser for 7 days</strong> if you tick it. With it on, the extension stays connected for 7 days at a time, then asks you to connect again. <a class="" href="https://vcpeai-docs.aoneahsan.com/docs/developers/two-step-sign-in/">Two-step sign-in</a>.</li>
 </ul>
-<p>Keys, assistants and webhooks are on every plan, Free included. Everything for developers is in <a class="" href="https://vcpeai-docs.aoneahsan.com/docs/developers">Video Controls Plus for developers</a>.</p>]]></content:encoded>
+<p>Keys, assistants and webhooks are on every plan, Free included. Everything for developers is in <a class="" href="https://vcpeai-docs.aoneahsan.com/docs/developers/">Video Controls Plus for developers</a>.</p>]]></content:encoded>
         </item>
         <item>
             <title><![CDATA[Website: page tours and How it works]]></title>
-            <link>https://vcpeai-docs.aoneahsan.com/changelog/website-tours</link>
-            <guid>https://vcpeai-docs.aoneahsan.com/changelog/website-tours</guid>
+            <link>https://vcpeai-docs.aoneahsan.com/changelog/website-tours/</link>
+            <guid>https://vcpeai-docs.aoneahsan.com/changelog/website-tours/</guid>
             <pubDate>Mon, 26 Oct 2026 12:00:00 GMT</pubDate>
             <description><![CDATA[Seven website pages now have a short tour you start from the header, and a new How it works page walks through Video Controls Plus in six steps.]]></description>
             <content:encoded><![CDATA[<p>Seven website pages now have a short tour you start from the header, and a new How it works page walks through Video Controls Plus in six steps. The extension itself is unchanged.</p>
@@ -36,12 +37,12 @@
 <li class=""><strong>New: How it works.</strong> Six steps with real screens, from your first video to connecting your account, at <a href="https://vcpeai.aoneahsan.com/how-it-works" target="_blank" rel="noopener noreferrer" class="">vcpeai.aoneahsan.com/how-it-works</a>.</li>
 <li class=""><strong>Changed: product news by email.</strong> The Privacy Policy (7.8.0) now lets the team email account holders about new features and updates. Every one of those emails has a one-click unsubscribe link.</li>
 </ul>
-<p>More in <a class="" href="https://vcpeai-docs.aoneahsan.com/docs/getting-started/website-tours">Website tours</a>.</p>]]></content:encoded>
+<p>More in <a class="" href="https://vcpeai-docs.aoneahsan.com/docs/getting-started/website-tours/">Website tours</a>.</p>]]></content:encoded>
         </item>
         <item>
             <title><![CDATA[Version 16.3.0]]></title>
-            <link>https://vcpeai-docs.aoneahsan.com/changelog/16-3-0</link>
-            <guid>https://vcpeai-docs.aoneahsan.com/changelog/16-3-0</guid>
+            <link>https://vcpeai-docs.aoneahsan.com/changelog/16-3-0/</link>
+            <guid>https://vcpeai-docs.aoneahsan.com/changelog/16-3-0/</guid>
             <pubDate>Sat, 24 Oct 2026 12:00:00 GMT</pubDate>
             <description><![CDATA[The widget does a lot more now: comfort for your eyes and captions, study tools, your library, looks and zoom, voices and rooms, GIFs and clips, automatic playback, and watch parties.]]></description>
             <content:encoded><![CDATA[<p>The widget does a lot more now: comfort for your eyes and captions, study tools, your library, looks and zoom, voices and rooms, GIFs and clips, automatic playback, and watch parties. It also carries 16.1.0 and 16.2.0.</p>
@@ -62,8 +63,8 @@
         </item>
         <item>
             <title><![CDATA[Version 16.1.0]]></title>
-            <link>https://vcpeai-docs.aoneahsan.com/changelog/16-1-0</link>
-            <guid>https://vcpeai-docs.aoneahsan.com/changelog/16-1-0</guid>
+            <link>https://vcpeai-docs.aoneahsan.com/changelog/16-1-0/</link>
+            <guid>https://vcpeai-docs.aoneahsan.com/changelog/16-1-0/</guid>
             <pubDate>Tue, 20 Oct 2026 12:00:00 GMT</pubDate>
             <description><![CDATA[You can now say a note instead of typing it, every AI run has a level, and a new Plans page shows what each plan gives.]]></description>
             <content:encoded><![CDATA[<p>You can now say a note instead of typing it: on a video in the extension, and on the website and in the Android app, where Speak also fills flashcards, a report or a feature request. Every AI run now has a level, Spark, Pulse or Surge, and a new Plans page shows what each plan gives.</p>
@@ -78,8 +79,8 @@
         </item>
         <item>
             <title><![CDATA[Version 16.0.0]]></title>
-            <link>https://vcpeai-docs.aoneahsan.com/changelog/16-0-0</link>
-            <guid>https://vcpeai-docs.aoneahsan.com/changelog/16-0-0</guid>
+            <link>https://vcpeai-docs.aoneahsan.com/changelog/16-0-0/</link>
+            <guid>https://vcpeai-docs.aoneahsan.com/changelog/16-0-0/</guid>
             <pubDate>Sat, 03 Oct 2026 18:00:00 GMT</pubDate>
             <description><![CDATA[Your account now lives on our website, and the extension connects to it on Chrome, Edge and Firefox. Everyone connects once after this update.]]></description>
             <content:encoded><![CDATA[<p>Your account now lives on our website, and the extension connects to it on Chrome, Edge and Firefox. Everyone connects once after this update. An account that existed before 16.0.0 opens empty until we finish moving the old cloud data, which follows this release. Nothing saved in your browser is affected.</p>
@@ -94,8 +95,8 @@
         </item>
         <item>
             <title><![CDATA[Version 15.3.0]]></title>
-            <link>https://vcpeai-docs.aoneahsan.com/changelog/15-3-0</link>
-            <guid>https://vcpeai-docs.aoneahsan.com/changelog/15-3-0</guid>
+            <link>https://vcpeai-docs.aoneahsan.com/changelog/15-3-0/</link>
+            <guid>https://vcpeai-docs.aoneahsan.com/changelog/15-3-0/</guid>
             <pubDate>Sat, 03 Oct 2026 00:00:00 GMT</pubDate>
             <description><![CDATA[Netflix and LinkedIn menu actions now run at once, and Settings shows only the switches and shortcuts that do something.]]></description>
             <content:encoded><![CDATA[<p>Netflix and LinkedIn menu actions now run at once, and Settings shows only the switches and shortcuts that do something. The website and the store descriptions were corrected to list only what the extension does today.</p>
@@ -110,8 +111,8 @@
         </item>
         <item>
             <title><![CDATA[Version 15.2.0]]></title>
-            <link>https://vcpeai-docs.aoneahsan.com/changelog/15-2-0</link>
-            <guid>https://vcpeai-docs.aoneahsan.com/changelog/15-2-0</guid>
+            <link>https://vcpeai-docs.aoneahsan.com/changelog/15-2-0/</link>
+            <guid>https://vcpeai-docs.aoneahsan.com/changelog/15-2-0/</guid>
             <pubDate>Sun, 27 Sep 2026 00:00:00 GMT</pubDate>
             <description><![CDATA[When the extension clears Netflix's 'device isn't part of the Netflix Household' screen, Netflix hides its own player controls.]]></description>
             <content:encoded><![CDATA[<p>When the extension clears Netflix's "device isn't part of the Netflix Household" screen, Netflix hides its own player controls, so keyboard controls now take over in that case. Every keyboard shortcut can be changed. A key can belong to only one shortcut, and your shortcuts follow you when you are signed in.</p>
@@ -124,8 +125,8 @@
         </item>
         <item>
             <title><![CDATA[Version 15.1.0]]></title>
-            <link>https://vcpeai-docs.aoneahsan.com/changelog/15-1-0</link>
-            <guid>https://vcpeai-docs.aoneahsan.com/changelog/15-1-0</guid>
+            <link>https://vcpeai-docs.aoneahsan.com/changelog/15-1-0/</link>
+            <guid>https://vcpeai-docs.aoneahsan.com/changelog/15-1-0/</guid>
             <pubDate>Fri, 07 Aug 2026 00:00:00 GMT</pubDate>
             <description><![CDATA[The team's other apps get a permanent home in Settings, and the promotional panel comes off the top of every Settings page.]]></description>
             <content:encoded><![CDATA[<p>The team's other apps get a permanent home in Settings, and the promotional panel comes off the top of every Settings page, so only one banner can sit above your settings.</p>
@@ -138,8 +139,8 @@
         </item>
         <item>
             <title><![CDATA[Version 15.0.0]]></title>
-            <link>https://vcpeai-docs.aoneahsan.com/changelog/15-0-0</link>
-            <guid>https://vcpeai-docs.aoneahsan.com/changelog/15-0-0</guid>
+            <link>https://vcpeai-docs.aoneahsan.com/changelog/15-0-0/</link>
+            <guid>https://vcpeai-docs.aoneahsan.com/changelog/15-0-0/</guid>
             <pubDate>Mon, 13 Jul 2026 00:00:00 GMT</pubDate>
             <description><![CDATA[AI features arrive (video summaries and LinkedIn writing help), playback controls reach videos embedded on other sites.]]></description>
             <content:encoded><![CDATA[<p>AI features arrive (video summaries and LinkedIn writing help), playback controls reach videos embedded on other sites, and every Netflix extra becomes opt-in.</p>
