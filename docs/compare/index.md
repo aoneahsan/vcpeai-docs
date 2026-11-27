@@ -3,14 +3,14 @@ title: Moving to Video Controls Plus
 sidebar_label: All extensions
 description: Coming from another video extension? Pick it here for the steps to move across, its prices with sources, and where we fall short today.
 last_update:
-  date: 2026-11-07
+  date: 2026-11-27
 ---
 
 Pick the extension you use now. Each page has the steps to move across, or says plainly when the two do different jobs, with the prices and feature rows we read on its own pages.
 
-**Last checked 2026-11-07.** The Video Controls Plus team writes these pages, so open the sources and check us. The website's [comparison hub](https://vcpeai.aoneahsan.com/compare/extensions) has the same facts for choosing between them.
+**Last checked 2026-11-27.** The Video Controls Plus team writes these pages, so open the sources and check us. The website's [comparison hub](https://vcpeai.aoneahsan.com/compare/extensions) has the same facts for choosing between them.
 
-- [Video Roll](./video-roll-all-in-one-video-enhancements.md): A video toolbox extension: speed, loops, filters, picture in picture, screenshots, downloads and audio tools, free with a Pro plan.
+- [Video Roll](./video-roll-all-in-one-video-enhancements.md): A video toolbox extension with speed, loops, filters, screenshots and downloads. Its Pro prices are advertised, but the purchase buttons say Coming Soon.
 - [Super Video Speed Controller](./super-video-speed-controller.md): A speed-only extension for Chrome and Edge: presets, a custom percentage, and A, D and S keys.
 - [Video Speed Control](./video-speed-control.md): A popup speed changer for HTML5 video, 0.07x to 16x, applied with a Play button each time.
 - [Floating Video Player](./floating-video-player.md): A picture-in-picture extension that floats the video over other windows while you keep browsing.
@@ -30,7 +30,7 @@ Pick the extension you use now. Each page has the steps to move across, or says 
 
 ## No longer available
 
-We looked for these on 2026-11-07. Their store pages were gone and we found no other official page, so there are no steps to write.
+On 2026-11-27, Microsoft's public product-details endpoint returned 404 for these four Edge IDs. We have no current official feature or price source to compare, so there are no steps to write.
 
 - [Video Speed Controller](https://vcpeai.aoneahsan.com/compare/extensions/video-speed-controller-overlay), Edge listing `nkajomkdmekhjcjhaaidcinjkmhkkmeo`
 - [Video Speed Controller](https://vcpeai.aoneahsan.com/compare/extensions/video-speed-controller-streaming), Edge listing `pnljgpklkppofcagkccdhbkfaepionah`

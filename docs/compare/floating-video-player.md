@@ -1,14 +1,14 @@
 ---
 title: "Moving from Floating Video Player"
 sidebar_label: "Floating Video Player"
-description: "Move from Floating Video Player to Video Controls Plus: real steps, its prices and feature rows with sources. Checked 2026-11-07."
+description: "Move from Floating Video Player to Video Controls Plus: real steps, its prices and feature rows with sources. Checked 2026-11-27."
 last_update:
   date: 2026-11-27
 ---
 
 Floating Video Player floats the video over your other windows, and adds nothing to the page. If a floating window is the whole job, it's the lighter choice. Here picture in picture is one key and needs no account, and speed, A-B loop, filters and notes sit next to it if you want them later.
 
-**Last checked 2026-11-07.** A picture-in-picture extension that floats the video over other windows while you keep browsing. <a href="https://microsoftedge.microsoft.com/addons/detail/floating-video-player/lgjgiogmekdcfheiidohdogofdmgoaki" target="_blank" rel="noopener noreferrer nofollow">Check Floating Video Player yourself</a>.
+**Last checked 2026-11-27.** A picture-in-picture extension that floats the video over other windows while you keep browsing. <a href="https://microsoftedge.microsoft.com/addons/detail/floating-video-player/lgjgiogmekdcfheiidohdogofdmgoaki" target="_blank" rel="noopener noreferrer nofollow">Check Floating Video Player yourself</a>.
 
 ## Which one fits you
 

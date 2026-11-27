@@ -25,8 +25,8 @@ Video Download Helper saves video from many sites to your disk, on Chrome, Firef
 | Plan | Price | Notes |
 |---|---|---|
 | Free | $0 forever | Free to use, no time limit, core features <a href="https://downloadhelper.net/" target="_blank" rel="noopener noreferrer nofollow">Source</a> |
-| Subscription 12 months | $19 / year | Unlimited downloads, video subtitles and priority support <a href="https://downloadhelper.net/premium" target="_blank" rel="noopener noreferrer nofollow">Source</a> |
-| For Life | $39 one time | Pay once, use forever <a href="https://downloadhelper.net/premium" target="_blank" rel="noopener noreferrer nofollow">Source</a> |
+| Subscription 12 months | $9 / year | Unlimited downloads, video subtitles and priority support <a href="https://downloadhelper.net/premium" target="_blank" rel="noopener noreferrer nofollow">Source</a> |
+| For Life | $17 one time | Pay once, use forever <a href="https://downloadhelper.net/premium" target="_blank" rel="noopener noreferrer nofollow">Source</a> |
 
 Our prices are separate, on the website's [plans page](https://vcpeai.aoneahsan.com/plans).
 

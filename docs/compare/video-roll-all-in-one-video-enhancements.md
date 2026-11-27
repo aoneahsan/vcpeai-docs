@@ -8,7 +8,7 @@ last_update:
 
 Video Roll is the nearest thing to us on this list: speed, loops and filters in a toolbox popup, free with a Pro plan. It also offers rotate, zoom, VR mode and audio tools like pitch and 3D surround in one popup, with no account. If that's what you want, and you don't need notes, stay. If you want your notes, watch later, history and settings in one account you can also open on the website, plus special features for YouTube, Netflix and LinkedIn, the move is mostly setting up the overlap again.
 
-**Features checked 2026-11-07; prices checked 2026-11-27.** A video toolbox extension: speed, loops, filters, picture in picture, screenshots, downloads and audio tools, free with an advertised Pro plan. <a href="https://videoroll.app/" target="_blank" rel="noopener noreferrer nofollow">Check Video Roll yourself</a>.
+**Features checked 2026-11-27; prices checked 2026-11-27.** A video toolbox extension: speed, loops, filters, picture in picture, screenshots, downloads and audio tools, free with an advertised Pro plan. <a href="https://videoroll.app/" target="_blank" rel="noopener noreferrer nofollow">Check Video Roll yourself</a>.
 
 ## Which one fits you
 

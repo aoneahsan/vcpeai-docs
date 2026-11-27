@@ -1,14 +1,14 @@
 ---
 title: "Moving from VideoControls"
 sidebar_label: "VideoControls"
-description: "Move from VideoControls to Video Controls Plus: real steps, its prices and feature rows with sources. Checked 2026-11-07."
+description: "Move from VideoControls to Video Controls Plus: real steps, its prices and feature rows with sources. Checked 2026-11-27."
 last_update:
   date: 2026-11-27
 ---
 
 VideoControls is made for fingers: tap, swipe, swipe up. If you watch on a touch screen and like having no settings page at all, it suits you better than we do, because our docs don't list touch gestures. If you sit at a keyboard, this is a change of habit more than a move: keys you can rebind, plus a widget on the page.
 
-**Last checked 2026-11-07.** A touch-gesture player: tap to play, swipe to seek, swipe up for 2x, and auto-pause in the background. <a href="https://microsoftedge.microsoft.com/addons/detail/videocontrols/eekpapilfneiildichepmllmkjocpgpf" target="_blank" rel="noopener noreferrer nofollow">Check VideoControls yourself</a>.
+**Last checked 2026-11-27.** A touch-gesture player: tap to play, swipe to seek, swipe up for 2x, and auto-pause in the background. <a href="https://microsoftedge.microsoft.com/addons/detail/videocontrols/eekpapilfneiildichepmllmkjocpgpf" target="_blank" rel="noopener noreferrer nofollow">Check VideoControls yourself</a>.
 
 ## Which one fits you
 

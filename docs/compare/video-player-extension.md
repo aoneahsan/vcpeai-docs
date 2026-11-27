@@ -1,14 +1,14 @@
 ---
 title: "Moving from Video Player"
 sidebar_label: "Video Player"
-description: "Move from Video Player to Video Controls Plus: real steps, its prices and feature rows with sources. Checked 2026-11-07."
+description: "Move from Video Player to Video Controls Plus: real steps, its prices and feature rows with sources. Checked 2026-11-27."
 last_update:
   date: 2026-11-27
 ---
 
 Video Player opens files from your own disk and transcodes formats the browser can't play, like AVI and WMV. If that's why you installed it, keep it: our docs cover video on websites, not local files. If you mostly used its audio boost, speed and repeat on sites you visit, those have a home here, along with filters, notes and an account across devices.
 
-**Last checked 2026-11-07.** A media player extension: audio boost to 300%, speed to 8x, repeat, screenshots, local files and transcoding of formats the browser lacks. <a href="https://microsoftedge.microsoft.com/addons/detail/video-player/bobjnignhcpkfnjcgegmdjijonimcmke" target="_blank" rel="noopener noreferrer nofollow">Check Video Player yourself</a>.
+**Last checked 2026-11-27.** A media player extension: audio boost to 300%, speed to 8x, repeat, screenshots, local files and transcoding of formats the browser lacks. <a href="https://microsoftedge.microsoft.com/addons/detail/video-player/bobjnignhcpkfnjcgegmdjijonimcmke" target="_blank" rel="noopener noreferrer nofollow">Check Video Player yourself</a>.
 
 ## Which one fits you
 

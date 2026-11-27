@@ -1,14 +1,14 @@
 ---
 title: "Moving from Video Speed Control"
 sidebar_label: "Video Speed Control"
-description: "Move from Video Speed Control to Video Controls Plus: real steps, its prices and feature rows with sources. Checked 2026-11-07."
+description: "Move from Video Speed Control to Video Controls Plus: real steps, its prices and feature rows with sources. Checked 2026-11-27."
 last_update:
   date: 2026-11-27
 ---
 
 With Video Speed Control you open a popup, pick a speed and press Play, every time. If you only change speed now and then, that small popup with its dark mode may be all you want. If you change it on most videos, the speed belongs on a key, and that's the whole move: two keys to learn.
 
-**Last checked 2026-11-07.** A popup speed changer for HTML5 video, 0.07x to 16x, applied with a Play button each time. <a href="https://microsoftedge.microsoft.com/addons/detail/video-speed-control/fgggaiedigajhlidjmmmengcpoipjeko" target="_blank" rel="noopener noreferrer nofollow">Check Video Speed Control yourself</a>.
+**Last checked 2026-11-27.** A popup speed changer for HTML5 video, 0.07x to 16x, applied with a Play button each time. <a href="https://microsoftedge.microsoft.com/addons/detail/video-speed-control/fgggaiedigajhlidjmmmengcpoipjeko" target="_blank" rel="noopener noreferrer nofollow">Check Video Speed Control yourself</a>.
 
 ## Which one fits you
 

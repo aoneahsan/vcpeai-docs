@@ -1,14 +1,14 @@
 ---
 title: "Moving from Magic Actions for YouTube"
 sidebar_label: "Magic Actions for YouTube"
-description: "Move from Magic Actions for YouTube to Video Controls Plus: real steps, its prices and feature rows with sources. Checked 2026-11-07."
+description: "Move from Magic Actions for YouTube to Video Controls Plus: real steps, its prices and feature rows with sources. Checked 2026-11-27."
 last_update:
   date: 2026-11-27
 ---
 
 Magic Actions turns YouTube into a small theatre: cinema mode, 40 colour presets, mouse-wheel volume, auto HD. It's free and it only works on YouTube. If YouTube is all you watch and you love that cinema look, keep it. Here the YouTube extras each have their own switch, and the same controls follow you to Netflix, LinkedIn and any other video site, with notes and an account behind them.
 
-**Last checked 2026-11-07.** A YouTube-only theatre: cinema mode with colour presets, mouse-wheel volume, auto HD, repeat, frame grabs and hidden page elements. <a href="https://www.chromeactions.com/" target="_blank" rel="noopener noreferrer nofollow">Check Magic Actions for YouTube yourself</a>.
+**Last checked 2026-11-27.** A YouTube-only theatre: cinema mode with colour presets, mouse-wheel volume, auto HD, repeat, frame grabs and hidden page elements. <a href="https://www.chromeactions.com/" target="_blank" rel="noopener noreferrer nofollow">Check Magic Actions for YouTube yourself</a>.
 
 ## Which one fits you
 
@@ -32,12 +32,12 @@ Magic Actions is free; for what we charge, see the [plans page](https://vcpeai.a
 
 ## Rows from the vendor site
 
-Magic Actions' site didn't state anything about filters, notes, transcripts, flashcards, history, watch later, sync, special features outside YouTube, or Edge. Those rows are hidden. Its Chrome Web Store listing at the old address wasn't available when we checked, so the vendor's own site is the source below.
+Magic Actions' site confirms video filters. It does not state playback speed control, notes, transcripts, flashcards, history, watch later, sync, special features outside YouTube, or Edge. Those rows are hidden. Its Chrome Web Store listing at the old address wasn't available when we checked, so the vendor's own site is the source below.
 
 | What | Video Controls Plus | Magic Actions for YouTube |
 |---|---|---|
-| Speed control | Yes | Yes <a href="https://www.chromeactions.com/features.html" target="_blank" rel="noopener noreferrer nofollow">Source</a> |
 | A-B loop | Yes (needs a connected account) | Yes <a href="https://www.chromeactions.com/" target="_blank" rel="noopener noreferrer nofollow">Source</a> |
+| Video filters | Yes (needs a connected account) | Yes <a href="https://www.chromeactions.com/features.html" target="_blank" rel="noopener noreferrer nofollow">Source</a> |
 | Special features for YouTube | Yes | Yes <a href="https://www.chromeactions.com/" target="_blank" rel="noopener noreferrer nofollow">Source</a> |
 | Chrome | Yes | Partly <a href="https://www.chromeactions.com/download-for-chrome.html" target="_blank" rel="noopener noreferrer nofollow">Source</a> |
 | Firefox | Yes | Yes <a href="https://www.chromeactions.com/" target="_blank" rel="noopener noreferrer nofollow">Source</a> |
