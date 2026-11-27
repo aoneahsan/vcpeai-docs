@@ -5,9 +5,11 @@ Newest entry first, one section per filed issue. This folder is excluded from th
 `live-verified` is ours; `indexed` belongs to Google. The website half is in `aoneahsan/video-controls-plus-extension`
 → `docs/search-consoles/fix-log.md`.
 
-## 2026-11-28 API spec links and localized preview — source only
+## 2026-11-28 API spec links and localized preview — live HTML verified
 
-The built API guide followed two external Supabase OpenAPI links. The source now gives both links `nofollow noopener noreferrer` and opens them in a new tab. A fresh English build and typecheck passed; the emitted `/docs/developers/api/` HTML contains both relation sets. The `zh-Hans` preview also builds: its sitemap date mapper recognizes locale-prefixed code pages, and the output gate recognizes the locale's 404 and search pages. Its 268 HTML files pass the build contract. `zh-Hans` remains unpublished and its draft messages are still English; no translated or indexed result is claimed. Publication and desktop browser proof remain open.
+The built API guide followed two external Supabase OpenAPI links. Source `0056045` gives both links `nofollow noopener noreferrer` and opens them in a new tab. A fresh English build and typecheck passed. GitHub Pages `81efaf5` serves `/docs/developers/api/` with both relation sets; its SHA-256 `05326b4e58b1ec708850d0a5578bf366a0467833d7bafbf4160b3956c77423a4` matches the local build. The home and `/ecosystem/achat/` also answered 200 and matched byte for byte. The public IndexNow key file matched the local key; one changed API URL was submitted and accepted with HTTP 200. This is publication and transport evidence; the desktop session still owns browser rendering and search-console outcomes.
+
+The `zh-Hans` preview also builds: its sitemap date mapper recognizes locale-prefixed code pages, and the output gate recognizes the locale's 404 and search pages. Its 268 HTML files pass the build contract. `zh-Hans` remains unpublished and its draft messages are still English; no translated or indexed result is claimed.
 
 ## 2026-11-27 Standard Webhooks link — published, browser proof delegated
 
