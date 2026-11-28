@@ -975,5 +975,14 @@
   },
   "ecosystem.product.ztools.platformLabel": {
     "message": "वेब, Android और Chrome एक्सटेंशन"
+  },
+  "aboutDeveloper.title": {
+    "message": "Video Controls Plus किसने बनाया?"
+  },
+  "aboutDeveloper.docsBreadcrumb": {
+    "message": "Video Controls Plus दस्तावेज़"
+  },
+  "aboutDeveloper.breadcrumb": {
+    "message": "डेवलपर के बारे में"
   }
 }

@@ -975,5 +975,14 @@
   },
   "ecosystem.product.ztools.paragraph.3": {
     "message": "Откройте [ZTools](https://ztools.zaions.com), чтобы изучить продукт на его собственном сайте."
+  },
+  "aboutDeveloper.title": {
+    "message": "Кто создаёт Video Controls Plus?"
+  },
+  "aboutDeveloper.docsBreadcrumb": {
+    "message": "Документация Video Controls Plus"
+  },
+  "aboutDeveloper.breadcrumb": {
+    "message": "О разработчике"
   }
 }

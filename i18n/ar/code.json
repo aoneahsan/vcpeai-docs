@@ -975,5 +975,14 @@
   },
   "ecosystem.product.ztools.paragraph.3": {
     "message": "افتح [ZTools](https://ztools.zaions.com) لاستكشاف صفحة المنتج."
+  },
+  "aboutDeveloper.title": {
+    "message": "من يصنع Video Controls Plus؟"
+  },
+  "aboutDeveloper.docsBreadcrumb": {
+    "message": "وثائق Video Controls Plus"
+  },
+  "aboutDeveloper.breadcrumb": {
+    "message": "عن المطوّر"
   }
 }

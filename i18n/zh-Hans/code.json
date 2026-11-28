@@ -465,5 +465,515 @@
   "theme.tags.tagsPageTitle": {
     "message": "标签",
     "description": "The title of the tag list page"
+  },
+  "ecosystem.product.achat.card": {
+    "message": "通过用户名、邀请链接或二维码找到你想联系的人，无须交换电话号码。"
+  },
+  "ecosystem.product.achat.heading": {
+    "message": "AchatAI 能做什么？"
+  },
+  "ecosystem.product.achat.platformLabel": {
+    "message": "网页和 Android"
+  },
+  "ecosystem.product.achat.paragraph.1": {
+    "message": "AchatAI 让你在网页和 Android 上与自己选择的人聊天，无须提供电话号码。你可以通过用户名、邀请链接或二维码找到对方，因此第一步不必是交换号码。如果想在创建账户前先开一个房间，也可以使用匿名房间。"
+  },
+  "ecosystem.product.achat.paragraph.2": {
+    "message": "这与 Video Controls Plus 提供的是两种不同的控制：在 AchatAI 中，你决定与谁交谈，以及他们如何找到你；在扩展程序中，你决定视频如何播放。两个产品都出自 Zaions 团队，但各有自己的使用入口。"
+  },
+  "ecosystem.product.achat.paragraph.3": {
+    "message": "打开 [AchatAI](https://achat.aoneahsan.com) 查看它的聊天流程。对话从那里开始，而不是在视频播放器里。"
+  },
+  "ecosystem.product.callvault.card": {
+    "message": "播放、搜索、标注和导出 Android 手机上的通话录音。"
+  },
+  "ecosystem.product.callvault.heading": {
+    "message": "CallVault 能做什么？"
+  },
+  "ecosystem.product.callvault.platformLabel": {
+    "message": "Android"
+  },
+  "ecosystem.product.callvault.paragraph.1": {
+    "message": "CallVault 在 Android 手机上保存通话录音资料库。你可以回放录音。它通过手机提供的音频来源录制通话，并为成功录下的内容提供播放、搜索、笔记和导出功能。可用的音频来源很关键：这款应用无法保证每部手机都有相同的录制效果。"
+  },
+  "ecosystem.product.callvault.paragraph.2": {
+    "message": "你可以把录音留在手机上。如果需要私人云端备份，可以另行开启对应开关。当一通电话包含日后要查找的细节时，你既能保存它，也能决定录音存放在哪里。"
+  },
+  "ecosystem.product.callvault.paragraph.3": {
+    "message": "Video Controls Plus 保存在线视频周围的控制设置和学习笔记；CallVault 处理 Android 设备上的通话。它们是同一团队的独立产品。打开 [CallVault](https://callvault.aoneahsan.com) 查看通话资料库和备份选项。"
+  },
+  "ecosystem.product.capacitor-auth-manager.card": {
+    "message": "让网页、Android 和 iOS 以同一种方式调用 Google 登录，无须依赖 Firebase。"
+  },
+  "ecosystem.product.capacitor-auth-manager.heading": {
+    "message": "Capacitor Auth Manager 能做什么？"
+  },
+  "ecosystem.product.capacitor-auth-manager.platformLabel": {
+    "message": "npm 软件包"
+  },
+  "ecosystem.product.capacitor-auth-manager.paragraph.1": {
+    "message": "Capacitor Auth Manager 让应用通过同一个调用，在网页、Android 和 iOS 上完成 Google 登录。一个调用，三个平台。它是为 Capacitor 应用开发者准备的软件包，不要求将 Firebase 作为依赖。统一接口是核心：底层平台变化时，应用代码中的登录调用仍可留在同一个位置，无须维护三套不同的调用。"
+  },
+  "ecosystem.product.capacitor-auth-manager.paragraph.2": {
+    "message": "仅支持 Google。3.x 版以 Google 作为登录服务商。若你的应用还需要其他身份提供商，选择前应了解这一限制。Video Controls Plus 有自己的账户连接方式；这个软件包是独立的开发者产品，不会为扩展程序增加登录方式。"
+  },
+  "ecosystem.product.capacitor-auth-manager.paragraph.3": {
+    "message": "请阅读 [Capacitor Auth Manager 软件包](https://www.npmjs.com/package/capacitor-auth-manager)，了解安装和各平台的使用说明。"
+  },
+  "ecosystem.product.clearhire.card": {
+    "message": "把结构化工作经历整理成适合 ATS 读取的简历，并检查阅读效果。"
+  },
+  "ecosystem.product.clearhire.heading": {
+    "message": "ClearHire 能做什么？"
+  },
+  "ecosystem.product.clearhire.platformLabel": {
+    "message": "网页和 Android"
+  },
+  "ecosystem.product.clearhire.paragraph.1": {
+    "message": "ClearHire 帮你把结构化的工作经历整理成适合 ATS 读取的简历，同时保留证据。你输入过往职位和经历依据，再用简历生成器及检查功能，把内容整理成雇主会阅读的文件。它还提供职业工具，例如改进经历要点、检查已有简历。"
+  },
+  "ecosystem.product.clearhire.paragraph.2": {
+    "message": "这与附在视频上的学习笔记不同。如果你通过 Video Controls Plus 观看课程，之后想描述自己真正掌握的技能，ClearHire 是修改简历的地方。两个产品不会互相传输笔记，也不会替你验证课程。ClearHire 还列出经核实的就业经历流程，为个人资料增加可信度。"
+  },
+  "ecosystem.product.clearhire.paragraph.3": {
+    "message": "打开 [ClearHire](https://clearhire.aoneahsan.com) 创建或检查简历。"
+  },
+  "ecosystem.product.eatthis.card": {
+    "message": "按营养素、感受或一天中的时段查找食物，再查看一份能提供什么。"
+  },
+  "ecosystem.product.eatthis.heading": {
+    "message": "Eat This 能做什么？"
+  },
+  "ecosystem.product.eatthis.platformLabel": {
+    "message": "Android"
+  },
+  "ecosystem.product.eatthis.paragraph.1": {
+    "message": "Eat This 帮你按营养素、感受或一天中的时段查找食物。先看一份的量。你不必从一长串食物名称开始，可以先找自己想了解的内容，查看一份食物提供多少营养素，再比较所列选项中价格更低的选择。"
+  },
+  "ecosystem.product.eatthis.paragraph.2": {
+    "message": "这是一个食物信息产品，与 Video Controls Plus 的播放控制互相独立。两者都从眼前的问题出发：看视频时调整速度；选食物时查看每份含量。涉及医学判断的饮食问题应交给医生；产品也明确说明这一界限。"
+  },
+  "ecosystem.product.eatthis.paragraph.3": {
+    "message": "打开 [Eat This](https://eatthis.aoneahsan.com/) 搜索食物信息。"
+  },
+  "ecosystem.product.empora.card": {
+    "message": "在同一个 WordPress 插件中，只开启商店需要的 WooCommerce 模块。"
+  },
+  "ecosystem.product.empora.heading": {
+    "message": "Empora 能做什么？"
+  },
+  "ecosystem.product.empora.platformLabel": {
+    "message": "WordPress / WooCommerce"
+  },
+  "ecosystem.product.empora.paragraph.1": {
+    "message": "Empora 把 WooCommerce 模块放在同一个 WordPress 插件里。你可以选择哪些模块适合自己的商店，而不必把所有模块作为一个整体安装。先选一项，从商店当前需要完成的工作出发，开启对应模块，把其他模块留在关闭状态。"
+  },
+  "ecosystem.product.empora.paragraph.2": {
+    "message": "它的网页控制台管理授权和可选的商店连接。这个控制台用于商店管理，不是视频账户，也不是 Video Controls Plus 的功能。如果你经营 WooCommerce 商店，启用连接前先查看可用模块，决定哪些连接确实需要。逐项检查模块，比在不了解效果时全部开启更有用。"
+  },
+  "ecosystem.product.empora.paragraph.3": {
+    "message": "打开 [Empora](https://empora.aoneahsan.com) 了解它的产品页面。"
+  },
+  "ecosystem.product.habitforge.card": {
+    "message": "每次打卡让绳索长得更结实，中断的习惯则留下磨损痕迹。"
+  },
+  "ecosystem.product.habitforge.heading": {
+    "message": "HabitForge 能做什么？"
+  },
+  "ecosystem.product.habitforge.platformLabel": {
+    "message": "网页和 Android"
+  },
+  "ecosystem.product.habitforge.paragraph.1": {
+    "message": "HabitForge 把习惯显示成一条绳索。每次打卡都会让它变粗；中断的一段会留下磨损的痕迹，回看那些日子时也能看见。你无须自己计算连续天数，就能从形状中看出坚持的记录，然后继续做下去。"
+  },
+  "ecosystem.product.habitforge.paragraph.2": {
+    "message": "你可以与朋友互动、参加挑战和排行榜，也可以退出排行榜。同一个账户可在网页和 Android 上使用。Video Controls Plus 可以保存一节课程的笔记；HabitForge 则记录你看完之后是否持续去做那件事。两个产品分别保存记录。绳索磨损的一段说明习惯曾在哪里中断，不会抹去之前的打卡。"
+  },
+  "ecosystem.product.habitforge.paragraph.3": {
+    "message": "打开 [HabitForge](https://habitforge.aoneahsan.com) 了解它的产品页面。"
+  },
+  "ecosystem.product.labflow.card": {
+    "message": "跟踪诊断样本从医嘱、验证到结果发布的过程。"
+  },
+  "ecosystem.product.labflow.heading": {
+    "message": "LabFlow 能做什么？"
+  },
+  "ecosystem.product.labflow.platformLabel": {
+    "message": "网页和 Android"
+  },
+  "ecosystem.product.labflow.paragraph.1": {
+    "message": "LabFlow 跟踪诊断实验室的工作，从患者和检验医嘱，到样本、结果和验证。草稿结果与已向患者发布的结果处于不同阶段。多人经手同一样本时，这一区别很重要。你可以沿着交接步骤查看进展。"
+  },
+  "ecosystem.product.labflow.paragraph.2": {
+    "message": "计费、库存和质量控制也在同一个系统中。LabFlow 供诊断实验室工作人员使用，不是个人健康记录工具，也不会解读视频课程。你可以查看检验医嘱如何走到结果发布，以及哪些员工操作属于这一流程。发布前由实验室工作人员核实，让面向患者的结果在流程中有明确状态。"
+  },
+  "ecosystem.product.labflow.paragraph.3": {
+    "message": "打开 [LabFlow](https://labflow.aoneahsan.com) 了解它的产品页面。"
+  },
+  "ecosystem.product.lifewell.card": {
+    "message": "把生命体征、饮水、用药、睡眠和营养记录在同一份健康档案中。"
+  },
+  "ecosystem.product.lifewell.heading": {
+    "message": "LifeWell 能做什么？"
+  },
+  "ecosystem.product.lifewell.platformLabel": {
+    "message": "网页和 Android"
+  },
+  "ecosystem.product.lifewell.paragraph.1": {
+    "message": "LifeWell 把生命体征、饮水、用药、睡眠和营养放进同一份健康记录。你也可以随着日子推进，记录月经、备孕和婴儿成长节点。需要回看时，这些日常条目集中在一处，不必翻找分散的笔记。由你保存自己的记录。"
+  },
+  "ecosystem.product.lifewell.paragraph.2": {
+    "message": "产品可在网页和 Android 上使用，并跨设备同步，让你能换个屏幕继续填写。但这些记录不会变成诊断或治疗建议。Video Controls Plus 管理在线视频控制和学习笔记；LifeWell 在自己的账户中保存健康条目。这些记录供你按天回看，单次记录只是整体情况的一部分。"
+  },
+  "ecosystem.product.lifewell.paragraph.3": {
+    "message": "打开 [LifeWell](https://lifewell.aoneahsan.com) 了解它的产品页面。"
+  },
+  "ecosystem.product.linux-cleanup.card": {
+    "message": "先查看 Linux 缓存路径、运行试运行，再检查清理后的记录。"
+  },
+  "ecosystem.product.linux-cleanup.heading": {
+    "message": "linux-cleanup 能做什么？"
+  },
+  "ecosystem.product.linux-cleanup.platformLabel": {
+    "message": "Linux 桌面和命令行"
+  },
+  "ecosystem.product.linux-cleanup.paragraph.1": {
+    "message": "linux-cleanup 会在实际清理前显示它可移除的 Linux 缓存路径。你可以先检查限制、扫描并运行试运行。前两步都不会删除文件。继续前先读清路径。"
+  },
+  "ecosystem.product.linux-cleanup.paragraph.2": {
+    "message": "桌面应用为 x86_64 Linux 提供 AppImage 和 .deb，实际运行后会生成操作记录。采用 MIT 许可的命令行工具可通过 npx 运行。这是电脑维护工具，与 Video Controls Plus 的浏览器控制功能互相独立。如果想知道清理会碰到哪些内容，请先看预览，再决定是否删除。操作后的记录会告诉你实际发生了什么，比一句“会清理电脑”的承诺具体得多。"
+  },
+  "ecosystem.product.linux-cleanup.paragraph.3": {
+    "message": "打开 [linux-cleanup](https://linux-cleanup.aoneahsan.com/) 了解它的产品页面。"
+  },
+  "ecosystem.product.macleanup.card": {
+    "message": "先通过真实的试运行检查 macOS 清理项目，再决定是否移除内容。"
+  },
+  "ecosystem.product.macleanup.heading": {
+    "message": "macleanup 能做什么？"
+  },
+  "ecosystem.product.macleanup.platformLabel": {
+    "message": "macOS 桌面和命令行"
+  },
+  "ecosystem.product.macleanup.paragraph.1": {
+    "message": "macleanup 是一款 macOS 清理工具。它在删除前提供真正的试运行，并显示各清理项目，供你检查准备执行的操作；个人文件夹一律不会被清理。这是产品自带的界限，无须记得去开启某项设置。先检查，再决定。"
+  },
+  "ecosystem.product.macleanup.paragraph.2": {
+    "message": "这个项目用于维护 Mac，不管理浏览器视频。如果想释放空间，先读清理项目列表和试运行结果，再决定是否实际清理。Video Controls Plus 和 macleanup 出自同一开发者，但不共享设置或操作流程。试运行会给你一份具体清单；实际运行时，拒绝清理个人文件夹的保护仍然有效。"
+  },
+  "ecosystem.product.macleanup.paragraph.3": {
+    "message": "打开 [macleanup](https://github.com/aoneahsan/macleanup) 了解它的产品页面。"
+  },
+  "ecosystem.product.native-update.card": {
+    "message": "在应用商店版本之间，向 Capacitor 应用发送资源包更新。"
+  },
+  "ecosystem.product.native-update.heading": {
+    "message": "Native Update 能做什么？"
+  },
+  "ecosystem.product.native-update.platformLabel": {
+    "message": "网页和 npm"
+  },
+  "ecosystem.product.native-update.paragraph.1": {
+    "message": "Native Update 能在商店版本发布之间发送 Capacitor 应用资源包。应用开发者可以向已安装的应用发布资源包，不必等待商店页面承载每一次网页层变更。项目也涵盖应用内商店更新和评价提示。先看清发布流程。"
+  },
+  "ecosystem.product.native-update.paragraph.2": {
+    "message": "它的后端可以自行托管，项目也开源。这意味着它是一款需要配置发布流程的开发者产品，不是给 Video Controls Plus 用户使用的更新按钮。如果你开发 Capacitor 应用，请先阅读平台和后端说明，再决定自己的应用如何接收更新。商店仍有独立的发布流程，因此软件包同时说明资源包交付和商店更新周围的提示。"
+  },
+  "ecosystem.product.native-update.paragraph.3": {
+    "message": "打开 [Native Update](https://nativeupdate.aoneahsan.com) 了解它的产品页面。"
+  },
+  "ecosystem.product.netcage.card": {
+    "message": "决定哪些 Android 应用可以使用 Wi-Fi 或移动数据，以及规则何时生效。"
+  },
+  "ecosystem.product.netcage.heading": {
+    "message": "NetCage 能做什么？"
+  },
+  "ecosystem.product.netcage.platformLabel": {
+    "message": "Android"
+  },
+  "ecosystem.product.netcage.paragraph.1": {
+    "message": "NetCage 让你决定哪些 Android 应用可以使用 Wi-Fi、移动数据或两者，也能阻止某个选定应用联网，同时让手机其他部分保持在线。你可以把应用分组为配置文件，并让规则在指定日期和时段生效。先选应用，再设规则。"
+  },
+  "ecosystem.product.netcage.paragraph.2": {
+    "message": "这项控制作用于 Android 应用的网络连接，不会改变网页播放器，也不会改变 Video Controls Plus 连接账户的方式。如果你关心手机应用何时可以联网，开启配置文件前请检查规则针对哪些应用，以及它的时间安排。同一连接规则需要在一天中的某些时段生效、其他时段停用时，定时配置文件就很有用。"
+  },
+  "ecosystem.product.netcage.paragraph.3": {
+    "message": "打开 [NetCage](https://netcage.aoneahsan.com) 了解它的产品页面。"
+  },
+  "ecosystem.product.pregnancypal.card": {
+    "message": "集中记录孕周、症状和预约，并导出可带给医生的 PDF。"
+  },
+  "ecosystem.product.pregnancypal.heading": {
+    "message": "PregnancyPal 能做什么？"
+  },
+  "ecosystem.product.pregnancypal.platformLabel": {
+    "message": "网页和 Android"
+  },
+  "ecosystem.product.pregnancypal.paragraph.1": {
+    "message": "PregnancyPal 提供一个按孕周查看记录的地方。你可以记录症状、心情、生命体征和预约，把营养及运动信息放在对应的孕周旁边。需要就诊时，这些条目可以整理成方便医生阅读的 PDF。把日期和记录放在一起。"
+  },
+  "ecosystem.product.pregnancypal.paragraph.2": {
+    "message": "这是一款个人记录产品，不提供医疗建议，也不能代替临床医生。它有自己的记录和使用流程；Video Controls Plus 中的视频或笔记不会自动加入。你可以访问 PregnancyPal 查看孕周视图及可记录的信息。PDF 能帮助你把自己的观察带入面诊，让医生结合具体情况提问。"
+  },
+  "ecosystem.product.pregnancypal.paragraph.3": {
+    "message": "打开 [PregnancyPal](https://pregnancypal.aoneahsan.com) 了解它的产品页面。"
+  },
+  "ecosystem.product.rentparty.card": {
+    "message": "暂停地产交易游戏，下次回来时银行和地产归属仍在原位。"
+  },
+  "ecosystem.product.rentparty.heading": {
+    "message": "RentParty 能做什么？"
+  },
+  "ecosystem.product.rentparty.platformLabel": {
+    "message": "网页和 Android"
+  },
+  "ecosystem.product.rentparty.paragraph.1": {
+    "message": "RentParty 是一款可以暂停、改天继续的地产交易游戏。你可以轮流传递一部手机、与电脑角色对战，或打开线上房间。游戏暂停时，会保存银行和地产归属，供下一次接着玩。回到同一局游戏。"
+  },
+  "ecosystem.product.rentparty.paragraph.2": {
+    "message": "如果大家都得放下手机，能暂停并恢复游戏比罗列大量玩法更重要。RentParty 是 Zaions 团队的游戏；Video Controls Plus 是在线视频扩展程序，两者的对局和控制方式互相独立。打开 RentParty 选择玩家如何加入。下一位玩家可以直接开始自己的回合，不必靠记忆重建上一场，也无须重新分配所有地产。"
+  },
+  "ecosystem.product.rentparty.paragraph.3": {
+    "message": "打开 [RentParty](https://rentparty.aoneahsan.com) 了解它的产品页面。"
+  },
+  "ecosystem.product.smsapp.card": {
+    "message": "通过自己的 Android 设备发送单条、批量或定时短信。"
+  },
+  "ecosystem.product.smsapp.heading": {
+    "message": "SMS App 能做什么？"
+  },
+  "ecosystem.product.smsapp.platformLabel": {
+    "message": "Android"
+  },
+  "ecosystem.product.smsapp.paragraph.1": {
+    "message": "SMS App 通过你自己的 Android 设备发送短信，支持单条、批量和定时发送。更大规模的工作还涉及设备注册及志愿者设备池管理。手机是发送流程的一环，因此筹备活动前要先检查设备配置。使用自己的设备发送。"
+  },
+  "ecosystem.product.smsapp.paragraph.2": {
+    "message": "这款 Android 原生产品处理短信投递和相关隐私选择。它不会从 Video Controls Plus 发送消息，扩展程序账户也不会变成短信发送方。准备批量发送前，可以访问 SMS App 查看设备和消息流程。只有正确注册的设备能在指定时间发送，定时安排才有意义。"
+  },
+  "ecosystem.product.smsapp.paragraph.3": {
+    "message": "打开 [SMS App](https://smsapp.aoneahsan.com) 了解它的产品页面。"
+  },
+  "ecosystem.product.strata-storage.card": {
+    "message": "用同一个存储接口访问浏览器存储及原生 Keychain 或 Keystore。"
+  },
+  "ecosystem.product.strata-storage.heading": {
+    "message": "Strata Storage 能做什么？"
+  },
+  "ecosystem.product.strata-storage.platformLabel": {
+    "message": "npm 软件包"
+  },
+  "ecosystem.product.strata-storage.paragraph.1": {
+    "message": "Strata Storage 为开发者提供一个覆盖浏览器和原生设备存储的接口。软件包在网页端支持 localStorage、IndexedDB 和 Cookie，在原生平台支持 Keychain 和 Keystore。它没有依赖项。按数据用途选择合适的存储层。"
+  },
+  "ecosystem.product.strata-storage.paragraph.2": {
+    "message": "统一 API 能让网页、iOS 和 Android 的存储调用保持一致，同时保留各存储层不同的特性。这是给应用开发者使用的软件包，不是 Video Controls Plus 的新设置。请阅读软件包说明，决定自己的应用需要哪种存储层和持久化方式。原生安全存储与网页存储是不同的地方；共用接口并不会让它们具有相同的安全属性。"
+  },
+  "ecosystem.product.strata-storage.paragraph.3": {
+    "message": "打开 [Strata Storage](https://www.npmjs.com/package/strata-storage) 了解它的产品页面。"
+  },
+  "ecosystem.product.tilawah.card": {
+    "message": "按自己的节奏学习录制的 Tajweed 和 Tafseer 课程。"
+  },
+  "ecosystem.product.tilawah.heading": {
+    "message": "Tilawah 能做什么？"
+  },
+  "ecosystem.product.tilawah.platformLabel": {
+    "message": "网页"
+  },
+  "ecosystem.product.tilawah.paragraph.1": {
+    "message": "Tilawah 提供录制好的 Tajweed 和 Tafseer 课程，你可以按自己的节奏学习。进度记录会显示已经学过哪些课程，无须参加固定时间的直播课。如果希望有人听你诵读，也可以按所在时区预约一对一直播课。选择录播课程或真人课。"
+  },
+  "ecosystem.product.tilawah.paragraph.2": {
+    "message": "这是两种不同的学习方式：方便时反复观看录播，或与老师约定时间。Tilawah 在自己的产品中管理学习流程。Video Controls Plus 可以调整标准在线视频的播放方式，但不会替你报名 Tilawah 课程，也不会连接两个账户。预约直播课前请核对时间：课程按学习者所在时区显示。"
+  },
+  "ecosystem.product.tilawah.paragraph.3": {
+    "message": "打开 [Tilawah](https://tilawah.aoneahsan.com) 了解它的产品页面。"
+  },
+  "ecosystem.product.trizlink.card": {
+    "message": "集中管理品牌短链接、个人链接页和点击分析。"
+  },
+  "ecosystem.product.trizlink.heading": {
+    "message": "Trizlink 能做什么？"
+  },
+  "ecosystem.product.trizlink.platformLabel": {
+    "message": "网页和 Android"
+  },
+  "ecosystem.product.trizlink.paragraph.1": {
+    "message": "Trizlink 把短链接、个人链接页和点击分析放在同一个产品中。你可以用自定义路径创建品牌短链接，或在一个页面列出多个目标地址。有人使用链接后，点击记录能帮你了解发生了什么。先选好目标地址。"
+  },
+  "ecosystem.product.trizlink.paragraph.2": {
+    "message": "它还列出了自定义域名和内置工具。Trizlink URL 是你在那边管理的链接，不是视频控制；Video Controls Plus 不会创建它，也不会报告它的点击次数。如果需要更短的网址，或一个汇集多个链接的页面，可以访问 Trizlink。品牌路径让目标更容易辨认，分析数据则显示是否有人使用该地址。"
+  },
+  "ecosystem.product.trizlink.paragraph.3": {
+    "message": "打开 [Trizlink](https://trizlink.com) 了解它的产品页面。"
+  },
+  "ecosystem.product.waylock.card": {
+    "message": "固定选定的停靠点，再调整 Android 行车路线中的其他站点。"
+  },
+  "ecosystem.product.waylock.heading": {
+    "message": "Waylock 能做什么？"
+  },
+  "ecosystem.product.waylock.platformLabel": {
+    "message": "Android"
+  },
+  "ecosystem.product.waylock.paragraph.1": {
+    "message": "Waylock 是面向司机和快递员的 Android 路线规划层，建立在 Google Maps 之上。你可以固定选定的停靠点，再重新安排其他站点。走错路时，原先选择的路线仍然可见，你可以决定返回原路线，或改走新路线。固定站点不会被随意移动。"
+  },
+  "ecosystem.product.waylock.paragraph.2": {
+    "message": "当部分派送站点的顺序不能变，而其他站点需要随实际行驶情况调整时，这一区别很重要。这是路线规划，与浏览器导航互相独立。访问 Waylock 可以查看 Android 上路线如何保留及修改。一次走错路不会抹去司机原来的选择；路线视图会保留它，并展示下一步可做的决定。"
+  },
+  "ecosystem.product.waylock.paragraph.3": {
+    "message": "打开 [Waylock](https://waylock.aoneahsan.com) 了解它的产品页面。"
+  },
+  "ecosystem.product.windowsweep.card": {
+    "message": "实际清理前，通过真实的试运行逐项查看 Windows 清理路径。"
+  },
+  "ecosystem.product.windowsweep.heading": {
+    "message": "windowsweep 能做什么？"
+  },
+  "ecosystem.product.windowsweep.platformLabel": {
+    "message": "Windows 桌面和命令行"
+  },
+  "ecosystem.product.windowsweep.paragraph.1": {
+    "message": "windowsweep 在触碰任何内容前，会列出所有 Windows 清理路径。它的 30 个分区支持真正的试运行；个人文件需要逐行选择，不会被悄悄纳入。它不会发出网络请求。先看准备执行的变更。"
+  },
+  "ecosystem.product.windowsweep.paragraph.2": {
+    "message": "你可以通过 npx 运行它，也可以使用 Windows 桌面应用。清理应在你想检查路径的那台电脑上进行，与浏览器中的 Video Controls Plus 互相独立。先运行试运行，逐项查看，再决定是否适合对那台电脑进行实际清理。个人文件需要逐行选择，这让实际操作成为一个可以核对的决定，而不是看不见的默认行为。"
+  },
+  "ecosystem.product.windowsweep.paragraph.3": {
+    "message": "打开 [windowsweep](https://windowsweep.aoneahsan.com) 了解它的产品页面。"
+  },
+  "ecosystem.product.ztools.card": {
+    "message": "在浏览器中查找格式化、转换、编码和生成工具，无须上传文件。"
+  },
+  "ecosystem.product.ztools.heading": {
+    "message": "ZTools 能做什么？"
+  },
+  "ecosystem.product.ztools.platformLabel": {
+    "message": "网页、Android 和 Chrome 扩展程序"
+  },
+  "ecosystem.product.ztools.paragraph.1": {
+    "message": "ZTools 把在浏览器中运行的格式化、转换、编码和生成工具放进可搜索的工具箱。找到眼前任务需要的工具，在浏览器中完成操作；产品目录说明不会上传内容。先找到准确的工具。"
+  },
+  "ecosystem.product.ztools.paragraph.2": {
+    "message": "它还支持深色模式和离线使用。文件与文本工具可以在 ZTools 中找到；Video Controls Plus 专注于在线视频播放和学习。如果你需要的是转换器，而不是视频控制，请打开 ZTools，选择与输入内容匹配的工具。知道自己要处理什么文件或文字，却不知道工具名称时，可搜索的目录尤其有用。"
+  },
+  "ecosystem.product.ztools.paragraph.3": {
+    "message": "打开 [ZTools](https://ztools.zaions.com) 了解它的产品页面。"
+  },
+  "ecosystem.title": {
+    "message": "Zaions 还做了哪些产品？"
+  },
+  "ecosystem.description": {
+    "message": "浏览 Video Controls Plus 团队开发的其他 Zaions 产品。"
+  },
+  "ecosystem.eyebrow": {
+    "message": "播放器之外 / Zaions"
+  },
+  "ecosystem.intro": {
+    "message": "Zaions 也为在线视频之外的工作开发产品。看看这些同一团队制作的产品：从即时通讯应用、健康记录，到开发者软件包和清理工具。打开产品卡片，你可以先了解它的用途、适用平台和使用前应知道的限制，再访问产品自己的网站。这些产品各有独立的账户和流程；出现在这里，不表示它们与 Video Controls Plus 互通。"
+  },
+  "ecosystem.viewsIntro": {
+    "message": "你可以用网格浏览，用列表逐项阅读，或用表格对照名称、类别和适用平台。三种视图展示同一批产品。切换视图不会让你失去当前位置。"
+  },
+  "ecosystem.otherProducts": {
+    "message": "其他 {count} 款产品"
+  },
+  "ecosystem.chooseView": {
+    "message": "选择产品视图"
+  },
+  "ecosystem.view.grid": {
+    "message": "网格"
+  },
+  "ecosystem.view.list": {
+    "message": "列表"
+  },
+  "ecosystem.view.table": {
+    "message": "表格"
+  },
+  "ecosystem.table.product": {
+    "message": "产品"
+  },
+  "ecosystem.table.category": {
+    "message": "类别"
+  },
+  "ecosystem.table.platform": {
+    "message": "适用平台"
+  },
+  "ecosystem.table.description": {
+    "message": "用途"
+  },
+  "ecosystem.table.actions": {
+    "message": "操作"
+  },
+  "ecosystem.visitNamedProduct": {
+    "message": "访问 {name}"
+  },
+  "ecosystem.details": {
+    "message": "详细了解"
+  },
+  "ecosystem.moreFromZaions": {
+    "message": "更多 Zaions 产品"
+  },
+  "ecosystem.carousel": {
+    "message": "轮播"
+  },
+  "ecosystem.sameTeam": {
+    "message": "同一团队开发"
+  },
+  "ecosystem.seeAll": {
+    "message": "查看所有产品"
+  },
+  "ecosystem.previousProduct": {
+    "message": "上一个产品"
+  },
+  "ecosystem.slide": {
+    "message": "幻灯片"
+  },
+  "ecosystem.positionOf": {
+    "message": "第 {position} 个，共 {total} 个"
+  },
+  "ecosystem.nextProduct": {
+    "message": "下一个产品"
+  },
+  "ecosystem.play": {
+    "message": "继续播放"
+  },
+  "ecosystem.pause": {
+    "message": "暂停"
+  },
+  "ecosystem.openProduct": {
+    "message": "打开 {name}"
+  },
+  "ecosystem.anotherProduct": {
+    "message": "另一个 ZAIONS 产品"
+  },
+  "ecosystem.visitProduct": {
+    "message": "访问产品网站"
+  },
+  "ecosystem.readDocs": {
+    "message": "阅读产品文档"
+  },
+  "ecosystem.backToProducts": {
+    "message": "返回所有产品"
+  },
+  "ecosystem.category.desktop-app-cli": {
+    "message": "桌面应用与命令行工具"
+  },
+  "ecosystem.category.mobile-app": {
+    "message": "移动应用"
+  },
+  "ecosystem.category.package": {
+    "message": "软件包"
+  },
+  "ecosystem.category.saas-package": {
+    "message": "SaaS 与软件包"
+  },
+  "ecosystem.category.web-app": {
+    "message": "网页应用"
+  },
+  "ecosystem.category.wordpress-plugin-saas": {
+    "message": "WordPress 插件与 SaaS"
   }
 }

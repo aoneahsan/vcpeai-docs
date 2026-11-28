@@ -975,5 +975,14 @@
   },
   "ecosystem.product.ztools.platformLabel": {
     "message": "Web, Android y extensión de Chrome"
+  },
+  "aboutDeveloper.title": {
+    "message": "¿Quién hace Video Controls Plus?"
+  },
+  "aboutDeveloper.docsBreadcrumb": {
+    "message": "Documentación de Video Controls Plus"
+  },
+  "aboutDeveloper.breadcrumb": {
+    "message": "Sobre el desarrollador"
   }
 }
