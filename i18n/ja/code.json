@@ -465,5 +465,697 @@
   "theme.tags.tagsPageTitle": {
     "message": "タグ",
     "description": "The title of the tag list page"
+  },
+  "ecosystem.title": {
+    "message": "Zaions はほかに何を作っていますか？",
+    "description": "Japanese translation for ecosystem.title"
+  },
+  "ecosystem.description": {
+    "message": "Video Controls Plus を作るチームの、ほかの Zaions 製品をご紹介します。",
+    "description": "Japanese translation for ecosystem.description"
+  },
+  "ecosystem.eyebrow": {
+    "message": "動画プレーヤーの外へ / Zaions",
+    "description": "Japanese translation for ecosystem.eyebrow"
+  },
+  "ecosystem.intro": {
+    "message": "Zaions はオンライン動画以外にも、さまざまな目的の製品を作っています。メッセージアプリや健康記録から、開発者向けパッケージ、端末の整理ツールまで。このページには同じチームのほかの製品を掲載しています。カードを開くと、製品の用途、対応環境、利用前に知っておきたい制限を確認できます。詳しくは各製品のサイトをご覧ください。製品ごとにアカウントと使い方は別です。ここに掲載されていても、Video Controls Plus と連携するわけではありません。",
+    "description": "Japanese translation for ecosystem.intro"
+  },
+  "ecosystem.viewsIntro": {
+    "message": "カードで探すグリッド、順に読むリスト、名前・分類・対応環境を見比べる表から選べます。どの表示にも同じ製品が並び、表示を切り替えても見ていた位置を保てます。",
+    "description": "Japanese translation for ecosystem.viewsIntro"
+  },
+  "ecosystem.otherProducts": {
+    "message": "ほかの製品 {count} 件",
+    "description": "Japanese translation for ecosystem.otherProducts"
+  },
+  "ecosystem.chooseView": {
+    "message": "製品の表示方法を選ぶ",
+    "description": "Japanese translation for ecosystem.chooseView"
+  },
+  "ecosystem.view.grid": {
+    "message": "グリッド",
+    "description": "Japanese translation for ecosystem.view.grid"
+  },
+  "ecosystem.view.list": {
+    "message": "リスト",
+    "description": "Japanese translation for ecosystem.view.list"
+  },
+  "ecosystem.view.table": {
+    "message": "表",
+    "description": "Japanese translation for ecosystem.view.table"
+  },
+  "ecosystem.table.product": {
+    "message": "製品",
+    "description": "Japanese translation for ecosystem.table.product"
+  },
+  "ecosystem.table.category": {
+    "message": "分類",
+    "description": "Japanese translation for ecosystem.table.category"
+  },
+  "ecosystem.table.platform": {
+    "message": "対応環境",
+    "description": "Japanese translation for ecosystem.table.platform"
+  },
+  "ecosystem.table.description": {
+    "message": "できること",
+    "description": "Japanese translation for ecosystem.table.description"
+  },
+  "ecosystem.table.actions": {
+    "message": "リンク",
+    "description": "Japanese translation for ecosystem.table.actions"
+  },
+  "ecosystem.visitNamedProduct": {
+    "message": "{name} のサイトへ",
+    "description": "Japanese translation for ecosystem.visitNamedProduct"
+  },
+  "ecosystem.details": {
+    "message": "詳しく見る",
+    "description": "Japanese translation for ecosystem.details"
+  },
+  "ecosystem.moreFromZaions": {
+    "message": "Zaions のほかの製品",
+    "description": "Japanese translation for ecosystem.moreFromZaions"
+  },
+  "ecosystem.openProduct": {
+    "message": "{name} を開く",
+    "description": "Japanese translation for ecosystem.openProduct"
+  },
+  "ecosystem.anotherProduct": {
+    "message": "ZAIONS の別の製品",
+    "description": "Japanese translation for ecosystem.anotherProduct"
+  },
+  "ecosystem.visitProduct": {
+    "message": "製品サイトへ",
+    "description": "Japanese translation for ecosystem.visitProduct"
+  },
+  "ecosystem.readDocs": {
+    "message": "ドキュメントを読む",
+    "description": "Japanese translation for ecosystem.readDocs"
+  },
+  "ecosystem.backToProducts": {
+    "message": "製品一覧に戻る",
+    "description": "Japanese translation for ecosystem.backToProducts"
+  },
+  "ecosystem.carousel": {
+    "message": "カルーセル",
+    "description": "Japanese translation for ecosystem.carousel"
+  },
+  "ecosystem.sameTeam": {
+    "message": "同じチームの製品",
+    "description": "Japanese translation for ecosystem.sameTeam"
+  },
+  "ecosystem.seeAll": {
+    "message": "すべての製品を見る",
+    "description": "Japanese translation for ecosystem.seeAll"
+  },
+  "ecosystem.previousProduct": {
+    "message": "前の製品",
+    "description": "Japanese translation for ecosystem.previousProduct"
+  },
+  "ecosystem.nextProduct": {
+    "message": "次の製品",
+    "description": "Japanese translation for ecosystem.nextProduct"
+  },
+  "ecosystem.slide": {
+    "message": "スライド",
+    "description": "Japanese translation for ecosystem.slide"
+  },
+  "ecosystem.positionOf": {
+    "message": "{total} 件中 {position} 件目",
+    "description": "Japanese translation for ecosystem.positionOf"
+  },
+  "ecosystem.play": {
+    "message": "再生",
+    "description": "Japanese translation for ecosystem.play"
+  },
+  "ecosystem.pause": {
+    "message": "一時停止",
+    "description": "Japanese translation for ecosystem.pause"
+  },
+  "ecosystem.category.web-app": {
+    "message": "ウェブアプリ",
+    "description": "Japanese translation for ecosystem.category.web-app"
+  },
+  "ecosystem.category.mobile-app": {
+    "message": "モバイルアプリ",
+    "description": "Japanese translation for ecosystem.category.mobile-app"
+  },
+  "ecosystem.category.package": {
+    "message": "開発者向けパッケージ",
+    "description": "Japanese translation for ecosystem.category.package"
+  },
+  "ecosystem.category.wordpress-plugin-saas": {
+    "message": "WordPress プラグイン",
+    "description": "Japanese translation for ecosystem.category.wordpress-plugin-saas"
+  },
+  "ecosystem.category.desktop-app-cli": {
+    "message": "デスクトップアプリ・CLI",
+    "description": "Japanese translation for ecosystem.category.desktop-app-cli"
+  },
+  "ecosystem.category.saas-package": {
+    "message": "サービス・パッケージ",
+    "description": "Japanese translation for ecosystem.category.saas-package"
+  },
+  "ecosystem.product.achat.platformLabel": {
+    "message": "ウェブ・Android",
+    "description": "Japanese translation for ecosystem.product.achat.platformLabel"
+  },
+  "ecosystem.product.callvault.platformLabel": {
+    "message": "Android",
+    "description": "Japanese translation for ecosystem.product.callvault.platformLabel"
+  },
+  "ecosystem.product.capacitor-auth-manager.platformLabel": {
+    "message": "npm パッケージ",
+    "description": "Japanese translation for ecosystem.product.capacitor-auth-manager.platformLabel"
+  },
+  "ecosystem.product.clearhire.platformLabel": {
+    "message": "ウェブ・Android",
+    "description": "Japanese translation for ecosystem.product.clearhire.platformLabel"
+  },
+  "ecosystem.product.eatthis.platformLabel": {
+    "message": "Android",
+    "description": "Japanese translation for ecosystem.product.eatthis.platformLabel"
+  },
+  "ecosystem.product.empora.platformLabel": {
+    "message": "WordPress / WooCommerce",
+    "description": "Japanese translation for ecosystem.product.empora.platformLabel"
+  },
+  "ecosystem.product.habitforge.platformLabel": {
+    "message": "ウェブ・Android",
+    "description": "Japanese translation for ecosystem.product.habitforge.platformLabel"
+  },
+  "ecosystem.product.labflow.platformLabel": {
+    "message": "ウェブ・Android",
+    "description": "Japanese translation for ecosystem.product.labflow.platformLabel"
+  },
+  "ecosystem.product.lifewell.platformLabel": {
+    "message": "ウェブ・Android",
+    "description": "Japanese translation for ecosystem.product.lifewell.platformLabel"
+  },
+  "ecosystem.product.linux-cleanup.platformLabel": {
+    "message": "Linux デスクトップ・CLI",
+    "description": "Japanese translation for ecosystem.product.linux-cleanup.platformLabel"
+  },
+  "ecosystem.product.macleanup.platformLabel": {
+    "message": "macOS デスクトップ・CLI",
+    "description": "Japanese translation for ecosystem.product.macleanup.platformLabel"
+  },
+  "ecosystem.product.native-update.platformLabel": {
+    "message": "ウェブ・npm",
+    "description": "Japanese translation for ecosystem.product.native-update.platformLabel"
+  },
+  "ecosystem.product.netcage.platformLabel": {
+    "message": "Android",
+    "description": "Japanese translation for ecosystem.product.netcage.platformLabel"
+  },
+  "ecosystem.product.pregnancypal.platformLabel": {
+    "message": "ウェブ・Android",
+    "description": "Japanese translation for ecosystem.product.pregnancypal.platformLabel"
+  },
+  "ecosystem.product.rentparty.platformLabel": {
+    "message": "ウェブ・Android",
+    "description": "Japanese translation for ecosystem.product.rentparty.platformLabel"
+  },
+  "ecosystem.product.smsapp.platformLabel": {
+    "message": "Android",
+    "description": "Japanese translation for ecosystem.product.smsapp.platformLabel"
+  },
+  "ecosystem.product.strata-storage.platformLabel": {
+    "message": "npm パッケージ",
+    "description": "Japanese translation for ecosystem.product.strata-storage.platformLabel"
+  },
+  "ecosystem.product.tilawah.platformLabel": {
+    "message": "ウェブ",
+    "description": "Japanese translation for ecosystem.product.tilawah.platformLabel"
+  },
+  "ecosystem.product.trizlink.platformLabel": {
+    "message": "ウェブ・Android",
+    "description": "Japanese translation for ecosystem.product.trizlink.platformLabel"
+  },
+  "ecosystem.product.waylock.platformLabel": {
+    "message": "Android",
+    "description": "Japanese translation for ecosystem.product.waylock.platformLabel"
+  },
+  "ecosystem.product.windowsweep.platformLabel": {
+    "message": "Windows デスクトップ・CLI",
+    "description": "Japanese translation for ecosystem.product.windowsweep.platformLabel"
+  },
+  "ecosystem.product.ztools.platformLabel": {
+    "message": "ウェブ・Android・Chrome 拡張機能",
+    "description": "Japanese translation for ecosystem.product.ztools.platformLabel"
+  },
+  "ecosystem.product.achat.card": {
+    "message": "電話番号を教えずに、ユーザー名、招待リンク、QR コードで話したい相手を見つけられます。",
+    "description": "Japanese translation for ecosystem.product.achat.card"
+  },
+  "ecosystem.product.achat.heading": {
+    "message": "AchatAI で何ができますか？",
+    "description": "Japanese translation for ecosystem.product.achat.heading"
+  },
+  "ecosystem.product.achat.paragraph.1": {
+    "message": "AchatAI は、選んだ相手とウェブや Android でメッセージをやり取りできます。電話番号は不要です。ユーザー名、招待リンク、QR コードから相手を見つけられるので、最初に電話番号を交換する必要はありません。アカウントを作る前に会話を始めたい場合は、匿名のルームも使えます。",
+    "description": "Japanese translation for ecosystem.product.achat.paragraph.1"
+  },
+  "ecosystem.product.achat.paragraph.2": {
+    "message": "Video Controls Plus が動画の再生方法を選べるようにするのに対し、こちらでは誰と話し、相手にどう見つけてもらうかを選べます。Zaions チームが作る別々の製品で、それぞれ使い始める場所があります。",
+    "description": "Japanese translation for ecosystem.product.achat.paragraph.2"
+  },
+  "ecosystem.product.achat.paragraph.3": {
+    "message": "メッセージを始める手順は [AchatAI](https://achat.aoneahsan.com) で確認できます。会話は動画プレーヤー内ではなく、AchatAI で始まります。",
+    "description": "Japanese translation for ecosystem.product.achat.paragraph.3"
+  },
+  "ecosystem.product.callvault.card": {
+    "message": "Android スマートフォンに保存された通話を再生、検索、メモ、書き出しできます。",
+    "description": "Japanese translation for ecosystem.product.callvault.card"
+  },
+  "ecosystem.product.callvault.heading": {
+    "message": "CallVault で何ができますか？",
+    "description": "Japanese translation for ecosystem.product.callvault.heading"
+  },
+  "ecosystem.product.callvault.paragraph.1": {
+    "message": "CallVault は Android スマートフォンの通話ライブラリーです。端末が利用できる音声入力元から録音し、取得できた通話を再生、検索、メモ、書き出しできます。使える音声入力元は端末によって違うため、すべてのスマートフォンで同じ録音結果になるとは約束できません。",
+    "description": "Japanese translation for ecosystem.product.callvault.paragraph.1"
+  },
+  "ecosystem.product.callvault.paragraph.2": {
+    "message": "録音は端末内に残せます。プライベートなクラウドバックアップを使う場合は、別のスイッチで有効にします。後で探したい情報を含む通話でも、録音の保存先を自分で決められます。",
+    "description": "Japanese translation for ecosystem.product.callvault.paragraph.2"
+  },
+  "ecosystem.product.callvault.paragraph.3": {
+    "message": "Video Controls Plus はオンライン動画の操作と学習メモを扱い、CallVault は Android の通話を扱います。同じチームの別製品です。[CallVault](https://callvault.aoneahsan.com) で通話ライブラリーとバックアップの選択を確認してください。",
+    "description": "Japanese translation for ecosystem.product.callvault.paragraph.3"
+  },
+  "ecosystem.product.capacitor-auth-manager.card": {
+    "message": "Firebase に依存せず、ウェブ、Android、iOS で同じ呼び出しから Google ログインを使えます。",
+    "description": "Japanese translation for ecosystem.product.capacitor-auth-manager.card"
+  },
+  "ecosystem.product.capacitor-auth-manager.heading": {
+    "message": "Capacitor Auth Manager で何ができますか？",
+    "description": "Japanese translation for ecosystem.product.capacitor-auth-manager.heading"
+  },
+  "ecosystem.product.capacitor-auth-manager.paragraph.1": {
+    "message": "Capacitor Auth Manager は、Capacitor アプリで Google ログインをウェブ、Android、iOS にまたがって同じ呼び出しで使えるパッケージです。一つの呼び出しで三つのプラットフォームに対応します。Firebase は依存関係に含みません。基盤が変わってもアプリ側のログイン処理を一か所に置き、プラットフォームごとに別の呼び出しを管理せずに済みます。",
+    "description": "Japanese translation for ecosystem.product.capacitor-auth-manager.paragraph.1"
+  },
+  "ecosystem.product.capacitor-auth-manager.paragraph.2": {
+    "message": "対応プロバイダーは Google だけです。バージョン 3.x で利用できるのは Google ログインです。別の ID プロバイダーも必要なアプリでは、この制限を先に確認してください。Video Controls Plus のアカウント接続とは別の開発者向け製品で、拡張機能にログイン方法を追加するものではありません。",
+    "description": "Japanese translation for ecosystem.product.capacitor-auth-manager.paragraph.2"
+  },
+  "ecosystem.product.capacitor-auth-manager.paragraph.3": {
+    "message": "導入方法とプラットフォーム別の手順は [Capacitor Auth Manager](https://www.npmjs.com/package/capacitor-auth-manager) をご覧ください。",
+    "description": "Japanese translation for ecosystem.product.capacitor-auth-manager.paragraph.3"
+  },
+  "ecosystem.product.clearhire.card": {
+    "message": "整理した職歴から ATS に読み取られやすい履歴書を作り、伝わり方を確認できます。",
+    "description": "Japanese translation for ecosystem.product.clearhire.card"
+  },
+  "ecosystem.product.clearhire.heading": {
+    "message": "ClearHire で何ができますか？",
+    "description": "Japanese translation for ecosystem.product.clearhire.heading"
+  },
+  "ecosystem.product.clearhire.paragraph.1": {
+    "message": "ClearHire は、整理した職歴を ATS に読み取られやすい履歴書へ変えるための製品です。経験の根拠を残しながら、職務と実績を入力します。ビルダーとチェック機能で採用担当者が読む文書を整え、実績の一文を改善したり、既存の履歴書を確認したりするキャリアツールも使えます。",
+    "description": "Japanese translation for ecosystem.product.clearhire.paragraph.1"
+  },
+  "ecosystem.product.clearhire.paragraph.2": {
+    "message": "動画に添えるメモとは別の記録です。Video Controls Plus で講座を見て実際に得た技能を説明したいなら、ClearHire で履歴書そのものを整えられます。二つの製品はメモを転送せず、講座の修了を代わりに証明することもありません。プロフィールの信頼性を高める雇用確認の手順も掲載しています。",
+    "description": "Japanese translation for ecosystem.product.clearhire.paragraph.2"
+  },
+  "ecosystem.product.clearhire.paragraph.3": {
+    "message": "履歴書の作成・確認は [ClearHire](https://clearhire.aoneahsan.com) から始められます。",
+    "description": "Japanese translation for ecosystem.product.clearhire.paragraph.3"
+  },
+  "ecosystem.product.eatthis.card": {
+    "message": "栄養素、体調の感覚、時間帯から食品を探し、一食分に含まれるものを確認できます。",
+    "description": "Japanese translation for ecosystem.product.eatthis.card"
+  },
+  "ecosystem.product.eatthis.heading": {
+    "message": "Eat This で何ができますか？",
+    "description": "Japanese translation for ecosystem.product.eatthis.heading"
+  },
+  "ecosystem.product.eatthis.paragraph.1": {
+    "message": "Eat This では、栄養素、体調の感覚、時間帯から食品を探せます。まず一食分を見てください。長い食品一覧から始める代わりに、知りたいことを手がかりに、一食分に含まれる栄養素の量を確認し、提示された選択肢の中からより安価なものと比べられます。",
+    "description": "Japanese translation for ecosystem.product.eatthis.paragraph.1"
+  },
+  "ecosystem.product.eatthis.paragraph.2": {
+    "message": "これは食品情報の製品で、Video Controls Plus の再生操作とは別です。動画を見ているときは速度を、食品を選ぶときは一食分の内容を確認できます。医学的な判断が必要な食品の疑問は医師に相談してください。製品でもその境界を示しています。",
+    "description": "Japanese translation for ecosystem.product.eatthis.paragraph.2"
+  },
+  "ecosystem.product.eatthis.paragraph.3": {
+    "message": "食品情報は [Eat This](https://eatthis.aoneahsan.com/) から探せます。",
+    "description": "Japanese translation for ecosystem.product.eatthis.paragraph.3"
+  },
+  "ecosystem.product.empora.card": {
+    "message": "WooCommerce ストアに必要な機能だけを、一つの WordPress プラグインで有効にできます。",
+    "description": "Japanese translation for ecosystem.product.empora.card"
+  },
+  "ecosystem.product.empora.heading": {
+    "message": "Empora で何ができますか？",
+    "description": "Japanese translation for ecosystem.product.empora.heading"
+  },
+  "ecosystem.product.empora.paragraph.1": {
+    "message": "Empora は WooCommerce 向けの機能モジュールを一つの WordPress プラグインにまとめています。すべてを一度に導入するのではなく、ストアに必要な部分を選べます。最初に解決したい仕事を決め、そのモジュールをオンにし、ほかはオフのままにできます。",
+    "description": "Japanese translation for ecosystem.product.empora.paragraph.1"
+  },
+  "ecosystem.product.empora.paragraph.2": {
+    "message": "ウェブの管理画面ではライセンスと任意のストア連携を扱います。ストア管理用の画面であり、Video Controls Plus のアカウントや機能ではありません。WooCommerce ショップを管理するなら、各モジュールの効果を確かめ、必要な接続だけを選んでください。一つずつ確認してから有効にできます。",
+    "description": "Japanese translation for ecosystem.product.empora.paragraph.2"
+  },
+  "ecosystem.product.empora.paragraph.3": {
+    "message": "製品の内容は [Empora](https://empora.aoneahsan.com) で確認できます。",
+    "description": "Japanese translation for ecosystem.product.empora.paragraph.3"
+  },
+  "ecosystem.product.habitforge.card": {
+    "message": "習慣を記録すると縄が太くなり、途切れたところはほつれて見えます。",
+    "description": "Japanese translation for ecosystem.product.habitforge.card"
+  },
+  "ecosystem.product.habitforge.heading": {
+    "message": "HabitForge で何ができますか？",
+    "description": "Japanese translation for ecosystem.product.habitforge.heading"
+  },
+  "ecosystem.product.habitforge.paragraph.1": {
+    "message": "HabitForge は習慣を縄の形で見せます。記録するたびに太くなり、続かなかった期間はほつれとして残るので、日々を振り返れます。自分で連続日数を計算しなくても、積み重ねを見渡せます。そこからまた続けられます。",
+    "description": "Japanese translation for ecosystem.product.habitforge.paragraph.1"
+  },
+  "ecosystem.product.habitforge.paragraph.2": {
+    "message": "友人、チャレンジ、ランキングを利用でき、ランキングからは抜けることもできます。同じアカウントをウェブと Android で使えます。Video Controls Plus は見た講座のメモを残せますが、HabitForge はその後の習慣を実行したか記録する場所です。記録は別々です。ほつれは中断した箇所を示し、それ以前の記録を消しません。",
+    "description": "Japanese translation for ecosystem.product.habitforge.paragraph.2"
+  },
+  "ecosystem.product.habitforge.paragraph.3": {
+    "message": "自分の習慣の見え方は [HabitForge](https://habitforge.aoneahsan.com) で確認できます。",
+    "description": "Japanese translation for ecosystem.product.habitforge.paragraph.3"
+  },
+  "ecosystem.product.labflow.card": {
+    "message": "検査依頼から検体、確認を経て公開された結果まで、診断検査の流れを追えます。",
+    "description": "Japanese translation for ecosystem.product.labflow.card"
+  },
+  "ecosystem.product.labflow.heading": {
+    "message": "LabFlow で何ができますか？",
+    "description": "Japanese translation for ecosystem.product.labflow.heading"
+  },
+  "ecosystem.product.labflow.paragraph.1": {
+    "message": "LabFlow は患者と検査依頼から検体、結果、検証まで、診断検査室の作業を追います。下書きの結果と患者に公開された結果を別の段階として扱います。複数の担当者が同じ検体を扱うとき、この違いが重要です。引き継ぎの流れを確認できます。",
+    "description": "Japanese translation for ecosystem.product.labflow.paragraph.1"
+  },
+  "ecosystem.product.labflow.paragraph.2": {
+    "message": "請求、在庫、品質管理も同じシステムにあります。診断検査室を運営する担当者向けで、個人の健康記録や動画講座の解釈には使いません。依頼が公開済み結果に至るまで、誰が何を確認するかを見てください。公開の段階は検査室の担当者が検証するため、患者向け結果には明確な状態が付きます。",
+    "description": "Japanese translation for ecosystem.product.labflow.paragraph.2"
+  },
+  "ecosystem.product.labflow.paragraph.3": {
+    "message": "製品の説明は [LabFlow](https://labflow.aoneahsan.com) で確認できます。",
+    "description": "Japanese translation for ecosystem.product.labflow.paragraph.3"
+  },
+  "ecosystem.product.lifewell.card": {
+    "message": "バイタル、水分、服薬、睡眠、栄養を一つの健康記録にまとめられます。",
+    "description": "Japanese translation for ecosystem.product.lifewell.card"
+  },
+  "ecosystem.product.lifewell.heading": {
+    "message": "LifeWell で何ができますか？",
+    "description": "Japanese translation for ecosystem.product.lifewell.heading"
+  },
+  "ecosystem.product.lifewell.paragraph.1": {
+    "message": "LifeWell はバイタル、水分、服薬、睡眠、栄養を一つの健康記録にまとめます。月経、妊娠に関わる記録、赤ちゃんの節目も日々残せます。後から見返すとき、普段の記録が散らばらず一か所にあります。自分の経過を残せます。",
+    "description": "Japanese translation for ecosystem.product.lifewell.paragraph.1"
+  },
+  "ecosystem.product.lifewell.paragraph.2": {
+    "message": "ウェブと Android で利用でき、端末間で同期します。別の画面でも記録を続けられますが、診断や治療を行うものではありません。Video Controls Plus はオンライン動画の操作と学習メモを扱い、LifeWell は独自のアカウントで健康記録を保持します。一件の記録は、日々の全体像の一部です。",
+    "description": "Japanese translation for ecosystem.product.lifewell.paragraph.2"
+  },
+  "ecosystem.product.lifewell.paragraph.3": {
+    "message": "製品の内容は [LifeWell](https://lifewell.aoneahsan.com) で確認できます。",
+    "description": "Japanese translation for ecosystem.product.lifewell.paragraph.3"
+  },
+  "ecosystem.product.linux-cleanup.card": {
+    "message": "Linux のキャッシュ保存先を確認し、ドライランを試してから、整理結果の記録を見られます。",
+    "description": "Japanese translation for ecosystem.product.linux-cleanup.card"
+  },
+  "ecosystem.product.linux-cleanup.heading": {
+    "message": "linux-cleanup で何ができますか？",
+    "description": "Japanese translation for ecosystem.product.linux-cleanup.heading"
+  },
+  "ecosystem.product.linux-cleanup.paragraph.1": {
+    "message": "linux-cleanup は、実際に実行する前に削除対象となる Linux のキャッシュ保存先を示します。制限を確認し、スキャンとドライランを試せます。この二つの準備段階では削除しません。続ける前に対象のパスを読んでください。",
+    "description": "Japanese translation for ecosystem.product.linux-cleanup.paragraph.1"
+  },
+  "ecosystem.product.linux-cleanup.paragraph.2": {
+    "message": "x86_64 Linux 向けのデスクトップアプリは AppImage と .deb で提供され、実行後に結果の記録が残ります。MIT ライセンスの CLI は npx で実行できます。Video Controls Plus のブラウザー操作とは別のコンピューター保守ツールです。整理の対象を理解したいなら、削除前にプレビューを見てください。実行後の記録から、実際に何が起きたかを確認できます。",
+    "description": "Japanese translation for ecosystem.product.linux-cleanup.paragraph.2"
+  },
+  "ecosystem.product.linux-cleanup.paragraph.3": {
+    "message": "製品の案内は [linux-cleanup](https://linux-cleanup.aoneahsan.com/) にあります。",
+    "description": "Japanese translation for ecosystem.product.linux-cleanup.paragraph.3"
+  },
+  "ecosystem.product.macleanup.card": {
+    "message": "macOS で削除する項目を、実際のドライランで先に確認できます。",
+    "description": "Japanese translation for ecosystem.product.macleanup.card"
+  },
+  "ecosystem.product.macleanup.heading": {
+    "message": "macleanup で何ができますか？",
+    "description": "Japanese translation for ecosystem.product.macleanup.heading"
+  },
+  "ecosystem.product.macleanup.paragraph.1": {
+    "message": "macleanup は macOS の整理ツールです。削除前に実際のドライランを行い、整理対象のセクションを表示します。個人用フォルダーは無条件で拒否します。この境界は、利用者がオンにし忘れる設定ではなく、製品に組み込まれています。先に確認してください。",
+    "description": "Japanese translation for ecosystem.product.macleanup.paragraph.1"
+  },
+  "ecosystem.product.macleanup.paragraph.2": {
+    "message": "Mac の空き容量を増やしたい場合は、セクション一覧とドライランの結果を読んでから実行を決められます。Video Controls Plus とは同じ開発者の別製品で、設定や作業手順は共有しません。ドライランは検討できる具体的な一覧を示し、実行時も個人用フォルダーの拒否が続きます。",
+    "description": "Japanese translation for ecosystem.product.macleanup.paragraph.2"
+  },
+  "ecosystem.product.macleanup.paragraph.3": {
+    "message": "製品の内容は [macleanup](https://github.com/aoneahsan/macleanup) で確認できます。",
+    "description": "Japanese translation for ecosystem.product.macleanup.paragraph.3"
+  },
+  "ecosystem.product.native-update.card": {
+    "message": "ストアの公開と公開の間に、Capacitor アプリのバンドルを配信できます。",
+    "description": "Japanese translation for ecosystem.product.native-update.card"
+  },
+  "ecosystem.product.native-update.heading": {
+    "message": "Native Update で何ができますか？",
+    "description": "Japanese translation for ecosystem.product.native-update.heading"
+  },
+  "ecosystem.product.native-update.paragraph.1": {
+    "message": "Native Update はストアでの公開と公開の間に Capacitor アプリのバンドルを届けます。アプリの開発者は、ウェブ層の変更がすべてストア掲載を待たなくても、インストール済みのアプリへバンドルを配信できます。アプリ内でのストア更新案内とレビュー依頼も扱います。まず公開の流れを確認してください。",
+    "description": "Japanese translation for ecosystem.product.native-update.paragraph.1"
+  },
+  "ecosystem.product.native-update.paragraph.2": {
+    "message": "自分でホストできるバックエンドを備えるオープンソース製品です。設定が必要な開発者向けの公開手順であり、Video Controls Plus 利用者の更新ボタンではありません。Capacitor アプリを作る場合は、アプリへの更新の届け方を決める前に、各プラットフォームとバックエンドの説明を読んでください。ストアにも独自の公開手順があるため、バンドル配信とストア更新に伴う案内の両方を説明しています。",
+    "description": "Japanese translation for ecosystem.product.native-update.paragraph.2"
+  },
+  "ecosystem.product.native-update.paragraph.3": {
+    "message": "製品の案内は [Native Update](https://nativeupdate.aoneahsan.com) で確認できます。",
+    "description": "Japanese translation for ecosystem.product.native-update.paragraph.3"
+  },
+  "ecosystem.product.netcage.card": {
+    "message": "Android アプリごとに Wi-Fi とモバイル通信の利用可否と、ルールを適用する時間を選べます。",
+    "description": "Japanese translation for ecosystem.product.netcage.card"
+  },
+  "ecosystem.product.netcage.heading": {
+    "message": "NetCage で何ができますか？",
+    "description": "Japanese translation for ecosystem.product.netcage.heading"
+  },
+  "ecosystem.product.netcage.paragraph.1": {
+    "message": "NetCage は、Android アプリが Wi-Fi、モバイル通信、または両方を使えるかを選べます。選んだアプリ一つだけの接続を止め、ほかはオンラインのままにできます。アプリをプロフィールにまとめ、曜日と時間を指定してルールを適用できます。まず対象のアプリを選んでください。",
+    "description": "Japanese translation for ecosystem.product.netcage.paragraph.1"
+  },
+  "ecosystem.product.netcage.paragraph.2": {
+    "message": "制御するのは Android アプリのネットワーク接続です。ウェブサイトの動画プレーヤーや、Video Controls Plus のアカウント接続方法を変えるものではありません。スマートフォンのアプリをいつ接続させるか決めたい場合は、プロフィールをオンにする前に対象と予定時刻を確認してください。時間指定は、同じルールを一日の一部にだけ適用したいときに役立ちます。",
+    "description": "Japanese translation for ecosystem.product.netcage.paragraph.2"
+  },
+  "ecosystem.product.netcage.paragraph.3": {
+    "message": "製品の内容は [NetCage](https://netcage.aoneahsan.com) で確認できます。",
+    "description": "Japanese translation for ecosystem.product.netcage.paragraph.3"
+  },
+  "ecosystem.product.pregnancypal.card": {
+    "message": "妊娠週数、症状、予定を一か所に記録し、医師に見せる PDF にまとめられます。",
+    "description": "Japanese translation for ecosystem.product.pregnancypal.card"
+  },
+  "ecosystem.product.pregnancypal.heading": {
+    "message": "PregnancyPal で何ができますか？",
+    "description": "Japanese translation for ecosystem.product.pregnancypal.heading"
+  },
+  "ecosystem.product.pregnancypal.paragraph.1": {
+    "message": "PregnancyPal では、妊娠の経過を週ごとに追い、症状、気分、バイタル、受診予定を記録できます。今の週に栄養と運動の情報も添えられます。受診時には自分の記録を医師に見せやすい PDF にまとめられます。日付を一か所に残せます。",
+    "description": "Japanese translation for ecosystem.product.pregnancypal.paragraph.1"
+  },
+  "ecosystem.product.pregnancypal.paragraph.2": {
+    "message": "個人の記録用製品であり、医療上の助言や医療従事者の代わりではありません。Video Controls Plus の動画やメモが自動で追加されることはなく、独自の記録と手順を使います。週ごとの表示と記録できる情報を確認してください。PDF は自分の観察を診察時の会話へ持ち込む手段で、その文脈は医療従事者と確認できます。",
+    "description": "Japanese translation for ecosystem.product.pregnancypal.paragraph.2"
+  },
+  "ecosystem.product.pregnancypal.paragraph.3": {
+    "message": "製品の内容は [PregnancyPal](https://pregnancypal.aoneahsan.com) で確認できます。",
+    "description": "Japanese translation for ecosystem.product.pregnancypal.paragraph.3"
+  },
+  "ecosystem.product.rentparty.card": {
+    "message": "不動産取引のゲームを中断し、銀行と権利書を残したまま再開できます。",
+    "description": "Japanese translation for ecosystem.product.rentparty.card"
+  },
+  "ecosystem.product.rentparty.heading": {
+    "message": "RentParty で何ができますか？",
+    "description": "Japanese translation for ecosystem.product.rentparty.heading"
+  },
+  "ecosystem.product.rentparty.paragraph.1": {
+    "message": "RentParty は、別の日に再開できる不動産取引ゲームです。一台のスマートフォンを回して遊ぶ、CPU と対戦する、オンラインの部屋を開く方法があります。中断すると銀行と権利書の状態が保存され、次回は同じゲームに戻れます。",
+    "description": "Japanese translation for ecosystem.product.rentparty.paragraph.1"
+  },
+  "ecosystem.product.rentparty.paragraph.2": {
+    "message": "全員がスマートフォンを置く必要があるなら、モードの数より中断と再開が役立ちます。Zaions チームのゲームであり、オンライン動画向けの Video Controls Plus とはセッションも操作も別です。参加方法を選んでください。次のプレーヤーは前回の状態を思い出して各物件を割り当て直さずに、手番を進められます。",
+    "description": "Japanese translation for ecosystem.product.rentparty.paragraph.2"
+  },
+  "ecosystem.product.rentparty.paragraph.3": {
+    "message": "遊び方は [RentParty](https://rentparty.aoneahsan.com) で確認できます。",
+    "description": "Japanese translation for ecosystem.product.rentparty.paragraph.3"
+  },
+  "ecosystem.product.smsapp.card": {
+    "message": "自分の Android 端末から、単発・一括・予約の SMS を送信できます。",
+    "description": "Japanese translation for ecosystem.product.smsapp.card"
+  },
+  "ecosystem.product.smsapp.heading": {
+    "message": "SMS App で何ができますか？",
+    "description": "Japanese translation for ecosystem.product.smsapp.heading"
+  },
+  "ecosystem.product.smsapp.paragraph.1": {
+    "message": "SMS App は自分の Android 端末からテキストメッセージを送ります。単発、一括、予約送信に対応し、大きな送信作業向けの端末登録とボランティアプールの管理も備えています。端末自体が送信経路の一部なので、キャンペーンを計画する前に設定を確認してください。自分の端末を使います。",
+    "description": "Japanese translation for ecosystem.product.smsapp.paragraph.1"
+  },
+  "ecosystem.product.smsapp.paragraph.2": {
+    "message": "Android 固有のこの製品は、SMS の配信とそれに伴うプライバシーの選択を扱います。Video Controls Plus からメッセージを送るものではなく、拡張機能のアカウントが SMS の送信元になることもありません。一括送信を準備する前に、端末とメッセージの流れを確認してください。予約送信では、指定時刻に適切な登録済み端末が使える必要があります。",
+    "description": "Japanese translation for ecosystem.product.smsapp.paragraph.2"
+  },
+  "ecosystem.product.smsapp.paragraph.3": {
+    "message": "製品の案内は [SMS App](https://smsapp.aoneahsan.com) で確認できます。",
+    "description": "Japanese translation for ecosystem.product.smsapp.paragraph.3"
+  },
+  "ecosystem.product.strata-storage.card": {
+    "message": "ブラウザーの保存領域とネイティブの Keychain・Keystore を、一つのインターフェースで扱えます。",
+    "description": "Japanese translation for ecosystem.product.strata-storage.card"
+  },
+  "ecosystem.product.strata-storage.heading": {
+    "message": "Strata Storage で何ができますか？",
+    "description": "Japanese translation for ecosystem.product.strata-storage.heading"
+  },
+  "ecosystem.product.strata-storage.paragraph.1": {
+    "message": "Strata Storage は、ブラウザーとネイティブ端末の保存領域に共通のインターフェースを提供します。ウェブの localStorage、IndexedDB、Cookie と、ネイティブの Keychain、Keystore を扱い、依存パッケージはありません。データに合う保存層を選んでください。",
+    "description": "Japanese translation for ecosystem.product.strata-storage.paragraph.1"
+  },
+  "ecosystem.product.strata-storage.paragraph.2": {
+    "message": "共通の API により、ウェブ、iOS、Android で呼び出し方を揃えられますが、各保存層の性質は異なります。アプリ開発者向けのパッケージであり、Video Controls Plus の新しい設定ではありません。どの保存層と保持方法が必要か、導入手順を読んで決めてください。インターフェースが同じでも、ネイティブの安全な保存領域とウェブの保存領域の安全性が同じになるわけではありません。",
+    "description": "Japanese translation for ecosystem.product.strata-storage.paragraph.2"
+  },
+  "ecosystem.product.strata-storage.paragraph.3": {
+    "message": "パッケージの案内は [Strata Storage](https://www.npmjs.com/package/strata-storage) で確認できます。",
+    "description": "Japanese translation for ecosystem.product.strata-storage.paragraph.3"
+  },
+  "ecosystem.product.tilawah.card": {
+    "message": "録画された Tajweed と Tafseer の講座を、自分のペースで学べます。",
+    "description": "Japanese translation for ecosystem.product.tilawah.card"
+  },
+  "ecosystem.product.tilawah.heading": {
+    "message": "Tilawah で何ができますか？",
+    "description": "Japanese translation for ecosystem.product.tilawah.heading"
+  },
+  "ecosystem.product.tilawah.paragraph.1": {
+    "message": "Tilawah では、録画された Tajweed と Tafseer の講座を自分のペースで進められます。進捗記録から、決まった時間のライブ授業がなくても終えた講座を確認できます。朗誦を人に聞いてほしい場合は、自分のタイムゾーンで一対一のライブ授業を予約できます。録画講座か授業を選べます。",
+    "description": "Japanese translation for ecosystem.product.tilawah.paragraph.1"
+  },
+  "ecosystem.product.tilawah.paragraph.2": {
+    "message": "都合のよいときに録画を繰り返し見る方法と、教師と時間を決めて学ぶ方法があります。Tilawah は独自の学習手順を持ちます。Video Controls Plus は標準的なオンライン動画の再生を調整できますが、Tilawah の講座への登録やアカウント連携はしません。予約前には表示された時間を確認してください。ライブ授業は学習者のタイムゾーンを使います。",
+    "description": "Japanese translation for ecosystem.product.tilawah.paragraph.2"
+  },
+  "ecosystem.product.tilawah.paragraph.3": {
+    "message": "講座と授業は [Tilawah](https://tilawah.aoneahsan.com) で確認できます。",
+    "description": "Japanese translation for ecosystem.product.tilawah.paragraph.3"
+  },
+  "ecosystem.product.trizlink.card": {
+    "message": "ブランド付きの短縮リンク、プロフィール用リンク集、クリックの分析を一か所で管理できます。",
+    "description": "Japanese translation for ecosystem.product.trizlink.card"
+  },
+  "ecosystem.product.trizlink.heading": {
+    "message": "Trizlink で何ができますか？",
+    "description": "Japanese translation for ecosystem.product.trizlink.heading"
+  },
+  "ecosystem.product.trizlink.paragraph.1": {
+    "message": "Trizlink は短縮リンク、プロフィール用リンク集、クリック分析を一つの製品にまとめます。独自の短い文字列でブランド付きリンクを作るか、一つのページに複数の行き先を並べられます。リンクが使われると、クリックの記録から反応を確認できます。まず行き先を選んでください。",
+    "description": "Japanese translation for ecosystem.product.trizlink.paragraph.1"
+  },
+  "ecosystem.product.trizlink.paragraph.2": {
+    "message": "独自ドメインと内蔵の便利ツールも掲載しています。Trizlink の URL はその製品で管理するリンクで、動画操作ではありません。Video Controls Plus がそのクリックを作成・集計することもありません。短いアドレスや複数リンクを載せるページが必要なら確認してください。ブランド付きの短い文字列は行き先を分かりやすくし、分析はそのリンクが使われたかを示します。",
+    "description": "Japanese translation for ecosystem.product.trizlink.paragraph.2"
+  },
+  "ecosystem.product.trizlink.paragraph.3": {
+    "message": "製品の内容は [Trizlink](https://trizlink.com) で確認できます。",
+    "description": "Japanese translation for ecosystem.product.trizlink.paragraph.3"
+  },
+  "ecosystem.product.waylock.card": {
+    "message": "Android の運転ルートで、指定した立ち寄り先を固定し、ほかを並べ替えられます。",
+    "description": "Japanese translation for ecosystem.product.waylock.card"
+  },
+  "ecosystem.product.waylock.heading": {
+    "message": "Waylock で何ができますか？",
+    "description": "Japanese translation for ecosystem.product.waylock.heading"
+  },
+  "ecosystem.product.waylock.paragraph.1": {
+    "message": "Waylock は運転手や配達員向けに、Google Maps の上で使う Android のルート計画ツールです。選んだ立ち寄り先を固定し、残りをその周りで並べ替えられます。道を間違えても、元のルートは表示されたままで、戻るか新しい道を使うか選べます。固定した地点を保てます。",
+    "description": "Japanese translation for ecosystem.product.waylock.paragraph.1"
+  },
+  "ecosystem.product.waylock.paragraph.2": {
+    "message": "一部の配達順を変えられず、残りは運転に合わせたいときに役立つ区別です。ブラウザーのナビゲーションとは別の仕事です。Android でルートを保ち、修正する方法を確認してください。道を間違えても最初の選択は消えず、ルート画面から次の判断をできます。",
+    "description": "Japanese translation for ecosystem.product.waylock.paragraph.2"
+  },
+  "ecosystem.product.waylock.paragraph.3": {
+    "message": "製品の案内は [Waylock](https://waylock.aoneahsan.com) で確認できます。",
+    "description": "Japanese translation for ecosystem.product.waylock.paragraph.3"
+  },
+  "ecosystem.product.windowsweep.card": {
+    "message": "Windows の整理対象パスを実際のドライランで確認してから、削除するものを選べます。",
+    "description": "Japanese translation for ecosystem.product.windowsweep.card"
+  },
+  "ecosystem.product.windowsweep.heading": {
+    "message": "windowsweep で何ができますか？",
+    "description": "Japanese translation for ecosystem.product.windowsweep.heading"
+  },
+  "ecosystem.product.windowsweep.paragraph.1": {
+    "message": "windowsweep は Windows の整理対象となるすべてのパスを、変更前に示します。30 のセクションには実際のドライランがあり、個人ファイルは黙って含めず行ごとに選びます。ネットワーク通信は行いません。まず予定される変更を読んでください。",
+    "description": "Japanese translation for ecosystem.product.windowsweep.paragraph.1"
+  },
+  "ecosystem.product.windowsweep.paragraph.2": {
+    "message": "npx から実行するか、Windows のデスクトップアプリを使えます。整理する端末上でその端末のパスを確認する製品で、ブラウザーの Video Controls Plus とは別です。ドライランから始め、各セクションを確認してから実行するか決めてください。個人ファイルの行ごとの選択により、実際の削除も見えない既定値ではなく、自分で確認できる判断になります。",
+    "description": "Japanese translation for ecosystem.product.windowsweep.paragraph.2"
+  },
+  "ecosystem.product.windowsweep.paragraph.3": {
+    "message": "製品の内容は [windowsweep](https://windowsweep.aoneahsan.com) で確認できます。",
+    "description": "Japanese translation for ecosystem.product.windowsweep.paragraph.3"
+  },
+  "ecosystem.product.ztools.card": {
+    "message": "ファイルをアップロードせず、ブラウザーで動く整形、変換、エンコード、生成ツールを探せます。",
+    "description": "Japanese translation for ecosystem.product.ztools.card"
+  },
+  "ecosystem.product.ztools.heading": {
+    "message": "ZTools で何ができますか？",
+    "description": "Japanese translation for ecosystem.product.ztools.heading"
+  },
+  "ecosystem.product.ztools.paragraph.1": {
+    "message": "ZTools は、ブラウザーで動く整形、変換、エンコード、生成のツールを検索できる一覧にまとめています。目の前の作業に合うツールを開き、ブラウザー内で使います。製品一覧によると、ファイルはアップロードされません。まず目的に合うツールを探してください。",
+    "description": "Japanese translation for ecosystem.product.ztools.paragraph.1"
+  },
+  "ecosystem.product.ztools.paragraph.2": {
+    "message": "ダークモードとオフライン利用にも対応します。ファイルや文章のユーティリティは ZTools の役割です。Video Controls Plus はオンライン動画の再生と学習に集中しています。動画操作ではなく変換ツールを探しているなら、ZTools で入力内容に合うものを選んでください。作業は分かっていてもツール名が分からない場合に、検索できる一覧が役立ちます。",
+    "description": "Japanese translation for ecosystem.product.ztools.paragraph.2"
+  },
+  "ecosystem.product.ztools.paragraph.3": {
+    "message": "製品の内容は [ZTools](https://ztools.zaions.com) で確認できます。",
+    "description": "Japanese translation for ecosystem.product.ztools.paragraph.3"
+  },
+  "aboutDeveloper.title": {
+    "message": "Video Controls Plus を作った人",
+    "description": "Japanese translation for aboutDeveloper.title"
+  },
+  "aboutDeveloper.docsBreadcrumb": {
+    "message": "Video Controls Plus ドキュメント",
+    "description": "Japanese translation for aboutDeveloper.docsBreadcrumb"
+  },
+  "aboutDeveloper.breadcrumb": {
+    "message": "開発者について",
+    "description": "Japanese translation for aboutDeveloper.breadcrumb"
   }
 }
