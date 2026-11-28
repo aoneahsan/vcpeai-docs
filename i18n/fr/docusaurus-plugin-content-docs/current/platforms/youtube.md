@@ -1,58 +1,57 @@
 ---
-title: "Video Controls Plus sur YouTube"
-sidebar_label: "YouTube"
-description: "Sur YouTube, les commandes de base fonctionnent comme sur n'importe quel site, et chacun des extras YouTube a son propre commutateur dans Paramètres; la plupart sont activés par défaut."
-unlisted: true
+title: Video Controls Plus sur YouTube
+sidebar_label: YouTube
+description: Sur YouTube, les commandes vidéo habituelles fonctionnent, et chaque outil YouTube possède son propre interrupteur dans les paramètres.
 ---
 
-Sur YouTube, vous obtenez les mêmes commandes que partout et un ensemble d'extras fait pour YouTube: Comment Search, un comptoir de désintégration, un bloqueur de canaux et des téléchargements de sous-titres et de vignettes sont activés dès le début, et chacun a son propre commutateur dans Paramètres. Les extras qui sont activés par défaut sans compte. Seul l'onglet Fonctions YouTube dans Paramètres, où vous les commutez, a besoin d'un compte, et [Compte et synchronisation](/docs/account-and-sync) couvre ça.
+Sur YouTube, vous disposez des mêmes commandes que sur les autres sites, plus des outils dédiés. La recherche dans les commentaires, le compteur de pouces vers le bas, le blocage de chaînes et le téléchargement de sous-titres et de miniatures sont activés au départ. Chacun possède son propre interrupteur dans les paramètres. Les outils activés par défaut fonctionnent sans compte. Seul l’onglet YouTube Features, qui permet de les modifier, demande d’[associer un compte](/fr/docs/account-and-sync).
 
-## Les contrôles de base {#the-core-controls}
+## Commandes habituelles {#the-core-controls}
 
-La vitesse, le widget et les raccourcis fonctionnent sur YouTube comme partout. Appuyez sur `]` pour aller plus vite 0.1x, et la mémoire de vitesse garde une vitesse pour chaque vidéo.
+La vitesse, le widget et les raccourcis fonctionnent sur YouTube comme ailleurs. Appuyez sur `]` pour accélérer de 0.1x ; la mémoire de vitesse conserve un réglage par vidéo.
 
-## Ce qui est activé par défaut {#what-is-on-by-default}
+## Outils activés par défaut {#what-is-on-by-default}
 
-La plupart des extras YouTube sont activés dès le début. Quelques-uns sont éteints jusqu'à ce que tu les allumes.
+La plupart des outils YouTube sont activés au départ. Quelques-uns doivent être activés dans les paramètres.
 
-| Extra                     | Ce qu'il fait                                                                 | Par défaut                         |
-| ------------------------- | ----------------------------------------------------------------------------- | ---------------------------------- |
-| Défaillance du compteur   | Affiche des nombres non aimés, en utilisant l'API de retour YouTube non aimés | Sur, et dans le menu de clic droit |
-| Recherche de commentaires | Recherche dans les commentaires d'une vidéo                                   | Sur, et dans le menu de clic droit |
-| Bloceur de canaux         | Garde un canal hors de vos recommandations                                    | Sur, et dans le menu de clic droit |
-| Téléchargeur de vignettes | Télécharger la vignette vidéo                                                 | À                                  |
-| Sous-titre Télécharger    | Télécharger les sous-titres                                                   | À                                  |
-| Bloceur Shorts            | Cacher le short du flux YouTube                                               | Arrêt                              |
-| Auto large                | Toujours jouer dans la mise en scène de YouTube                               | Arrêt                              |
-| Saut d'annonce            | Clics YouTube propres Skip Bouton publicitaire lorsque YouTube l'affiche      | Arrêt                              |
+| Outil | Fonction | Réglage initial |
+|---|---|---|
+| Dislike Counter | Affiche le nombre de pouces vers le bas via l’API Return YouTube Dislike | Activé, aussi dans le menu contextuel |
+| Comment Search | Recherche dans les commentaires d’une vidéo | Activé, aussi dans le menu contextuel |
+| Channel Blocker | Retire une chaîne de vos recommandations | Activé, aussi dans le menu contextuel |
+| Thumbnail Downloader | Télécharge la miniature de la vidéo | Activé |
+| Subtitle Downloader | Télécharge les sous-titres | Activé |
+| Shorts Blocker | Masque les Shorts du fil YouTube | Désactivé |
+| Auto Wide | Utilise toujours le mode cinéma large de YouTube | Désactivé |
+| Ad Skip | Clique sur le bouton « Skip Ad » de YouTube lorsqu’il apparaît | Désactivé |
 
-Ad Skip clique sur le bouton YouTube. Il ne supprime pas les annonces, et il ne fait rien tant que le bouton est là.
+Ad Skip clique sur le bouton affiché par YouTube. Il ne retire pas les publicités et n’agit pas avant l’apparition du bouton.
 
-## Où sont les interrupteurs {#where-the-switches-are}
+## Emplacement des interrupteurs {#where-the-switches-are}
 
 1. Ouvrez les paramètres.
-2. Allez au **Caractéristiques de YouTube** onglet.
-3. Connectez un compte si l'onglet vous le demande.
+2. Sélectionnez l’onglet **YouTube Features**.
+3. Associez un compte si l’onglet le demande.
 
-Les extras sont groupés : Commentaires, Découverte & Blocage, Navigation, Expérience de visionnement, Joueur, Productivité, Apprentissage, Analytique, Avancé et Téléchargements.
+Les outils sont regroupés par commentaires, découverte et blocage, navigation, visionnage, lecteur, productivité, apprentissage, analyse, fonctions avancées et téléchargements. Le [guide des 62 outils YouTube](https://vcpeai.aoneahsan.com/blog/youtube-extras-guide) explique le rôle et les limites de chacun.
 
-Chaque supplément a deux commutateurs.
+Chaque outil possède deux interrupteurs :
 
-| Commutateur                      | Ce qu'il fait                                     |
-| -------------------------------- | ------------------------------------------------- |
-| Activer                          | Active ou désactive le supplément                 |
-| Afficher dans le menu clic droit | Ajoute le supplément au menu à droite sur YouTube |
+| Interrupteur | Effet |
+|---|---|
+| Enable | Active ou désactive l’outil |
+| Show in right-click menu | Ajoute l’outil au menu contextuel sur YouTube |
 
-Les extras ne fonctionnent que sur youtube.com.
+Ces outils ne fonctionnent que sur youtube.com.
 
-## Comment tu fais un extra {#how-you-run-an-extra}
+## Lancer un outil {#how-you-run-an-extra}
 
-Vous lancez un extra depuis l'onglet YouTube dans le widget ou dans le menu à clic droit, et les étiquettes sont en anglais aujourd'hui ([Pourquoi](/docs/user-guide/display-and-widget)).
+Lancez-le depuis l’onglet YouTube du widget ou le menu contextuel. Les libellés du panneau utilisent la langue choisie pour l’extension. Voir [Changer la langue](/fr/docs/user-guide/display-and-widget).
 
-Seuls les extras que vous avez cochés pour le menu de clic droit s'y trouvent. Le menu reste court.
+Seuls les outils que vous avez ajoutés au menu contextuel y apparaissent, pour éviter un menu trop long.
 
-## Clés connexes {#related-keys}
+## Raccourcis associés {#related-keys}
 
-`Ctrl + Alt + X` copie un lien vers la vidéo avec l'horodatage actuel. Le reste des clés de départ sont en [Raccourcis par défaut](/docs/keyboard-shortcuts/defaults)et [Modifier un raccourci](/docs/keyboard-shortcuts/rebinding) les déplace.
+`Ctrl + Alt + X` copie un lien vers la vidéo avec l’horodatage actuel. Les autres combinaisons initiales figurent dans [Raccourcis par défaut](/fr/docs/keyboard-shortcuts/defaults), et [Modifier un raccourci](/fr/docs/keyboard-shortcuts/rebinding) explique comment les changer.
 
-Suivant : [Netflix](/docs/platforms/netflix).
+À suivre : [Netflix](/fr/docs/platforms/netflix).

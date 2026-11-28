@@ -28,7 +28,7 @@ Sirve para practicar un compás rápido de guitarra, revisar una demostración d
 
 ## Modos del bucle
 
-Elige el modo en la pestaña Bucle del widget. Sus nombres siguen el idioma del navegador si está configurado en inglés, español, francés o alemán ([cambiar el idioma](/docs/user-guide/display-and-widget)).
+Elige el modo en la pestaña Bucle del widget. Sus nombres usan el idioma elegido para la extensión ([cambiar el idioma](/docs/user-guide/display-and-widget)).
 
 | Modo | Qué ocurre al llegar a B |
 |---|---|

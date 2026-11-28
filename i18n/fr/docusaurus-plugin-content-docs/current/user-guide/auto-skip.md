@@ -1,63 +1,62 @@
 ---
-title: "Sauter les intros, les recaps et les crédits automatiquement"
-sidebar_label: "Auto-skip"
-description: "Auto-skip clique sur les boutons skip que Netflix, Prime Video et YouTube montrent ; il est désactivé par défaut et nécessite un compte."
-unlisted: true
+title: Passer automatiquement les introductions et récapitulatifs
+sidebar_label: Saut automatique
+description: Le saut automatique clique sur les boutons de Netflix, Prime Video et YouTube. Il est désactivé par défaut et demande un compte.
 ---
 
-Auto-skip clique sur le bouton sauter pour vous lorsque Netflix, Prime Video ou YouTube en montre un. Les interrupteurs de saut sont éteints jusqu'à ce que vous les allumez, et tous ont besoin d'un compte. [Compte et synchronisation](/docs/account-and-sync) couvre ce que la connexion ajoute.
+Le saut automatique clique à votre place lorsqu’un bouton de saut apparaît sur Netflix, Prime Video ou YouTube. Ses interrupteurs sont désactivés au départ, et la fonction demande un [compte associé](/fr/docs/account-and-sync).
 
-## Ce qu'il clique {#what-it-clicks}
+## Boutons utilisés {#what-it-clicks}
 
-| Site                   | Ce qu'il clique                                                                                                         |
-| ---------------------- | ----------------------------------------------------------------------------------------------------------------------- |
-| Netflix et Prime Video | Le bouton saut pour une intro, le bouton saut pour une récapitulation et l'invite "Next Episode" sur les crédits de fin |
-| YouTube                | Le bouton "Skip Ad" et la vidéo suivante sur l'écran final                                                              |
+| Site | Bouton utilisé |
+|---|---|
+| Netflix et Prime Video | Sauter l’introduction, passer le récapitulatif ou aller à l’épisode suivant pendant le générique |
+| YouTube | « Skip Ad » et vidéo suivante sur l’écran de fin |
 
-Il clique sur les boutons que le site affiche. Si le site n'affiche aucun bouton, il n'y a rien à cliquer.
+L’extension clique sur les boutons affichés par le site. Si aucun bouton n’apparaît, elle n’a rien à utiliser.
 
-## Allumez-le. {#turn-it-on}
+## Activer le saut automatique {#turn-it-on}
 
-1. Ouvrez les paramètres et allez dans l'onglet Avancé.
-2. Rechercher **Fonctions de lecture**.
-3. Allumez ceux que vous voulez.
+1. Ouvrez l’onglet « Avancé » des paramètres.
+2. Repérez **Playback Features**.
+3. Activez les options souhaitées.
 
-| Commutateur                     | Par défaut | Ce qu'il fait                                               |
-| ------------------------------- | ---------- | ----------------------------------------------------------- |
-| Auto Skip Intro                 | Arrêt      | Cliquez sur le bouton intro skip                            |
-| Auto Skip Outro/Next Episode    | Arrêt      | Cliquez sur les crédits de fin et l'invite "Next Episode"   |
-| Auto Skip Recap                 | Arrêt      | Cliquez sur le bouton skip recap sur Netflix et Prime Video |
-| Afficher la notification Sauter | À          | Affiche un court préavis chaque fois qu'il saute            |
+| Interrupteur | Réglage initial | Effet |
+|---|---|---|
+| Auto Skip Intro | Désactivé | Clique sur le bouton de saut de l’introduction |
+| Auto Skip Outro/Next Episode | Désactivé | Passe le générique et l’invite « épisode suivant » |
+| Auto Skip Recap | Désactivé | Passe le récapitulatif sur Netflix et Prime Video |
+| Show Skip Notification | Activé | Affiche un court avis à chaque saut |
 
-## Définir le délai {#set-the-delay}
+## Régler le délai {#set-the-delay}
 
-**Sauter le retard** est combien de temps l'extension attend après que le bouton apparaît, et 2 secondes est la plus longue.
+**Skip Delay** règle l’attente après l’apparition du bouton, jusqu’à 2 secondes.
 
-| Option           | Ce qu'il fait                     |
-| ---------------- | --------------------------------- |
-| Instantané (0ms) | Caisse sans attendre              |
-| Rapide (250ms)   | Attend 250ms                      |
-| Normal (500ms)   | Attendez 500ms. C'est par défaut. |
-| Lent (1s)        | Attendez 1 seconde                |
-| Très lent (2s)   | Attend 2 secondes                 |
+| Option | Effet |
+|---|---|
+| Instant (0ms) | Aucun délai |
+| Fast (250ms) | Attend 250 ms |
+| Normal (500ms) | Attend 500 ms ; réglage par défaut |
+| Slow (1s) | Attend une seconde |
+| Very slow (2s) | Attend deux secondes |
 
-Choisissez un délai plus lent si vous voulez voir le bouton avant qu'il ne parte.
+Choisissez un délai plus long si vous voulez apercevoir le bouton avant le saut.
 
-## Sauter à la main {#skip-by-hand}
+## Passer manuellement {#skip-by-hand}
 
-Appuyez sur `Ctrl + Alt + S` pour sauter l'intro vous-même, ou cliquez sur **Sauter l'intro** sur l'onglet Smart du widget ; la clé ne fonctionne que sur Netflix et Prime Video.
+Appuyez sur `Ctrl + Alt + S` pour passer vous-même l’introduction, ou cliquez sur **Skip Intro** dans l’onglet « Smart » du widget. Le raccourci ne fonctionne que sur Netflix et Prime Video.
 
-## Autre saut {#other-skipping}
+## Autres types de saut {#other-skipping}
 
-| Contrôle        | Ce que ça saute                      | Où                                                                    |
-| --------------- | ------------------------------------ | --------------------------------------------------------------------- |
-| Saut de silence | Les parties silencieuses d'une vidéo | Widget, onglet intelligent, **Saut de silence**                       |
-| SponsorBlock    | Segments de parrainage               | Paramètres, onglet Nouvelles fonctionnalités, qui nécessite un compte |
+| Commande | Partie passée | Emplacement |
+|---|---|---|
+| Silence Skip | Passages silencieux d’une vidéo | Widget, onglet Smart, **Silence Skip** |
+| SponsorBlock | Segments sponsorisés | Paramètres, onglet New Features, qui demande un compte |
 
 Silence Skip fonctionne sans compte.
 
-## Clés connexes {#related-keys}
+## Raccourcis associés {#related-keys}
 
-`Ctrl + Alt + S` est la seule clé de saut. Sa rangée est en [Raccourcis par défaut](/docs/keyboard-shortcuts/defaults)et [Modifier un raccourci](/docs/keyboard-shortcuts/rebinding) Ça bouge.
+`Ctrl + Alt + S` est le seul raccourci de saut. Il figure dans [Raccourcis par défaut](/fr/docs/keyboard-shortcuts/defaults), et [Modifier un raccourci](/fr/docs/keyboard-shortcuts/rebinding) explique comment le changer.
 
-Suivant : [Affichage et widget](/docs/user-guide/display-and-widget).
+À suivre : [Affichage et widget](/fr/docs/user-guide/display-and-widget).

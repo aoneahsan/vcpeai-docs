@@ -1,55 +1,54 @@
 ---
-title: "Sur quels sites Video Controls Plus fonctionne"
-sidebar_label: "Autres sites"
-description: "Video Controls Plus fonctionne sur tout site qui joue une vidéo HTML5 standard, y compris les lecteurs intégrés, avec des outils supplémentaires sur YouTube, Netflix et LinkedIn."
-unlisted: true
+title: Sites compatibles avec Video Controls Plus
+sidebar_label: Autres sites
+description: Video Controls Plus fonctionne sur les sites qui lisent des vidéos HTML5 standard, y compris dans les lecteurs intégrés.
 ---
 
-Video Controls Plus fonctionne sur n'importe quel site qui joue une vidéo HTML5 standard, avec des outils supplémentaires sur YouTube, Netflix et LinkedIn. Cela couvre Udemy, Vimeo, Twitch, Coursera, Khan Academy, Prime Video, et tout autre site avec une vidéo standard.
+Video Controls Plus fonctionne sur les sites qui lisent une vidéo HTML5 standard. Cela comprend Udemy, Vimeo, Twitch, Coursera, Khan Academy, Prime Video et les autres sites utilisant ce type de vidéo. YouTube, Netflix et LinkedIn disposent en plus d’outils dédiés.
 
-## Ce que vous obtenez sur tout site {#what-you-get-on-any-site}
+## Commandes disponibles sur tout site {#what-you-get-on-any-site}
 
-Les commandes de base sont les mêmes partout: vitesse avec `]` et `[`, le widget, et vos raccourcis.
+Les commandes de base sont les mêmes partout : vitesse avec `]` et `[`, widget et raccourcis personnalisés.
 
-Les extras faits pour un site sont sur trois sites seulement.
+Les outils propres à un site concernent seulement trois sites :
 
-| Site     | Extras                                                              | Page                                 |
-| -------- | ------------------------------------------------------------------- | ------------------------------------ |
-| YouTube  | YouTube extras, chacun avec son propre commutateur                  | [YouTube](/docs/platforms/youtube)   |
-| Netflix  | Netflix supplémentaires, désactiver jusqu'à ce que vous les allumez | [Netflix](/docs/platforms/netflix)   |
-| LinkedIn | Outils LinkedIn qui s'exécutent depuis le menu                      | [LinkedIn](/docs/platforms/linkedin) |
+| Site | Outils supplémentaires | Guide |
+|---|---|---|
+| YouTube | Outils YouTube, chacun avec son interrupteur | [YouTube](/fr/docs/platforms/youtube) |
+| Netflix | Outils Netflix, désactivés jusqu’à votre choix | [Netflix](/fr/docs/platforms/netflix) |
+| LinkedIn | Outils lancés depuis le menu | [LinkedIn](/fr/docs/platforms/linkedin) |
 
 ## Vidéos intégrées {#embedded-videos}
 
-Un lecteur YouTube ou Vimeo à l'intérieur d'un article ou d'une page de cours reçoit les commandes flottantes, les raccourcis clavier et les actions de clic droit, et l'extension ne se charge dans un cadre intégré que lorsque le cadre contient une vidéo.
+Un lecteur YouTube ou Vimeo intégré dans un article ou une page de cours reçoit lui aussi les commandes flottantes, les raccourcis et les actions du menu contextuel. L’extension ne se charge dans un cadre intégré que lorsqu’il contient une vidéo.
 
-## Vérifiez un site dans le popup {#check-a-site-in-the-popup}
+## Vérifier un site dans le panneau {#check-a-site-in-the-popup}
 
-Ouvrez le popup sur le site. Il montre le nom du site et l'un des trois états.
+Ouvrez le panneau de l’extension sur le site. Il affiche son nom et l’un de ces trois états :
 
-| Spectacles popup | Ce que ça veut dire                      |
-| ---------------- | ---------------------------------------- |
-| Appui            | Le site est sur la liste intégrée        |
-| Activé           | Vous avez activé l'extension sur ce site |
-| Non activé       | L'extension ne fonctionne pas ici.       |
+| État | Signification |
+|---|---|
+| Supported | Le site figure dans la liste intégrée |
+| Enabled | Vous avez activé l’extension sur ce site |
+| Not enabled | L’extension ne fonctionne pas sur ce site |
 
-Quand le popup apparaît **Non activé**, cliquez **Activer sur ce site**. La liste intégrée est dans Paramètres, dans l'onglet Paramètres du site, sous **Sites soutenus**.
+Si l’état indique **Not enabled**, cliquez sur **Enable on this site**. La liste intégrée se trouve dans Paramètres → Site Settings → **Supported Sites**.
 
-## Lorsque les contrôles n'apparaissent pas {#when-the-controls-do-not-appear}
+## Si les commandes n’apparaissent pas {#when-the-controls-do-not-appear}
 
-- Le site est interrompu. Ouvrez le popup et cliquez **Reprendre**Voir [Pause par site](/docs/getting-started/pause-per-site).
-- Le popup montre **Non activé**. Cliquez sur **Activer sur ce site**.
-- La page n'a pas de vidéo HTML5, il n'y a donc rien à contrôler.
-- Le widget est caché. Appuyez sur `Esc` ou `Ctrl + Alt + H`.
+- Le site est en pause. Ouvrez le panneau et cliquez sur **Resume**. Voir [Mettre l’extension en pause sur un site](/fr/docs/getting-started/pause-per-site).
+- Le panneau indique **Not enabled**. Cliquez sur **Enable on this site**.
+- La page ne contient pas de vidéo HTML5 standard : l’extension n’a rien à contrôler.
+- Le widget est masqué. Appuyez sur `Esc` ou `Ctrl + Alt + H`.
 
-## Clés connexes {#related-keys}
+## Raccourcis associés {#related-keys}
 
-| Clé              | Ce qu'il fait                |
-| ---------------- | ---------------------------- |
-| `]` / `[`        | 0.1x plus ou moins rapide    |
-| `Esc`            | Cacher ou afficher le widget |
-| `Ctrl + Alt + H` | Cacher ou afficher le widget |
+| Touche | Action |
+|---|---|
+| `]` / `[` | Accélérer ou ralentir de 0.1x |
+| `Esc` | Masquer ou afficher le widget |
+| `Ctrl + Alt + H` | Masquer ou afficher le widget |
 
-Ils sont les mêmes sur chaque site, et le reste des clés sont couverts en [Raccourcis par défaut](/docs/keyboard-shortcuts/defaults) et en [Modifier un raccourci](/docs/keyboard-shortcuts/rebinding).
+Ces touches sont les mêmes sur tous les sites. Les autres figurent dans [Raccourcis par défaut](/fr/docs/keyboard-shortcuts/defaults), et vous pouvez les changer avec [Modifier un raccourci](/fr/docs/keyboard-shortcuts/rebinding).
 
-Si les contrôles n'apparaissent toujours pas, allez à [Dépannage](/docs/troubleshooting).
+Si les commandes restent absentes, consultez le [dépannage](/fr/docs/troubleshooting).

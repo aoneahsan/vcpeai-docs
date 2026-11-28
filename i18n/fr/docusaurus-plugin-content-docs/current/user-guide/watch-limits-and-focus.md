@@ -1,55 +1,54 @@
 ---
-title: "Définir les limites de la montre et utiliser le mode Focus"
-sidebar_label: "Limites de veille et mode Focus"
-description: "Définissez une quantité quotidienne de vidéo, limitez les sites uniques et bloqués, verrouillez-les avec un NIP, et choisissez ce que le mode Focus cache; aucun compte, et rien n'est envoyé."
-unlisted: true
+title: Limiter le visionnage et utiliser le mode Concentration
+sidebar_label: Limites et mode Concentration
+description: "Fixez une durée quotidienne de visionnage, des limites par site et des sites bloqués, puis choisissez ce que masque le mode Concentration."
 ---
 
-Les limites de visionnement fixent la quantité de vidéo que vous regardez en une journée, sur tous les sites ou sur un seul site, et bloquent les sites où les vidéos ne devraient pas jouer. Focus Mode obscurcit la page autour de la vidéo et cache ce qui vous éloigne des yeux. Les deux sont sur l'onglet Caractéristiques vidéo dans Paramètres. Ni besoin de compte.
+Les **limites de visionnage** encadrent le temps passé devant les vidéos chaque jour, sur tous les sites ou sur un site précis, et peuvent empêcher la lecture sur certains sites. Le **mode Concentration** assombrit la page autour de la vidéo et masque les éléments distrayants. Les deux se règlent dans l’onglet **Fonctions vidéo** des paramètres, sans compte.
 
-## Définir une limite de montre {#set-a-watch-limit}
+## Fixer une limite {#set-a-watch-limit}
 
-1. Ouvrez Paramètres, allez dans l'onglet Caractéristiques vidéo et trouvez **Limites de veille**.
-2. Allumez **Limites de veille**.
-3. Jeu **Limite quotidienne, tous les sites**, de 30 minutes à 4 heures
-4. Choisir **Me prévenir avant une limite**: 5, 10 ou 15 minutes avant.
-5. Sous **Limites des sites**, type a **Site** et ses **Procès-verbal par jour**, puis appuyez **Ajouter**.
-6. Sous **Sites bloqués**, ajoutez un site où les vidéos ne jouent pas du tout.
+1. Ouvrez **Paramètres → Fonctions vidéo → Limites de visionnage**.
+2. Activez **Limites de visionnage**.
+3. Réglez la **limite quotidienne, tous sites**, entre 30 minutes et 4 heures.
+4. Choisissez un avertissement 5, 10 ou 15 minutes avant la limite.
+5. Sous **Limites par site**, saisissez un **site** et ses **minutes par jour**, puis appuyez sur **Ajouter**.
+6. Sous **Sites bloqués**, ajoutez les sites où les vidéos ne doivent pas démarrer.
 
-La carte montre **Aujourd'hui sur cet appareil** avec les minutes jusqu'ici.
+La carte affiche le temps de visionnage compté **aujourd’hui sur cet appareil**.
 
 ## Quand le temps est écoulé {#when-time-is-up}
 
-La vidéo s'arrête sous une couche qui dit "Votre temps de vision pour aujourd'hui est écoulé", ou "Votre temps sur ce site est écoulé pour aujourd'hui" pour une limite de site. Appuyez sur **5 minutes de plus** pour continuer un peu, ou **Fermer**. Le décompte reprend à minuit.
+La vidéo se met en pause sous un écran indiquant que votre temps de visionnage du jour est écoulé, globalement ou pour ce site. **5 minutes de plus** prolonge brièvement la lecture ; **Fermer** quitte l’écran. Le compte reprend à zéro à minuit.
 
-Sur un site bloqué, la couche indique "Les vidéos de ce site sont bloquées".
+Sur un site bloqué, l’écran indique que les vidéos de ce site sont bloquées.
 
-## Verrouillez-le avec un code PIN {#lock-it-with-a-pin}
+## Protéger les réglages par code PIN {#lock-it-with-a-pin}
 
-Définir un **Nouveau NIP** de 4 à 8 chiffres et taper à nouveau sous **PIN à nouveau**. Appuyez sur **Verrouillage**. Changer les limites, débloquer un site ou prendre 5 minutes de plus puis le demander. **Supprimer le NIP** Enlève ça.
+Saisissez un **nouveau code PIN** de 4 à 8 chiffres, confirmez-le sous **Confirmer le PIN**, puis appuyez sur **Verrouiller**. Il sera demandé pour changer les limites, débloquer un site ou accorder 5 minutes supplémentaires. **Retirer le PIN** enlève cette protection.
 
-Gardez le NIP en sécurité. Il est hashed et reste sur cet appareil, et il n'est jamais synchronisé.
+Conservez votre code : il est stocké sous forme hachée sur cet appareil et n’est jamais synchronisé.
 
-## Ce qui est compté {#what-is-counted}
+## Temps comptabilisé {#what-is-counted}
 
-Les minutes ne sont comptées que sur ce dispositif, et seulement pendant que les limites sont allumées, et l'extension ne garde que les minutes d'aujourd'hui pour chaque site, qui recommence à minuit. Rien n'est envoyé.
+Les minutes sont comptées uniquement sur cet appareil et lorsque les limites sont activées. L’extension ne conserve que les minutes du jour pour chaque site ; elles repartent à zéro à minuit. Ces compteurs ne sont pas envoyés.
 
-Les limites de surveillance aident à maintenir les habitudes, ou l'observation d'un enfant, sur la bonne voie. Ils ne sont pas inviolables: quelqu'un qui peut changer les données d'extension du navigateur peut se déplacer autour d'eux.
+Les limites peuvent aider à suivre ses habitudes ou le visionnage d’un enfant. Elles ne résistent pas à quelqu’un qui peut modifier les données de l’extension dans le navigateur.
 
-La fonction des limites de montres de YouTube, [YouTube supplémentaires](/docs/platforms/youtube), est séparé et fonctionne comme avant.
+La fonction de limites propre à YouTube, décrite dans les [fonctions YouTube](/fr/docs/platforms/youtube), reste distincte.
 
-## Mode de focalisation {#focus-mode}
+## Mode Concentration {#focus-mode}
 
-Activer le mode Focus depuis le bouton Focus du widget. Puis choisissez dans Paramètres, onglet Caractéristiques vidéo, **Mode de focalisation**, comment il se comporte:
+Activez-le avec le bouton **Concentration** du widget, puis réglez-le dans **Paramètres → Fonctions vidéo → Mode Concentration**.
 
-| Réglage                                      | Ce qu'il fait                                                                                                             |
-| -------------------------------------------- | ------------------------------------------------------------------------------------------------------------------------- |
-| **Comment sombre la page va**                | Combien la page autour de la vidéo est obscurcie                                                                          |
-| **Masquer**                                  | Interrupteurs pour commentaires, Sidebar, En-tête du site, Vidéos recommandées, Ecrans et cartes de fin et chat en direct |
-| **Démarrer le mode Focus avec chaque vidéo** | Active chaque fois qu'une vidéo démarre                                                                                   |
+| Réglage | Effet |
+|---|---|
+| **Assombrir la page** | Règle l’obscurcissement autour de la vidéo |
+| **Masquer** | Active ou désactive le masquage des commentaires, de la barre latérale, de l’en-tête du site, des recommandations, des écrans et cartes de fin et du direct |
+| **Activer avec chaque vidéo** | Lance le mode au démarrage de chaque vidéo |
 
-Les modifications s'appliquent immédiatement à un mode Focus déjà ouvert. Il fonctionne sur YouTube, Netflix, Vimeo, Twitch et Udemy, et sur d'autres sites autant que leurs pages le permettent.
+Les changements s’appliquent immédiatement si le mode est déjà actif. Il fonctionne sur YouTube, Netflix, Vimeo, Twitch et Udemy, ainsi que sur d’autres sites dans la mesure permise par leurs pages.
 
-Le mode Focus est séparé du mode Théâtre, qui `Ctrl + Alt + Z` interrupteurs ([Raccourcis par défaut](/docs/keyboard-shortcuts/defaults)). Ils ne sont pas les mêmes.
+Le mode Concentration est distinct du mode Cinéma, activé par `Ctrl + Alt + Z` ; consultez les [raccourcis par défaut](/fr/docs/keyboard-shortcuts/defaults).
 
-Suivant : [Outils d'étude](/docs/user-guide/study-tools).
+À suivre : [Outils d’étude](/fr/docs/user-guide/study-tools).

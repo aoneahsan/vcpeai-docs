@@ -1,46 +1,45 @@
 ---
-title: "Bouclez une partie d'une vidéo avec une boucle A-B"
-sidebar_label: "Boucle A-B"
-description: "Définir le point A et le point B et la vidéo rejoue l'étirement entre eux, pour toujours, une fois, ou 1 à 20 fois ; la boucle A-B a besoin d'un compte."
-unlisted: true
+title: Répéter un passage avec la boucle A-B
+sidebar_label: Boucle A-B
+description: Placez les points A et B pour répéter un passage en continu, une fois ou jusqu’à 20 fois. La boucle A-B demande un compte connecté.
 ---
 
-Une boucle A-B rejoue l'étirement entre deux points définis. Besoins en boucle [un compte](/docs/account-and-sync). Le contrôle de vitesse ne le fait pas. Si les touches de boucle ne font rien, connectez un compte d'abord.
+La boucle A-B répète le passage compris entre deux points que vous choisissez. Elle demande un [compte connecté](/fr/docs/account-and-sync/) ; le contrôle de la vitesse, lui, fonctionne sans compte. Si les touches de boucle ne répondent pas, connectez d’abord votre compte.
 
-## Définir une boucle {#set-a-loop}
+## Placer les points A et B {#set-a-loop}
 
-1. Lire la vidéo à l'endroit où la partie dure commence.
-2. Appuyez sur `Ctrl + Alt + A`C'est le point A.
-3. Laissez-le jouer là où la partie se termine.
-4. Appuyez sur `Ctrl + Alt + B`C'est le point B.
+1. Lancez la vidéo et allez au début du passage à revoir.
+2. Appuyez sur `Ctrl + Alt + A` pour placer le point A.
+3. Laissez la lecture avancer jusqu’à la fin du passage.
+4. Appuyez sur `Ctrl + Alt + B` pour placer le point B.
 
-La vidéo revient à A quand elle atteint B, et elle joue ce rôle jusqu'à ce que vous l'effaciez. Vous pouvez également définir A et B en un clic chacun sur l'onglet Loop du widget.
+À l’arrivée au point B, la vidéo revient au point A et rejoue ce passage jusqu’à l’arrêt de la boucle. Vous pouvez aussi placer A et B depuis l’onglet Boucle du widget, en un clic pour chaque point.
 
-Il aide avec une leçon de guitare qui a une barre rapide, une conférence où la preuve passe dans 40 secondes, et une vidéo de langue avec une phrase que vous ne pouvez pas attraper: mettre A et B autour de la partie, ralentir la vitesse avec `[`Et ça joue jusqu'à ce que tu l'aies.
+Pour reprendre un accord de guitare rapide, un raisonnement présenté en 40 secondes ou une phrase difficile à saisir, entourez le passage avec A et B, puis ralentissez avec `[`. La vidéo le rejoue jusqu’à ce que vous arrêtiez la boucle.
 
-## Les touches de boucle {#the-loop-keys}
+## Utiliser les touches de la boucle {#the-loop-keys}
 
-| Clé                      | Ce qu'il fait                   |
-| ------------------------ | ------------------------------- |
-| `Ctrl + Alt + A`         | Réglez le point de départ (A)   |
-| `Ctrl + Alt + B`         | Régler le point de fin (B)      |
-| `Ctrl + Alt + L`         | Activer ou désactiver la boucle |
-| `Ctrl + Alt + Backspace` | Effacer les deux points         |
+| Touche | Action |
+|---|---|
+| `Ctrl + Alt + A` | Placer le début (A) |
+| `Ctrl + Alt + B` | Placer la fin (B) |
+| `Ctrl + Alt + L` | Activer ou désactiver la boucle |
+| `Ctrl + Alt + Backspace` | Effacer les deux points |
 
-## Modes de boucle {#loop-modes}
+## Choisir le mode de répétition {#loop-modes}
 
-Vous choisissez le mode sur l'onglet Loop du widget, et les étiquettes du widget sont en anglais ([Pourquoi](/docs/user-guide/display-and-widget)).
+Choisissez le mode dans l’onglet Boucle du panneau. Ses libellés utilisent la langue choisie pour l’extension ([changer la langue](/fr/docs/user-guide/display-and-widget/)).
 
-| Mode          | Ce qui se passe à B                                               |
-| ------------- | ----------------------------------------------------------------- |
-| Pour toujours | La partie se répète jusqu'à éteindre la boucle                    |
-| Une fois      | La partie répète une fois                                         |
-| Heures        | La partie répète le nombre de fois que vous définissez, de 1 à 20 |
+| Mode | Au point B |
+|---|---|
+| En continu | Le passage recommence jusqu’à l’arrêt de la boucle |
+| Une fois | Le passage se répète une fois |
+| Nombre de fois | Le passage se répète le nombre choisi, de 1 à 20 |
 
-Avec Times, un indicateur de progrès montre jusqu'où vous êtes, et le nombre s'arrête à 20, donc pour plus, utilisez Forever et éteignez-le avec `Ctrl + Alt + L`.
+Avec **Nombre de fois**, un indicateur suit les répétitions. Le maximum est de 20. Pour continuer plus longtemps, choisissez **En continu**, puis arrêtez la boucle avec `Ctrl + Alt + L`.
 
-## Clés connexes {#related-keys}
+## Ajuster les points image par image {#related-keys}
 
-`,` et `.` Reculez et avancez un cadre, ce qui vous aide à mettre A et B à l'endroit exact. Chaque clé est dans [Raccourcis par défaut](/docs/keyboard-shortcuts/defaults), et vous pouvez les changer [Modifier un raccourci](/docs/keyboard-shortcuts/rebinding).
+`,` et `.` reculent et avancent d’une image pour placer A et B précisément. Toutes les touches figurent dans [Raccourcis par défaut](/fr/docs/keyboard-shortcuts/defaults/), et [Changer un raccourci](/fr/docs/keyboard-shortcuts/rebinding/) explique comment les modifier.
 
-Suivant : [Coup de pouce audio](/docs/user-guide/audio-boost).
+Ensuite : [Amplifier le son](/fr/docs/user-guide/audio-boost/).

@@ -46,7 +46,7 @@ Estas funciones solo se ejecutan en youtube.com.
 
 ## Cómo ejecutar una función
 
-Elige la función en la pestaña YouTube del widget o en el menú contextual. Las etiquetas del widget siguen el idioma del navegador si está en inglés, español, francés o alemán ([cambiar idioma](/docs/user-guide/display-and-widget)).
+Elige la función en la pestaña YouTube del widget o en el menú contextual. Las etiquetas del widget usan el idioma elegido para la extensión ([cambiar idioma](/docs/user-guide/display-and-widget)).
 
 El menú contextual solo muestra las funciones que hayas marcado para él, de modo que siga siendo breve.
 

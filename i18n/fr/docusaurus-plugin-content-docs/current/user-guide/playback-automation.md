@@ -1,46 +1,45 @@
 ---
-title: "Laissez la lecture tourner seul avec Automation"
-sidebar_label: "Automatisation des lectures"
-description: "Bloquez l'autoplay, gardez une vitesse par site, accélérez la vitesse, définissez des rappels et arrêtez d'autres onglets, sans compte; En haut, puis reprenez à partir d'un autre périphérique besoin d'un compte connecté."
-unlisted: true
+title: Automatiser la lecture des vidéos
+sidebar_label: Automatisation de la lecture
+description: "Bloquez la lecture automatique, gardez une vitesse par site, programmez des rappels et gérez vos vidéos à suivre."
 ---
 
-L'automatisation bloque le jeu automatique, maintient une vitesse pour chaque site, accélère lentement la vitesse et vous rappelle de regarder une vidéo plus tard. Ouvrez l'onglet Playback du widget et trouvez **Automatisation**Rien n'a besoin d'un compte.
+**Automatisation** permet de bloquer la lecture automatique, de retenir une vitesse par site, d’augmenter progressivement la vitesse et de programmer des rappels. Ouvrez cette section dans l’onglet **Lecture** du widget. Ces fonctions ne demandent pas de compte.
 
-Paramètres, onglet Caractéristiques vidéo, **Automatisation des lectures** liste vos sites bloqués et autorisés, vos vitesses de site et vos rappels, avec **Supprimer** à côté de chacun.
+Dans **Paramètres → Fonctions vidéo → Automatisation de la lecture**, vous trouverez les sites bloqués ou autorisés, les vitesses par site et les rappels, avec un bouton **Supprimer** pour chaque entrée.
 
-## Bloquer le jeu automatique {#block-autoplay}
+## Bloquer la lecture automatique {#block-autoplay}
 
-Appuyez sur **Block autoplay ici** et vidéos sur ce site attendez jusqu'à ce que vous appuyez sur jouer. Une vidéo tenue montre "Autoplay bloqué — appuyez sur play pour regarder".
+Appuyez sur **Bloquer la lecture automatique ici** : sur ce site, les vidéos attendront que vous lanciez la lecture. Une vidéo retenue affiche « Lecture automatique bloquée — lancez la vidéo pour la regarder ».
 
-Pour le bloquer sur chaque site, allumez **Block autoplay partout** dans Paramètres et ajouter les sites que vous souhaitez garder sous **Sites où l'autoplay est autorisé**. Cochez **Dites-moi quand une vidéo bloquée est prête** pour une notice quand une vidéo conservée dans un onglet caché est prête à jouer.
+Pour l’appliquer partout, activez **Bloquer la lecture automatique sur tous les sites** dans les paramètres, puis ajoutez les exceptions sous **Sites autorisés à lire automatiquement**. L’option **M’avertir lorsqu’une vidéo bloquée est prête** affiche une notification si une vidéo attend dans un onglet masqué.
 
-## Gardez une vitesse pour un site {#keep-a-speed-for-a-site}
+## Garder une vitesse pour un site {#keep-a-speed-for-a-site}
 
-Réglez la vitesse que vous voulez, puis appuyez sur **Conserver 1.5x sur ce site** (le bouton indique votre vitesse actuelle). Les vidéos sur ce site commencent maintenant. Une vitesse que l'extension se souvient pour une vidéo ou une playlist gagne encore.
+Réglez la vitesse souhaitée, puis appuyez sur **Garder 1,5x sur ce site** ; le bouton indique votre vitesse actuelle. Les vidéos de ce site démarreront à cette vitesse. Une vitesse mémorisée pour une vidéo ou une playlist particulière reste prioritaire.
 
-## Rampe de vitesse {#speed-ramp}
+## Augmenter la vitesse progressivement {#speed-ramp}
 
-Une rampe de vitesse augmente la vitesse au fur et à mesure que la vidéo joue. Choisissez où il se termine, de 1.25x à 2.5x, et combien de temps il faut, de 5 à 30 minutes, puis appuyez sur **Démarrer**. Il se déplace dans les étapes 0.1x. Appuyez sur **Arrête** pour y mettre fin.
+Choisissez une vitesse cible entre 1,25x et 2,5x et une durée de 5 à 30 minutes, puis appuyez sur **Démarrer**. La vitesse augmente par paliers de 0,1x pendant la lecture. **Arrêter** met fin à la progression.
 
-## Rappelle-moi de regarder ça. {#remind-me-to-watch-this}
+## Programmer un rappel {#remind-me-to-watch-this}
 
-Appuyez sur **Rappelle-moi de regarder ça.** et choisir **Dans 1 heure**, **Ce soir 20:00**, **Demain 08:00** ou **Choisissez une date et une heure...**, alors **Répéter** Il **Une fois**, **Tous les jours** ou **Semaine**et appuyez **Jeu**. Une notification de navigateur arrive à ce moment. Cliquez dessus pour ouvrir la vidéo. Sur YouTube il s'ouvre au moment où vous avez enregistré. Vous pouvez avoir jusqu'à 50 rappels à la fois.
+Appuyez sur **Me rappeler de regarder cette vidéo**. Choisissez **Dans 1 heure**, **Ce soir à 20 h 00**, **Demain à 8 h 00** ou **Choisir une date et une heure…**. Réglez la répétition sur **Une fois**, **Chaque jour** ou **Chaque semaine**, puis appuyez sur **Définir**. Une notification du navigateur arrive à l’heure choisie ; cliquez dessus pour ouvrir la vidéo. Sur YouTube, elle reprend au passage enregistré. Vous pouvez garder jusqu’à 50 rappels simultanément.
 
-## Une vidéo à la fois {#one-video-at-a-time}
+## Une seule vidéo à la fois {#one-video-at-a-time}
 
-Dans Paramètres, onglet Caractéristiques vidéo, activez **Pas de vidéos dans d'autres onglets quand on commence**. Quand une vidéo démarre, des vidéos en cours de lecture dans vos autres onglets de ce navigateur s'arrêtent. Il est éteint jusqu'à ce que vous l'allumez, et il n'a pas besoin de compte.
+Dans **Paramètres → Fonctions vidéo**, activez **Mettre en pause les vidéos des autres onglets lorsqu’une vidéo démarre**. Les vidéos en cours dans les autres onglets de ce navigateur se mettent alors en pause. Cette option est désactivée au départ et ne demande pas de compte.
 
-## À côté de Watch Plus tard {#up-next-from-watch-later}
+## Lire ensuite depuis À regarder plus tard {#up-next-from-watch-later}
 
-Celui-ci a besoin [un compte connecté](/docs/account-and-sync)Ça commence. Dans Paramètres, onglet Caractéristiques vidéo, activez **Jouer ma montre plus tard dans l'ordre** et choisir un **Compte à rebours** de 5, 10 ou 15 secondes. Lorsqu'une vidéo se termine, une carte sur elle compte jusqu'à la prochaine vidéo dans votre liste Watch Later, ou à la première quand la vidéo que vous avez terminée n'est pas dans la liste, avec **Jouez maintenant** et **Annuler**. Après la dernière vidéo, rien ne joue. La lecture ou la recherche de retour l'annule, et une vidéo en boucle ne se termine jamais, donc elle ne se déplace jamais.
+Cette fonction demande [un compte connecté](/fr/docs/account-and-sync) et est désactivée au départ. Dans **Paramètres → Fonctions vidéo**, activez **Lire À regarder plus tard dans l’ordre** et choisissez un compte à rebours de 5, 10 ou 15 secondes. À la fin d’une vidéo, une carte propose la suivante dans votre liste, ou la première si la vidéo terminée ne figure pas dans cette liste. Choisissez **Lire maintenant** ou **Annuler**. Rien ne démarre après la dernière vidéo. Rejouer la vidéo ou revenir en arrière annule la suite ; une vidéo en boucle n’arrive jamais à cette étape.
 
-## Reprendre depuis un autre appareil {#resume-from-another-device}
+## Reprendre sur un autre appareil {#resume-from-another-device}
 
-Avec **Rappelez-vous la position de lecture** sur, un compte connecté et Watch History activé, l'extension peut ramasser où un autre périphérique s'est arrêté. Il demande: "Vous avez 12:40 sur un autre appareil. Résumez ? Il ne le fait que lorsque ce navigateur n'a pas de position enregistrée de sa propre, et pas près de la fin de la vidéo.
+Si **Mémoriser la position de lecture** et l’historique de visionnage sont activés avec un compte connecté, l’extension peut reprendre là où un autre appareil s’est arrêté. Elle demande par exemple : « Vous étiez arrivé à 12:40 sur un autre appareil. Reprendre ? » Cette proposition n’apparaît que si ce navigateur n’a pas déjà sa propre position enregistrée, et jamais tout près de la fin.
 
 ## Raccourcis {#shortcuts}
 
-"Block autoplay sur ce site" et "Démarrer ou arrêter la rampe de vitesse" commencent sans clé. Donnez-leur un. [Modifier un raccourci](/docs/keyboard-shortcuts/rebinding).
+« Bloquer la lecture automatique sur ce site » et « Démarrer ou arrêter l’augmentation progressive de la vitesse » n’ont aucune touche attribuée au départ. Configurez-les dans [Modifier un raccourci](/fr/docs/keyboard-shortcuts/rebinding).
 
-Suivant : [Limites de veille et mode Focus](/docs/user-guide/watch-limits-and-focus).
+À suivre : [Limites de visionnage et mode Concentration](/fr/docs/user-guide/watch-limits-and-focus).

@@ -1,51 +1,51 @@
 ---
-title: "Votre première vidéo avec Video Controls Plus"
-sidebar_label: "Première manche"
-description: "Ouvrez une vidéo, changez la vitesse avec les touches de support, trouvez le widget et le popup, et voyez quelles commandes ont besoin d'un compte connecté."
-unlisted: true
+title: Votre première vidéo avec Video Controls Plus
+sidebar_label: Premier lancement
+description: Changez la vitesse avec les crochets, trouvez le widget et le panneau de l’extension, puis repérez les contrôles qui demandent un compte connecté.
 ---
 
-Ouvrez n'importe quelle page avec une vidéo et appuyez `]`. La vidéo va 0.1x plus rapidement, et vous avez utilisé l'extension.
+Ouvrez une page qui contient une vidéo et appuyez sur `]`. La lecture accélère de 0.1x. Vous venez d’utiliser l’extension.
 
-## Essayez les premiers contrôles {#try-the-first-controls}
+## Essayer les premiers contrôles {#try-the-first-controls}
 
-1. Ouvrez une vidéo sur YouTube, Udemy, Vimeo ou tout autre site avec une vidéo standard.
-2. Appuyez sur `]` pour aller plus rapidement à 0.1x, et continuer à appuyer jusqu'à 4x.
-3. Appuyez sur `[` pour aller plus lentement 0.1x.
-4. Appuyez sur `=` pour revenir à votre vitesse par défaut.
-5. Appuyez sur `Ctrl + Alt + 4` pour sauter directement sur 2x.
+1. Ouvrez une vidéo sur YouTube, Udemy, Vimeo ou un autre site utilisant une vidéo standard.
+2. Appuyez sur `]` pour accélérer de 0.1x. Répétez l’opération jusqu’à 4x.
+3. Appuyez sur `[` pour ralentir de 0.1x.
+4. Appuyez sur `=` pour retrouver votre vitesse par défaut.
+5. Appuyez sur `Ctrl + Alt + 4` pour passer directement à 2x.
 
-C'est le contrôle de vitesse, et il n'a pas besoin de compte. Le même clavier fait beaucoup plus que la vitesse : `,` et `.` pas la vidéo un cadre à la fois, et `Ctrl + Alt + P` le met dans une fenêtre Image en image, avant de connecter un compte.
+La vitesse ne demande aucun compte. Les touches `,` et `.` font aussi avancer la vidéo image par image. Le mode Picture-in-Picture devient disponible après la connexion d’un compte.
 
-## Trouvez le widget {#find-the-widget}
+## Trouver le widget {#find-the-widget}
 
-Le widget est le panneau de commande flottant sur la page. Cliquez dessus pour l'ouvrir, et faites-le glisser où vous voulez.
+Le widget est le panneau de contrôle flottant à côté de la vidéo. Cliquez dessus pour l’ouvrir, puis faites-le glisser à l’endroit qui vous convient.
 
-Appuyez sur `Esc` ou `Ctrl + Alt + H` pour cacher le widget, et appuyez encore pour le ramener.
+Appuyez sur `Esc` ou `Ctrl + Alt + H` pour le masquer. Appuyez de nouveau pour le faire réapparaître.
 
-## Trouver le popup et les paramètres {#find-the-popup-and-settings}
+## Ouvrir le panneau et les Paramètres {#find-the-popup-and-settings}
 
-Cliquez sur l'icône Video Controls Plus dans la barre d'outils pour ouvrir le popup. Il montre le site sur lequel vous êtes et si l'extension est en cours d'exécution, et c'est là que vous [pause de l'extension sur un site](/docs/getting-started/pause-per-site).
+Cliquez sur l’icône Video Controls Plus dans la barre d’outils du navigateur pour ouvrir le panneau de l’extension. Il indique le site ouvert et si l’extension y fonctionne. Vous pouvez aussi [mettre l’extension en pause sur ce site](/fr/docs/getting-started/pause-per-site/) depuis ce panneau.
 
-Les paramètres s'ouvrent dans son propre onglet.
+Les Paramètres s’ouvrent dans un onglet distinct.
 
-## Ce qui nécessite un compte connecté {#what-needs-a-connected-account}
+## Repérer les contrôles qui demandent un compte {#what-needs-a-connected-account}
 
-Speed, presets, frame step, Picture-in-Picture, partage horodatage, mode théâtre, signets locaux du navigateur et le widget fonctionnent sans compte. Ces contrôles s'ouvrent après avoir connecté un:
+La vitesse, les préréglages, l’avance image par image, le partage d’un instant précis, le mode cinéma, les signets enregistrés dans ce navigateur et le widget fonctionnent sans compte. Les contrôles suivants deviennent disponibles après connexion :
 
-| Contrôle            | Clé pour essayer après vous connecter      |
-| ------------------- | ------------------------------------------ |
-| Boucle A-B          | `Ctrl + Alt + A`, alors `Ctrl + Alt + B`   |
-| Coup de pouce audio | `Ctrl + Alt + U`                           |
-| Filtres vidéo       | `Ctrl + Alt + F`                           |
-| Captures d'écran    | `Ctrl + Alt + C`                           |
-| Notes horodatées    | **Remarque** sur l'onglet Outils du widget |
-| Auto-skip           | Allumé dans les paramètres                 |
+| Contrôle | Touche ou action à essayer |
+|---|---|
+| Boucle A-B | `Ctrl + Alt + A`, puis `Ctrl + Alt + B` |
+| Picture-in-Picture | `Ctrl + Alt + P` |
+| Amplification du son | `Ctrl + Alt + U` |
+| Filtres vidéo | `Ctrl + Alt + F` |
+| Captures d’écran | `Ctrl + Alt + C` |
+| Notes horodatées | **Note**, dans l’onglet Outils du widget |
+| Saut automatique | Activez-le dans les Paramètres |
 
-Il n'y a pas de connexion dans l'extension. Votre compte est sur vcpeai.aoneahsan.com, et vous appuyez sur **Connexion à votre compte** dans le popup ou sur l'onglet Compte & Sync dans Paramètres pour se connecter à celui-ci. Il fonctionne sur Chrome, Edge et Firefox, et [Compte et synchronisation](/docs/account-and-sync) a les étapes, ce qui se connecte ajoute et ce qu'il enregistre.
+La connexion au site se fait hors de l’extension, sur vcpeai.aoneahsan.com. Dans le panneau ou l’onglet Compte et synchronisation des Paramètres, choisissez **Connecter votre compte** pour relier l’extension au compte du site. Cela fonctionne sur Chrome, Edge et Firefox. La page [Compte et synchronisation](/fr/docs/account-and-sync/) explique les étapes, les données enregistrées et ce que la connexion ajoute.
 
-## Une clé ne fait rien {#a-key-does-nothing}
+## Si une touche ne fait rien {#a-key-does-nothing}
 
-Besoin de clés à lettres et à chiffres `Ctrl + Alt`. Seulement `[`, `]`, `=`, `\`, `'`, `,`, `.` et `Esc` travailler seul. La table complète est [Raccourcis par défaut](/docs/keyboard-shortcuts/defaults), et vous pouvez changer une clé dans [Modifier un raccourci](/docs/keyboard-shortcuts/rebinding).
+Les lettres et les chiffres demandent `Ctrl + Alt`. Seuls `[`, `]`, `=`, `\\`, `'`, `,`, `.` et `Esc` fonctionnent seuls. Retrouvez toutes les touches dans [Raccourcis par défaut](/fr/docs/keyboard-shortcuts/defaults/) et apprenez à les modifier dans [Changer un raccourci](/fr/docs/keyboard-shortcuts/rebinding/).
 
-Suivant : [Contrôle de vitesse](/docs/user-guide/speed-control).
+Ensuite : [Contrôler la vitesse](/fr/docs/user-guide/speed-control/).

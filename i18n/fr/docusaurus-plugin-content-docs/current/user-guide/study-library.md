@@ -1,48 +1,47 @@
 ---
-title: "Enregistrer les quiz, mots, entrées de journal et vidéos dans votre bibliothèque"
-sidebar_label: "Votre bibliothèque de la vidéo"
-description: "Avec un compte connecté, enregistrez un jeu-questionnaire, un mot, un journal intime, une vidéo de parcours d'apprentissage ou un objet de collection depuis le widget, et recherchez tout ce que vous avez enregistré."
-unlisted: true
+title: Enregistrer quiz, mots, journal et vidéos dans votre bibliothèque
+sidebar_label: Votre bibliothèque depuis la vidéo
+description: "Avec un compte connecté, enregistrez des questions, des mots, des notes de journal et des vidéos dans vos parcours ou collections."
 ---
 
-À partir de l'onglet Outils du widget, vous pouvez enregistrer un quiz au moment actuel, un mot avec sa ligne de légende, une entrée journal, et la vidéo elle-même sur un chemin d'apprentissage ou une collection. Chacun a besoin [un compte connecté](/docs/account-and-sync) et est conservé dans votre compte, avec le titre et l'adresse de la vidéo.
+Depuis l’onglet **Outils** du widget, vous pouvez enregistrer une question sur le passage actuel, un mot avec sa ligne de sous-titres, une note de journal ou la vidéo dans un parcours d’apprentissage ou une collection. Chaque fonction demande [un compte connecté](/fr/docs/account-and-sync). Votre compte conserve ces éléments avec le titre et l’adresse de la vidéo.
 
-Signé, chaque section montre comment se connecter.
+Sans connexion, chaque section vous indique comment connecter votre compte.
 
-## Quiz en ce moment {#quiz-at-this-moment}
+## Question sur ce passage {#quiz-at-this-moment}
 
-Sous **Quiz en ce moment**, écrire un **Question** et ses **Réponse**, puis appuyez **Enregistrer le quiz**. Il est enregistré comme une carte flash.
+Sous **Quiz sur ce passage**, saisissez une **question** et sa **réponse**, puis appuyez sur **Enregistrer le quiz**. Il devient une fiche de révision.
 
-Lorsque vous jouez ce moment dans la même vidéo, la vidéo s'arrête et la question apparaît. Appuyez sur **Afficher la réponse**, alors **Je le savais.** ou **Pas encore**, qui classe la carte de la même façon que la page des cartes-éclair. **Pas de quiz sur cette vidéo** les éteigne pour cette visite. Chaque instant demande une fois par visite, et la recherche du passé ne demande pas.
+Quand la lecture dépasse ce passage dans la même vidéo, elle s’arrête et la question apparaît. Appuyez sur **Voir la réponse**, puis sur **Je savais** ou **Pas encore** : la fiche est évaluée comme dans la page Fiches. **Pas de quiz sur cette vidéo** les désactive pour cette visite. Chaque passage ne pose sa question qu’une fois par visite ; avancer directement au-delà ne la déclenche pas.
 
-## Garde un mot {#save-a-word}
+## Enregistrer un mot {#save-a-word}
 
-Type un **Mots** sous **Garde un mot** et appuyez **Regarde en haut**. Jusqu'à trois significations apparaissent. Appuyez sur **Enregistrer mot**, et il est enregistré comme une carte flash avec la ligne de légende à l'écran comme son exemple.
+Saisissez un **mot** sous **Enregistrer un mot**, puis appuyez sur **Rechercher**. Jusqu’à trois définitions apparaissent. **Enregistrer le mot** crée une fiche avec, en exemple, la ligne de sous-titres affichée à cet instant.
 
-Le mot est regardé sur Wiktionary. Seul le mot est envoyé.
+La recherche se fait sur Wiktionary. Seul le mot est envoyé.
 
-## Entrée dans le journal {#diary-entry}
+## Note de journal {#diary-entry}
 
-Choisir une **L'humeur** (Heureux, inspiré, calme, réfléchi, triste ou frustré), écrire **Ce que ce moment signifiait pour vous**et appuyez **Enregistrer dans le journal**. L'entrée est un signet dans le dossier "Journal", étiqueté avec l'humeur, de sorte que vous pouvez le modifier dans Signets aussi.
+Choisissez une **humeur** — joyeux, inspiré, calme, pensif, triste ou frustré —, écrivez **Ce que ce passage a représenté pour vous**, puis appuyez sur **Enregistrer dans le journal**. Cette note est un signet du dossier « Journal », étiqueté avec l’humeur. Vous pouvez également la modifier depuis Signets.
 
-## Piste d'apprentissage et collection {#learning-path-and-collection}
+## Parcours d’apprentissage et collection {#learning-path-and-collection}
 
-Sous **Voie d'apprentissage** ou **Recouvrement**, choisissez un des vôtres et appuyez **Ajouter cette vidéo**. Une vidéo qui est déjà il est refusé. Faites les chemins et les collections sur le site Web d'abord; jusqu'à ce que vous le faites, le widget dit qu'il n'y en a pas encore.
+Sous **Parcours d’apprentissage** ou **Collection**, choisissez l’un des vôtres puis appuyez sur **Ajouter cette vidéo**. Une vidéo déjà présente ne peut pas être ajoutée une seconde fois. Créez d’abord vos parcours et collections sur le site ; jusque-là, le widget indique que vous n’en avez pas encore.
 
-Une vidéo de parcours d'apprentissage est marquée par elle-même une fois que Watch History montre que vous l'avez regardé, ce qui signifie que vous avez dépassé 90 % de la vidéo et joué au moins la moitié de celle-ci en cours de route. Passer à la fin ne compte pas. Historique de la montre est désactivé jusqu'à ce que vous l'allumez dans Paramètres, sur le **Confidentialité Données &** onglet.
+Une vidéo d’un parcours est marquée comme terminée lorsque l’historique montre que vous avez dépassé 90 % de sa durée tout en ayant effectivement lu au moins la moitié. Aller directement à la fin ne suffit pas. L’historique est désactivé tant que vous ne l’activez pas sous **Paramètres → Confidentialité et données**.
 
-## Recherche dans votre bibliothèque {#search-your-library}
+## Rechercher dans votre bibliothèque {#search-your-library}
 
-**Recherche dans votre bibliothèque** est dans le widget **Votre bibliothèque** menu et dans la grille de la bibliothèque popup. Il ouvre la recherche du site Web à travers vos notes, signets et entrées de journal, des cartes flash et des mots enregistrés, transcriptions, Regarder plus tard, Histoire de la montre, collections et chemins d'apprentissage. Tapez 2 à 100 caractères. Vous obtenez jusqu'à 10 résultats pour chaque type, chacun avec un lien vers son moment.
+**Rechercher dans votre bibliothèque** figure dans le menu **Votre bibliothèque** du widget et dans la grille de la fenêtre contextuelle. La recherche du site couvre notes, signets, journal, fiches, mots enregistrés, transcriptions, À regarder plus tard, historique, collections et parcours. Saisissez de 2 à 100 caractères. Jusqu’à 10 résultats sont présentés par catégorie, chacun avec un lien vers le passage concerné.
 
 ## Sur le site {#on-the-website}
 
-| Page             | Ce qu'il montre                                                                       |
-| ---------------- | ------------------------------------------------------------------------------------- |
-| Cartes-éclair    | Vos moments-questionnaires et vos mots sauvegardés, à consulter                       |
-| vocabulaire      | Vos mots sauvés, chacun lié à son moment                                              |
-| Clip journal     | Vos entrées de journal de jour, les plus récentes, avec un filtre d'humeur            |
-| Progrès réalisés | Chaque chemin d'apprentissage est fait et total, et la vidéo suivante                 |
-| Recouvrement     | Vos collections, avec un téléchargement comme JSON, CSV, Markdown ou une playlist M3U |
+| Page | Contenu |
+|---|---|
+| **Fiches** | Vos questions et mots enregistrés à réviser |
+| **Vocabulaire** | Vos mots enregistrés, avec un lien vers leur passage |
+| **Journal vidéo** | Vos notes par jour, les plus récentes d’abord, avec un filtre par humeur |
+| **Progression des cours** | Pour chaque parcours, le nombre de vidéos terminées, le total et la suivante |
+| **Collections** | Vos collections, exportables en JSON, CSV, Markdown ou playlist M3U |
 
-Suivant : [Partager et regarder ensemble](/docs/user-guide/share-and-watch-together).
+À suivre : [Partager et regarder ensemble](/fr/docs/user-guide/share-and-watch-together).

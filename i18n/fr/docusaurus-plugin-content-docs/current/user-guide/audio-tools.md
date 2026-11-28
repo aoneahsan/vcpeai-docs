@@ -1,56 +1,55 @@
 ---
-title: "Changer l'équilibre, la voix, la chambre et le son"
-sidebar_label: "Outils audio"
-description: "Avec un compte connecté, réglez l'équilibre gauche-droite, changez une voix sans changer la vitesse, ajoutez une pièce, même l'intensité et définissez un limiteur; pas sur vidéo protégée."
-unlisted: true
+title: Régler l’équilibre, la voix, l’ambiance et le volume
+sidebar_label: Outils audio
+description: "Avec un compte connecté, réglez l’équilibre stéréo, modifiez la voix sans changer la vitesse, ajoutez une ambiance et maîtrisez le volume."
 ---
 
-Les outils audio changent l'équilibre, la voix, la pièce et la sonorité de la vidéo que vous regardez, et ils s'assoient sur l'onglet Audio du widget, qui a besoin [un compte connecté](/docs/account-and-sync) Comme le reste de l'onglet. Ils ne changent que ce que vous entendez sur la page.
+Les outils audio modifient le son de la vidéo que vous regardez. Ils se trouvent dans l’onglet **Audio** du widget, accessible avec [un compte connecté](/fr/docs/account-and-sync). Le traitement reste sur la page.
 
-Ils ne fonctionnent pas sur des vidéos protégées, comme Netflix et Disney+. Le widget le dit.
+Ils ne fonctionnent pas sur les vidéos protégées, notamment sur Netflix et Disney+. Le widget vous l’indique.
 
-## Solde {#balance}
+## Équilibre {#balance}
 
-| Contrôle            | Ce qu'il fait                                                                 |
-| ------------------- | ----------------------------------------------------------------------------- |
-| **Gauche / droite** | Déplace le son vers le haut-parleur gauche ou droit; **Centre** est le milieu |
-| **Mono**            | Joue les deux canaux comme un seul                                            |
-| **Échange L/R**     | Échange les canaux gauche et droit                                            |
+| Réglage | Effet |
+|---|---|
+| **Gauche / droite** | Déplace le son vers l’enceinte gauche ou droite ; **Centre** rétablit l’équilibre |
+| **Mono** | Réunit les deux canaux en un seul |
+| **Inverser G/D** | Échange les canaux gauche et droit |
 
-## Voix Chambre & {#voice--room}
+## Voix et ambiance {#voice--room}
 
-Choisir une **Voix**: Chipmunk, Deep, Robot, Echo ou Téléphone. Chacun d'eux est un vrai changement de pas, et la vitesse vidéo ne change jamais. Le bouton Pitch sous Advanced Audio est la voix profonde.
+Choisissez une **Voix** : Chipmunk, Deep, Robot, Echo ou Telephone. Chaque effet change réellement la hauteur de la voix, sans toucher à la vitesse de lecture. Le bouton Pitch, dans les réglages audio avancés, correspond à la voix Deep.
 
-Choisir une **Salle**: Petite chambre, Hall, Cathédrale ou Cave. **Mélange de chambres** indique combien de place vous entendez.
+Choisissez une **Ambiance** : Small room, Hall, Cathedral ou Cave. Le **mélange d’ambiance** règle l’intensité de cet effet.
 
-**Arrêt** Sous l'un ou l'autre, on le remet.
+Dans chaque liste, **Off** désactive l’effet correspondant.
 
-## Lourdeur {#loudness}
+## Volume {#loudness}
 
-**Même le bruit** apporte des parties calmes vers le haut et des parties bruyantes vers le bas, au plus 12 dB. Allumez-le pour une vidéo où l'enceinte est douce et la musique non.
+**Égaliser le volume** relève les passages calmes et atténue les passages forts, dans une limite de 12 dB. C’est utile, par exemple, lorsque la voix est faible mais la musique forte.
 
-**Limiteur** empêche le son de passer **Plafond** vous définissez, de -1 dB à -12 dB. C'est un moment très fort.
+Le **limiteur** empêche le son de dépasser le **plafond** choisi, entre −1 dB et −12 dB. Il aide à contenir les pics soudains.
 
-**Éteignez les outils audio** éteindre tous à la fois.
+**Désactiver les outils audio** coupe tous ces effets en une fois.
 
-## Paramètres des outils audio {#audio-tools-settings}
+## Réglages des outils audio {#audio-tools-settings}
 
-Paramètres, onglet Caractéristiques vidéo, **Outils audio** détient les mêmes commandes: **Balance (gauche / droite)**, **Mono**, **Échanger à gauche et à droite**, **Voix**, **Salle**, **Mélange de chambres**, **Même le bruit**, **Limiteur** et **Plafond limite**. **Réinitialiser les outils audio** les remet.
+Dans **Paramètres → Fonctions vidéo → Outils audio**, vous retrouvez l’équilibre gauche/droite, Mono, l’inversion des canaux, Voix, Ambiance, le mélange d’ambiance, l’égalisation du volume, le limiteur et son plafond. **Réinitialiser les outils audio** rétablit les valeurs par défaut.
 
-## Quand ça ne marche pas {#when-it-does-not-work}
+## Si un effet ne fonctionne pas {#when-it-does-not-work}
 
-Le widget affiche l'un des trois messages :
+Le widget peut afficher l’un de ces messages :
 
-| Message                                                                                                 | Ce que ça veut dire                                          |
-| ------------------------------------------------------------------------------------------------------- | ------------------------------------------------------------ |
-| "Non disponible sur vidéo protégée (Netflix, Disney+ et similaire): son audio ne peut pas être traité." | Le site protège la vidéo, et l'audio ne peut pas être changé |
-| "Non disponible sur cette vidéo: le site ne laisse pas son audio être traité."                          | La vidéo vient d'un autre site qui ne l'autorise pas         |
-| "Démarre quand la vidéo joue."                                                                          | Appuyez sur le jeu et les outils démarrent                   |
+| Message | Signification |
+|---|---|
+| « Non disponible sur les vidéos protégées (Netflix, Disney+ et services similaires) : leur son ne peut pas être traité. » | Le site protège la vidéo |
+| « Non disponible sur cette vidéo : le site ne permet pas de traiter son son. » | Le lecteur d’un autre site bloque ce traitement |
+| « Démarre à la lecture de la vidéo. » | Lancez la lecture pour activer les outils |
 
-[Coup de pouce audio](/docs/user-guide/audio-boost) et normaliser sont des contrôles séparés sur le même onglet, avec leurs propres clés et leur propre page, qui couvre également les huit boutons Advanced Audio.
+L’[amplification audio](/fr/docs/user-guide/audio-boost) et la normalisation disposent de réglages distincts dans le même onglet. Leur page présente aussi les huit boutons audio avancés.
 
 ## Raccourcis {#shortcuts}
 
-Deux raccourcis optionnels démarrent sans clé : "Turn audio tools on or off" et "Swap gauche et droite". Chacun a besoin d'un compte connecté. Donnez une clé [Modifier un raccourci](/docs/keyboard-shortcuts/rebinding).
+Deux raccourcis facultatifs n’ont aucune touche attribuée au départ : « Activer ou désactiver les outils audio » et « Inverser les canaux gauche et droit ». Ils nécessitent un compte connecté. Vous pouvez leur attribuer des touches dans [Modifier un raccourci](/fr/docs/keyboard-shortcuts/rebinding).
 
-Suivant : [Capture et exportation](/docs/user-guide/capture-and-export).
+À suivre : [Capture et exportation](/fr/docs/user-guide/capture-and-export).

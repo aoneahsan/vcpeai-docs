@@ -50,9 +50,9 @@ También hay modo compacto y una opción para reducir el movimiento. Las once fu
 
 ## Cambiar el idioma
 
-Configuración y popup están disponibles en inglés, español, francés y alemán. **Detectar idioma automáticamente** sigue el del navegador; **Idioma** te permite elegirlo.
+Configuración, el popup y el widget están disponibles en inglés, español, francés, alemán y urdu. **Detectar idioma automáticamente** usa el idioma del navegador si está disponible; **Idioma** te permite elegir uno para las tres superficies de la extensión.
 
-El widget sigue el idioma del navegador si es inglés, español, francés o alemán. Con otro idioma muestra inglés. La elección de idioma de Configuración no cambia el widget.
+Si el idioma del navegador no es uno de esos cinco, la extensión usa inglés hasta que elijas otro en Configuración. Tras cambiarlo, recarga las páginas de vídeo que ya estaban abiertas para que el widget adopte la nueva elección.
 
 ## Atajos relacionados
 

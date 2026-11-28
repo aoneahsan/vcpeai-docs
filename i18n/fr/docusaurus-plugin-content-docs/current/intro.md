@@ -1,44 +1,43 @@
 ---
-title: "Ce que Video Controls Plus est"
-sidebar_label: "Présentation"
-description: "Video Controls Plus est une extension de navigateur qui ajoute des commandes de lecture à la vidéo HTML5 sur n'importe quel site, avec des outils supplémentaires sur YouTube, Netflix et LinkedIn."
-unlisted: true
+title: Découvrir Video Controls Plus
+sidebar_label: Introduction
+description: Video Controls Plus contrôle les vidéos HTML5 dans le navigateur et ajoute des fonctions propres à YouTube, Netflix et LinkedIn.
 ---
 
-Video Controls Plus est une extension de navigateur qui ajoute des commandes de lecture à la vidéo HTML5. Vous contrôlez le lecteur vidéo comme vous le souhaitez, sur n'importe quel site qui joue une vidéo standard, et vous obtenez des outils spéciaux sur YouTube, Netflix et LinkedIn.
+Video Controls Plus ajoute des commandes de lecture aux vidéos HTML5. Vous réglez le lecteur à votre façon sur tout site qui utilise une vidéo standard, avec des fonctions supplémentaires sur YouTube, Netflix et LinkedIn.
 
-Il est livré pour Chrome, Edge et Firefox.
+L’extension est disponible pour Chrome, Edge et Firefox.
 
-## Ce que vous contrôlez {#what-you-control}
+## Contrôler la lecture {#what-you-control}
 
-La vitesse vient en premier. Appuyez sur `]` pour aller plus vite 0.1x et `[` pour aller plus lentement 0.1x, et cela fonctionne sans compte.
+Commencez par la vitesse. `]` accélère de 0.1x et `[` ralentit de 0.1x, sans compte.
 
-Il fait beaucoup plus que changer la vitesse: vous pouvez boucler une partie d'une vidéo avec une boucle A-B, booster l'audio jusqu'à 400%, ajuster la luminosité, le contraste et la saturation, enregistrer un cadre comme une capture d'écran, et garder des notes avec l'horodatage. Sans compte, vous avez la vitesse, presets, frame step, Image-in-Picture, partage horodatage, signets locaux de navigateur et le widget. La boucle A-B, boost audio, filtres, captures d'écran, notes et auto-skip s'ouvrent après vous [connecter un compte](/docs/account-and-sync).
+Vous pouvez aussi répéter un passage avec la boucle A-B, amplifier le son jusqu’à 400 %, régler la luminosité, le contraste et la saturation, enregistrer une image de la vidéo et prendre des notes horodatées. Sans compte, la vitesse, les préréglages, l’avance image par image, le partage d’un instant précis, les signets conservés dans ce navigateur et le widget restent utilisables. Picture-in-Picture, la boucle A-B, l’amplification du son, les filtres, les captures d’écran, les notes et le saut automatique demandent un [compte connecté](/fr/docs/account-and-sync/).
 
-La version 16.3.0 ajoute un ensemble d'outils au widget et aux paramètres. Confort, la minuterie d'étude, la coupe Zoom &, la section Automation, les limites de veille et le mode Focus n'ont pas besoin de compte. Looks and effects, outils audio, capture et exportation, les outils de bibliothèque et les parties de veille ont besoin d'un compte connecté, et chaque page ci-dessous indique quelle partie a besoin de quoi.
+La version 16.3.0 a ajouté des outils au widget et aux Paramètres. Le confort visuel, le minuteur d’étude, le zoom et l’ajustement de l’image, les automatisations, les limites de visionnage et le mode Concentration fonctionnent sans compte. Les effets visuels, les outils audio, la capture et l’exportation, les outils de la bibliothèque et le visionnage à plusieurs demandent un compte connecté. Chaque guide précise la condition au moment où il décrit l’action.
 
-## Ce que ces documents couvrent {#what-these-docs-cover}
+## Choisir un guide {#what-these-docs-cover}
 
-| Si vous voulez                                                              | Ouvrir                                                                                                       |
-| --------------------------------------------------------------------------- | ------------------------------------------------------------------------------------------------------------ |
-| Ajouter l'extension à votre navigateur                                      | [Installer](/docs/getting-started/install)                                                                   |
-| Essayez les premiers contrôles                                              | [Première manche](/docs/getting-started/first-run)                                                           |
-| Apprendre un seul contrôle                                                  | Le guide de l'utilisateur, en commençant par [Contrôle de vitesse](/docs/user-guide/speed-control)           |
-| Simplifiez les vidéos sur vos yeux                                          | [Confort et accessibilité](/docs/user-guide/comfort-and-accessibility)                                       |
-| Ajouter des looks à l'image ou zoomer                                       | [Effets visuels et zoom](/docs/user-guide/visual-effects)                                                    |
-| Changer l'équilibre, la voix ou la sonorité                                 | [Outils audio](/docs/user-guide/audio-tools)                                                                 |
-| Faire un GIF, un clip ou une feuille de contact                             | [Capture et exportation](/docs/user-guide/capture-and-export)                                                |
-| Bloquer le jeu automatique, garder une vitesse de site ou définir un rappel | [Automatisation des lectures](/docs/user-guide/playback-automation)                                          |
-| Limitez vos distractions                                                    | [Limites de veille et mode Focus](/docs/user-guide/watch-limits-and-focus)                                   |
-| Étudier avec une minuterie, une transcription et des chapitres              | [Outils d'étude](/docs/user-guide/study-tools)                                                               |
-| Enregistrer les quiz, mots et entrées de journal                            | [Votre bibliothèque de la vidéo](/docs/user-guide/study-library)                                             |
-| Partagez un moment ou regardez avec des amis                                | [Partager et regarder ensemble](/docs/user-guide/share-and-watch-together)                                   |
-| Voir chaque clé par défaut                                                  | [Raccourcis par défaut](/docs/keyboard-shortcuts/defaults)                                                   |
-| Utilisez les extras sur un site                                             | [YouTube](/docs/platforms/youtube), [Netflix](/docs/platforms/netflix), [LinkedIn](/docs/platforms/linkedin) |
-| Savoir ce qu'ajoute la connexion d'un compte                                | [Compte et synchronisation](/docs/account-and-sync)                                                          |
-| Savoir ce qui est enregistré                                                | [Confidentialité et autorisations](/docs/privacy-and-permissions)                                            |
-| Correction d'un contrôle qui ne fait rien                                   | [Dépannage](/docs/troubleshooting)                                                                           |
-| Obtenez une réponse courte                                                  | [FAQ](/docs/faq)                                                                                             |
-| Savoir qui le maintient                                                     | [À propos](/docs/about)                                                                                      |
+| Vous voulez… | Ouvrez… |
+|---|---|
+| Ajouter l’extension à votre navigateur | [Installer](/fr/docs/getting-started/install/) |
+| Essayer les premières commandes | [Premier lancement](/fr/docs/getting-started/first-run/) |
+| Apprendre un contrôle | Le guide d’utilisation, en commençant par [Contrôler la vitesse](/fr/docs/user-guide/speed-control/) |
+| Rendre la vidéo plus agréable à regarder | [Confort et accessibilité](/fr/docs/user-guide/comfort-and-accessibility/) |
+| Ajouter un effet visuel ou zoomer | [Effets visuels et zoom](/fr/docs/user-guide/visual-effects/) |
+| Régler la balance, la voix ou le volume | [Outils audio](/fr/docs/user-guide/audio-tools/) |
+| Faire un GIF, un extrait ou une planche-contact | [Capture et exportation](/fr/docs/user-guide/capture-and-export/) |
+| Bloquer la lecture automatique, conserver une vitesse par site ou créer un rappel | [Automatiser la lecture](/fr/docs/user-guide/playback-automation/) |
+| Limiter le temps de visionnage ou masquer les distractions | [Limites de visionnage et mode Concentration](/fr/docs/user-guide/watch-limits-and-focus/) |
+| Étudier avec un minuteur, une transcription et des chapitres | [Outils d’étude](/fr/docs/user-guide/study-tools/) |
+| Garder des quiz, des mots et des notes de journal | [Bibliothèque depuis la vidéo](/fr/docs/user-guide/study-library/) |
+| Partager un moment ou regarder avec d’autres personnes | [Partager et regarder ensemble](/fr/docs/user-guide/share-and-watch-together/) |
+| Voir toutes les touches par défaut | [Raccourcis par défaut](/fr/docs/keyboard-shortcuts/defaults/) |
+| Utiliser les fonctions propres à un site | [YouTube](/fr/docs/platforms/youtube/), [Netflix](/fr/docs/platforms/netflix/) ou [LinkedIn](/fr/docs/platforms/linkedin/) |
+| Savoir ce qu’ajoute un compte connecté | [Compte et synchronisation](/fr/docs/account-and-sync/) |
+| Savoir quelles données sont enregistrées | [Confidentialité et autorisations](/fr/docs/privacy-and-permissions/) |
+| Résoudre un contrôle qui ne répond pas | [Dépannage](/fr/docs/troubleshooting/) |
+| Trouver une réponse rapide | [Questions fréquentes](/fr/docs/faq/) |
+| Savoir qui maintient l’extension | [À propos](/fr/docs/about/) |
 
-Commencez par [Installer](/docs/getting-started/install).
+Commencez par [Installer](/fr/docs/getting-started/install/).

@@ -1,14 +1,14 @@
 {
   "version.label": {
-    "message": "Suivant",
+    "message": "Actuelle",
     "description": "The label for version current"
   },
   "sidebar.docsSidebar.category.Getting started": {
-    "message": "Début",
+    "message": "Premiers pas",
     "description": "The label for category 'Getting started' in sidebar 'docsSidebar'"
   },
   "sidebar.docsSidebar.category.User guide": {
-    "message": "Guide de l'utilisateur",
+    "message": "Guide d’utilisation",
     "description": "The label for category 'User guide' in sidebar 'docsSidebar'"
   },
   "sidebar.docsSidebar.category.Keyboard shortcuts": {
@@ -20,7 +20,19 @@
     "description": "The label for category 'Platforms' in sidebar 'docsSidebar'"
   },
   "sidebar.docsSidebar.link.Changelog": {
-    "message": "Changer de journal",
+    "message": "Nouveautés",
     "description": "The label for link 'Changelog' in sidebar 'docsSidebar', linking to '/changelog'"
+  },
+  "sidebar.docsSidebar.category.Moving to Video Controls Plus": {
+    "message": "Passer à Video Controls Plus",
+    "description": "The label for category Moving to Video Controls Plus"
+  },
+  "sidebar.docsSidebar.category.White-label & licensing": {
+    "message": "Marque blanche et licences",
+    "description": "The label for category White-label & licensing"
+  },
+  "sidebar.docsSidebar.category.Developers": {
+    "message": "Développeurs",
+    "description": "The label for category Developers"
   }
 }

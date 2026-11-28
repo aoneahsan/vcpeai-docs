@@ -1,66 +1,65 @@
 ---
-title: "Choisissez comment les contrôles apparaissent sur la page"
-sidebar_label: "Affichage et widget"
-description: "Choisissez le widget flottant ou la notification uniquement, définissez la position, la taille et la façon dont il s'ouvre, et choisissez un thème et une langue."
-unlisted: true
+title: Choisir l’affichage des commandes sur la page
+sidebar_label: Affichage et widget
+description: "Choisissez le widget flottant ou les notifications, puis réglez sa position, sa taille, son ouverture, son thème et sa langue."
 ---
 
-Vous choisissez comment les contrôles apparaissent sur la page dans Paramètres, dans l'onglet Général sous **Mode d'affichage**Ça marche sans compte.
+Vous pouvez choisir l’affichage des commandes dans **Paramètres → Général → Mode d’affichage**. Aucun compte n’est nécessaire.
 
-## Modes d'affichage {#display-modes}
+## Modes d’affichage {#display-modes}
 
-| Mode                   | Ce que vous voyez sur la page                                                                         |
-| ---------------------- | ----------------------------------------------------------------------------------------------------- |
-| Widget flottant        | Le widget, un panneau de contrôle que vous pouvez glisser n'importe où sur la page. C'est par défaut. |
-| Notification seulement | Un petit indicateur de vitesse lorsque la vitesse change, et aucun panneau                            |
+| Mode | Ce qui apparaît sur la page |
+|---|---|
+| **Widget flottant** | Un panneau de commande que vous pouvez déplacer ; c’est le mode initial |
+| **Notifications uniquement** | Un petit indicateur lors des changements de vitesse, sans panneau |
 
-L'onglet Outils du widget a le même choix sous **Affichage & Thème**, où les deux modes sont étiquetés **flottant** et **Avis**.
+Dans l’onglet **Outils** du widget, le réglage **Affichage et thème** propose les mêmes modes sous les noms **Floating** et **Notify**.
 
-Notification Seulement quand vous conduisez tout à partir du clavier, vous connaissez déjà vos clés, et vous ne voulez rien assis sur le dessus de la page pendant que la vidéo joue.
+Le mode Notifications uniquement convient si vous utilisez déjà les raccourcis clavier et souhaitez garder l’image dégagée pendant la lecture.
 
-## Paramètres du widget {#widget-settings}
+## Réglages du widget {#widget-settings}
 
-Ceux-ci sont sur l'onglet Général, sous le mode d'affichage.
+Ces réglages se trouvent sous le mode d’affichage, dans l’onglet Général.
 
-| Réglage            | Choix                                                                |
-| ------------------ | -------------------------------------------------------------------- |
-| Position du widget | En haut à gauche, en haut à droite, en bas à gauche, en bas à droite |
-| Taille du widget   | Normal, compact, minimal                                             |
-| Ouvrir le widget   | Cliquez sur, Hover                                                   |
+| Réglage | Choix |
+|---|---|
+| Position | En haut à gauche, en haut à droite, en bas à gauche ou en bas à droite |
+| Taille | Normale, compacte ou minimale |
+| Ouverture | Au clic ou au survol |
 
-Hors de la boîte, le widget est de taille normale et s'ouvre sur un clic.
+Au départ, le widget est de taille normale et s’ouvre au clic.
 
-## Cacher le widget {#hide-the-widget}
+## Masquer le widget {#hide-the-widget}
 
-Appuyez sur `Esc` ou `Ctrl + Alt + H` pour cacher le widget, et appuyez encore pour le montrer.
+Appuyez sur `Esc` ou `Ctrl + Alt + H` pour masquer le widget, puis de nouveau pour l’afficher.
 
-Pour désactiver toute l'extension sur un site, utilisez [Pause par site](/docs/getting-started/pause-per-site).
+Pour désactiver toute l’extension sur un site, consultez [Mettre en pause selon le site](/fr/docs/getting-started/pause-per-site).
 
 ## Changer le thème {#change-the-theme}
 
-Ouvrez l'onglet Apparence dans Paramètres.
+Ouvrez l’onglet **Apparence** des paramètres.
 
-| Option                        | Combien |
-| ----------------------------- | ------- |
-| Schémas de couleurs           | 20      |
-| Familles de polices           | 11      |
-| Options de rayon de frontière | 6       |
-| Échelles de taille de police  | 5       |
+| Option | Nombre de choix |
+|---|---:|
+| Palettes de couleurs | 20 |
+| Familles de polices | 11 |
+| Arrondis des angles | 6 |
+| Échelles de taille du texte | 5 |
 
-Il y a aussi un mode compact et un commutateur de mouvement réduit. Les 11 polices viennent avec l'extension, et aucune d'entre elles n'est chargée à partir d'un service de police distant.
+Vous disposez aussi d’un mode compact et d’un réglage pour réduire les animations. Les 11 polices sont fournies avec l’extension : aucune n’est chargée depuis un service de polices distant.
 
 ## Changer la langue {#change-the-language}
 
-Les paramètres et le popup sont disponibles en anglais, espagnol, français et allemand: **Langue de détection automatique** suit la langue de votre navigateur, et **Langue** vous permet de choisir vous-même.
+Les paramètres, la fenêtre de l’extension et le panneau sur la vidéo sont disponibles en anglais, espagnol, français, allemand et ourdou. **Détection automatique de la langue** utilise la langue du navigateur lorsqu’elle est prise en charge ; **Langue** vous permet d’en choisir une pour les trois surfaces de l’extension.
 
-Le widget est en anglais aujourd'hui. Il reste en anglais lorsque Paramètres est en espagnol, français ou allemand.
+Si la langue de votre navigateur ne fait pas partie de ces cinq langues, l’extension utilise l’anglais jusqu’à ce que vous en choisissiez une autre dans les paramètres. Après un changement de langue, rechargez les pages vidéo déjà ouvertes pour que leur panneau applique votre choix.
 
-## Clés connexes {#related-keys}
+## Touches associées {#related-keys}
 
-| Clé              | Ce qu'il fait                |
-| ---------------- | ---------------------------- |
-| `Esc`            | Cacher ou afficher le widget |
-| `Ctrl + Alt + H` | Cacher ou afficher le widget |
-| `\`              | Afficher la vitesse actuelle |
+| Touche | Action |
+|---|---|
+| `Esc` | Masquer ou afficher le widget |
+| `Ctrl + Alt + H` | Masquer ou afficher le widget |
+| `\` | Afficher la vitesse actuelle |
 
-Les clés de départ sont listées dans [Raccourcis par défaut](/docs/keyboard-shortcuts/defaults)et [Modifier un raccourci](/docs/keyboard-shortcuts/rebinding) montre comment les déplacer.
+Retrouvez la liste initiale dans les [raccourcis par défaut](/fr/docs/keyboard-shortcuts/defaults) et apprenez à les modifier dans [Modifier un raccourci](/fr/docs/keyboard-shortcuts/rebinding).

@@ -1,61 +1,60 @@
 ---
-title: "Simplifiez vos vidéos avec Comfort"
-sidebar_label: "Confort et accessibilité"
-description: "Chauffer l'image, rendre les couleurs plus faciles à distinguer, remodeler les légendes d'un site et ajouter un guide de lecture; Confort n'a pas besoin de compte et n'envoie rien."
-unlisted: true
+title: Rendre les vidéos plus confortables à regarder
+sidebar_label: Confort et accessibilité
+description: "Réchauffez l’image, distinguez mieux les couleurs, personnalisez les sous-titres existants et ajoutez un guide de lecture sans créer de compte."
 ---
 
-Confort réchauffe l'image, rend les couleurs plus faciles à distinguer, remodele les légendes d'un site déjà montré, et ajoute un guide de lecture sur la vidéo. Ouvrez-le sur l'onglet Affichage du widget, sous **Confort**. Il n'a pas besoin de compte.
+Les outils **Confort** réchauffent l’image, aident à distinguer les couleurs, personnalisent les sous-titres déjà affichés par le site et ajoutent un guide de lecture sur la vidéo. Ouvrez-les dans l’onglet **Affichage** du widget. Aucun compte n’est nécessaire.
 
-Vos choix Comfort sont stockés avec vos autres paramètres, synchronisés sur votre compte seulement lorsque la synchronisation cloud est activée, et rien n'est envoyé nulle part.
+Vos choix de confort sont conservés avec vos autres paramètres et synchronisés avec votre compte uniquement si la synchronisation cloud est activée. Les outils Confort n’envoient pas ce que vous regardez à un service distinct.
 
-## Où il est {#where-it-is}
+## Où trouver les outils {#where-it-is}
 
-| Où                                                                     | Ce que vous trouvez                                                  |
-| ---------------------------------------------------------------------- | -------------------------------------------------------------------- |
-| Widget, onglet de vue, **Confort**                                     | interrupteurs rapides pour les quatre outils, et **Plus de confort** |
-| Paramètres, onglet Caractéristiques vidéo, **Confort & accessibilité** | Chaque option, et **Réinitialiser les paramètres de confort**        |
-| Paramètres, raccourcis clavier, **Confort**                            | Quatre raccourcis qui commencent sans clé                            |
+| Emplacement | Contenu |
+|---|---|
+| Widget → **Affichage → Confort** | Les quatre interrupteurs rapides et l’accès aux paramètres détaillés |
+| **Paramètres → Fonctions vidéo → Confort et accessibilité** | Toutes les options et la réinitialisation des réglages |
+| **Paramètres → Raccourcis clavier → Confort** | Quatre raccourcis sans touche attribuée au départ |
 
-## Confort des yeux {#eye-comfort}
+## Reposer les yeux {#eye-comfort}
 
-Allumez **Confort des yeux** et bouger **Chaleur** (0% à 100%) pour regarder le soir. Seulement la vidéo change, jamais la page. Cochez **Aussi moins de luminosité** pour l'adoucir davantage.
+Activez **Confort des yeux** et réglez la **chaleur** de 0 % à 100 % pour regarder une vidéo le soir. Seule la vidéo change, pas le reste de la page. L’option **Réduire aussi la luminosité** adoucit encore l’image.
 
-**Allumez vous-même entre les temps fixés** Il s'allume et s'éteint tout seul. Jeu **De** et **Jusqu'à**, et il commence à 21:00 et se termine à 07:00 jusqu'à ce que vous les changez.
+Vous pouvez programmer l’activation entre deux heures. Réglez **De** et **Jusqu’à** ; les horaires initiaux sont 21 h 00 et 7 h 00.
 
-## Vision des couleurs {#colour-vision}
+## Vision des couleurs {#color-vision}
 
-Choisir une **Type**: Vert-faible, Rouge-faible, Bleu-jaune ou Sans couleur. Alors choisissez une **Mode**:
+Choisissez un **type** : difficulté à distinguer le vert, difficulté à distinguer le rouge, bleu-jaune ou absence de couleur. Puis choisissez un **mode** :
 
-- **Faire des couleurs plus claires** change les couleurs pour qu'elles soient plus faciles à distinguer.
-- **Montrez à quoi ça ressemble.** montre la vidéo comme quelqu'un avec cette vision de couleur la voit.
+- **Rendre les couleurs plus distinctes** modifie les couleurs pour aider à les différencier.
+- **Simuler la perception** montre la vidéo telle qu’elle peut apparaître avec la vision des couleurs choisie.
 
-## Style de capture {#caption-style}
+## Style des sous-titres {#caption-style}
 
-Le style de la légende remodele les légendes du site déjà montré, sur YouTube, Netflix, Prime Video, Udemy, Coursera, Vimeo, Khan Academy, Video.js lecteurs et vidéos avec des pistes WebVTT. Il ne crée pas de légendes.
+Cette fonction personnalise les sous-titres que le site affiche déjà, notamment sur YouTube, Netflix, Prime Video, Udemy, Coursera, Vimeo, Khan Academy, les lecteurs Video.js et les vidéos à pistes WebVTT. Elle ne crée pas de sous-titres.
 
-Choisir une **Regarde la légende** et a **Taille du texte**.
+Choisissez une **apparence** et une **taille de texte**.
 
-| Regarde.       | Ce que c'est                                                                                                                   |
-| -------------- | ------------------------------------------------------------------------------------------------------------------------------ |
-| Par défaut     | Texte blanc sur une bande noire                                                                                                |
-| Haut contraste | Texte blanc plus gras sur noir massif                                                                                          |
-| Noir           | Texte léger doux sur gris foncé                                                                                                |
-| Minimal        | Un texte plus petit sur une bande plus légère                                                                                  |
-| Grand tirage   | Grand texte jaune gras                                                                                                         |
-| Couleur        | Texte vert gras sur violet profond                                                                                             |
-| Lecture facile | Un sans-sérif clair avec un espacement des lettres et des mots plus large et des lignes plus hautes, texte sombre sur la crème |
+| Apparence | Présentation |
+|---|---|
+| Par défaut | Texte blanc sur une bande sombre |
+| Contraste élevé | Texte blanc plus grand et gras sur fond noir |
+| Sombre | Texte clair discret sur gris foncé |
+| Minimaliste | Texte plus petit sur une bande plus claire |
+| Grands caractères | Grand texte jaune et gras |
+| Coloré | Texte vert et gras sur violet foncé |
+| Lecture facile | Police sans empattement, espaces plus larges entre les lettres et les mots, interlignage accru, texte foncé sur fond crème |
 
 ## Guide de lecture {#reading-guide}
 
-Un bandeau souple tient vos yeux sur une ligne de légendes ou de texte à l'écran. Choisir une **Forme** (Band, Line ou Spotlight), puis choisissez **Restez là.** de le garder à une hauteur sur la vidéo ou **Suivez le pointeur** pour le faire bouger où que va votre souris. **Hauteur sur la vidéo** met où il est assis. **Résistance** détermine à quel point il est fort.
+Une bande discrète vous aide à suivre une ligne de sous-titres ou de texte à l’écran. Choisissez sa **forme** — bande, ligne ou projecteur — puis **Rester en place** pour garder une hauteur fixe ou **Suivre le pointeur** pour accompagner la souris. La **hauteur sur la vidéo** détermine sa position ; l’**intensité** règle sa visibilité.
 
-## Avec vos autres contrôles {#with-your-other-controls}
+## Avec les autres réglages {#with-your-other-controls}
 
-Confort fonctionne avec [Filtres vidéo](/docs/user-guide/video-filters) et les couleurs du cinéma en même temps. Ils s'accumulent. L'extension les combine en un filtre sur la vidéo, donc allumer l'un n'en éteint pas un autre.
+Confort fonctionne en même temps que les [filtres vidéo](/fr/docs/user-guide/video-filters) et les couleurs du mode cinéma. L’extension combine ces effets dans un même filtre : activer l’un ne désactive pas les autres.
 
 ## Raccourcis {#shortcuts}
 
-Les quatre raccourcis Comfort commencent sans clé : "Toggle eye comfort", "Toggle color vision", "Toggle legend style" et "Toggle reading guide". Ils sont facultatifs. Donnez une clé dans Paramètres, comme [Modifier un raccourci](/docs/keyboard-shortcuts/rebinding) Ça se voit.
+Les quatre raccourcis Confort n’ont aucune touche attribuée au départ : activer ou désactiver le confort des yeux, la vision des couleurs, le style des sous-titres et le guide de lecture. Vous pouvez les configurer dans les paramètres, comme expliqué dans [Modifier un raccourci](/fr/docs/keyboard-shortcuts/rebinding).
 
-Suivant : [Effets visuels et zoom](/docs/user-guide/visual-effects).
+À suivre : [Effets visuels et zoom](/fr/docs/user-guide/visual-effects).

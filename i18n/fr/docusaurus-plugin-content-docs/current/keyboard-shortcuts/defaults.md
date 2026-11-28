@@ -1,129 +1,129 @@
 ---
-title: "Raccourcis clavier par défaut"
-sidebar_label: "Raccourcis par défaut"
-description: "Chaque clé par défaut dans Video Controls Plus : les touches lettres et chiffres ont besoin de Ctrl + Alt, seules les touches support, ponctuation et ESC fonctionnent seules, et les raccourcis optionnels commencent sans clé."
-unlisted: true
+title: Raccourcis clavier par défaut
+sidebar_label: Raccourcis par défaut
+description: Toutes les touches par défaut de Video Controls Plus, les fonctions qui demandent un compte et les raccourcis facultatifs sans touche attribuée.
 ---
 
-Besoin de clés à lettres et à chiffres `Ctrl + Alt`; seulement `[`, `]`, `=`, `\`, `'`, `,`, `.` et `Esc` travailler seul. Cela garde les clés de l'extension loin des clés qu'utilise le joueur d'un site.
+Les raccourcis contenant une lettre ou un chiffre nécessitent `Ctrl + Alt`. Seules les touches `[`, `]`, `=`, `\`, `'`, `,`, `.` et `Esc` fonctionnent seules. Cela évite d’interférer avec les touches du lecteur vidéo du site.
 
-Un "Oui" dans la dernière colonne signifie que la clé fonctionne avec un compte connecté, et [Compte et synchronisation](/docs/account-and-sync) liste ce que la connexion ajoute.
+Dans les tableaux, « Oui » signifie que le raccourci demande un compte associé. La page [Compte et synchronisation](/fr/docs/account-and-sync) explique ce que cette association permet.
 
 ## Vitesse {#speed}
 
-La section Contrôle de vitesse dans Paramètres contient les touches de vitesse et les touches de widget.
+La catégorie « Contrôle de vitesse » des paramètres regroupe les touches de vitesse et celles du widget.
 
-| Clé              | Ce qu'il fait                                                                                                           | Besoin d'un compte |
-| ---------------- | ----------------------------------------------------------------------------------------------------------------------- | ------------------ |
-| `[`              | Diminuer la vitesse de 0.1x                                                                                             | Numéro             |
-| `]`              | Augmenter la vitesse de 0.1x                                                                                            | Numéro             |
-| `=`              | Réinitialiser à la vitesse par défaut                                                                                   | Numéro             |
-| `\`              | Afficher la vitesse actuelle                                                                                            | Numéro             |
-| `'`              | Synchroniser la vitesse dynamique : applique la vitesse dynamique courante définie sur l'onglet Général dans Paramètres | Numéro             |
-| `Esc`            | Cacher ou afficher le widget                                                                                            | Numéro             |
-| `Ctrl + Alt + H` | Cacher ou afficher le widget                                                                                            | Numéro             |
+| Touche | Action | Compte requis |
+|---|---|---|
+| `[` | Réduire la vitesse de 0.1x | Non |
+| `]` | Augmenter la vitesse de 0.1x | Non |
+| `=` | Revenir à la vitesse par défaut | Non |
+| `\` | Afficher la vitesse actuelle | Non |
+| `'` | Appliquer la vitesse dynamique actuelle définie dans l’onglet Général | Non |
+| `Esc` | Masquer ou afficher le widget | Non |
+| `Ctrl + Alt + H` | Masquer ou afficher le widget | Non |
 
-## Contrôles avancés {#advanced-controls}
+## Commandes avancées {#advanced-controls}
 
-| Clé              | Ce qu'il fait                              | Besoin d'un compte |
-| ---------------- | ------------------------------------------ | ------------------ |
-| `Ctrl + Alt + P` | Photo en photo sur ou en dehors            | Oui                |
-| `Ctrl + Alt + S` | Sauter l'intro, sur Netflix et Prime Video | Oui                |
+| Touche | Action | Compte requis |
+|---|---|---|
+| `Ctrl + Alt + P` | Activer ou désactiver l’image dans l’image | Oui |
+| `Ctrl + Alt + S` | Passer l’introduction sur Netflix ou Prime Video | Oui |
 
 ## Vitesses prédéfinies {#preset-speeds}
 
-| Clé              | Ce qu'il fait     | Besoin d'un compte |
-| ---------------- | ----------------- | ------------------ |
-| `Ctrl + Alt + 1` | Préréglage : 0.5x | Numéro             |
-| `Ctrl + Alt + 2` | Préréglage : 1x   | Numéro             |
-| `Ctrl + Alt + 3` | Préréglage : 1.5x | Numéro             |
-| `Ctrl + Alt + 4` | Préréglage : 2x   | Numéro             |
-| `Ctrl + Alt + 5` | Préréglage : 2.5x | Numéro             |
-| `Ctrl + Alt + 6` | Préréglage : 3x   | Numéro             |
-| `Ctrl + Alt + 7` | Préréglage : 3.5x | Numéro             |
-| `Ctrl + Alt + 8` | Préréglage : 4x   | Numéro             |
+| Touche | Action | Compte requis |
+|---|---|---|
+| `Ctrl + Alt + 1` | Préréglage 0.5x | Non |
+| `Ctrl + Alt + 2` | Préréglage 1x | Non |
+| `Ctrl + Alt + 3` | Préréglage 1.5x | Non |
+| `Ctrl + Alt + 4` | Préréglage 2x | Non |
+| `Ctrl + Alt + 5` | Préréglage 2.5x | Non |
+| `Ctrl + Alt + 6` | Préréglage 3x | Non |
+| `Ctrl + Alt + 7` | Préréglage 3.5x | Non |
+| `Ctrl + Alt + 8` | Préréglage 4x | Non |
 
-Il n'y a pas de neuvième prédéfini par défaut. Ajouter un neuvième préréglage à utiliser `Ctrl + Alt + 9`.
+Il n’y a pas de neuvième préréglage par défaut. Ajoutez-en un pour utiliser `Ctrl + Alt + 9`.
 
 ## Boucle A-B {#a-b-loop}
 
-| Clé                      | Ce qu'il fait                              | Besoin d'un compte |
-| ------------------------ | ------------------------------------------ | ------------------ |
-| `Ctrl + Alt + A`         | Réglez le point de départ de la boucle (A) | Oui                |
-| `Ctrl + Alt + B`         | Régler le point de fin de boucle (B)       | Oui                |
-| `Ctrl + Alt + L`         | Boucle en marche ou en arrêt               | Oui                |
-| `Ctrl + Alt + Backspace` | Effacer les points de boucle               | Oui                |
+| Touche | Action | Compte requis |
+|---|---|---|
+| `Ctrl + Alt + A` | Placer le début de la boucle (A) | Oui |
+| `Ctrl + Alt + B` | Placer la fin de la boucle (B) | Oui |
+| `Ctrl + Alt + L` | Activer ou désactiver la boucle | Oui |
+| `Ctrl + Alt + Backspace` | Effacer les points de la boucle | Oui |
 
-## Contrôles audio {#audio-controls}
+## Son {#audio-controls}
 
-| Clé              | Ce qu'il fait                   | Besoin d'un compte |
-| ---------------- | ------------------------------- | ------------------ |
-| `Ctrl + Alt + U` | Augmentation de 20%             | Oui                |
-| `Ctrl + Alt + Y` | Rehausser de 20%                | Oui                |
-| `Ctrl + Alt + N` | Normaliser en cours ou en cours | Oui                |
+| Touche | Action | Compte requis |
+|---|---|---|
+| `Ctrl + Alt + U` | Augmenter l’amplification de 20 % | Oui |
+| `Ctrl + Alt + Y` | Réduire l’amplification de 20 % | Oui |
+| `Ctrl + Alt + N` | Activer ou désactiver la normalisation | Oui |
 
-## Filtres et capture d'écran {#filters-and-screenshot}
+## Filtres et capture d’écran {#filters-and-screenshot}
 
-| Clé              | Ce qu'il fait                             | Besoin d'un compte |
-| ---------------- | ----------------------------------------- | ------------------ |
-| `Ctrl + Alt + F` | Afficher ou masquer le panneau de filtres | Oui                |
-| `Ctrl + Alt + G` | Échelle grise                             | Oui                |
-| `Ctrl + Alt + I` | Inverser ou désactiver                    | Oui                |
-| `Ctrl + Alt + T` | Mode nuit allumé ou éteint                | Oui                |
-| `Ctrl + Alt + C` | Capturer le cadre actuel                  | Oui                |
+| Touche | Action | Compte requis |
+|---|---|---|
+| `Ctrl + Alt + F` | Afficher ou masquer le panneau des filtres | Oui |
+| `Ctrl + Alt + G` | Activer ou désactiver les niveaux de gris | Oui |
+| `Ctrl + Alt + I` | Activer ou désactiver l’inversion des couleurs | Oui |
+| `Ctrl + Alt + T` | Activer ou désactiver le mode nuit | Oui |
+| `Ctrl + Alt + C` | Capturer l’image vidéo actuelle | Oui |
 
 ## Navigation {#navigation}
 
-| Clé              | Ce qu'il fait                       | Besoin d'un compte |
-| ---------------- | ----------------------------------- | ------------------ |
-| `,`              | Reculez d'un cadre                  | Numéro             |
-| `.`              | Avancer d'un cadre                  | Numéro             |
-| `Ctrl + Alt + X` | Copier un lien avec l'horodatage    | Numéro             |
-| `Ctrl + Alt + Z` | Mode théâtre/focus allumé ou éteint | Numéro             |
+| Touche | Action | Compte requis |
+|---|---|---|
+| `,` | Reculer d’une image | Non |
+| `.` | Avancer d’une image | Non |
+| `Ctrl + Alt + X` | Copier un lien avec l’horodatage | Non |
+| `Ctrl + Alt + Z` | Activer ou désactiver le mode cinéma | Non |
 
-## Signets {#bookmarks}
+## Favoris {#bookmarks}
 
-| Clé              | Ce qu'il fait                                                                                | Besoin d'un compte |
-| ---------------- | -------------------------------------------------------------------------------------------- | ------------------ |
-| `Ctrl + Alt + O` | Ajoutez un signet au moment actuel ; connecté enregistre la synchronisation sur votre compte | Numéro             |
+| Touche | Action | Compte requis |
+|---|---|---|
+| `Ctrl + Alt + O` | Ajouter un favori à l’instant actuel ; s’il est associé à un compte, il est synchronisé | Non |
 
-## Raccourcis optionnels sans clé {#optional-shortcuts-with-no-key}
+## Raccourcis facultatifs sans touche attribuée {#optional-shortcuts-with-no-key}
 
-Ça commence sans clé. Dans Paramètres, ouvrez l'onglet Raccourcis clavier, trouvez le groupe, appuyez sur **Jeu**, puis appuyez sur les clés que vous voulez. Si une clé appartient déjà à un autre raccourci, Paramètres vous indique lequel et vous y conduit.
+Ces raccourcis n’ont pas de touche par défaut. Dans l’onglet « Raccourcis clavier » des paramètres, trouvez la catégorie, cliquez sur **Set**, puis appuyez sur les touches souhaitées. Si la combinaison sert déjà à un autre raccourci, les paramètres vous indiquent lequel et vous y conduisent.
 
-| Groupe dans les paramètres | Raccourci                                  | Besoin d'un compte |
-| -------------------------- | ------------------------------------------ | ------------------ |
-| Confort                    | Réduire le confort des yeux                | Numéro             |
-| Confort                    | Percevoir la vision des couleurs           | Numéro             |
-| Confort                    | Basculer le style de la légende            | Numéro             |
-| Confort                    | Toggle guide de lecture                    | Numéro             |
-| Etude                      | Démarrer ou arrêter le minuteur de l'étude | Numéro             |
-| Etude                      | Afficher ou cacher la transcription        | Numéro             |
-| Effets                     | Activer ou désactiver les effets           | Oui                |
-| Effets                     | Blur une région de la vidéo                | Oui                |
-| Outils audio               | Activer ou désactiver les outils audio     | Oui                |
-| Outils audio               | Échanger à gauche et à droite              | Oui                |
-| Capture                    | Enregistrer ou arrêter un clip             | Oui                |
-| Capture                    | Faire un GIF                               | Oui                |
-| Capture                    | Annoter une capture d'écran                | Oui                |
-| Automatisation             | Block autoplay sur ce site                 | Numéro             |
-| Automatisation             | Démarrer ou arrêter la rampe de vitesse    | Numéro             |
+| Catégorie | Raccourci | Compte requis |
+|---|---|---|
+| Confort | Activer ou désactiver le confort visuel | Non |
+| Confort | Activer ou désactiver l’adaptation des couleurs | Non |
+| Favoris | Activer ou désactiver le mode concentration | Non |
+| Confort | Activer ou désactiver le style des sous-titres | Non |
+| Confort | Activer ou désactiver le guide de lecture | Non |
+| Étude | Démarrer ou mettre en pause le minuteur d’étude | Non |
+| Étude | Afficher ou masquer la transcription | Non |
+| Effets | Activer ou désactiver les effets | Oui |
+| Effets | Flouter une partie de la vidéo | Oui |
+| Outils audio | Activer ou désactiver les outils audio | Oui |
+| Outils audio | Intervertir les canaux gauche et droit | Oui |
+| Capture | Démarrer ou arrêter l’enregistrement d’un extrait | Oui |
+| Capture | Créer un GIF | Oui |
+| Capture | Annoter une capture d’écran | Oui |
+| Automatisation | Bloquer la lecture automatique sur ce site | Non |
+| Automatisation | Démarrer ou arrêter la variation progressive de vitesse | Non |
 
-Chacun est expliqué sur sa propre page: [Confort et accessibilité](/docs/user-guide/comfort-and-accessibility), [Outils d'étude](/docs/user-guide/study-tools), [Effets visuels et zoom](/docs/user-guide/visual-effects), [Outils audio](/docs/user-guide/audio-tools), [Capture et exportation](/docs/user-guide/capture-and-export) et [Automatisation des lectures](/docs/user-guide/playback-automation).
+Chaque catégorie est détaillée dans son guide : [Confort et accessibilité](/fr/docs/user-guide/comfort-and-accessibility), [Outils d’étude](/fr/docs/user-guide/study-tools), [Effets visuels et zoom](/fr/docs/user-guide/visual-effects), [Outils audio](/fr/docs/user-guide/audio-tools), [Capture et exportation](/fr/docs/user-guide/capture-and-export) et [Automatisation de la lecture](/fr/docs/user-guide/playback-automation).
 
-## Raccourcis au niveau du navigateur {#browser-level-shortcuts}
+## Raccourcis du navigateur {#browser-level-shortcuts}
 
-Le navigateur définit ces quatre-là. Il décide si chacun est assigné, et vous les modifiez sur la page de raccourcis d'extension du navigateur. L'extension ne peut pas les changer.
+Le navigateur gère ces quatre raccourcis. Il décide s’ils sont attribués, et vous pouvez les modifier sur sa propre page de raccourcis des extensions. L’extension ne peut pas les changer.
 
-| Clé suggérée                                          | Ce qu'il fait                                |
-| ----------------------------------------------------- | -------------------------------------------- |
-| `Alt + V`                                             | Ouvrez le popup                              |
-| `Ctrl + Shift + V` (`Command + Shift + V` sur un Mac) | Afficher ou masquer les commandes flottantes |
-| `Ctrl + Shift + P` (`Command + Shift + P` sur un Mac) | Photo en photo sur ou en dehors              |
-| `Ctrl + Shift + C` (`Command + Shift + C` sur un Mac) | Prenez une capture d'écran                   |
+| Touche suggérée | Action |
+|---|---|
+| `Alt + V` | Ouvrir le panneau de l’extension |
+| `Ctrl + Shift + V` (`Command + Shift + V` sur Mac) | Afficher ou masquer les commandes flottantes |
+| `Ctrl + Shift + P` (`Command + Shift + P` sur Mac) | Activer ou désactiver l’image dans l’image |
+| `Ctrl + Shift + C` (`Command + Shift + C` sur Mac) | Prendre une capture d’écran |
 
 ## Netflix {#netflix}
 
-Netflix a son propre set, qui s'allume dans un seul cas, et la table est sur le [Page Netflix](/docs/platforms/netflix).
+Netflix possède un jeu de raccourcis qui ne s’active que dans une situation précise. Le tableau figure sur la [page Netflix](/fr/docs/platforms/netflix).
 
-Pour donner une de ces autres clés, voir [Modifier un raccourci](/docs/keyboard-shortcuts/rebinding).
+Pour changer une touche, consultez [Modifier un raccourci](/fr/docs/keyboard-shortcuts/rebinding).

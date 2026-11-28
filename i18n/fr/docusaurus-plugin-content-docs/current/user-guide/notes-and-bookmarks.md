@@ -1,58 +1,57 @@
 ---
-title: "Prenez des notes et ajoutez des signets pendant que vous regardez"
-sidebar_label: "Notes et signets"
-description: "Enregistrer les notes avec l'horodatage vidéo depuis l'onglet Outils du widget, les exporter sous forme de Markdown, de texte ou de JSON, et ajouter un signet au moment actuel."
-unlisted: true
+title: Prendre des notes et marquer des passages pendant une vidéo
+sidebar_label: Notes et signets
+description: "Associez vos notes à un passage de la vidéo, exportez-les en Markdown, texte ou JSON et ajoutez des signets pendant la lecture."
 ---
 
-Connectez votre compte avant d'enregistrer une note. Chaque note conserve l'horodatage vidéo et apparaît sur le site **Annexe** page. Le widget **Outils** onglet a l'éditeur de note, des boutons d'exportation et un sélectionneur de bibliothèque.
+Connectez votre compte avant d’enregistrer une note. Chaque note conserve l’heure du passage vidéo et apparaît dans la page **Notes** de votre compte sur le site. L’onglet **Outils** du widget contient la saisie des notes, les boutons d’export et l’accès à votre bibliothèque.
 
-## Prenez note {#take-a-note}
+## Prendre une note {#take-a-note}
 
-1. Ouvrez le widget et allez au **Outils** onglet.
-2. Sous **Notes Extraction de &**, cliquez **Remarque**.
-3. Tapez la note dans l'invite et confirmez.
+1. Ouvrez l’onglet **Outils** du widget.
+2. Sous **Notes et extraction**, cliquez sur **Note**.
+3. Saisissez votre texte dans la fenêtre qui s’ouvre, puis confirmez.
 
-La note est en attente avec l'horodatage courant de votre compte. Vous pouvez également faire un clic droit sur la vidéo et choisir **Ajouter une note**. Si vous n'êtes pas connecté, l'extension vous demande de vous connecter avant d'ouvrir l'éditeur.
+La note est mise en attente avec le minutage actuel pour votre compte. Vous pouvez aussi faire un clic droit sur la vidéo et choisir **Ajouter une note**. Si vous n’êtes pas connecté, l’extension vous demande de vous connecter avant d’ouvrir l’éditeur.
 
-Une note écrite à 12h40 dans une conférence reste liée à 12h40, donc vous savez à quelle partie de la vidéo elle appartient. Les notes sont privées : elles ne sont pas affichées sur le site à titre de commentaires.
+Une note prise à 12:40 d’un cours reste associée à ce passage. Vos notes sont privées : elles ne sont pas publiées comme commentaires sur le site vidéo.
 
-Pour lire et modifier les notes, choisissez **Annexe** de **Votre bibliothèque** sur l'onglet Outils du widget. Il ouvre la page Notes de votre compte sur le site.
+Pour les lire ou les modifier, choisissez **Notes** sous **Votre bibliothèque** dans l’onglet Outils. La page Notes de votre compte s’ouvre sur le site.
 
-## Exportez vos billets {#export-your-notes}
+## Exporter vos notes {#export-your-notes}
 
-Dans la même section, cliquez sur le format souhaité. L'exportation comprend les notes de votre compte et les notes en attente de synchronisation à partir de ce navigateur.
+Dans la même section, choisissez un format. L’export comprend les notes de votre compte et celles de ce navigateur qui attendent encore la synchronisation.
 
-| Bouton     | Ce que vous obtenez |
-| ---------- | ------------------- |
-| Remarques  | Un fichier Markdown |
-| Notes TXT  | Un fichier texte    |
-| Notes JSON | Un fichier JSON     |
+| Bouton | Fichier obtenu |
+|---|---|
+| **Notes MD** | Markdown |
+| **Notes TXT** | Texte |
+| **Notes JSON** | JSON |
 
-L'exportation Markdown met chaque note sur sa propre ligne avec son horodatage, de sorte que le fichier se trouve à côté du reste de vos notes de conférence comme il est.
+Dans le fichier Markdown, chaque note occupe une ligne avec son minutage.
 
 ## Ajouter un signet {#add-a-bookmark}
 
-Cliquez sur **Signet** sur l'onglet Outils, faites un clic droit sur la vidéo et choisissez **Ajouter un signet**, ou presse `Ctrl + Alt + O`. Vous pouvez enregistrer un signet sans compte ; il reste dans ce navigateur.
+Cliquez sur **Signet** dans l’onglet Outils, choisissez **Ajouter un signet** après un clic droit sur la vidéo, ou appuyez sur `Ctrl + Alt + O`. Vous pouvez enregistrer un signet sans compte ; il reste alors dans ce navigateur.
 
-Lorsque l'extension est connectée, un nouveau signet enregistre au moment actuel et se synchronise sur votre compte. Choisir **Signets** de **Votre bibliothèque** sur l'onglet Outils du widget, ou ouvrir le **Signets** onglet sur le site [Notes page](https://vcpeai.aoneahsan.com/notes?tab=bookmarks), pour rechercher, modifier, supprimer ou exporter des signets de compte. Les signets faits avant votre connexion restent uniquement dans ce navigateur ; la connexion ultérieure ne les télécharge pas automatiquement. Les **Activer Cloud Sync** les commandes de commutation se synchronisent séparément.
+Une fois l’extension connectée, les nouveaux signets sont enregistrés au passage actuel et synchronisés avec votre compte. Choisissez **Signets** sous **Votre bibliothèque** dans le widget, ou ouvrez l’onglet **Signets** de la [page Notes](https://vcpeai.aoneahsan.com/notes?tab=bookmarks) pour les rechercher, modifier, supprimer ou exporter. Les signets créés avant la connexion restent dans ce navigateur : une connexion ultérieure ne les envoie pas automatiquement. L’interrupteur **Activer la synchronisation cloud** règle séparément la synchronisation des paramètres.
 
 ## Télécharger la transcription {#download-the-transcript}
 
-Cliquez sur **Transcription** dans la même section pour télécharger la transcription comme texte. Tu l'as lu en dehors du joueur.
+Cliquez sur **Transcription** dans la même section pour télécharger le texte et le lire hors du lecteur.
 
-## Partagez un moment {#share-a-moment}
+## Partager un passage {#share-a-moment}
 
-Appuyez sur `Ctrl + Alt + X` pour copier un lien vers la vidéo avec l'horodatage actuel, et il fonctionne sur YouTube, Vimeo, Twitch et d'autres sites. Le lien porte le temps et rien d'autre.
+Appuyez sur `Ctrl + Alt + X` pour copier un lien vers le passage actuel. Ce raccourci fonctionne sur YouTube, Vimeo, Twitch et d’autres sites. Le lien contient le minutage, sans autre donnée.
 
-## Clés connexes {#related-keys}
+## Touches associées {#related-keys}
 
-| Clé              | Ce qu'il fait                      |
-| ---------------- | ---------------------------------- |
-| `Ctrl + Alt + O` | Ajouter un signet au moment actuel |
-| `Ctrl + Alt + X` | Copier un lien avec l'horodatage   |
-| `Ctrl + Alt + C` | Capturer le cadre actuel           |
+| Touche | Action |
+|---|---|
+| `Ctrl + Alt + O` | Ajouter un signet au passage actuel |
+| `Ctrl + Alt + X` | Copier un lien avec le minutage |
+| `Ctrl + Alt + C` | Capturer l’image actuelle |
 
-Les clés de départ sont en [Raccourcis par défaut](/docs/keyboard-shortcuts/defaults)et [Modifier un raccourci](/docs/keyboard-shortcuts/rebinding) les déplace.
+Consultez les [raccourcis par défaut](/fr/docs/keyboard-shortcuts/defaults) et [modifiez un raccourci](/fr/docs/keyboard-shortcuts/rebinding) selon vos besoins.
 
-Suivant : [Image dans la photographie](/docs/user-guide/picture-in-picture).
+À suivre : [Image dans l’image](/fr/docs/user-guide/picture-in-picture).

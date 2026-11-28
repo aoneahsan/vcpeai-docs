@@ -1,56 +1,55 @@
 ---
-title: "Modifier un raccourci clavier"
-sidebar_label: "Modifier un raccourci"
-description: "Donnez n'importe quel raccourci une autre clé dans Paramètres, désactivez les raccourcis un par un ou par section, et gardez vos clés sur les appareils avec un compte connecté."
-unlisted: true
+title: Modifier un raccourci clavier
+sidebar_label: Modifier un raccourci
+description: Changer les touches dans les paramètres, désactiver un raccourci ou une catégorie et retrouver ses raccourcis sur un autre appareil.
 ---
 
-Ouvrez Paramètres, allez dans l'onglet Raccourcis clavier, et donnez au raccourci une autre clé. Chaque raccourci sur cet onglet peut être modifié, et il fonctionne sans compte.
+Ouvrez l’onglet « Raccourcis clavier » des paramètres pour attribuer une autre combinaison à un raccourci. Tous ceux de cet onglet sont modifiables, même sans compte.
 
-## Changer une clé {#change-a-key}
+## Changer une touche {#change-a-key}
 
 1. Ouvrez les paramètres.
-2. Allez au **Raccourcis clavier** onglet.
-3. Trouvez le raccourci dans sa section.
-4. Définir la nouvelle clé, avec tout mélange de `Ctrl`, `Shift` et `Alt`.
+2. Sélectionnez l’onglet **Raccourcis clavier**.
+3. Trouvez le raccourci dans sa catégorie.
+4. Définissez la nouvelle combinaison avec, si vous le souhaitez, `Ctrl`, `Shift` ou `Alt`.
 
-Les sections, dans l'ordre, sont Speed Control, Advanced Controls, Preset Speeds, A-B Loop, Audio Controls, Filtres & Capture d'écran, Navigation et Signets, puis Netflix Recovery Controls dans son propre bloc.
+Les catégories apparaissent dans cet ordre : Contrôle de vitesse, Commandes avancées, Vitesses prédéfinies, Boucle A-B, Son, Filtres et capture d’écran, Navigation et Favoris. Les commandes de récupération Netflix ont leur propre bloc.
 
-Les touches lettres et chiffres commencent `Ctrl + Alt` donc ils restent à l'écart des clés du joueur du site. Vous pouvez enlever les modificateurs, et puis il est à vous de garder à l'écart des clés du site.
+Par défaut, les raccourcis contenant une lettre ou un chiffre utilisent `Ctrl + Alt` pour éviter les touches du lecteur vidéo du site. Vous pouvez retirer ces touches de modification, mais il vous revient alors d’éviter les conflits avec le site.
 
-## Une clé, un raccourci {#one-key-one-shortcut}
+## Une combinaison, un raccourci {#one-key-one-shortcut}
 
-Une clé ne peut appartenir qu'à un seul raccourci. Si une clé que vous choisissez appartient déjà à un autre raccourci, Paramètres vous indique laquelle et vous y conduit.
+Une combinaison ne peut servir qu’à un seul raccourci. Si elle est déjà attribuée, les paramètres indiquent la touche, le raccourci et sa catégorie, puis proposent un lien direct vers ce raccourci pour le modifier.
 
-Le message nomme la clé, le raccourci qui la tient et sa section, et se connecte directement à ce raccourci pour que vous puissiez le déplacer. La règle couvre chaque ensemble à la fois, de sorte qu'une touche Netflix Recovery Controls ne peut pas doubler en général.
+Cette règle couvre toutes les catégories en même temps : une touche des commandes de récupération Netflix ne peut pas être aussi attribuée à une commande générale.
 
-## Désactive les raccourcis {#switch-shortcuts-off}
+## Désactiver des raccourcis {#switch-shortcuts-off}
 
-| Ce que vous éteignez                      | Où                                          |
-| ----------------------------------------- | ------------------------------------------- |
-| Un raccourci                              | L'interrupteur sur la ligne de ce raccourci |
-| Une section entière, par exemple A-B Loop | L'interrupteur sur la section               |
+| À désactiver | Où agir |
+|---|---|
+| Un raccourci | Son interrupteur, sur la même ligne |
+| Une catégorie entière, comme la boucle A-B | L’interrupteur de la catégorie |
 
 ## Vitesses prédéfinies {#preset-speeds}
 
-Les vitesses prédéfinies et leurs clés sont éditées sur le même onglet. [Contrôle de vitesse](/docs/user-guide/speed-control) les couvre.
+Les vitesses prédéfinies et leurs raccourcis se modifient dans le même onglet. Le [guide de la vitesse](/fr/docs/user-guide/speed-control) donne plus de détails.
 
-## Retourner aux valeurs par défaut {#go-back-to-the-defaults}
+## Rétablir les valeurs par défaut {#go-back-to-the-defaults}
 
-Cliquez sur **Tout réinitialiser** en haut de l'onglet. Il vous demande d'abord et réinitialise les vitesses prédéfinies ainsi que les clés.
+Cliquez sur **Reset All** en haut de l’onglet. Après confirmation, les raccourcis et les vitesses prédéfinies retrouvent leurs valeurs initiales.
 
-La section des contrôles de récupération Netflix a sa propre **Réinitialiser** bouton, qui réinitialise seulement les touches Netflix.
+La catégorie des commandes de récupération Netflix possède son propre bouton **Reset**, qui rétablit seulement les touches Netflix.
 
-## Vos clés sur un autre appareil {#your-keys-on-another-device}
+## Retrouver vos touches sur un autre appareil {#your-keys-on-another-device}
 
-Vos attaches de clés sont enregistrées dans ce navigateur. Alors qu'un compte est connecté, ils sont également enregistrés, et un autre appareil les récupère la prochaine fois que vous ouvrez Paramètres dessus.
+Vos raccourcis sont enregistrés dans ce navigateur. Si l’extension est associée à un compte, ils y sont également enregistrés. Un autre appareil les récupère à la prochaine ouverture de ses paramètres.
 
-Sans compte, ils restent dans ce navigateur. Voir [ce que la connexion ajoute](/docs/account-and-sync).
+Sans compte associé, ils restent dans ce navigateur. Consultez [ce que permet l’association au compte](/fr/docs/account-and-sync).
 
 ## Limites {#limits}
 
-Quatre raccourcis sont définis par le navigateur : `Alt + V` ouvre le popup, `Ctrl + Shift + V` montre ou cache les commandes flottantes, `Ctrl + Shift + P` en photo, et `Ctrl + Shift + C` prend une capture d'écran. Ils ne peuvent pas être modifiés à l'intérieur de l'extension; vous les modifiez sur la page des raccourcis d'extension de votre navigateur.
+Quatre raccourcis sont définis par le navigateur : `Alt + V` ouvre le panneau de l’extension, `Ctrl + Shift + V` affiche ou masque les commandes flottantes, `Ctrl + Shift + P` active ou désactive l’image dans l’image et `Ctrl + Shift + C` prend une capture d’écran. Vous les modifiez sur la page des raccourcis des extensions du navigateur, pas dans Video Controls Plus.
 
-Chaque clé de départ est dans [Raccourcis par défaut](/docs/keyboard-shortcuts/defaults).
+Toutes les combinaisons initiales figurent dans [Raccourcis par défaut](/fr/docs/keyboard-shortcuts/defaults).
 
-Les pages du site commencent par [YouTube](/docs/platforms/youtube).
+Les guides des sites commencent par [YouTube](/fr/docs/platforms/youtube).

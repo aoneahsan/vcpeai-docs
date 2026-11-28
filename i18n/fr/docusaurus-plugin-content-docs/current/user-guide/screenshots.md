@@ -1,51 +1,50 @@
 ---
-title: "Prendre une capture d'écran d'une image vidéo"
-sidebar_label: "Captures d'écran"
-description: "Appuyez sur Ctrl + Alt + C pour enregistrer le cadre vidéo actuel en tant que PNG ou JPEG, le télécharger ou le copier, avec un horodatage optionnel; il a besoin d'un compte."
-unlisted: true
+title: Capturer une image de la vidéo
+sidebar_label: Captures d’écran
+description: Avec un compte associé, capturez l’image actuelle en PNG ou JPEG, téléchargez-la, copiez-la ou enregistrez-la dans le cloud.
 ---
 
-Appuyez sur `Ctrl + Alt + C` pour enregistrer le cadre actuel comme PNG ou JPEG; il a besoin [un compte](/docs/account-and-sync).
+Après avoir [associé un compte](/fr/docs/account-and-sync), appuyez sur `Ctrl + Alt + C` pour enregistrer l’image actuelle de la vidéo en PNG ou JPEG.
 
-## Prenez une capture d'écran {#take-a-screenshot}
+## Prendre une capture {#take-a-screenshot}
 
-1. Pause sur le cadre que vous voulez, ou laissez la vidéo en lecture.
-2. Appuyez sur `Ctrl + Alt + C`, ou cliquez **Capture** sur l'onglet Outils du widget.
-3. Le cadre est téléchargé, copié ou téléchargé, selon l'action que vous avez choisie dans Paramètres.
+1. Mettez la vidéo en pause sur l’image voulue, ou laissez-la jouer.
+2. Appuyez sur `Ctrl + Alt + C` ou cliquez sur **Capture** dans l’onglet « Tools » du widget.
+3. Selon l’action choisie dans les paramètres, l’image est téléchargée, copiée ou envoyée dans le cloud.
 
-Pause, presse `,` ou `.` à l'étape un cadre à la fois, et vous capturez le cadre exact où la diapositive est terminée.
+Pour capturer exactement l’image où une diapositive est complète, mettez la vidéo en pause puis avancez image par image avec `,` ou `.`.
 
-## Choisissez le format et l'endroit où l'image va {#choose-the-format-and-where-the-image-goes}
+## Choisir le format et la destination {#choose-the-format-and-where-the-image-goes}
 
-Ouvrez les paramètres, allez dans l'onglet Caractéristiques vidéo et trouvez le **Capture d'écran** Carte.
+Ouvrez l’onglet « Video Features » des paramètres et trouvez la carte **Screenshot**.
 
-| Option                                     | Choix                                                                                                  |
-| ------------------------------------------ | ------------------------------------------------------------------------------------------------------ |
-| Présentation                               | PNG (qualité supérieure) ou JPEG (fichier plus petit)                                                  |
-| Décision                                   | Télécharger, Copier sur Clipboard, Télécharger + Clipboard, Télécharger sur Cloud ou Cloud + Clipboard |
-| Visibilité des nuages                      | Privé ou public, pour les actions en nuage                                                             |
-| Synchroniser vers la bibliothèque en nuage | Départ ou départ                                                                                       |
-| Inclure l'horodatage                       | Départ ou départ                                                                                       |
-| Position de l'horodatage                   | En haut à gauche, en haut à droite, en bas à gauche, en bas à droite                                   |
+| Option | Choix |
+|---|---|
+| Format | PNG (qualité supérieure) ou JPEG (fichier plus petit) |
+| Action | Download, Copy to Clipboard, Download + Clipboard, Upload to Cloud ou Cloud + Clipboard |
+| Cloud Visibility | Private ou Public pour les actions dans le cloud |
+| Sync to cloud library | Activé ou désactivé |
+| Include Timestamp | Activé ou désactivé |
+| Timestamp Position | Top Left, Top Right, Bottom Left ou Bottom Right |
 
-L'horodatage est le temps vidéo du cadre, écrit sur l'image. Allumez-le pour des diaporamas et vous savez d'où viennent chacun.
+L’horodatage inscrit sur l’image correspond à l’instant de la vidéo. Activez-le pour retrouver l’origine de chaque diapositive de cours.
 
-## Où va l'image {#where-the-image-goes}
+## Où va l’image ? {#where-the-image-goes}
 
-Choisir une action en nuage charge l'image. Sinon, la capture reste sur votre appareil.
+Une action dans le cloud y envoie l’image. Sinon, la capture reste sur votre appareil.
 
-## Un cadre ou une partie mobile {#one-frame-or-a-moving-part}
+## Une image ou un passage animé {#one-frame-or-a-moving-part}
 
-Une capture d'écran est une image. Pour une section mobile, l'enregistreur de clips enregistre une partie de la vidéo et la télécharge, et son commutateur est **Enregistrement des clips**, dans Paramètres sur l'onglet Télécharger la capture &.
+Une capture représente une seule image. Pour enregistrer un passage animé, utilisez **Clip Recording** dans l’onglet « Download & Capture » des paramètres : il crée un extrait vidéo à télécharger.
 
-## Clés connexes {#related-keys}
+## Raccourcis associés {#related-keys}
 
-| Clé              | Ce qu'il fait      |
-| ---------------- | ------------------ |
-| `Ctrl + Alt + C` | Capturer le cadre  |
-| `,`              | Reculez d'un cadre |
-| `.`              | Avancer d'un cadre |
+| Touche | Action |
+|---|---|
+| `Ctrl + Alt + C` | Capturer l’image actuelle |
+| `,` | Reculer d’une image |
+| `.` | Avancer d’une image |
 
-Tous les trois peuvent être déplacés: voir [Raccourcis par défaut](/docs/keyboard-shortcuts/defaults) pour les clés de départ et [Modifier un raccourci](/docs/keyboard-shortcuts/rebinding) pour les pas.
+Ces trois combinaisons peuvent être modifiées. Voir [Raccourcis par défaut](/fr/docs/keyboard-shortcuts/defaults) et [Modifier un raccourci](/fr/docs/keyboard-shortcuts/rebinding).
 
-[Notes et signets](/docs/user-guide/notes-and-bookmarks) est la page suivante.
+À suivre : [Notes et favoris](/fr/docs/user-guide/notes-and-bookmarks).

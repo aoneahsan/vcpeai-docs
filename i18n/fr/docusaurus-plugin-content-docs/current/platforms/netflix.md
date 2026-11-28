@@ -1,71 +1,70 @@
 ---
-title: "Video Controls Plus sur Netflix"
-sidebar_label: "Netflix"
-description: "La vitesse et les commandes de base fonctionnent sur Netflix; les extras Netflix sont désactivés jusqu'à ce que vous les allumez, et les touches de récupération prennent le relais dans un cas."
-unlisted: true
+title: Video Controls Plus sur Netflix
+sidebar_label: Netflix
+description: Vitesse et commandes de base sur Netflix, outils supplémentaires activés au choix et touches de récupération dans un cas précis.
 ---
 
-La vitesse et les commandes de base fonctionnent sur Netflix; les extras Netflix sont désactivés jusqu'à ce que vous les allumez. Vous les commutez sur l'onglet Fonctions Netflix dans Paramètres, qui nécessite un compte, et [Compte et synchronisation](/docs/account-and-sync) couvre ça.
+La vitesse et les commandes de base fonctionnent sur Netflix. Les outils Netflix supplémentaires restent désactivés tant que vous ne les activez pas dans l’onglet Netflix Features des paramètres. Cet onglet demande un compte associé ; voir [Compte et synchronisation](/fr/docs/account-and-sync).
 
-## Les contrôles de base {#the-core-controls}
+## Commandes habituelles {#the-core-controls}
 
-Appuyez sur `]` pour aller plus vite 0.1x et `[` pour aller plus lentement 0.1x, avec ou sans compte.
+Appuyez sur `]` pour accélérer de 0.1x et sur `[` pour ralentir de 0.1x, avec ou sans compte.
 
-## Les extras Netflix sont opt-in {#netflix-extras-are-opt-in}
+## Activer les outils Netflix au choix {#netflix-extras-are-opt-in}
 
 1. Ouvrez les paramètres.
-2. Allez au **Caractéristiques de Netflix** onglet.
-3. Connectez un compte si l'onglet vous le demande.
-4. Allumez un extra avec son interrupteur d'activation.
+2. Sélectionnez l’onglet **Netflix Features**.
+3. Associez un compte si l’onglet le demande.
+4. Activez l’outil voulu avec son interrupteur.
 5. Rechargez la page Netflix.
 
-Les interrupteurs marche/arrêt s'appliquent après cette recharge. Les actions du menu n'en attendent pas une : ouvrir un panneau, démarrer une minuterie, exporter ou télécharger depuis le widget ou le menu à clic droit se produit à la fois.
+Les interrupteurs marche/arrêt prennent effet après ce rechargement. Les actions de menu sont immédiates : ouvrir un panneau, lancer un minuteur, exporter ou télécharger depuis le widget ou le menu contextuel n’attend pas de rechargement.
 
-Chaque extra dispose également d'un bouton "afficher dans le menu droit-clic". Les extras ne fonctionnent que sur netflix.com.
+Chaque outil dispose aussi d’un interrupteur pour l’ajouter au menu contextuel. Ces outils ne fonctionnent que sur netflix.com. Le [guide des 50 outils Netflix](https://vcpeai.aoneahsan.com/blog/netflix-extras-guide) détaille chacun, y compris les limites imposées par les protections de Netflix.
 
-| Extra                    | Ce qu'il fait                                          | Par défaut |
-| ------------------------ | ------------------------------------------------------ | ---------- |
-| Sauter la récupération   | Extraits "Précédemment sur..."                         | Arrêt      |
-| Sous-titres              | Affiche deux langues de sous-titres à la fois          | Arrêt      |
-| Sous-titre Télécharger   | Téléchargements sous-titres en SRT ou VTT              | Arrêt      |
-| Temps de sommeil         | Pause après le nombre de minutes que vous définissez   | Arrêt      |
-| Navigateur Episode       | Déplacement entre les épisodes                         | Arrêt      |
-| Limites de veille        | Définit une limite de visionnement quotidienne         | Arrêt      |
-| Renforcement du dialogue | Élever des voix par rapport à la musique et aux effets | Arrêt      |
+| Outil | Fonction | Réglage initial |
+|---|---|---|
+| Skip Recap | Passe les résumés « précédemment dans… » | Désactivé |
+| Dual Subtitles | Affiche deux langues de sous-titres à la fois | Désactivé |
+| Subtitle Downloader | Télécharge les sous-titres en SRT ou VTT | Désactivé |
+| Sleep Timer | Met en pause après le nombre de minutes choisi | Désactivé |
+| Episode Navigator | Passe d’un épisode à l’autre | Désactivé |
+| Watch Limits | Fixe une limite quotidienne de visionnage | Désactivé |
+| Dialogue Boost | Augmente la voix par rapport à la musique et aux effets | Désactivé |
 
-Watch Limits compte seulement lorsqu'une vidéo est jouée dans un onglet visible. Un onglet de fond n'utilise pas la limite quotidienne.
+Watch Limits ne compte le temps que lorsqu’une vidéo joue dans un onglet visible. Un onglet en arrière-plan n’entame pas la limite quotidienne.
 
-## Commandes de récupération Netflix {#netflix-recovery-controls}
+## Touches de récupération Netflix {#netflix-recovery-controls}
 
-Netflix affiche parfois un "appareil ne fait pas partie de l'écran de la maison Netflix". Lorsque l'extension efface cet écran, Netflix cache ses propres commandes de lecteur. C'est seulement alors que les commandes du clavier s'allument.
+Netflix affiche parfois un écran indiquant que l’appareil ne fait pas partie du foyer. Si l’extension écarte cet écran, Netflix garde ses propres commandes de lecteur masquées. Les raccourcis ci-dessous s’activent uniquement dans cette situation.
 
-Un petit avis sur le joueur vous indique qu'ils sont sur et des liens vers la liste complète.
+Un petit avis sur le lecteur indique leur activation et renvoie à la liste complète.
 
-| Clé                       | Ce qu'il fait                                 |
-| ------------------------- | --------------------------------------------- |
-| `Space`                   | Jouer ou faire une pause                      |
-| `←` / `→`                 | Retour ou avant 10 secondes                   |
-| `Shift + ←` / `Shift + →` | Avant ou arrière 1 minute                     |
-| `Ctrl + ←` / `Ctrl + →`   | Avant ou arrière 5 minutes                    |
-| `Ctrl + 0`                | Aller au début                                |
-| `Ctrl + 1` à `Ctrl + 9`   | Aller à 10% jusqu'à 90%                       |
-| `Ctrl + -`                | Aller à 1 minute avant la fin                 |
-| `↑` / `↓`                 | Volume supérieur ou inférieur                 |
-| `M`                       | Mute ou non                                   |
-| `F`                       | Plein écran allumé ou éteint                  |
-| `V`                       | Prochain morceau de sous-titres, incluant off |
-| `B`                       | Suivante piste audio                          |
+| Touche | Action |
+|---|---|
+| `Space` | Lire ou mettre en pause |
+| `←` / `→` | Reculer ou avancer de 10 secondes |
+| `Shift + ←` / `Shift + →` | Reculer ou avancer d’une minute |
+| `Ctrl + ←` / `Ctrl + →` | Reculer ou avancer de 5 minutes |
+| `Ctrl + 0` | Revenir au début |
+| `Ctrl + 1` à `Ctrl + 9` | Aller de 10 % à 90 % |
+| `Ctrl + -` | Aller une minute avant la fin |
+| `↑` / `↓` | Monter ou baisser le volume |
+| `M` | Activer ou désactiver le son |
+| `F` | Activer ou désactiver le plein écran |
+| `V` | Passer à la piste de sous-titres suivante, y compris désactivée |
+| `B` | Passer à la piste audio suivante |
 
-Chacune de ces touches peut être modifiée dans Paramètres, sur l'onglet Raccourcis clavier, sous **Contrôles de récupération Netflix**. Une clé peut appartenir à un seul raccourci, de sorte qu'une clé de récupération ne peut pas aussi être un de vos raccourcis généraux.
+Vous pouvez modifier ces touches dans Paramètres → Keyboard Shortcuts → **Netflix Recovery Controls**. Une combinaison ne peut servir qu’à un raccourci ; une touche de récupération ne peut pas aussi être attribuée à une commande générale.
 
 ## Limites {#limits}
 
-A tout autre moment, ces clés sontNetflixLa sienne.
+En dehors de cette situation, ces touches restent les commandes propres à Netflix.
 
-L'extension ne corrige pas toutes les erreurs Netflix. Il efface l'écran ménager et vous donne des commandes clavier.
+L’extension ne corrige pas toutes les erreurs Netflix. Elle écarte l’écran du foyer et fournit des commandes clavier.
 
-## Clés connexes {#related-keys}
+## Raccourcis associés {#related-keys}
 
-Les clés générales sont en [Raccourcis par défaut](/docs/keyboard-shortcuts/defaults), et toute clé, récupération ou général, est déplacée dans [Modifier un raccourci](/docs/keyboard-shortcuts/rebinding).
+Les touches générales figurent dans [Raccourcis par défaut](/fr/docs/keyboard-shortcuts/defaults). [Modifier un raccourci](/fr/docs/keyboard-shortcuts/rebinding) explique comment changer toute touche, générale ou de récupération.
 
-Site suivant: [LinkedIn](/docs/platforms/linkedin).
+À suivre : [LinkedIn](/fr/docs/platforms/linkedin).

@@ -102,11 +102,11 @@ On Netflix, every extra starts off. See [Netflix](/docs/platforms/netflix).
 1. Connect on the Account & Sync tab.
 2. Open the tab again.
 
-## The widget uses a different language than Settings
+## The widget still shows the previous language
 
-**Why:** the widget follows your browser language. It has English, Spanish, French and German labels. If your browser uses another language, the widget falls back to English.
+**Why:** the video page was already open when you changed the extension's Language setting.
 
-To change the widget language, change your browser's language and reopen the video page.
+Reload the video page. The widget then reads the saved language choice from Settings. [Change the language](/docs/user-guide/display-and-widget) lists the supported languages.
 
 ## A new key is refused
 

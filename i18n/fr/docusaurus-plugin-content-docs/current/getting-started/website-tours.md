@@ -1,32 +1,31 @@
 ---
-title: "Visites sur le site et la page Comment il fonctionne"
-sidebar_label: "Visites sur le site"
-description: "Commencez une courte visite d'une page Web à partir de l'en-tête, sautez à n'importe quelle étape, et traversez Video Controls Plus en six étapes sur la page Comment il fonctionne."
-unlisted: true
+title: Visiter le site et parcourir « Comment ça marche »
+sidebar_label: Visites du site
+description: Lancez la visite d’une page depuis son en-tête ou parcourez les six étapes de « Comment ça marche » sur le site Video Controls Plus.
 ---
 
-Le site web Video Controls Plus peut vous montrer autour de ses pages, et un parcours en six étapes explique l'ensemble du produit.
+Le site Video Controls Plus propose une courte visite de certaines pages. Une autre visite, en six étapes, présente le produit de la première vidéo jusqu’à la connexion du compte.
 
-## Faites un tour d'une page {#take-a-tour-of-a-page}
+## Visiter une page {#take-a-tour-of-a-page}
 
-1. Ouvrez une des pages qui a une visite: Accueil, Caractéristiques, Plans, Installation, Tableau de bord, Notes ou Paramètres.
-2. Appuyez sur le bouton de visite dans l'en-tête, juste avant le bouton thème. Son nom est "Visitez cette page".
-3. Appuyez sur **Suivant** et **Précédent** pour passer par les étapes, ou **Toutes les étapes** pour sauter à l'un d'eux.
-4. Appuyez sur **Sauter la visite**, le bouton de fermeture ou `Esc` de partir à tout moment.
+1. Ouvrez une page qui propose une visite : Accueil, Fonctionnalités, Offres, Installation, Tableau de bord, Notes ou Paramètres.
+2. Appuyez sur le bouton de visite dans l’en-tête, juste avant le bouton de thème. Il porte le nom **Visiter cette page**.
+3. Utilisez **Suivant** et **Précédent** pour avancer, ou **Toutes les étapes** pour rejoindre directement une étape.
+4. Utilisez **Passer la visite**, le bouton de fermeture ou `Esc` pour quitter à tout moment.
 
-La première fois que vous ouvrez l'une de ces pages, un petit indice au bouton: "Nouveau ici? Faites une courte visite de cette page." Il montre une fois par page, et part tout seul après 8 secondes. Signé, l'indice se souvient des pages que vous avez vues sur chaque appareil.
+À la première ouverture d’une page, une courte indication montre le bouton de visite. Elle s’affiche une fois par page et disparaît d’elle-même après 8 secondes. Une fois connecté, vous retrouvez sur vos autres appareils les pages où vous l’avez déjà vue.
 
-Sur un téléphone, chaque étape s'ouvre comme une feuille en bas de l'écran. Une étape dont la partie de la page n'est pas à l'écran est laissée de côté, donc une visite peut être une étape ou deux plus courtes sur un téléphone. Le Dashboard et Notes tours ont également une version courte pour quand vous êtes signé.
+Sur téléphone, les étapes s’affichent dans un panneau au bas de l’écran. Une étape dont la zone n’est pas visible est omise ; la visite peut donc être plus courte d’une ou deux étapes. Les visites du Tableau de bord et des Notes ont aussi une version courte lorsque vous n’êtes pas connecté.
 
-## Traversez Video Controls Plus {#walk-through-video-controls-plus}
+## Parcourir Video Controls Plus {#walk-through-video-controls-plus}
 
-Les [Comment ça marche page](https://vcpeai.aoneahsan.com/how-it-works) dispose de six étapes, de votre première vidéo à la connexion de votre compte:
+La page [Comment ça marche](https://vcpeai.aoneahsan.com/how-it-works) présente six étapes :
 
-1. Contrôler toute vidéo
-2. Le widget et vos clés
-3. Extras sur YouTube, Netflix et LinkedIn
-4. Notes, captures d'écran et votre bibliothèque
-5. AI et parler
-6. Connectez l'extension à votre compte
+1. Contrôler une vidéo
+2. Utiliser le widget et les touches
+3. Découvrir les fonctions de YouTube, Netflix et LinkedIn
+4. Garder des notes, des captures et une bibliothèque
+5. Utiliser l’IA et Speak
+6. Connecter l’extension à votre compte
 
-Déplacer entre les étapes avec **Précédent** et **Suivant**, les touches fléchées ou un balayage. Chaque étape a sa propre adresse, donc `/how-it-works?step=3` ouvre l'étape 3. Le pied de page le relie comme **Voyez comment ça marche.**.
+Passez d’une étape à l’autre avec **Précédent**, **Suivant**, les flèches du clavier ou un balayage. Chaque étape a sa propre adresse : `/how-it-works?step=3` ouvre la troisième. Le pied de page y mène avec **Voir comment ça marche**.

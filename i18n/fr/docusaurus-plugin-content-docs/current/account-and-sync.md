@@ -1,95 +1,98 @@
 ---
-title: "Compter, synchroniser, exporter et supprimer"
-sidebar_label: "Compte et synchronisation"
-description: "Comment connecter Video Controls Plus à votre compte sur le site Web, ce que la connexion ajoute, comment la synchronisation fonctionne, comment acheter Pro, et comment exporter ou supprimer vos données."
-unlisted: true
+title: Compte, synchronisation, exportation et suppression
+sidebar_label: Compte et synchronisation
+description: Associer l’extension à votre compte, synchroniser les réglages, choisir Pro, exporter vos données ou supprimer le compte.
 ---
 
-Il n'y a pas de connexion dans l'extension. Vous créez votre compte sur [vcpeai.aoneahsan.com](https://vcpeai.aoneahsan.com), où vous vous connectez avec Google, puis vous connectez l'extension à elle. La connexion fonctionne de la même façon sur Chrome, Edge et Firefox.
+On ne se connecte pas directement dans l’extension. Créez un compte sur [vcpeai.aoneahsan.com](https://vcpeai.aoneahsan.com), connectez-vous avec Google, puis associez l’extension à ce compte. La procédure est la même sur Chrome, Edge et Firefox.
 
-Un compte qui existait avant que 16.0.0 n'ouvre vide jusqu'à ce que nous terminions le déplacement des anciennes données du cloud, qui suit cette version. Rien enregistré dans votre navigateur n'est affecté.
+Si votre compte existait avant la version 16.0.0, il restera vide jusqu’à la fin du transfert de ses anciennes données dans le cloud, prévu après cette version. Les données enregistrées dans votre navigateur ne sont pas touchées.
 
-## Connectez l'extension à votre compte {#connect-the-extension-to-your-account}
+## Associer l’extension à votre compte {#connect-the-extension-to-your-account}
 
-1. Appuyez sur **Connexion à votre compte**. Le bouton est dans le popup, sur l'étape du compte de la page d'accueil et sur le **Compte & Sync** onglet dans Paramètres.
-2. Un onglet s'ouvre sur vcpeai.aoneahsan.com. Si la page vous demande de vous connecter, appuyez sur **Continuer avec Google**.
-3. Vérifiez que la page et l'extension affichent le même code. Si les codes sont différents, appuyez sur **Annuler**.
-4. Appuyez sur **Connectez ce navigateur**.
+1. Cliquez sur **Connecter à votre compte** dans le panneau de l’extension, à l’étape « Compte » de la page de bienvenue ou dans l’onglet **Compte et synchronisation** des paramètres.
+2. Un onglet s’ouvre sur vcpeai.aoneahsan.com. Si nécessaire, cliquez sur **Continue with Google** pour vous connecter.
+3. Vérifiez que la page et l’extension affichent le même code. Si les codes diffèrent, cliquez sur **Cancel**.
+4. Cliquez sur **Connect this browser**.
 
-L'extension affiche la connexion en quelques secondes pendant que le popup ou Paramètres reste ouvert, et autrement en 30 secondes.
+L’extension affiche la connexion en quelques secondes si son panneau ou ses paramètres restent ouverts. Sinon, comptez environ 30 secondes.
 
-Le code dure 10 minutes. Si vous avez fermé l'onglet, appuyez sur **Ouvre encore la page** dans l'extension. [Dépannage](/docs/troubleshooting) couvre ce qu'il faut faire lorsque la connexion échoue.
+Le code reste valable 10 minutes. Si vous avez fermé l’onglet, cliquez sur **Open the page again** dans l’extension. Consultez le [dépannage](/fr/docs/troubleshooting) si la connexion échoue.
 
-## Ce que la connexion ajoute {#what-connecting-adds}
+## Ce que permet un compte associé {#what-connecting-adds}
 
-| Besoin d'un compte connecté aujourd'hui                                                     | Page                                                                                                         |
-| ------------------------------------------------------------------------------------------- | ------------------------------------------------------------------------------------------------------------ |
-| Boucle A-B                                                                                  | [Boucle A-B](/docs/user-guide/ab-loop)                                                                       |
-| Coup de pouce audio                                                                         | [Coup de pouce audio](/docs/user-guide/audio-boost)                                                          |
-| Filtres vidéo                                                                               | [Filtres vidéo](/docs/user-guide/video-filters)                                                              |
-| Captures d'écran                                                                            | [Captures d'écran](/docs/user-guide/screenshots)                                                             |
-| Auto-skip                                                                                   | [Auto-skip](/docs/user-guide/auto-skip)                                                                      |
-| Les notes de compte horodatées et le signet connecté économisent                            | [Notes et signets](/docs/user-guide/notes-and-bookmarks)                                                     |
-| Synchronisation des nuages                                                                  | Cette page                                                                                                   |
-| Les nouvelles fonctionnalités, les onglets YouTube, Netflix et LinkedIn dans les paramètres | [YouTube](/docs/platforms/youtube), [Netflix](/docs/platforms/netflix), [LinkedIn](/docs/platforms/linkedin) |
-| L'allocation d'IA partagée                                                                  | [Caractéristiques de l'IA](/docs/ai-features)                                                                |
+| Nécessite aujourd’hui un compte associé | Guide |
+|---|---|
+| Boucle A-B | [Boucle A-B](/fr/docs/user-guide/ab-loop) |
+| Image dans l’image | [Image dans l’image](/fr/docs/user-guide/picture-in-picture) |
+| Amplification audio | [Amplification audio](/fr/docs/user-guide/audio-boost) |
+| Filtres vidéo | [Filtres vidéo](/fr/docs/user-guide/video-filters) |
+| Captures d’écran | [Captures d’écran](/fr/docs/user-guide/screenshots) |
+| Saut automatique | [Saut automatique](/fr/docs/user-guide/auto-skip) |
+| Notes horodatées du compte et enregistrement des favoris connectés | [Notes et favoris](/fr/docs/user-guide/notes-and-bookmarks) |
+| Synchronisation dans le cloud | Cette page |
+| Onglets « New Features », YouTube, Netflix et LinkedIn des paramètres | [YouTube](/fr/docs/platforms/youtube), [Netflix](/fr/docs/platforms/netflix), [LinkedIn](/fr/docs/platforms/linkedin) |
+| Allocation d’IA partagée | [Fonctions d’IA](/fr/docs/ai-features) |
 
-Sans compte, vous avez la vitesse, presets, frame step, Picture-in-Picture, partage horodatage, mode théâtre, signets enregistrés dans ce navigateur et le widget.
+Sans compte, vous pouvez régler la vitesse, utiliser les vitesses prédéfinies, avancer image par image, partager un horodatage, activer le mode cinéma, conserver des favoris dans ce navigateur et utiliser le widget.
 
-Les extras YouTube et LinkedIn qui sont activés par défaut sans compte, et seulement l'onglet Paramètres où vous les commutez vous demande de vous connecter.
+Les fonctions YouTube et LinkedIn activées par défaut fonctionnent également sans compte. Seul leur onglet de réglages demande d’associer un compte pour les modifier.
 
-## Quel compte connecté enregistre {#what-a-connected-account-records}
+## Données enregistrées avec un compte {#what-a-connected-account-records}
 
-Connecté, l'extension stocke vos données de compte et vos paramètres, et pendant que le commutateur d'analyse d'utilisation est sur elle enregistre quels sites, fonctionnalités et vitesses vous avez utilisé. La liste complète est [Confidentialité et autorisations](/docs/privacy-and-permissions).
+Une fois associé, l’extension enregistre les données de votre compte et vos réglages. Tant que l’option d’analyse de l’utilisation est activée, elle enregistre aussi les sites, fonctions et vitesses utilisés. La liste complète figure dans [Confidentialité et autorisations](/fr/docs/privacy-and-permissions).
 
 ## Synchronisation {#sync}
 
-1. Connectez l'extension à votre compte.
-2. Ouvrez l'onglet Compte & Sync dans Paramètres et activez **Activer Cloud Sync**.
+1. Associez l’extension à votre compte.
+2. Ouvrez l’onglet **Compte et synchronisation** des paramètres et activez **Activer Cloud Sync**.
 
-Vos paramètres sont téléchargés lorsque vous l'allumez. Vos vitesses, vos fixations de clés et les paramètres du site sont synchronisés. L'onglet affiche la dernière heure de synchronisation. Les signets enregistrés lors de la synchronisation connectée à votre compte séparément de ce commutateur de paramètres; les signets faits pendant la dédicace restent dans ce navigateur.
+Vos réglages sont envoyés dans le cloud dès l’activation. Les vitesses, les raccourcis clavier et les réglages propres aux sites sont synchronisés. L’onglet indique la date de la dernière synchronisation. Les favoris enregistrés lorsque le compte est associé sont synchronisés séparément, même si cette option de synchronisation des réglages est désactivée. Ceux créés sans connexion restent dans ce navigateur.
 
-| Bouton                       | Ce qu'il fait                                                        |
-| ---------------------------- | -------------------------------------------------------------------- |
-| Téléchargement dans le Cloud | Enregistre les paramètres de cet appareil sur votre compte           |
-| Charger depuis le nuage      | Remplace les paramètres de cet appareil par la copie de votre compte |
+| Bouton | Effet |
+|---|---|
+| **Téléchargement dans le Cloud** | Enregistre les réglages de cet appareil dans votre compte. |
+| **Charger depuis le nuage** | Remplace les réglages de cet appareil par ceux de votre compte. |
 
-Les nouveaux paramètres gagnent : lorsque deux navigateurs enregistrent sur le même compte, le compte conserve la copie plus récente. Les paramètres que vous avez modifiés sur ce périphérique et que vous n'avez pas téléchargés sont écrasés par **Charger depuis le nuage**.
+La copie la plus récente l’emporte lorsque deux navigateurs enregistrent des réglages sur le même compte. **Charger depuis le nuage** écrase les changements faits sur cet appareil qui n’ont pas été envoyés dans le cloud.
 
-Un autre appareil prend vos raccourcis clavier la prochaine fois que vous ouvrez Paramètres dessus, mais la liste des sites que vous avez mis en pause ne se synchronise pas. Il reste sur l'appareil où vous les avez interrompus.
+Un autre appareil récupère vos raccourcis clavier à la prochaine ouverture de ses paramètres. En revanche, la liste des sites mis en pause reste propre à chaque appareil.
 
 ## Déconnexion {#sign-out}
 
-**Déconnexion**, dans le popup ou sur l'onglet Compte & Sync, déconnecte ce navigateur seulement. Votre compte reste, et chaque autre navigateur que vous avez connecté. Pour reconnecter ce navigateur, appuyez sur **Connexion à votre compte**.
+**Déconnexion**, dans le panneau ou l’onglet **Compte et synchronisation**, dissocie uniquement ce navigateur. Votre compte et vos autres navigateurs associés restent en place. Pour associer de nouveau ce navigateur, cliquez sur **Connecter à votre compte**.
 
-## Comment puis-je supprimer mes données ? {#how-can-i-delete-my-data}
+## Supprimer mes données {#how-can-i-delete-my-data}
 
-Ouvrir les paramètres, aller à la **Confidentialité Données &** onglet, et cliquez **Supprimer toutes les données** sur la **Vos données** Carte. Il supprime le compte lui-même, les fichiers stockés sous lui et tout ce qui est enregistré sous lui. Elle ne peut pas être annulée. Le bouton a besoin d'un compte connecté, car il supprime ce qui est stocké avec votre compte.
+Ouvrez les paramètres, puis l’onglet **Confidentialité et données**. Dans la carte **Your Data**, cliquez sur **Delete All Data**. Cette action supprime définitivement votre compte, les fichiers qu’il contient et toutes les données qui y sont enregistrées. Elle est irréversible. Le navigateur doit être associé au compte à supprimer.
 
-**Exporter mes données** est sur la même carte. Il télécharge vos données comme un fichier JSON. Il a aussi besoin d'un compte connecté.
+Sur la même carte, **Export My Data** télécharge vos données dans un fichier JSON. L’exportation demande elle aussi un compte associé.
 
-Vous pouvez également supprimer votre compte du site [page de suppression de données](https://vcpeai.aoneahsan.com/data-deletion) quand vous êtes signé là-dedans.
+Vous pouvez également supprimer votre compte depuis la [page de suppression des données](https://vcpeai.aoneahsan.com/data-deletion) du site, après vous y être connecté.
 
-## Exporter et importer vos paramètres {#export-and-import-your-settings}
+## Exporter et importer les réglages {#export-and-import-your-settings}
 
-Ouvrez la **Gestion des données** onglet dans Paramètres.
+Ouvrez l’onglet **Gestion des données** des paramètres.
 
-- **Paramètres d' exportation** Téléchargez vos paramètres en tant que fichier JSON. Vous choisissez d'inclure ou non la mémoire vidéo et les préréglages de filtre.
-- **Paramètres d' importation** restaure à partir d'un fichier que vous avez exporté : **Tout remplacer** remplace vos paramètres actuels, et **Fusionner** conserve vos valeurs actuelles là où le fichier n'en a pas.
+- **Export Settings** télécharge un fichier JSON de vos réglages. Vous pouvez choisir d’y inclure la mémoire vidéo et les préréglages de filtres.
+- **Import Settings** restaure un fichier précédemment exporté. **Tout remplacer** remplace vos réglages actuels ; **Fusionner** conserve vos valeurs actuelles lorsque le fichier n’en contient pas.
 
-## Plans et paiements {#plans-and-payment}
+## Connexion en deux étapes et autres applications {#two-step-sign-in-and-other-apps}
 
-Chaque fonction fonctionne sur Free. Pro augmente vos courses quotidiennes d'IA et votre niveau d'IA, pour une personne, et Team fait la même chose
-pour chaque membre. Les prix sont sur [Plans](https://vcpeai.aoneahsan.com/plans).
+Sur le site, **Account → Security** permet d’ajouter un code provenant de votre téléphone après la connexion avec Google. Une fois cette protection activée, l’extension associée reste reconnue pendant 7 jours, puis demande une nouvelle association. Retirer un navigateur depuis cette page déconnecte son extension. Consultez [Connexion en deux étapes](/fr/docs/developers/two-step-sign-in).
 
-Pour obtenir Pro, connectez-vous sur le site, ouvrez Plans et appuyez sur **Mise à niveau vers Pro**, mensuelle ou annuelle. Vous payez sur Polar
-Page de paiement, et Pro commence sur votre compte dès que Polar confirme le paiement.
+Sur le site, **Account → Other apps** permet à vos propres outils d’accéder à votre bibliothèque : des clés d’accès pour vos scripts, Claude ou ChatGPT, et des webhooks pour votre serveur. Consultez [Video Controls Plus pour les développeurs](/fr/docs/developers).
 
-Polar vous envoie un lien vers son portail client, où vous pouvez annuler, modifier votre carte et télécharger des factures. Annuler
-À tout moment. Votre plan court jusqu'à la fin de la période pour laquelle vous avez payé.
+## Formules et paiement {#plans-and-payment}
 
-L'équipe est installée avec nous : presse **Choisir l'équipe** sur les plans, qui ouvre la [page de contact](https://vcpeai.aoneahsan.com/contact).
+Toutes les fonctions sont disponibles avec Free. Pro augmente le nombre quotidien d’utilisations de l’IA et le niveau d’IA pour une personne ; Team fait de même pour chaque membre. Les tarifs figurent sur la page [Plans](https://vcpeai.aoneahsan.com/plans).
 
-Les plans sont achetés sur le site seulement, jamais à l'intérieur de l'extension ou l'application Android.
+Pour passer à Pro, connectez-vous sur le site, ouvrez la page Plans et cliquez sur **Upgrade to Pro** pour une formule mensuelle ou annuelle. Le paiement se fait sur la page de Polar. Pro est activé sur votre compte dès que Polar confirme le paiement.
 
-Pour tout ce qui concerne votre compte, utilisez [page de contact](https://vcpeai.aoneahsan.com/contact).
+Polar vous envoie un lien vers son portail client. Vous pouvez y résilier votre abonnement, changer de carte et télécharger vos factures. Vous pouvez résilier à tout moment ; votre formule reste active jusqu’à la fin de la période payée.
+
+Pour Team, cliquez sur **Choose Team** dans la page Plans : vous serez dirigé vers le [formulaire de contact](https://vcpeai.aoneahsan.com/contact) pour la mise en place avec notre équipe.
+
+Les formules s’achètent uniquement sur le site, jamais dans l’extension ni dans l’application Android.
+
+Pour toute autre question sur votre compte, utilisez le [formulaire de contact](https://vcpeai.aoneahsan.com/contact).

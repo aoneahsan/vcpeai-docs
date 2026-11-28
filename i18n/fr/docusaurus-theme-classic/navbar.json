@@ -8,11 +8,11 @@
     "description": "The alt text of navbar logo"
   },
   "item.label.Docs": {
-    "message": "Docteurs",
+    "message": "Documentation",
     "description": "Navbar item with label Docs"
   },
   "item.label.Changelog": {
-    "message": "Changer de journal",
+    "message": "Nouveautés",
     "description": "Navbar item with label Changelog"
   },
   "item.label.Product website": {

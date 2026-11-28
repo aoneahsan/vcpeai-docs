@@ -1,50 +1,49 @@
 ---
-title: "Ajouter des looks et des effets, et zoomer l'image"
-sidebar_label: "Effets visuels et zoom"
-description: "Avec un compte connecté, ajouter 20 nuances de couleurs, quatre looks d'art, aiguiser, vignette, grain de film, un superposition de texte et des régions floues; Zoom & fit ne nécessite aucun compte."
-unlisted: true
+title: Ajouter des effets visuels et agrandir l’image
+sidebar_label: Effets visuels et zoom
+description: "Avec un compte connecté, appliquez des étalonnages de couleur, des styles artistiques et des effets ; le zoom reste disponible sans compte."
 ---
 
-Looks & overlays ajoute des nuances de couleur, des looks d'art, l'affûtage, une vignette, un grain de film, une superposition de texte et des régions floues à la vidéo. Il se trouve sur l'onglet Filtres du widget, qui a besoin [un compte connecté](/docs/account-and-sync)Comme le reste de l'onglet. **Zoom &** est sur l'onglet Affichage et ne nécessite aucun compte.
+**Styles et superpositions** ajoute à la vidéo des étalonnages de couleur, des styles artistiques, de la netteté, un vignettage, du grain, du texte et des zones floutées. Cette section se trouve dans l’onglet **Filtres** du widget et demande [un compte connecté](/fr/docs/account-and-sync). **Zoom et ajustement**, dans l’onglet **Affichage**, ne demande pas de compte.
 
-Chaque effet ne change que l'image sur la page, jamais le fichier vidéo. Certains sites de streaming bloquent les effets sur la vidéo protégée, et l'extension ne prétend pas qu'ils fonctionnent là.
+Ces effets modifient seulement l’image affichée sur la page, jamais le fichier vidéo. Certains services de streaming bloquent les effets sur les vidéos protégées ; l’extension ne garantit pas leur fonctionnement dans ce cas.
 
-## Les superpositions & semblent {#looks--overlays}
+## Styles et superpositions {#looks--overlays}
 
-Ouvrez l'onglet Filtres du widget et trouvez **Les superpositions & semblent**.
+Ouvrez l’onglet **Filtres** du widget, puis **Styles et superpositions**.
 
-| Contrôle                     | Ce qu'il fait                                                                                                              |
-| ---------------------------- | -------------------------------------------------------------------------------------------------------------------------- |
-| **Couleur**                  | Une des 20 grades, comme Teal & orange, Film noir, Vintage 8mm, heure d'or et clair de lune, avec un **Résistance** Slider |
-| **Art look**                 | Peinture à l'huile, croquis de crayon, gravure ou gaufrage coloré                                                          |
-| **Aiguille**                 | 0% à 100%, en pas de 10, appliqué avant les outils de couleur                                                              |
-| **Vignette**                 | Obscurcit les coins de l'image                                                                                             |
-| **Céréales**                 | Ajoute du grain, immobile ou en mouvement                                                                                  |
-| **Texte**                    | Il met votre **Texte superposé** dans un coin de la vidéo                                                                  |
-| **Région**                   | Faites glisser une boîte sur la vidéo pour brouiller cette partie                                                          |
-| **Éteignez tous les effets** | Remettez la photo en arrière                                                                                               |
+| Réglage | Effet |
+|---|---|
+| **Étalonnage de couleur** | L’un des 20 rendus, notamment Teal & orange, Film noir, Vintage 8mm, Golden hour et Moonlight, avec un curseur d’**intensité** |
+| **Style artistique** | Peinture à l’huile, dessin au crayon, gravure ou relief coloré |
+| **Netteté** | De 0 % à 100 %, par paliers de 10 %, avant les réglages de couleur |
+| **Vignettage** | Assombrit les coins de l’image |
+| **Grain de pellicule** | Ajoute un grain fixe ou animé |
+| **Texte** | Place votre **texte superposé** dans un coin de l’image |
+| **Flouter une zone** | Dessinez un rectangle sur la vidéo pour flouter cette partie |
+| **Désactiver tous les effets** | Rétablit l’image sans ces effets |
 
-Une région floue reste jusqu'à ce que vous l'enlevez avec **Supprimer les régions floues** ou les changements vidéo. Aucun pixels vidéo ne sont lus. Le flou se produit sur la page.
+Une zone reste floutée jusqu’à ce que vous choisissiez **Supprimer les zones floutées** ou changiez de vidéo. Aucun pixel vidéo n’est lu : le flou est appliqué sur la page.
 
-## Paramètres des effets {#effects-settings}
+## Réglages des effets {#effects-settings}
 
-Paramètres, onglet Caractéristiques vidéo, **Effets** détient les options plus fines: **Résistance à la vignette**, **Résistance aux grains**, **Déplacement des grains**, **Texte superposé** et **Coin texte** (En haut à gauche, en haut à droite, en bas à gauche ou en bas à droite). **Effacer les effets** les renvoie à leurs défauts.
+Dans **Paramètres → Fonctions vidéo → Effets**, réglez l’intensité du vignettage et du grain, le mouvement du grain, le texte superposé et son emplacement (en haut ou en bas, à gauche ou à droite). **Réinitialiser les effets** restaure les valeurs initiales.
 
-Effets [Filtres vidéo](/docs/user-guide/video-filters) et les [Outils de confort](/docs/user-guide/comfort-and-accessibility) en même temps, et ils suivent la vidéo en plein écran.
+Ces effets fonctionnent en même temps que les [filtres vidéo](/fr/docs/user-guide/video-filters) et les [outils Confort](/fr/docs/user-guide/comfort-and-accessibility). Ils restent appliqués en plein écran.
 
-## Zoom & {#zoom--fit}
+## Zoom et ajustement {#zoom--fit}
 
-Ouvrez l'onglet Affichage du widget et trouvez **Zoom &**. Pas de compte nécessaire.
+Ouvrez **Zoom et ajustement** dans l’onglet **Affichage** du widget. Aucun compte n’est nécessaire.
 
-1. Appuyez sur **Zoom dans** ou **Zoom arrière**. Le zoom va de 1x à 4x en quart d'étapes, et pincée sur un trackpad fonctionne aussi.
-2. Utilisez les quatre flèches pour déplacer la vue à gauche, en haut, en bas ou à droite.
-3. Allumez **Magnificateur : suivez le pointeur** et la partie zoomée suit votre souris.
-4. Choisir une **Convient**: Original, Remplir les barres, Stretch, 4:3, 16:9 ou 21:9.
+1. Appuyez sur **Zoom avant** ou **Zoom arrière**. Le zoom va de 1x à 4x par paliers de 0,25x ; le pincement sur un pavé tactile fonctionne aussi.
+2. Utilisez les quatre flèches pour déplacer l’image à gauche, en haut, en bas ou à droite.
+3. Activez **Loupe : suivre le pointeur** pour déplacer la zone agrandie avec la souris.
+4. Choisissez un **ajustement** : original, remplir en coupant les bandes, étirer, 4:3, 16:9 ou 21:9.
 
-**Retour à l'image originale** Réinitialise. Zoom fonctionne avec rotation, miroir et flip, et **Réinitialiser la transformation** laisse le zoom où il est. Une nouvelle vidéo commence chez Original, et rien ici n'est stocké.
+**Revenir à l’image d’origine** réinitialise ces réglages. Le zoom fonctionne avec la rotation et les inversions de l’image ; **Réinitialiser la transformation** conserve le zoom. Une nouvelle vidéo démarre en mode Original. Ces réglages ne sont pas enregistrés.
 
 ## Raccourcis {#shortcuts}
 
-Deux raccourcis optionnels commencent sans clé : "Effects de transition sur ou hors" et "Blur une région de la vidéo". Tous deux ont besoin d'un compte connecté lorsqu'ils sont pressés. Mettez-les en place [Modifier un raccourci](/docs/keyboard-shortcuts/rebinding).
+« Activer ou désactiver les effets » et « Flouter une zone de la vidéo » n’ont aucune touche attribuée au départ. Tous deux demandent un compte connecté à l’utilisation. Configurez-les dans [Modifier un raccourci](/fr/docs/keyboard-shortcuts/rebinding).
 
-Suivant : [Outils audio](/docs/user-guide/audio-tools).
+À suivre : [Outils audio](/fr/docs/user-guide/audio-tools).

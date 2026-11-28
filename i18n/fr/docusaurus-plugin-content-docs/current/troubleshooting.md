@@ -1,131 +1,130 @@
 ---
-title: "Lorsque Video Controls Plus ne fonctionne pas sur un site"
-sidebar_label: "Dépannage"
-description: "Que vérifier lorsque Video Controls Plus n'apparaît pas sur un site, qu'une clé ne fait rien, qu'une connexion échoue ou qu'un réglage n'a aucun effet."
-unlisted: true
+title: Résoudre un problème avec Video Controls Plus sur un site
+sidebar_label: Dépannage
+description: Que vérifier si les commandes n’apparaissent pas, si un raccourci ne fonctionne pas ou si l’association au compte échoue.
 ---
 
-Vérifiez que le site n'est pas mis en pause dans le popup, puis rechargez la page. C'est la première chose à vérifier, et les autres sont ci-dessous, chacun comme ce que vous voyez, pourquoi, et que faire.
+Vérifiez d’abord dans le panneau de l’extension que le site n’est pas en pause, puis rechargez la page. Si le problème persiste, trouvez ci-dessous ce que vous observez.
 
-## Les contrôles n'apparaissent pas sur un site {#the-controls-do-not-appear-on-a-site}
+## Les commandes n’apparaissent pas sur un site {#the-controls-do-not-appear-on-a-site}
 
-**Pourquoi:** le site est interrompu, l'extension n'est pas activée là, ou le widget est caché.
+**Cause possible :** le site est en pause, l’extension n’y est pas activée ou le widget est masqué.
 
-1. Ouvrez le popup sur ce site.
-2. Si elle montre **Paus**, cliquez **Reprendre**.
-3. Si elle montre **Non activé**, cliquez **Activer sur ce site**.
+1. Ouvrez le panneau de l’extension sur ce site.
+2. Si l’état indique **En pause**, cliquez sur **Reprendre**.
+3. S’il indique **Non activé**, cliquez sur **Activer sur ce site**.
 4. Rechargez la page.
-5. Appuyez sur `Esc` ou `Ctrl + Alt + H` au cas où le widget serait caché.
+5. Appuyez sur `Esc` ou `Ctrl + Alt + H` si le widget est masqué.
 
-Si la page n'a pas de vidéo HTML5, il n'y a rien à contrôler pour l'extension, et [Autres sites](/docs/platforms/other-sites) dit sur quels sites il fonctionne.
+Si la page ne contient aucune vidéo HTML5 standard, l’extension n’a rien à contrôler. Consultez [Autres sites](/fr/docs/platforms/other-sites) pour connaître les sites compatibles.
 
-## Une lettre ou une clé à chiffres ne fait rien {#a-letter-or-digit-key-does-nothing}
+## Une touche de lettre ou de chiffre ne fait rien {#a-letter-or-digit-key-does-nothing}
 
-**Pourquoi:** besoin de clés à lettres et à chiffres `Ctrl + Alt`. Seulement `[`, `]`, `=`, `\`, `'`, `,`, `.` et `Esc` travailler seul.
+**Cause :** les raccourcis contenant une lettre ou un chiffre nécessitent `Ctrl + Alt`. Seules les touches `[`, `]`, `=`, `\`, `'`, `,`, `.` et `Esc` fonctionnent seules.
 
-1. Appuyez sur la touche `Ctrl + Alt`, par exemple `Ctrl + Alt + P`.
-2. Si elle ne fait toujours rien, ouvrez Paramètres, allez dans l'onglet Raccourcis clavier, et vérifiez que le raccourci et sa section sont activés.
+1. Appuyez sur `Ctrl + Alt` avec la touche voulue, par exemple `Ctrl + Alt + P`.
+2. Si rien ne se passe, ouvrez l’onglet des raccourcis clavier dans les paramètres. Vérifiez que le raccourci et sa catégorie sont activés.
 
-La table complète est [Raccourcis par défaut](/docs/keyboard-shortcuts/defaults).
+Le tableau complet figure dans [Raccourcis par défaut](/fr/docs/keyboard-shortcuts/defaults).
 
-## Loop, boost audio, filtres ou captures d'écran sont indisponibles {#loop-audio-boost-filters-or-screenshots-are-unavailable}
+## La boucle, l’amplification audio, les filtres ou les captures sont indisponibles {#loop-audio-boost-filters-or-screenshots-are-unavailable}
 
-**Pourquoi:** ceux-ci s'ouvrent après avoir connecté l'extension à votre compte. Comme l'auto-skip. La clé du signet, `Ctrl + Alt + O`, fonctionne également sans compte et enregistre localement.
+**Cause :** ces fonctions nécessitent un compte associé à l’extension, tout comme le saut automatique. Le raccourci des favoris, `Ctrl + Alt + O`, fonctionne aussi sans compte et les enregistre alors localement.
 
-1. Ouvrez les paramètres et allez dans l'onglet Compte & Sync.
-2. Appuyez sur **Connexion à votre compte**, et confirmer sur le site.
+1. Ouvrez l’onglet **Compte et synchronisation** des paramètres.
+2. Cliquez sur **Connecter à votre compte**, puis confirmez l’association sur le site.
 
-C'est la même chose pour Chrome, Edge et Firefox. Voir [les étapes et ce que la connexion ajoute](/docs/account-and-sync).
+La procédure est identique sur Chrome, Edge et Firefox. Consultez [les étapes d’association et les fonctions disponibles](/fr/docs/account-and-sync).
 
-## L'onglet connexion n'a pas ouvert {#the-connect-tab-did-not-open}
+## L’onglet d’association ne s’est pas ouvert {#the-connect-tab-did-not-open}
 
-**Pourquoi:** le navigateur n'a pas ouvert l'onglet, ou vous l'avez fermé.
+**Cause possible :** le navigateur n’a pas ouvert l’onglet ou vous l’avez fermé.
 
-1. Retourne à l'extension. Il montre **En attendant que tu te connectes...** et votre code.
-2. Appuyez sur **Ouvre encore la page**.
+1. Revenez à l’extension : elle affiche **Waiting for you to connect...** et votre code.
+2. Cliquez sur **Open the page again**.
 
-## Le code sur le site est différent {#the-code-on-the-website-is-different}
+## Les codes affichés ne correspondent pas {#the-code-on-the-website-is-different}
 
-**Pourquoi:** la page appartient à une autre demande, pas celle que ce navigateur attend.
+**Cause :** la page correspond à une autre demande que celle attendue par ce navigateur.
 
-1. Appuyez sur **Annuler** sur la page.
-2. Recommencer depuis l'extension avec **Connexion à votre compte**.
+1. Cliquez sur **Cancel** sur la page.
+2. Recommencez depuis l’extension avec **Connecter à votre compte**.
 
-Ne pas appuyer sur **Connectez ce navigateur** alors que les deux codes diffèrent.
+Ne cliquez pas sur **Connect this browser** tant que les deux codes diffèrent.
 
-## La demande de connexion a manqué de temps {#the-connect-request-ran-out-of-time}
+## La demande d’association a expiré {#the-connect-request-ran-out-of-time}
 
-**Pourquoi:** le code dure 10 minutes, et après cela le site affiche **Cette demande n'est plus valide.** et la prolongation dit que la demande a manqué de temps.
+**Cause :** le code est valable 10 minutes. Passé ce délai, le site indique **This request is no longer valid.** et l’extension signale l’expiration.
 
-1. Retourne à l'extension.
-2. Appuyez sur **Essaie encore**, et confirmer sur le site dans les 10 minutes.
+1. Revenez à l’extension.
+2. Cliquez sur **Réessayer**, puis confirmez sur le site dans les 10 minutes.
 
 ## Trop de tentatives {#too-many-attempts}
 
-**Pourquoi:** l'extension a demandé de se connecter trop souvent en peu de temps.
+**Cause :** l’extension a demandé à associer le compte trop souvent en peu de temps.
 
-1. Attendez.
-2. Appuyez sur **Essaie encore**.
+1. Attendez quelques minutes.
+2. Cliquez sur **Réessayer**.
 
-## Connecté, mais vos listes sont vides {#connected-but-your-lists-are-empty}
+## Le compte est associé, mais les listes sont vides {#connected-but-your-lists-are-empty}
 
-**Pourquoi:** un compte qui existait avant que 16.0.0 n'ouvre vide jusqu'à ce que nous terminions le déplacement des anciennes données du cloud, qui suit cette version. Rien enregistré dans votre navigateur n'est affecté.
+**Cause :** les comptes créés avant la version 16.0.0 restent vides jusqu’à la fin du transfert des anciennes données dans le cloud, prévu après cette version. Les données enregistrées dans votre navigateur ne sont pas touchées.
 
-Il n'y a pas de pas pour celui-ci. [Compte et synchronisation](/docs/account-and-sync) dit ce qu'un compte détient.
+Aucune action n’est nécessaire. La page [Compte et synchronisation](/fr/docs/account-and-sync) explique ce que contient le compte.
 
-## Sur Firefox, un téléchargement ou une exécution AI dit que Firefox a besoin de votre permission {#on-firefox-an-upload-or-an-ai-run-says-firefox-needs-your-permission}
+## Firefox demande une autorisation pour un téléversement ou une fonction d’IA {#on-firefox-an-upload-or-an-ai-run-says-firefox-needs-your-permission}
 
-**Pourquoi:** sur Firefox, le contenu de la page (une capture d'écran que vous téléchargez, une transcription que vous enregistrez sur le compte, des légendes pour une sortie d'IA) n'est envoyé qu'après avoir autorisé le "contenu du site web". L'add-on demande la première fois que vous en utilisez un.
+**Cause :** Firefox ne laisse envoyer le contenu d’une page, comme une capture d’écran, une transcription ou des sous-titres pour l’IA, qu’après votre autorisation « website content ». Le module complémentaire la demande lors de la première utilisation.
 
-1. Autoriser quand Firefox le demande.
-2. Ou ouvrez les permissions de l'add-on dans Firefox et laissez-le là, puis essayez à nouveau.
+1. Accordez l’autorisation lorsque Firefox la demande.
+2. Vous pouvez aussi l’accorder dans les permissions du module complémentaire dans Firefox, puis réessayer.
 
-## La vitesse s'arrête à 4x {#the-speed-stops-at-4x}
+## La vitesse s’arrête à 4x {#the-speed-stops-at-4x}
 
-**Pourquoi:** le curseur et `[` et `]` les clés s'arrêtent à 4x.
+**Cause :** le curseur et les touches `[` et `]` sont limités à 4x.
 
-1. Ouvrez le widget et tapez la vitesse dans l'entrée personnalisée. Il faut des valeurs jusqu'à 16x.
-2. Ou ouvrez Paramètres, allez dans l'onglet Général, et utilisez le **Vitesse personnalisée (0.1x - 16x)** Des boîtes.
+1. Saisissez une vitesse personnalisée dans le widget. Le champ accepte jusqu’à 16x.
+2. Vous pouvez aussi ouvrir l’onglet **Général** des paramètres et utiliser les champs **Custom Speed (0.1x - 16x)**.
 
-## Un commutateur Netflix ou LinkedIn n'a rien changé. {#a-netflix-or-linkedin-switch-changed-nothing}
+## Un réglage Netflix ou LinkedIn ne change rien {#a-netflix-or-linkedin-switch-changed-nothing}
 
-**Pourquoi:** les interrupteurs marche/arrêt s'appliquent après une recharge.
+**Cause :** ces réglages s’appliquent après rechargement de la page.
 
-1. Modifier le commutateur dans Paramètres.
-2. Rechargez la page sur ce site.
+1. Modifiez le réglage dans les paramètres.
+2. Rechargez la page du site concerné.
 
-Sur Netflix, chaque extra commence. Voir [Netflix](/docs/platforms/netflix).
+Sur Netflix, toutes les fonctions supplémentaires sont désactivées au départ. Consultez [Netflix](/fr/docs/platforms/netflix).
 
-## L'onglet YouTube, Netflix ou LinkedIn dans Paramètres vous demande de vous connecter {#the-youtube-netflix-or-linkedin-tab-in-settings-asks-you-to-connect}
+## L’onglet YouTube, Netflix ou LinkedIn demande un compte {#the-youtube-netflix-or-linkedin-tab-in-settings-asks-you-to-connect}
 
-**Pourquoi:** ces onglets ont besoin d'un compte connecté, tandis que les extras YouTube et LinkedIn qui sont activés par défaut fonctionnent toujours sans un; seulement l'onglet où vous les changez demande.
+**Cause :** ces onglets de paramètres nécessitent un compte associé. Les fonctions YouTube et LinkedIn activées par défaut continuent de fonctionner sans compte.
 
-1. Connectez-vous sur l'onglet Compte & Sync.
-2. Ouvre encore l'onglet.
+1. Associez votre compte dans l’onglet **Compte et synchronisation**.
+2. Ouvrez de nouveau l’onglet concerné.
 
-## Le widget est en anglais et Paramètres n'est pas {#the-widget-is-in-english-and-settings-is-not}
+## Le panneau affiche encore l’ancienne langue {#the-widget-still-shows-the-previous-language}
 
-**Pourquoi:** le widget est en anglais aujourd'hui. Les paramètres et le popup sont en anglais, espagnol, français et allemand.
+**Cause :** la page vidéo était déjà ouverte lorsque vous avez changé la langue de l’extension dans les paramètres.
 
-Il n'y a pas de pas pour celui-ci. C'est une limite de la construction actuelle.
+Rechargez la page vidéo. Le panneau utilisera alors la langue enregistrée dans les paramètres. Le guide [Changer la langue](/fr/docs/user-guide/display-and-widget) répertorie les langues prises en charge.
 
-## Une nouvelle clé est refusée {#a-new-key-is-refused}
+## Un nouveau raccourci est refusé {#a-new-key-is-refused}
 
-**Pourquoi:** une clé peut appartenir à un seul raccourci.
+**Cause :** une combinaison ne peut servir qu’à un seul raccourci.
 
-1. Lisez le message. Il nomme le raccourci qui tient la clé.
-2. Suivez son lien vers ce raccourci.
-3. Donnez ce raccourci une autre clé, ou choisissez une autre clé pour la vôtre.
+1. Lisez le message : il nomme le raccourci qui utilise déjà la combinaison.
+2. Suivez le lien vers ce raccourci.
+3. Attribuez-lui une autre combinaison ou choisissez-en une autre pour le nouveau raccourci.
 
-Voir [Modifier un raccourci](/docs/keyboard-shortcuts/rebinding).
+Consultez [Modifier un raccourci](/fr/docs/keyboard-shortcuts/rebinding).
 
-## Vos raccourcis sont différents sur un autre appareil {#your-shortcuts-are-different-on-another-device}
+## Les raccourcis diffèrent sur un autre appareil {#your-shortcuts-are-different-on-another-device}
 
-**Pourquoi:** un appareil prend vos clés la prochaine fois que vous ouvrez Paramètres dessus, pendant qu'il est connecté à votre compte.
+**Cause :** un appareil associé au compte récupère vos raccourcis à la prochaine ouverture de ses paramètres.
 
-1. Connectez l'extension sur cet appareil.
-2. Ouvrez les paramètres.
+1. Associez l’extension à votre compte sur cet appareil.
+2. Ouvrez ses paramètres.
 
-## Toujours coincé {#still-stuck}
+## Besoin d’aide ? {#still-stuck}
 
-Écrivez à l'équipe à travers le [page de contact](https://vcpeai.aoneahsan.com/contact). Dites quel site, quel navigateur et quelle clé.
+Écrivez-nous depuis la [page de contact](https://vcpeai.aoneahsan.com/contact). Précisez le site, le navigateur et la touche concernés.

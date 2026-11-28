@@ -50,9 +50,9 @@ There is also a compact mode and a reduced motion switch. The 11 fonts come with
 
 ## Change the language
 
-Settings and the popup are available in English, Spanish, French and German: **Auto-detect Language** follows your browser's language, and **Language** lets you pick one yourself.
+Settings, the popup and the widget are available in English, Spanish, French, German and Urdu. **Auto-detect Language** uses your browser language when it is supported; **Language** lets you choose for all three extension surfaces.
 
-The widget follows your browser language in English, Spanish, French or German. If your browser uses another language, it falls back to English. The language you choose for Settings does not change the widget.
+If your browser language is not among those five, the extension uses English until you choose another language in Settings. Reload an already open video page after changing the language so its widget picks up the new choice.
 
 ## Related keys
 

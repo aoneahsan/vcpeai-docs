@@ -1,53 +1,52 @@
 ---
-title: "Video Controls Plus sur LinkedIn"
-sidebar_label: "LinkedIn"
-description: "Sur LinkedIn, les commandes vidéo de base fonctionnent, et un ensemble d'outils LinkedIn s'exécute à partir du widget ou du menu à clic droit; les commutateurs sont dans Paramètres."
-unlisted: true
+title: Video Controls Plus sur LinkedIn
+sidebar_label: LinkedIn
+description: Commandes vidéo et outils LinkedIn lancés depuis le widget ou le menu contextuel, avec interrupteurs dans les paramètres.
 ---
 
-Sur LinkedIn il fait beaucoup plus que contrôler une vidéo: il marque votre profil, suit vos applications et exporte vos messages, et chaque outil exécute le moment où vous le choisissez dans le widget ou le menu à clic droit. Les contrôles vidéo de base fonctionnent comme sur n'importe quel site. Les outils qui sont activés par défaut s'exécutent sans compte. Pour l'activer ou l'éteindre, vous avez besoin de l'onglet Fonctions LinkedIn dans Paramètres, et cet onglet a besoin d'un compte ([ce que la connexion ajoute](/docs/account-and-sync)).
+Sur LinkedIn, Video Controls Plus ne se limite pas à la vidéo : il évalue votre profil, suit vos candidatures et exporte vos publications. Chaque outil agit dès que vous le choisissez dans le widget ou le menu contextuel. Les commandes vidéo habituelles fonctionnent comme sur les autres sites. Les outils activés par défaut fonctionnent sans compte ; seul l’onglet LinkedIn Features des paramètres, qui permet de les modifier, demande d’[associer un compte](/fr/docs/account-and-sync).
 
-## Les outils {#the-tools}
+## Outils LinkedIn {#the-tools}
 
-Un outil ouvre immédiatement son panneau, ou il exporte ou télécharge.
+Un outil ouvre son panneau, exporte ou télécharge immédiatement. Chacun des 48 outils dispose de sa propre page avec étapes, exemple et questions sur le site, à partir des [outils de profil](https://vcpeai.aoneahsan.com/features/linkedin-profile).
 
-| Outil                  | Ce qu'il fait                                    | Par défaut |
-| ---------------------- | ------------------------------------------------ | ---------- |
-| Noteur de profil       | Analyse la façon dont votre profil est complet   | À          |
-| Générateur de tête     | Génère des titres construits autour de mots-clés | À          |
-| Suivi d'emploi         | Suivi de vos demandes d'emploi                   | À          |
-| Après-exportateur      | Exporter des postes vers CSV ou JSON             | À          |
-| Sauvegarde du profil   | Sauvegarde votre profil                          | À          |
-| Exportateur du message | Exporte des messages vers CSV ou JSON            | À          |
-| Filtre d'alimentation  | Le contenu d'alimentation des filtres            | Arrêt      |
-| Mode de focalisation   | Bloque les distractions sur LinkedIn             | Arrêt      |
+| Outil | Fonction | Réglage initial |
+|---|---|---|
+| Profile Scorer | Analyse la complétude du profil | Activé |
+| Headline Generator | Génère des titres de profil fondés sur des mots clés | Activé |
+| Job Tracker | Suit vos candidatures | Activé |
+| Post Exporter | Exporte les publications en CSV ou JSON | Activé |
+| Profile Backup | Sauvegarde votre profil | Activé |
+| Message Exporter | Exporte les messages en CSV ou JSON | Activé |
+| Feed Filter | Filtre le contenu du fil | Désactivé |
+| Focus Mode | Masque les distractions sur LinkedIn | Désactivé |
 
-## Ce qui est allumé et ce qui est éteint {#what-is-on-and-what-is-off}
+## Outils activés ou désactivés au départ {#what-is-on-and-what-is-off}
 
-Un outil qui attend jusqu'à ce que vous le choisissez est activé par défaut. Un outil qui met quelque chose sur la page LinkedIn quand il charge, ou qui change le flux de LinkedIn, est désactivé jusqu'à ce que vous l'allumez. Filtre d'alimentation et mode de mise au point sont dans ce deuxième groupe.
+Un outil qui attend votre action est activé par défaut. Un outil qui ajoute quelque chose à la page dès son chargement ou modifie le fil LinkedIn reste désactivé jusqu’à votre choix. Feed Filter et Focus Mode appartiennent à ce second groupe.
 
-## Où sont les interrupteurs {#where-the-switches-are}
+## Emplacement des interrupteurs {#where-the-switches-are}
 
 1. Ouvrez les paramètres.
-2. Allez au **Caractéristiques de LinkedIn** onglet.
-3. Connectez un compte si l'onglet vous le demande.
+2. Sélectionnez l’onglet **LinkedIn Features**.
+3. Associez un compte si l’onglet le demande.
 
-Les outils sont regroupés : Profil, Création de contenu, Post & Feed, Connexions, Messagerie, Emplois, Analytique, Exportation, Vie privée et Productivité.
+Les outils sont répartis entre Profil, Création de contenu, Publications et fil, Relations, Messagerie, Emplois, Analyse, Exportation, Confidentialité et Productivité.
 
-Chaque outil dispose d'un commutateur d'activation et d'un commutateur « afficher dans le menu à clic droit ». Les outils fonctionnent uniquement sur linkedin.com.
+Chaque outil possède un interrupteur d’activation et un autre pour l’afficher dans le menu contextuel. Ils ne fonctionnent que sur linkedin.com.
 
-Les interrupteurs marche/arrêt s'appliquent après avoir rechargé la page LinkedIn. Les actions de menu n'ont pas besoin de recharger.
+Les interrupteurs prennent effet après rechargement de la page LinkedIn. Les actions de menu n’en ont pas besoin.
 
-## Le bouton info {#the-info-button}
+## Bouton d’information {#the-info-button}
 
-Chaque panneau qu'un outil LinkedIn ouvre porte un bouton info, et lorsque vous cliquez dessus, le panneau explique ce qu'il est et comment l'utiliser.
+Chaque panneau ouvert par un outil LinkedIn possède un bouton d’information qui explique son rôle et son utilisation.
 
-## Aide à l'écriture {#writing-help}
+## Aide à la rédaction {#writing-help}
 
-L'aide à l'écriture LinkedIn est l'une des fonctionnalités de l'IA, et elle fonctionne de trois façons. Voir [Caractéristiques de l'IA](/docs/ai-features) pour ce qui est envoyé et où.
+L’aide à la rédaction LinkedIn est une fonction d’IA utilisable de trois façons. La page [Fonctions d’IA](/fr/docs/ai-features) explique les données envoyées et leur destination.
 
-## Clés connexes {#related-keys}
+## Raccourcis associés {#related-keys}
 
-Les outils LinkedIn n'ont pas de clés par défaut. Pour les clés vidéo de base, [Raccourcis par défaut](/docs/keyboard-shortcuts/defaults) a la table et [Modifier un raccourci](/docs/keyboard-shortcuts/rebinding) a les pas.
+Les outils LinkedIn n’ont pas de touches par défaut. Pour les commandes vidéo habituelles, consultez [Raccourcis par défaut](/fr/docs/keyboard-shortcuts/defaults) et [Modifier un raccourci](/fr/docs/keyboard-shortcuts/rebinding).
 
-Pour le reste, voir [Autres sites](/docs/platforms/other-sites).
+Pour les autres sites, voir [Autres sites](/fr/docs/platforms/other-sites).

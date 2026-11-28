@@ -102,11 +102,11 @@ En Netflix todas las funciones especiales empiezan desactivadas. Consulta [Netfl
 1. Conecta la cuenta desde Cuenta y sincronización.
 2. Vuelve a abrir la pestaña.
 
-## El widget muestra otro idioma que Configuración
+## El widget todavía muestra el idioma anterior
 
-**Causa:** el widget sigue el idioma del navegador. Tiene etiquetas en inglés, español, francés y alemán; con otro idioma usa inglés.
+**Causa:** la página del vídeo ya estaba abierta cuando cambiaste el idioma de la extensión.
 
-Para cambiarlo, cambia el idioma del navegador y vuelve a abrir la página del vídeo.
+Recarga la página del vídeo. El widget leerá entonces el idioma guardado en Configuración. [Cambiar el idioma](/docs/user-guide/display-and-widget) enumera los idiomas disponibles.
 
 ## Se rechaza un atajo nuevo
 

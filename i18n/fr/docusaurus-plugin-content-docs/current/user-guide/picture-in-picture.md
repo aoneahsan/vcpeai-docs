@@ -1,38 +1,37 @@
 ---
-title: "Regarder en photo"
-sidebar_label: "Image dans la photographie"
-description: "Appuyez sur Ctrl + Alt + P pour placer la vidéo dans une fenêtre Image-in-Picture, ou laissez-la entrer par elle-même lorsque vous faites défiler; il fonctionne sans compte."
-unlisted: true
+title: Regarder une vidéo en mode image dans l’image
+sidebar_label: Image dans l’image
+description: Après avoir associé un compte, utilisez Ctrl + Alt + P pour détacher la vidéo dans une petite fenêtre ou l’ouvrir automatiquement au défilement.
 ---
 
-Appuyez sur `Ctrl + Alt + P` pour mettre la vidéo dans une fenêtre Image-in-Picture, et appuyez encore pour la rapporter. Ça marche sans compte.
+Après avoir [associé un compte](/fr/docs/account-and-sync), appuyez sur `Ctrl + Alt + P` pour placer la vidéo dans une fenêtre indépendante. Appuyez de nouveau sur ces touches pour revenir à la page.
 
-## Utilisez-le. {#use-it}
+## Utiliser l’image dans l’image {#use-it}
 
-1. Démarre la vidéo.
+1. Lancez la vidéo.
 2. Appuyez sur `Ctrl + Alt + P`.
-3. Passez à un autre onglet. La vidéo continue de jouer dans sa propre petite fenêtre.
-4. Appuyez sur `Ctrl + Alt + P` à nouveau pour quitter Photo-in-Photo.
+3. Passez à un autre onglet : la vidéo continue dans sa propre petite fenêtre.
+4. Appuyez de nouveau sur `Ctrl + Alt + P` pour quitter ce mode.
 
-Les clés restent avec : `]` et `[` changer la vitesse de la petite fenêtre aussi, et le reste des commandes de vitesse continuent de fonctionner pendant qu'il est dans Image-in-Picture.
+Les raccourcis de vitesse restent disponibles. `]` et `[` modifient aussi la vitesse de la petite fenêtre.
 
-## Entrez seul quand vous défilez {#enter-on-its-own-when-you-scroll}
+## Ouvrir automatiquement la fenêtre au défilement {#enter-on-its-own-when-you-scroll}
 
-Sur une longue page, la vidéo défile hors de vue lorsque vous lisez le texte sous elle. L'extension peut le déplacer dans Image-in-Photo sur son propre quand cela arrive.
+Sur une longue page, la vidéo peut disparaître de l’écran pendant que vous lisez plus bas. L’extension peut alors la placer automatiquement dans une fenêtre indépendante.
 
-1. Ouvrez les paramètres et allez dans l'onglet Avancé.
-2. Rechercher **Fonctions de lecture**.
-3. Assurez-vous **Image dans la photographie** C'est parti.
-4. Allumez **Entrée automatique PiP sur défilement**.
+1. Ouvrez l’onglet « Avancé » des paramètres.
+2. Repérez **Playback Features**.
+3. Vérifiez que **Picture-in-Picture** est activé.
+4. Activez **Auto-enter PiP on Scroll**.
 
-## Clés connexes {#related-keys}
+## Raccourcis associés {#related-keys}
 
-| Clé              | Ce qu'il fait                                           |
-| ---------------- | ------------------------------------------------------- |
-| `Ctrl + Alt + P` | Photo en photo sur ou en dehors                         |
-| `Ctrl + Alt + Z` | Mode théâtre allumé ou éteint                           |
-| `]` / `[`        | 0.1x plus ou moins rapide, dans la petite fenêtre aussi |
+| Touche | Action |
+|---|---|
+| `Ctrl + Alt + P` | Activer ou désactiver l’image dans l’image |
+| `Ctrl + Alt + Z` | Activer ou désactiver le mode cinéma |
+| `]` / `[` | Accélérer ou ralentir de 0.1x, y compris dans la petite fenêtre |
 
-Pour les déplacer, commencez par [Raccourcis par défaut](/docs/keyboard-shortcuts/defaults) et suivre [Modifier un raccourci](/docs/keyboard-shortcuts/rebinding).
+Pour changer une combinaison, partez des [raccourcis par défaut](/fr/docs/keyboard-shortcuts/defaults), puis consultez [Modifier un raccourci](/fr/docs/keyboard-shortcuts/rebinding).
 
-[Auto-skip](/docs/user-guide/auto-skip) vient ensuite.
+À suivre : [Saut automatique](/fr/docs/user-guide/auto-skip).

@@ -1,71 +1,66 @@
 ---
-title: "Contrôle de la vitesse de lecture"
-sidebar_label: "Contrôle de vitesse"
-description: "Changez la vitesse vidéo dans les étapes 0.1x avec les touches de support ou le curseur de widget jusqu'à 4x, tapez une vitesse personnalisée jusqu'à 16x et utilisez 8 vitesses prédéfinies."
-unlisted: true
+title: Contrôler la vitesse de lecture
+sidebar_label: Vitesse de lecture
+description: Accélérez ou ralentissez par pas de 0.1x, utilisez huit vitesses prédéfinies et saisissez une vitesse personnalisée jusqu’à 16x.
 ---
 
-Appuyez sur `]` ou `[` pour les étapes 0.1x, ou faites glisser le curseur dans le widget jusqu'à 4x. Les touches de support fonctionnent seules, sans `Ctrl + Alt`, et le contrôle de vitesse fonctionne sans compte.
+Appuyez sur `]` ou `[` pour changer la vitesse par pas de 0.1x, ou déplacez le curseur du widget jusqu’à 4x. Les crochets fonctionnent seuls, sans `Ctrl + Alt`, et vous n’avez pas besoin de compte.
 
-## Les touches de vitesse {#the-speed-keys}
+## Utiliser les touches de vitesse {#the-speed-keys}
 
-| Clé              | Ce qu'il fait                          |
-| ---------------- | -------------------------------------- |
-| `]`              | 0.1x plus rapidement                   |
-| `[`              | 0.1x plus lentement                    |
-| `=`              | Retour à votre vitesse par défaut      |
-| `\`              | Afficher la vitesse actuelle           |
-| `'`              | Synchroniser avec la vitesse dynamique |
-| `Ctrl + Alt + 1` | 0.5x                                   |
-| `Ctrl + Alt + 2` | 1x                                     |
-| `Ctrl + Alt + 3` | 1.5x                                   |
-| `Ctrl + Alt + 4` | 2x                                     |
-| `Ctrl + Alt + 5` | 2.5x                                   |
-| `Ctrl + Alt + 6` | 3x                                     |
-| `Ctrl + Alt + 7` | 3.5x                                   |
-| `Ctrl + Alt + 8` | 4x                                     |
+| Touche | Action |
+|---|---|
+| `]` | Accélérer de 0.1x |
+| `[` | Ralentir de 0.1x |
+| `=` | Revenir à la vitesse par défaut |
+| `\\` | Afficher la vitesse actuelle |
+| `'` | Appliquer la vitesse dynamique |
+| `Ctrl + Alt + 1` | Passer à 0.5x |
+| `Ctrl + Alt + 2` | Passer à 1x |
+| `Ctrl + Alt + 3` | Passer à 1.5x |
+| `Ctrl + Alt + 4` | Passer à 2x |
+| `Ctrl + Alt + 5` | Passer à 2.5x |
+| `Ctrl + Alt + 6` | Passer à 3x |
+| `Ctrl + Alt + 7` | Passer à 3.5x |
+| `Ctrl + Alt + 8` | Passer à 4x |
 
-## C'est rapide. {#how-fast-it-goes}
+## Choisir une vitesse supérieure à 4x {#how-fast-it-goes}
 
-La plage est de 0.1x à 16x. Le curseur et les touches de support s'arrêtent à 4x. Tapez une vitesse dans l'entrée personnalisée de l'onglet Vitesse du widget, ou dans le **Vitesse personnalisée (0.1x - 16x)** les cases de l'onglet Général dans Paramètres, et la vidéo joue jusqu'à 16x.
+La plage complète va de 0.1x à 16x. Le curseur et les crochets s’arrêtent à 4x. Pour aller au-delà, saisissez la vitesse dans le champ personnalisé de l’onglet Vitesse du widget, ou dans **Vitesse personnalisée (0.1x - 16x)** sous l’onglet Général des Paramètres.
 
-L'étape est toujours 0.1x. Les réglages n'ont aucun contrôle pour la vitesse minimale, la vitesse maximale ou la marche.
+Le pas reste toujours de 0.1x. Les Paramètres ne proposent pas de réglage pour la vitesse minimale, la vitesse maximale ou ce pas.
 
-## Votre vitesse par défaut et la vitesse dynamique {#your-default-speed-and-the-dynamic-speed}
+## Définir la vitesse par défaut et la vitesse dynamique {#your-default-speed-and-the-dynamic-speed}
 
-Ouvrez les paramètres et allez dans l'onglet Général.
+Ouvrez l’onglet Général des Paramètres.
 
-| Réglage                       | Ce que c'est                                                                      | Clé |
-| ----------------------------- | --------------------------------------------------------------------------------- | --- |
-| Vitesse de lecture par défaut | La vitesse utilisée lorsque vous réinitialisez et quand une nouvelle vidéo charge | `=` |
-| Vitesse dynamique actuelle    | Une seconde vitesse que vous définissez ici et appliquez avec une clé             | `'` |
+| Réglage | Rôle | Touche |
+|---|---|---|
+| Vitesse de lecture par défaut | S’applique après une réinitialisation et au chargement d’une nouvelle vidéo | `=` |
+| Vitesse dynamique actuelle | Deuxième vitesse, définie ici et appliquée en une touche | `'` |
 
-Les `'` clé applique la vitesse dynamique actuelle. Ce n'est pas la vitesse enregistrée pour la vidéo.
+La touche `'` applique la vitesse dynamique actuelle. Elle ne reprend pas la vitesse mémorisée pour la vidéo.
 
-## Vitesses prédéfinies {#preset-speeds}
+## Modifier les vitesses prédéfinies {#preset-speeds}
 
-Il y a 8 presets sur `Ctrl + Alt + 1` à `Ctrl + Alt + 8`. Chacun peut être modifié, et vous pouvez supprimer ceux que vous n'utilisez pas. Vous le faites dans Paramètres, sur l'onglet Raccourcis clavier.
+Huit préréglages sont associés aux touches `Ctrl + Alt + 1` à `Ctrl + Alt + 8`. Vous pouvez modifier leur vitesse ou supprimer ceux dont vous ne vous servez pas dans l’onglet Raccourcis clavier des Paramètres.
 
-Ajouter un neuvième préréglage à utiliser `Ctrl + Alt + 9`.
+## Retrouver une vitesse mémorisée {#speed-memory}
 
-## Mémoire de vitesse {#speed-memory}
+Par défaut, l’extension mémorise la vitesse choisie pour une vidéo et la réapplique lorsque vous rouvrez cette vidéo.
 
-L'extension se souvient de la vitesse que vous définissez pour une vidéo, et elle l'applique la prochaine fois que vous ouvrez cette vidéo. C'est par défaut.
+Elle peut aussi garder une vitesse pour toute une liste de lecture ou un cours. Cette option est désactivée au départ ; vous pouvez l’activer dans l’onglet Avancé des Paramètres.
 
-Il peut également se souvenir d'une vitesse pour une liste de lecture ou un cours entier; que l'interrupteur est désactivé par défaut, et vous l'allumez dans Paramètres sur l'onglet Avancé.
+Si plusieurs vitesses mémorisées s’appliquent à la même vidéo, **Priorité de vitesse** indique laquelle utiliser :
 
-Quand une vidéo a plus d'une vitesse enregistrée, **Priorité de vitesse** décide lequel gagne :
+| Réglage | Vitesse appliquée |
+|---|---|
+| Liste de lecture/Cours d’abord | Vitesse mémorisée pour la liste de lecture ou le cours |
+| Vidéo d’abord | Vitesse mémorisée pour la vidéo |
+| Globale uniquement (ignorer les vitesses mémorisées) | Vitesse par défaut |
 
-| Réglage                          | Quelle vitesse gagne                                                 |
-| -------------------------------- | -------------------------------------------------------------------- |
-| Liste de lecture/Cours d'abord   | La vitesse enregistrée pour la playlist ou le cours                  |
-| Vidéo d'abord                    | La vitesse enregistrée pour la vidéo                                 |
-| Global seulement (ignore sauvée) | Votre vitesse par défaut, et les vitesses enregistrées sont ignorées |
+## Continuer avec les touches voisines {#related-keys}
 
-## Clés connexes {#related-keys}
+`,` et `.` reculent ou avancent d’une image. Retrouvez toutes les touches dans [Raccourcis par défaut](/fr/docs/keyboard-shortcuts/defaults/), puis apprenez à les modifier dans [Changer un raccourci](/fr/docs/keyboard-shortcuts/rebinding/).
 
-`,` et `.` Reculez et avancez un cadre.
-
-L'ensemble est en [Raccourcis par défaut](/docs/keyboard-shortcuts/defaults)et [Modifier un raccourci](/docs/keyboard-shortcuts/rebinding) montre comment en déplacer un.
-
-Le prochain contrôle est le [Boucle A-B](/docs/user-guide/ab-loop).
+Le contrôle suivant est la [boucle A-B](/fr/docs/user-guide/ab-loop/).

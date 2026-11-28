@@ -1,115 +1,115 @@
 {
   "feed.title": {
-    "message": "Aliments pour animaux"
+    "message": "Flux des nouveautés"
   },
   "feed.description": {
-    "message": "Les entrées de changement Video Controls Plus, les plus récentes, avec les flux RSS et Atom."
+    "message": "Les nouveautés de Video Controls Plus, de la plus récente à la plus ancienne, avec les flux RSS et Atom."
   },
   "feed.heading": {
-    "message": "Aliments pour animaux"
+    "message": "Flux des nouveautés"
   },
   "home.lede": {
-    "message": "Contrôlez votre lecteur vidéo en ligne comme vous le souhaitez, et obtenez des fonctionnalités spéciales sur chaque site Web."
+    "message": "Contrôlez la lecture des vidéos à votre façon et retrouvez des fonctions propres à chaque site."
   },
   "home.gettingStarted.title": {
-    "message": "Début"
+    "message": "Premiers pas"
   },
   "home.gettingStarted.text": {
-    "message": "Installez-le, appuyez sur votre première clé et arrêtez-la sur un site."
+    "message": "Installez l’extension, essayez votre premier raccourci et mettez-la en pause sur un site."
   },
   "home.userGuide.title": {
-    "message": "Guide de l'utilisateur"
+    "message": "Guide d’utilisation"
   },
   "home.userGuide.text": {
-    "message": "Vitesse, boucle A-B, boost audio, filtres, captures d'écran et notes, une page chacun."
+    "message": "Vitesse, boucle A-B, amplification du son, filtres, captures d’écran et notes : une page pour chaque fonction."
   },
   "home.keyboard.title": {
     "message": "Raccourcis clavier"
   },
   "home.keyboard.text": {
-    "message": "Chaque clé par défaut, et comment donner un raccourci une autre clé."
+    "message": "Retrouvez les touches par défaut et apprenez à modifier un raccourci."
   },
   "home.platforms.title": {
-    "message": "Plateformes"
+    "message": "Sites pris en charge"
   },
   "home.platforms.text": {
-    "message": "Les extras sur YouTube, Netflix et LinkedIn, et comment d'autres sites fonctionnent."
+    "message": "Les fonctions propres à YouTube, Netflix et LinkedIn, et le fonctionnement sur les autres sites."
   },
   "home.ai.title": {
-    "message": "Caractéristiques de l'IA"
+    "message": "Fonctions IA"
   },
   "home.ai.text": {
-    "message": "Résumés vidéo et aide à l'écriture de LinkedIn, et ce que chacun envoie."
+    "message": "Résumés vidéo, aide à la rédaction sur LinkedIn et données envoyées pour chaque fonction."
   },
   "home.account.title": {
     "message": "Compte et synchronisation"
   },
   "home.account.text": {
-    "message": "Comment connecter votre compte, comment fonctionne la synchronisation, comment supprimer vos données."
+    "message": "Connectez votre compte, retrouvez vos données et apprenez à les supprimer."
   },
   "home.privacy.title": {
     "message": "Confidentialité et autorisations"
   },
   "home.privacy.text": {
-    "message": "Ce qui est enregistré, et à quoi sert chaque permission."
+    "message": "Les données enregistrées et la raison de chaque autorisation."
   },
   "home.troubleshooting.title": {
-    "message": "Dépannage"
+    "message": "Résoudre un problème"
   },
   "home.troubleshooting.text": {
-    "message": "Ce que vous voyez, pourquoi ça arrive, et l'étape qui le corrige."
+    "message": "Trouvez le symptôme, sa cause et la marche à suivre."
   },
   "home.faq.title": {
-    "message": "FAQ"
+    "message": "Questions fréquentes"
   },
   "home.faq.text": {
-    "message": "Réponses courtes aux questions que les gens posent en premier."
+    "message": "Des réponses directes aux questions les plus courantes."
   },
   "home.changelog.title": {
-    "message": "Changer de journal"
+    "message": "Nouveautés"
   },
   "home.changelog.text": {
-    "message": "Ce qui a changé dans les quatre dernières versions."
+    "message": "Les changements apportés aux quatre dernières versions."
   },
   "home.readDocs": {
-    "message": "Lire les documents"
+    "message": "Lire la documentation"
   },
   "home.getExtension": {
-    "message": "Obtenez l'extension"
+    "message": "Installer l’extension"
   },
   "home.sectionsAria": {
-    "message": "Sections de la documentation"
+    "message": "Rubriques de la documentation"
   },
   "sitemap.changelog": {
-    "message": "Changer de journal"
+    "message": "Nouveautés"
   },
   "sitemap.title": {
     "message": "Plan du site"
   },
   "sitemap.description": {
-    "message": "Chaque page de documentation Video Controls Plus et chaque entrée de changelog."
+    "message": "Toutes les pages de la documentation Video Controls Plus et toutes les nouveautés."
   },
   "sitemap.heading": {
     "message": "Plan du site"
   },
   "sitemap.feed": {
-    "message": "Aliments pour animaux"
+    "message": "Flux des nouveautés"
   },
   "sitemap.filterAria": {
     "message": "Filtrer les pages"
   },
   "sitemap.filterPlaceholder": {
-    "message": "Filtrer les pages"
+    "message": "Rechercher une page"
   },
   "sitemap.noResults": {
-    "message": "Aucune page ne correspond{query}- Oui."
+    "message": "Aucune page ne correspond à « {query} »."
   },
   "theme.ErrorPageContent.title": {
-    "message": "Cette page a planté.",
+    "message": "Cette page ne s’est pas affichée.",
     "description": "The title of the fallback page when the page crashed"
   },
   "theme.BackToTopButton.buttonAriaLabel": {
-    "message": "Retour au début de la page",
+    "message": "Revenir en haut de la page",
     "description": "The ARIA label for the back to top button"
   },
   "theme.blog.archive.title": {
@@ -121,35 +121,35 @@
     "description": "The page & hero description of the blog archive page"
   },
   "theme.blog.paginator.navAriaLabel": {
-    "message": "Pagination de la liste des articles du blog",
+    "message": "Navigation entre les nouveautés",
     "description": "The ARIA label for the blog pagination"
   },
   "theme.blog.paginator.newerEntries": {
-    "message": "Nouvelles entrées",
+    "message": "Nouveautés plus récentes",
     "description": "The label used to navigate to the newer blog posts page (previous page)"
   },
   "theme.blog.paginator.olderEntries": {
-    "message": "Anciennes entrées",
+    "message": "Nouveautés plus anciennes",
     "description": "The label used to navigate to the older blog posts page (next page)"
   },
   "theme.blog.post.paginator.navAriaLabel": {
-    "message": "Pagination des articles du blog",
+    "message": "Navigation entre les nouveautés",
     "description": "The ARIA label for the blog posts pagination"
   },
   "theme.blog.post.paginator.newerPost": {
-    "message": "Article plus récent",
+    "message": "Nouveauté plus récente",
     "description": "The blog post button label to navigate to the newer/previous post"
   },
   "theme.blog.post.paginator.olderPost": {
-    "message": "Article plus ancien",
+    "message": "Nouveauté plus ancienne",
     "description": "The blog post button label to navigate to the older/next post"
   },
   "theme.tags.tagsPageLink": {
-    "message": "Voir tous les tags",
+    "message": "Voir tous les sujets",
     "description": "The label of the link targeting the tag list page"
   },
   "theme.colorToggle.ariaLabel.mode.system": {
-    "message": "system mode",
+    "message": "mode du système",
     "description": "The name for the system color mode"
   },
   "theme.colorToggle.ariaLabel.mode.light": {
@@ -161,15 +161,15 @@
     "description": "The name for the dark color mode"
   },
   "theme.colorToggle.ariaLabel": {
-    "message": "Basculer entre le mode sombre et clair (actuellement {mode})",
+    "message": "Changer de thème (actuellement : {mode})",
     "description": "The ARIA label for the color mode toggle"
   },
   "theme.docs.breadcrumbs.navAriaLabel": {
-    "message": "Fil d'Ariane",
+    "message": "Fil d’Ariane",
     "description": "The ARIA label for the breadcrumbs"
   },
   "theme.docs.paginator.navAriaLabel": {
-    "message": "Pages de documentation",
+    "message": "Navigation entre les pages de documentation",
     "description": "The ARIA label for the docs pagination"
   },
   "theme.docs.paginator.previous": {
@@ -181,26 +181,26 @@
     "description": "The label used to navigate to the next doc"
   },
   "theme.docs.tagDocListPageTitle.nDocsTagged": {
-    "message": "Un document tagué|{count} documents tagués",
+    "message": "Un document associé|{count} documents associés",
     "description": "Pluralized label for \"{count} docs tagged\". Use as much plural forms (separated by \"|\") as your language support (see https://www.unicode.org/cldr/cldr-aux/charts/34/supplemental/language_plural_rules.html)"
   },
   "theme.docs.tagDocListPageTitle": {
-    "message": "{nDocsTagged} avec \"{tagName}\"",
+    "message": "{nDocsTagged} au sujet de « {tagName} »",
     "description": "The title of the page for a docs tag"
   },
   "theme.docs.versionBadge.label": {
-    "message": "Version: {versionLabel}"
+    "message": "Version : {versionLabel}"
   },
   "theme.docs.versions.unreleasedVersionLabel": {
-    "message": "Ceci est la documentation de la prochaine version {versionLabel} de {siteTitle}.",
+    "message": "Cette documentation concerne la prochaine version de {siteTitle} : {versionLabel}.",
     "description": "The label used to tell the user that he's browsing an unreleased doc version"
   },
   "theme.docs.versions.unmaintainedVersionLabel": {
-    "message": "Ceci est la documentation de {siteTitle} {versionLabel}, qui n'est plus activement maintenue.",
+    "message": "Cette documentation concerne {siteTitle} {versionLabel}, une version qui n’est plus maintenue.",
     "description": "The label used to tell the user that he's browsing an unmaintained doc version"
   },
   "theme.docs.versions.latestVersionSuggestionLabel": {
-    "message": "Pour une documentation à jour, consultez la {latestVersionLink} ({versionLabel}).",
+    "message": "Pour la documentation à jour, consultez la {latestVersionLink} ({versionLabel}).",
     "description": "The label used to tell the user to check the latest version"
   },
   "theme.docs.versions.latestVersionLinkLabel": {
@@ -208,11 +208,11 @@
     "description": "The label used for the latest version suggestion link label"
   },
   "theme.common.editThisPage": {
-    "message": "Éditer cette page",
+    "message": "Modifier cette page",
     "description": "The link label to edit the current page"
   },
   "theme.common.headingLinkTitle": {
-    "message": "Lien direct vers {heading}",
+    "message": "Lien direct vers « {heading} »",
     "description": "Title for link to heading"
   },
   "theme.lastUpdated.atDate": {
@@ -236,11 +236,11 @@
     "description": "The title of the 404 page"
   },
   "theme.tags.tagsListLabel": {
-    "message": "Tags :",
+    "message": "Sujets :",
     "description": "The label alongside a tag list"
   },
   "theme.admonition.caution": {
-    "message": "attention",
+    "message": "prudence",
     "description": "The default label used for the Caution admonition (:::caution)"
   },
   "theme.admonition.danger": {
@@ -248,7 +248,7 @@
     "description": "The default label used for the Danger admonition (:::danger)"
   },
   "theme.admonition.info": {
-    "message": "info",
+    "message": "information",
     "description": "The default label used for the Info admonition (:::info)"
   },
   "theme.admonition.note": {
@@ -256,7 +256,7 @@
     "description": "The default label used for the Note admonition (:::note)"
   },
   "theme.admonition.tip": {
-    "message": "astuce",
+    "message": "conseil",
     "description": "The default label used for the Tip admonition (:::tip)"
   },
   "theme.admonition.warning": {
@@ -268,23 +268,23 @@
     "description": "The ARIA label for close button of announcement bar"
   },
   "theme.blog.sidebar.navAriaLabel": {
-    "message": "Navigation article de blog récent",
+    "message": "Navigation dans les nouveautés récentes",
     "description": "The ARIA label for recent posts in the blog sidebar"
   },
   "theme.DocSidebarItem.expandCategoryAriaLabel": {
-    "message": "Développer la catégorie '{label}' de la barre latérale",
+    "message": "Développer « {label} » dans le menu de documentation",
     "description": "The ARIA label to expand the sidebar category"
   },
   "theme.DocSidebarItem.collapseCategoryAriaLabel": {
-    "message": "Réduire la catégorie '{label}' de la barre latérale",
+    "message": "Réduire « {label} » dans le menu de documentation",
     "description": "The ARIA label to collapse the sidebar category"
   },
   "theme.IconExternalLink.ariaLabel": {
-    "message": "(opens in new tab)",
+    "message": "(s’ouvre dans un nouvel onglet)",
     "description": "The ARIA label for the external link icon"
   },
   "theme.NavBar.navAriaLabel": {
-    "message": "Main",
+    "message": "Navigation principale",
     "description": "The ARIA label for the main navigation"
   },
   "theme.navbar.mobileLanguageDropdown.label": {
@@ -292,11 +292,11 @@
     "description": "The label for the mobile language switcher dropdown"
   },
   "theme.NotFound.p1": {
-    "message": "Nous n'avons pas trouvé ce que vous recherchez.",
+    "message": "La page demandée est introuvable.",
     "description": "The first paragraph of the 404 page"
   },
   "theme.NotFound.p2": {
-    "message": "Veuillez contacter le propriétaire du site qui vous a lié à l'URL d'origine et leur faire savoir que leur lien est cassé.",
+    "message": "Si vous avez suivi un lien, signalez son adresse à la personne qui l’a partagé.",
     "description": "The 2nd paragraph of the 404 page"
   },
   "theme.TOCCollapsible.toggleButtonLabel": {
@@ -304,11 +304,11 @@
     "description": "The label used by the button on the collapsible TOC component"
   },
   "theme.blog.post.readMore": {
-    "message": "Lire plus",
+    "message": "Lire la suite",
     "description": "The label used in blog post item excerpts to link to full blog posts"
   },
   "theme.blog.post.readMoreLabel": {
-    "message": "En savoir plus sur {title}",
+    "message": "Lire la suite : {title}",
     "description": "The ARIA label for the link to full blog posts from excerpts"
   },
   "theme.blog.post.readingTime.plurals": {
@@ -328,27 +328,27 @@
     "description": "The ARIA label for copy code blocks button"
   },
   "theme.CodeBlock.wordWrapToggle": {
-    "message": "Activer/désactiver le retour à la ligne",
+    "message": "Activer ou désactiver le retour à la ligne",
     "description": "The title attribute for toggle word wrapping button of code block lines"
   },
   "theme.docs.breadcrumbs.home": {
-    "message": "Page d'accueil",
+    "message": "Accueil",
     "description": "The ARIA label for the home page in the breadcrumbs"
   },
   "theme.docs.sidebar.collapseButtonTitle": {
-    "message": "Réduire le menu latéral",
+    "message": "Réduire le menu de documentation",
     "description": "The title attribute for collapse button of doc sidebar"
   },
   "theme.docs.sidebar.collapseButtonAriaLabel": {
-    "message": "Réduire le menu latéral",
+    "message": "Réduire le menu de documentation",
     "description": "The title attribute for collapse button of doc sidebar"
   },
   "theme.docs.sidebar.navAriaLabel": {
-    "message": "Docs sidebar",
+    "message": "Menu de documentation",
     "description": "The ARIA label for the sidebar navigation"
   },
   "theme.docs.sidebar.closeSidebarButtonAriaLabel": {
-    "message": "Fermer la barre de navigation",
+    "message": "Fermer le menu de documentation",
     "description": "The ARIA label for close button of mobile sidebar"
   },
   "theme.navbar.mobileSidebarSecondaryMenu.backButtonLabel": {
@@ -356,58 +356,58 @@
     "description": "The label of the back button to return to main menu, inside the mobile navbar sidebar secondary menu (notably used to display the docs sidebar)"
   },
   "theme.docs.sidebar.toggleSidebarButtonAriaLabel": {
-    "message": "Ouvrir/fermer la barre de navigation",
+    "message": "Ouvrir ou fermer le menu de documentation",
     "description": "The ARIA label for hamburger menu button of mobile navigation"
   },
   "theme.navbar.mobileDropdown.collapseButton.expandAriaLabel": {
-    "message": "Expand the dropdown",
+    "message": "Développer le menu",
     "description": "The ARIA label of the button to expand the mobile dropdown navbar item"
   },
   "theme.navbar.mobileDropdown.collapseButton.collapseAriaLabel": {
-    "message": "Collapse the dropdown",
+    "message": "Réduire le menu",
     "description": "The ARIA label of the button to collapse the mobile dropdown navbar item"
   },
   "theme.docs.sidebar.expandButtonTitle": {
-    "message": "Déplier le menu latéral",
+    "message": "Développer le menu de documentation",
     "description": "The ARIA label and title attribute for expand button of doc sidebar"
   },
   "theme.docs.sidebar.expandButtonAriaLabel": {
-    "message": "Déplier le menu latéral",
+    "message": "Développer le menu de documentation",
     "description": "The ARIA label and title attribute for expand button of doc sidebar"
   },
   "theme.SearchBar.noResultsText": {
-    "message": "No results"
+    "message": "Aucun résultat"
   },
   "theme.SearchBar.seeAllOutsideContext": {
-    "message": "See all results outside \"{context}\""
+    "message": "Voir tous les résultats hors de « {context} »"
   },
   "theme.SearchBar.searchInContext": {
-    "message": "See all results within \"{context}\""
+    "message": "Voir tous les résultats dans « {context} »"
   },
   "theme.SearchBar.seeAll": {
-    "message": "See all results"
+    "message": "Voir tous les résultats"
   },
   "theme.SearchBar.label": {
-    "message": "Search",
+    "message": "Rechercher",
     "description": "The ARIA label and placeholder for search button"
   },
   "theme.SearchPage.existingResultsTitle": {
-    "message": "Search results for \"{query}\"",
+    "message": "Résultats pour « {query} »",
     "description": "The search page title for non-empty query"
   },
   "theme.SearchPage.emptyResultsTitle": {
-    "message": "Search the documentation",
+    "message": "Rechercher dans la documentation",
     "description": "The search page title for empty query"
   },
   "theme.SearchPage.searchContext.everywhere": {
-    "message": "Everywhere"
+    "message": "Partout"
   },
   "theme.SearchPage.documentsFound.plurals": {
-    "message": "1 document found|{count} documents found",
+    "message": "Un document trouvé|{count} documents trouvés",
     "description": "Pluralized label for \"{count} documents found\". Use as much plural forms (separated by \"|\") as your language support (see https://www.unicode.org/cldr/cldr-aux/charts/34/supplemental/language_plural_rules.html)"
   },
   "theme.SearchPage.noResultsText": {
-    "message": "No documents were found",
+    "message": "Aucun document trouvé",
     "description": "The paragraph for empty search result"
   },
   "theme.blog.post.plurals": {
@@ -415,23 +415,23 @@
     "description": "Pluralized label for \"{count} posts\". Use as much plural forms (separated by \"|\") as your language support (see https://www.unicode.org/cldr/cldr-aux/charts/34/supplemental/language_plural_rules.html)"
   },
   "theme.blog.tagTitle": {
-    "message": "{nPosts} tagués avec « {tagName} »",
+    "message": "{nPosts} associés à « {tagName} »",
     "description": "The title of the page for a blog tag"
   },
   "theme.blog.author.pageTitle": {
-    "message": "{authorName} - {nPosts}",
+    "message": "{authorName} — {nPosts}",
     "description": "The title of the page for a blog author"
   },
   "theme.blog.authorsList.pageTitle": {
-    "message": "Authors",
+    "message": "Auteurs",
     "description": "The title of the authors page"
   },
   "theme.blog.authorsList.viewAll": {
-    "message": "View All Authors",
+    "message": "Voir tous les auteurs",
     "description": "The label of the link targeting the blog authors page"
   },
   "theme.blog.author.noPosts": {
-    "message": "This author has not written any posts yet.",
+    "message": "Cet auteur n’a pas encore publié d’article.",
     "description": "The text for authors with 0 blog post"
   },
   "theme.contentVisibility.unlistedBanner.title": {
@@ -439,19 +439,19 @@
     "description": "The unlisted content banner title"
   },
   "theme.contentVisibility.unlistedBanner.message": {
-    "message": "Cette page n'est pas répertoriée. Les moteurs de recherche ne l'indexeront pas, et seuls les utilisateurs ayant un lien direct peuvent y accéder.",
+    "message": "Cette page ne figure pas dans la navigation et les moteurs de recherche ne l’indexent pas. Elle reste accessible par un lien direct.",
     "description": "The unlisted content banner message"
   },
   "theme.contentVisibility.draftBanner.title": {
-    "message": "Draft page",
+    "message": "Brouillon",
     "description": "The draft content banner title"
   },
   "theme.contentVisibility.draftBanner.message": {
-    "message": "This page is a draft. It will only be visible in dev and be excluded from the production build.",
+    "message": "Cette page est un brouillon visible uniquement en développement. Elle ne figure pas dans le site publié.",
     "description": "The draft content banner message"
   },
   "theme.docs.DocCard.categoryDescription.plurals": {
-    "message": "1 élément|{count} éléments",
+    "message": "Un élément|{count} éléments",
     "description": "The default description for a category card in the generated index about how many items this category includes"
   },
   "theme.ErrorPageContent.tryAgain": {
@@ -463,7 +463,7 @@
     "description": "The skip to content label used for accessibility, allowing to rapidly navigate to main content with keyboard tab/enter navigation"
   },
   "theme.tags.tagsPageTitle": {
-    "message": "Tags",
+    "message": "Sujets",
     "description": "The title of the tag list page"
   }
 }

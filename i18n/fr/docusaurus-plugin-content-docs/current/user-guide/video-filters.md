@@ -1,53 +1,52 @@
 ---
-title: "Régler l'image avec les filtres vidéo"
-sidebar_label: "Filtres vidéo"
-description: "Avec un compte connecté, définir la luminosité, le contraste et la saturation de 0% à 200%, utiliser l'échelle grise, le mode inversé ou le mode nuit, et économiser jusqu'à 20 presets."
-unlisted: true
+title: Régler l’image avec les filtres vidéo
+sidebar_label: Filtres vidéo
+description: Après association d’un compte, réglez luminosité, contraste et saturation de 0 % à 200 %, ou utilisez les niveaux de gris et le mode nuit.
 ---
 
-Les filtres sont la luminosité, le contraste et la saturation de 0% à 200%, plus l'échelle grise, le mode inversé et le mode nocturne. Avec un compte connecté ([ce que la connexion ajoute](/docs/account-and-sync)), presse `Ctrl + Alt + F` pour ouvrir l'onglet Filtres dans le widget.
+Les filtres comprennent luminosité, contraste et saturation de 0 % à 200 %, ainsi que niveaux de gris, inversion et mode nuit. Après avoir [associé un compte](/fr/docs/account-and-sync), appuyez sur `Ctrl + Alt + F` pour ouvrir l’onglet « Filters » du widget.
 
-## Les contrôles {#the-controls}
+## Commandes {#the-controls}
 
-| Contrôle       | Portée ou effet                 | Clé              |
-| -------------- | ------------------------------- | ---------------- |
-| Onglet Filtres | Ouvre et ferme l'onglet Filtres | `Ctrl + Alt + F` |
-| Luminosité     | 0% à 200%                       | Slider           |
-| Contraste      | 0% à 200%                       | Slider           |
-| Saturation     | 0% à 200%                       | Slider           |
-| Échelle grise  | Départ ou départ                | `Ctrl + Alt + G` |
-| Inverser       | Départ ou départ                | `Ctrl + Alt + I` |
-| Mode nuit      | Départ ou départ                | `Ctrl + Alt + T` |
+| Commande | Plage ou effet | Touche |
+|---|---|---|
+| Onglet Filters | Ouvrir ou fermer l’onglet | `Ctrl + Alt + F` |
+| Luminosité | 0 % à 200 % | Curseur |
+| Contraste | 0 % à 200 % | Curseur |
+| Saturation | 0 % à 200 % | Curseur |
+| Niveaux de gris | Activer ou désactiver | `Ctrl + Alt + G` |
+| Inversion | Activer ou désactiver | `Ctrl + Alt + I` |
+| Mode nuit | Activer ou désactiver | `Ctrl + Alt + T` |
 
-100% est l'image que le site l'envoie. En dessous de 100% est moins, au-dessus est plus, et chaque curseur s'arrête à 200%. **Réinitialiser tous les filtres** Sur le même onglet, tout est remis.
+À 100 %, l’image reste telle que le site l’envoie. En dessous, l’effet diminue ; au-dessus, il augmente. Chaque curseur s’arrête à 200 %. **Reset All Filters** rétablit tous les réglages.
 
-## Quand chacun aide {#when-each-one-helps}
+## Quand utiliser un filtre {#when-each-one-helps}
 
-Un enregistrement d'écran avec du texte gris pâle sur le blanc est difficile à lire. Relever le contraste.
+Un texte gris clair sur fond blanc dans une capture d’écran se lit mal : augmentez le contraste.
 
-Un après-midi lumineux, une vidéo sombre est difficile à voir. Levez la luminosité.
+Une vidéo sombre est difficile à voir un après-midi lumineux : augmentez la luminosité.
 
-Une conférence de tableau blanc tard dans la nuit est un rectangle blanc dans une chambre sombre, alors appuyez `Ctrl + Alt + I` pour l'inverser, ou `Ctrl + Alt + T` pour le mode nuit.
+Un tableau blanc tard le soir peut éblouir dans une pièce sombre : appuyez sur `Ctrl + Alt + I` pour inverser les couleurs ou sur `Ctrl + Alt + T` pour le mode nuit.
 
-## Préréglage {#presets}
+## Préréglages {#presets}
 
-Définissez les trois curseurs de la façon dont vous les voulez et enregistrez le résultat sous forme de préréglage sur l'onglet Filtres. Vous pouvez enregistrer jusqu'à 20 presets, et comme les presets font partie de vos paramètres, ils peuvent être inclus lorsque vous [exportez vos paramètres](/docs/account-and-sync).
+Réglez les trois curseurs, puis enregistrez le résultat comme préréglage dans l’onglet Filters. Vous pouvez en conserver jusqu’à 20. Comme ils font partie de vos réglages, ils peuvent être inclus dans une [exportation des réglages](/fr/docs/account-and-sync).
 
-## Plus de contrôles d'image {#more-picture-controls}
+## Autres réglages de l’image {#more-picture-controls}
 
-Deux autres onglets widgets changent l'image, et aucun n'est l'onglet Filters.
+Deux autres onglets du widget modifient l’image :
 
-| Où                                    | Contrôle               | Ce qu'il fait                                                                   |
-| ------------------------------------- | ---------------------- | ------------------------------------------------------------------------------- |
-| Affichage de l'onglet **Transformer** | Rotation, miroir, flip | Rotation de l'image 90 degrés, miroir horizontalement ou retourne verticalement |
-| Onglet Outils, **Modes visuels**      | Ambient                | Lumière ambiante autour du joueur                                               |
-| Onglet Outils, **Modes visuels**      | Cinéma                 | Un preset de couleur cinéma                                                     |
-| Onglet Outils, **Modes visuels**      | Boîte à lettres        | Barres de cinéma au-dessus et au-dessous de l'image                             |
+| Emplacement | Commande | Effet |
+|---|---|---|
+| View → **Transform** | Rotation, miroir, retournement | Tourne l’image de 90 degrés, la reflète horizontalement ou la retourne verticalement |
+| Tools → **Visual Modes** | Ambient | Lumière ambiante autour du lecteur |
+| Tools → **Visual Modes** | Cinema | Préréglage de couleur cinéma |
+| Tools → **Visual Modes** | Letterbox | Bandes de cinéma au-dessus et au-dessous de l’image |
 
-Les filtres changent la façon dont la vidéo est dessinée dans votre navigateur. Une capture d'écran ou un téléchargement est un contrôle séparé.
+Les filtres modifient l’affichage de la vidéo dans votre navigateur. La capture d’écran et le téléchargement sont des commandes distinctes.
 
-## Clés connexes {#related-keys}
+## Raccourcis associés {#related-keys}
 
-Les touches de filtre s'assoient dans la table complète en [Raccourcis par défaut](/docs/keyboard-shortcuts/defaults)et [Modifier un raccourci](/docs/keyboard-shortcuts/rebinding) a les étapes pour en déplacer un.
+Les touches des filtres figurent dans [Raccourcis par défaut](/fr/docs/keyboard-shortcuts/defaults). [Modifier un raccourci](/fr/docs/keyboard-shortcuts/rebinding) explique comment les changer.
 
-Suivant : [Captures d'écran](/docs/user-guide/screenshots).
+À suivre : [Captures d’écran](/fr/docs/user-guide/screenshots).
