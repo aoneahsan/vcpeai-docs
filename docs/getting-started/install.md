@@ -8,7 +8,7 @@ Add Video Controls Plus from the Chrome Web Store, Microsoft Edge Add-ons or Fir
 
 | Browser | Store page |
 |---|---|
-| Chrome | [Chrome Web Store](https://chromewebstore.google.com/detail/ihafdbecgnhendhckoknblmcminoikdb) |
+| Chrome | [Chrome Web Store](https://chromewebstore.google.com/detail/video-controls-plus/ihafdbecgnhendhckoknblmcminoikdb) |
 | Edge | [Microsoft Edge Add-ons](https://microsoftedge.microsoft.com/addons/detail/video-controls-plus/ghjcpobkbbhefdlgffopfhlepkgcknlb) |
 | Firefox | [Firefox Add-ons](https://addons.mozilla.org/en-US/firefox/addon/video-controls-plus) |
 

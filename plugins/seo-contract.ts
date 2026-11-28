@@ -12,6 +12,7 @@
  * - Every redirect in `plugins/seo-redirects.ts` exists and lands on a page that exists (SA-P31).
  * - `/feed.xml` names itself as its own address (issue #1 box 7), and no fix record from `docs/search-consoles/`
  *   was published.
+ * - Rendered links follow our product/store/package pages and mark third-party destinations nofollow (SA-P23).
  *
  * Run: `node plugins/seo-contract.ts` (or `node plugins/seo-contract.ts <build dir>` to check another output).
  */
@@ -24,6 +25,46 @@ import { type Redirect, seoRedirects } from './seo-redirects.ts';
 const PAGE_EXCEPTIONS = new Set(['404.html', 'search/index.html']);
 const REQUIRED_TYPES = ['WebSite', 'Organization', 'Person', 'SoftwareApplication'];
 const exceptionFile = (file: string): string => file.replace(/^[^/]+\/(404\.html|search\/index\.html)$/, '$1');
+const ecosystem = JSON.parse(readFileSync(new URL('../src/data/ecosystem.json', import.meta.url), 'utf8')) as {
+  products: Array<{ liveUrl?: string; docsUrl?: string }>;
+};
+const platformSource = readFileSync(new URL('../src/data/platforms.ts', import.meta.url), 'utf8');
+const platformLinks = [...platformSource.matchAll(/\bhref: '(https:\/\/[^']+)'/g)].map((match) => match[1]);
+if (platformLinks.length !== 5) throw new Error(`Expected five canonical platform links, found ${platformLinks.length}`);
+const ownLinks = [
+  ...platformLinks,
+  ...ecosystem.products.flatMap((product) => [product.liveUrl, product.docsUrl]),
+].filter((url): url is string => Boolean(url));
+
+/** Audit the rendered anchor, including links written in Markdown or supplied by the theme. */
+function linkProblems(html: string, file: string): string[] {
+  const problems: string[] = [];
+  const rendered = html.replace(/<script\b[^>]*>[\s\S]*?<\/script>/gi, '');
+  for (const [anchor = ''] of rendered.matchAll(/<a\b[^>]*>/g)) {
+    const href = /\bhref=(?:"([^"]*)"|'([^']*)'|([^\s>]+))/.exec(anchor);
+    const value = href?.[1] ?? href?.[2] ?? href?.[3] ?? '';
+    if (!/^https?:\/\//i.test(value)) continue;
+    let url: URL;
+    try { url = new URL(value.replace(/&amp;/g, '&')); }
+    catch { problems.push(`${file}: invalid absolute link: ${value}`); continue; }
+    const host = url.hostname.toLowerCase();
+    const rel = /\brel=(?:"([^"]*)"|'([^']*)'|([^\s>]+))/.exec(anchor);
+    const tokens = new Set((rel?.[1] ?? rel?.[2] ?? rel?.[3] ?? '').toLowerCase().split(/\s+/));
+    const own = host === 'aoneahsan.com' || host.endsWith('.aoneahsan.com') ||
+      host === 'zaions.com' || host.endsWith('.zaions.com') ||
+      (host === 'github.com' && url.pathname.startsWith('/aoneahsan/')) ||
+      (host === 'linkedin.com' && url.pathname.startsWith('/in/aoneahsan')) ||
+      ownLinks.some((link) => {
+        const target = new URL(link);
+        const targetPath = target.pathname.replace(/\/$/, '');
+        const pathName = url.pathname.replace(/\/$/, '');
+        return url.origin === target.origin && (pathName === targetPath || pathName.startsWith(`${targetPath}/`));
+      });
+    if (own && tokens.has('nofollow')) problems.push(`${file}: our link is nofollow: ${value}`);
+    if (!own && !tokens.has('nofollow')) problems.push(`${file}: third-party link is followed: ${value}`);
+  }
+  return problems;
+}
 
 function htmlFiles(dir: string, base = dir): string[] {
   return readdirSync(dir, { withFileTypes: true }).flatMap((entry) => {
@@ -92,14 +133,15 @@ export function checkBuild({ outDir, siteUrl, redirects, config }: {
   if (!/^\s*trailingSlash: true,/m.test(config)) problems.push('config: trailingSlash must be true, or GitHub Pages 404s the slashed form');
   if (!/^\s*onBrokenLinks: 'throw',/m.test(config)) problems.push("config: onBrokenLinks must be 'throw'");
   for (const file of htmlFiles(outDir)) {
+    const html = readFileSync(path.join(outDir, file), 'utf8');
     if (!file.endsWith('index.html') && !PAGE_EXCEPTIONS.has(exceptionFile(file))) {
       problems.push(`${file}: a page outside <route>/index.html is a 404 for its slashed address`);
     }
-    if (file.startsWith('docs/tags/') && !isRedirectPage(readFileSync(path.join(outDir, file), 'utf8'))) {
+    if (file.startsWith('docs/tags/') && !isRedirectPage(html)) {
       problems.push(`${file}: a generated tag page is back (SA-P32)`);
     }
     if (file.startsWith('docs/search-consoles/')) problems.push(`${file}: the search-console fix record was published`);
-    problems.push(...pageProblems(readFileSync(path.join(outDir, file), 'utf8'), file, siteUrl));
+    problems.push(...pageProblems(html, file, siteUrl), ...linkProblems(html, file));
   }
   const sitemap = path.join(outDir, 'sitemap.xml');
   if (!existsSync(sitemap)) problems.push('sitemap.xml is missing');

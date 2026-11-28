@@ -5,6 +5,10 @@ Newest entry first, one section per filed issue. This folder is excluded from th
 `live-verified` is ours; `indexed` belongs to Google. The website half is in `aoneahsan/video-controls-plus-extension`
 → `docs/search-consoles/fix-log.md`.
 
+## 2026-11-28 link-law build gate — source candidate
+
+The fresh 134-page docs output has zero followed third-party links and zero nofollow links to our own products, stores or packages. `plugins/seo-contract.ts` now checks rendered anchors on every page, uses the product roster and five canonical platform URLs, and excludes Docusaurus's diagnostic script string from the link scan. It caught the install guide's old Chrome listing URL; the guide now points at the canonical listing. A planted missing `nofollow` in the built API page made the gate fail; restoring the file made it pass. Source commit, deployment and live proof remain to be recorded here.
+
 ## 2026-11-28 API spec links and localized preview — live HTML verified
 
 The built API guide followed two external Supabase OpenAPI links. Source `0056045` gives both links `nofollow noopener noreferrer` and opens them in a new tab. A fresh English build and typecheck passed. GitHub Pages `81efaf5` serves `/docs/developers/api/` with both relation sets; its SHA-256 `05326b4e58b1ec708850d0a5578bf366a0467833d7bafbf4160b3956c77423a4` matches the local build. The home and `/ecosystem/achat/` also answered 200 and matched byte for byte. The public IndexNow key file matched the local key; one changed API URL was submitted and accepted with HTTP 200. This is publication and transport evidence; the desktop session still owns browser rendering and search-console outcomes.
