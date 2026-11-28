@@ -6,7 +6,7 @@ description: Conecta Video Controls Plus a tu cuenta web, conoce qué se habilit
 
 No se inicia sesión dentro de la extensión. Creas tu cuenta en [vcpeai.aoneahsan.com](https://vcpeai.aoneahsan.com), donde entras con Google, y después conectas la extensión. El proceso es el mismo en Chrome, Edge y Firefox.
 
-Una cuenta anterior a 16.0.0 aparecerá vacía hasta que terminemos de trasladar los datos antiguos de la nube, después de esta versión. Lo que guardaste en el navegador no cambia.
+Si tenías una cuenta antes de 16.0.0, conéctate con la misma cuenta de Google. Sus datos antiguos de la nube se trasladaron al sistema actual el 4 de octubre de 2026. Lo que guardaste solo en el navegador permanece allí.
 
 ## Conectar la extensión a tu cuenta {#connect-the-extension-to-your-account}
 

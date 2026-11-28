@@ -6,7 +6,7 @@ description: How to connect Video Controls Plus to your account on the website, 
 
 There is no sign-in inside the extension. You create your account on [vcpeai.aoneahsan.com](https://vcpeai.aoneahsan.com), where you sign in with Google, and then you connect the extension to it. Connecting works the same way on Chrome, Edge and Firefox.
 
-An account that existed before 16.0.0 opens empty until we finish moving the old cloud data, which follows this release. Nothing saved in your browser is affected.
+If you had an account before 16.0.0, connect with the same Google account. Its old cloud data was moved to the current account system on 4 October 2026. Anything saved only in your browser stays there.
 
 ## Connect the extension to your account
 

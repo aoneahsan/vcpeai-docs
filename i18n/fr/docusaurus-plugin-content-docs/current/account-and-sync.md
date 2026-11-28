@@ -6,7 +6,7 @@ description: Associer l’extension à votre compte, synchroniser les réglages,
 
 On ne se connecte pas directement dans l’extension. Créez un compte sur [vcpeai.aoneahsan.com](https://vcpeai.aoneahsan.com), connectez-vous avec Google, puis associez l’extension à ce compte. La procédure est la même sur Chrome, Edge et Firefox.
 
-Si votre compte existait avant la version 16.0.0, il restera vide jusqu’à la fin du transfert de ses anciennes données dans le cloud, prévu après cette version. Les données enregistrées dans votre navigateur ne sont pas touchées.
+Si vous aviez un compte avant la version 16.0.0, associez l’extension avec le même compte Google. Ses anciennes données dans le cloud ont été transférées vers le système actuel le 4 octobre 2026. Les données enregistrées uniquement dans votre navigateur y restent.
 
 ## Associer l’extension à votre compte {#connect-the-extension-to-your-account}
 

@@ -68,9 +68,9 @@ No pulses **Conectar este navegador** si los códigos son distintos.
 
 ## La cuenta está conectada, pero las listas están vacías
 
-**Causa:** una cuenta anterior a 16.0.0 aparece vacía hasta que terminemos de trasladar los datos antiguos de la nube, después de esta versión. Lo guardado en tu navegador no cambia.
+**Causa:** quizá conectaste una cuenta de Google distinta de la que usabas antes de 16.0.0. Los datos antiguos de la nube se trasladaron el 4 de octubre de 2026; esperar otra migración no llenará una cuenta vacía. Lo guardado solo en el navegador permanece allí.
 
-No hay ningún paso que puedas realizar ahora. [Cuenta y sincronización](/docs/account-and-sync) explica qué almacena la cuenta.
+Comprueba qué cuenta de Google aparece en el sitio web. Si es la que usabas antes de 16.0.0 y las listas siguen vacías, [contacta con el equipo](https://vcpeai.aoneahsan.com/contact). [Cuenta y sincronización](/docs/account-and-sync) explica qué almacena la cuenta.
 
 ## En Firefox, una carga o función de IA pide permiso
 

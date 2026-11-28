@@ -68,9 +68,9 @@ Ne cliquez pas sur **Connect this browser** tant que les deux codes diffèrent.
 
 ## Le compte est associé, mais les listes sont vides {#connected-but-your-lists-are-empty}
 
-**Cause :** les comptes créés avant la version 16.0.0 restent vides jusqu’à la fin du transfert des anciennes données dans le cloud, prévu après cette version. Les données enregistrées dans votre navigateur ne sont pas touchées.
+**Cause :** vous avez peut-être associé un autre compte Google que celui utilisé avant la version 16.0.0. Les anciennes données dans le cloud ont été transférées le 4 octobre 2026 ; attendre une nouvelle migration ne remplira pas un compte vide. Les données enregistrées uniquement dans votre navigateur y restent.
 
-Aucune action n’est nécessaire. La page [Compte et synchronisation](/fr/docs/account-and-sync) explique ce que contient le compte.
+Vérifiez quel compte Google est connecté sur le site. S’il s’agit du compte utilisé avant la version 16.0.0 et que les listes sont toujours vides, [contactez l’équipe](https://vcpeai.aoneahsan.com/contact). La page [Compte et synchronisation](/fr/docs/account-and-sync) explique ce que contient le compte.
 
 ## Firefox demande une autorisation pour un téléversement ou une fonction d’IA {#on-firefox-an-upload-or-an-ai-run-says-firefox-needs-your-permission}
 

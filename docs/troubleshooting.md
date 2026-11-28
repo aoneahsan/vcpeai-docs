@@ -68,9 +68,9 @@ Do not press **Connect this browser** while the two codes differ.
 
 ## Connected, but your lists are empty
 
-**Why:** an account that existed before 16.0.0 opens empty until we finish moving the old cloud data, which follows this release. Nothing saved in your browser is affected.
+**Why:** you may have connected a different Google account from the one you used before 16.0.0. The old cloud data was moved on 4 October 2026; waiting for a migration will not fill an empty account. Anything saved only in your browser stays there.
 
-There is no step for this one. [Account and sync](/docs/account-and-sync) says what an account holds.
+Check which Google account is signed in on the website. If it is the account you used before 16.0.0 and your lists are still empty, [contact the team](https://vcpeai.aoneahsan.com/contact). [Account and sync](/docs/account-and-sync) says what an account holds.
 
 ## On Firefox, an upload or an AI run says Firefox needs your permission
 
