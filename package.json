@@ -6,7 +6,7 @@
   "description": "Documentation for Video Controls Plus, a browser extension for video playback control.",
   "scripts": {
     "start": "docusaurus start --port 5912",
-    "build": "NODE_OPTIONS=--no-experimental-webstorage docusaurus build && yarn seo:contract",
+    "build": "NODE_OPTIONS=--no-experimental-webstorage docusaurus build && node plugins/seo-contract.ts --write-sitemap && yarn seo:contract",
     "serve": "docusaurus serve --port 5912",
     "clear": "docusaurus clear",
     "write-translations": "docusaurus write-translations",

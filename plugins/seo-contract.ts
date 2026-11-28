@@ -16,7 +16,7 @@
  *
  * Run: `node plugins/seo-contract.ts` (or `node plugins/seo-contract.ts <build dir>` to check another output).
  */
-import { existsSync, readdirSync, readFileSync } from 'node:fs';
+import { existsSync, readdirSync, readFileSync, writeFileSync } from 'node:fs';
 import path from 'node:path';
 import { fileURLToPath } from 'node:url';
 import { type Redirect, seoRedirects } from './seo-redirects.ts';
@@ -24,6 +24,7 @@ import { type Redirect, seoRedirects } from './seo-redirects.ts';
 /** Pages allowed to differ: the real 404 and the search results page (a utility page kept out of the sitemap). */
 const PAGE_EXCEPTIONS = new Set(['404.html', 'search/index.html']);
 const REQUIRED_TYPES = ['WebSite', 'Organization', 'Person', 'SoftwareApplication'];
+const LOCALES = ['en', 'zh-Hans', 'hi', 'es', 'ar', 'fr', 'pt-BR', 'ru', 'ja', 'ur'] as const;
 const exceptionFile = (file: string): string => file.replace(/^[^/]+\/(404\.html|search\/index\.html)$/, '$1');
 const ecosystem = JSON.parse(readFileSync(new URL('../src/data/ecosystem.json', import.meta.url), 'utf8')) as {
   products: Array<{ liveUrl?: string; docsUrl?: string }>;
@@ -76,6 +77,48 @@ function htmlFiles(dir: string, base = dir): string[] {
 
 const count = (html: string, pattern: RegExp): number => html.match(pattern)?.length ?? 0;
 const isRedirectPage = (html: string): boolean => /http-equiv=["']?refresh/i.test(html);
+const xmlEscape = (value: string): string => value.replace(/&/g, '&amp;').replace(/</g, '&lt;').replace(/>/g, '&gt;').replace(/"/g, '&quot;');
+
+/** Merge Docusaurus's per-locale files into the one root sitemap submitted to search engines. */
+export function mergeLocaleSitemaps(outDir: string, siteUrl: string): { locales: string[]; urls: number } {
+  const locales = LOCALES.filter((locale) => existsSync(path.join(outDir, locale === 'en' ? '' : locale, 'sitemap.xml')));
+  if (!locales.includes('en')) throw new Error('Root English sitemap is missing');
+  const pages = new Map<string, Map<string, { url: string; lastmod: string }>>();
+  for (const locale of locales) {
+    const file = path.join(outDir, locale === 'en' ? '' : locale, 'sitemap.xml');
+    for (const [, entry = ''] of readFileSync(file, 'utf8').matchAll(/<url>([\s\S]*?)<\/url>/g)) {
+      const loc = /<loc>([^<]+)<\/loc>/.exec(entry)?.[1]?.replace(/&amp;/g, '&');
+      const lastmod = /<lastmod>([^<]+)<\/lastmod>/.exec(entry)?.[1];
+      if (!loc || !lastmod) throw new Error(`${file}: a sitemap entry lacks loc or lastmod`);
+      const url = new URL(loc);
+      if (url.origin !== siteUrl) throw new Error(`${file}: foreign URL ${loc}`);
+      if (locale === 'en' && LOCALES.some((code) => code !== 'en' && url.pathname.startsWith(`/${code}/`))) continue;
+      const prefix = locale === 'en' ? '' : `/${locale}`;
+      if (prefix && !url.pathname.startsWith(`${prefix}/`)) throw new Error(`${file}: URL lacks its locale prefix: ${loc}`);
+      const route = prefix ? url.pathname.slice(prefix.length) : url.pathname;
+      const group = pages.get(route) ?? new Map();
+      if (group.has(locale)) throw new Error(`${file}: duplicate locale URL ${loc}`);
+      group.set(locale, { url: loc, lastmod });
+      pages.set(route, group);
+    }
+  }
+  for (const [route, group] of pages) {
+    const missing = locales.filter((locale) => !group.has(locale));
+    if (missing.length) throw new Error(`${route}: missing sitemap locale(s): ${missing.join(', ')}`);
+  }
+  const entries = [...pages.keys()].sort().flatMap((route) => {
+    const group = pages.get(route)!;
+    const alternates = locales.map((locale) => `<xhtml:link rel="alternate" hreflang="${locale}" href="${xmlEscape(group.get(locale)!.url)}"/>`);
+    alternates.push(`<xhtml:link rel="alternate" hreflang="x-default" href="${xmlEscape(group.get('en')!.url)}"/>`);
+    return locales.map((locale) => {
+      const page = group.get(locale)!;
+      return `<url><loc>${xmlEscape(page.url)}</loc><lastmod>${xmlEscape(page.lastmod)}</lastmod>${alternates.join('')}</url>`;
+    });
+  });
+  const xml = `<?xml version="1.0" encoding="UTF-8"?><urlset xmlns="http://www.sitemaps.org/schemas/sitemap/0.9" xmlns:xhtml="http://www.w3.org/1999/xhtml">${entries.join('')}</urlset>`;
+  writeFileSync(path.join(outDir, 'sitemap.xml'), xml);
+  return { locales: [...locales], urls: entries.length };
+}
 
 /**
  * Checks one built page against the contract.
@@ -146,7 +189,11 @@ export function checkBuild({ outDir, siteUrl, redirects, config }: {
   const sitemap = path.join(outDir, 'sitemap.xml');
   if (!existsSync(sitemap)) problems.push('sitemap.xml is missing');
   else {
-    for (const [, loc = ''] of readFileSync(sitemap, 'utf8').matchAll(/<loc>([^<]+)<\/loc>/g)) {
+    const activeLocales = LOCALES.filter((locale) => existsSync(path.join(outDir, locale === 'en' ? '' : locale, 'sitemap.xml')));
+    const submitted = new Set<string>();
+    for (const [, entry = ''] of readFileSync(sitemap, 'utf8').matchAll(/<url>([\s\S]*?)<\/url>/g)) {
+      const loc = /<loc>([^<]+)<\/loc>/.exec(entry)?.[1]?.replace(/&amp;/g, '&') ?? '';
+      submitted.add(loc);
       if (!loc.startsWith(`${siteUrl}/`)) {
         problems.push(`sitemap: ${loc} is on another host`);
         continue;
@@ -155,6 +202,22 @@ export function checkBuild({ outDir, siteUrl, redirects, config }: {
       if (!loc.endsWith('/')) problems.push(`sitemap: ${loc} is not in the slashed form`);
       if (route.startsWith('/docs/tags')) problems.push(`sitemap: ${loc} is a tag page`);
       if (!existsSync(servedFile(outDir, route))) problems.push(`sitemap: ${loc} has no page in the output`);
+      if (!/<lastmod>[^<]+<\/lastmod>/.test(entry)) problems.push(`sitemap: ${loc} has no lastmod`);
+      const locale = activeLocales.find((code) => code !== 'en' && route.startsWith(`/${code}/`)) ?? 'en';
+      const sourceRoute = locale === 'en' ? route : route.slice(locale.length + 1);
+      for (const code of [...activeLocales, 'x-default']) {
+        const targetCode = code === 'x-default' ? 'en' : code;
+        const expected = `${siteUrl}${targetCode === 'en' ? sourceRoute : `/${targetCode}${sourceRoute}`}`;
+        if (!entry.includes(`hreflang="${code}" href="${xmlEscape(expected)}"`)) {
+          problems.push(`sitemap: ${loc} lacks ${code} alternate ${expected}`);
+        }
+      }
+    }
+    for (const locale of activeLocales) {
+      const file = path.join(outDir, locale === 'en' ? '' : locale, 'sitemap.xml');
+      for (const [, loc = ''] of readFileSync(file, 'utf8').matchAll(/<loc>([^<]+)<\/loc>/g)) {
+        if (!submitted.has(loc.replace(/&amp;/g, '&'))) problems.push(`sitemap: ${loc} is absent from the submitted root file`);
+      }
     }
   }
   for (const { to, from } of redirects) {
@@ -177,7 +240,13 @@ if (process.argv[1] === fileURLToPath(import.meta.url)) {
   const siteDir = path.resolve(path.dirname(fileURLToPath(import.meta.url)), '..');
   const config = readFileSync(path.join(siteDir, 'docusaurus.config.ts'), 'utf8');
   const siteUrl = /const SITE_URL = '([^']+)'/.exec(config)?.[1] ?? '';
-  const outDir = path.resolve(siteDir, process.argv[2] ?? 'build');
+  const writeSitemap = process.argv[2] === '--write-sitemap';
+  const outDir = path.resolve(siteDir, writeSitemap ? process.argv[3] ?? 'build' : process.argv[2] ?? 'build');
+  if (writeSitemap) {
+    const result = mergeLocaleSitemaps(outDir, siteUrl);
+    process.stdout.write(`seo-contract: merged ${result.urls} URLs across ${result.locales.join(', ')} into sitemap.xml\n`);
+    process.exit(0);
+  }
   const problems = checkBuild({ outDir, siteUrl, redirects: seoRedirects(), config });
   if (problems.length > 0) {
     process.stderr.write(`seo-contract: ${problems.length} problem(s)\n${problems.slice(0, 60).join('\n')}\n`);

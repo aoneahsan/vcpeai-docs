@@ -157,7 +157,12 @@ const createSitemapItems: SitemapOptions['createSitemapItems'] = async ({ defaul
         '/feed': latest([sourceDate('src/pages/feed.tsx', locale), newestEntry, newestPost]),
         '/sitemap': latest([sourceDate('src/pages/sitemap.tsx', locale), newest(() => true)]),
         '/apps': sourceDate('src/pages/apps.tsx', locale),
-        '/about-developer': sourceDate('src/pages/about-developer.mdx', locale),
+        '/about-developer': latest([
+          sourceDate('src/pages/about-developer.mdx', locale),
+          locale !== 'en' && existsSync(`i18n/${locale}/docusaurus-plugin-content-pages/about-developer.mdx`)
+            ? gitDate(`i18n/${locale}/docusaurus-plugin-content-pages/about-developer.mdx`)
+            : undefined,
+        ]),
         '/ecosystem': sourceDate('src/pages/ecosystem/index.tsx', locale),
       });
     }
@@ -427,6 +432,7 @@ const config: Config = {
           ignorePatterns: [
             '/changelog/tags/**',
             '/changelog/archive/',
+            '/*/changelog/archive/',
             `${BLOG_PATH}/tags/`,
             `${BLOG_PATH}/tags/**`,
             `${BLOG_PATH}/authors/`,
