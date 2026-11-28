@@ -119,6 +119,14 @@ type SitemapOptions = Exclude<Preset.Options['sitemap'], false | undefined>;
  */
 const createSitemapItems: SitemapOptions['createSitemapItems'] = async ({ defaultCreateSitemapItems, ...rest }) => {
   const items = await defaultCreateSitemapItems(rest);
+  const changelogFiles = new Map(
+    readdirSync('blog').filter((name) => name.endsWith('.md')).map((name) => {
+      const source = readFileSync(path.join('blog', name), 'utf8');
+      const rawSlug = source.match(/^slug:\s*(.+)$/m)?.[1]?.trim();
+      if (!rawSlug) throw new Error(`sitemap lastmod: blog/${name} has no slug`);
+      return [rawSlug.replace(/^['"]|['"]$/g, ''), name] as const;
+    }),
+  );
   const routeOf = (url: string): { route: string; locale: string } => {
     const pathname = new URL(url).pathname.replace(/\/$/, '') || '/';
     const locale = TRANSLATION_LOCALES.find((code) => pathname === `/${code}` || pathname.startsWith(`/${code}/`));
@@ -155,7 +163,20 @@ const createSitemapItems: SitemapOptions['createSitemapItems'] = async ({ defaul
     }
     const fill = fills.get(locale)!;
     const productFile = `src/pages${route}.tsx`;
-    const lastmod = fill[route] ?? (route.startsWith('/ecosystem/') && existsSync(productFile) ? sourceDate(productFile, locale) : undefined);
+    const changelogFile = route.startsWith('/changelog/') ? changelogFiles.get(route.slice('/changelog/'.length)) : undefined;
+    const translatedChangelog = changelogFile && locale !== 'en'
+      ? `i18n/${locale}/docusaurus-plugin-content-blog/${changelogFile}`
+      : undefined;
+    const docId = route.startsWith('/docs/') ? route.slice('/docs/'.length) : undefined;
+    const translatedDoc = docId && locale !== 'en'
+      ? `i18n/${locale}/docusaurus-plugin-content-docs/current/${docId}.md`
+      : undefined;
+    const lastmod = fill[route]
+      ?? (translatedDoc && existsSync(translatedDoc) ? gitDate(translatedDoc) : undefined)
+      ?? (docId && existsSync(`docs/${docId}.md`) ? gitDate(`docs/${docId}.md`) : undefined)
+      ?? (translatedChangelog && existsSync(translatedChangelog) ? gitDate(translatedChangelog) : undefined)
+      ?? (changelogFile ? gitDate(`blog/${changelogFile}`) : undefined)
+      ?? (route.startsWith('/ecosystem/') && existsSync(productFile) ? sourceDate(productFile, locale) : undefined);
     if (!lastmod) throw new Error(`sitemap lastmod: ${item.url} has no date`);
     return { ...item, lastmod };
   });

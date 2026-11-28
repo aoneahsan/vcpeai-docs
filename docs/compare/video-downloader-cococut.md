@@ -6,14 +6,14 @@ last_update:
   date: 2026-11-27
 ---
 
-CocoCut catches HLS streams and, when a video won't download, records it instead, with no account. That's a downloader's job, and we don't do it. Video Controls Plus is for watching better: speed, loops, filters, notes and history in one account. Keep CocoCut for the hard downloads.
+CocoCut catches HLS streams and, when a video won't download, records it instead, with no account. Video Controls Plus does not save full streams. It is for watching better: speed, loops, filters, notes and history in one account. Keep CocoCut for the hard downloads.
 
 **Last checked 2026-11-27.** A downloader for Chrome and Edge that catches HLS streams and records what it can't download, free with an optional premium. <a href="https://cococut.net/" target="_blank" rel="noopener noreferrer nofollow">Check video downloader - CocoCut yourself</a>.
 
 ## Which one fits you
 
 - **video downloader - CocoCut:** Choose CocoCut if you want a downloader with a recording mode for the hard cases and no account.
-- **Video Controls Plus:** Choose Video Controls Plus if you want to watch better, not download: speed, loops, filters, notes and history in one account.
+- **Video Controls Plus:** Choose Video Controls Plus if you want to watch better instead of saving full streams: speed, loops, filters, notes and history in one account.
 
 ## Where to start here
 

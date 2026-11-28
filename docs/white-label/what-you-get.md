@@ -28,7 +28,7 @@ These are the parts a license runs for you, and the parts a buyout hands over. T
 | The extension | One codebase built with WXT, React and TypeScript: Manifest V3 for Chrome and Edge, Manifest V2 for Firefox. No remote code; every library ships inside the package, which is what the Chrome Web Store requires. |
 | Site tools | Three feature registries: 62 YouTube extras, 52 Netflix extras (50 with a switch, all off at install) and 48 LinkedIn tools. Each registry entry drives the switch in Settings, the widget tab and the right-click menu. |
 | Sign-in | No password in the extension. A person signs in with Google on the companion website, and the extension connects with a short code shown on both screens. The same flow works on Chrome, Edge and Firefox. |
-| The companion website | Built with Vite and React, in ten languages: the account pages the extension connects to, notes, bookmarks, watch later, plans and the developer pages. |
+| The companion website | Built with Vite and React: the account pages the extension connects to, notes, bookmarks, watch later, plans and the developer pages. |
 | The backend | Postgres with row-level security, a schema written in Drizzle, and server functions for AI runs, file uploads, email, payments, the API, the assistant (MCP) address and webhooks. |
 
 The Android app is not part of the browser-extension group.

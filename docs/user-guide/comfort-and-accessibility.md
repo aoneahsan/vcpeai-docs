@@ -6,7 +6,7 @@ description: Warm the picture, make colors easier to tell apart, restyle a site'
 
 Comfort warms the picture, makes colors easier to tell apart, restyles the captions a site already shows, and adds a reading guide over the video. Open it on the widget's View tab, under **Comfort**. It needs no account.
 
-Your Comfort choices are stored with your other settings, synced to your account only when cloud sync is on, and nothing is sent anywhere.
+Your Comfort choices are stored with your other settings and synced to your account only when cloud sync is on. The Comfort tools do not send what you watch to a separate service.
 
 ## Where it is
 

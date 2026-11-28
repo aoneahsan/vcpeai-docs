@@ -1,0 +1,38 @@
+{
+  "version.label": {
+    "message": "موجودہ",
+    "description": "The label for version current"
+  },
+  "sidebar.docsSidebar.category.Getting started": {
+    "message": "شروعات",
+    "description": "The label for category 'Getting started' in sidebar 'docsSidebar'"
+  },
+  "sidebar.docsSidebar.category.User guide": {
+    "message": "صارف رہنمائی",
+    "description": "The label for category 'User guide' in sidebar 'docsSidebar'"
+  },
+  "sidebar.docsSidebar.category.Keyboard shortcuts": {
+    "message": "کی بورڈ شارٹ کٹس",
+    "description": "The label for category 'Keyboard shortcuts' in sidebar 'docsSidebar'"
+  },
+  "sidebar.docsSidebar.category.Platforms": {
+    "message": "سائٹس",
+    "description": "The label for category 'Platforms' in sidebar 'docsSidebar'"
+  },
+  "sidebar.docsSidebar.link.Changelog": {
+    "message": "تبدیلیوں کی فہرست",
+    "description": "The label for link 'Changelog' in sidebar 'docsSidebar', linking to '/changelog'"
+  },
+  "sidebar.docsSidebar.category.Moving to Video Controls Plus": {
+    "message": "Video Controls Plus پر آئیں",
+    "description": "The label for category Moving to Video Controls Plus"
+  },
+  "sidebar.docsSidebar.category.White-label & licensing": {
+    "message": "اپنے برانڈ کا لائسنس",
+    "description": "The label for category White-label & licensing"
+  },
+  "sidebar.docsSidebar.category.Developers": {
+    "message": "ڈیولپرز",
+    "description": "The label for category Developers"
+  }
+}

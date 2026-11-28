@@ -6,7 +6,7 @@ last_update:
   date: 2026-11-27
 ---
 
-Video & Audio Downloader is a toolbar popup that lists the media playing in the tab, so you can download it, copy its link or zip the lot. It isn't for YouTube. We don't download anything: we control the video on the page, with YouTube extras, loops, notes and watch later. The two sit side by side without a move between them.
+Video & Audio Downloader is a toolbar popup that lists the media playing in the tab, so you can download it, copy its link or zip the lot. It isn't for YouTube. Video Controls Plus doesn't download whole videos; it controls the video on the page, with YouTube extras, loops, notes and watch later. It can save audio as WebM or WAV. The two sit side by side without a move between them.
 
 **Last checked 2026-11-27.** A toolbar popup that lists the media playing in the tab for download or link copy; not for YouTube. <a href="https://microsoftedge.microsoft.com/addons/detail/video-audio-downloader/ijgjhlfeehehjgionndhjjfckmobedee" target="_blank" rel="noopener noreferrer nofollow">Check Video & Audio Downloader yourself</a>.
 
