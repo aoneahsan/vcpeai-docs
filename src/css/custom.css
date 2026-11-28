@@ -1,5 +1,8 @@
 @font-face { font-family: 'Barlow Condensed'; src: url('/fonts/barlow-condensed-bold.ttf') format('truetype'); font-weight: 700; font-display: swap; }
 @font-face { font-family: 'Manrope'; src: url('/fonts/manrope-variable.ttf') format('truetype'); font-weight: 200 800; font-display: swap; }
+@font-face { font-family: 'Noto Naskh Arabic UI'; src: url('/fonts/NotoNaskhArabicUI-Regular.ttf') format('truetype'); font-weight: 400; font-display: swap; }
+@font-face { font-family: 'Noto Nastaliq Urdu'; src: url('/fonts/NotoNastaliqUrdu-Regular.ttf') format('truetype'); font-weight: 400; font-display: swap; }
+@font-face { font-family: 'Noto Nastaliq Urdu'; src: url('/fonts/NotoNastaliqUrdu-Bold.ttf') format('truetype'); font-weight: 700; font-display: swap; }
 :root {
   --vcp-display: 'Barlow Condensed', 'Arial Narrow', sans-serif;
   --vcp-body: 'Manrope', Arial, sans-serif;
@@ -38,6 +41,17 @@
   --ifm-toc-border-color: var(--vcp-rule);
   --doc-sidebar-width: 17rem;
 }
+:root:lang(ar) { --vcp-display: 'Noto Naskh Arabic UI', sans-serif; --vcp-body: 'Noto Naskh Arabic UI', sans-serif; }
+:root:lang(ur) { --vcp-display: 'Noto Nastaliq Urdu', 'Noto Naskh Arabic UI', serif; --vcp-body: 'Noto Nastaliq Urdu', 'Noto Naskh Arabic UI', serif; }
+:root:lang(ar) .navbar__item, :root:lang(ur) .navbar__item,
+:root:lang(ar) .navbar__brand, :root:lang(ur) .navbar__brand { text-transform: none; letter-spacing: normal; }
+:root:lang(ar) .theme-doc-markdown, :root:lang(ur) .theme-doc-markdown { line-height: 1.8; }
+:root:lang(ur) .theme-doc-markdown { line-height: 2.25; }
+:root:lang(ar) .theme-doc-markdown h1, :root:lang(ar) .theme-doc-markdown h2,
+:root:lang(ar) .theme-doc-markdown h3, :root:lang(ur) .theme-doc-markdown h1,
+:root:lang(ur) .theme-doc-markdown h2, :root:lang(ur) .theme-doc-markdown h3 { line-height: 1.5; }
+:root:lang(ar) .theme-doc-markdown code, :root:lang(ur) .theme-doc-markdown code,
+:root:lang(ar) .theme-doc-markdown pre, :root:lang(ur) .theme-doc-markdown pre { direction: ltr; unicode-bidi: isolate; }
 [data-theme='dark'] {
   --vcp-page: oklch(0.162 0.016 253);
   --vcp-paper: oklch(0.213 0.019 253);
