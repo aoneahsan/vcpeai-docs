@@ -44,4 +44,4 @@ description: 用学习计时器安排专注与休息，阅读视频自带字幕�
 
 “开始或暂停学习计时器”和“显示或隐藏文字稿”默认没有按键。可在[修改快捷键](/docs/keyboard-shortcuts/rebinding)中设置。
 
-下一篇：[从视频访问资料库](/docs/user-guide/study-library)。
+下一篇：[视频中的资料库工具](/docs/user-guide/study-library)。

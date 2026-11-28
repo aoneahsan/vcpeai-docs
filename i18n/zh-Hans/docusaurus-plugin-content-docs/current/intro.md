@@ -30,7 +30,7 @@ Video Controls Plus 是一款浏览器扩展，为 HTML5 视频增加播放控�
 | 阻止自动播放、保存网站速度或设置提醒 | [播放自动化](/docs/user-guide/playback-automation) |
 | 限制观看或隐藏干扰 | [观看限制与专注模式](/docs/user-guide/watch-limits-and-focus) |
 | 使用计时器、文字稿和章节学习 | [学习工具](/docs/user-guide/study-tools) |
-| 保存测验、单词和日记 | [从视频访问资料库](/docs/user-guide/study-library) |
+| 保存测验、单词和日记 | [视频中的资料库工具](/docs/user-guide/study-library) |
 | 分享某个时刻或与朋友同看 | [分享与同步观看](/docs/user-guide/share-and-watch-together) |
 | 查看所有默认按键 | [默认快捷键](/docs/keyboard-shortcuts/defaults) |
 | 使用网站专属功能 | [YouTube](/docs/platforms/youtube)、[Netflix](/docs/platforms/netflix)、[LinkedIn](/docs/platforms/linkedin) |

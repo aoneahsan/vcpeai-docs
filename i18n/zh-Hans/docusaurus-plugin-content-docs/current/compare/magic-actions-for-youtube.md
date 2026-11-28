@@ -26,7 +26,7 @@ Magic Actions 能把 YouTube 变成一间小影院：影院模式、40 种色彩
 
 | 方案 | 价格 | 说明 |
 |---|---|---|
-| 免费 | 永久 $0 | 厂商称对所有人完全免费。<a href="https://www.chromeactions.com/" target="_blank" rel="noopener noreferrer nofollow">来源</a> |
+| 免费 | 永久 $0 | 厂商称所有人均可 100% 免费使用。<a href="https://www.chromeactions.com/" target="_blank" rel="noopener noreferrer nofollow">来源</a> |
 
 Magic Actions 免费；我们的收费标准见[方案页面](https://vcpeai.aoneahsan.com/plans)。
 
