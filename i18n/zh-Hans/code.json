@@ -1,108 +1,108 @@
 {
   "feed.title": {
-    "message": "Feed"
+    "message": "订阅"
   },
   "feed.description": {
-    "message": "Video Controls Plus changelog entries, newest first, with RSS and Atom feeds."
+    "message": "Video Controls Plus 更新记录，按时间从新到旧排列，并提供 RSS 和 Atom 订阅。"
   },
   "feed.heading": {
-    "message": "Feed"
+    "message": "订阅"
   },
   "home.lede": {
-    "message": "Control your online video player the way you want it, and get special features on each website."
+    "message": "按自己的方式控制在线视频播放器，并在各网站使用专属功能。"
   },
   "home.gettingStarted.title": {
-    "message": "Getting started"
+    "message": "开始使用"
   },
   "home.gettingStarted.text": {
-    "message": "Install it, press your first key, and pause it on one site."
+    "message": "安装扩展、按下第一个快捷键，了解如何在某个网站暂停使用。"
   },
   "home.userGuide.title": {
-    "message": "User guide"
+    "message": "使用指南"
   },
   "home.userGuide.text": {
-    "message": "Speed, A-B loop, audio boost, filters, screenshots and notes, one page each."
+    "message": "播放速度、A-B 循环、音量增强、滤镜、截图和笔记，各有专页说明。"
   },
   "home.keyboard.title": {
-    "message": "Keyboard shortcuts"
+    "message": "键盘快捷键"
   },
   "home.keyboard.text": {
-    "message": "Every default key, and how to give a shortcut another key."
+    "message": "查看所有默认按键，以及如何修改快捷键。"
   },
   "home.platforms.title": {
-    "message": "Platforms"
+    "message": "适用平台"
   },
   "home.platforms.text": {
-    "message": "The extras on YouTube, Netflix and LinkedIn, and how other sites work."
+    "message": "了解 YouTube、Netflix 和 LinkedIn 的专属功能，以及其他网站的支持情况。"
   },
   "home.ai.title": {
-    "message": "AI features"
+    "message": "AI 功能"
   },
   "home.ai.text": {
-    "message": "Video summaries and LinkedIn writing help, and what each one sends."
+    "message": "视频摘要、LinkedIn 写作辅助，以及各功能会发送哪些数据。"
   },
   "home.account.title": {
-    "message": "Account and sync"
+    "message": "账户与同步"
   },
   "home.account.text": {
-    "message": "How to connect your account, how sync works, how to delete your data."
+    "message": "了解如何连接账户、同步设置和删除数据。"
   },
   "home.privacy.title": {
-    "message": "Privacy and permissions"
+    "message": "隐私与权限"
   },
   "home.privacy.text": {
-    "message": "What is recorded, and what each permission is for."
+    "message": "了解记录了哪些数据，以及每项权限的用途。"
   },
   "home.troubleshooting.title": {
-    "message": "Troubleshooting"
+    "message": "故障排查"
   },
   "home.troubleshooting.text": {
-    "message": "What you see, why it happens, and the step that fixes it."
+    "message": "根据看到的现象找出原因，并按步骤解决。"
   },
   "home.faq.title": {
-    "message": "FAQ"
+    "message": "常见问题"
   },
   "home.faq.text": {
-    "message": "Short answers to the questions people ask first."
+    "message": "先回答最常见的问题。"
   },
   "home.changelog.title": {
-    "message": "Changelog"
+    "message": "更新记录"
   },
   "home.changelog.text": {
-    "message": "What changed in the last four releases."
+    "message": "查看最近四个版本的变化。"
   },
   "home.readDocs": {
-    "message": "Read the docs"
+    "message": "阅读文档"
   },
   "home.getExtension": {
-    "message": "Get the extension"
+    "message": "获取扩展"
   },
   "home.sectionsAria": {
-    "message": "Documentation sections"
+    "message": "文档分区"
   },
   "sitemap.changelog": {
-    "message": "Changelog"
+    "message": "更新记录"
   },
   "sitemap.title": {
-    "message": "Sitemap"
+    "message": "网站地图"
   },
   "sitemap.description": {
-    "message": "Every Video Controls Plus documentation page and changelog entry."
+    "message": "Video Controls Plus 的全部文档页面和更新记录。"
   },
   "sitemap.heading": {
-    "message": "Sitemap"
+    "message": "网站地图"
   },
   "sitemap.feed": {
-    "message": "Feed"
+    "message": "订阅"
   },
   "sitemap.filterAria": {
-    "message": "Filter pages"
+    "message": "筛选页面"
   },
   "sitemap.filterPlaceholder": {
-    "message": "Filter pages"
+    "message": "筛选页面"
   },
   "sitemap.noResults": {
-    "message": "No pages match “{query}”."
+    "message": "没有与“{query}”匹配的页面。"
   },
   "theme.ErrorPageContent.title": {
     "message": "页面已崩溃。",
@@ -113,15 +113,15 @@
     "description": "The ARIA label for the back to top button"
   },
   "theme.blog.archive.title": {
-    "message": "历史博文",
+    "message": "往期文章",
     "description": "The page & hero title of the blog archive page"
   },
   "theme.blog.archive.description": {
-    "message": "历史博文",
+    "message": "往期文章",
     "description": "The page & hero description of the blog archive page"
   },
   "theme.blog.paginator.navAriaLabel": {
-    "message": "博文列表分页导航",
+    "message": "文章列表分页导航",
     "description": "The ARIA label for the blog pagination"
   },
   "theme.blog.paginator.newerEntries": {
@@ -133,7 +133,7 @@
     "description": "The label used to navigate to the older blog posts page (next page)"
   },
   "theme.blog.post.paginator.navAriaLabel": {
-    "message": "博文分页导航",
+    "message": "文章分页导航",
     "description": "The ARIA label for the blog posts pagination"
   },
   "theme.blog.post.paginator.newerPost": {
@@ -149,7 +149,7 @@
     "description": "The label of the link targeting the tag list page"
   },
   "theme.colorToggle.ariaLabel.mode.system": {
-    "message": "system mode",
+    "message": "跟随系统",
     "description": "The name for the system color mode"
   },
   "theme.colorToggle.ariaLabel.mode.light": {
@@ -169,7 +169,7 @@
     "description": "The ARIA label for the breadcrumbs"
   },
   "theme.docs.paginator.navAriaLabel": {
-    "message": "文件选项卡",
+    "message": "文档分页导航",
     "description": "The ARIA label for the docs pagination"
   },
   "theme.docs.paginator.previous": {
@@ -185,7 +185,7 @@
     "description": "Pluralized label for \"{count} docs tagged\". Use as much plural forms (separated by \"|\") as your language support (see https://www.unicode.org/cldr/cldr-aux/charts/34/supplemental/language_plural_rules.html)"
   },
   "theme.docs.tagDocListPageTitle": {
-    "message": "{nDocsTagged}「{tagName}」",
+    "message": "标签「{tagName}」：{nDocsTagged}",
     "description": "The title of the page for a docs tag"
   },
   "theme.docs.versions.unreleasedVersionLabel": {
@@ -212,7 +212,7 @@
     "description": "The link label to edit the current page"
   },
   "theme.common.headingLinkTitle": {
-    "message": "{heading}的直接链接",
+    "message": "“{heading}”的直接链接",
     "description": "Title for link to heading"
   },
   "theme.lastUpdated.atDate": {
@@ -280,7 +280,7 @@
     "description": "The ARIA label to collapse the sidebar category"
   },
   "theme.IconExternalLink.ariaLabel": {
-    "message": "(opens in new tab)",
+    "message": "（在新标签页中打开）",
     "description": "The ARIA label for the external link icon"
   },
   "theme.NavBar.navAriaLabel": {
@@ -292,11 +292,11 @@
     "description": "The label for the mobile language switcher dropdown"
   },
   "theme.NotFound.p1": {
-    "message": "我们找不到您要找的页面。",
+    "message": "找不到你要访问的页面。",
     "description": "The first paragraph of the 404 page"
   },
   "theme.NotFound.p2": {
-    "message": "请联系原始链接来源网站的所有者，并告知他们链接已损坏。",
+    "message": "请告知链接来源的网站，原链接可能已失效。",
     "description": "The 2nd paragraph of the 404 page"
   },
   "theme.TOCCollapsible.toggleButtonLabel": {
@@ -332,7 +332,7 @@
     "description": "The title attribute for toggle word wrapping button of code block lines"
   },
   "theme.docs.breadcrumbs.home": {
-    "message": "主页面",
+    "message": "首页",
     "description": "The ARIA label for the home page in the breadcrumbs"
   },
   "theme.docs.sidebar.collapseButtonTitle": {
@@ -360,11 +360,11 @@
     "description": "The ARIA label for hamburger menu button of mobile navigation"
   },
   "theme.navbar.mobileDropdown.collapseButton.expandAriaLabel": {
-    "message": "Expand the dropdown",
+    "message": "展开下拉菜单",
     "description": "The ARIA label of the button to expand the mobile dropdown navbar item"
   },
   "theme.navbar.mobileDropdown.collapseButton.collapseAriaLabel": {
-    "message": "Collapse the dropdown",
+    "message": "收起下拉菜单",
     "description": "The ARIA label of the button to collapse the mobile dropdown navbar item"
   },
   "theme.docs.sidebar.expandButtonTitle": {
@@ -419,7 +419,7 @@
     "description": "The title of the page for a blog tag"
   },
   "theme.blog.author.pageTitle": {
-    "message": "{authorName} - {nPosts}",
+    "message": "作者 {authorName}：{nPosts}",
     "description": "The title of the page for a blog author"
   },
   "theme.blog.authorsList.pageTitle": {

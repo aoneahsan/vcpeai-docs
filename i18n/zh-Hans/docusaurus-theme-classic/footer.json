@@ -1,10 +1,10 @@
 {
   "link.title.Docs": {
-    "message": "Docs",
+    "message": "文档",
     "description": "The title of the footer links column with title=Docs in the footer"
   },
   "link.title.Site": {
-    "message": "Site",
+    "message": "网站",
     "description": "The title of the footer links column with title=Site in the footer"
   },
   "link.title.Video Controls Plus": {
@@ -12,51 +12,51 @@
     "description": "The title of the footer links column with title=Video Controls Plus in the footer"
   },
   "link.item.label.Introduction": {
-    "message": "Introduction",
+    "message": "简介",
     "description": "The label of footer link with label=Introduction linking to /docs/intro"
   },
   "link.item.label.Install": {
-    "message": "Install",
+    "message": "安装",
     "description": "The label of footer link with label=Install linking to /docs/getting-started/install"
   },
   "link.item.label.Keyboard shortcuts": {
-    "message": "Keyboard shortcuts",
+    "message": "键盘快捷键",
     "description": "The label of footer link with label=Keyboard shortcuts linking to /docs/keyboard-shortcuts/defaults"
   },
   "link.item.label.Troubleshooting": {
-    "message": "Troubleshooting",
+    "message": "故障排查",
     "description": "The label of footer link with label=Troubleshooting linking to /docs/troubleshooting"
   },
   "link.item.label.FAQ": {
-    "message": "FAQ",
+    "message": "常见问题",
     "description": "The label of footer link with label=FAQ linking to /docs/faq"
   },
   "link.item.label.Changelog": {
-    "message": "Changelog",
+    "message": "更新记录",
     "description": "The label of footer link with label=Changelog linking to /changelog"
   },
   "link.item.label.Sitemap": {
-    "message": "Sitemap",
+    "message": "网站地图",
     "description": "The label of footer link with label=Sitemap linking to /sitemap"
   },
   "link.item.label.Feed": {
-    "message": "Feed",
+    "message": "订阅",
     "description": "The label of footer link with label=Feed linking to /feed"
   },
   "link.item.label.Product website": {
-    "message": "Product website",
+    "message": "产品网站",
     "description": "The label of footer link with label=Product website linking to https://vcpeai.aoneahsan.com"
   },
   "link.item.label.Privacy policy": {
-    "message": "Privacy policy",
+    "message": "隐私政策",
     "description": "The label of footer link with label=Privacy policy linking to https://vcpeai.aoneahsan.com/privacy"
   },
   "link.item.label.Contact": {
-    "message": "Contact",
+    "message": "联系我们",
     "description": "The label of footer link with label=Contact linking to https://vcpeai.aoneahsan.com/contact"
   },
   "copyright": {
-    "message": "Written and maintained by the Video Controls Plus team. © 2026 Video Controls Plus team",
+    "message": "由 Video Controls Plus 团队编写并维护。© 2026 Video Controls Plus 团队",
     "description": "The footer copyright"
   }
 }

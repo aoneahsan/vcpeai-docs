@@ -1,14 +1,14 @@
 {
   "title": {
-    "message": "Video Controls Plus changelog",
+    "message": "Video Controls Plus 更新记录",
     "description": "The title for the blog used in SEO"
   },
   "description": {
-    "message": "Release notes for Video Controls Plus.",
+    "message": "Video Controls Plus 的版本说明。",
     "description": "The description for the blog used in SEO"
   },
   "sidebar.title": {
-    "message": "Recent entries",
+    "message": "最近更新",
     "description": "The label for the left sidebar"
   }
 }
