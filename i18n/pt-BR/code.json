@@ -984,5 +984,173 @@
   },
   "aboutDeveloper.breadcrumb": {
     "message": "Sobre o desenvolvedor"
+  },
+  "apps.lede": {
+    "message": "O Video Controls Plus funciona no seu navegador. Instale-o pela loja correspondente e mantenha estes guias por perto."
+  },
+  "apps.chrome.title": {
+    "message": "Chrome e outros navegadores Chromium"
+  },
+  "apps.chrome.text": {
+    "message": "A página da loja usada pela maioria das pessoas."
+  },
+  "apps.chrome.cta": {
+    "message": "Adicionar ao Chrome"
+  },
+  "apps.firefox.title": {
+    "message": "Firefox no computador"
+  },
+  "apps.firefox.text": {
+    "message": "O mesmo widget e os mesmos atalhos de velocidade, pela loja de extensões da Mozilla."
+  },
+  "apps.firefox.cta": {
+    "message": "Adicionar ao Firefox"
+  },
+  "apps.edge.title": {
+    "message": "Edge em casa ou no trabalho"
+  },
+  "apps.edge.text": {
+    "message": "Inclusive em computadores Windows gerenciados que permitem apenas a loja do Edge."
+  },
+  "apps.edge.cta": {
+    "message": "Instalar no Edge"
+  },
+  "apps.web.title": {
+    "message": "O site"
+  },
+  "apps.web.text": {
+    "message": "Sua conta, seus planos e sua biblioteca. Conecte a extensão por lá para guardar repetições e notas."
+  },
+  "apps.web.cta": {
+    "message": "Abrir o site"
+  },
+  "apps.docs.title": {
+    "message": "Esta documentação"
+  },
+  "apps.docs.text": {
+    "message": "Cada controle, explicado por escrito."
+  },
+  "apps.docs.cta": {
+    "message": "Ler a documentação"
+  },
+  "apps.title": {
+    "message": "Instale o Video Controls Plus"
+  },
+  "apps.eyebrow": {
+    "message": "Instale o Video Controls Plus"
+  },
+  "apps.heading": {
+    "message": "Seu ritmo, no navegador em que você assiste."
+  },
+  "apps.listLabel": {
+    "message": "01 / Onde funciona"
+  },
+  "apps.listTitle": {
+    "message": "Escolha seu navegador."
+  },
+  "apps.current": {
+    "message": "Você está lendo esta página"
+  },
+  "feed.description_with_posts": {
+    "message": "Histórico de versões e publicações do Video Controls Plus, da mais recente à mais antiga, com feeds RSS e Atom."
+  },
+  "feed.discovery": {
+    "message": "Documentação / Descobrir"
+  },
+  "feed.intro_with_posts": {
+    "message": "O feed lista as entradas do histórico de versões e depois as publicações, da mais recente à mais antiga. O mapa do site reúne cada guia, versão e publicação na navegação da documentação."
+  },
+  "feed.intro": {
+    "message": "O feed lista as entradas do histórico de versões, da mais recente à mais antiga. O mapa do site reúne cada guia e versão na navegação da documentação."
+  },
+  "feed.tab": {
+    "message": "Atualizações"
+  },
+  "feed.sitemapTab": {
+    "message": "Mapa do site"
+  },
+  "feed.machineFeeds": {
+    "message": "Feeds em formato legível por máquina"
+  },
+  "feed.follow": {
+    "message": "Acompanhe o histórico de versões."
+  },
+  "feed.postsEyebrow": {
+    "message": "Publicações"
+  },
+  "feed.followPosts": {
+    "message": "Acompanhe as publicações."
+  },
+  "home.description": {
+    "message": "Documentação do Video Controls Plus: velocidade de 0,1x a 16x, repetição A-B, amplificação de áudio de 400%, recursos extras para YouTube, Netflix e LinkedIn, atalhos e seus dados."
+  },
+  "home.startHere": {
+    "message": "Documentação / Comece aqui"
+  },
+  "home.addToChrome": {
+    "message": "Adicionar ao Chrome"
+  },
+  "home.alsoOn": {
+    "message": "Também disponível em"
+  },
+  "home.allApps": {
+    "message": "Todas as plataformas"
+  },
+  "home.factsLabel": {
+    "message": "01 / Antes de começar"
+  },
+  "home.factsTitle": {
+    "message": "Quatro dúvidas para resolver primeiro."
+  },
+  "home.openArticle": {
+    "message": "Abrir artigo"
+  },
+  "home.sectionsLabel": {
+    "message": "02 / Seções da documentação"
+  },
+  "home.pickNext": {
+    "message": "Escolha a próxima página."
+  },
+  "home.documentation": {
+    "message": "Documentação"
+  },
+  "home.searchSitemap": {
+    "message": "Buscar no mapa da documentação"
+  },
+  "sitemap.blog": {
+    "message": "Blog"
+  },
+  "sitemap.description_with_posts": {
+    "message": "Todas as páginas da documentação, entradas do histórico de versões e publicações do Video Controls Plus."
+  },
+  "sitemap.discovery": {
+    "message": "Documentação / Descobrir"
+  },
+  "sitemap.intro_with_posts": {
+    "message": "O feed lista as entradas do histórico de versões e depois as publicações, da mais recente à mais antiga. O mapa do site reúne cada guia, versão e publicação na navegação da documentação."
+  },
+  "sitemap.intro": {
+    "message": "O feed lista as entradas do histórico de versões, da mais recente à mais antiga. O mapa do site reúne cada guia e versão na navegação da documentação."
+  },
+  "sitemap.feedTab": {
+    "message": "Atualizações"
+  },
+  "sitemap.tab": {
+    "message": "Mapa do site"
+  },
+  "sitemap.pageIndex": {
+    "message": "Documentação / Índice de páginas"
+  },
+  "sitemap.findGuide": {
+    "message": "Encontre um guia."
+  },
+  "sitemap.ecosystemAll": {
+    "message": "Mais da Zaions: todos os produtos"
+  },
+  "home.creditFull": {
+    "message": "Escrito pela equipe do Video Controls Plus na {zaions}, empresa de produtos de {developer}. Os guias passo a passo de cada plataforma estão no {blog}."
+  },
+  "home.blogName": {
+    "message": "blog do Video Controls Plus"
   }
 }

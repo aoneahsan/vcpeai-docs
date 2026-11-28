@@ -599,7 +599,7 @@
     "message": "Web et Android"
   },
   "ecosystem.product.callvault.card": {
-    "message": "Réécoutez, recherchez, annotez et exportez les appels conservés dans votre bibliothèque Android."
+    "message": "Réécoutez, recherchez, annotez et exportez les appels de votre téléphone Android."
   },
   "ecosystem.product.callvault.heading": {
     "message": "À quoi sert CallVault ?"
@@ -659,7 +659,7 @@
     "message": "À quoi sert Eat This ?"
   },
   "ecosystem.product.eatthis.paragraph.1": {
-    "message": "Eat This vous aide à chercher des aliments selon un nutriment, une sensation ou un moment de la journée. Commencez par une portion. Au lieu de parcourir une longue liste, partez de ce que vous souhaitez comprendre : voyez la quantité d’un nutriment dans une portion, puis comparez-la avec une option moins chère parmi les choix proposés."
+    "message": "Eat This vous aide à chercher des aliments selon un nutriment, une sensation ou un moment de la journée. Commencez par une portion. Au lieu de parcourir une longue liste, partez de ce que vous souhaitez comprendre : voyez la quantité d’un nutriment dans une portion, puis comparez-la avec une option moins chère parmi les choix proposés."
   },
   "ecosystem.product.eatthis.paragraph.2": {
     "message": "Ce produit d’information alimentaire est indépendant des commandes de lecture de Video Controls Plus. Le point commun est une réponse directe à votre besoin : régler la vitesse quand vous regardez une vidéo, ou examiner une portion quand vous choisissez un aliment. Une question alimentaire qui exige un avis médical doit être posée à un médecin ; le produit précise cette limite."
@@ -689,7 +689,7 @@
     "message": "WordPress / WooCommerce"
   },
   "ecosystem.product.habitforge.card": {
-    "message": "Voyez une corde s’épaissir à chaque suivi d’habitude et s’effilocher lorsque la pratique s’interrompt."
+    "message": "Voyez une corde s’épaissir chaque fois que vous notez une habitude et s’effilocher lorsque vous interrompez la pratique."
   },
   "ecosystem.product.habitforge.heading": {
     "message": "À quoi sert HabitForge ?"
@@ -785,7 +785,7 @@
     "message": "À quoi sert Native Update ?"
   },
   "ecosystem.product.native-update.paragraph.1": {
-    "message": "Native Update livre des paquets d’applications Capacitor entre deux publications en boutique. Les équipes peuvent ainsi publier un paquet pour une application déjà installée sans attendre que chaque modification de sa couche web passe par une nouvelle fiche en boutique. Le projet couvre aussi les invitations à mettre à jour ou à laisser un avis depuis l’application. Commencez par le parcours de publication."
+    "message": "Native Update livre des mises à jour pour les applications Capacitor entre deux publications en boutique. Les équipes peuvent ainsi actualiser la couche web d’une application déjà installée sans attendre une nouvelle version en boutique pour chaque changement. Le projet couvre aussi les invitations à mettre à jour l’application ou à laisser un avis. Commencez par le parcours de publication."
   },
   "ecosystem.product.native-update.paragraph.2": {
     "message": "Le serveur peut être hébergé par vos soins et le projet est open source. C’est un produit pour les développeurs, dont le processus de publication doit être configuré ; ce n’est pas un bouton de mise à jour destiné aux utilisateurs de Video Controls Plus. Si vous créez des applications Capacitor, lisez les instructions sur les plateformes et le serveur avant de choisir comment votre application recevra les mises à jour. La boutique suit toujours son propre parcours de publication : le produit explique la livraison des paquets et les invitations liées aux mises à jour en boutique."
@@ -833,7 +833,7 @@
     "message": "Web et Android"
   },
   "ecosystem.product.rentparty.card": {
-    "message": "Mettez une partie de commerce immobilier en pause et retrouvez la banque et les titres de propriété tels que vous les avez laissés."
+    "message": "Mettez une partie de jeu immobilier en pause et retrouvez la banque et les titres de propriété tels que vous les avez laissés."
   },
   "ecosystem.product.rentparty.heading": {
     "message": "À quoi sert RentParty ?"
@@ -984,5 +984,173 @@
   },
   "aboutDeveloper.breadcrumb": {
     "message": "À propos du développeur"
+  },
+  "apps.lede": {
+    "message": "Video Controls Plus fonctionne dans votre navigateur. Installez l’extension depuis la boutique correspondante et gardez ces guides à portée de main."
+  },
+  "apps.chrome.title": {
+    "message": "Chrome et les autres navigateurs Chromium"
+  },
+  "apps.chrome.text": {
+    "message": "La fiche utilisée par la plupart des personnes pour installer l’extension."
+  },
+  "apps.chrome.cta": {
+    "message": "Ajouter à Chrome"
+  },
+  "apps.firefox.title": {
+    "message": "Firefox sur votre ordinateur"
+  },
+  "apps.firefox.text": {
+    "message": "Le même panneau et les mêmes raccourcis de vitesse, depuis la boutique de Mozilla."
+  },
+  "apps.firefox.cta": {
+    "message": "Ajouter à Firefox"
+  },
+  "apps.edge.title": {
+    "message": "Edge, chez vous ou au travail"
+  },
+  "apps.edge.text": {
+    "message": "Y compris sur les appareils Windows administrés qui n’autorisent que la boutique Edge."
+  },
+  "apps.edge.cta": {
+    "message": "Installer sur Edge"
+  },
+  "apps.web.title": {
+    "message": "Le site web"
+  },
+  "apps.web.text": {
+    "message": "Votre compte, vos offres et votre bibliothèque. Connectez-y l’extension pour conserver vos boucles et vos notes."
+  },
+  "apps.web.cta": {
+    "message": "Ouvrir le site"
+  },
+  "apps.docs.title": {
+    "message": "Cette documentation"
+  },
+  "apps.docs.text": {
+    "message": "Chaque commande, expliquée."
+  },
+  "apps.docs.cta": {
+    "message": "Lire la documentation"
+  },
+  "apps.title": {
+    "message": "Obtenir Video Controls Plus"
+  },
+  "apps.eyebrow": {
+    "message": "Obtenir Video Controls Plus"
+  },
+  "apps.heading": {
+    "message": "Votre rythme, dans le navigateur de votre choix."
+  },
+  "apps.listLabel": {
+    "message": "01 / Où l’utiliser"
+  },
+  "apps.listTitle": {
+    "message": "Choisissez votre destination."
+  },
+  "apps.current": {
+    "message": "Vous êtes sur cette page"
+  },
+  "feed.description_with_posts": {
+    "message": "Nouveautés et articles de Video Controls Plus, des plus récents aux plus anciens, avec les flux RSS et Atom."
+  },
+  "feed.discovery": {
+    "message": "Documentation / Découvrir"
+  },
+  "feed.intro_with_posts": {
+    "message": "Le flux présente d’abord les nouveautés, puis les articles, des plus récents aux plus anciens. Le plan du site classe chaque guide, nouveauté et article dans la navigation de la documentation."
+  },
+  "feed.intro": {
+    "message": "Le flux présente les nouveautés, des plus récentes aux plus anciennes. Le plan du site classe chaque guide et nouveauté dans la navigation de la documentation."
+  },
+  "feed.tab": {
+    "message": "Flux"
+  },
+  "feed.sitemapTab": {
+    "message": "Plan du site"
+  },
+  "feed.machineFeeds": {
+    "message": "Flux lisibles par les applications"
+  },
+  "feed.follow": {
+    "message": "Suivez les nouveautés."
+  },
+  "feed.postsEyebrow": {
+    "message": "Articles"
+  },
+  "feed.followPosts": {
+    "message": "Suivez les articles."
+  },
+  "home.description": {
+    "message": "Documentation Video Controls Plus : vitesse de 0,1× à 16×, boucle A-B, son jusqu’à 400 %, options YouTube, Netflix et LinkedIn, raccourcis et données."
+  },
+  "home.startHere": {
+    "message": "Documentation / Commencer ici"
+  },
+  "home.addToChrome": {
+    "message": "Ajouter à Chrome"
+  },
+  "home.alsoOn": {
+    "message": "Aussi disponible sur"
+  },
+  "home.allApps": {
+    "message": "Toutes les plateformes"
+  },
+  "home.factsLabel": {
+    "message": "01 / Avant de commencer"
+  },
+  "home.factsTitle": {
+    "message": "Quatre questions à se poser d’abord."
+  },
+  "home.openArticle": {
+    "message": "Lire l’article"
+  },
+  "home.sectionsLabel": {
+    "message": "02 / Rubriques de la documentation"
+  },
+  "home.pickNext": {
+    "message": "Choisissez la prochaine page."
+  },
+  "home.documentation": {
+    "message": "Documentation"
+  },
+  "home.searchSitemap": {
+    "message": "Rechercher dans le plan du site"
+  },
+  "sitemap.blog": {
+    "message": "Blog"
+  },
+  "sitemap.description_with_posts": {
+    "message": "Toutes les pages de la documentation, nouveautés et articles de Video Controls Plus."
+  },
+  "sitemap.discovery": {
+    "message": "Documentation / Découvrir"
+  },
+  "sitemap.intro_with_posts": {
+    "message": "Le flux présente d’abord les nouveautés, puis les articles, des plus récents aux plus anciens. Le plan du site classe chaque guide, nouveauté et article dans la navigation de la documentation."
+  },
+  "sitemap.intro": {
+    "message": "Le flux présente les nouveautés, des plus récentes aux plus anciennes. Le plan du site classe chaque guide et nouveauté dans la navigation de la documentation."
+  },
+  "sitemap.feedTab": {
+    "message": "Flux"
+  },
+  "sitemap.tab": {
+    "message": "Plan du site"
+  },
+  "sitemap.pageIndex": {
+    "message": "Documentation / Index des pages"
+  },
+  "sitemap.findGuide": {
+    "message": "Trouvez un guide."
+  },
+  "sitemap.ecosystemAll": {
+    "message": "Autres produits Zaions : tout le catalogue"
+  },
+  "home.creditFull": {
+    "message": "Rédigé par l’équipe Video Controls Plus chez {zaions}, société fondée par le développeur {developer}. Retrouvez les guides pas à pas de chaque plateforme sur le {blog}."
+  },
+  "home.blogName": {
+    "message": "blog Video Controls Plus"
   }
 }

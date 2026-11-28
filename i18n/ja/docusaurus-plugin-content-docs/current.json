@@ -22,5 +22,17 @@
   "sidebar.docsSidebar.link.Changelog": {
     "message": "更新履歴",
     "description": "The label for link 'Changelog' in sidebar 'docsSidebar', linking to '/changelog'"
+  },
+  "sidebar.docsSidebar.category.Moving to Video Controls Plus": {
+    "message": "Video Controls Plus への乗り換え",
+    "description": "The label for category 'Moving to Video Controls Plus' in sidebar 'docsSidebar'"
+  },
+  "sidebar.docsSidebar.category.White-label & licensing": {
+    "message": "ホワイトラベルとライセンス",
+    "description": "The label for category 'White-label & licensing' in sidebar 'docsSidebar'"
+  },
+  "sidebar.docsSidebar.category.Developers": {
+    "message": "開発者向け",
+    "description": "The label for category 'Developers' in sidebar 'docsSidebar'"
   }
 }

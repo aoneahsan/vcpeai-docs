@@ -56,7 +56,7 @@ export default function Home(): React.JSX.Element {
           <span>{fact.text}</span>
           <small><Translate id="home.openArticle">Open article</Translate> ↗</small>
         </Link>)}</div>
-      <p className={styles.credit}><Translate id="home.credit">Written by the Video Controls Plus team at</Translate> <Link href="https://zaions.com">Zaions</Link>, <Translate id="home.creditDeveloper">the products company of developer</Translate> <Link href="https://aoneahsan.com">Ahsan Mahmood</Link>. <Translate id="home.creditGuides">Step-by-step guides for each platform live on the</Translate> <Link href="https://vcpeai.aoneahsan.com/blog">Video Controls Plus blog</Link>.</p>
+      <p className={styles.credit}><Translate id="home.creditFull" values={{ zaions: <Link href="https://zaions.com">Zaions</Link>, developer: <Link href="https://aoneahsan.com">Ahsan Mahmood</Link>, blog: <Link href="https://vcpeai.aoneahsan.com/blog"><Translate id="home.blogName">Video Controls Plus blog</Translate></Link> }}>{'Written by the Video Controls Plus team at {zaions}, the products company of developer {developer}. Step-by-step guides for each platform live on the {blog}.'}</Translate></p>
     </div></section>
     <section className={styles.sections} aria-labelledby="docs-sections-title"><div className={styles.wrap}>
       <p className={styles.eyebrow}><Translate id="home.sectionsLabel">02 / Documentation sections</Translate></p>

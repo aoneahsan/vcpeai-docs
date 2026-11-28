@@ -18,5 +18,61 @@
   "item.label.Product website": {
     "message": "产品网站",
     "description": "Navbar item with label Product website"
+  },
+  "item.label.Features": {
+    "message": "功能",
+    "description": "Navbar item with label Features"
+  },
+  "item.label.How it works": {
+    "message": "使用方式",
+    "description": "Navbar item with label How it works"
+  },
+  "item.label.Compare": {
+    "message": "产品对比",
+    "description": "Navbar item with label Compare"
+  },
+  "item.label.Plans": {
+    "message": "方案",
+    "description": "Navbar item with label Plans"
+  },
+  "item.label.About": {
+    "message": "关于",
+    "description": "Navbar item with label About"
+  },
+  "item.label.More from Zaions": {
+    "message": "更多 Zaions 产品",
+    "description": "Navbar item with label More from Zaions"
+  },
+  "item.label.Contact": {
+    "message": "联系",
+    "description": "Navbar item with label Contact"
+  },
+  "item.label.Get Video Controls Plus": {
+    "message": "获取 Video Controls Plus",
+    "description": "Navbar item with label Get Video Controls Plus"
+  },
+  "item.label.Install guide": {
+    "message": "安装指南",
+    "description": "Navbar item with label Install guide"
+  },
+  "item.label.Chrome Web Store": {
+    "message": "Chrome 网上应用店",
+    "description": "Navbar item with label Chrome Web Store"
+  },
+  "item.label.Firefox Add-ons": {
+    "message": "Firefox 附加组件",
+    "description": "Navbar item with label Firefox Add-ons"
+  },
+  "item.label.Microsoft Edge Add-ons": {
+    "message": "Microsoft Edge 附加组件",
+    "description": "Navbar item with label Microsoft Edge Add-ons"
+  },
+  "item.label.Website": {
+    "message": "产品网站",
+    "description": "Navbar item with label Website"
+  },
+  "item.label.All apps": {
+    "message": "所有平台",
+    "description": "Navbar item with label All apps"
   }
 }

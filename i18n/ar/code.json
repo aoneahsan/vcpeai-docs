@@ -419,7 +419,7 @@
     "description": "The title of the page for a blog tag"
   },
   "theme.blog.author.pageTitle": {
-    "message": "{authorName} - {nPosts}",
+    "message": "مقالات {authorName} — {nPosts}",
     "description": "The title of the page for a blog author"
   },
   "theme.blog.authorsList.pageTitle": {
@@ -984,5 +984,173 @@
   },
   "aboutDeveloper.breadcrumb": {
     "message": "عن المطوّر"
+  },
+  "apps.lede": {
+    "message": "يعمل Video Controls Plus داخل متصفحك. ثبّته من متجر المتصفح الذي تستخدمه، واحتفظ بهذه الأدلة في تبويب قريب."
+  },
+  "apps.chrome.title": {
+    "message": "Chrome والمتصفحات الأخرى المبنية على Chromium"
+  },
+  "apps.chrome.text": {
+    "message": "صفحة المتجر التي يثبّت معظم الناس الإضافة منها."
+  },
+  "apps.chrome.cta": {
+    "message": "إضافة إلى Chrome"
+  },
+  "apps.firefox.title": {
+    "message": "Firefox على حاسوبك"
+  },
+  "apps.firefox.text": {
+    "message": "الأداة نفسها ومفاتيح السرعة نفسها من متجر إضافات Mozilla."
+  },
+  "apps.firefox.cta": {
+    "message": "إضافة إلى Firefox"
+  },
+  "apps.edge.title": {
+    "message": "Edge في المنزل أو العمل"
+  },
+  "apps.edge.text": {
+    "message": "يشمل أجهزة Windows المُدارة التي لا تسمح إلا بمتجر Edge."
+  },
+  "apps.edge.cta": {
+    "message": "الحصول عليها لـEdge"
+  },
+  "apps.web.title": {
+    "message": "الموقع الإلكتروني"
+  },
+  "apps.web.text": {
+    "message": "حسابك وخططك ومكتبتك. اربط الإضافة هناك للاحتفاظ بحلقات التكرار والملاحظات."
+  },
+  "apps.web.cta": {
+    "message": "فتح الموقع"
+  },
+  "apps.docs.title": {
+    "message": "هذه الأدلة"
+  },
+  "apps.docs.text": {
+    "message": "شرح مكتوب لكل أداة تحكم."
+  },
+  "apps.docs.cta": {
+    "message": "قراءة الأدلة"
+  },
+  "apps.title": {
+    "message": "الحصول على Video Controls Plus"
+  },
+  "apps.eyebrow": {
+    "message": "الحصول على Video Controls Plus"
+  },
+  "apps.heading": {
+    "message": "شاهد بالوتيرة التي تناسبك في متصفحك المفضل."
+  },
+  "apps.listLabel": {
+    "message": "01 / أين تعمل"
+  },
+  "apps.listTitle": {
+    "message": "اختر المتصفح المناسب."
+  },
+  "apps.current": {
+    "message": "أنت تقرأها الآن"
+  },
+  "feed.description_with_posts": {
+    "message": "إدخالات سجل تغييرات Video Controls Plus ومقالاته، من الأحدث إلى الأقدم، مع خلاصتي RSS وAtom."
+  },
+  "feed.discovery": {
+    "message": "الأدلة / الاستكشاف"
+  },
+  "feed.intro_with_posts": {
+    "message": "تعرض الخلاصة إدخالات سجل التغييرات، ثم المقالات، من الأحدث إلى الأقدم. وتجمع خريطة الموقع كل دليل وإدخال إصدار ومقالة ضمن أقسام الأدلة."
+  },
+  "feed.intro": {
+    "message": "تعرض الخلاصة إدخالات سجل التغييرات من الأحدث إلى الأقدم. وتجمع خريطة الموقع كل دليل وإدخال إصدار ضمن أقسام الأدلة."
+  },
+  "feed.tab": {
+    "message": "الخلاصة"
+  },
+  "feed.sitemapTab": {
+    "message": "خريطة الموقع"
+  },
+  "feed.machineFeeds": {
+    "message": "خلاصات قابلة للقراءة آليًا"
+  },
+  "feed.follow": {
+    "message": "تابع سجل التغييرات."
+  },
+  "feed.postsEyebrow": {
+    "message": "مقالات"
+  },
+  "feed.followPosts": {
+    "message": "تابع المقالات."
+  },
+  "home.description": {
+    "message": "أدلة Video Controls Plus: سرعة من 0.1x إلى 16x، وتكرار A-B، وتعزيز الصوت حتى 400%، وأدوات YouTube وNetflix وLinkedIn الإضافية، واختصارات لوحة المفاتيح وبياناتك."
+  },
+  "home.startHere": {
+    "message": "الأدلة / ابدأ هنا"
+  },
+  "home.addToChrome": {
+    "message": "إضافة إلى Chrome"
+  },
+  "home.alsoOn": {
+    "message": "متوفر أيضًا على"
+  },
+  "home.allApps": {
+    "message": "كل التطبيقات"
+  },
+  "home.factsLabel": {
+    "message": "01 / قبل أن تبدأ القراءة"
+  },
+  "home.factsTitle": {
+    "message": "أربعة أسئلة يطرحها الناس أولًا."
+  },
+  "home.openArticle": {
+    "message": "فتح المقالة"
+  },
+  "home.sectionsLabel": {
+    "message": "02 / أقسام الأدلة"
+  },
+  "home.pickNext": {
+    "message": "اختر الصفحة التالية."
+  },
+  "home.documentation": {
+    "message": "الأدلة"
+  },
+  "home.searchSitemap": {
+    "message": "البحث في خريطة الأدلة"
+  },
+  "sitemap.blog": {
+    "message": "المدونة"
+  },
+  "sitemap.description_with_posts": {
+    "message": "جميع صفحات أدلة Video Controls Plus وإدخالات سجل التغييرات والمقالات."
+  },
+  "sitemap.discovery": {
+    "message": "الأدلة / الاستكشاف"
+  },
+  "sitemap.intro_with_posts": {
+    "message": "تعرض الخلاصة إدخالات سجل التغييرات، ثم المقالات، من الأحدث إلى الأقدم. وتجمع خريطة الموقع كل دليل وإدخال إصدار ومقالة ضمن أقسام الأدلة."
+  },
+  "sitemap.intro": {
+    "message": "تعرض الخلاصة إدخالات سجل التغييرات من الأحدث إلى الأقدم. وتجمع خريطة الموقع كل دليل وإدخال إصدار ضمن أقسام الأدلة."
+  },
+  "sitemap.feedTab": {
+    "message": "الخلاصة"
+  },
+  "sitemap.tab": {
+    "message": "خريطة الموقع"
+  },
+  "sitemap.pageIndex": {
+    "message": "الأدلة / فهرس الصفحات"
+  },
+  "sitemap.findGuide": {
+    "message": "اعثر على دليل."
+  },
+  "sitemap.ecosystemAll": {
+    "message": "المزيد من Zaions: جميع المنتجات"
+  },
+  "home.creditFull": {
+    "message": "كتب فريق Video Controls Plus هذه الأدلة في {zaions}، شركة المنتجات التي أسسها المطوّر {developer}. وتجد في {blog} أدلة مفصلة لكل منصة."
+  },
+  "home.blogName": {
+    "message": "مدونة Video Controls Plus"
   }
 }

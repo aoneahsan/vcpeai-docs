@@ -17,7 +17,7 @@
   },
   "link.item.label.Install": {
     "message": "Установить",
-    "description": "The label of footer link with label=Install linking to /docs/getting-started/install"
+    "description": "The label of footer link with label=Install linking to https://vcpeai.aoneahsan.com/install"
   },
   "link.item.label.Keyboard shortcuts": {
     "message": "Сочетания клавиш",
@@ -58,5 +58,93 @@
   "copyright": {
     "message": "Документацию ведёт команда Video Controls Plus. © 2026 Video Controls Plus team",
     "description": "The footer copyright"
+  },
+  "link.title.Get Video Controls Plus": {
+    "message": "Установить Video Controls Plus",
+    "description": "The title of the footer links column with title=Get Video Controls Plus in the footer"
+  },
+  "link.title.Explore": {
+    "message": "Подробнее",
+    "description": "The title of the footer links column with title=Explore in the footer"
+  },
+  "link.title.Get started": {
+    "message": "Начало работы",
+    "description": "The title of the footer links column with title=Get started in the footer"
+  },
+  "link.title.Help & legal": {
+    "message": "Помощь и документы",
+    "description": "The title of the footer links column with title=Help & legal in the footer"
+  },
+  "link.item.label.Control your online video player the way you want it, and get special features on each website.": {
+    "message": "Управляйте онлайн-видео так, как удобно вам, и используйте дополнительные возможности на отдельных сайтах.",
+    "description": "The label of footer link with label=Control your online video player the way you want it, and get special features on each website. linking to https://vcpeai.aoneahsan.com"
+  },
+  "link.item.label.Chrome Web Store": {
+    "message": "Chrome Web Store",
+    "description": "The label of footer link with label=Chrome Web Store linking to https://chromewebstore.google.com/detail/video-controls-plus/ihafdbecgnhendhckoknblmcminoikdb"
+  },
+  "link.item.label.Firefox Add-ons": {
+    "message": "Firefox Add-ons",
+    "description": "The label of footer link with label=Firefox Add-ons linking to https://addons.mozilla.org/en-US/firefox/addon/video-controls-plus/"
+  },
+  "link.item.label.Microsoft Edge Add-ons": {
+    "message": "Microsoft Edge Add-ons",
+    "description": "The label of footer link with label=Microsoft Edge Add-ons linking to https://microsoftedge.microsoft.com/addons/detail/video-controls-plus/ghjcpobkbbhefdlgffopfhlepkgcknlb"
+  },
+  "link.item.label.Website": {
+    "message": "Веб-сайт",
+    "description": "The label of footer link with label=Website linking to https://vcpeai.aoneahsan.com"
+  },
+  "link.item.label.All apps": {
+    "message": "Все платформы",
+    "description": "The label of footer link with label=All apps linking to /apps"
+  },
+  "link.item.label.Features": {
+    "message": "Возможности",
+    "description": "The label of footer link with label=Features linking to https://vcpeai.aoneahsan.com/features"
+  },
+  "link.item.label.How it works": {
+    "message": "Как это работает",
+    "description": "The label of footer link with label=How it works linking to https://vcpeai.aoneahsan.com/how-it-works"
+  },
+  "link.item.label.Compare": {
+    "message": "Сравнение",
+    "description": "The label of footer link with label=Compare linking to https://vcpeai.aoneahsan.com/compare/extensions"
+  },
+  "link.item.label.Plans": {
+    "message": "Тарифы",
+    "description": "The label of footer link with label=Plans linking to https://vcpeai.aoneahsan.com/plans"
+  },
+  "link.item.label.About": {
+    "message": "О проекте",
+    "description": "The label of footer link with label=About linking to https://vcpeai.aoneahsan.com/about"
+  },
+  "link.item.label.More from Zaions": {
+    "message": "Другие продукты Zaions",
+    "description": "The label of footer link with label=More from Zaions linking to /ecosystem"
+  },
+  "link.item.label.About the developer": {
+    "message": "О разработчике",
+    "description": "The label of footer link with label=About the developer linking to /about-developer"
+  },
+  "link.item.label.Website guides": {
+    "message": "Руководства по сайту",
+    "description": "The label of footer link with label=Website guides linking to https://vcpeai.aoneahsan.com/docs"
+  },
+  "link.item.label.Full documentation": {
+    "message": "Вся документация",
+    "description": "The label of footer link with label=Full documentation linking to /docs/intro"
+  },
+  "link.item.label.Developers": {
+    "message": "Разработчикам",
+    "description": "The label of footer link with label=Developers linking to /docs/developers"
+  },
+  "link.item.label.Page index": {
+    "message": "Указатель страниц",
+    "description": "The label of footer link with label=Page index linking to /sitemap"
+  },
+  "link.item.label.Policy pages": {
+    "message": "Правовые документы",
+    "description": "The label of footer link with label=Policy pages linking to https://vcpeai.aoneahsan.com/privacy"
   }
 }

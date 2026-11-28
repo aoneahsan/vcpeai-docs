@@ -17,7 +17,7 @@
   },
   "link.item.label.Install": {
     "message": "التثبيت",
-    "description": "The label of footer link with label=Install linking to /docs/getting-started/install"
+    "description": "The label of footer link with label=Install linking to https://vcpeai.aoneahsan.com/install"
   },
   "link.item.label.Keyboard shortcuts": {
     "message": "اختصارات لوحة المفاتيح",
@@ -58,5 +58,93 @@
   "copyright": {
     "message": "كتبها ويصونها فريق Video Controls Plus. © 2026 فريق Video Controls Plus",
     "description": "The footer copyright"
+  },
+  "link.title.Get Video Controls Plus": {
+    "message": "الحصول على Video Controls Plus",
+    "description": "The title of the footer links column with title=Get Video Controls Plus in the footer"
+  },
+  "link.title.Explore": {
+    "message": "استكشف",
+    "description": "The title of the footer links column with title=Explore in the footer"
+  },
+  "link.title.Get started": {
+    "message": "ابدأ",
+    "description": "The title of the footer links column with title=Get started in the footer"
+  },
+  "link.title.Help & legal": {
+    "message": "المساعدة والسياسات",
+    "description": "The title of the footer links column with title=Help & legal in the footer"
+  },
+  "link.item.label.Control your online video player the way you want it, and get special features on each website.": {
+    "message": "تحكّم في مشغّل الفيديو على الإنترنت بالطريقة التي تناسبك، واستفد من ميزات إضافية على مواقع محددة.",
+    "description": "The label of footer link with label=Control your online video player the way you want it, and get special features on each website. linking to https://vcpeai.aoneahsan.com"
+  },
+  "link.item.label.Chrome Web Store": {
+    "message": "متجر Chrome الإلكتروني",
+    "description": "The label of footer link with label=Chrome Web Store linking to https://chromewebstore.google.com/detail/video-controls-plus/ihafdbecgnhendhckoknblmcminoikdb"
+  },
+  "link.item.label.Firefox Add-ons": {
+    "message": "إضافات Firefox",
+    "description": "The label of footer link with label=Firefox Add-ons linking to https://addons.mozilla.org/en-US/firefox/addon/video-controls-plus/"
+  },
+  "link.item.label.Microsoft Edge Add-ons": {
+    "message": "إضافات Microsoft Edge",
+    "description": "The label of footer link with label=Microsoft Edge Add-ons linking to https://microsoftedge.microsoft.com/addons/detail/video-controls-plus/ghjcpobkbbhefdlgffopfhlepkgcknlb"
+  },
+  "link.item.label.Website": {
+    "message": "الموقع الإلكتروني",
+    "description": "The label of footer link with label=Website linking to https://vcpeai.aoneahsan.com"
+  },
+  "link.item.label.All apps": {
+    "message": "كل التطبيقات",
+    "description": "The label of footer link with label=All apps linking to /apps"
+  },
+  "link.item.label.Features": {
+    "message": "الميزات",
+    "description": "The label of footer link with label=Features linking to https://vcpeai.aoneahsan.com/features"
+  },
+  "link.item.label.How it works": {
+    "message": "كيف تعمل",
+    "description": "The label of footer link with label=How it works linking to https://vcpeai.aoneahsan.com/how-it-works"
+  },
+  "link.item.label.Compare": {
+    "message": "قارن",
+    "description": "The label of footer link with label=Compare linking to https://vcpeai.aoneahsan.com/compare/extensions"
+  },
+  "link.item.label.Plans": {
+    "message": "الخطط",
+    "description": "The label of footer link with label=Plans linking to https://vcpeai.aoneahsan.com/plans"
+  },
+  "link.item.label.About": {
+    "message": "حول المنتج",
+    "description": "The label of footer link with label=About linking to https://vcpeai.aoneahsan.com/about"
+  },
+  "link.item.label.More from Zaions": {
+    "message": "المزيد من Zaions",
+    "description": "The label of footer link with label=More from Zaions linking to /ecosystem"
+  },
+  "link.item.label.About the developer": {
+    "message": "عن المطوّر",
+    "description": "The label of footer link with label=About the developer linking to /about-developer"
+  },
+  "link.item.label.Website guides": {
+    "message": "أدلة الموقع",
+    "description": "The label of footer link with label=Website guides linking to https://vcpeai.aoneahsan.com/docs"
+  },
+  "link.item.label.Full documentation": {
+    "message": "الأدلة الكاملة",
+    "description": "The label of footer link with label=Full documentation linking to /docs/intro"
+  },
+  "link.item.label.Developers": {
+    "message": "للمطوّرين",
+    "description": "The label of footer link with label=Developers linking to /docs/developers"
+  },
+  "link.item.label.Page index": {
+    "message": "فهرس الصفحات",
+    "description": "The label of footer link with label=Page index linking to /sitemap"
+  },
+  "link.item.label.Policy pages": {
+    "message": "صفحات السياسات",
+    "description": "The label of footer link with label=Policy pages linking to https://vcpeai.aoneahsan.com/privacy"
   }
 }

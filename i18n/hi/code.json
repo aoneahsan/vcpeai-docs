@@ -419,7 +419,7 @@
     "description": "The title of the page for a blog tag"
   },
   "theme.blog.author.pageTitle": {
-    "message": "{authorName} - {nPosts}",
+    "message": "{authorName} — {nPosts} पोस्ट",
     "description": "The title of the page for a blog author"
   },
   "theme.blog.authorsList.pageTitle": {
@@ -984,5 +984,173 @@
   },
   "aboutDeveloper.breadcrumb": {
     "message": "डेवलपर के बारे में"
+  },
+  "apps.lede": {
+    "message": "Video Controls Plus आपके ब्राउज़र में चलता है। अपने ब्राउज़र के स्टोर से इसे जोड़ें और ज़रूरत पड़ने पर ये गाइड खोल लें।"
+  },
+  "apps.chrome.title": {
+    "message": "Chrome और अन्य Chromium ब्राउज़र"
+  },
+  "apps.chrome.text": {
+    "message": "अधिकांश लोग इसी स्टोर की लिस्टिंग से इंस्टॉल करते हैं।"
+  },
+  "apps.chrome.cta": {
+    "message": "Chrome में जोड़ें"
+  },
+  "apps.firefox.title": {
+    "message": "कंप्यूटर पर Firefox"
+  },
+  "apps.firefox.text": {
+    "message": "वही विजेट और स्पीड कुंजियाँ, Mozilla के ऐड-ऑन स्टोर से।"
+  },
+  "apps.firefox.cta": {
+    "message": "Firefox में जोड़ें"
+  },
+  "apps.edge.title": {
+    "message": "घर या काम पर Edge"
+  },
+  "apps.edge.text": {
+    "message": "उन प्रबंधित Windows कंप्यूटरों पर भी, जहाँ केवल Edge स्टोर की अनुमति है।"
+  },
+  "apps.edge.cta": {
+    "message": "Edge में जोड़ें"
+  },
+  "apps.web.title": {
+    "message": "वेबसाइट"
+  },
+  "apps.web.text": {
+    "message": "आपका अकाउंट, प्लान और लाइब्रेरी। लूप और नोट्स सँभालने के लिए एक्सटेंशन को यहाँ जोड़ें।"
+  },
+  "apps.web.cta": {
+    "message": "वेबसाइट खोलें"
+  },
+  "apps.docs.title": {
+    "message": "ये दस्तावेज़"
+  },
+  "apps.docs.text": {
+    "message": "हर नियंत्रण का लिखित तरीका।"
+  },
+  "apps.docs.cta": {
+    "message": "दस्तावेज़ पढ़ें"
+  },
+  "apps.title": {
+    "message": "Video Controls Plus पाएँ"
+  },
+  "apps.eyebrow": {
+    "message": "Video Controls Plus पाएँ"
+  },
+  "apps.heading": {
+    "message": "जिस ब्राउज़र में देखें, गति अपनी रखें।"
+  },
+  "apps.listLabel": {
+    "message": "01 / कहाँ चलता है"
+  },
+  "apps.listTitle": {
+    "message": "अपना ब्राउज़र चुनें।"
+  },
+  "apps.current": {
+    "message": "अभी यही पेज खुला है"
+  },
+  "feed.description_with_posts": {
+    "message": "Video Controls Plus की रिलीज़ और पोस्ट, नए से पुराने क्रम में, RSS और Atom फ़ीड सहित।"
+  },
+  "feed.discovery": {
+    "message": "दस्तावेज़ / खोजें"
+  },
+  "feed.intro_with_posts": {
+    "message": "फ़ीड में पहले रिलीज़ की प्रविष्टियाँ, फिर पोस्ट, नए से पुराने क्रम में हैं। साइटमैप में हर गाइड, रिलीज़ और पोस्ट दस्तावेज़ों के क्रम में रखी है।"
+  },
+  "feed.intro": {
+    "message": "फ़ीड में रिलीज़ की प्रविष्टियाँ नए से पुराने क्रम में हैं। साइटमैप में हर गाइड और रिलीज़ दस्तावेज़ों के क्रम में रखी है।"
+  },
+  "feed.tab": {
+    "message": "फ़ीड"
+  },
+  "feed.sitemapTab": {
+    "message": "साइटमैप"
+  },
+  "feed.machineFeeds": {
+    "message": "मशीन से पढ़ी जा सकने वाली फ़ीड"
+  },
+  "feed.follow": {
+    "message": "रिलीज़ की जानकारी पाते रहें।"
+  },
+  "feed.postsEyebrow": {
+    "message": "पोस्ट"
+  },
+  "feed.followPosts": {
+    "message": "नई पोस्ट की जानकारी पाते रहें।"
+  },
+  "home.description": {
+    "message": "Video Controls Plus के दस्तावेज़: 0.1x से 16x स्पीड, A-B लूप, 400% ऑडियो बूस्ट, YouTube, Netflix और LinkedIn के अतिरिक्त टूल, शॉर्टकट और आपका डेटा।"
+  },
+  "home.startHere": {
+    "message": "दस्तावेज़ / यहाँ से शुरू करें"
+  },
+  "home.addToChrome": {
+    "message": "Chrome में जोड़ें"
+  },
+  "home.alsoOn": {
+    "message": "यहाँ भी उपलब्ध"
+  },
+  "home.allApps": {
+    "message": "सभी प्लेटफ़ॉर्म"
+  },
+  "home.factsLabel": {
+    "message": "01 / पहले जानें"
+  },
+  "home.factsTitle": {
+    "message": "शुरू में पूछी जाने वाली चार बातें।"
+  },
+  "home.openArticle": {
+    "message": "लेख पढ़ें"
+  },
+  "home.creditFull": {
+    "message": "ये दस्तावेज़ {zaions} की Video Controls Plus टीम ने लिखे हैं। यह डेवलपर {developer} की उत्पाद कंपनी है। हर प्लेटफ़ॉर्म की चरण-दर-चरण गाइड {blog} पर है।"
+  },
+  "home.blogName": {
+    "message": "Video Controls Plus ब्लॉग"
+  },
+  "home.sectionsLabel": {
+    "message": "02 / दस्तावेज़ के भाग"
+  },
+  "home.pickNext": {
+    "message": "अब क्या पढ़ेंगे?"
+  },
+  "home.documentation": {
+    "message": "दस्तावेज़"
+  },
+  "home.searchSitemap": {
+    "message": "दस्तावेज़ों के साइटमैप में खोजें"
+  },
+  "sitemap.blog": {
+    "message": "ब्लॉग"
+  },
+  "sitemap.description_with_posts": {
+    "message": "Video Controls Plus के सभी दस्तावेज़, रिलीज़ प्रविष्टियाँ और पोस्ट।"
+  },
+  "sitemap.discovery": {
+    "message": "दस्तावेज़ / खोजें"
+  },
+  "sitemap.intro_with_posts": {
+    "message": "फ़ीड में पहले रिलीज़ की प्रविष्टियाँ, फिर पोस्ट, नए से पुराने क्रम में हैं। साइटमैप में हर गाइड, रिलीज़ और पोस्ट दस्तावेज़ों के क्रम में रखी है।"
+  },
+  "sitemap.intro": {
+    "message": "फ़ीड में रिलीज़ की प्रविष्टियाँ नए से पुराने क्रम में हैं। साइटमैप में हर गाइड और रिलीज़ दस्तावेज़ों के क्रम में रखी है।"
+  },
+  "sitemap.feedTab": {
+    "message": "फ़ीड"
+  },
+  "sitemap.tab": {
+    "message": "साइटमैप"
+  },
+  "sitemap.pageIndex": {
+    "message": "दस्तावेज़ / पेज सूची"
+  },
+  "sitemap.findGuide": {
+    "message": "अपनी गाइड ढूँढ़ें।"
+  },
+  "sitemap.ecosystemAll": {
+    "message": "Zaions के और उत्पाद: पूरी सूची"
   }
 }

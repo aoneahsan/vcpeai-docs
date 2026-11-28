@@ -104,7 +104,7 @@ export default function Sitemap(): React.JSX.Element {
           <li>
             <Link href={PRODUCT_URL}>Video Controls Plus</Link>
           </li>
-          <li><Link to="/ecosystem">More from Zaions: every product</Link></li>
+          <li><Link to="/ecosystem"><Translate id="sitemap.ecosystemAll">More from Zaions: every product</Translate></Link></li>
           <li><Link to="/about-developer"><Translate id="aboutDeveloper.breadcrumb">About the developer</Translate></Link></li>
           {ecosystemProducts.map((product) => <li key={product.id}><Link to={`/ecosystem/${product.id}`}>{product.name}</Link></li>)}
         </ul>

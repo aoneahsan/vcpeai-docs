@@ -419,7 +419,7 @@
     "description": "The title of the page for a blog tag"
   },
   "theme.blog.author.pageTitle": {
-    "message": "{authorName} - {nPosts}",
+    "message": "{authorName} の記事（{nPosts} 件）",
     "description": "The title of the page for a blog author"
   },
   "theme.blog.authorsList.pageTitle": {
@@ -467,32 +467,25 @@
     "description": "The title of the tag list page"
   },
   "ecosystem.title": {
-    "message": "Zaions はほかに何を作っていますか？",
-    "description": "Japanese translation for ecosystem.title"
+    "message": "Zaions はほかに何を作っていますか？"
   },
   "ecosystem.description": {
-    "message": "Video Controls Plus を作るチームの、ほかの Zaions 製品をご紹介します。",
-    "description": "Japanese translation for ecosystem.description"
+    "message": "Video Controls Plus を作るチームの、ほかの Zaions 製品をご紹介します。"
   },
   "ecosystem.eyebrow": {
-    "message": "動画プレーヤーの外へ / Zaions",
-    "description": "Japanese translation for ecosystem.eyebrow"
+    "message": "動画プレーヤーの外へ / Zaions"
   },
   "ecosystem.intro": {
-    "message": "Zaions はオンライン動画以外にも、さまざまな目的の製品を作っています。メッセージアプリや健康記録から、開発者向けパッケージ、端末の整理ツールまで。このページには同じチームのほかの製品を掲載しています。カードを開くと、製品の用途、対応環境、利用前に知っておきたい制限を確認できます。詳しくは各製品のサイトをご覧ください。製品ごとにアカウントと使い方は別です。ここに掲載されていても、Video Controls Plus と連携するわけではありません。",
-    "description": "Japanese translation for ecosystem.intro"
+    "message": "Zaions はオンライン動画以外にも、さまざまな目的の製品を作っています。メッセージアプリや健康記録から、開発者向けパッケージ、端末の整理ツールまで。このページには同じチームのほかの製品を掲載しています。カードを開くと、製品の用途、対応環境、利用前に知っておきたい制限を確認できます。詳しくは各製品のサイトをご覧ください。製品ごとにアカウントと使い方は別です。ここに掲載されていても、Video Controls Plus と連携するわけではありません。"
   },
   "ecosystem.viewsIntro": {
-    "message": "カードで探すグリッド、順に読むリスト、名前・分類・対応環境を見比べる表から選べます。どの表示にも同じ製品が並び、表示を切り替えても見ていた位置を保てます。",
-    "description": "Japanese translation for ecosystem.viewsIntro"
+    "message": "カードで探すグリッド、順に読むリスト、名前・分類・対応環境を見比べる表から選べます。どの表示にも同じ製品が並び、表示を切り替えても見ていた位置を保てます。"
   },
   "ecosystem.otherProducts": {
-    "message": "ほかの製品 {count} 件",
-    "description": "Japanese translation for ecosystem.otherProducts"
+    "message": "ほかの製品 {count} 件"
   },
   "ecosystem.chooseView": {
-    "message": "製品の表示方法を選ぶ",
-    "description": "Japanese translation for ecosystem.chooseView"
+    "message": "製品の表示方法を選ぶ"
   },
   "ecosystem.view.grid": {
     "message": "グリッド",
@@ -507,92 +500,70 @@
     "description": "Japanese translation for ecosystem.view.table"
   },
   "ecosystem.table.product": {
-    "message": "製品",
-    "description": "Japanese translation for ecosystem.table.product"
+    "message": "製品"
   },
   "ecosystem.table.category": {
-    "message": "分類",
-    "description": "Japanese translation for ecosystem.table.category"
+    "message": "分類"
   },
   "ecosystem.table.platform": {
-    "message": "対応環境",
-    "description": "Japanese translation for ecosystem.table.platform"
+    "message": "対応環境"
   },
   "ecosystem.table.description": {
-    "message": "できること",
-    "description": "Japanese translation for ecosystem.table.description"
+    "message": "できること"
   },
   "ecosystem.table.actions": {
-    "message": "リンク",
-    "description": "Japanese translation for ecosystem.table.actions"
+    "message": "リンク"
   },
   "ecosystem.visitNamedProduct": {
-    "message": "{name} のサイトへ",
-    "description": "Japanese translation for ecosystem.visitNamedProduct"
+    "message": "{name} のサイトへ"
   },
   "ecosystem.details": {
-    "message": "詳しく見る",
-    "description": "Japanese translation for ecosystem.details"
+    "message": "詳しく見る"
   },
   "ecosystem.moreFromZaions": {
-    "message": "Zaions のほかの製品",
-    "description": "Japanese translation for ecosystem.moreFromZaions"
+    "message": "Zaions のほかの製品"
   },
   "ecosystem.openProduct": {
-    "message": "{name} を開く",
-    "description": "Japanese translation for ecosystem.openProduct"
+    "message": "{name} を開く"
   },
   "ecosystem.anotherProduct": {
-    "message": "ZAIONS の別の製品",
-    "description": "Japanese translation for ecosystem.anotherProduct"
+    "message": "ZAIONS の別の製品"
   },
   "ecosystem.visitProduct": {
-    "message": "製品サイトへ",
-    "description": "Japanese translation for ecosystem.visitProduct"
+    "message": "製品サイトへ"
   },
   "ecosystem.readDocs": {
-    "message": "ドキュメントを読む",
-    "description": "Japanese translation for ecosystem.readDocs"
+    "message": "ドキュメントを読む"
   },
   "ecosystem.backToProducts": {
-    "message": "製品一覧に戻る",
-    "description": "Japanese translation for ecosystem.backToProducts"
+    "message": "製品一覧に戻る"
   },
   "ecosystem.carousel": {
-    "message": "カルーセル",
-    "description": "Japanese translation for ecosystem.carousel"
+    "message": "カルーセル"
   },
   "ecosystem.sameTeam": {
-    "message": "同じチームの製品",
-    "description": "Japanese translation for ecosystem.sameTeam"
+    "message": "同じチームの製品"
   },
   "ecosystem.seeAll": {
-    "message": "すべての製品を見る",
-    "description": "Japanese translation for ecosystem.seeAll"
+    "message": "すべての製品を見る"
   },
   "ecosystem.previousProduct": {
-    "message": "前の製品",
-    "description": "Japanese translation for ecosystem.previousProduct"
+    "message": "前の製品"
   },
   "ecosystem.nextProduct": {
-    "message": "次の製品",
-    "description": "Japanese translation for ecosystem.nextProduct"
+    "message": "次の製品"
   },
   "ecosystem.slide": {
-    "message": "スライド",
-    "description": "Japanese translation for ecosystem.slide"
+    "message": "スライド"
   },
   "ecosystem.positionOf": {
-    "message": "{total} 件中 {position} 件目",
-    "description": "Japanese translation for ecosystem.positionOf"
+    "message": "{total} 件中 {position} 件目"
   },
   "ecosystem.play": {
-    "message": "再生",
-    "description": "Japanese translation for ecosystem.play"
+    "message": "再生"
   },
   "ecosystem.pause": {
-    "message": "一時停止",
-    "description": "Japanese translation for ecosystem.pause"
+    "message": "一時停止"
   },
   "ecosystem.category.web-app": {
     "message": "ウェブアプリ",
@@ -1147,15 +1118,181 @@
     "description": "Japanese translation for ecosystem.product.ztools.paragraph.3"
   },
   "aboutDeveloper.title": {
-    "message": "Video Controls Plus を作った人",
-    "description": "Japanese translation for aboutDeveloper.title"
+    "message": "Video Controls Plus を作った人"
   },
   "aboutDeveloper.docsBreadcrumb": {
-    "message": "Video Controls Plus ドキュメント",
-    "description": "Japanese translation for aboutDeveloper.docsBreadcrumb"
+    "message": "Video Controls Plus ドキュメント"
   },
   "aboutDeveloper.breadcrumb": {
-    "message": "開発者について",
-    "description": "Japanese translation for aboutDeveloper.breadcrumb"
+    "message": "開発者について"
+  },
+  "apps.lede": {
+    "message": "Video Controls Plus はブラウザーで使えます。お使いのブラウザーのストアから追加してください。使い方はこのドキュメントですぐ確認できます。"
+  },
+  "apps.chrome.title": {
+    "message": "Chrome と Chromium 系ブラウザー"
+  },
+  "apps.chrome.text": {
+    "message": "多くの方がインストールに使うストア掲載です。"
+  },
+  "apps.chrome.cta": {
+    "message": "Chrome に追加"
+  },
+  "apps.firefox.title": {
+    "message": "パソコンの Firefox"
+  },
+  "apps.firefox.text": {
+    "message": "同じウィジェットと速度キーを、Mozilla のアドオンストアから入手できます。"
+  },
+  "apps.firefox.cta": {
+    "message": "Firefox に追加"
+  },
+  "apps.edge.title": {
+    "message": "自宅でも職場でも Edge"
+  },
+  "apps.edge.text": {
+    "message": "Edge ストアだけを許可する管理対象の Windows 端末でも利用できます。"
+  },
+  "apps.edge.cta": {
+    "message": "Edge に追加"
+  },
+  "apps.web.title": {
+    "message": "ウェブサイト"
+  },
+  "apps.web.text": {
+    "message": "アカウント、プラン、ライブラリーがあります。拡張機能を接続すると、ループやメモを保存できます。"
+  },
+  "apps.web.cta": {
+    "message": "ウェブサイトを開く"
+  },
+  "apps.docs.title": {
+    "message": "このドキュメント"
+  },
+  "apps.docs.text": {
+    "message": "すべての操作方法をまとめています。"
+  },
+  "apps.docs.cta": {
+    "message": "ドキュメントを読む"
+  },
+  "apps.title": {
+    "message": "Video Controls Plus を入手"
+  },
+  "apps.eyebrow": {
+    "message": "Video Controls Plus を入手"
+  },
+  "apps.heading": {
+    "message": "いつものブラウザーで、自分のペースに。"
+  },
+  "apps.listLabel": {
+    "message": "01 / 対応環境"
+  },
+  "apps.listTitle": {
+    "message": "使う場所を選ぶ。"
+  },
+  "apps.current": {
+    "message": "今開いているページ"
+  },
+  "feed.description_with_posts": {
+    "message": "Video Controls Plus の更新履歴と記事を新しい順に掲載。RSS と Atom でも購読できます。"
+  },
+  "feed.discovery": {
+    "message": "ドキュメント / 記事を探す"
+  },
+  "feed.intro_with_posts": {
+    "message": "このフィードには更新履歴と記事を新しい順に並べています。サイトマップでは、すべてのガイド、更新履歴、記事をドキュメントの分類ごとに探せます。"
+  },
+  "feed.intro": {
+    "message": "このフィードには更新履歴を新しい順に並べています。サイトマップでは、すべてのガイドと更新履歴をドキュメントの分類ごとに探せます。"
+  },
+  "feed.tab": {
+    "message": "フィード"
+  },
+  "feed.sitemapTab": {
+    "message": "サイトマップ"
+  },
+  "feed.machineFeeds": {
+    "message": "機械可読のフィード"
+  },
+  "feed.follow": {
+    "message": "更新履歴を購読する。"
+  },
+  "feed.postsEyebrow": {
+    "message": "記事"
+  },
+  "feed.followPosts": {
+    "message": "記事を購読する。"
+  },
+  "home.description": {
+    "message": "Video Controls Plus のドキュメント。0.1～16 倍速、A-B ループ、最大 400% の音量ブースト、YouTube・Netflix・LinkedIn の追加機能、ショートカット、データの扱いを説明します。"
+  },
+  "home.startHere": {
+    "message": "ドキュメント / はじめに"
+  },
+  "home.addToChrome": {
+    "message": "Chrome に追加"
+  },
+  "home.alsoOn": {
+    "message": "ほかの対応環境"
+  },
+  "home.allApps": {
+    "message": "すべてのアプリ"
+  },
+  "home.factsLabel": {
+    "message": "01 / 読み始める前に"
+  },
+  "home.factsTitle": {
+    "message": "最初によく聞かれる四つのこと。"
+  },
+  "home.openArticle": {
+    "message": "記事を開く"
+  },
+  "home.sectionsLabel": {
+    "message": "02 / ドキュメントの分類"
+  },
+  "home.pickNext": {
+    "message": "次に読むページを選ぶ。"
+  },
+  "home.documentation": {
+    "message": "ドキュメント"
+  },
+  "home.searchSitemap": {
+    "message": "ドキュメントのサイトマップを検索"
+  },
+  "sitemap.blog": {
+    "message": "ブログ"
+  },
+  "sitemap.description_with_posts": {
+    "message": "Video Controls Plus のすべてのドキュメント、更新履歴、記事。"
+  },
+  "sitemap.discovery": {
+    "message": "ドキュメント / 記事を探す"
+  },
+  "sitemap.intro_with_posts": {
+    "message": "このフィードには更新履歴と記事を新しい順に並べています。サイトマップでは、すべてのガイド、更新履歴、記事をドキュメントの分類ごとに探せます。"
+  },
+  "sitemap.intro": {
+    "message": "このフィードには更新履歴を新しい順に並べています。サイトマップでは、すべてのガイドと更新履歴をドキュメントの分類ごとに探せます。"
+  },
+  "sitemap.feedTab": {
+    "message": "フィード"
+  },
+  "sitemap.tab": {
+    "message": "サイトマップ"
+  },
+  "sitemap.pageIndex": {
+    "message": "ドキュメント / ページ一覧"
+  },
+  "sitemap.findGuide": {
+    "message": "ガイドを探す。"
+  },
+  "sitemap.ecosystemAll": {
+    "message": "Zaions のほかの製品：すべて見る"
+  },
+  "home.creditFull": {
+    "message": "{zaions} の Video Controls Plus チームが執筆しました。創業者・開発者は {developer} です。各環境の手順は {blog} で確認できます。",
+    "description": "Japanese translation for the full home-page credit with linked company, developer and blog"
+  },
+  "home.blogName": {
+    "message": "Video Controls Plus のブログ"
   }
 }

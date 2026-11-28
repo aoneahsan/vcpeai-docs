@@ -25,14 +25,14 @@
   },
   "sidebar.docsSidebar.category.Moving to Video Controls Plus": {
     "message": "Video Controls Plus پر آئیں",
-    "description": "The label for category Moving to Video Controls Plus"
+    "description": "The label for category 'Moving to Video Controls Plus' in sidebar 'docsSidebar'"
   },
   "sidebar.docsSidebar.category.White-label & licensing": {
     "message": "اپنے برانڈ کا لائسنس",
-    "description": "The label for category White-label & licensing"
+    "description": "The label for category 'White-label & licensing' in sidebar 'docsSidebar'"
   },
   "sidebar.docsSidebar.category.Developers": {
     "message": "ڈیولپرز",
-    "description": "The label for category Developers"
+    "description": "The label for category 'Developers' in sidebar 'docsSidebar'"
   }
 }

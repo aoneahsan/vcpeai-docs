@@ -984,5 +984,173 @@
   },
   "aboutDeveloper.breadcrumb": {
     "message": "О разработчике"
+  },
+  "apps.lede": {
+    "message": "Video Controls Plus работает в браузере. Установите расширение из магазина вашего браузера, а эту документацию держите под рукой."
+  },
+  "apps.chrome.title": {
+    "message": "Chrome и другие браузеры на Chromium"
+  },
+  "apps.chrome.text": {
+    "message": "Страница, с которой расширение устанавливают чаще всего."
+  },
+  "apps.chrome.cta": {
+    "message": "Установить в Chrome"
+  },
+  "apps.firefox.title": {
+    "message": "Firefox на компьютере"
+  },
+  "apps.firefox.text": {
+    "message": "Тот же виджет и клавиши управления скоростью — из магазина дополнений Mozilla."
+  },
+  "apps.firefox.cta": {
+    "message": "Установить в Firefox"
+  },
+  "apps.edge.title": {
+    "message": "Edge дома и на работе"
+  },
+  "apps.edge.text": {
+    "message": "В том числе на управляемых компьютерах Windows, где разрешён только магазин Edge."
+  },
+  "apps.edge.cta": {
+    "message": "Установить для Edge"
+  },
+  "apps.web.title": {
+    "message": "Веб-сайт"
+  },
+  "apps.web.text": {
+    "message": "Учётная запись, тарифы и библиотека. Подключите здесь расширение, чтобы сохранять повторы и заметки."
+  },
+  "apps.web.cta": {
+    "message": "Открыть сайт"
+  },
+  "apps.docs.title": {
+    "message": "Эта документация"
+  },
+  "apps.docs.text": {
+    "message": "Здесь описан каждый элемент управления."
+  },
+  "apps.docs.cta": {
+    "message": "Читать документацию"
+  },
+  "apps.title": {
+    "message": "Установить Video Controls Plus"
+  },
+  "apps.eyebrow": {
+    "message": "Установить Video Controls Plus"
+  },
+  "apps.heading": {
+    "message": "Ваш темп — в браузере, где вы смотрите видео."
+  },
+  "apps.listLabel": {
+    "message": "01 / Где работает"
+  },
+  "apps.listTitle": {
+    "message": "Выберите браузер или сайт."
+  },
+  "apps.current": {
+    "message": "Вы уже здесь"
+  },
+  "feed.description_with_posts": {
+    "message": "Записи об изменениях и публикации Video Controls Plus, сначала новые. Ленты RSS и Atom."
+  },
+  "feed.discovery": {
+    "message": "Документация / Обзор"
+  },
+  "feed.intro_with_posts": {
+    "message": "В ленте сначала идут записи об изменениях, затем публикации — от новых к старым. В карте сайта собраны все руководства, выпуски и публикации по разделам документации."
+  },
+  "feed.intro": {
+    "message": "В ленте записи об изменениях идут от новых к старым. В карте сайта собраны все руководства и выпуски по разделам документации."
+  },
+  "feed.tab": {
+    "message": "Лента"
+  },
+  "feed.sitemapTab": {
+    "message": "Карта сайта"
+  },
+  "feed.machineFeeds": {
+    "message": "Ленты для программ"
+  },
+  "feed.follow": {
+    "message": "Следите за изменениями."
+  },
+  "feed.postsEyebrow": {
+    "message": "Публикации"
+  },
+  "feed.followPosts": {
+    "message": "Следите за публикациями."
+  },
+  "home.description": {
+    "message": "Документация Video Controls Plus: скорость от 0,1× до 16×, повтор A–B, усиление звука до 400 %, возможности для YouTube, Netflix и LinkedIn, сочетания клавиш и ваши данные."
+  },
+  "home.startHere": {
+    "message": "Документация / Начните здесь"
+  },
+  "home.addToChrome": {
+    "message": "Установить в Chrome"
+  },
+  "home.alsoOn": {
+    "message": "Также доступно в"
+  },
+  "home.allApps": {
+    "message": "Все платформы"
+  },
+  "home.factsLabel": {
+    "message": "01 / Перед чтением"
+  },
+  "home.factsTitle": {
+    "message": "Ответы на четыре первых вопроса."
+  },
+  "home.openArticle": {
+    "message": "Открыть статью"
+  },
+  "home.sectionsLabel": {
+    "message": "02 / Разделы документации"
+  },
+  "home.pickNext": {
+    "message": "Выберите следующую страницу."
+  },
+  "home.documentation": {
+    "message": "Документация"
+  },
+  "home.searchSitemap": {
+    "message": "Искать в карте документации"
+  },
+  "sitemap.blog": {
+    "message": "Блог"
+  },
+  "sitemap.description_with_posts": {
+    "message": "Все страницы документации, записи об изменениях и публикации Video Controls Plus."
+  },
+  "sitemap.discovery": {
+    "message": "Документация / Обзор"
+  },
+  "sitemap.intro_with_posts": {
+    "message": "В ленте сначала идут записи об изменениях, затем публикации — от новых к старым. В карте сайта собраны все руководства, выпуски и публикации по разделам документации."
+  },
+  "sitemap.intro": {
+    "message": "В ленте записи об изменениях идут от новых к старым. В карте сайта собраны все руководства и выпуски по разделам документации."
+  },
+  "sitemap.feedTab": {
+    "message": "Лента"
+  },
+  "sitemap.tab": {
+    "message": "Карта сайта"
+  },
+  "sitemap.pageIndex": {
+    "message": "Документация / Указатель страниц"
+  },
+  "sitemap.findGuide": {
+    "message": "Найдите нужное руководство."
+  },
+  "sitemap.ecosystemAll": {
+    "message": "Другие продукты Zaions: полный список"
+  },
+  "home.creditFull": {
+    "message": "Документацию написала команда Video Controls Plus в {zaions}, компании разработчика {developer}. Пошаговые руководства для каждой платформы опубликованы в {blog}."
+  },
+  "home.blogName": {
+    "message": "блоге Video Controls Plus"
   }
 }

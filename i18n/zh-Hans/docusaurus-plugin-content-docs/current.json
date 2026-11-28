@@ -22,5 +22,17 @@
   "sidebar.docsSidebar.link.Changelog": {
     "message": "更新记录",
     "description": "The label for link 'Changelog' in sidebar 'docsSidebar', linking to '/changelog'"
+  },
+  "sidebar.docsSidebar.category.Moving to Video Controls Plus": {
+    "message": "迁移到 Video Controls Plus",
+    "description": "The label for category 'Moving to Video Controls Plus' in sidebar 'docsSidebar'"
+  },
+  "sidebar.docsSidebar.category.White-label & licensing": {
+    "message": "白标与授权",
+    "description": "The label for category 'White-label & licensing' in sidebar 'docsSidebar'"
+  },
+  "sidebar.docsSidebar.category.Developers": {
+    "message": "开发者",
+    "description": "The label for category 'Developers' in sidebar 'docsSidebar'"
   }
 }

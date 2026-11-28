@@ -975,5 +975,182 @@
   },
   "ecosystem.category.wordpress-plugin-saas": {
     "message": "WordPress 插件与 SaaS"
+  },
+  "apps.lede": {
+    "message": "Video Controls Plus 在浏览器中运行。请从适合你浏览器的商店安装扩展，并保留这些指南，方便随时查看。"
+  },
+  "apps.chrome.title": {
+    "message": "Chrome 及其他 Chromium 浏览器"
+  },
+  "apps.chrome.text": {
+    "message": "多数用户从这个商店页面安装。"
+  },
+  "apps.chrome.cta": {
+    "message": "添加到 Chrome"
+  },
+  "apps.firefox.title": {
+    "message": "电脑上的 Firefox"
+  },
+  "apps.firefox.text": {
+    "message": "同样的浮动控件和调速快捷键，来自 Mozilla 附加组件商店。"
+  },
+  "apps.firefox.cta": {
+    "message": "添加到 Firefox"
+  },
+  "apps.edge.title": {
+    "message": "家里或工作中的 Edge"
+  },
+  "apps.edge.text": {
+    "message": "也适用于只能从 Edge 商店安装扩展的受管理 Windows 设备。"
+  },
+  "apps.edge.cta": {
+    "message": "在 Edge 上获取"
+  },
+  "apps.web.title": {
+    "message": "产品网站"
+  },
+  "apps.web.text": {
+    "message": "账户、方案和资料库都在那里。连接扩展程序后，可以保存循环设置和笔记。"
+  },
+  "apps.web.cta": {
+    "message": "打开网站"
+  },
+  "apps.docs.title": {
+    "message": "本页文档"
+  },
+  "apps.docs.text": {
+    "message": "每项控制都有文字说明。"
+  },
+  "apps.docs.cta": {
+    "message": "阅读文档"
+  },
+  "apps.title": {
+    "message": "获取 Video Controls Plus"
+  },
+  "apps.eyebrow": {
+    "message": "获取 Video Controls Plus"
+  },
+  "apps.heading": {
+    "message": "在常用浏览器中，按自己的节奏观看。"
+  },
+  "apps.listLabel": {
+    "message": "01 / 适用平台"
+  },
+  "apps.listTitle": {
+    "message": "选择使用位置。"
+  },
+  "apps.current": {
+    "message": "你正在阅读此页"
+  },
+  "feed.description_with_posts": {
+    "message": "按时间从新到旧查看 Video Controls Plus 更新记录和文章，并订阅 RSS 或 Atom。"
+  },
+  "feed.discovery": {
+    "message": "文档 / 探索"
+  },
+  "feed.intro_with_posts": {
+    "message": "订阅源按时间从新到旧列出更新记录和文章。网站地图则按文档导航汇集所有指南、版本记录和文章。"
+  },
+  "feed.intro": {
+    "message": "订阅源按时间从新到旧列出更新记录。网站地图则按文档导航汇集所有指南和版本记录。"
+  },
+  "feed.tab": {
+    "message": "订阅源"
+  },
+  "feed.sitemapTab": {
+    "message": "网站地图"
+  },
+  "feed.machineFeeds": {
+    "message": "机器可读的订阅源"
+  },
+  "feed.follow": {
+    "message": "订阅更新记录。"
+  },
+  "feed.postsEyebrow": {
+    "message": "文章"
+  },
+  "feed.followPosts": {
+    "message": "订阅文章。"
+  },
+  "home.description": {
+    "message": "Video Controls Plus 文档：0.1x 至 16x 调速、A-B 循环、最高 400% 音量增强、YouTube、Netflix 和 LinkedIn 专属功能、快捷键及数据管理。"
+  },
+  "home.startHere": {
+    "message": "文档 / 从这里开始"
+  },
+  "home.addToChrome": {
+    "message": "添加到 Chrome"
+  },
+  "home.alsoOn": {
+    "message": "也可用于"
+  },
+  "home.allApps": {
+    "message": "所有平台"
+  },
+  "home.factsLabel": {
+    "message": "01 / 阅读前"
+  },
+  "home.factsTitle": {
+    "message": "先回答四个常见问题。"
+  },
+  "home.openArticle": {
+    "message": "打开文章"
+  },
+  "home.creditFull": {
+    "message": "Video Controls Plus 文档由 {zaions} 团队编写。这家产品公司由开发者 {developer} 创办。各平台的分步指南见 {blog}。"
+  },
+  "home.blogName": {
+    "message": "Video Controls Plus 博客"
+  },
+  "home.sectionsLabel": {
+    "message": "02 / 文档分区"
+  },
+  "home.pickNext": {
+    "message": "选择下一页。"
+  },
+  "home.documentation": {
+    "message": "文档"
+  },
+  "home.searchSitemap": {
+    "message": "搜索文档网站地图"
+  },
+  "sitemap.blog": {
+    "message": "博客"
+  },
+  "sitemap.description_with_posts": {
+    "message": "Video Controls Plus 的全部文档页面、更新记录和文章。"
+  },
+  "sitemap.discovery": {
+    "message": "文档 / 探索"
+  },
+  "sitemap.intro_with_posts": {
+    "message": "订阅源按时间从新到旧列出更新记录和文章。网站地图则按文档导航汇集所有指南、版本记录和文章。"
+  },
+  "sitemap.intro": {
+    "message": "订阅源按时间从新到旧列出更新记录。网站地图则按文档导航汇集所有指南和版本记录。"
+  },
+  "sitemap.feedTab": {
+    "message": "订阅源"
+  },
+  "sitemap.tab": {
+    "message": "网站地图"
+  },
+  "sitemap.pageIndex": {
+    "message": "文档 / 页面索引"
+  },
+  "sitemap.findGuide": {
+    "message": "查找指南。"
+  },
+  "sitemap.ecosystemAll": {
+    "message": "更多 Zaions 产品：完整目录"
+  },
+  "aboutDeveloper.breadcrumb": {
+    "message": "关于开发者"
+  },
+  "aboutDeveloper.title": {
+    "message": "谁开发了 Video Controls Plus？"
+  },
+  "aboutDeveloper.docsBreadcrumb": {
+    "message": "Video Controls Plus 文档"
   }
 }
