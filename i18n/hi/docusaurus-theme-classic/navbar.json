@@ -4,19 +4,19 @@
     "description": "The title in the navbar"
   },
   "logo.alt": {
-    "message": "Video Controls Plus logo",
+    "message": "Video Controls Plus का लोगो",
     "description": "The alt text of navbar logo"
   },
   "item.label.Docs": {
-    "message": "Docs",
+    "message": "डॉक्स",
     "description": "Navbar item with label Docs"
   },
   "item.label.Changelog": {
-    "message": "Changelog",
+    "message": "बदलावों की सूची",
     "description": "Navbar item with label Changelog"
   },
   "item.label.Product website": {
-    "message": "Product website",
+    "message": "उत्पाद वेबसाइट",
     "description": "Navbar item with label Product website"
   }
 }

@@ -1,171 +1,171 @@
 {
   "feed.title": {
-    "message": "Feed"
+    "message": "फ़ीड"
   },
   "feed.description": {
-    "message": "Video Controls Plus changelog entries, newest first, with RSS and Atom feeds."
+    "message": "Video Controls Plus के बदलावों की सूची, नए बदलाव पहले; RSS और Atom फ़ीड भी उपलब्ध हैं।"
   },
   "feed.heading": {
-    "message": "Feed"
+    "message": "फ़ीड"
   },
   "home.lede": {
-    "message": "Control your online video player the way you want it, and get special features on each website."
+    "message": "ऑनलाइन वीडियो प्लेयर को अपने हिसाब से नियंत्रित करें और हर वेबसाइट के लिए खास सुविधाएँ पाएँ।"
   },
   "home.gettingStarted.title": {
-    "message": "Getting started"
+    "message": "शुरू करें"
   },
   "home.gettingStarted.text": {
-    "message": "Install it, press your first key, and pause it on one site."
+    "message": "एक्सटेंशन इंस्टॉल करें, पहली शॉर्टकट कुंजी दबाएँ और किसी एक साइट पर इसे रोकना सीखें।"
   },
   "home.userGuide.title": {
-    "message": "User guide"
+    "message": "उपयोग गाइड"
   },
   "home.userGuide.text": {
-    "message": "Speed, A-B loop, audio boost, filters, screenshots and notes, one page each."
+    "message": "स्पीड, A-B लूप, ऑडियो बूस्ट, फ़िल्टर, स्क्रीनशॉट और नोट्स—हर विषय का अपना पेज।"
   },
   "home.keyboard.title": {
-    "message": "Keyboard shortcuts"
+    "message": "कीबोर्ड शॉर्टकट"
   },
   "home.keyboard.text": {
-    "message": "Every default key, and how to give a shortcut another key."
+    "message": "पहले से तय हर कुंजी देखें और किसी शॉर्टकट की कुंजी बदलना सीखें।"
   },
   "home.platforms.title": {
-    "message": "Platforms"
+    "message": "वेबसाइटें"
   },
   "home.platforms.text": {
-    "message": "The extras on YouTube, Netflix and LinkedIn, and how other sites work."
+    "message": "YouTube, Netflix और LinkedIn की अतिरिक्त सुविधाएँ और दूसरी साइटों पर काम करने का तरीका।"
   },
   "home.ai.title": {
-    "message": "AI features"
+    "message": "AI सुविधाएँ"
   },
   "home.ai.text": {
-    "message": "Video summaries and LinkedIn writing help, and what each one sends."
+    "message": "वीडियो सारांश और LinkedIn पर लिखने में मदद; जानें कि हर सुविधा क्या भेजती है।"
   },
   "home.account.title": {
-    "message": "Account and sync"
+    "message": "अकाउंट और सिंक"
   },
   "home.account.text": {
-    "message": "How to connect your account, how sync works, how to delete your data."
+    "message": "अकाउंट कैसे जोड़ें, सिंक कैसे काम करता है और अपना डेटा कैसे मिटाएँ।"
   },
   "home.privacy.title": {
-    "message": "Privacy and permissions"
+    "message": "गोपनीयता और अनुमतियाँ"
   },
   "home.privacy.text": {
-    "message": "What is recorded, and what each permission is for."
+    "message": "क्या दर्ज होता है और हर अनुमति किस काम आती है।"
   },
   "home.troubleshooting.title": {
-    "message": "Troubleshooting"
+    "message": "समस्या सुलझाएँ"
   },
   "home.troubleshooting.text": {
-    "message": "What you see, why it happens, and the step that fixes it."
+    "message": "क्या दिखता है, ऐसा क्यों होता है और उसे ठीक करने का तरीका।"
   },
   "home.faq.title": {
-    "message": "FAQ"
+    "message": "आम सवाल"
   },
   "home.faq.text": {
-    "message": "Short answers to the questions people ask first."
+    "message": "शुरुआत में उठने वाले सवालों के सीधे जवाब।"
   },
   "home.changelog.title": {
-    "message": "Changelog"
+    "message": "बदलावों की सूची"
   },
   "home.changelog.text": {
-    "message": "What changed in the last four releases."
+    "message": "पिछले चार रिलीज़ में क्या बदला।"
   },
   "home.readDocs": {
-    "message": "Read the docs"
+    "message": "डॉक्स पढ़ें"
   },
   "home.getExtension": {
-    "message": "Get the extension"
+    "message": "एक्सटेंशन पाएँ"
   },
   "home.sectionsAria": {
-    "message": "Documentation sections"
+    "message": "डॉक्स के विभाग"
   },
   "sitemap.changelog": {
-    "message": "Changelog"
+    "message": "बदलावों की सूची"
   },
   "sitemap.title": {
-    "message": "Sitemap"
+    "message": "साइटमैप"
   },
   "sitemap.description": {
-    "message": "Every Video Controls Plus documentation page and changelog entry."
+    "message": "Video Controls Plus डॉक्स के सभी पेज और बदलावों की प्रविष्टियाँ।"
   },
   "sitemap.heading": {
-    "message": "Sitemap"
+    "message": "साइटमैप"
   },
   "sitemap.feed": {
-    "message": "Feed"
+    "message": "फ़ीड"
   },
   "sitemap.filterAria": {
-    "message": "Filter pages"
+    "message": "पेज छाँटें"
   },
   "sitemap.filterPlaceholder": {
-    "message": "Filter pages"
+    "message": "पेज छाँटें"
   },
   "sitemap.noResults": {
-    "message": "No pages match “{query}”."
+    "message": "“{query}” से मेल खाता कोई पेज नहीं मिला।"
   },
   "theme.ErrorPageContent.title": {
-    "message": "This page crashed.",
+    "message": "यह पेज नहीं खुल सका।",
     "description": "The title of the fallback page when the page crashed"
   },
   "theme.BackToTopButton.buttonAriaLabel": {
-    "message": "Scroll back to top",
+    "message": "पेज के ऊपर जाएँ",
     "description": "The ARIA label for the back to top button"
   },
   "theme.blog.archive.title": {
-    "message": "Archive",
+    "message": "संग्रह",
     "description": "The page & hero title of the blog archive page"
   },
   "theme.blog.archive.description": {
-    "message": "Archive",
+    "message": "पुरानी प्रविष्टियाँ",
     "description": "The page & hero description of the blog archive page"
   },
   "theme.blog.paginator.navAriaLabel": {
-    "message": "ब्लॉग सूची पेज नेविगेशन",
+    "message": "ब्लॉग के पेज",
     "description": "The ARIA label for the blog pagination"
   },
   "theme.blog.paginator.newerEntries": {
-    "message": "नए एंट्रीज़",
+    "message": "नई प्रविष्टियाँ",
     "description": "The label used to navigate to the newer blog posts page (previous page)"
   },
   "theme.blog.paginator.olderEntries": {
-    "message": "पुराने एंट्रीज़",
+    "message": "पुरानी प्रविष्टियाँ",
     "description": "The label used to navigate to the older blog posts page (next page)"
   },
   "theme.blog.post.paginator.navAriaLabel": {
-    "message": "ब्लॉग पोस्ट पेज नेविगेशन",
+    "message": "ब्लॉग पोस्ट के पेज",
     "description": "The ARIA label for the blog posts pagination"
   },
   "theme.blog.post.paginator.newerPost": {
-    "message": "नए पोस्ट",
+    "message": "नई पोस्ट",
     "description": "The blog post button label to navigate to the newer/previous post"
   },
   "theme.blog.post.paginator.olderPost": {
-    "message": "पुराने पोस्ट",
+    "message": "पुरानी पोस्ट",
     "description": "The blog post button label to navigate to the older/next post"
   },
   "theme.tags.tagsPageLink": {
-    "message": "सारे टैग देखें",
+    "message": "सभी टैग देखें",
     "description": "The label of the link targeting the tag list page"
   },
   "theme.colorToggle.ariaLabel.mode.system": {
-    "message": "system mode",
+    "message": "सिस्टम के अनुसार",
     "description": "The name for the system color mode"
   },
   "theme.colorToggle.ariaLabel.mode.light": {
-    "message": "light mode",
+    "message": "हल्का मोड",
     "description": "The name for the light color mode"
   },
   "theme.colorToggle.ariaLabel.mode.dark": {
-    "message": "dark mode",
+    "message": "गहरा मोड",
     "description": "The name for the dark color mode"
   },
   "theme.colorToggle.ariaLabel": {
-    "message": "Switch between dark and light mode (currently {mode})",
+    "message": "हल्के और गहरे मोड में बदलें (अभी {mode})",
     "description": "The ARIA label for the color mode toggle"
   },
   "theme.docs.breadcrumbs.navAriaLabel": {
-    "message": "Breadcrumbs",
+    "message": "आप इस पेज तक कैसे पहुँचे",
     "description": "The ARIA label for the breadcrumbs"
   },
   "theme.docs.paginator.navAriaLabel": {
@@ -173,7 +173,7 @@
     "description": "The ARIA label for the docs pagination"
   },
   "theme.docs.paginator.previous": {
-    "message": "पिछ्ला",
+    "message": "पिछला",
     "description": "The label used to navigate to the previous doc"
   },
   "theme.docs.paginator.next": {
@@ -181,54 +181,54 @@
     "description": "The label used to navigate to the next doc"
   },
   "theme.docs.tagDocListPageTitle.nDocsTagged": {
-    "message": "One doc tagged|{count} docs tagged",
+    "message": "एक दस्तावेज़ पर टैग लगा है|{count} दस्तावेज़ों पर टैग लगा है",
     "description": "Pluralized label for \"{count} docs tagged\". Use as much plural forms (separated by \"|\") as your language support (see https://www.unicode.org/cldr/cldr-aux/charts/34/supplemental/language_plural_rules.html)"
   },
   "theme.docs.tagDocListPageTitle": {
-    "message": "{nDocsTagged} with \"{tagName}\"",
+    "message": "“{tagName}” वाले {nDocsTagged}",
     "description": "The title of the page for a docs tag"
   },
   "theme.docs.versionBadge.label": {
-    "message": "Version: {versionLabel}"
+    "message": "संस्करण: {versionLabel}"
   },
   "theme.docs.versions.unreleasedVersionLabel": {
-    "message": "यह {siteTitle} {versionLabel} वर्जन के लिए प्रकाशित डॉक्यूमेंटेशन है।",
+    "message": "यह {siteTitle} {versionLabel} संस्करण का अप्रकाशित दस्तावेज़ है।",
     "description": "The label used to tell the user that he's browsing an unreleased doc version"
   },
   "theme.docs.versions.unmaintainedVersionLabel": {
-    "message": "यह {siteTitle} {versionLabel} के लिए डॉक्यूमेंटेशन है, जिसे अब सक्रिय रूप से नहीं बनाए रखा गया है।",
+    "message": "यह {siteTitle} {versionLabel} संस्करण का दस्तावेज़ है; इसे अब अपडेट नहीं किया जाता।",
     "description": "The label used to tell the user that he's browsing an unmaintained doc version"
   },
   "theme.docs.versions.latestVersionSuggestionLabel": {
-    "message": "अप-टू-डेट डॉक्यूमेंटेशन के लिए {latestVersionLink} ({versionLabel}) देखें।",
+    "message": "ताज़ा जानकारी के लिए {latestVersionLink} ({versionLabel}) देखें।",
     "description": "The label used to tell the user to check the latest version"
   },
   "theme.docs.versions.latestVersionLinkLabel": {
-    "message": "सबसे नया वर्जन",
+    "message": "नया संस्करण",
     "description": "The label used for the latest version suggestion link label"
   },
   "theme.common.editThisPage": {
-    "message": "इस पेज को बदलें",
+    "message": "इस पेज में बदलाव करें",
     "description": "The link label to edit the current page"
   },
   "theme.common.headingLinkTitle": {
-    "message": "{heading} का सीधा लिंक",
+    "message": "{heading} का लिंक",
     "description": "Title for link to heading"
   },
   "theme.lastUpdated.atDate": {
-    "message": " {date} पर",
+    "message": " {date} को",
     "description": "The words used to describe on which date a page has been last updated"
   },
   "theme.lastUpdated.byUser": {
-    "message": " {user} द्वारा",
+    "message": " {user} ने",
     "description": "The words used to describe by who the page has been last updated"
   },
   "theme.lastUpdated.lastUpdatedAtBy": {
-    "message": "आखरी अपडेट{atDate}{byUser}",
+    "message": "पिछला अपडेट:{atDate}{byUser}",
     "description": "The sentence used to display when a page has been last updated, and by who"
   },
   "theme.navbar.mobileVersionsDropdown.label": {
-    "message": "Versions",
+    "message": "संस्करण",
     "description": "The label for the navbar versions dropdown on mobile view"
   },
   "theme.NotFound.title": {
@@ -240,63 +240,63 @@
     "description": "The label alongside a tag list"
   },
   "theme.admonition.caution": {
-    "message": "caution",
+    "message": "सावधानी",
     "description": "The default label used for the Caution admonition (:::caution)"
   },
   "theme.admonition.danger": {
-    "message": "danger",
+    "message": "खतरा",
     "description": "The default label used for the Danger admonition (:::danger)"
   },
   "theme.admonition.info": {
-    "message": "info",
+    "message": "जानकारी",
     "description": "The default label used for the Info admonition (:::info)"
   },
   "theme.admonition.note": {
-    "message": "note",
+    "message": "ध्यान दें",
     "description": "The default label used for the Note admonition (:::note)"
   },
   "theme.admonition.tip": {
-    "message": "tip",
+    "message": "सुझाव",
     "description": "The default label used for the Tip admonition (:::tip)"
   },
   "theme.admonition.warning": {
-    "message": "warning",
+    "message": "चेतावनी",
     "description": "The default label used for the Warning admonition (:::warning)"
   },
   "theme.AnnouncementBar.closeButtonAriaLabel": {
-    "message": "बंद करे",
+    "message": "बंद करें",
     "description": "The ARIA label for close button of announcement bar"
   },
   "theme.blog.sidebar.navAriaLabel": {
-    "message": "नया ब्लॉग पोस्ट नेविगेशन",
+    "message": "हाल की ब्लॉग पोस्ट",
     "description": "The ARIA label for recent posts in the blog sidebar"
   },
   "theme.DocSidebarItem.expandCategoryAriaLabel": {
-    "message": "Expand sidebar category '{label}'",
+    "message": "साइडबार में “{label}” खोलें",
     "description": "The ARIA label to expand the sidebar category"
   },
   "theme.DocSidebarItem.collapseCategoryAriaLabel": {
-    "message": "Collapse sidebar category '{label}'",
+    "message": "साइडबार में “{label}” बंद करें",
     "description": "The ARIA label to collapse the sidebar category"
   },
   "theme.IconExternalLink.ariaLabel": {
-    "message": "(opens in new tab)",
+    "message": "(नए टैब में खुलता है)",
     "description": "The ARIA label for the external link icon"
   },
   "theme.NavBar.navAriaLabel": {
-    "message": "Main",
+    "message": "मुख्य नेविगेशन",
     "description": "The ARIA label for the main navigation"
   },
   "theme.navbar.mobileLanguageDropdown.label": {
-    "message": "Languages",
+    "message": "भाषाएँ",
     "description": "The label for the mobile language switcher dropdown"
   },
   "theme.NotFound.p1": {
-    "message": "हमें वह नहीं मिला, जिसकी आपको तलाश थी।",
+    "message": "जिस पेज की आप तलाश कर रहे हैं, वह नहीं मिला।",
     "description": "The first paragraph of the 404 page"
   },
   "theme.NotFound.p2": {
-    "message": "कृपया उस साइट के मालिक से संपर्क करें जिसने आपको मूल URL से जोड़ा है और उन्हें बताएं कि उनका लिंक टूट गया है।",
+    "message": "यदि आप किसी लिंक से यहाँ पहुँचे हैं, तो उस वेबसाइट को बताएँ कि उसका लिंक अब काम नहीं करता।",
     "description": "The 2nd paragraph of the 404 page"
   },
   "theme.TOCCollapsible.toggleButtonLabel": {
@@ -308,31 +308,31 @@
     "description": "The label used in blog post item excerpts to link to full blog posts"
   },
   "theme.blog.post.readMoreLabel": {
-    "message": "Read more about {title}",
+    "message": "{title} के बारे में और पढ़ें",
     "description": "The ARIA label for the link to full blog posts from excerpts"
   },
   "theme.blog.post.readingTime.plurals": {
-    "message": "एक मिनट में पढ़ें|{readingTime} मिनट में पढ़ें",
+    "message": "एक मिनट पढ़ने में लगेगा|{readingTime} मिनट पढ़ने में लगेंगे",
     "description": "Pluralized label for \"{readingTime} min read\". Use as much plural forms (separated by \"|\") as your language support (see https://www.unicode.org/cldr/cldr-aux/charts/34/supplemental/language_plural_rules.html)"
   },
   "theme.CodeBlock.copy": {
-    "message": "कॉपी",
+    "message": "कॉपी करें",
     "description": "The copy button label on code blocks"
   },
   "theme.CodeBlock.copied": {
-    "message": "कॉपीड",
+    "message": "कॉपी किया गया",
     "description": "The copied button label on code blocks"
   },
   "theme.CodeBlock.copyButtonAriaLabel": {
-    "message": "क्लिपबोर्ड पर कोड कॉपी करें",
+    "message": "कोड क्लिपबोर्ड पर कॉपी करें",
     "description": "The ARIA label for copy code blocks button"
   },
   "theme.CodeBlock.wordWrapToggle": {
-    "message": "Toggle word wrap",
+    "message": "लंबी पंक्तियाँ मोड़ें",
     "description": "The title attribute for toggle word wrapping button of code block lines"
   },
   "theme.docs.breadcrumbs.home": {
-    "message": "Home page",
+    "message": "मुखपृष्ठ",
     "description": "The ARIA label for the home page in the breadcrumbs"
   },
   "theme.docs.sidebar.collapseButtonTitle": {
@@ -344,27 +344,27 @@
     "description": "The title attribute for collapse button of doc sidebar"
   },
   "theme.docs.sidebar.navAriaLabel": {
-    "message": "Docs sidebar",
+    "message": "डॉक्स साइडबार",
     "description": "The ARIA label for the sidebar navigation"
   },
   "theme.docs.sidebar.closeSidebarButtonAriaLabel": {
-    "message": "Close navigation bar",
+    "message": "नेविगेशन बंद करें",
     "description": "The ARIA label for close button of mobile sidebar"
   },
   "theme.navbar.mobileSidebarSecondaryMenu.backButtonLabel": {
-    "message": "← मुख्य मेनू में वापस जाएं",
+    "message": "← मुख्य मेनू पर लौटें",
     "description": "The label of the back button to return to main menu, inside the mobile navbar sidebar secondary menu (notably used to display the docs sidebar)"
   },
   "theme.docs.sidebar.toggleSidebarButtonAriaLabel": {
-    "message": "Toggle navigation bar",
+    "message": "नेविगेशन दिखाएँ या छिपाएँ",
     "description": "The ARIA label for hamburger menu button of mobile navigation"
   },
   "theme.navbar.mobileDropdown.collapseButton.expandAriaLabel": {
-    "message": "Expand the dropdown",
+    "message": "मेनू खोलें",
     "description": "The ARIA label of the button to expand the mobile dropdown navbar item"
   },
   "theme.navbar.mobileDropdown.collapseButton.collapseAriaLabel": {
-    "message": "Collapse the dropdown",
+    "message": "मेनू बंद करें",
     "description": "The ARIA label of the button to collapse the mobile dropdown navbar item"
   },
   "theme.docs.sidebar.expandButtonTitle": {
@@ -376,38 +376,38 @@
     "description": "The ARIA label and title attribute for expand button of doc sidebar"
   },
   "theme.SearchBar.noResultsText": {
-    "message": "No results"
+    "message": "कोई नतीजा नहीं मिला"
   },
   "theme.SearchBar.seeAllOutsideContext": {
-    "message": "See all results outside \"{context}\""
+    "message": "“{context}” के बाहर सभी नतीजे देखें"
   },
   "theme.SearchBar.searchInContext": {
-    "message": "See all results within \"{context}\""
+    "message": "“{context}” में सभी नतीजे देखें"
   },
   "theme.SearchBar.seeAll": {
-    "message": "See all results"
+    "message": "सभी नतीजे देखें"
   },
   "theme.SearchBar.label": {
-    "message": "Search",
+    "message": "खोजें",
     "description": "The ARIA label and placeholder for search button"
   },
   "theme.SearchPage.existingResultsTitle": {
-    "message": "Search results for \"{query}\"",
+    "message": "“{query}” के खोज नतीजे",
     "description": "The search page title for non-empty query"
   },
   "theme.SearchPage.emptyResultsTitle": {
-    "message": "Search the documentation",
+    "message": "डॉक्स में खोजें",
     "description": "The search page title for empty query"
   },
   "theme.SearchPage.searchContext.everywhere": {
-    "message": "Everywhere"
+    "message": "हर जगह"
   },
   "theme.SearchPage.documentsFound.plurals": {
-    "message": "1 document found|{count} documents found",
+    "message": "एक दस्तावेज़ मिला|{count} दस्तावेज़ मिले",
     "description": "Pluralized label for \"{count} documents found\". Use as much plural forms (separated by \"|\") as your language support (see https://www.unicode.org/cldr/cldr-aux/charts/34/supplemental/language_plural_rules.html)"
   },
   "theme.SearchPage.noResultsText": {
-    "message": "No documents were found",
+    "message": "कोई दस्तावेज़ नहीं मिला",
     "description": "The paragraph for empty search result"
   },
   "theme.blog.post.plurals": {
@@ -415,7 +415,7 @@
     "description": "Pluralized label for \"{count} posts\". Use as much plural forms (separated by \"|\") as your language support (see https://www.unicode.org/cldr/cldr-aux/charts/34/supplemental/language_plural_rules.html)"
   },
   "theme.blog.tagTitle": {
-    "message": "{nPosts} पोस्ट \"{tagName}\" टैग के साथ",
+    "message": "“{tagName}” टैग वाली {nPosts} पोस्ट",
     "description": "The title of the page for a blog tag"
   },
   "theme.blog.author.pageTitle": {
@@ -423,43 +423,43 @@
     "description": "The title of the page for a blog author"
   },
   "theme.blog.authorsList.pageTitle": {
-    "message": "Authors",
+    "message": "लेखक",
     "description": "The title of the authors page"
   },
   "theme.blog.authorsList.viewAll": {
-    "message": "View All Authors",
+    "message": "सभी लेखक देखें",
     "description": "The label of the link targeting the blog authors page"
   },
   "theme.blog.author.noPosts": {
-    "message": "This author has not written any posts yet.",
+    "message": "इस लेखक ने अभी कोई पोस्ट नहीं लिखी है।",
     "description": "The text for authors with 0 blog post"
   },
   "theme.contentVisibility.unlistedBanner.title": {
-    "message": "Unlisted page",
+    "message": "सूची से बाहर पेज",
     "description": "The unlisted content banner title"
   },
   "theme.contentVisibility.unlistedBanner.message": {
-    "message": "This page is unlisted. Search engines will not index it, and only users having a direct link can access it.",
+    "message": "यह पेज सूची में नहीं है। खोज इंजन इसे सूचीबद्ध नहीं करेंगे; सीधे लिंक से इसे खोला जा सकता है।",
     "description": "The unlisted content banner message"
   },
   "theme.contentVisibility.draftBanner.title": {
-    "message": "Draft page",
+    "message": "मसौदा पेज",
     "description": "The draft content banner title"
   },
   "theme.contentVisibility.draftBanner.message": {
-    "message": "This page is a draft. It will only be visible in dev and be excluded from the production build.",
+    "message": "यह पेज अभी मसौदा है। इसे केवल डेवलपमेंट में देखा जा सकता है; प्रकाशित साइट में शामिल नहीं किया जाएगा।",
     "description": "The draft content banner message"
   },
   "theme.docs.DocCard.categoryDescription.plurals": {
-    "message": "1 item|{count} items",
+    "message": "एक विषय|{count} विषय",
     "description": "The default description for a category card in the generated index about how many items this category includes"
   },
   "theme.ErrorPageContent.tryAgain": {
-    "message": "Try again",
+    "message": "फिर कोशिश करें",
     "description": "The label of the button to try again rendering when the React error boundary captures an error"
   },
   "theme.common.skipToMainContent": {
-    "message": "मुख्य कंटेंट तक स्किप करें",
+    "message": "मुख्य सामग्री पर जाएँ",
     "description": "The skip to content label used for accessibility, allowing to rapidly navigate to main content with keyboard tab/enter navigation"
   },
   "theme.tags.tagsPageTitle": {

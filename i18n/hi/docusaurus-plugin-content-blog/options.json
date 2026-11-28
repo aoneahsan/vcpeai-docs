@@ -1,14 +1,14 @@
 {
   "title": {
-    "message": "Video Controls Plus changelog",
+    "message": "Video Controls Plus की बदलाव सूची",
     "description": "The title for the blog used in SEO"
   },
   "description": {
-    "message": "Release notes for Video Controls Plus.",
+    "message": "Video Controls Plus के रिलीज़ नोट्स।",
     "description": "The description for the blog used in SEO"
   },
   "sidebar.title": {
-    "message": "Recent entries",
+    "message": "हाल की प्रविष्टियाँ",
     "description": "The label for the left sidebar"
   }
 }
