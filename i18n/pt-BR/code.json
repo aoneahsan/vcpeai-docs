@@ -465,5 +465,515 @@
   "theme.tags.tagsPageTitle": {
     "message": "Etiquetas",
     "description": "The title of the tag list page"
+  },
+  "ecosystem.title": {
+    "message": "O que mais a Zaions faz?"
+  },
+  "ecosystem.description": {
+    "message": "Conheça os outros produtos da Zaions, criados pela equipe do Video Controls Plus."
+  },
+  "ecosystem.eyebrow": {
+    "message": "Além do player / Zaions"
+  },
+  "ecosystem.intro": {
+    "message": "A Zaions também cria produtos para tarefas que vão além dos vídeos online. Conheça os outros produtos da mesma equipe: há um aplicativo de mensagens, um registro de saúde, pacotes para desenvolvedores e ferramentas de limpeza. Abra um card para saber o que cada produto faz, onde funciona e qual limite importa antes de visitar o site dele. Cada produto tem suas próprias contas e fluxos; estar nesta página não significa que ele se conecta ao Video Controls Plus."
+  },
+  "ecosystem.viewsIntro": {
+    "message": "Use a grade para explorar, a lista para ler cada produto em sequência ou a tabela para comparar nomes, categorias e plataformas. As três visualizações mostram os mesmos produtos. Você pode alternar entre elas sem perder o ponto em que parou."
+  },
+  "ecosystem.otherProducts": {
+    "message": "{count} outros produtos"
+  },
+  "ecosystem.chooseView": {
+    "message": "Escolher visualização dos produtos"
+  },
+  "ecosystem.view.grid": {
+    "message": "Grade"
+  },
+  "ecosystem.view.list": {
+    "message": "Lista"
+  },
+  "ecosystem.view.table": {
+    "message": "Tabela"
+  },
+  "ecosystem.table.product": {
+    "message": "Produto"
+  },
+  "ecosystem.table.category": {
+    "message": "Categoria"
+  },
+  "ecosystem.table.platform": {
+    "message": "Onde funciona"
+  },
+  "ecosystem.table.description": {
+    "message": "O que faz"
+  },
+  "ecosystem.table.actions": {
+    "message": "Ações"
+  },
+  "ecosystem.visitNamedProduct": {
+    "message": "Visitar {name}"
+  },
+  "ecosystem.details": {
+    "message": "Detalhes"
+  },
+  "ecosystem.moreFromZaions": {
+    "message": "Mais da Zaions"
+  },
+  "ecosystem.openProduct": {
+    "message": "Abrir {name}"
+  },
+  "ecosystem.anotherProduct": {
+    "message": "OUTRO PRODUTO DA ZAIONS"
+  },
+  "ecosystem.visitProduct": {
+    "message": "Visitar o produto"
+  },
+  "ecosystem.readDocs": {
+    "message": "Ler a documentação"
+  },
+  "ecosystem.backToProducts": {
+    "message": "Voltar para todos os produtos"
+  },
+  "ecosystem.carousel": {
+    "message": "carrossel"
+  },
+  "ecosystem.sameTeam": {
+    "message": "Da mesma equipe"
+  },
+  "ecosystem.seeAll": {
+    "message": "Ver todos os produtos"
+  },
+  "ecosystem.previousProduct": {
+    "message": "Produto anterior"
+  },
+  "ecosystem.nextProduct": {
+    "message": "Próximo produto"
+  },
+  "ecosystem.slide": {
+    "message": "slide"
+  },
+  "ecosystem.positionOf": {
+    "message": "{position} de {total}"
+  },
+  "ecosystem.play": {
+    "message": "Reproduzir"
+  },
+  "ecosystem.pause": {
+    "message": "Pausar"
+  },
+  "ecosystem.category.web-app": {
+    "message": "Aplicativo web"
+  },
+  "ecosystem.category.mobile-app": {
+    "message": "Aplicativo móvel"
+  },
+  "ecosystem.category.package": {
+    "message": "Pacote para desenvolvedores"
+  },
+  "ecosystem.category.wordpress-plugin-saas": {
+    "message": "Plugin WordPress e serviço web"
+  },
+  "ecosystem.category.desktop-app-cli": {
+    "message": "Aplicativo de computador e linha de comando"
+  },
+  "ecosystem.category.saas-package": {
+    "message": "Serviço web e pacote"
+  },
+  "ecosystem.product.achat.card": {
+    "message": "Encontre as pessoas com quem você quer conversar pelo nome de usuário, link de convite ou QR code, sem compartilhar seu número de telefone."
+  },
+  "ecosystem.product.achat.heading": {
+    "message": "O que o AchatAI faz?"
+  },
+  "ecosystem.product.achat.paragraph.1": {
+    "message": "O AchatAI permite trocar mensagens pela web e pelo Android com as pessoas que você escolher. Não precisa de número de telefone. Encontre alguém pelo nome de usuário, por um link de convite ou por QR code; trocar números não precisa ser o primeiro passo. Você também pode iniciar uma sala anônima antes de criar uma conta."
+  },
+  "ecosystem.product.achat.paragraph.2": {
+    "message": "Esse é um tipo de controle diferente do oferecido pelo Video Controls Plus: no AchatAI, você escolhe com quem conversa e como a pessoa encontra você; na extensão, escolhe como um vídeo é reproduzido. Os dois produtos são da equipe Zaions, mas cada um tem seu próprio ponto de partida."
+  },
+  "ecosystem.product.achat.paragraph.3": {
+    "message": "Abra o [AchatAI](https://achat.aoneahsan.com) para conhecer o fluxo de mensagens. A conversa começa lá, não no player de vídeo."
+  },
+  "ecosystem.product.achat.platformLabel": {
+    "message": "Web e Android"
+  },
+  "ecosystem.product.callvault.card": {
+    "message": "Reproduza, pesquise, anote e exporte chamadas guardadas na biblioteca do seu celular Android."
+  },
+  "ecosystem.product.callvault.heading": {
+    "message": "O que o CallVault faz?"
+  },
+  "ecosystem.product.callvault.paragraph.1": {
+    "message": "O CallVault mantém uma biblioteca de chamadas telefônicas no Android. Reproduza uma chamada. O aplicativo grava pela fonte de áudio disponível no seu celular e permite reproduzir, pesquisar, anotar e exportar as chamadas capturadas. A fonte de áudio disponível faz diferença: o aplicativo não pode garantir o mesmo resultado de gravação em todos os aparelhos."
+  },
+  "ecosystem.product.callvault.paragraph.2": {
+    "message": "Você pode manter as gravações no celular. O backup privado na nuvem é uma opção separada, que você ativa se quiser. Essa distinção importa quando uma chamada contém um detalhe que você precisará encontrar depois, mas também quer decidir onde a gravação ficará guardada."
+  },
+  "ecosystem.product.callvault.paragraph.3": {
+    "message": "O Video Controls Plus organiza controles e notas de estudo em torno de vídeos online; o CallVault lida com chamadas em um dispositivo Android. São produtos separados da mesma equipe. Abra o [CallVault](https://callvault.aoneahsan.com) para conhecer a biblioteca de chamadas e a opção de backup."
+  },
+  "ecosystem.product.callvault.platformLabel": {
+    "message": "Android"
+  },
+  "ecosystem.product.capacitor-auth-manager.card": {
+    "message": "Use a mesma chamada para entrar com o Google na web, no Android e no iOS, sem depender do Firebase."
+  },
+  "ecosystem.product.capacitor-auth-manager.heading": {
+    "message": "O que o Capacitor Auth Manager faz?"
+  },
+  "ecosystem.product.capacitor-auth-manager.paragraph.1": {
+    "message": "O Capacitor Auth Manager oferece uma única chamada para entrar com o Google na web, no Android e no iOS. Uma chamada, três plataformas. É um pacote para quem desenvolve aplicativos com Capacitor e não exige Firebase como dependência. A interface comum é o ponto central: você mantém a chamada de autenticação em um lugar enquanto a plataforma muda, sem sustentar três chamadas diferentes no código do aplicativo."
+  },
+  "ecosystem.product.capacitor-auth-manager.paragraph.2": {
+    "message": "Apenas Google. A versão 3.x oferece o Google como provedor de autenticação. Saiba desse limite antes de escolher o pacote para um aplicativo que também precisa de outro provedor de identidade. O Video Controls Plus tem sua própria conexão de conta; este é um produto separado para desenvolvedores e não acrescenta um método de acesso à extensão."
+  },
+  "ecosystem.product.capacitor-auth-manager.paragraph.3": {
+    "message": "Leia a página do [Capacitor Auth Manager](https://www.npmjs.com/package/capacitor-auth-manager) para ver as instruções de instalação e de cada plataforma."
+  },
+  "ecosystem.product.capacitor-auth-manager.platformLabel": {
+    "message": "Pacote npm"
+  },
+  "ecosystem.product.clearhire.card": {
+    "message": "Transforme um histórico profissional estruturado em um currículo compatível com sistemas de seleção e confira como ele ficou."
+  },
+  "ecosystem.product.clearhire.heading": {
+    "message": "O que o ClearHire faz?"
+  },
+  "ecosystem.product.clearhire.paragraph.1": {
+    "message": "O ClearHire ajuda você a transformar seu histórico profissional estruturado em um currículo compatível com sistemas de seleção. Guarde as evidências. Você informa os cargos e os fatos que sustentam sua experiência, depois usa o editor e as verificações para preparar o documento que o empregador vai ler. Há também ferramentas para tarefas como fortalecer um item do currículo e conferir um currículo existente."
+  },
+  "ecosystem.product.clearhire.paragraph.2": {
+    "message": "É um registro de estudo diferente das notas ligadas a um vídeo. Se você assistiu a um curso com o Video Controls Plus e precisa descrever uma habilidade que realmente adquiriu, o ClearHire dá um espaço para trabalhar no próprio currículo. Os produtos não transferem notas nem dizem verificar um curso por você. O ClearHire também lista fluxos de verificação de emprego que acrescentam confiança a um perfil."
+  },
+  "ecosystem.product.clearhire.paragraph.3": {
+    "message": "Abra o [ClearHire](https://clearhire.aoneahsan.com) para criar ou conferir um currículo."
+  },
+  "ecosystem.product.clearhire.platformLabel": {
+    "message": "Web e Android"
+  },
+  "ecosystem.product.eatthis.card": {
+    "message": "Procure alimentos por nutriente, sensação ou horário do dia e veja o que uma porção oferece."
+  },
+  "ecosystem.product.eatthis.heading": {
+    "message": "O que o Eat This faz?"
+  },
+  "ecosystem.product.eatthis.paragraph.1": {
+    "message": "O Eat This ajuda você a procurar alimentos por nutriente, sensação ou horário do dia. Comece por uma porção. Em vez de percorrer uma lista extensa, parta do que quer entender: veja quanto de um nutriente uma porção fornece e compare com uma opção mais barata entre as alternativas mostradas."
+  },
+  "ecosystem.product.eatthis.paragraph.2": {
+    "message": "É um produto de informações sobre alimentos, separado dos controles de reprodução do Video Controls Plus. O ponto em comum é responder à tarefa diante de você: ajustar a velocidade enquanto assiste ou examinar uma porção ao escolher um alimento. Uma dúvida alimentar que exige avaliação médica deve ser levada a um médico; o produto deixa esse limite claro."
+  },
+  "ecosystem.product.eatthis.paragraph.3": {
+    "message": "Abra o [Eat This](https://eatthis.aoneahsan.com/) para consultar as informações sobre alimentos."
+  },
+  "ecosystem.product.eatthis.platformLabel": {
+    "message": "Android"
+  },
+  "ecosystem.product.empora.card": {
+    "message": "Ative os módulos WooCommerce de que sua loja precisa dentro de um único plugin WordPress."
+  },
+  "ecosystem.product.empora.heading": {
+    "message": "O que o Empora faz?"
+  },
+  "ecosystem.product.empora.paragraph.1": {
+    "message": "O Empora reúne módulos WooCommerce em um plugin WordPress. Você escolhe quais partes cabem na sua loja em vez de instalar tudo de uma vez. Escolha um módulo. Comece pela tarefa que sua loja precisa resolver, ative o módulo correspondente e deixe os demais de fora."
+  },
+  "ecosystem.product.empora.paragraph.2": {
+    "message": "O painel web gerencia licenças e conexões opcionais com a loja. Ele serve à administração da loja; não é uma conta de vídeo nem um recurso do Video Controls Plus. Se você administra uma loja WooCommerce, examine os módulos disponíveis e decida qual conexão quer usar antes de ativá-la. Avaliar um módulo de cada vez ajuda mais do que ligar um recurso sem conferir seu efeito."
+  },
+  "ecosystem.product.empora.paragraph.3": {
+    "message": "Abra o [Empora](https://empora.aoneahsan.com) para conhecer a página do produto."
+  },
+  "ecosystem.product.empora.platformLabel": {
+    "message": "WordPress / WooCommerce"
+  },
+  "ecosystem.product.habitforge.card": {
+    "message": "Veja uma corda crescer a cada registro de hábito e desfiar onde a rotina parou."
+  },
+  "ecosystem.product.habitforge.heading": {
+    "message": "O que o HabitForge faz?"
+  },
+  "ecosystem.product.habitforge.paragraph.1": {
+    "message": "O HabitForge representa um hábito como uma corda. Cada registro a engrossa; uma pausa deixa um trecho desfiado que você consegue ver ao rever os dias anteriores. A forma mostra sua constância sem exigir que você calcule uma sequência de dias. Continue a partir daí."
+  },
+  "ecosystem.product.habitforge.paragraph.2": {
+    "message": "Você pode participar com amigos, desafios e um ranking, do qual também pode sair. A mesma conta funciona na web e no Android. O Video Controls Plus pode guardar notas sobre uma aula assistida; o HabitForge registra se você praticou o hábito depois. Os registros ficam separados. Um trecho desfiado mostra onde a rotina foi interrompida sem apagar os registros anteriores que formaram a corda."
+  },
+  "ecosystem.product.habitforge.paragraph.3": {
+    "message": "Abra o [HabitForge](https://habitforge.aoneahsan.com) para conhecer a página do produto."
+  },
+  "ecosystem.product.habitforge.platformLabel": {
+    "message": "Web e Android"
+  },
+  "ecosystem.product.labflow.card": {
+    "message": "Acompanhe uma amostra de diagnóstico desde a solicitação, passando pela validação, até o resultado liberado."
+  },
+  "ecosystem.product.labflow.heading": {
+    "message": "O que o LabFlow faz?"
+  },
+  "ecosystem.product.labflow.paragraph.1": {
+    "message": "O LabFlow acompanha o trabalho do laboratório de diagnóstico desde o paciente e a solicitação até a amostra, o resultado e a validação. Um resultado preliminar tem um lugar diferente daquele liberado ao paciente. Essa distinção importa quando várias pessoas lidam com a mesma amostra. Acompanhe cada passagem."
+  },
+  "ecosystem.product.labflow.paragraph.2": {
+    "message": "Faturamento, estoque e controle de qualidade fazem parte do mesmo sistema. O LabFlow é para quem opera um laboratório de diagnóstico; não é um registro pessoal de saúde nem interpreta uma videoaula. Acesse o produto para ver como uma solicitação chega ao resultado liberado e quais ações da equipe fazem parte desse caminho. A validação cabe ao pessoal do laboratório, para que o resultado apresentado ao paciente tenha um estado claro."
+  },
+  "ecosystem.product.labflow.paragraph.3": {
+    "message": "Abra o [LabFlow](https://labflow.aoneahsan.com) para conhecer a página do produto."
+  },
+  "ecosystem.product.labflow.platformLabel": {
+    "message": "Web e Android"
+  },
+  "ecosystem.product.lifewell.card": {
+    "message": "Mantenha sinais vitais, água, medicamentos, sono e alimentação em um só registro de saúde."
+  },
+  "ecosystem.product.lifewell.heading": {
+    "message": "O que o LifeWell faz?"
+  },
+  "ecosystem.product.lifewell.paragraph.1": {
+    "message": "O LifeWell reúne sinais vitais, consumo de água, medicamentos, sono e alimentação em um registro de saúde. Você também pode anotar marcos do ciclo menstrual, da fertilidade e do bebê ao longo dos dias. Quando precisar olhar para trás, essas anotações diárias estarão juntas, em vez de espalhadas por vários lugares. Mantenha seu próprio registro."
+  },
+  "ecosystem.product.lifewell.paragraph.2": {
+    "message": "O produto funciona na web e no Android e sincroniza os dados entre dispositivos. Assim, você pode continuar uma anotação em outra tela, mas isso não transforma o registro em diagnóstico ou tratamento. O Video Controls Plus cuida de controles de vídeos online e notas de estudo; o LifeWell guarda informações de saúde na própria conta. Você pode rever o histórico de vários dias; uma anotação é apenas parte do quadro que está registrando."
+  },
+  "ecosystem.product.lifewell.paragraph.3": {
+    "message": "Abra o [LifeWell](https://lifewell.aoneahsan.com) para conhecer a página do produto."
+  },
+  "ecosystem.product.lifewell.platformLabel": {
+    "message": "Web e Android"
+  },
+  "ecosystem.product.linux-cleanup.card": {
+    "message": "Veja primeiro os caminhos de cache do Linux, faça uma simulação e confira o registro depois da limpeza."
+  },
+  "ecosystem.product.linux-cleanup.heading": {
+    "message": "O que o linux-cleanup faz?"
+  },
+  "ecosystem.product.linux-cleanup.paragraph.1": {
+    "message": "O linux-cleanup mostra os caminhos de cache do Linux que pode remover antes da execução real. Você pode conferir os limites, executar uma análise e fazer uma simulação. Essas duas primeiras etapas não apagam nada. Leia os caminhos antes de continuar."
+  },
+  "ecosystem.product.linux-cleanup.paragraph.2": {
+    "message": "O aplicativo para computador está disponível em Linux x86_64 nos formatos AppImage e .deb e gera um registro após a execução real. A ferramenta de linha de comando, licenciada sob MIT, roda com npx. Ela serve para a manutenção do computador e é separada dos controles de navegador do Video Controls Plus. Se quiser saber exatamente o que uma limpeza afetaria, comece pela prévia, não pela remoção. Depois, o registro mostra o que aconteceu, mais do que uma promessa genérica de limpar a máquina."
+  },
+  "ecosystem.product.linux-cleanup.paragraph.3": {
+    "message": "Abra o [linux-cleanup](https://linux-cleanup.aoneahsan.com/) para conhecer a página do produto."
+  },
+  "ecosystem.product.linux-cleanup.platformLabel": {
+    "message": "Aplicativo Linux e linha de comando"
+  },
+  "ecosystem.product.macleanup.card": {
+    "message": "Examine as seções de limpeza do macOS em uma simulação real antes de remover qualquer coisa."
+  },
+  "ecosystem.product.macleanup.heading": {
+    "message": "O que o macleanup faz?"
+  },
+  "ecosystem.product.macleanup.paragraph.1": {
+    "message": "O macleanup é uma ferramenta de limpeza do macOS que faz uma simulação real antes de remover arquivos. Ela mostra as seções de limpeza para que você examine o trabalho previsto e sempre recusa pastas pessoais. Esse limite faz parte do produto; não é uma opção que você precisa se lembrar de ativar. Confira primeiro."
+  },
+  "ecosystem.product.macleanup.paragraph.2": {
+    "message": "O projeto serve à manutenção de um Mac, não ao controle de vídeos no navegador. Se quiser liberar espaço, leia a lista de seções e o resultado da simulação antes de decidir pela limpeza real. O Video Controls Plus e o macleanup são do mesmo criador, mas não compartilham configurações nem um fluxo de trabalho. A simulação apresenta uma lista concreta; a proteção das pastas pessoais continua valendo na execução real."
+  },
+  "ecosystem.product.macleanup.paragraph.3": {
+    "message": "Abra o [macleanup](https://github.com/aoneahsan/macleanup) para conhecer a página do produto."
+  },
+  "ecosystem.product.macleanup.platformLabel": {
+    "message": "Aplicativo macOS e linha de comando"
+  },
+  "ecosystem.product.native-update.card": {
+    "message": "Envie atualizações de pacotes de aplicativos Capacitor entre lançamentos nas lojas."
+  },
+  "ecosystem.product.native-update.heading": {
+    "message": "O que o Native Update faz?"
+  },
+  "ecosystem.product.native-update.paragraph.1": {
+    "message": "O Native Update envia pacotes de aplicativos Capacitor entre lançamentos nas lojas. Assim, quem desenvolve pode publicar um pacote para um aplicativo instalado sem esperar que a loja distribua cada mudança da camada web. O projeto também inclui avisos de atualização e avaliação dentro do aplicativo. Comece pelo caminho de lançamento."
+  },
+  "ecosystem.product.native-update.paragraph.2": {
+    "message": "Ele tem um backend que você pode hospedar por conta própria e é de código aberto. É um produto para desenvolvedores com um processo de lançamento a configurar, não um botão de atualização para usuários do Video Controls Plus. Se você desenvolve aplicativos Capacitor, leia as instruções de plataforma e backend antes de escolher como seu aplicativo receberá atualizações. A loja ainda tem seu próprio caminho de lançamento; por isso, o pacote descreve tanto a entrega dos arquivos quanto os avisos ligados à atualização pela loja."
+  },
+  "ecosystem.product.native-update.paragraph.3": {
+    "message": "Abra o [Native Update](https://nativeupdate.aoneahsan.com) para conhecer a página do produto."
+  },
+  "ecosystem.product.native-update.platformLabel": {
+    "message": "Web e npm"
+  },
+  "ecosystem.product.netcage.card": {
+    "message": "Escolha quais aplicativos Android podem usar Wi-Fi ou dados móveis e quando cada regra vale."
+  },
+  "ecosystem.product.netcage.heading": {
+    "message": "O que o NetCage faz?"
+  },
+  "ecosystem.product.netcage.paragraph.1": {
+    "message": "O NetCage deixa você escolher quais aplicativos Android podem usar Wi-Fi, dados móveis ou ambos. Uma regra pode impedir que um aplicativo selecionado se conecte enquanto o restante do celular continua online. Você pode reunir aplicativos em perfis e aplicar regras em dias e horários escolhidos. Comece pelo aplicativo."
+  },
+  "ecosystem.product.netcage.paragraph.2": {
+    "message": "O controle funciona no nível da conexão dos aplicativos Android. Ele não altera o player de um site nem a forma como o Video Controls Plus se conecta à sua conta. Se sua preocupação é quando um aplicativo do celular pode acessar a rede, examine os destinos da regra e o horário antes de ativar um perfil. Um perfil programado ajuda quando a mesma regra deve valer em certos períodos do dia e deixar de valer em outros."
+  },
+  "ecosystem.product.netcage.paragraph.3": {
+    "message": "Abra o [NetCage](https://netcage.aoneahsan.com) para conhecer a página do produto."
+  },
+  "ecosystem.product.netcage.platformLabel": {
+    "message": "Android"
+  },
+  "ecosystem.product.pregnancypal.card": {
+    "message": "Reúna semanas de gestação, sintomas e consultas, com um PDF para levar ao médico."
+  },
+  "ecosystem.product.pregnancypal.heading": {
+    "message": "O que o PregnancyPal faz?"
+  },
+  "ecosystem.product.pregnancypal.paragraph.1": {
+    "message": "O PregnancyPal oferece um lugar para acompanhar a gestação semana a semana. Você pode registrar sintomas, humor, sinais vitais e consultas e manter informações sobre alimentação e exercícios junto da semana correspondente. Quando precisar levar o histórico a uma consulta, os registros podem virar um PDF organizado para o médico. Guarde as datas juntas."
+  },
+  "ecosystem.product.pregnancypal.paragraph.2": {
+    "message": "É um produto de registro pessoal, não uma orientação médica nem um substituto para um profissional de saúde. Ele tem seus próprios dados e seu próprio fluxo; nada de um vídeo ou nota do Video Controls Plus é adicionado automaticamente. Acesse o PregnancyPal para ver a visão semanal e as informações que você pode registrar. O PDF leva suas observações para uma conversa na qual o profissional pode avaliar o contexto."
+  },
+  "ecosystem.product.pregnancypal.paragraph.3": {
+    "message": "Abra o [PregnancyPal](https://pregnancypal.aoneahsan.com) para conhecer a página do produto."
+  },
+  "ecosystem.product.pregnancypal.platformLabel": {
+    "message": "Web e Android"
+  },
+  "ecosystem.product.rentparty.card": {
+    "message": "Pause um jogo de compra e venda de propriedades e retome depois com banco e títulos preservados."
+  },
+  "ecosystem.product.rentparty.heading": {
+    "message": "O que o RentParty faz?"
+  },
+  "ecosystem.product.rentparty.paragraph.1": {
+    "message": "O RentParty é um jogo de compra e venda de propriedades que você pode pausar e continuar em outro dia. É possível passar um celular entre jogadores, enfrentar personagens controlados pelo computador ou abrir uma sala online. Quando a partida para, o jogo guarda o banco e os títulos para a próxima sessão. Volte à mesma partida."
+  },
+  "ecosystem.product.rentparty.paragraph.2": {
+    "message": "A pausa e retomada importam mais do que uma lista extensa de modos quando todos precisam largar o celular. O RentParty é um jogo da equipe Zaions; o Video Controls Plus é uma extensão para vídeos online. As sessões e os controles são separados. Abra o RentParty para escolher como os jogadores vão participar. Na volta, o próximo jogador pode agir sem reconstruir a sessão anterior de memória nem redistribuir todas as propriedades."
+  },
+  "ecosystem.product.rentparty.paragraph.3": {
+    "message": "Abra o [RentParty](https://rentparty.aoneahsan.com) para conhecer a página do produto."
+  },
+  "ecosystem.product.rentparty.platformLabel": {
+    "message": "Web e Android"
+  },
+  "ecosystem.product.smsapp.card": {
+    "message": "Envie SMS individuais, em lote ou agendados pelo seu próprio dispositivo Android."
+  },
+  "ecosystem.product.smsapp.heading": {
+    "message": "O que o SMS App faz?"
+  },
+  "ecosystem.product.smsapp.paragraph.1": {
+    "message": "O SMS App envia mensagens de texto pelo seu próprio dispositivo Android. Ele permite um envio individual, um lote ou um envio agendado, com registro de dispositivos e gerenciamento de um grupo de dispositivos voluntários para trabalhos maiores. O celular faz parte do caminho de envio; confira essa configuração antes de planejar uma campanha. Use seu dispositivo."
+  },
+  "ecosystem.product.smsapp.paragraph.2": {
+    "message": "Esse produto nativo para Android lida com a entrega de SMS e as escolhas de privacidade envolvidas. Ele não envia mensagens pelo Video Controls Plus, e uma conta da extensão não se torna uma conta de envio de SMS. Acesse o SMS App para conhecer o fluxo de dispositivo e mensagens antes de preparar um lote. Um agendamento só ajuda se o dispositivo registrado correto estiver disponível para enviar a mensagem na hora escolhida."
+  },
+  "ecosystem.product.smsapp.paragraph.3": {
+    "message": "Abra o [SMS App](https://smsapp.aoneahsan.com) para conhecer a página do produto."
+  },
+  "ecosystem.product.smsapp.platformLabel": {
+    "message": "Android"
+  },
+  "ecosystem.product.strata-storage.card": {
+    "message": "Use uma interface de armazenamento para os recursos do navegador e para Keychain ou Keystore no dispositivo."
+  },
+  "ecosystem.product.strata-storage.heading": {
+    "message": "O que o Strata Storage faz?"
+  },
+  "ecosystem.product.strata-storage.paragraph.1": {
+    "message": "O Strata Storage oferece aos desenvolvedores uma interface para o armazenamento do navegador e do dispositivo. O pacote cobre localStorage, IndexedDB e cookies na web, além de Keychain e Keystore em plataformas nativas. Não tem dependências. Escolha a camada adequada aos dados."
+  },
+  "ecosystem.product.strata-storage.paragraph.2": {
+    "message": "Uma API comum pode tornar as chamadas de armazenamento consistentes na web, no iOS e no Android, mesmo que as camadas tenham propriedades diferentes. É um pacote para quem desenvolve aplicativos, não uma nova configuração do Video Controls Plus. Leia as instruções para decidir de qual camada e de qual comportamento de persistência seu aplicativo precisa. Os armazenamentos seguros nativos e os da web são lugares diferentes; a interface única não torna idênticas suas propriedades de segurança."
+  },
+  "ecosystem.product.strata-storage.paragraph.3": {
+    "message": "Abra o [Strata Storage](https://www.npmjs.com/package/strata-storage) para conhecer a página do produto."
+  },
+  "ecosystem.product.strata-storage.platformLabel": {
+    "message": "Pacote npm"
+  },
+  "ecosystem.product.tilawah.card": {
+    "message": "Acompanhe aulas gravadas de Tajweed e Tafseer no seu ritmo."
+  },
+  "ecosystem.product.tilawah.heading": {
+    "message": "O que o Tilawah faz?"
+  },
+  "ecosystem.product.tilawah.paragraph.1": {
+    "message": "O Tilawah oferece aulas gravadas de Tajweed e Tafseer para você acompanhar no seu ritmo. O acompanhamento de progresso mostra quais aulas você já fez, sem exigir um encontro ao vivo com horário marcado. Se quiser que alguém ouça sua recitação, também pode agendar sessões individuais ao vivo no seu fuso horário. Escolha a aula ou a sessão."
+  },
+  "ecosystem.product.tilawah.paragraph.2": {
+    "message": "São duas formas diferentes de aprender: rever uma gravação quando for conveniente ou marcar um horário com um professor. O Tilawah mantém esse aprendizado no próprio produto. O Video Controls Plus pode ajustar a reprodução de vídeos online comuns, mas não inscreve você em uma aula do Tilawah nem conecta as contas. Confira o horário. A sessão marcada usa o fuso horário do estudante, então confira a hora exibida antes de reservar uma aula ao vivo."
+  },
+  "ecosystem.product.tilawah.paragraph.3": {
+    "message": "Abra o [Tilawah](https://tilawah.aoneahsan.com) para conhecer a página do produto."
+  },
+  "ecosystem.product.tilawah.platformLabel": {
+    "message": "Web"
+  },
+  "ecosystem.product.trizlink.card": {
+    "message": "Mantenha links curtos com sua marca, uma página de links para a bio e análises de cliques em um só lugar."
+  },
+  "ecosystem.product.trizlink.heading": {
+    "message": "O que o Trizlink faz?"
+  },
+  "ecosystem.product.trizlink.paragraph.1": {
+    "message": "O Trizlink reúne links curtos, uma página de links para a bio e análises de cliques em um produto. Você pode criar um link curto com sua marca e um endereço personalizado ou colocar vários destinos em uma página. Quando alguém usa um link, o registro de cliques ajuda a entender o que aconteceu. Escolha o destino."
+  },
+  "ecosystem.product.trizlink.paragraph.2": {
+    "message": "O produto também lista domínios personalizados e ferramentas integradas. Um URL do Trizlink é um link que você gerencia lá; não é um controle de vídeo, e o Video Controls Plus não cria esses links nem informa seus cliques. Acesse o Trizlink se precisar de um endereço mais curto ou de uma página com vários links. Um endereço com sua marca facilita reconhecer o destino, enquanto as análises mostram se as pessoas usaram o link."
+  },
+  "ecosystem.product.trizlink.paragraph.3": {
+    "message": "Abra o [Trizlink](https://trizlink.com) para conhecer a página do produto."
+  },
+  "ecosystem.product.trizlink.platformLabel": {
+    "message": "Web e Android"
+  },
+  "ecosystem.product.waylock.card": {
+    "message": "Mantenha paradas escolhidas no lugar enquanto reorganiza o restante de uma rota de carro no Android."
+  },
+  "ecosystem.product.waylock.heading": {
+    "message": "O que o Waylock faz?"
+  },
+  "ecosystem.product.waylock.paragraph.1": {
+    "message": "O Waylock é uma camada de planejamento sobre o Google Maps para motoristas e entregadores no Android. Você pode manter certas paradas fixas e reorganizar as demais ao redor delas. Se errar um caminho, a rota escolhida continua visível, ao lado das opções de voltar ou seguir por uma nova rota. Preserve suas paradas fixas."
+  },
+  "ecosystem.product.waylock.paragraph.2": {
+    "message": "É um trabalho de planejamento de rotas em que a ordem de algumas entregas não pode mudar, mas o restante deve se adaptar ao percurso. O produto é separado da navegação no navegador. Acesse o Waylock para ver como uma rota fica fixa e pode ser revista no Android. Um desvio não apaga a escolha original do motorista; a tela mostra a próxima decisão sem escondê-la."
+  },
+  "ecosystem.product.waylock.paragraph.3": {
+    "message": "Abra o [Waylock](https://waylock.aoneahsan.com) para conhecer a página do produto."
+  },
+  "ecosystem.product.waylock.platformLabel": {
+    "message": "Android"
+  },
+  "ecosystem.product.windowsweep.card": {
+    "message": "Leia todos os caminhos de limpeza do Windows em uma simulação real antes de escolher o que remover."
+  },
+  "ecosystem.product.windowsweep.heading": {
+    "message": "O que o windowsweep faz?"
+  },
+  "ecosystem.product.windowsweep.paragraph.1": {
+    "message": "O windowsweep identifica cada caminho de limpeza do Windows antes de tocar nele. Suas 30 seções incluem uma simulação real, e arquivos pessoais são escolhidos linha por linha em vez de entrarem silenciosamente. A ferramenta não faz chamadas de rede. Leia as mudanças previstas primeiro."
+  },
+  "ecosystem.product.windowsweep.paragraph.2": {
+    "message": "Você pode executá-la com npx ou usar o aplicativo para Windows. A limpeza acontece no computador cujos caminhos você quer examinar; é separada do Video Controls Plus no navegador. Comece pela simulação, confira cada seção e só então decida se a limpeza real faz sentido para aquela máquina. A escolha linha por linha dos arquivos pessoais torna a execução real uma decisão visível, em vez de um padrão oculto."
+  },
+  "ecosystem.product.windowsweep.paragraph.3": {
+    "message": "Abra o [windowsweep](https://windowsweep.aoneahsan.com) para conhecer a página do produto."
+  },
+  "ecosystem.product.windowsweep.platformLabel": {
+    "message": "Aplicativo Windows e linha de comando"
+  },
+  "ecosystem.product.ztools.card": {
+    "message": "Encontre formatadores, conversores, codificadores e geradores que rodam no navegador sem enviar um arquivo."
+  },
+  "ecosystem.product.ztools.heading": {
+    "message": "O que o ZTools faz?"
+  },
+  "ecosystem.product.ztools.paragraph.1": {
+    "message": "O ZTools reúne formatadores, conversores, codificadores e geradores que rodam no navegador em uma caixa de ferramentas pesquisável. Você abre a ferramenta adequada à tarefa e trabalha no navegador; segundo a lista de produtos, nada é enviado. Encontre a ferramenta exata primeiro."
+  },
+  "ecosystem.product.ztools.paragraph.2": {
+    "message": "Ele também oferece modo escuro e uso offline. O ZTools é o lugar para trabalhar com arquivos ou texto; o Video Controls Plus continua voltado à reprodução de vídeos online e ao estudo. Se você chegou aqui procurando um conversor, e não um controle de vídeo, siga o link do ZTools e escolha a ferramenta que corresponde ao seu arquivo ou texto. A busca no catálogo ajuda quando você conhece a tarefa, mas não sabe o nome da ferramenta."
+  },
+  "ecosystem.product.ztools.paragraph.3": {
+    "message": "Abra o [ZTools](https://ztools.zaions.com) para conhecer a página do produto."
+  },
+  "ecosystem.product.ztools.platformLabel": {
+    "message": "Web, Android e extensão para Chrome"
   }
 }
