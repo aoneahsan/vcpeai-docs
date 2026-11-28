@@ -465,5 +465,515 @@
   "theme.tags.tagsPageTitle": {
     "message": "الوسوم",
     "description": "The title of the tag list page"
+  },
+  "ecosystem.category.web-app": {
+    "message": "تطبيق ويب"
+  },
+  "ecosystem.category.mobile-app": {
+    "message": "تطبيق هاتف"
+  },
+  "ecosystem.category.package": {
+    "message": "حزمة للمطوّرين"
+  },
+  "ecosystem.category.wordpress-plugin-saas": {
+    "message": "إضافة WordPress وخدمة ويب"
+  },
+  "ecosystem.category.desktop-app-cli": {
+    "message": "تطبيق سطح مكتب وأداة سطر أوامر"
+  },
+  "ecosystem.category.saas-package": {
+    "message": "خدمة ويب وحزمة للمطوّرين"
+  },
+  "ecosystem.title": {
+    "message": "ما المنتجات الأخرى التي يصنعها Zaions؟"
+  },
+  "ecosystem.description": {
+    "message": "تصفّح منتجات Zaions الأخرى من الفريق الذي يقف وراء Video Controls Plus."
+  },
+  "ecosystem.eyebrow": {
+    "message": "أبعد من مشغّل الفيديو / Zaions"
+  },
+  "ecosystem.intro": {
+    "message": "يصنع Zaions منتجات لمهام تتجاوز الفيديو على الإنترنت. ألقِ نظرة. تعرض هذه الصفحة منتجات أخرى للفريق نفسه، من تطبيق مراسلة وسجل صحي إلى حزم للمطوّرين وأدوات لتنظيف الأجهزة. افتح بطاقة المنتج لتعرف ما يفعله وأين يعمل وما حدوده المهمة قبل زيارته، ثم انتقل إلى موقعه. لكل منتج حساباته وطريقة عمله؛ وظهوره هنا لا يعني اتصاله بـVideo Controls Plus."
+  },
+  "ecosystem.viewsIntro": {
+    "message": "اختر شبكة لتصفح المنتجات، أو قائمة لقراءة كل منتج بالترتيب، أو جدولًا لمقارنة الأسماء والفئات والمنصات. تعرض الطرق الثلاث المنتجات نفسها. ويمكنك تغيير طريقة العرض دون أن تفقد موضعك."
+  },
+  "ecosystem.otherProducts": {
+    "message": "{count} منتجًا آخر"
+  },
+  "ecosystem.chooseView": {
+    "message": "اختر طريقة عرض المنتجات"
+  },
+  "ecosystem.view.grid": {
+    "message": "شبكة"
+  },
+  "ecosystem.view.list": {
+    "message": "قائمة"
+  },
+  "ecosystem.view.table": {
+    "message": "جدول"
+  },
+  "ecosystem.table.product": {
+    "message": "المنتج"
+  },
+  "ecosystem.table.category": {
+    "message": "الفئة"
+  },
+  "ecosystem.table.platform": {
+    "message": "أين يعمل"
+  },
+  "ecosystem.table.description": {
+    "message": "ما يفعله"
+  },
+  "ecosystem.table.actions": {
+    "message": "الإجراءات"
+  },
+  "ecosystem.visitNamedProduct": {
+    "message": "زيارة {name}"
+  },
+  "ecosystem.details": {
+    "message": "التفاصيل"
+  },
+  "ecosystem.moreFromZaions": {
+    "message": "المزيد من Zaions"
+  },
+  "ecosystem.carousel": {
+    "message": "عرض المنتجات المتتابع"
+  },
+  "ecosystem.sameTeam": {
+    "message": "من الفريق نفسه"
+  },
+  "ecosystem.seeAll": {
+    "message": "عرض كل المنتجات"
+  },
+  "ecosystem.previousProduct": {
+    "message": "المنتج السابق"
+  },
+  "ecosystem.slide": {
+    "message": "شريحة"
+  },
+  "ecosystem.positionOf": {
+    "message": "{position} من {total}"
+  },
+  "ecosystem.nextProduct": {
+    "message": "المنتج التالي"
+  },
+  "ecosystem.play": {
+    "message": "تشغيل"
+  },
+  "ecosystem.pause": {
+    "message": "إيقاف مؤقت"
+  },
+  "ecosystem.openProduct": {
+    "message": "فتح {name}"
+  },
+  "ecosystem.anotherProduct": {
+    "message": "منتج آخر من ZAIONS"
+  },
+  "ecosystem.visitProduct": {
+    "message": "زيارة المنتج"
+  },
+  "ecosystem.readDocs": {
+    "message": "قراءة أدلته"
+  },
+  "ecosystem.backToProducts": {
+    "message": "العودة إلى كل المنتجات"
+  },
+  "ecosystem.product.achat.card": {
+    "message": "اعثر على من تريد مراسلته باسم المستخدم أو رابط دعوة أو رمز QR، دون مشاركة رقم هاتفك."
+  },
+  "ecosystem.product.achat.heading": {
+    "message": "ما الذي يفعله AchatAI؟"
+  },
+  "ecosystem.product.achat.platformLabel": {
+    "message": "الويب وAndroid"
+  },
+  "ecosystem.product.achat.paragraph.1": {
+    "message": "يتيح لك AchatAI مراسلة الأشخاص الذين تختارهم على الويب وAndroid، من دون الحاجة إلى رقم هاتف. يمكنك العثور على شخص باسم المستخدم أو رابط دعوة أو رمز QR؛ فلا يبدأ التواصل بتبادل أرقام الهواتف. وتتوفر غرف مجهولة إذا أردت بدء محادثة قبل إعداد حساب."
+  },
+  "ecosystem.product.achat.paragraph.2": {
+    "message": "يمنحك ذلك نوعًا من التحكم يختلف عما يقدمه Video Controls Plus: هنا تختار مع من تتحدث وكيف يعثر عليك، بينما تحدد الإضافة طريقة تشغيل الفيديو. يجمع المنتجين فريق Zaions، ولكل واحد منهما نقطة بدء مستقلة."
+  },
+  "ecosystem.product.achat.paragraph.3": {
+    "message": "افتح [AchatAI](https://achat.aoneahsan.com) لتطّلع على طريقة المراسلة فيه. تبدأ المحادثة هناك، لا داخل مشغّل الفيديو."
+  },
+  "ecosystem.product.callvault.card": {
+    "message": "شغّل تسجيلات مكالماتك المحفوظة على هاتف Android، وابحث فيها وأضف ملاحظات وصدّرها."
+  },
+  "ecosystem.product.callvault.heading": {
+    "message": "ما الذي يفعله CallVault؟"
+  },
+  "ecosystem.product.callvault.platformLabel": {
+    "message": "Android"
+  },
+  "ecosystem.product.callvault.paragraph.1": {
+    "message": "يحفظ CallVault مكتبة مكالمات هاتفية على Android. يمكنك تشغيل مكالمة مسجلة والبحث فيها وإضافة ملاحظات إليها وتصديرها. يعتمد التسجيل على مصدر الصوت الذي يتيحه هاتفك، ولذلك لا يستطيع التطبيق ضمان النتيجة نفسها على كل هاتف."
+  },
+  "ecosystem.product.callvault.paragraph.2": {
+    "message": "يمكنك إبقاء التسجيلات على الهاتف، وتفعيل النسخ الاحتياطي الخاص في السحابة بخيار منفصل إذا أردت. ويهمّك هذا الفرق حين تحتاج إلى الرجوع إلى تفاصيل مكالمة، وتريد أيضًا تحديد مكان حفظ تسجيلها."
+  },
+  "ecosystem.product.callvault.paragraph.3": {
+    "message": "يحتفظ Video Controls Plus بأدوات التحكم والملاحظات التعليمية حول فيديو الإنترنت؛ أما CallVault فيتعامل مع المكالمات على جهاز Android. وهما منتجان منفصلان من الفريق نفسه. افتح [CallVault](https://callvault.aoneahsan.com) لتفحص مكتبة المكالمات وخيار النسخ الاحتياطي."
+  },
+  "ecosystem.product.capacitor-auth-manager.card": {
+    "message": "استخدم استدعاءً واحدًا لتسجيل الدخول عبر Google على الويب وAndroid وiOS، دون الاعتماد على Firebase."
+  },
+  "ecosystem.product.capacitor-auth-manager.heading": {
+    "message": "ما الذي يفعله Capacitor Auth Manager؟"
+  },
+  "ecosystem.product.capacitor-auth-manager.platformLabel": {
+    "message": "حزمة npm"
+  },
+  "ecosystem.product.capacitor-auth-manager.paragraph.1": {
+    "message": "يمنح Capacitor Auth Manager تطبيقات Capacitor استدعاءً واحدًا لتسجيل الدخول عبر Google على الويب وAndroid وiOS. استدعاء واحد، ثلاث منصات. لا تتطلب الحزمة Firebase، وتساعد المطوّر على وضع استدعاء الدخول في موضع واحد بدل صيانة ثلاثة استدعاءات في شيفرة التطبيق."
+  },
+  "ecosystem.product.capacitor-auth-manager.paragraph.2": {
+    "message": "Google هو المزوّد الوحيد في الإصدار 3.x. من المهم معرفة هذا الحد إذا كان تطبيقك يحتاج أيضًا إلى مزوّد هوية آخر. يتصل Video Controls Plus بحسابه بطريقته الخاصة؛ ولا تضيف هذه الحزمة وسيلة دخول إلى الإضافة."
+  },
+  "ecosystem.product.capacitor-auth-manager.paragraph.3": {
+    "message": "اقرأ [صفحة حزمة Capacitor Auth Manager](https://www.npmjs.com/package/capacitor-auth-manager) لتعليمات التثبيت والمنصات."
+  },
+  "ecosystem.product.clearhire.card": {
+    "message": "حوّل سجل خبراتك المنظّم إلى سيرة ذاتية ملائمة لأنظمة تتبّع المتقدمين، وافحص طريقة قراءتها."
+  },
+  "ecosystem.product.clearhire.heading": {
+    "message": "ما الذي يفعله ClearHire؟"
+  },
+  "ecosystem.product.clearhire.platformLabel": {
+    "message": "الويب وAndroid"
+  },
+  "ecosystem.product.clearhire.paragraph.1": {
+    "message": "يساعدك ClearHire على تحويل خبراتك العملية المنظّمة إلى سيرة ذاتية ملائمة لأنظمة تتبّع المتقدمين. أدخل الوظائف والأدلة التي تسند خبرتك، ثم استخدم أداة البناء والفحص لصياغة الوثيقة التي سيقرأها صاحب العمل. وتوجد أدوات مهنية لصياغة نقطة أقوى أو فحص سيرة موجودة."
+  },
+  "ecosystem.product.clearhire.paragraph.2": {
+    "message": "هذا سجل مختلف عن الملاحظات المرتبطة بفيديو. إذا شاهدت دورة باستخدام Video Controls Plus وتريد وصف مهارة اكتسبتها فعلًا، يمنحك ClearHire مكانًا للعمل على السيرة نفسها. لا ينقل المنتجان الملاحظات بينهما ولا يتحققان من الدورة نيابة عنك. ويعرض ClearHire أيضًا إجراءات للتحقق من العمل تعزز موثوقية الملف المهني."
+  },
+  "ecosystem.product.clearhire.paragraph.3": {
+    "message": "افتح [ClearHire](https://clearhire.aoneahsan.com) لبناء سيرة ذاتية أو فحصها."
+  },
+  "ecosystem.product.eatthis.card": {
+    "message": "ابحث عن الطعام بحسب العنصر الغذائي أو الشعور أو وقت اليوم، ثم انظر ما توفره حصة واحدة."
+  },
+  "ecosystem.product.eatthis.heading": {
+    "message": "ما الذي يفعله Eat This؟"
+  },
+  "ecosystem.product.eatthis.platformLabel": {
+    "message": "Android"
+  },
+  "ecosystem.product.eatthis.paragraph.1": {
+    "message": "يساعدك Eat This على البحث عن الطعام بحسب العنصر الغذائي أو الشعور أو وقت اليوم. ابدأ بحصة واحدة: بدل تصفح قائمة طويلة، يمكنك البدء بما تريد فهمه، ورؤية كمية العنصر الغذائي في الحصة، ثم مقارنتها بخيار أقل تكلفة من الخيارات المعروضة."
+  },
+  "ecosystem.product.eatthis.paragraph.2": {
+    "message": "هذا منتج للمعلومات الغذائية، منفصل عن أدوات تشغيل الفيديو في Video Controls Plus. يمكنك ضبط السرعة حين تشاهد، أو فحص الحصة حين تختار طعامًا. وإذا تطلّب السؤال الغذائي حكمًا طبيًا، فمرجعه الطبيب؛ ويبيّن المنتج هذا الحد."
+  },
+  "ecosystem.product.eatthis.paragraph.3": {
+    "message": "افتح [Eat This](https://eatthis.aoneahsan.com/) للبحث في معلومات الطعام."
+  },
+  "ecosystem.product.empora.card": {
+    "message": "فعّل وحدات WooCommerce التي يحتاجها متجرك داخل إضافة WordPress واحدة."
+  },
+  "ecosystem.product.empora.heading": {
+    "message": "ما الذي يفعله Empora؟"
+  },
+  "ecosystem.product.empora.platformLabel": {
+    "message": "WordPress / WooCommerce"
+  },
+  "ecosystem.product.empora.paragraph.1": {
+    "message": "يجمع Empora وحدات WooCommerce داخل إضافة WordPress واحدة. اختر الأجزاء التي يحتاجها متجرك بدل تثبيتها كلها معًا: ابدأ بالمهمة المطلوبة، ثم فعّل وحدتها واترك غيرها معطّلًا."
+  },
+  "ecosystem.product.empora.paragraph.2": {
+    "message": "تدير لوحة الويب التراخيص واتصالات المتاجر الاختيارية. وهي مخصصة لإدارة المتجر، وليست حسابًا للفيديو أو ميزة في Video Controls Plus. إذا كنت تدير متجر WooCommerce، فافحص الوحدات المتاحة وحدد الاتصال الذي تحتاجه قبل تفعيله. يمكنك تقييم كل وحدة على حدة بدل تشغيل وظيفة لم تتحقق من أثرها."
+  },
+  "ecosystem.product.empora.paragraph.3": {
+    "message": "افتح [Empora](https://empora.aoneahsan.com) لاستكشاف صفحة المنتج."
+  },
+  "ecosystem.product.habitforge.card": {
+    "message": "راقب حبل عادتك يزداد سماكة مع كل تسجيل، وتظهر فيه مواضع الانقطاع."
+  },
+  "ecosystem.product.habitforge.heading": {
+    "message": "ما الذي يفعله HabitForge؟"
+  },
+  "ecosystem.product.habitforge.platformLabel": {
+    "message": "الويب وAndroid"
+  },
+  "ecosystem.product.habitforge.paragraph.1": {
+    "message": "يجسّد HabitForge العادة على هيئة حبل يزداد سماكة مع كل تسجيل للالتزام. وتترك الأيام التي انقطعت فيها أثرًا مهترئًا يمكنك رؤيته حين تراجع مسارك. يمنحك الشكل سجلًا للاستمرار دون أن تحسب سلسلة الأيام بنفسك."
+  },
+  "ecosystem.product.habitforge.paragraph.2": {
+    "message": "تتوفر الأصدقاء والتحديات ولوحة الترتيب، ويمكنك مغادرة لوحة الترتيب. يعمل الحساب نفسه على الويب وAndroid. قد يحتفظ Video Controls Plus بملاحظات عن درس شاهدته؛ أما HabitForge فهو مكان تسجيل ما إذا واظبت على الفعل بعده. تبقى سجلات المنتجين منفصلة، ولا يمحو موضع الانقطاع مرات الالتزام السابقة."
+  },
+  "ecosystem.product.habitforge.paragraph.3": {
+    "message": "افتح [HabitForge](https://habitforge.aoneahsan.com) لاستكشاف صفحة المنتج."
+  },
+  "ecosystem.product.labflow.card": {
+    "message": "تابع عيّنة التشخيص من الطلب، مرورًا بالتحقق، حتى إصدار النتيجة."
+  },
+  "ecosystem.product.labflow.heading": {
+    "message": "ما الذي يفعله LabFlow؟"
+  },
+  "ecosystem.product.labflow.platformLabel": {
+    "message": "الويب وAndroid"
+  },
+  "ecosystem.product.labflow.paragraph.1": {
+    "message": "يتابع LabFlow عمل المختبر التشخيصي من المريض والطلب إلى العينة والنتيجة والتحقق منها. وتختلف حالة مسودة النتيجة عن النتيجة الصادرة للمريض؛ وهو فرق مهم عندما يتعامل عدة أشخاص مع العينة نفسها."
+  },
+  "ecosystem.product.labflow.paragraph.2": {
+    "message": "توجد الفوترة والمخزون وضبط الجودة في النظام نفسه. صُمم LabFlow للعاملين في المختبرات التشخيصية، وليس سجلًا صحيًا شخصيًا ولا أداة لتفسير درس فيديو. افحص فيه انتقال الطلب إلى نتيجة صادرة والإجراءات الموكلة للموظفين. ويتحقق طاقم المختبر من خطوة الإصدار حتى يكون للنتيجة التي يراها المريض وضع واضح."
+  },
+  "ecosystem.product.labflow.paragraph.3": {
+    "message": "افتح [LabFlow](https://labflow.aoneahsan.com) لاستكشاف صفحة المنتج."
+  },
+  "ecosystem.product.lifewell.card": {
+    "message": "احتفظ بالعلامات الحيوية والماء والأدوية والنوم والتغذية في سجل صحي واحد."
+  },
+  "ecosystem.product.lifewell.heading": {
+    "message": "ما الذي يفعله LifeWell؟"
+  },
+  "ecosystem.product.lifewell.platformLabel": {
+    "message": "الويب وAndroid"
+  },
+  "ecosystem.product.lifewell.paragraph.1": {
+    "message": "يجمع LifeWell العلامات الحيوية والماء والأدوية والنوم والتغذية في سجل صحي واحد. ويمكنك أيضًا تسجيل الدورة الشهرية والخصوبة ومراحل نمو الطفل يومًا بعد يوم. عندما تحتاج إلى مراجعة الماضي، تجد هذه المدخلات في مكان واحد بدل ملاحظات متفرقة."
+  },
+  "ecosystem.product.lifewell.paragraph.2": {
+    "message": "يعمل المنتج على الويب وAndroid ويزامن السجل بين الأجهزة، فتستطيع متابعة الإدخال من شاشة أخرى. لكنه لا يحوّل السجل إلى تشخيص أو علاج. يعالج Video Controls Plus أدوات الفيديو وملاحظات الدراسة؛ ويحفظ LifeWell المدخلات الصحية في حسابه المستقل. المدخلة الواحدة جزء فقط من السجل الذي تراجعه عبر الأيام."
+  },
+  "ecosystem.product.lifewell.paragraph.3": {
+    "message": "افتح [LifeWell](https://lifewell.aoneahsan.com) لاستكشاف صفحة المنتج."
+  },
+  "ecosystem.product.linux-cleanup.card": {
+    "message": "اعرض مسارات ذاكرة التخزين المؤقت في Linux، وجرّب التشغيل الجاف، ثم راجع سجل ما نُظّف."
+  },
+  "ecosystem.product.linux-cleanup.heading": {
+    "message": "ما الذي يفعله linux-cleanup؟"
+  },
+  "ecosystem.product.linux-cleanup.platformLabel": {
+    "message": "سطح مكتب Linux وسطر الأوامر"
+  },
+  "ecosystem.product.linux-cleanup.paragraph.1": {
+    "message": "يعرض linux-cleanup مسارات ذاكرة التخزين المؤقت في Linux التي يمكنه إزالتها قبل التشغيل الفعلي. اطلع على حدوده، ثم نفّذ فحصًا وتشغيلًا جافًا أولًا. لا تحذف هاتان الخطوتان أي شيء؛ اقرأ المسارات قبل المتابعة."
+  },
+  "ecosystem.product.linux-cleanup.paragraph.2": {
+    "message": "يتوفر تطبيق سطح المكتب لنظام Linux بمعمارية x86_64 بصيغتي AppImage و.deb، ويصدر سجلًا بعد التشغيل الفعلي. وتعمل أداة سطر الأوامر المرخّصة وفق MIT عبر npx. هذه صيانة للحاسوب، منفصلة عن أدوات المتصفح في Video Controls Plus. يتيح لك العرض المسبق معرفة ما سيُمسّ، ويبيّن السجل ما حدث بعد التنظيف."
+  },
+  "ecosystem.product.linux-cleanup.paragraph.3": {
+    "message": "افتح [linux-cleanup](https://linux-cleanup.aoneahsan.com/) لاستكشاف صفحة المنتج."
+  },
+  "ecosystem.product.macleanup.card": {
+    "message": "افحص أقسام تنظيف macOS بتشغيل جاف حقيقي قبل إزالة أي شيء."
+  },
+  "ecosystem.product.macleanup.heading": {
+    "message": "ما الذي يفعله macleanup؟"
+  },
+  "ecosystem.product.macleanup.platformLabel": {
+    "message": "سطح مكتب macOS وسطر الأوامر"
+  },
+  "ecosystem.product.macleanup.paragraph.1": {
+    "message": "macleanup أداة لتنظيف macOS تعرض أقسام التنظيف وتتيح تشغيلًا جافًا حقيقيًا قبل الإزالة. وهي ترفض التعامل مع المجلدات الشخصية دائمًا؛ هذا حد ثابت في المنتج، وليس إعدادًا عليك تذكر تفعيله."
+  },
+  "ecosystem.product.macleanup.paragraph.2": {
+    "message": "الأداة مخصصة لصيانة جهاز Mac، لا لإدارة فيديو المتصفح. إذا أردت إخلاء مساحة، اقرأ قائمة الأقسام ونتيجة التشغيل الجاف قبل أن تقرر بدء التنظيف الفعلي. يصدر macleanup وVideo Controls Plus عن المطوّر نفسه، لكنهما لا يشتركان في الإعدادات أو سير العمل. ويظل رفض المجلدات الشخصية قائمًا أثناء التشغيل الفعلي."
+  },
+  "ecosystem.product.macleanup.paragraph.3": {
+    "message": "افتح [macleanup](https://github.com/aoneahsan/macleanup) لاستكشاف صفحة المنتج."
+  },
+  "ecosystem.product.native-update.card": {
+    "message": "أرسل تحديثات حزمة تطبيق Capacitor بين إصدارات المتجر."
+  },
+  "ecosystem.product.native-update.heading": {
+    "message": "ما الذي يفعله Native Update؟"
+  },
+  "ecosystem.product.native-update.platformLabel": {
+    "message": "الويب وحزمة npm"
+  },
+  "ecosystem.product.native-update.paragraph.1": {
+    "message": "يرسل Native Update حزم تطبيقات Capacitor بين إصدارات المتجر. يستطيع مطوّر التطبيق نشر حزمة لتطبيق مثبت بدل انتظار ظهور كل تغيير في طبقة الويب عبر إصدار المتجر. ويغطي المشروع أيضًا مطالبات التحديث من المتجر والتقييم داخل التطبيق."
+  },
+  "ecosystem.product.native-update.paragraph.2": {
+    "message": "للمشروع خلفية يمكن استضافتها ذاتيًا، وهو مفتوح المصدر. لذلك فهو منتج للمطوّرين له مسار إصدار يجب إعداده، وليس زر تحديث لمستخدمي Video Controls Plus. إذا كنت تبني تطبيقات Capacitor، فاقرأ تعليمات المنصات والخلفية قبل أن تقرر كيف سيتلقى تطبيقك التحديثات. يبقى لإصدار المتجر مساره المستقل."
+  },
+  "ecosystem.product.native-update.paragraph.3": {
+    "message": "افتح [Native Update](https://nativeupdate.aoneahsan.com) لاستكشاف صفحة المنتج."
+  },
+  "ecosystem.product.netcage.card": {
+    "message": "اختر تطبيقات Android التي تستخدم Wi-Fi أو بيانات الهاتف، والوقت الذي تسري فيه القاعدة."
+  },
+  "ecosystem.product.netcage.heading": {
+    "message": "ما الذي يفعله NetCage؟"
+  },
+  "ecosystem.product.netcage.platformLabel": {
+    "message": "Android"
+  },
+  "ecosystem.product.netcage.paragraph.1": {
+    "message": "يتيح لك NetCage تحديد تطبيقات Android التي يمكنها استخدام Wi-Fi أو بيانات الهاتف أو كليهما. يمكنك منع تطبيق محدد من الاتصال مع بقاء بقية الهاتف متصلًا، وتجميع التطبيقات في ملفات تعريف تطبّق قواعدها في أيام وأوقات تختارها."
+  },
+  "ecosystem.product.netcage.paragraph.2": {
+    "message": "يعمل هذا التحكم على مستوى اتصال تطبيقات Android. لا يغيّر مشغّل الفيديو في موقع ويب ولا طريقة اتصال Video Controls Plus بحسابك. إذا أردت ضبط وقت اتصال تطبيق على هاتفك، فافحص التطبيقات المستهدفة والجدول قبل تفعيل ملف التعريف. يفيد الجدول حين ينبغي أن تسري القاعدة في أوقات دون أخرى."
+  },
+  "ecosystem.product.netcage.paragraph.3": {
+    "message": "افتح [NetCage](https://netcage.aoneahsan.com) لاستكشاف صفحة المنتج."
+  },
+  "ecosystem.product.pregnancypal.card": {
+    "message": "اجمع أسابيع الحمل والأعراض والمواعيد في سجل، مع ملف PDF تأخذينه إلى الطبيب."
+  },
+  "ecosystem.product.pregnancypal.heading": {
+    "message": "ما الذي يفعله PregnancyPal؟"
+  },
+  "ecosystem.product.pregnancypal.platformLabel": {
+    "message": "الويب وAndroid"
+  },
+  "ecosystem.product.pregnancypal.paragraph.1": {
+    "message": "يوفر PregnancyPal مكانًا لمتابعة الحمل أسبوعًا بأسبوع. يمكنك تسجيل الأعراض والمزاج والعلامات الحيوية والمواعيد، والاحتفاظ بمعلومات التغذية والتمارين إلى جانب أسبوع الحمل المعني. ويمكن تحويل المدخلات إلى ملف PDF مناسب لعرضه على الطبيب خلال الموعد."
+  },
+  "ecosystem.product.pregnancypal.paragraph.2": {
+    "message": "هذا منتج للتتبع الشخصي، وليس نصيحة طبية أو بديلًا عن الطبيب. له سجل وطريقة عمل مستقلان؛ فلا تُضاف إليه تلقائيًا فيديوهات أو ملاحظات من Video Controls Plus. افتحي PregnancyPal لرؤية عرض الأسابيع والمعلومات التي يمكنك تسجيلها. يساعدك ملف PDF على حمل ملاحظاتك إلى موعد يناقش فيه الطبيب سياقها."
+  },
+  "ecosystem.product.pregnancypal.paragraph.3": {
+    "message": "زوري [PregnancyPal](https://pregnancypal.aoneahsan.com) لاستكشاف صفحة المنتج."
+  },
+  "ecosystem.product.rentparty.card": {
+    "message": "أوقف لعبة تداول العقارات مؤقتًا وعد إليها مع البنك والصكوك في مواضعها."
+  },
+  "ecosystem.product.rentparty.heading": {
+    "message": "ما الذي يفعله RentParty؟"
+  },
+  "ecosystem.product.rentparty.platformLabel": {
+    "message": "الويب وAndroid"
+  },
+  "ecosystem.product.rentparty.paragraph.1": {
+    "message": "RentParty لعبة لتداول العقارات يمكنك إيقافها والعودة إليها في يوم آخر. تستطيع تمرير هاتف واحد بين اللاعبين، أو اللعب ضد شخصيات الحاسوب، أو فتح غرفة عبر الإنترنت. وعند التوقف، تحتفظ اللعبة بحالة البنك والصكوك للجلسة التالية."
+  },
+  "ecosystem.product.rentparty.paragraph.2": {
+    "message": "تفيدك العودة إلى الجلسة نفسها عندما يحتاج الجميع إلى ترك اللعب. RentParty لعبة من فريق Zaions؛ أما Video Controls Plus فإضافة للتحكم في فيديو الإنترنت. لكل منهما جلساته وأدواته المنفصلة. افتح RentParty لتختار كيف سينضم اللاعبون، ثم تابع الأدوار لاحقًا دون إعادة بناء حالة الأملاك من الذاكرة."
+  },
+  "ecosystem.product.rentparty.paragraph.3": {
+    "message": "افتح [RentParty](https://rentparty.aoneahsan.com) لاستكشاف صفحة المنتج."
+  },
+  "ecosystem.product.smsapp.card": {
+    "message": "أرسل رسائل SMS مفردة أو دفعية أو مجدولة عبر جهاز Android الخاص بك."
+  },
+  "ecosystem.product.smsapp.heading": {
+    "message": "ما الذي يفعله SMS App؟"
+  },
+  "ecosystem.product.smsapp.platformLabel": {
+    "message": "Android"
+  },
+  "ecosystem.product.smsapp.paragraph.1": {
+    "message": "يرسل SMS App الرسائل النصية عبر جهاز Android الخاص بك. ويدعم الرسالة المفردة والدُفعات والإرسال المجدول، إلى جانب تسجيل الأجهزة وإدارة مجموعة الأجهزة التطوعية للمهام الأكبر. الهاتف جزء من مسار الإرسال، لذا افحص إعداده قبل التخطيط لحملة."
+  },
+  "ecosystem.product.smsapp.paragraph.2": {
+    "message": "يتعامل هذا المنتج الأصلي لنظام Android مع تسليم SMS وخيارات الخصوصية المرتبطة به. لا يرسل الرسائل من Video Controls Plus، ولا يصبح حساب الإضافة جهازًا لإرسال SMS. راجع في SMS App طريقة عمل الأجهزة والرسائل قبل إعداد دفعة. ولا يفيد الجدول إلا إذا توفر الجهاز المسجل المناسب وقت الإرسال."
+  },
+  "ecosystem.product.smsapp.paragraph.3": {
+    "message": "افتح [SMS App](https://smsapp.aoneahsan.com) لاستكشاف صفحة المنتج."
+  },
+  "ecosystem.product.strata-storage.card": {
+    "message": "استخدم واجهة تخزين واحدة للمتصفح وKeychain أو Keystore على الأجهزة الأصلية."
+  },
+  "ecosystem.product.strata-storage.heading": {
+    "message": "ما الذي يفعله Strata Storage؟"
+  },
+  "ecosystem.product.strata-storage.platformLabel": {
+    "message": "حزمة npm"
+  },
+  "ecosystem.product.strata-storage.paragraph.1": {
+    "message": "يمنح Strata Storage المطوّرين واجهة واحدة فوق تخزين المتصفح والجهاز. يدعم localStorage وIndexedDB وملفات تعريف الارتباط على الويب، وKeychain وKeystore على المنصات الأصلية. ولا يعتمد على حزم أخرى. اختر طبقة التخزين المناسبة للبيانات."
+  },
+  "ecosystem.product.strata-storage.paragraph.2": {
+    "message": "يمكن للواجهة المشتركة توحيد استدعاءات التخزين على الويب وiOS وAndroid، مع بقاء خصائص كل طبقة مختلفة. هذه حزمة لبناة التطبيقات، وليست إعدادًا جديدًا في Video Controls Plus. اقرأ تعليماتها لتحديد الطبقة وسلوك حفظ البيانات الذي يحتاجه تطبيقك. ولا تجعل الواجهة الواحدة خصائص أمان مخازن الويب والمخازن الأصلية متطابقة."
+  },
+  "ecosystem.product.strata-storage.paragraph.3": {
+    "message": "افتح [Strata Storage](https://www.npmjs.com/package/strata-storage) لاستكشاف صفحة المنتج."
+  },
+  "ecosystem.product.tilawah.card": {
+    "message": "تابع دروس التجويد والتفسير المسجلة بالوتيرة التي تناسبك."
+  },
+  "ecosystem.product.tilawah.heading": {
+    "message": "ما الذي يفعله Tilawah؟"
+  },
+  "ecosystem.product.tilawah.platformLabel": {
+    "message": "الويب"
+  },
+  "ecosystem.product.tilawah.paragraph.1": {
+    "message": "يقدّم Tilawah دروسًا مسجلة في التجويد والتفسير تتبعها بالوتيرة التي تناسبك. يوضح تتبّع التقدم الدروس التي أنهيتها دون الحاجة إلى جلسة مباشرة مجدولة. وإذا أردت من معلّم أن يستمع إلى تلاوتك، يمكنك حجز جلسة فردية مباشرة بحسب منطقتك الزمنية."
+  },
+  "ecosystem.product.tilawah.paragraph.2": {
+    "message": "يمكنك إعادة تشغيل درس مسجل عندما يناسبك، أو تحديد وقت للتعلم مع معلّم. يحتفظ Tilawah بهذا المسار داخل منتجه. يستطيع Video Controls Plus ضبط تشغيل الفيديو القياسي على الإنترنت، لكنه لا يسجّلك في درس Tilawah ولا يربط الحسابين. تحقق من وقت الجلسة المعروض في منطقتك الزمنية قبل الحجز."
+  },
+  "ecosystem.product.tilawah.paragraph.3": {
+    "message": "افتح [Tilawah](https://tilawah.aoneahsan.com) لاستكشاف صفحة المنتج."
+  },
+  "ecosystem.product.trizlink.card": {
+    "message": "اجمع الروابط القصيرة بعلامتك وصفحة روابط شخصية وتحليلات النقرات في مكان واحد."
+  },
+  "ecosystem.product.trizlink.heading": {
+    "message": "ما الذي يفعله Trizlink؟"
+  },
+  "ecosystem.product.trizlink.platformLabel": {
+    "message": "الويب وAndroid"
+  },
+  "ecosystem.product.trizlink.paragraph.1": {
+    "message": "يجمع Trizlink الروابط القصيرة وصفحة الروابط الشخصية وتحليلات النقرات في منتج واحد. يمكنك إنشاء رابط قصير بعلامتك وباسم مخصص، أو وضع وجهات متعددة في صفحة واحدة. ويبيّن سجل النقرات ما حدث حين استخدم الناس الرابط."
+  },
+  "ecosystem.product.trizlink.paragraph.2": {
+    "message": "تتوفر أيضًا نطاقات مخصصة وأدوات مدمجة. تدير رابط Trizlink داخل منتجه؛ فهو ليس أداة للتحكم بالفيديو، ولا ينشئ Video Controls Plus الروابط أو يسجل نقراتها. افتح Trizlink إذا احتجت عنوانًا أقصر أو صفحة لعدة وجهات. يساعد الاسم المميز في التعرف إلى الرابط، وتبين التحليلات هل استُخدم."
+  },
+  "ecosystem.product.trizlink.paragraph.3": {
+    "message": "افتح [Trizlink](https://trizlink.com) لاستكشاف صفحة المنتج."
+  },
+  "ecosystem.product.waylock.card": {
+    "message": "ثبّت محطات تختارها، وأعِد ترتيب بقية محطات مسار القيادة على Android."
+  },
+  "ecosystem.product.waylock.heading": {
+    "message": "ما الذي يفعله Waylock؟"
+  },
+  "ecosystem.product.waylock.platformLabel": {
+    "message": "Android"
+  },
+  "ecosystem.product.waylock.paragraph.1": {
+    "message": "Waylock طبقة تخطيط فوق خرائط Google على Android للسائقين وموصّلي الطلبات. يمكنك تثبيت محطات معينة وإعادة ترتيب بقية المحطات حولها. وإذا انعطفت في اتجاه خاطئ، يظل المسار الذي اخترته ظاهرًا مع خيار العودة إليه أو اتخاذ مسار جديد."
+  },
+  "ecosystem.product.waylock.paragraph.2": {
+    "message": "يفيد هذا الفرق حين لا يمكن تغيير ترتيب بعض عمليات التسليم، بينما ينبغي أن تتكيف البقية مع الرحلة. هذا تخطيط مسارات مستقل عن التنقل في المتصفح. افتح Waylock لترى كيف تثبّت المسار وتعدّله على Android. لا يمحو الانعطاف الخاطئ اختيارك الأصلي؛ بل يعرض القرار التالي بوضوح."
+  },
+  "ecosystem.product.waylock.paragraph.3": {
+    "message": "افتح [Waylock](https://waylock.aoneahsan.com) لاستكشاف صفحة المنتج."
+  },
+  "ecosystem.product.windowsweep.card": {
+    "message": "اقرأ كل مسار لتنظيف Windows في تشغيل جاف حقيقي قبل اختيار ما ستزيله."
+  },
+  "ecosystem.product.windowsweep.heading": {
+    "message": "ما الذي يفعله windowsweep؟"
+  },
+  "ecosystem.product.windowsweep.platformLabel": {
+    "message": "سطح مكتب Windows وسطر الأوامر"
+  },
+  "ecosystem.product.windowsweep.paragraph.1": {
+    "message": "يسمي windowsweep كل مسار تنظيف في Windows قبل لمسه. تضم أقسامه الثلاثون تشغيلًا جافًا حقيقيًا، وتُختار الملفات الشخصية صفًا صفًا بدل إضافتها صامتًا. ولا يجري أي اتصال بالشبكة. اقرأ التغييرات المقترحة أولًا."
+  },
+  "ecosystem.product.windowsweep.paragraph.2": {
+    "message": "يمكن تشغيله عبر npx أو استخدام تطبيق سطح المكتب لنظام Windows. جلسة التنظيف تخص الحاسوب الذي تفحص مساراته، وهي منفصلة عن Video Controls Plus في المتصفح. ابدأ بالتشغيل الجاف، وافحص كل قسم قبل أن تقرر إجراء تنظيف فعلي. اختيار الملفات الشخصية صفًا صفًا يجعل القرار ظاهرًا لك."
+  },
+  "ecosystem.product.windowsweep.paragraph.3": {
+    "message": "افتح [windowsweep](https://windowsweep.aoneahsan.com) لاستكشاف صفحة المنتج."
+  },
+  "ecosystem.product.ztools.card": {
+    "message": "اعثر على أدوات تنسيق وتحويل وترميز وتوليد تعمل في المتصفح دون رفع الملفات."
+  },
+  "ecosystem.product.ztools.heading": {
+    "message": "ما الذي يفعله ZTools؟"
+  },
+  "ecosystem.product.ztools.platformLabel": {
+    "message": "الويب وAndroid وإضافة Chrome"
+  },
+  "ecosystem.product.ztools.paragraph.1": {
+    "message": "يجمع ZTools أدوات تنسيق وتحويل وترميز وتوليد تعمل في المتصفح ضمن صندوق أدوات قابل للبحث. افتح الأداة المناسبة لما تريد إنجازه، واعمل داخل المتصفح؛ ووفق سجل المنتجات لا يُرفع شيء. ابدأ بالبحث عن الأداة المحددة."
+  },
+  "ecosystem.product.ztools.paragraph.2": {
+    "message": "يدعم أيضًا الوضع الداكن والعمل دون اتصال. ZTools مخصص لأدوات الملفات والنصوص، بينما يركز Video Controls Plus على تشغيل فيديو الإنترنت والتعلم. إذا كنت تبحث عن محوّل لا عن أداة للفيديو، فاتبع رابط ZTools واختر الأداة التي تناسب مدخلاتك. يساعدك فهرسه حين تعرف المهمة ولا تعرف اسم الأداة."
+  },
+  "ecosystem.product.ztools.paragraph.3": {
+    "message": "افتح [ZTools](https://ztools.zaions.com) لاستكشاف صفحة المنتج."
   }
 }

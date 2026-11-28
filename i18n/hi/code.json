@@ -465,5 +465,515 @@
   "theme.tags.tagsPageTitle": {
     "message": "टैग",
     "description": "The title of the tag list page"
+  },
+  "ecosystem.title": {
+    "message": "Zaions और क्या बनाता है?"
+  },
+  "ecosystem.description": {
+    "message": "Video Controls Plus बनाने वाली Zaions टीम के अन्य उत्पाद देखें।"
+  },
+  "ecosystem.eyebrow": {
+    "message": "वीडियो प्लेयर से आगे / Zaions"
+  },
+  "ecosystem.intro": {
+    "message": "Zaions ऑनलाइन वीडियो के अलावा भी कई कामों के लिए उत्पाद बनाता है। इसी टीम के दूसरे उत्पाद देखें: मैसेजिंग ऐप और स्वास्थ्य रिकॉर्ड से लेकर डेवलपर पैकेज और कंप्यूटर साफ़ करने वाले टूल तक। किसी कार्ड को खोलकर जानें कि वह उत्पाद क्या करता है, कहाँ चलता है और उसकी कौन-सी सीमा पहले जानना ज़रूरी है। फिर उसके अपने पेज पर जाएँ। इन उत्पादों के अकाउंट और काम करने के तरीके अलग हैं; यहाँ दिखने का मतलब यह नहीं कि वे Video Controls Plus से जुड़े हैं।"
+  },
+  "ecosystem.viewsIntro": {
+    "message": "उत्पादों पर नज़र डालने के लिए ग्रिड, एक-एक के बारे में पढ़ने के लिए सूची या नाम, श्रेणी और प्लेटफ़ॉर्म मिलाने के लिए तालिका चुनें। तीनों में वही उत्पाद हैं। देखने का तरीका बदलने पर आपकी जगह बनी रहती है।"
+  },
+  "ecosystem.otherProducts": {
+    "message": "{count} अन्य उत्पाद"
+  },
+  "ecosystem.chooseView": {
+    "message": "उत्पाद देखने का तरीका चुनें"
+  },
+  "ecosystem.view.grid": {
+    "message": "ग्रिड"
+  },
+  "ecosystem.view.list": {
+    "message": "सूची"
+  },
+  "ecosystem.view.table": {
+    "message": "तालिका"
+  },
+  "ecosystem.table.product": {
+    "message": "उत्पाद"
+  },
+  "ecosystem.table.category": {
+    "message": "श्रेणी"
+  },
+  "ecosystem.table.platform": {
+    "message": "कहाँ चलता है"
+  },
+  "ecosystem.table.description": {
+    "message": "क्या करता है"
+  },
+  "ecosystem.table.actions": {
+    "message": "विकल्प"
+  },
+  "ecosystem.visitNamedProduct": {
+    "message": "{name} देखें"
+  },
+  "ecosystem.details": {
+    "message": "विवरण"
+  },
+  "ecosystem.moreFromZaions": {
+    "message": "Zaions के और उत्पाद"
+  },
+  "ecosystem.openProduct": {
+    "message": "{name} खोलें"
+  },
+  "ecosystem.anotherProduct": {
+    "message": "ZAIONS का एक और उत्पाद"
+  },
+  "ecosystem.visitProduct": {
+    "message": "उत्पाद देखें"
+  },
+  "ecosystem.readDocs": {
+    "message": "इसके दस्तावेज़ पढ़ें"
+  },
+  "ecosystem.backToProducts": {
+    "message": "सभी उत्पादों पर लौटें"
+  },
+  "ecosystem.carousel": {
+    "message": "कैरोसेल"
+  },
+  "ecosystem.sameTeam": {
+    "message": "इसी टीम की ओर से"
+  },
+  "ecosystem.seeAll": {
+    "message": "सभी उत्पाद देखें"
+  },
+  "ecosystem.previousProduct": {
+    "message": "पिछला उत्पाद"
+  },
+  "ecosystem.nextProduct": {
+    "message": "अगला उत्पाद"
+  },
+  "ecosystem.slide": {
+    "message": "स्लाइड"
+  },
+  "ecosystem.positionOf": {
+    "message": "{total} में से {position}"
+  },
+  "ecosystem.play": {
+    "message": "चलाएँ"
+  },
+  "ecosystem.pause": {
+    "message": "रोकें"
+  },
+  "ecosystem.category.web-app": {
+    "message": "वेब ऐप"
+  },
+  "ecosystem.category.mobile-app": {
+    "message": "मोबाइल ऐप"
+  },
+  "ecosystem.category.package": {
+    "message": "डेवलपर पैकेज"
+  },
+  "ecosystem.category.wordpress-plugin-saas": {
+    "message": "WordPress प्लगइन और वेब सेवा"
+  },
+  "ecosystem.category.desktop-app-cli": {
+    "message": "डेस्कटॉप ऐप और कमांड लाइन टूल"
+  },
+  "ecosystem.category.saas-package": {
+    "message": "वेब सेवा और पैकेज"
+  },
+  "ecosystem.product.achat.card": {
+    "message": "फ़ोन नंबर बताए बिना यूज़रनेम, आमंत्रण लिंक या QR कोड से उन लोगों से जुड़ें जिनसे बात करना चाहते हैं।"
+  },
+  "ecosystem.product.achat.heading": {
+    "message": "AchatAI क्या करता है?"
+  },
+  "ecosystem.product.achat.paragraph.1": {
+    "message": "AchatAI पर आप वेब और Android से उन लोगों को मैसेज भेज सकते हैं जिनसे बात करना चाहते हैं। फ़ोन नंबर देना ज़रूरी नहीं है। किसी को यूज़रनेम, आमंत्रण लिंक या QR कोड से ढूँढा जा सकता है, इसलिए बातचीत शुरू करने के लिए पहले नंबर साझा करने की ज़रूरत नहीं पड़ती। अकाउंट बनाने से पहले बातचीत शुरू करनी हो, तो अनाम रूम भी उपलब्ध हैं।"
+  },
+  "ecosystem.product.achat.paragraph.2": {
+    "message": "यह Video Controls Plus से अलग तरह का नियंत्रण है। AchatAI में तय करें कि किससे बात करनी है और वह आपको कैसे ढूँढेगा; एक्सटेंशन में तय करें कि वीडियो कैसे चलेगा। दोनों Zaions टीम के उत्पाद हैं, लेकिन हर एक को शुरू करने की अपनी जगह है।"
+  },
+  "ecosystem.product.achat.paragraph.3": {
+    "message": "मैसेजिंग का तरीका देखने के लिए [AchatAI](https://achat.aoneahsan.com) खोलें। बातचीत वहाँ शुरू होती है, वीडियो प्लेयर में नहीं।"
+  },
+  "ecosystem.product.achat.platformLabel": {
+    "message": "वेब और Android"
+  },
+  "ecosystem.product.callvault.card": {
+    "message": "अपने Android फ़ोन में रखी कॉल रिकॉर्डिंग सुनें, खोजें, उन पर नोट लिखें और एक्सपोर्ट करें।"
+  },
+  "ecosystem.product.callvault.heading": {
+    "message": "CallVault क्या करता है?"
+  },
+  "ecosystem.product.callvault.paragraph.1": {
+    "message": "CallVault Android पर फ़ोन कॉल की लाइब्रेरी रखता है। कोई कॉल दोबारा सुनें। ऐप आपके फ़ोन पर उपलब्ध ऑडियो स्रोत से रिकॉर्ड करता है और रिकॉर्ड हुई कॉल को सुनने, खोजने, उस पर नोट लिखने और एक्सपोर्ट करने देता है। उपलब्ध ऑडियो स्रोत महत्वपूर्ण है: हर फ़ोन पर एक जैसी रिकॉर्डिंग का वादा ऐप नहीं कर सकता।"
+  },
+  "ecosystem.product.callvault.paragraph.2": {
+    "message": "रिकॉर्डिंग फ़ोन पर ही रखी जा सकती हैं। निजी क्लाउड बैकअप अलग विकल्प है, जिसे आप चाहें तो चालू कर सकते हैं। किसी कॉल में बाद में ढूँढने लायक जानकारी हो, तब यह फ़र्क काम आता है: रिकॉर्डिंग कहाँ रहेगी, यह फैसला भी आपके पास है।"
+  },
+  "ecosystem.product.callvault.paragraph.3": {
+    "message": "Video Controls Plus ऑनलाइन वीडियो के साथ प्लेबैक नियंत्रण और पढ़ाई के नोट रखता है; CallVault Android डिवाइस की कॉल सँभालता है। ये एक ही टीम के अलग उत्पाद हैं। फ़ोन की कॉल लाइब्रेरी और बैकअप विकल्प देखने के लिए [CallVault](https://callvault.aoneahsan.com) खोलें।"
+  },
+  "ecosystem.product.callvault.platformLabel": {
+    "message": "Android"
+  },
+  "ecosystem.product.capacitor-auth-manager.card": {
+    "message": "Firebase पर निर्भर हुए बिना वेब, Android और iOS पर Google साइन-इन के लिए एक ही कॉल करें।"
+  },
+  "ecosystem.product.capacitor-auth-manager.heading": {
+    "message": "Capacitor Auth Manager क्या करता है?"
+  },
+  "ecosystem.product.capacitor-auth-manager.paragraph.1": {
+    "message": "Capacitor Auth Manager वेब, Android और iOS पर Google साइन-इन के लिए ऐप को एक ही कॉल देता है। एक कॉल, तीन प्लेटफ़ॉर्म। यह Capacitor ऐप बनाने वालों का पैकेज है और इसके लिए Firebase डिपेंडेंसी की ज़रूरत नहीं है। साझा इंटरफ़ेस इसका मुख्य लाभ है: नीचे का प्लेटफ़ॉर्म बदलने पर भी ऐप कोड में साइन-इन की कॉल एक ही जगह रखी जा सकती है।"
+  },
+  "ecosystem.product.capacitor-auth-manager.paragraph.2": {
+    "message": "केवल Google। संस्करण 3.x में साइन-इन प्रदाता के रूप में Google ही उपलब्ध है। ऐप में किसी और पहचान प्रदाता की भी ज़रूरत हो, तो यह सीमा पहले जान लें। Video Controls Plus का अपना अकाउंट कनेक्शन है; यह डेवलपर पैकेज अलग उत्पाद है और एक्सटेंशन में नया साइन-इन तरीका नहीं जोड़ता।"
+  },
+  "ecosystem.product.capacitor-auth-manager.paragraph.3": {
+    "message": "इंस्टॉल करने और अलग-अलग प्लेटफ़ॉर्म पर सेटअप के निर्देश [Capacitor Auth Manager पैकेज](https://www.npmjs.com/package/capacitor-auth-manager) में पढ़ें।"
+  },
+  "ecosystem.product.capacitor-auth-manager.platformLabel": {
+    "message": "npm पैकेज"
+  },
+  "ecosystem.product.clearhire.card": {
+    "message": "अपने व्यवस्थित कार्य अनुभव से भर्ती सॉफ़्टवेयर के अनुकूल रिज़्यूमे बनाएँ और जाँचें कि वह कैसे पढ़ा जाता है।"
+  },
+  "ecosystem.product.clearhire.heading": {
+    "message": "ClearHire क्या करता है?"
+  },
+  "ecosystem.product.clearhire.paragraph.1": {
+    "message": "ClearHire व्यवस्थित कार्य अनुभव को भर्ती सॉफ़्टवेयर के अनुकूल रिज़्यूमे में बदलने में मदद करता है। अपने काम के प्रमाण साथ रखें। अपनी भूमिकाएँ और अनुभव के पीछे के तथ्य दर्ज करें, फिर बिल्डर और जाँच के सहारे वह दस्तावेज़ तैयार करें जिसे नियोक्ता पढ़ेगा। मज़बूत बुलेट लिखने और मौजूदा रिज़्यूमे जाँचने जैसे कामों के लिए करियर टूल भी हैं।"
+  },
+  "ecosystem.product.clearhire.paragraph.2": {
+    "message": "यह वीडियो से जुड़े नोट से अलग तरह का रिकॉर्ड है। Video Controls Plus से कोई कोर्स देखने के बाद हासिल की गई वास्तविक क्षमता बतानी हो, तो रिज़्यूमे पर काम करने की जगह ClearHire देता है। दोनों उत्पाद नोट अपने-आप साझा नहीं करते और आपके लिए किसी कोर्स की पुष्टि का दावा नहीं करते। ClearHire में सत्यापित रोज़गार से जुड़ी प्रक्रियाएँ भी हैं, जो प्रोफ़ाइल पर भरोसा बढ़ाती हैं।"
+  },
+  "ecosystem.product.clearhire.paragraph.3": {
+    "message": "रिज़्यूमे बनाने या जाँचने के लिए [ClearHire](https://clearhire.aoneahsan.com) खोलें।"
+  },
+  "ecosystem.product.clearhire.platformLabel": {
+    "message": "वेब और Android"
+  },
+  "ecosystem.product.eatthis.card": {
+    "message": "पोषक तत्व, महसूस होने वाली ज़रूरत या दिन के समय के आधार पर खाना खोजें और एक सर्विंग में क्या मिलता है, देखें।"
+  },
+  "ecosystem.product.eatthis.heading": {
+    "message": "Eat This क्या करता है?"
+  },
+  "ecosystem.product.eatthis.paragraph.1": {
+    "message": "Eat This पोषक तत्व, महसूस होने वाली ज़रूरत या दिन के समय के आधार पर खाना खोजने में मदद करता है। एक सर्विंग से शुरू करें। लंबी सूची छानने के बजाय अपना सवाल चुनें, देखें कि एक सर्विंग में किसी पोषक तत्व की कितनी मात्रा है और दिए गए विकल्पों में उससे सस्ता विकल्प भी देखें।"
+  },
+  "ecosystem.product.eatthis.paragraph.2": {
+    "message": "यह भोजन संबंधी जानकारी का उत्पाद है, Video Controls Plus के वीडियो प्लेबैक नियंत्रण से अलग। दोनों सामने के काम का सीधा जवाब देते हैं: वीडियो देखते समय गति तय करें या खाना चुनते समय सर्विंग की जानकारी देखें। खाने से जुड़े जिस सवाल में चिकित्सकीय राय चाहिए, उसके लिए डॉक्टर से बात करें; उत्पाद भी यह सीमा स्पष्ट करता है।"
+  },
+  "ecosystem.product.eatthis.paragraph.3": {
+    "message": "खाने की जानकारी खोजने के लिए [Eat This](https://eatthis.aoneahsan.com/) खोलें।"
+  },
+  "ecosystem.product.eatthis.platformLabel": {
+    "message": "Android"
+  },
+  "ecosystem.product.empora.card": {
+    "message": "एक ही WordPress प्लगइन में अपनी दुकान के लिए ज़रूरी WooCommerce मॉड्यूल चालू करें।"
+  },
+  "ecosystem.product.empora.heading": {
+    "message": "Empora क्या करता है?"
+  },
+  "ecosystem.product.empora.paragraph.1": {
+    "message": "Empora एक WordPress प्लगइन में WooCommerce मॉड्यूल देता है। हर मॉड्यूल को एक साथ लगाने के बजाय तय करें कि आपकी दुकान को किसकी ज़रूरत है। पहले काम चुनें, फिर उससे जुड़ा मॉड्यूल चालू करें और बाकी बंद रखें।"
+  },
+  "ecosystem.product.empora.paragraph.2": {
+    "message": "इसका वेब डैशबोर्ड लाइसेंस और दुकान के वैकल्पिक कनेक्शन सँभालता है। यह दुकान के प्रबंधन के लिए है; न यह वीडियो अकाउंट है, न Video Controls Plus की सुविधा। WooCommerce दुकान चलाने पर उपलब्ध मॉड्यूल देखें और किसी कनेक्शन को चालू करने से पहले तय करें कि उसकी सचमुच ज़रूरत है या नहीं। एक-एक मॉड्यूल जाँचना, बिना असर समझे सब चालू कर देने से बेहतर है।"
+  },
+  "ecosystem.product.empora.paragraph.3": {
+    "message": "इसके बारे में जानने के लिए [Empora](https://empora.aoneahsan.com) का पेज खोलें।"
+  },
+  "ecosystem.product.empora.platformLabel": {
+    "message": "WordPress / WooCommerce"
+  },
+  "ecosystem.product.habitforge.card": {
+    "message": "हर आदत दर्ज करने पर रस्सी को बढ़ते और आदत छूटने पर उसे उधड़ते देखें।"
+  },
+  "ecosystem.product.habitforge.heading": {
+    "message": "HabitForge क्या करता है?"
+  },
+  "ecosystem.product.habitforge.paragraph.1": {
+    "message": "HabitForge आदत को रस्सी के रूप में दिखाता है। हर बार आदत दर्ज करने पर रस्सी मोटी होती है; कुछ दिन छूट जाएँ तो उसका उधड़ा हिस्सा बाद में भी दिखता है। इस आकार से निरंतरता का रिकॉर्ड दिख जाता है, बिना खुद दिनों की गिनती किए। वहीं से आगे बढ़ें।"
+  },
+  "ecosystem.product.habitforge.paragraph.2": {
+    "message": "दोस्त, चुनौतियाँ और लीडरबोर्ड उपलब्ध हैं; लीडरबोर्ड छोड़ा भी जा सकता है। एक ही अकाउंट वेब और Android पर चलता है। Video Controls Plus देखे गए पाठ पर नोट रख सकता है; HabitForge में दर्ज होता है कि उसके बाद नियमित काम किया गया या नहीं। दोनों उत्पाद अपने रिकॉर्ड अलग रखते हैं। उधड़ा हिस्सा बताता है कि क्रम कहाँ टूटा, लेकिन रस्सी बनाने वाली पिछली प्रविष्टियाँ मिटाता नहीं।"
+  },
+  "ecosystem.product.habitforge.paragraph.3": {
+    "message": "इसके बारे में जानने के लिए [HabitForge](https://habitforge.aoneahsan.com) का पेज खोलें।"
+  },
+  "ecosystem.product.habitforge.platformLabel": {
+    "message": "वेब और Android"
+  },
+  "ecosystem.product.labflow.card": {
+    "message": "जाँच के नमूने को ऑर्डर से सत्यापन और जारी किए गए नतीजे तक ट्रैक करें।"
+  },
+  "ecosystem.product.labflow.heading": {
+    "message": "LabFlow क्या करता है?"
+  },
+  "ecosystem.product.labflow.paragraph.1": {
+    "message": "LabFlow नैदानिक प्रयोगशाला का काम मरीज़ और जाँच के ऑर्डर से लेकर नमूने, नतीजे और सत्यापन तक ट्रैक करता है। अधूरे मसौदे और मरीज़ को जारी किए गए नतीजे की स्थिति अलग होती है। एक ही नमूना कई लोगों के हाथ से गुज़रे, तब यह फ़र्क महत्वपूर्ण है। हर चरण देखें।"
+  },
+  "ecosystem.product.labflow.paragraph.2": {
+    "message": "बिलिंग, सामान का रिकॉर्ड और गुणवत्ता नियंत्रण भी इसी सिस्टम में हैं। LabFlow नैदानिक प्रयोगशाला चलाने वालों के लिए है; यह निजी स्वास्थ्य डायरी नहीं है और वीडियो पाठ की व्याख्या नहीं करता। देखें कि ऑर्डर कैसे जारी नतीजे तक पहुँचता है और किस चरण में कर्मचारियों की कार्रवाई ज़रूरी होती है। मरीज़ को दिखने वाले नतीजे की स्थिति स्पष्ट रहे, इसके लिए प्रयोगशाला कर्मचारी जारी करने से पहले उसकी पुष्टि करते हैं।"
+  },
+  "ecosystem.product.labflow.paragraph.3": {
+    "message": "इसके बारे में जानने के लिए [LabFlow](https://labflow.aoneahsan.com) का पेज खोलें।"
+  },
+  "ecosystem.product.labflow.platformLabel": {
+    "message": "वेब और Android"
+  },
+  "ecosystem.product.lifewell.card": {
+    "message": "स्वास्थ्य के एक रिकॉर्ड में माप, पानी, दवाएँ, नींद और पोषण साथ रखें।"
+  },
+  "ecosystem.product.lifewell.heading": {
+    "message": "LifeWell क्या करता है?"
+  },
+  "ecosystem.product.lifewell.paragraph.1": {
+    "message": "LifeWell आपके स्वास्थ्य संबंधी माप, पानी, दवाएँ, नींद और पोषण को एक रिकॉर्ड में रखता है। समय के साथ मासिक चक्र, प्रजनन और बच्चे की विकास संबंधी उपलब्धियाँ भी दर्ज की जा सकती हैं। पीछे मुड़कर देखना हो, तो रोज़ की प्रविष्टियाँ अलग-अलग नोट में बिखरी नहीं मिलेंगी। अपना रिकॉर्ड एक जगह रखें।"
+  },
+  "ecosystem.product.lifewell.paragraph.2": {
+    "message": "यह वेब और Android पर चलता है और डिवाइसों के बीच सिंक करता है, जिससे दूसरी स्क्रीन पर प्रविष्टि जारी रखी जा सकती है। इससे रिकॉर्ड कोई निदान या इलाज नहीं बन जाता। Video Controls Plus ऑनलाइन वीडियो और पढ़ाई के नोट सँभालता है; LifeWell अपने अकाउंट में स्वास्थ्य प्रविष्टियाँ रखता है। कई दिनों का रिकॉर्ड देखा जा सकता है; कोई एक प्रविष्टि पूरी तस्वीर नहीं है।"
+  },
+  "ecosystem.product.lifewell.paragraph.3": {
+    "message": "इसके बारे में जानने के लिए [LifeWell](https://lifewell.aoneahsan.com) का पेज खोलें।"
+  },
+  "ecosystem.product.lifewell.platformLabel": {
+    "message": "वेब और Android"
+  },
+  "ecosystem.product.linux-cleanup.card": {
+    "message": "पहले Linux कैश के रास्ते देखें, फिर ड्राई रन चलाएँ और सफ़ाई के बाद रिपोर्ट पढ़ें।"
+  },
+  "ecosystem.product.linux-cleanup.heading": {
+    "message": "linux-cleanup क्या करता है?"
+  },
+  "ecosystem.product.linux-cleanup.paragraph.1": {
+    "message": "linux-cleanup वास्तविक सफ़ाई से पहले उन Linux कैश रास्तों को दिखाता है जिन्हें हटाया जा सकता है। इसकी सीमाएँ देखें, स्कैन करें और पहले ड्राई रन चलाएँ। शुरुआती ये दो चरण कुछ नहीं मिटाते। आगे बढ़ने से पहले रास्ते पढ़ें।"
+  },
+  "ecosystem.product.linux-cleanup.paragraph.2": {
+    "message": "x86_64 Linux के लिए डेस्कटॉप ऐप AppImage और .deb में उपलब्ध है; वास्तविक सफ़ाई के बाद रिपोर्ट मिलती है। MIT लाइसेंस वाला कमांड लाइन टूल npx से चलता है। यह कंप्यूटर के रखरखाव के लिए है, Video Controls Plus के ब्राउज़र नियंत्रण से अलग। सफ़ाई से क्या प्रभावित होगा, इसे ठीक-ठीक समझना हो तो हटाने के बजाय पहले प्रीव्यू देखें। काम पूरा होने पर रिपोर्ट बताती है कि क्या हुआ; केवल सफ़ाई के वादे से यह अधिक ठोस है।"
+  },
+  "ecosystem.product.linux-cleanup.paragraph.3": {
+    "message": "इसके बारे में जानने के लिए [linux-cleanup](https://linux-cleanup.aoneahsan.com/) का पेज खोलें।"
+  },
+  "ecosystem.product.linux-cleanup.platformLabel": {
+    "message": "Linux डेस्कटॉप और कमांड लाइन"
+  },
+  "ecosystem.product.macleanup.card": {
+    "message": "कुछ भी मिटाने से पहले ड्राई रन में macOS सफ़ाई के हिस्से जाँचें।"
+  },
+  "ecosystem.product.macleanup.heading": {
+    "message": "macleanup क्या करता है?"
+  },
+  "ecosystem.product.macleanup.paragraph.1": {
+    "message": "macleanup macOS साफ़ करने का टूल है। यह कुछ हटाने से पहले ड्राई रन चलाता है और सफ़ाई के हिस्से दिखाता है, ताकि प्रस्तावित काम देखा जा सके। निजी फ़ोल्डरों को यह हमेशा छोड़ता है। यह सीमा उत्पाद में ही है; कोई सेटिंग याद से चालू करने की ज़रूरत नहीं। पहले जाँचें।"
+  },
+  "ecosystem.product.macleanup.paragraph.2": {
+    "message": "यह प्रोजेक्ट Mac के रखरखाव के लिए है, ब्राउज़र में वीडियो सँभालने के लिए नहीं। जगह खाली करनी हो तो वास्तविक सफ़ाई का निर्णय लेने से पहले हिस्सों की सूची और ड्राई रन का नतीजा पढ़ें। Video Controls Plus और macleanup एक ही टीम के हैं, लेकिन इनकी सेटिंग और काम करने के तरीके अलग हैं। ड्राई रन जाँचने के लिए ठोस सूची देता है; वास्तविक सफ़ाई में भी निजी फ़ोल्डर सुरक्षित रहते हैं।"
+  },
+  "ecosystem.product.macleanup.paragraph.3": {
+    "message": "इसके बारे में जानने के लिए [macleanup](https://github.com/aoneahsan/macleanup) का पेज खोलें।"
+  },
+  "ecosystem.product.macleanup.platformLabel": {
+    "message": "macOS डेस्कटॉप और कमांड लाइन"
+  },
+  "ecosystem.product.native-update.card": {
+    "message": "स्टोर रिलीज़ के बीच Capacitor ऐप के बंडल अपडेट भेजें।"
+  },
+  "ecosystem.product.native-update.heading": {
+    "message": "Native Update क्या करता है?"
+  },
+  "ecosystem.product.native-update.paragraph.1": {
+    "message": "Native Update स्टोर रिलीज़ के बीच Capacitor ऐप के बंडल भेजता है। इससे ऐप बनाने वाली टीम वेब हिस्से के हर बदलाव के लिए स्टोर रिलीज़ का इंतज़ार किए बिना पहले से इंस्टॉल ऐप को नया बंडल दे सकती है। इसमें ऐप के भीतर स्टोर से अपडेट करने और समीक्षा देने के संकेत भी शामिल हैं। पहले रिलीज़ प्रक्रिया समझें।"
+  },
+  "ecosystem.product.native-update.paragraph.2": {
+    "message": "इसका बैकएंड अपने सर्वर पर चलाया जा सकता है और यह ओपन सोर्स है। यह डेवलपर उत्पाद है जिसकी रिलीज़ प्रक्रिया सेट करनी पड़ती है; Video Controls Plus इस्तेमाल करने वालों के लिए अपडेट बटन नहीं। Capacitor ऐप बनाने पर पहले प्लेटफ़ॉर्म और बैकएंड के निर्देश पढ़ें, फिर तय करें कि आपका ऐप अपडेट कैसे लेगा। स्टोर का अपना रिलीज़ रास्ता बना रहता है, इसलिए पैकेज बंडल पहुँचाने और स्टोर अपडेट के संकेत, दोनों को समझाता है।"
+  },
+  "ecosystem.product.native-update.paragraph.3": {
+    "message": "इसके बारे में जानने के लिए [Native Update](https://nativeupdate.aoneahsan.com) का पेज खोलें।"
+  },
+  "ecosystem.product.native-update.platformLabel": {
+    "message": "वेब और npm"
+  },
+  "ecosystem.product.netcage.card": {
+    "message": "चुनें कि कौन-से Android ऐप Wi-Fi या मोबाइल डेटा इस्तेमाल कर सकते हैं और नियम कब लागू होगा।"
+  },
+  "ecosystem.product.netcage.heading": {
+    "message": "NetCage क्या करता है?"
+  },
+  "ecosystem.product.netcage.paragraph.1": {
+    "message": "NetCage में तय किया जा सकता है कि कौन-से Android ऐप Wi-Fi, मोबाइल डेटा या दोनों इस्तेमाल करें। किसी चुने हुए ऐप का कनेक्शन रोका जा सकता है, जबकि फ़ोन के बाकी ऐप ऑनलाइन रहें। ऐप को प्रोफ़ाइल में रखकर चुने हुए दिन और समय पर नियम लागू करें। पहले ऐप चुनें।"
+  },
+  "ecosystem.product.netcage.paragraph.2": {
+    "message": "यह नियंत्रण Android ऐप के नेटवर्क कनेक्शन पर काम करता है। यह वेबसाइट का वीडियो प्लेयर या Video Controls Plus के अकाउंट कनेक्शन का तरीका नहीं बदलता। फ़ोन का कोई ऐप कब नेटवर्क इस्तेमाल करे, यही सवाल हो तो प्रोफ़ाइल चालू करने से पहले प्रभावित ऐप और समय देखें। एक ही कनेक्शन नियम दिन के कुछ समय लागू करना हो और बाकी समय नहीं, तो तय समय वाली प्रोफ़ाइल उपयोगी है।"
+  },
+  "ecosystem.product.netcage.paragraph.3": {
+    "message": "इसके बारे में जानने के लिए [NetCage](https://netcage.aoneahsan.com) का पेज खोलें।"
+  },
+  "ecosystem.product.netcage.platformLabel": {
+    "message": "Android"
+  },
+  "ecosystem.product.pregnancypal.card": {
+    "message": "गर्भावस्था के हफ़्ते, लक्षण और अपॉइंटमेंट एक साथ रखें; डॉक्टर को दिखाने के लिए PDF बनाएँ।"
+  },
+  "ecosystem.product.pregnancypal.heading": {
+    "message": "PregnancyPal क्या करता है?"
+  },
+  "ecosystem.product.pregnancypal.paragraph.1": {
+    "message": "PregnancyPal में गर्भावस्था को हर हफ़्ते के हिसाब से ट्रैक किया जा सकता है। लक्षण, मनोदशा, स्वास्थ्य माप और अपॉइंटमेंट दर्ज करें; पोषण और व्यायाम की जानकारी संबंधित हफ़्ते के साथ रखें। ज़रूरत पड़ने पर इन प्रविष्टियों से ऐसा PDF बनाया जा सकता है जिसे डॉक्टर के पास ले जाना आसान हो। तारीखें एक साथ रखें।"
+  },
+  "ecosystem.product.pregnancypal.paragraph.2": {
+    "message": "यह निजी रिकॉर्ड रखने का उत्पाद है, चिकित्सकीय सलाह या डॉक्टर का विकल्प नहीं। इसका अपना रिकॉर्ड और काम करने का तरीका है; Video Controls Plus के वीडियो या नोट अपने-आप इसमें नहीं जुड़ते। PregnancyPal में हफ़्तों का व्यू और दर्ज की जा सकने वाली जानकारी देखें। PDF अपनी टिप्पणियाँ परामर्श में ले जाने का तरीका है, जहाँ डॉक्टर उनका संदर्भ पूछ सकते हैं।"
+  },
+  "ecosystem.product.pregnancypal.paragraph.3": {
+    "message": "इसके बारे में जानने के लिए [PregnancyPal](https://pregnancypal.aoneahsan.com) का पेज खोलें।"
+  },
+  "ecosystem.product.pregnancypal.platformLabel": {
+    "message": "वेब और Android"
+  },
+  "ecosystem.product.rentparty.card": {
+    "message": "प्रॉपर्टी खरीद-बिक्री का खेल रोकें और बाद में बैंक व स्वामित्व रिकॉर्ड उसी स्थिति में पाएँ।"
+  },
+  "ecosystem.product.rentparty.heading": {
+    "message": "RentParty क्या करता है?"
+  },
+  "ecosystem.product.rentparty.paragraph.1": {
+    "message": "RentParty प्रॉपर्टी खरीद-बिक्री का खेल है, जिसे रोककर किसी और दिन फिर से खेला जा सकता है। एक फ़ोन सबको बारी-बारी से दें, कंप्यूटर के किरदारों से खेलें या ऑनलाइन रूम खोलें। खेल रुकने पर बैंक और स्वामित्व रिकॉर्ड अगली बार के लिए बने रहते हैं। उसी खेल में लौटें।"
+  },
+  "ecosystem.product.rentparty.paragraph.2": {
+    "message": "जब सबको फ़ोन छोड़ना पड़े, तो ढेर सारे मोड से ज़्यादा यह रुककर लौटने की सुविधा काम आती है। RentParty Zaions टीम का खेल है; Video Controls Plus ऑनलाइन वीडियो के लिए एक्सटेंशन है। दोनों के सत्र और नियंत्रण अलग हैं। खिलाड़ी कैसे जुड़ेंगे, यह चुनने के लिए RentParty खोलें। अगला खिलाड़ी पिछली स्थिति याद से दोबारा बनाए या हर प्रॉपर्टी फिर बाँटे बिना अपनी बारी खेल सकता है।"
+  },
+  "ecosystem.product.rentparty.paragraph.3": {
+    "message": "इसके बारे में जानने के लिए [RentParty](https://rentparty.aoneahsan.com) का पेज खोलें।"
+  },
+  "ecosystem.product.rentparty.platformLabel": {
+    "message": "वेब और Android"
+  },
+  "ecosystem.product.smsapp.card": {
+    "message": "अपने Android डिवाइस से एक SMS, कई SMS या तय समय पर SMS भेजें।"
+  },
+  "ecosystem.product.smsapp.heading": {
+    "message": "SMS App क्या करता है?"
+  },
+  "ecosystem.product.smsapp.paragraph.1": {
+    "message": "SMS App आपके अपने Android डिवाइस से टेक्स्ट मैसेज भेजता है। एक संदेश, बैच और तय समय पर भेजना संभव है। बड़े काम के लिए डिवाइस रजिस्ट्रेशन और स्वेच्छा से जुड़े डिवाइसों के समूह का प्रबंधन भी है। भेजने की प्रक्रिया में फ़ोन शामिल है, इसलिए अभियान की योजना बनाने से पहले यह सेटअप समझें। अपना डिवाइस इस्तेमाल करें।"
+  },
+  "ecosystem.product.smsapp.paragraph.2": {
+    "message": "यह Android उत्पाद SMS पहुँचाने और उससे जुड़ी निजता के फैसलों के लिए है। यह Video Controls Plus से संदेश नहीं भेजता और एक्सटेंशन अकाउंट SMS भेजने वाला अकाउंट नहीं बन जाता। बैच तैयार करने से पहले SMS App में डिवाइस और संदेश का तरीका देखें। तय समय पर संदेश तभी जाएगा जब सही रजिस्टर्ड डिवाइस उस समय भेजने के लिए उपलब्ध हो।"
+  },
+  "ecosystem.product.smsapp.paragraph.3": {
+    "message": "इसके बारे में जानने के लिए [SMS App](https://smsapp.aoneahsan.com) का पेज खोलें।"
+  },
+  "ecosystem.product.smsapp.platformLabel": {
+    "message": "Android"
+  },
+  "ecosystem.product.strata-storage.card": {
+    "message": "ब्राउज़र स्टोरेज और डिवाइस के Keychain या Keystore के लिए एक ही इंटरफ़ेस इस्तेमाल करें।"
+  },
+  "ecosystem.product.strata-storage.heading": {
+    "message": "Strata Storage क्या करता है?"
+  },
+  "ecosystem.product.strata-storage.paragraph.1": {
+    "message": "Strata Storage डेवलपर को ब्राउज़र और डिवाइस स्टोरेज के लिए एक इंटरफ़ेस देता है। पैकेज वेब पर localStorage, IndexedDB और cookies, तथा मोबाइल ऐप में Keychain और Keystore का उपयोग कर सकता है। इसकी कोई डिपेंडेंसी नहीं है। अपने डेटा के लिए सही स्टोरेज चुनें।"
+  },
+  "ecosystem.product.strata-storage.paragraph.2": {
+    "message": "साझा API से वेब, iOS और Android पर स्टोरेज कॉल एक जैसी रखी जा सकती हैं, लेकिन हर स्टोरेज के अपने गुण बने रहते हैं। यह ऐप बनाने वालों का पैकेज है, Video Controls Plus की नई सेटिंग नहीं। पैकेज के निर्देश पढ़कर तय करें कि आपके ऐप को कौन-सा स्टोरेज और कितनी स्थायी डेटा बचत चाहिए। मोबाइल के सुरक्षित स्टोरेज और वेब स्टोरेज अलग जगहें हैं; एक इंटरफ़ेस होने से उनकी सुरक्षा एक जैसी नहीं हो जाती।"
+  },
+  "ecosystem.product.strata-storage.paragraph.3": {
+    "message": "इसके बारे में जानने के लिए [Strata Storage](https://www.npmjs.com/package/strata-storage) का पेज खोलें।"
+  },
+  "ecosystem.product.strata-storage.platformLabel": {
+    "message": "npm पैकेज"
+  },
+  "ecosystem.product.tilawah.card": {
+    "message": "अपनी गति से Tajweed और Tafseer के रिकॉर्ड किए गए पाठ देखें।"
+  },
+  "ecosystem.product.tilawah.heading": {
+    "message": "Tilawah क्या करता है?"
+  },
+  "ecosystem.product.tilawah.paragraph.1": {
+    "message": "Tilawah में Tajweed और Tafseer के रिकॉर्ड किए गए पाठ अपनी गति से देखे जा सकते हैं। प्रगति रिकॉर्ड से पता चलता है कि कौन-से पाठ पूरे हुए, बिना लाइव सत्र तय किए। यदि आप चाहते हैं कि कोई आपकी तिलावत सुने, तो अपने समय क्षेत्र के अनुसार एक-से-एक लाइव सत्र बुक किया जा सकता है। पाठ या सत्र चुनें।"
+  },
+  "ecosystem.product.tilawah.paragraph.2": {
+    "message": "सीखने के ये दो अलग तरीके हैं: सुविधा के समय रिकॉर्डिंग फिर सुनें या शिक्षक के साथ समय तय करें। Tilawah यह सीखने की प्रक्रिया अपने उत्पाद में रखता है। Video Controls Plus सामान्य ऑनलाइन वीडियो की गति बदल सकता है, लेकिन Tilawah पाठ में नामांकन नहीं करता और अकाउंट नहीं जोड़ता। समय जाँचें। लाइव पाठ की बुकिंग विद्यार्थी के समय क्षेत्र पर आधारित है, इसलिए बुक करने से पहले दिखाया गया समय ज़रूर देखें।"
+  },
+  "ecosystem.product.tilawah.paragraph.3": {
+    "message": "इसके बारे में जानने के लिए [Tilawah](https://tilawah.aoneahsan.com) का पेज खोलें।"
+  },
+  "ecosystem.product.tilawah.platformLabel": {
+    "message": "वेब"
+  },
+  "ecosystem.product.trizlink.card": {
+    "message": "अपने ब्रांड के छोटे लिंक, बायो में लगाने वाले लिंक पेज और क्लिक के आँकड़े एक जगह रखें।"
+  },
+  "ecosystem.product.trizlink.heading": {
+    "message": "Trizlink क्या करता है?"
+  },
+  "ecosystem.product.trizlink.paragraph.1": {
+    "message": "Trizlink छोटे लिंक, बायो के लिए लिंक पेज और क्लिक के आँकड़े एक उत्पाद में रखता है। कस्टम स्लग वाला ब्रांडेड छोटा लिंक बनाएँ या एक पेज पर कई वेब पते रखें। लिंक इस्तेमाल होने पर उसका क्लिक रिकॉर्ड बताता है कि क्या हुआ। पहले चुनें कि लिंक कहाँ ले जाएगा।"
+  },
+  "ecosystem.product.trizlink.paragraph.2": {
+    "message": "कस्टम डोमेन और बिल्ट-इन टूल भी उपलब्ध हैं। Trizlink URL वहाँ सँभाला जाने वाला लिंक है; यह वीडियो नियंत्रण नहीं और Video Controls Plus इसे बनाता या इसके क्लिक दर्ज नहीं करता। छोटा पता या कई लिंक वाला एक पेज चाहिए, तो Trizlink देखें। ब्रांडेड स्लग से मंज़िल पहचानना आसान हो सकता है; आँकड़े बताते हैं कि उस पते का इस्तेमाल हुआ या नहीं।"
+  },
+  "ecosystem.product.trizlink.paragraph.3": {
+    "message": "इसके बारे में जानने के लिए [Trizlink](https://trizlink.com) का पेज खोलें।"
+  },
+  "ecosystem.product.trizlink.platformLabel": {
+    "message": "वेब और Android"
+  },
+  "ecosystem.product.waylock.card": {
+    "message": "Android पर कुछ ठहराव तय रखें और बाकी को रास्ते के हिसाब से नए क्रम में लगाएँ।"
+  },
+  "ecosystem.product.waylock.heading": {
+    "message": "Waylock क्या करता है?"
+  },
+  "ecosystem.product.waylock.paragraph.1": {
+    "message": "Waylock ड्राइवरों और डिलीवरी करने वालों के लिए Android पर Google Maps के ऊपर काम करने वाला रूट प्लानर है। कुछ ठहराव तय रखकर बाकी का क्रम बदला जा सकता है। गलत मोड़ लेने पर चुना हुआ रास्ता दिखाई देता रहता है; वापस लौटने या नया रास्ता लेने का विकल्प भी मिलता है। तय ठहराव न बदलें।"
+  },
+  "ecosystem.product.waylock.paragraph.2": {
+    "message": "जब कुछ डिलीवरी का क्रम बदल नहीं सकता, लेकिन बाकी रास्ते के अनुसार ढलनी चाहिए, तब यह फ़र्क अहम है। यह रूट बनाने का काम है, ब्राउज़र नेविगेशन से अलग। Android पर रूट को कैसे तय और फिर संशोधित किया जाता है, यह Waylock में देखें। गलत मोड़ ड्राइवर का पहला चुनाव नहीं मिटाता; रूट व्यू उसे छिपाए बिना अगला फैसला करने देता है।"
+  },
+  "ecosystem.product.waylock.paragraph.3": {
+    "message": "इसके बारे में जानने के लिए [Waylock](https://waylock.aoneahsan.com) का पेज खोलें।"
+  },
+  "ecosystem.product.waylock.platformLabel": {
+    "message": "Android"
+  },
+  "ecosystem.product.windowsweep.card": {
+    "message": "क्या हटाना है यह तय करने से पहले ड्राई रन में Windows की हर सफ़ाई का रास्ता पढ़ें।"
+  },
+  "ecosystem.product.windowsweep.heading": {
+    "message": "windowsweep क्या करता है?"
+  },
+  "ecosystem.product.windowsweep.paragraph.1": {
+    "message": "windowsweep किसी Windows सफ़ाई रास्ते को छूने से पहले उसका नाम दिखाता है। इसके 30 हिस्सों में ड्राई रन शामिल है और निजी फ़ाइलें चुपचाप जोड़ने के बजाय हर पंक्ति पर चुनी जाती हैं। यह नेटवर्क कॉल नहीं करता। पहले प्रस्तावित बदलाव पढ़ें।"
+  },
+  "ecosystem.product.windowsweep.paragraph.2": {
+    "message": "इसे npx से चलाएँ या Windows डेस्कटॉप ऐप इस्तेमाल करें। सफ़ाई उसी कंप्यूटर पर होती है जिसके रास्ते जाँचने हैं; ब्राउज़र के Video Controls Plus से इसका कोई संबंध नहीं। ड्राई रन से शुरू करें, हर हिस्सा देखें और फिर तय करें कि उस कंप्यूटर पर वास्तविक सफ़ाई सही रहेगी या नहीं। निजी फ़ाइलों का पंक्ति-दर-पंक्ति चुनाव वास्तविक सफ़ाई को जाँचने योग्य बनाता है, कोई छिपी हुई डिफ़ॉल्ट क्रिया नहीं।"
+  },
+  "ecosystem.product.windowsweep.paragraph.3": {
+    "message": "इसके बारे में जानने के लिए [windowsweep](https://windowsweep.aoneahsan.com) का पेज खोलें।"
+  },
+  "ecosystem.product.windowsweep.platformLabel": {
+    "message": "Windows डेस्कटॉप और कमांड लाइन"
+  },
+  "ecosystem.product.ztools.card": {
+    "message": "फ़ाइल अपलोड किए बिना ब्राउज़र में चलने वाले फ़ॉर्मैटर, कन्वर्टर, एन्कोडर और जनरेटर खोजें।"
+  },
+  "ecosystem.product.ztools.heading": {
+    "message": "ZTools क्या करता है?"
+  },
+  "ecosystem.product.ztools.paragraph.1": {
+    "message": "ZTools ब्राउज़र में चलने वाले फ़ॉर्मैटर, कन्वर्टर, एन्कोडर और जनरेटर को खोजने योग्य टूलबॉक्स में रखता है। अपने काम का टूल खोलें और ब्राउज़र में ही काम करें; उत्पाद सूची के अनुसार कुछ भी अपलोड नहीं होता। पहले सही टूल ढूँढें।"
+  },
+  "ecosystem.product.ztools.paragraph.2": {
+    "message": "डार्क मोड और ऑफ़लाइन उपयोग भी उपलब्ध हैं। फ़ाइल या टेक्स्ट संबंधी टूल के लिए ZTools है, जबकि Video Controls Plus ऑनलाइन वीडियो प्लेबैक और सीखने पर केंद्रित है। वीडियो नियंत्रण के बजाय कन्वर्टर चाहिए, तो ZTools लिंक खोलकर अपने इनपुट के अनुरूप टूल चुनें। खोजने योग्य सूची तब मदद करती है जब काम पता हो, लेकिन ठीक टूल का नाम न पता हो।"
+  },
+  "ecosystem.product.ztools.paragraph.3": {
+    "message": "इसके बारे में जानने के लिए [ZTools](https://ztools.zaions.com) का पेज खोलें।"
+  },
+  "ecosystem.product.ztools.platformLabel": {
+    "message": "वेब, Android और Chrome एक्सटेंशन"
   }
 }
