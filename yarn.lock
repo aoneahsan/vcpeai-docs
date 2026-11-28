@@ -2870,6 +2870,27 @@ __metadata:
   languageName: node
   linkType: hard
 
+"@fontsource-variable/noto-sans-devanagari@npm:5.3.0":
+  version: 5.3.0
+  resolution: "@fontsource-variable/noto-sans-devanagari@npm:5.3.0"
+  checksum: 10c0/7a3569bdca5b7669aa078d7ddc74dbf2f31760b85ff7012773db5337015e166c7c372ee87491be7a9b6bf4e658c31d3efd0647a216937d2a3967868d0372e39d
+  languageName: node
+  linkType: hard
+
+"@fontsource-variable/noto-sans-jp@npm:5.3.1":
+  version: 5.3.1
+  resolution: "@fontsource-variable/noto-sans-jp@npm:5.3.1"
+  checksum: 10c0/695254075273786900a3d170c2ff7a6d7a564d9ed00153def67814afafcfcea538986a47a34396fdec946715798d2d2592fa22b624f8c1648cb2baae369f5c78
+  languageName: node
+  linkType: hard
+
+"@fontsource-variable/noto-sans-sc@npm:5.3.1":
+  version: 5.3.1
+  resolution: "@fontsource-variable/noto-sans-sc@npm:5.3.1"
+  checksum: 10c0/5911690b2b43187a986783c0666bab074fd92815dc3fe845c99c1bf145d45a240fb8648ac50938750ba84f11795841a7bed15c8f9e66b76a32837c9cb28065ec
+  languageName: node
+  linkType: hard
+
 "@hapi/hoek@npm:^9.0.0, @hapi/hoek@npm:^9.3.0":
   version: 9.3.0
   resolution: "@hapi/hoek@npm:9.3.0"
@@ -13439,6 +13460,9 @@ __metadata:
     "@docusaurus/theme-common": "npm:3.10.2"
     "@docusaurus/types": "npm:3.10.2"
     "@easyops-cn/docusaurus-search-local": "npm:^0.55.3"
+    "@fontsource-variable/noto-sans-devanagari": "npm:5.3.0"
+    "@fontsource-variable/noto-sans-jp": "npm:5.3.1"
+    "@fontsource-variable/noto-sans-sc": "npm:5.3.1"
     "@mdx-js/react": "npm:^3.1.1"
     "@types/react": "npm:^19.3.0"
     "@types/react-dom": "npm:^19.3.0"

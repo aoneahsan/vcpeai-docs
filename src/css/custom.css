@@ -1,3 +1,7 @@
+@import '@fontsource-variable/noto-sans-sc/wght.css';
+@import '@fontsource-variable/noto-sans-jp/wght.css';
+@import '@fontsource-variable/noto-sans-devanagari/wght.css';
+
 @font-face { font-family: 'Barlow Condensed'; src: url('/fonts/barlow-condensed-bold.ttf') format('truetype'); font-weight: 700; font-display: swap; }
 @font-face { font-family: 'Manrope'; src: url('/fonts/manrope-variable.ttf') format('truetype'); font-weight: 200 800; font-display: swap; }
 @font-face { font-family: 'Noto Naskh Arabic UI'; src: url('/fonts/NotoNaskhArabicUI-Regular.ttf') format('truetype'); font-weight: 400; font-display: swap; }
@@ -43,6 +47,12 @@
 }
 :root:lang(ar) { --vcp-display: 'Noto Naskh Arabic UI', sans-serif; --vcp-body: 'Noto Naskh Arabic UI', sans-serif; }
 :root:lang(ur) { --vcp-display: 'Noto Nastaliq Urdu', 'Noto Naskh Arabic UI', serif; --vcp-body: 'Noto Nastaliq Urdu', 'Noto Naskh Arabic UI', serif; }
+:root:lang(zh-Hans) { --vcp-display: 'Noto Sans SC Variable', sans-serif; --vcp-body: 'Noto Sans SC Variable', sans-serif; }
+:root:lang(ja) { --vcp-display: 'Noto Sans JP Variable', sans-serif; --vcp-body: 'Noto Sans JP Variable', sans-serif; }
+:root:lang(hi) { --vcp-display: 'Noto Sans Devanagari Variable', sans-serif; --vcp-body: 'Noto Sans Devanagari Variable', sans-serif; }
+:root:lang(zh-Hans) .navbar__item, :root:lang(ja) .navbar__item,
+:root:lang(hi) .navbar__item, :root:lang(zh-Hans) .navbar__brand,
+:root:lang(ja) .navbar__brand, :root:lang(hi) .navbar__brand { text-transform: none; letter-spacing: normal; }
 :root:lang(ar) .navbar__item, :root:lang(ur) .navbar__item,
 :root:lang(ar) .navbar__brand, :root:lang(ur) .navbar__brand { text-transform: none; letter-spacing: normal; }
 :root:lang(ar) .theme-doc-markdown, :root:lang(ur) .theme-doc-markdown { line-height: 1.8; }

@@ -1,12 +1,13 @@
 # Packages
 
-Last checked: 2026-11-16 (Node 26.13.1 fleet pass: `.nvmrc` 24 → 26.13.1, `engines.node >=26.13.1`; every package already at latest stable). Earlier 2026-11-10. This site uses Yarn 4 and keeps one `yarn.lock`. Internal record: excluded from the site by `exclude` in `docusaurus.config.ts` since 2026-11-16 (before that it was published at `/docs/PACKAGES`).
+Last checked: 2026-11-28 (added the latest stable self-hosted Noto variable fonts for Simplified Chinese, Japanese and Hindi). The Node 26.13.1 fleet pass was 2026-11-16. This site uses Yarn 4 and keeps one `yarn.lock`. Internal record: excluded from the site by `exclude` in `docusaurus.config.ts` since 2026-11-16 (before that it was published at `/docs/PACKAGES`).
 
 | Group | Packages | Purpose |
 |---|---|---|
 | Site | `@docusaurus/core`, `@docusaurus/faster`, `@docusaurus/preset-classic`, `@docusaurus/theme-common`, `@docusaurus/plugin-content-docs` 3.10.2 | Static docs and search pages |
 | Search and content | `@easyops-cn/docusaurus-search-local` 0.55.3, `@mdx-js/react` 3.1.1, `prism-react-renderer`, `clsx` | Local search, MDX, code blocks and class names |
 | UI | `react`, `react-dom` 19.3.1 | Page rendering |
+| Locale typography | `@fontsource-variable/noto-sans-sc` 5.3.1, `@fontsource-variable/noto-sans-jp` 5.3.1, `@fontsource-variable/noto-sans-devanagari` 5.3.0 | Self-hosted script fonts, selected by the HTML language; Unicode ranges load the needed glyph subsets |
 | Build and types | TypeScript 7.0.2, Docusaurus aliases and React types | Source checks and static build |
 
 TypeScript 7 uses this site's own `tsconfig.json`. The removed `baseUrl` setting from `@docusaurus/tsconfig` is no longer inherited. The build and typecheck both pass. Direct Docusaurus peers are declared for the search plugin.
