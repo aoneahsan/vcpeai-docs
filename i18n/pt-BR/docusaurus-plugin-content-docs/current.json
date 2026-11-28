@@ -1,26 +1,38 @@
 {
   "version.label": {
-    "message": "Next",
+    "message": "Próxima",
     "description": "The label for version current"
   },
   "sidebar.docsSidebar.category.Getting started": {
-    "message": "Getting started",
+    "message": "Primeiros passos",
     "description": "The label for category 'Getting started' in sidebar 'docsSidebar'"
   },
   "sidebar.docsSidebar.category.User guide": {
-    "message": "User guide",
+    "message": "Guia do usuário",
     "description": "The label for category 'User guide' in sidebar 'docsSidebar'"
   },
   "sidebar.docsSidebar.category.Keyboard shortcuts": {
-    "message": "Keyboard shortcuts",
+    "message": "Atalhos de teclado",
     "description": "The label for category 'Keyboard shortcuts' in sidebar 'docsSidebar'"
   },
   "sidebar.docsSidebar.category.Platforms": {
-    "message": "Platforms",
+    "message": "Plataformas",
     "description": "The label for category 'Platforms' in sidebar 'docsSidebar'"
   },
+  "sidebar.docsSidebar.category.Moving to Video Controls Plus": {
+    "message": "Migrar para o Video Controls Plus",
+    "description": "The label for category Moving to Video Controls Plus"
+  },
+  "sidebar.docsSidebar.category.White-label & licensing": {
+    "message": "Marca branca e licenciamento",
+    "description": "The label for category White-label & licensing"
+  },
+  "sidebar.docsSidebar.category.Developers": {
+    "message": "Desenvolvedores",
+    "description": "The label for category Developers"
+  },
   "sidebar.docsSidebar.link.Changelog": {
-    "message": "Changelog",
+    "message": "Histórico de versões",
     "description": "The label for link 'Changelog' in sidebar 'docsSidebar', linking to '/changelog'"
   }
 }

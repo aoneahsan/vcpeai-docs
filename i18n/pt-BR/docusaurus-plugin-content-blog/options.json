@@ -1,14 +1,14 @@
 {
   "title": {
-    "message": "Video Controls Plus changelog",
+    "message": "Histórico de versões do Video Controls Plus",
     "description": "The title for the blog used in SEO"
   },
   "description": {
-    "message": "Release notes for Video Controls Plus.",
+    "message": "Notas de versão do Video Controls Plus.",
     "description": "The description for the blog used in SEO"
   },
   "sidebar.title": {
-    "message": "Recent entries",
+    "message": "Entradas recentes",
     "description": "The label for the left sidebar"
   }
 }

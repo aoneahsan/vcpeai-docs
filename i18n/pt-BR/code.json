@@ -1,108 +1,108 @@
 {
   "feed.title": {
-    "message": "Feed"
+    "message": "Atualizações"
   },
   "feed.description": {
-    "message": "Video Controls Plus changelog entries, newest first, with RSS and Atom feeds."
+    "message": "Histórico de versões do Video Controls Plus, da mais recente à mais antiga, com feeds RSS e Atom."
   },
   "feed.heading": {
-    "message": "Feed"
+    "message": "Atualizações"
   },
   "home.lede": {
-    "message": "Control your online video player the way you want it, and get special features on each website."
+    "message": "Controle os vídeos na internet do seu jeito e use recursos específicos em cada site."
   },
   "home.gettingStarted.title": {
-    "message": "Getting started"
+    "message": "Primeiros passos"
   },
   "home.gettingStarted.text": {
-    "message": "Install it, press your first key, and pause it on one site."
+    "message": "Instale a extensão, use seu primeiro atalho e pause os controles em um site."
   },
   "home.userGuide.title": {
-    "message": "User guide"
+    "message": "Guia do usuário"
   },
   "home.userGuide.text": {
-    "message": "Speed, A-B loop, audio boost, filters, screenshots and notes, one page each."
+    "message": "Velocidade, repetição A-B, amplificação de áudio, filtros, capturas de tela e notas, cada um em sua página."
   },
   "home.keyboard.title": {
-    "message": "Keyboard shortcuts"
+    "message": "Atalhos de teclado"
   },
   "home.keyboard.text": {
-    "message": "Every default key, and how to give a shortcut another key."
+    "message": "Todos os atalhos padrão e como atribuir outras teclas."
   },
   "home.platforms.title": {
-    "message": "Platforms"
+    "message": "Plataformas"
   },
   "home.platforms.text": {
-    "message": "The extras on YouTube, Netflix and LinkedIn, and how other sites work."
+    "message": "Os recursos específicos do YouTube, Netflix e LinkedIn e o funcionamento em outros sites."
   },
   "home.ai.title": {
-    "message": "AI features"
+    "message": "Recursos de IA"
   },
   "home.ai.text": {
-    "message": "Video summaries and LinkedIn writing help, and what each one sends."
+    "message": "Resumos de vídeos e ajuda para escrever no LinkedIn, com os dados enviados por cada recurso."
   },
   "home.account.title": {
-    "message": "Account and sync"
+    "message": "Conta e sincronização"
   },
   "home.account.text": {
-    "message": "How to connect your account, how sync works, how to delete your data."
+    "message": "Como conectar sua conta, sincronizar os dados e excluí-los."
   },
   "home.privacy.title": {
-    "message": "Privacy and permissions"
+    "message": "Privacidade e permissões"
   },
   "home.privacy.text": {
-    "message": "What is recorded, and what each permission is for."
+    "message": "Quais dados são registrados e para que serve cada permissão."
   },
   "home.troubleshooting.title": {
-    "message": "Troubleshooting"
+    "message": "Solução de problemas"
   },
   "home.troubleshooting.text": {
-    "message": "What you see, why it happens, and the step that fixes it."
+    "message": "O que aparece na tela, por que acontece e como resolver."
   },
   "home.faq.title": {
     "message": "FAQ"
   },
   "home.faq.text": {
-    "message": "Short answers to the questions people ask first."
+    "message": "Respostas diretas às dúvidas mais comuns."
   },
   "home.changelog.title": {
-    "message": "Changelog"
+    "message": "Histórico de versões"
   },
   "home.changelog.text": {
-    "message": "What changed in the last four releases."
+    "message": "O que mudou nas quatro versões mais recentes."
   },
   "home.readDocs": {
-    "message": "Read the docs"
+    "message": "Ler a documentação"
   },
   "home.getExtension": {
-    "message": "Get the extension"
+    "message": "Instalar a extensão"
   },
   "home.sectionsAria": {
-    "message": "Documentation sections"
+    "message": "Seções da documentação"
   },
   "sitemap.changelog": {
-    "message": "Changelog"
+    "message": "Histórico de versões"
   },
   "sitemap.title": {
-    "message": "Sitemap"
+    "message": "Mapa do site"
   },
   "sitemap.description": {
-    "message": "Every Video Controls Plus documentation page and changelog entry."
+    "message": "Todas as páginas da documentação e entradas do histórico de versões do Video Controls Plus."
   },
   "sitemap.heading": {
-    "message": "Sitemap"
+    "message": "Mapa do site"
   },
   "sitemap.feed": {
-    "message": "Feed"
+    "message": "Atualizações"
   },
   "sitemap.filterAria": {
-    "message": "Filter pages"
+    "message": "Filtrar páginas"
   },
   "sitemap.filterPlaceholder": {
-    "message": "Filter pages"
+    "message": "Filtrar páginas"
   },
   "sitemap.noResults": {
-    "message": "No pages match “{query}”."
+    "message": "Nenhuma página corresponde a “{query}”."
   },
   "theme.ErrorPageContent.title": {
     "message": "Esta página deu erro.",
@@ -280,7 +280,7 @@
     "description": "The ARIA label to collapse the sidebar category"
   },
   "theme.IconExternalLink.ariaLabel": {
-    "message": "(opens in new tab)",
+    "message": "(abre em uma nova aba)",
     "description": "The ARIA label for the external link icon"
   },
   "theme.NavBar.navAriaLabel": {
@@ -376,38 +376,38 @@
     "description": "The ARIA label and title attribute for expand button of doc sidebar"
   },
   "theme.SearchBar.noResultsText": {
-    "message": "No results"
+    "message": "Nenhum resultado"
   },
   "theme.SearchBar.seeAllOutsideContext": {
-    "message": "See all results outside \"{context}\""
+    "message": "Ver todos os resultados fora de \"{context}\""
   },
   "theme.SearchBar.searchInContext": {
-    "message": "See all results within \"{context}\""
+    "message": "Ver todos os resultados em \"{context}\""
   },
   "theme.SearchBar.seeAll": {
-    "message": "See all results"
+    "message": "Ver todos os resultados"
   },
   "theme.SearchBar.label": {
-    "message": "Search",
+    "message": "Pesquisar",
     "description": "The ARIA label and placeholder for search button"
   },
   "theme.SearchPage.existingResultsTitle": {
-    "message": "Search results for \"{query}\"",
+    "message": "Resultados da pesquisa por \"{query}\"",
     "description": "The search page title for non-empty query"
   },
   "theme.SearchPage.emptyResultsTitle": {
-    "message": "Search the documentation",
+    "message": "Pesquisar na documentação",
     "description": "The search page title for empty query"
   },
   "theme.SearchPage.searchContext.everywhere": {
-    "message": "Everywhere"
+    "message": "Em todo o site"
   },
   "theme.SearchPage.documentsFound.plurals": {
-    "message": "1 document found|{count} documents found",
+    "message": "1 documento encontrado|{count} documentos encontrados",
     "description": "Pluralized label for \"{count} documents found\". Use as much plural forms (separated by \"|\") as your language support (see https://www.unicode.org/cldr/cldr-aux/charts/34/supplemental/language_plural_rules.html)"
   },
   "theme.SearchPage.noResultsText": {
-    "message": "No documents were found",
+    "message": "Nenhum documento encontrado",
     "description": "The paragraph for empty search result"
   },
   "theme.blog.post.plurals": {
