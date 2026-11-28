@@ -5,9 +5,9 @@ Newest entry first, one section per filed issue. This folder is excluded from th
 `live-verified` is ours; `indexed` belongs to Google. The website half is in `aoneahsan/video-controls-plus-extension`
 → `docs/search-consoles/fix-log.md`.
 
-## 2026-11-28 link-law build gate — source candidate
+## 2026-11-28 link-law build gate — published HTML verified
 
-The fresh 134-page docs output has zero followed third-party links and zero nofollow links to our own products, stores or packages. `plugins/seo-contract.ts` now checks rendered anchors on every page, uses the product roster and five canonical platform URLs, and excludes Docusaurus's diagnostic script string from the link scan. It caught the install guide's old Chrome listing URL; the guide now points at the canonical listing. A planted missing `nofollow` in the built API page made the gate fail; restoring the file made it pass. Source commit, deployment and live proof remain to be recorded here.
+The fresh 134-page docs output has zero followed third-party links and zero nofollow links to our own products, stores or packages. Source `801669c` makes `plugins/seo-contract.ts` check rendered anchors on every page, using the product roster and five canonical platform URLs while excluding Docusaurus's diagnostic script string. It caught the install guide's old Chrome listing URL; the guide now points at the canonical listing. A planted missing `nofollow` in the built API page made the gate fail; restoring the file made it pass. GitHub Pages `e853065` serves the install guide, API guide and home at HTTP 200, each byte-identical to the fresh local build; their SHA-256 values are `036069b8a2006aea2a548cb08be1f3a3da0677f21d579f9ff17e1e114a3aa46e`, `e44184aa2fe6525ec567ec1d9bd59f7849c952d5435fe4fe609963015a24d10c` and `10044efb8db957f1a9b546a0239a51fb0da4d3d465c8849992f7ddc5775a1985`. IndexNow accepted the changed install URL with HTTP 200. Browser rendering and search-console indexing remain desktop task `VCP-DESKTOP-001`.
 
 ## 2026-11-28 API spec links and localized preview — live HTML verified
 
