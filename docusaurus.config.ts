@@ -17,8 +17,8 @@ const REPO_URL = 'https://github.com/aoneahsan/vcpeai-docs';
 const TAGLINE =
   'Control your online video player the way you want it, and get special features on each website.';
 const TRANSLATION_LOCALES = ['en', 'zh-Hans', 'hi', 'es', 'ar', 'fr', 'pt-BR', 'ru', 'ja', 'ur'];
-// Keep unfinished translations out of the public build. Preview them locally with
-// VCPEAI_TRANSLATION_PREVIEW_LOCALE=es, then promote reviewed locales here one at a time.
+// Keep unfinished translation surfaces out of the public build. Preview them locally with
+// VCPEAI_TRANSLATION_PREVIEW_LOCALE=es, then promote fully reviewed locales.
 const PUBLISHED_LOCALES = ['en'];
 const previewLocale = process.env.VCPEAI_TRANSLATION_PREVIEW_LOCALE;
 const BUILD_LOCALES = previewLocale && TRANSLATION_LOCALES.includes(previewLocale) && previewLocale !== 'en'
