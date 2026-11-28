@@ -1,48 +1,47 @@
 ---
-title: "Estudio con un temporizador, una transcripción y capítulos"
-sidebar_label: "Herramientas de estudio"
-description: "Ejecutar rondas de enfoque y rupturas con el temporizador de estudio, leer las propias capciones de un vídeo como transcripción, convertirlas en capítulos con una carrera de inteligencia artificial, y practicar un bucle."
-unlisted: true
+title: Estudiar con temporizador, transcripción y capítulos
+sidebar_label: Herramientas de estudio
+description: Alterna concentración y descansos, lee los subtítulos como transcripción, conviértelos en capítulos con IA y practica un bucle.
 ---
 
-El temporizador de estudio ejecuta rondas de enfoque y rupturas, el panel de transcripción muestra las leyendas un vídeo ya tiene a su lado, y **Haga capítulos con AI** convierte esas leyendas en capítulos. El temporizador y la transcripción no necesitan cuenta.
+El temporizador de estudio alterna períodos de concentración y descanso. El panel de transcripción muestra junto al vídeo los subtítulos que ya tiene, y **Crear capítulos con IA** los organiza en capítulos. El temporizador y la transcripción no necesitan cuenta.
 
-## Tiempo de estudio {#study-timer}
+## Temporizador de estudio
 
-Abra la pestaña Smart del widget y encuentre **Tiempo de estudio**.
+Abre la pestaña Inteligente del widget y busca **Temporizador de estudio**.
 
-1. Escoge un **Preset**: Classic 25/5, Short 15/3, Long focus 50/10, Study 45/10, or **Sus propias longitudes**.
-2. Prensa **Comienzo**. El temporizador muestra Focus, Break o Long break, y en qué ronda estás.
-3. Prensa **Pausa** y **Resumen** como usted necesita, o **Skip to break**.
-4. **Reiniciar el temporizador** Empieza de nuevo.
+1. Elige un **Valor predefinido**: Clásico 25/5, Corto 15/3, Concentración larga 50/10, Estudio 45/10 o **Duraciones propias**.
+2. Pulsa **Iniciar**. El temporizador muestra Concentración, Descanso o Descanso largo, y la ronda actual.
+3. Pulsa **Pausar**, **Reanudar** o **Ir al descanso** según lo necesites.
+4. **Restablecer temporizador** vuelve al principio.
 
-Cuenta los minutos de concentración de hoy contra tu **Objetivo de atención diaria** y muestra un día de racha. Un temporizador funciona para todo el navegador. Su cuenta estancia en este navegador.
+Cuenta los minutos de concentración de hoy para tu **Meta diaria** y muestra una racha de días. Funciona un temporizador para todo el navegador y sus datos permanecen en él.
 
-Ajustes, ficha de características de vídeo, **Tiempo de estudio** fija las longitudes, **Largo descanso después (redondeados)** y el objetivo. También puede **Pausa el vídeo durante las pausas** y **Juega de nuevo cuando el descanso termina**Con un **Sonido al final de una ronda** o a **Aviso del navegador al final de una ronda**.
+En Configuración → Funciones de vídeo → **Temporizador de estudio** ajustas las duraciones, **Descanso largo después de (rondas)** y la meta. También puedes **Pausar el vídeo durante los descansos** y **Reanudarlo al terminar**, con **Sonido al finalizar una ronda** o **Notificación del navegador al finalizar**.
 
-## Transcripción {#transcript}
+## Transcripción
 
-Prensa **Mostrar transcripción** en la pestaña Herramientas del widget. El panel se abre al lado del widget con las leyendas que el vídeo ya tiene, y la línea que juega ahora se destaca.
+Pulsa **Mostrar transcripción** en Herramientas del widget. El panel aparece al lado con los subtítulos existentes del vídeo y resalta la línea actual.
 
-- Haga clic en una línea para saltar allí.
-- Tipo en **Buscar la transcripción** para encontrar una línea.
-- **Siga el vídeo** mantiene la línea de juego en la vista.
-- **Copiado** copia toda la transcripción.
+- Pulsa una línea para ir a ese momento.
+- Escribe en **Buscar en la transcripción** para encontrar una línea.
+- **Seguir el vídeo** mantiene visible la línea actual.
+- **Copiar todo** copia la transcripción completa.
 
-Funciona en vídeos que llevan leyendas. Un video con ninguno muestra "Este vídeo no tiene capciones, así que no hay transcripción". La extensión no hace capciones del audio.
+Funciona en vídeos con subtítulos. Si no los hay, indica «Este vídeo no tiene subtítulos, así que no hay transcripción». La extensión no genera subtítulos a partir del audio.
 
-## Capítulos de las capciones {#chapters-from-the-captions}
+## Capítulos a partir de subtítulos
 
-En el panel de transcripción, pulse **Haga capítulos con AI**. Una carrera de IA convierte las capciones en 3 a 15 capítulos. Utiliza la misma ruta que el sumario AI: su subsidio compartido con una cuenta conectada, su propia clave o un modelo local (en inglés)[Características AI](/docs/ai-features)).
+En el panel de transcripción, pulsa **Crear capítulos con IA**. Una ejecución de IA convierte los subtítulos en entre 3 y 15 capítulos. Usa la misma ruta que los resúmenes: tu cupo compartido con cuenta conectada, tu propia clave o un modelo local ([Funciones de IA](/docs/ai-features)).
 
-Haga clic en un capítulo para saltar a él. El capítulo de juego está marcado. **Copiar capítulos** da "0:00 Título" líneas, y **Otra vez.** pasa una nueva carrera. Los capítulos se guardan para cada video en este navegador, para hasta 50 videos.
+Pulsa un capítulo para ir allí; el que se reproduce queda marcado. **Copiar capítulos** produce líneas como «0:00 Título». **Crear de nuevo** consume otra ejecución. Los capítulos se guardan por vídeo en este navegador, hasta 50 vídeos.
 
-## Practicar una parte {#practice-a-part}
+## Practicar un fragmento
 
-En la pestaña del widget, **Práctica** ayuda a aprender una parte dura de una [A-B loop](/docs/user-guide/ab-loop), que necesita una cuenta conectada. **Pausa antes de cada pase** espera 1 a 5 segundos en el punto A. **Acelerar cada paso** añade 5% o 10% cada vez, hasta velocidad normal. Ponga una velocidad más lenta primero.
+En la pestaña Bucle del widget, **Práctica** ayuda a aprender una parte difícil de un [bucle A-B](/docs/user-guide/ab-loop), que requiere cuenta. **Pausar antes de cada pasada** espera de 1 a 5 segundos en A. **Acelerar cada pasada** suma 5 % o 10 % hasta llegar a la velocidad normal. Empieza con una velocidad baja.
 
-## Atajos {#shortcuts}
+## Atajos
 
-"Iniciar o pausar el temporizador de estudio" y "Mostrar o ocultar la transcripción" comienza sin llave. Ponlos en [Cambiar un atajo](/docs/keyboard-shortcuts/rebinding).
+«Iniciar o pausar temporizador de estudio» y «Mostrar u ocultar transcripción» no tienen tecla inicial. Configúralos en [Cambiar un atajo](/docs/keyboard-shortcuts/rebinding).
 
-Siguiente: [Su biblioteca del vídeo](/docs/user-guide/study-library).
+Siguiente: [Biblioteca desde el vídeo](/docs/user-guide/study-library).

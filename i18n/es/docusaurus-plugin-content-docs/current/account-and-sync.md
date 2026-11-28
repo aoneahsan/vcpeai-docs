@@ -1,95 +1,98 @@
 ---
-title: "Cuenta, sincronización, exportación y eliminación"
-sidebar_label: "Cuenta y sincronización"
-description: "Cómo conectar Video Controls Plus a su cuenta en el sitio web, qué conexión añade, cómo funciona la sincronización, cómo comprar Pro y cómo exportar o eliminar sus datos."
-unlisted: true
+title: Cuenta, sincronización, exportación y eliminación
+sidebar_label: Cuenta y sincronización
+description: Conecta Video Controls Plus a tu cuenta web, conoce qué se habilita, sincroniza, compra Pro y exporta o elimina tus datos.
 ---
 
-No hay registro dentro de la extensión. Cree su cuenta en [vcpeai.aoneahsan.com](https://vcpeai.aoneahsan.com), donde entras con Google, y luego conectas la extensión a ella. Conexión funciona de la misma manera en Chrome, Edge y Firefox.
+No se inicia sesión dentro de la extensión. Creas tu cuenta en [vcpeai.aoneahsan.com](https://vcpeai.aoneahsan.com), donde entras con Google, y después conectas la extensión. El proceso es el mismo en Chrome, Edge y Firefox.
 
-Una cuenta que existió antes de que 16.0.0 abra vacío hasta que terminemos de mover los datos de la nube vieja, que sigue este lanzamiento. Nada guardado en su navegador es afectado.
+Una cuenta anterior a 16.0.0 aparecerá vacía hasta que terminemos de trasladar los datos antiguos de la nube, después de esta versión. Lo que guardaste en el navegador no cambia.
 
-## Conecta la extensión a tu cuenta {#connect-the-extension-to-your-account}
+## Conectar la extensión a tu cuenta {#connect-the-extension-to-your-account}
 
-1. Prensa **Conectarse a su cuenta**. El botón está en el popup, en el paso de la página de bienvenida y en el **Cuenta & Sync** ficha en Ajustes.
-2. Una pestaña se abre en vcpeai.aoneahsan.com. Si la página te pide que firmes, presiona **Continuar con Google**.
-3. Compruebe que la página y la extensión muestran el mismo código. Si los códigos son diferentes, presione **Cancelar**.
-4. Prensa **Conectar este navegador**.
+1. Pulsa **Conectar con tu cuenta**. El botón está en el popup, en el paso de cuenta de la bienvenida y en **Cuenta y sincronización** de Configuración.
+2. Se abre una pestaña en vcpeai.aoneahsan.com. Si pide iniciar sesión, pulsa **Continuar con Google**.
+3. Comprueba que la página y la extensión muestren el mismo código. Si son distintos, pulsa **Cancelar**.
+4. Pulsa **Conectar este navegador**.
 
-La extensión muestra la conexión dentro de unos segundos mientras el popup o Ajustes permanece abierto, y de lo contrario dentro de unos 30 segundos.
+La conexión aparece en pocos segundos si el popup o Configuración siguen abiertos; de otro modo, tarda alrededor de 30 segundos.
 
-El código dura 10 minutos. Si cierra la pestaña, pulse **Abra la página de nuevo** en la extensión. [Solución de problemas](/docs/troubleshooting) cubre qué hacer cuando la conexión falla.
+El código dura diez minutos. Si cerraste la pestaña, pulsa **Abrir la página de nuevo** en la extensión. [Solución de problemas](/docs/troubleshooting) explica qué hacer si falla.
 
-## Qué conexión añade {#what-connecting-adds}
+## Qué se habilita al conectar
 
-| Necesita una cuenta conectada hoy                                           | Página                                                                                                       |
-| --------------------------------------------------------------------------- | ------------------------------------------------------------------------------------------------------------ |
-| A-B loop                                                                    | [A-B loop](/docs/user-guide/ab-loop)                                                                         |
-| Incremento de audio                                                         | [Incremento de audio](/docs/user-guide/audio-boost)                                                          |
-| Filtros de vídeo                                                            | [Filtros de vídeo](/docs/user-guide/video-filters)                                                           |
-| Captura                                                                     | [Captura](/docs/user-guide/screenshots)                                                                      |
-| Auto-skip                                                                   | [Auto-skip](/docs/user-guide/auto-skip)                                                                      |
-| Notas de cuenta y marcadores conectados guardados                           | [Notas y marcadores](/docs/user-guide/notes-and-bookmarks)                                                   |
-| Cloud sync                                                                  | Esta página                                                                                                  |
-| Las Nuevas Características, YouTube, Netflix y LinkedIn pestañas en Ajustes | [YouTube](/docs/platforms/youtube), [Netflix](/docs/platforms/netflix), [LinkedIn](/docs/platforms/linkedin) |
-| Prestaciones conjuntas                                                      | [Características AI](/docs/ai-features)                                                                      |
+| Requiere cuenta conectada hoy | Página |
+|---|---|
+| Bucle A-B | [Bucle A-B](/docs/user-guide/ab-loop) |
+| Imagen en imagen | [Imagen en imagen](/docs/user-guide/picture-in-picture) |
+| Amplificación de audio | [Amplificación de audio](/docs/user-guide/audio-boost) |
+| Filtros de vídeo | [Filtros de vídeo](/docs/user-guide/video-filters) |
+| Capturas de pantalla | [Capturas](/docs/user-guide/screenshots) |
+| Salto automático | [Salto automático](/docs/user-guide/auto-skip) |
+| Notas con marca de tiempo y marcadores sincronizados | [Notas y marcadores](/docs/user-guide/notes-and-bookmarks) |
+| Sincronización en la nube | Esta página |
+| Pestañas Funciones nuevas, YouTube, Netflix y LinkedIn de Configuración | [YouTube](/docs/platforms/youtube), [Netflix](/docs/platforms/netflix), [LinkedIn](/docs/platforms/linkedin) |
+| Cupo compartido de IA | [Funciones de IA](/docs/ai-features) |
 
-Sin una cuenta, tienes velocidad, preajustes, paso de marco, Imagen en foto, tiempo compartido, modo de teatro, marcadores guardados en este navegador y el widget.
+Sin cuenta tienes velocidad, valores predefinidos, avance fotograma a fotograma, enlaces con marca de tiempo, modo cine, marcadores guardados en este navegador y el widget.
 
-Los extras YouTube y LinkedIn que están en ejecución predeterminada sin una cuenta, y sólo la pestaña Ajustes donde los cambia pide que se conecte.
+Las funciones adicionales de YouTube y LinkedIn activadas al instalar funcionan sin cuenta. Solo sus pestañas de Configuración requieren conexión para cambiar los interruptores.
 
-## Qué registros de una cuenta conectada {#what-a-connected-account-records}
+## Qué registra una cuenta conectada
 
-Conectado, la extensión almacena los datos de su cuenta y su configuración, y mientras que el interruptor de análisis de Usage está en él registra los sitios, características y velocidades que utilizó. La lista completa está en [Privacidad y permisos](/docs/privacy-and-permissions).
+La extensión guarda tus datos de cuenta y ajustes. Mientras el interruptor Estadísticas de uso está activado, registra qué sitios, funciones y velocidades utilizaste. La lista completa está en [Privacidad y permisos](/docs/privacy-and-permissions).
 
-## Sync {#sync}
+## Sincronización
 
 1. Conecta la extensión a tu cuenta.
-2. Abra la pestaña Sincronización de la cuenta & en Ajustes y encienda **Permite Cloud Sync**.
+2. Entra en Cuenta y sincronización de Configuración y activa **Sincronización en la nube**.
 
-Su configuración se carga cuando la enciende. Tus velocidades, ligaduras clave y configuración del sitio son sincronizados. La ficha muestra la última vez de sincronización. Marcas guardadas mientras se conectan sincronización a su cuenta separadamente de este interruptor de configuración; marcadores hechos mientras se firman permanecen en ese navegador.
+Tus ajustes se suben al activarla. Se sincronizan velocidades, atajos y ajustes por sitio. La pestaña muestra la hora de la última sincronización. Los marcadores nuevos guardados con la cuenta conectada se sincronizan aparte de este interruptor; los anteriores, creados sin iniciar sesión, permanecen en este navegador.
 
-| Button         | Lo que hace                                                              |
-| -------------- | ------------------------------------------------------------------------ |
-| Subir a Cloud  | Guarda la configuración de este dispositivo en tu cuenta                 |
-| Carga de Cloud | Reemplaza la configuración de este dispositivo con la copia en su cuenta |
+| Botón | Acción |
+|---|---|
+| Subir a la nube | Guarda los ajustes de este dispositivo en tu cuenta |
+| Cargar desde la nube | Reemplaza los ajustes de este dispositivo por la copia de tu cuenta |
 
-Los ajustes más recientes ganan: cuando dos navegadores guardan la misma cuenta, la cuenta mantiene la copia más reciente. Los ajustes que cambiaste en este dispositivo y no subiste son sobrescritos por **Carga de Cloud**.
+Prevalece la configuración más reciente: cuando dos navegadores guardan en la misma cuenta, esta conserva la copia nueva. **Cargar desde la nube** sobrescribe los cambios locales que no hayas subido.
 
-Otro dispositivo recoge los atajos del teclado la próxima vez que abra Ajustes en él, pero la lista de sitios que se detuvo no sincroniza. Se queda en el dispositivo donde los detuvo.
+Otro dispositivo recibe tus atajos la próxima vez que abras Configuración allí. La lista de sitios en pausa no se sincroniza; permanece en el dispositivo donde los pausaste.
 
-## Suscríbase {#sign-out}
+## Cerrar sesión
 
-**Suscríbase**, en el popup o en la cuenta & Sync pestaña, desconecta este navegador solamente. Su cuenta se queda, y también lo hace cada otro navegador que conectó. Para conectar este navegador de nuevo, pulse **Conectarse a su cuenta**.
+**Cerrar sesión**, en el popup o en Cuenta y sincronización, desconecta solo este navegador. Tu cuenta y los demás navegadores conectados permanecen. Para volver a conectarlo, pulsa **Conectar con tu cuenta**.
 
-## ¿Cómo puedo eliminar mis datos? {#how-can-i-delete-my-data}
+## ¿Cómo elimino mis datos?
 
-Abrir configuración, ir a la **Privacidad Datos &** pestaña, y haga clic **Eliminar todos los datos** sobre **Sus datos** tarjeta. Elimina la cuenta misma, los archivos almacenados bajo ella y todo guardado bajo ella. No se puede deshacer. El botón necesita una cuenta conectada, porque elimina lo que se almacena con su cuenta.
+Abre Configuración → **Privacidad y datos** y pulsa **Eliminar todos los datos** en la tarjeta **Tus datos**. Se eliminan la cuenta, sus archivos y todo lo guardado en ella. La acción no se puede deshacer. El botón exige una cuenta conectada porque elimina los datos asociados a ella.
 
-**Exportar mis datos** está en la misma tarjeta. Descargue sus datos como archivo JSON. También necesita una cuenta conectada.
+**Exportar mis datos**, en la misma tarjeta, descarga un archivo JSON y también requiere una cuenta conectada.
 
-También puede eliminar su cuenta desde el sitio web [página de eliminación de datos](https://vcpeai.aoneahsan.com/data-deletion) cuando estás firmado ahí.
+También puedes eliminar la cuenta desde la [página de eliminación de datos](https://vcpeai.aoneahsan.com/data-deletion) del sitio web cuando hayas iniciado sesión allí.
 
-## Exportar e importar sus ajustes {#export-and-import-your-settings}
+## Exportar e importar ajustes
 
-Abrir el **Gestión de datos** ficha en Ajustes.
+Abre **Gestión de datos** en Configuración.
 
-- **Ajustes de exportación** descarga su configuración como un archivo JSON. Usted elige si incluir memoria de vídeo y presets de filtro.
-- **Ajustes de importación** restaura de un archivo que exportó: **Reemplazar todos** reemplaza la configuración actual, y **Merge** mantiene sus valores actuales donde el archivo no tiene ninguno.
+- **Exportar ajustes** descarga un JSON. Puedes incluir o excluir la memoria de vídeos y los filtros predefinidos.
+- **Importar ajustes** restaura un archivo exportado: **Reemplazar todo** sustituye tus ajustes actuales; **Combinar** conserva los valores actuales cuando el archivo no incluye uno.
 
-## Planes y pagos {#plans-and-payment}
+## Inicio de sesión en dos pasos y otras aplicaciones
 
-Cada función funciona gratis. Pro eleva sus carreras diarias de IA y su nivel de IA, para una persona, y el Equipo hace lo mismo
-para cada miembro. Los precios están en [Planes](https://vcpeai.aoneahsan.com/plans).
+En el sitio web, **Cuenta → Seguridad** añade un código del teléfono después de Google. Con esta opción activada, una extensión conectada se considera de confianza durante siete días y luego pide reconectarse. Si eliminas allí un navegador, se cierra su sesión de extensión. Consulta [Inicio de sesión en dos pasos](/docs/developers/two-step-sign-in).
 
-Para obtener Pro, inicie sesión en el sitio web, abra Planes y pulse **Actualización a Pro**, mensual o anual. Usted paga en Polar
-página de salida, y Pro comienza en su cuenta tan pronto como Polar confirma el pago.
+**Cuenta → Otras aplicaciones** permite conectar herramientas propias a tu biblioteca: claves de acceso para scripts, Claude o ChatGPT y webhooks para tu servidor. Consulta [Video Controls Plus para desarrolladores](/docs/developers).
 
-Polar le envía un enlace a su portal de clientes, donde puede cancelar, cambiar su tarjeta y descargar facturas. Cancelar
-en cualquier momento. Tu plan va hasta el final del período que pagaste.
+## Planes y pago
 
-El equipo está preparado con nosotros: prensa **Elija el equipo** sobre Planes, que abre [página de contacto](https://vcpeai.aoneahsan.com/contact).
+Todas las funciones están disponibles en Free. Pro aumenta las ejecuciones diarias de IA y su nivel para una persona; Team hace lo mismo por miembro. Los precios están en [Planes](https://vcpeai.aoneahsan.com/plans).
 
-Los planes se compran en el sitio web solamente, nunca dentro de la extensión o la aplicación Android.
+Para obtener Pro, inicia sesión en el sitio web, abre Planes y pulsa **Mejorar a Pro**, con pago mensual o anual. Pagas en la página de Polar y Pro comienza en tu cuenta cuando Polar confirma el pago.
 
-Para cualquier otra cosa sobre su cuenta, utilice el [página de contacto](https://vcpeai.aoneahsan.com/contact).
+Polar te envía por correo un enlace a su portal de clientes, donde puedes cancelar, cambiar la tarjeta y descargar facturas. Puedes cancelar cuando quieras; el plan sigue activo hasta terminar el período pagado.
+
+Team se configura con nosotros: pulsa **Elegir Team** en Planes para abrir la [página de contacto](https://vcpeai.aoneahsan.com/contact).
+
+Los planes solo se compran en el sitio web, nunca dentro de la extensión ni de la aplicación de Android.
+
+Para cualquier otra consulta sobre tu cuenta, usa la [página de contacto](https://vcpeai.aoneahsan.com/contact).

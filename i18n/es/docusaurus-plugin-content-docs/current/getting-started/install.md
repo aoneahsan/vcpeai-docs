@@ -1,38 +1,37 @@
 ---
-title: "Instala Video Controls Plus"
-sidebar_label: "Instala"
-description: "Agregue Video Controls Plus de la tienda web Chrome, complementos Microsoft Edge o complementos Firefox, y el control de velocidad funciona tan pronto como esté instalado."
-unlisted: true
+title: Instalar Video Controls Plus
+sidebar_label: Instalación
+description: Instala Video Controls Plus desde Chrome Web Store, Microsoft Edge Add-ons o Firefox Add-ons y empieza a controlar la velocidad de inmediato.
 ---
 
-Agregue Video Controls Plus de la tienda web Chrome, complementos Microsoft Edge o complementos Firefox, y el control de velocidad funciona tan pronto como esté instalado.
+Instala Video Controls Plus desde Chrome Web Store, Microsoft Edge Add-ons o Firefox Add-ons. El control de velocidad funciona en cuanto la añades.
 
-| Navegador | Página                                                                                                                                |
-| --------- | ------------------------------------------------------------------------------------------------------------------------------------- |
-| Chrome    | [Chrome Web Store](https://chromewebstore.google.com/detail/ihafdbecgnhendhckoknblmcminoikdb)                                         |
-| Edge      | [Microsoft Edge Complementos](https://microsoftedge.microsoft.com/addons/detail/video-controls-plus/ghjcpobkbbhefdlgffopfhlepkgcknlb) |
-| Firefox   | [Firefox Complementos](https://addons.mozilla.org/en-US/firefox/addon/video-controls-plus)                                            |
+| Navegador | Página de la tienda |
+|---|---|
+| Chrome | [Chrome Web Store](https://chromewebstore.google.com/detail/video-controls-plus/ihafdbecgnhendhckoknblmcminoikdb) |
+| Edge | [Microsoft Edge Add-ons](https://microsoftedge.microsoft.com/addons/detail/video-controls-plus/ghjcpobkbbhefdlgffopfhlepkgcknlb) |
+| Firefox | [Firefox Add-ons](https://addons.mozilla.org/en-US/firefox/addon/video-controls-plus) |
 
-Los mismos enlaces están en el sitio web [instalar página](https://vcpeai.aoneahsan.com/install).
+Los mismos enlaces están en la [página de instalación](https://vcpeai.aoneahsan.com/install) del sitio web.
 
-## Añadirlo a tu navegador {#add-it-to-your-browser}
+## Añádela a tu navegador
 
-1. Abra la página de la tienda para su navegador desde la tabla anterior.
-2. Añade la extensión y confirma cuando el navegador muestra los permisos.
-3. Pinelo a la barra de herramientas desde el botón Extensiones del navegador, por lo que el popup está a un clic de distancia.
+1. Abre la página de la tienda correspondiente a tu navegador.
+2. Añade la extensión y confirma los permisos cuando el navegador te los muestre.
+3. Desde el botón Extensiones del navegador, fíjala a la barra de herramientas para abrir el popup con un clic.
 
-Una página de bienvenida se abre dentro de la extensión. Camina por ella o salta. Uno de sus pasos ofrece **Conectarse a su cuenta**, y usted puede saltar ese paso y conectar más tarde.
+Dentro de la extensión se abre una página de bienvenida. Puedes seguir sus pasos u omitirlos. Uno ofrece **Conectar con tu cuenta**; también puedes saltarlo y conectar más adelante.
 
-## En Firefox {#on-firefox}
+## En Firefox
 
-El add-on necesita Firefox 140 o más reciente, y Firefox muestra los datos que el add-on recopila cuando se agrega.
+La extensión requiere Firefox 140 o posterior. Firefox muestra los datos que recopila cuando la instalas.
 
-Firefox también pide dos permisos de datos opcionales: los eventos de uso se envían sólo si se permite "datos técnicos y de interacción", y el contenido de página se envía sólo después de permitir "contenido web", que el add-on pide por primera vez que se necesita. [Privacidad y permisos](/docs/privacy-and-permissions) lista lo que cada uno cubre.
+Firefox también pide dos permisos opcionales de datos: los eventos de uso solo se envían si permites «datos técnicos y de interacción», y el contenido de la página solo se envía tras permitir «contenido de sitios web», que la extensión solicita la primera vez que lo necesita. [Privacidad y permisos](/docs/privacy-and-permissions) explica cada permiso.
 
-Conectarse a su cuenta funciona en Firefox de la misma manera que en Chrome y Edge, y los controles que necesitan una cuenta conectada se enumeran en [Cuenta y sincronización](/docs/account-and-sync) con los pasos para conectar.
+La conexión con tu cuenta funciona igual en Firefox que en Chrome y Edge. En [Cuenta y sincronización](/docs/account-and-sync) encontrarás los pasos y los controles que requieren cuenta.
 
-## Lo que el navegador pide {#what-the-browser-asks-for}
+## Qué permisos pide el navegador
 
-La extensión pide acceso a todos los sitios, porque tiene que encontrar el vídeo en cualquier página que abra. Cada permiso y la razón de ello se enumeran en [Privacidad y permisos](/docs/privacy-and-permissions).
+La extensión solicita acceso a todos los sitios porque debe encontrar el vídeo en cualquier página que abras. [Privacidad y permisos](/docs/privacy-and-permissions) explica cada permiso y su motivo.
 
-Siguiente: [Primera carrera](/docs/getting-started/first-run).
+Siguiente: [Primeros pasos](/docs/getting-started/first-run).

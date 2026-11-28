@@ -1,51 +1,50 @@
 ---
-title: "Hacer GIFs, clips, solapas de tiempo y hojas de contacto"
-sidebar_label: "Captura y exportación"
-description: "Con una cuenta conectada, haga un GIF, registre un clip o un time-lapse, tome una captura de pantalla, construya una hoja de contacto y anota una captura de pantalla, todas hechas en su dispositivo."
-unlisted: true
+title: Crear GIF, clips, vídeos acelerados y hojas de contactos
+sidebar_label: Captura y exportación
+description: Con una cuenta conectada, crea GIF, clips, ráfagas de capturas y hojas de contactos, o anota una captura; todo se crea en tu dispositivo.
 ---
 
-Capture & export hace un GIF, un clip, un time-lapse, una explosión de capturas de pantalla o una hoja de contacto del vídeo, y le permite dibujar en una captura de pantalla. Abra la pestaña Herramientas del widget y encuentre **Capture & export**Necesita [a una cuenta conectada](/docs/account-and-sync)Como el [screenshot](/docs/user-guide/screenshots).
+**Captura y exportación** crea GIF, clips, vídeos acelerados, ráfagas de capturas y hojas de contactos a partir del vídeo. También permite dibujar sobre una captura. Abre Herramientas → **Captura y exportación** en el widget. Requiere [una cuenta conectada](/docs/account-and-sync), igual que las [capturas de pantalla](/docs/user-guide/screenshots).
 
-Todo está hecho en tu dispositivo y guardado como descarga. Nada es subido.
+Todo se crea en tu dispositivo y se guarda como descarga. No se sube nada.
 
-## Lo que puedes hacer {#what-you-can-make}
+## Qué puedes crear
 
-| Button                   | Lo que consigues                                                                       |
-| ------------------------ | -------------------------------------------------------------------------------------- |
-| **GIF · próximo 5 s**    | GIF de los próximos 3, 5, 10 o 15 segundos, 320, 480 o 640 px de ancho                 |
-| **● clip de grabación**  | Un clip con imagen y sonido, como WebM. Prensa **■ Parar clip** para terminarlo        |
-| **Time-lapse 4x**        | El vídeo en 2x, 4x, 8x o 16x, solo se puede ver como WebM                              |
-| **Burst cada 5 s**       | Una captura de pantalla cada 2, 5, 10 o 30 segundos mientras el video juega, hasta 100 |
-| **hoja de contacto 3×3** | 3 × 3 o 4 × 4 marcos de todo el video, cada uno con su tiempo, como un PNG             |
-| **Anotato**              | Una captura de pantalla que dibuja en                                                  |
+| Botón | Resultado |
+|---|---|
+| **GIF · próximos 5 s** | GIF en bucle de los próximos 3, 5, 10 o 15 segundos, con 320, 480 o 640 px de ancho |
+| **● Grabar clip** | Clip con imagen y sonido en WebM; pulsa **■ Detener clip** para terminar |
+| **Vídeo acelerado 4x** | Vídeo sin sonido a 2x, 4x, 8x o 16x en WebM |
+| **Ráfaga cada 5 s** | Una captura cada 2, 5, 10 o 30 segundos mientras se reproduce, hasta 100 |
+| **Hoja de contactos 3×3** | 3 × 3 o 4 × 4 fotogramas repartidos por todo el vídeo, con sus tiempos, en un PNG |
+| **Anotar** | Una captura sobre la que puedes dibujar |
 
-Los números en los botones siguen tus opciones en Ajustes. Un clip y una parada de lapso de tiempo por sí mismos después de 10 minutos, o cuando el vídeo termina.
+Los números de los botones reflejan tus elecciones en Configuración. Los clips y vídeos acelerados terminan automáticamente al cabo de diez minutos o al terminar el vídeo.
 
-Cuando hay una explosión, el botón muestra cuántos disparos tiene. Sálvalos con **Guardar ... como ZIP** (el botón muestra el conteo), que da un ZIP de los PNG, o **Guardar como hoja**, que los pone en una imagen.
+Durante una ráfaga, el botón indica cuántas capturas lleva. Guárdalas con **Guardar … como ZIP** (muestra la cantidad) para obtener varios PNG, o con **Guardar como hoja** para reunirlas en una imagen.
 
-## Anota una captura de pantalla {#annotate-a-screenshot}
+## Anotar una captura
 
-1. Prensa **Anotato**The **Captura de pantalla anotada** El panel se abre en el marco actual.
-2. Elija una herramienta: Flecha, Caja, Destacado, Texto o Pen.
-3. Elige un color: Rojo, Amarillo, Verde, Azul o Blanco.
-4. Arrastre la imagen para dibujar. Con Texto, haga clic, escriba, luego pulse Enter.
-5. Prensa **Save PNG** para descargarlo, o **Copiado** para ponerlo en el portapapeles.
+1. Pulsa **Anotar**. Se abre **Anotar captura** con el fotograma actual.
+2. Elige Flecha, Rectángulo, Resaltador, Texto o Lápiz.
+3. Elige Rojo, Amarillo, Verde, Azul o Blanco.
+4. Arrastra sobre la imagen. Con Texto, haz clic, escribe y pulsa Enter.
+5. Pulsa **Guardar PNG** para descargarla o **Copiar** para llevarla al portapapeles.
 
-`Ctrl + Z` deshace la última marca. Escapar cierra el panel.
+`Ctrl + Z` deshace la última marca. `Esc` cierra el panel.
 
-## Ajustes de captura {#capture-settings}
+## Configuración de captura
 
-Ajustes, ficha de características de vídeo, **Capture & export** establece **Longitud GIF**, el **Ancho GIF**, el **Velocidad de caída del tiempo**, con qué frecuencia se dispara una explosión (**Burst cada uno**) y el **Hoja de contacto** tamaño. **Ajustes de captura** devuelve los defectos.
+Configuración → Funciones de vídeo → **Captura y exportación** permite ajustar **Duración del GIF**, **Anchura del GIF**, **Velocidad del vídeo acelerado**, frecuencia de **Ráfaga cada** y tamaño de **Hoja de contactos**. **Restablecer ajustes de captura** devuelve los valores iniciales.
 
-## Cuando no funciona {#when-it-does-not-work}
+## Si no funciona
 
-El vídeo protegido, como Netflix y Disney+, no puede ser capturado, y algunos otros sitios no permiten que sus marcos sean guardados. El widget te dice lo que es. Una hoja de contacto necesita un vídeo con una longitud conocida, por lo que no funciona en un flujo en vivo. Un vídeo pausado no puede ser capturado, así que la prensa juega primero.
+No se pueden capturar vídeos protegidos como los de Netflix y Disney+, y algunos sitios tampoco permiten guardar sus fotogramas. El widget indica el motivo. Una hoja de contactos requiere un vídeo de duración conocida; no funciona en directos. Para capturar, el vídeo debe estar reproduciéndose: pulsa Reproducir si está pausado.
 
-## Atajos {#shortcuts}
+## Atajos
 
-Tres atajos opcionales comienzan sin llave: "Recordar o detener un clip", "Hacer un GIF" y "Anotar una captura de pantalla". Cada una necesita una cuenta conectada. Arréglelos. [Cambiar un atajo](/docs/keyboard-shortcuts/rebinding).
+«Grabar o detener clip», «Crear GIF» y «Anotar captura» son atajos opcionales sin tecla inicial. Requieren una cuenta. Configúralos en [Cambiar un atajo](/docs/keyboard-shortcuts/rebinding).
 
-Para compartir un clip en forma de postes sociales, vea [Compartir y ver juntos](/docs/user-guide/share-and-watch-together).
+Para crear un clip adaptado a redes sociales, consulta [Compartir y ver juntos](/docs/user-guide/share-and-watch-together).
 
 Siguiente: [Automatización de reproducción](/docs/user-guide/playback-automation).

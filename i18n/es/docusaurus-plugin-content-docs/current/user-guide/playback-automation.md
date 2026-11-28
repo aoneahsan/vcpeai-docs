@@ -1,46 +1,45 @@
 ---
-title: "Dejar que la reproducción funcione por su cuenta con Automatización"
-sidebar_label: "Automatización de reproducción"
-description: "Bloquear el juego automático, mantener una velocidad por sitio, aumentar la velocidad, configurar recordatorios y pausar otras pestañas, sin cuenta; Subir siguiente y reanudar de otro dispositivo necesita una cuenta conectada."
-unlisted: true
+title: Automatizar la reproducción
+sidebar_label: Automatización de reproducción
+description: Bloquea la reproducción automática, guarda una velocidad por sitio, acelera gradualmente, crea recordatorios y pausa otras pestañas sin cuenta.
 ---
 
-Automatización bloquea el autoplay, mantiene una velocidad para cada sitio, aumenta la velocidad lentamente y le recuerda ver un video más tarde. Abre la pestaña Playback del widget y encuentra **Automatización**Ninguno necesita una cuenta.
+Automatización bloquea el inicio automático, guarda una velocidad por sitio, aumenta la velocidad poco a poco y te recuerda ver vídeos más tarde. Abre Reproducción → **Automatización** en el widget. Estas funciones no necesitan cuenta.
 
-Ajustes, ficha de características de vídeo, **Automatización de reproducción** lista sus sitios bloqueados y permitidos, sus velocidades del sitio y sus recordatorios, con **Retirar** al lado de cada uno.
+Configuración → Funciones de vídeo → **Automatización de reproducción** muestra los sitios bloqueados y permitidos, velocidades por sitio y recordatorios, con un botón **Eliminar** para cada uno.
 
-## Juego de bloques {#block-autoplay}
+## Bloquear la reproducción automática
 
-Prensa **Automatismo bloque aquí** y videos en este sitio esperar hasta que presione el juego. Un video realizado muestra "Autoplay bloqueado — juego de prensa para ver".
+Pulsa **Bloquear reproducción automática aquí**. En ese sitio, los vídeos esperan hasta que pulses Reproducir y muestran «Reproducción automática bloqueada: pulsa para ver».
 
-Para bloquearlo en cada sitio, encienda **Juego de bloques en todas partes** en Ajustes y añadir los sitios que desea mantener bajo **Sitios donde se permite la reproducción automática**Tick **Dime cuando esté listo un vídeo bloqueado** para un aviso cuando un video en una pestaña oculta está listo para jugar.
+Para bloquearla en todos los sitios, activa **Bloquear reproducción automática en todas partes** en Configuración y añade excepciones en **Sitios donde se permite**. Marca **Avisarme cuando un vídeo bloqueado esté listo** para recibir un aviso si está en una pestaña oculta.
 
-## Mantenga una velocidad para un sitio {#keep-a-speed-for-a-site}
+## Guardar una velocidad para un sitio
 
-Pon la velocidad que quieras, luego presiona **Mantenga 1.5x en este sitio** (el botón muestra la velocidad actual). Los vídeos en ese sitio ahora comienzan en él. Una velocidad la extensión recuerda para un vídeo o una lista de reproducción aún gana.
+Elige la velocidad y pulsa **Mantener 1,5x en este sitio**; el botón muestra tu valor actual. Los vídeos de ese sitio comenzarán así. Una velocidad guardada para un vídeo o lista de reproducción específicos conserva la prioridad.
 
-## rampa de velocidad {#speed-ramp}
+## Aceleración gradual
 
-Una rampa de velocidad aumenta la velocidad poco a poco mientras el video juega. Elige donde termina, desde 1.25x a 2.5x, y cuánto tiempo tarda, de 5 a 30 minutos, luego presiona **Comienzo**Se mueve en pasos 0.1x. Prensa **Para.** Para terminarlo.
+Aumenta la velocidad poco a poco durante la reproducción. Elige una velocidad final de 1,25x a 2,5x y una duración de 5 a 30 minutos; luego pulsa **Iniciar**. Avanza en pasos de 0,1x. Pulsa **Detener** para terminar.
 
-## Recuérdame que vea esto {#remind-me-to-watch-this}
+## Recordarme ver este vídeo
 
-Prensa **Recuérdame que vea esto** y elegir **En 1 hora**, **Esta noche a las 20:00**, **Mañana a las 08:00** o **Elige una fecha y hora...**&#x45;ntonces **Repito** es **Una vez**, **Diario** o **Semanal**, y prensa **Set**. Una notificación del navegador llega a ese momento. Haga click para abrir el vídeo. En YouTube se abre en el momento en que salvaste. Puedes tener hasta 50 recordatorios a la vez.
+Pulsa **Recordarme ver este vídeo**, elige **En 1 hora**, **Esta noche a las 20:00**, **Mañana a las 08:00** o **Elegir fecha y hora…**. Luego elige si se repite **Una vez**, **Cada día** o **Cada semana**, y pulsa **Guardar**. Una notificación del navegador llegará a esa hora; púlsala para abrir el vídeo. En YouTube se abre en el momento guardado. Puedes tener hasta 50 recordatorios a la vez.
 
-## Un video a la vez {#one-video-at-a-time}
+## Un vídeo a la vez
 
-En Ajustes, pestaña Características de vídeo, encender **Pausa vídeos en otras pestañas cuando uno comienza**. Cuando comienza un vídeo, los vídeos jugando en las otras pestañas de esta pausa del navegador. Está apagado hasta que lo enciendas, y no necesita cuenta.
+En Configuración → Funciones de vídeo, activa **Pausar los vídeos de otras pestañas al iniciar uno**. Cuando empieza un vídeo, se pausan los que se reproducen en otras pestañas de este navegador. Viene desactivado y no requiere cuenta.
 
-## Al lado de Watch Later {#up-next-from-watch-later}
+## Siguiente de Ver más tarde
 
-Esta necesita [a una cuenta conectada](/docs/account-and-sync)Empieza. En Ajustes, pestaña Características de vídeo, encender **Juega mi reloj más tarde en orden** y elegir un **Cuenta atrás** de 5, 10 o 15 segundos. Cuando un vídeo termina, una tarjeta sobre ella cuenta hasta el siguiente video en su lista de relojes más adelante, o al primero cuando el vídeo que terminó no está en la lista, con **Juega ahora** y **Cancelar**Después del último video, nada juega. Rejugar o buscar la espalda lo cancela, y un video de bucle nunca termina, así que nunca se mueve.
+Esta función sí requiere [cuenta conectada](/docs/account-and-sync) y viene desactivada. En Configuración → Funciones de vídeo, activa **Reproducir Ver más tarde en orden** y elige una **Cuenta regresiva** de 5, 10 o 15 segundos. Al terminar un vídeo, una tarjeta muestra el siguiente de tu lista (o el primero si el vídeo actual no está en ella) con **Reproducir ahora** y **Cancelar**. Después del último no se reproduce nada. Repetir el vídeo o retroceder cancela el avance. Un vídeo en bucle nunca termina, así que no avanza al siguiente.
 
-## Recuperar de otro dispositivo {#resume-from-another-device}
+## Continuar desde otro dispositivo
 
-Con **Recuerda la posición de Playback** encendido, una cuenta conectada y la Historia del reloj encendido, la extensión puede recoger donde se detuvo otro dispositivo. Pregunta: "Tienes a 12:40 en otro dispositivo. ¿Resumir?" Hace esto sólo cuando este navegador no tiene una posición guardada propia, y no cerca del extremo mismo del vídeo.
+Con **Recordar posición de reproducción**, cuenta conectada e Historial de reproducción activado, puedes continuar donde se detuvo otro dispositivo. La extensión pregunta: «Llegaste a 12:40 en otro dispositivo. ¿Continuar?». Solo lo hace si este navegador no tiene su propia posición guardada y el vídeo no está casi terminado.
 
-## Atajos {#shortcuts}
+## Atajos
 
-"Block autoplay en este sitio" y "Iniciar o detener la rampa de velocidad" comienza sin llave. Dales uno. [Cambiar un atajo](/docs/keyboard-shortcuts/rebinding).
+«Bloquear reproducción automática en este sitio» e «Iniciar o detener la aceleración gradual» no tienen atajo inicial. Asígnales uno en [Cambiar un atajo](/docs/keyboard-shortcuts/rebinding).
 
-Siguiente: [Ver límites y Modo de enfoque](/docs/user-guide/watch-limits-and-focus).
+Siguiente: [Límites y modo de enfoque](/docs/user-guide/watch-limits-and-focus).

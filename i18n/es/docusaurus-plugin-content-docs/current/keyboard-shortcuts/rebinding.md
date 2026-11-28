@@ -1,56 +1,55 @@
 ---
-title: "Cambiar un atajo de teclado"
-sidebar_label: "Cambiar un atajo"
-description: "Dé cualquier acceso directo a otra clave en Ajustes, desactive los atajos uno por uno o por sección, y mantenga sus teclas entre dispositivos con una cuenta conectada."
-unlisted: true
+title: Cambiar un atajo de teclado
+sidebar_label: Cambiar un atajo
+description: Asigna otra combinación a cualquier atajo en Configuración, desactívalos por separado o por sección y sincronízalos con una cuenta conectada.
 ---
 
-Abrir Configuración, ir a la pestaña Atajos de teclado, y darle al atajo otra clave. Cada atajo en esa pestaña se puede cambiar, y funciona sin una cuenta.
+Abre Configuración → Atajos de teclado para cambiar cualquier combinación de esa pestaña. No necesitas una cuenta.
 
-## Cambiar una clave {#change-a-key}
+## Cambiar una tecla
 
-1. Abrir configuración.
-2. Ir a la **Atajos de teclado** tab.
-3. Encuentra el atajo en su sección.
-4. Establecer la nueva clave, con cualquier mezcla de `Ctrl`, `Shift` y `Alt`.
+1. Abre Configuración.
+2. Entra en **Atajos de teclado**.
+3. Busca el atajo dentro de su sección.
+4. Elige la combinación nueva, con `Ctrl`, `Shift` y `Alt` si quieres.
 
-Las secciones, en orden, son Control de velocidad, Controles avanzados, Velocidades de Preset, A-B Loop, Controles de audio, Filtros & Captura de Pantalla, Navegación y luego Controles de recuperación Netflix en su propio bloque.
+Las secciones aparecen en este orden: Control de velocidad, Controles avanzados, Velocidades predefinidas, Bucle A-B, Controles de audio, Filtros y capturas, Navegación y marcadores; al final hay un bloque propio para los controles de recuperación de Netflix.
 
-Las claves de letras y dígitos comienzan `Ctrl + Alt` así que se mantienen alejados de las teclas de jugador del sitio. Puedes quitar los modificadores, y entonces depende de ti mantenerte alejado de las llaves del sitio.
+Las letras y números usan inicialmente `Ctrl + Alt` para no interferir con el reproductor del sitio. Puedes quitar los modificadores, pero tendrás que evitar las teclas que use ese sitio.
 
-## Una llave, un atajo {#one-key-one-shortcut}
+## Una combinación, una acción
 
-Una llave sólo puede pertenecer a un atajo. Si una clave que eliges ya pertenece a otro atajo, Settings te dice cuál y te lleva a ella.
+Cada combinación pertenece a un solo atajo. Si eliges una ya asignada, Configuración indica cuál la usa y te lleva hasta ella.
 
-El mensaje nombra la clave, el atajo que la sostiene y su sección, y vincula directamente a ese atajo para que puedas moverla. La regla cubre cada conjunto a la vez, por lo que una tecla Controles de recuperación Netflix no puede duplicarse como una general.
+El aviso nombra la combinación, la acción y su sección, con un enlace directo para cambiarla. La regla abarca todas las secciones: un atajo de recuperación de Netflix tampoco puede duplicar uno general.
 
-## Atajos de interruptor {#switch-shortcuts-off}
+## Desactivar atajos
 
-| Lo que apagas                            | Donde                                  |
-| ---------------------------------------- | -------------------------------------- |
-| Un atajo                                 | El interruptor en la fila de ese atajo |
-| Una sección entera, por ejemplo A-B Loop | El interruptor en la sección           |
+| Qué desactivas | Dónde |
+|---|---|
+| Un atajo | Interruptor de su fila |
+| Una sección completa, por ejemplo Bucle A-B | Interruptor de la sección |
 
-## Velocidades de Preset {#preset-speeds}
+## Velocidades predefinidas
 
-Las velocidades de Preset y sus llaves se editan en la misma pestaña. [Control de velocidad](/docs/user-guide/speed-control) los cubre.
+Sus valores y atajos se editan en la misma pestaña. [Velocidad](/docs/user-guide/speed-control) los explica.
 
-## Volver a los predeterminados {#go-back-to-the-defaults}
+## Volver a los valores iniciales
 
-Haga clic **Reset All** en la parte superior de la pestaña. Se le pregunta primero y se restablece las velocidades preestablecidas, así como las teclas.
+Pulsa **Restablecer todo** al principio de la pestaña. Primero pide confirmación y luego restablece tanto los atajos como las velocidades predefinidas.
 
-La sección Controles de Recuperación Netflix tiene su propia **Reset** botón, que restablece sólo las teclas Netflix.
+La sección de recuperación de Netflix tiene su propio botón **Restablecer**, que solo modifica sus teclas.
 
-## Tus llaves en otro dispositivo {#your-keys-on-another-device}
+## Tus atajos en otro dispositivo
 
-Sus enlaces clave se guardan en este navegador. Mientras una cuenta está conectada también se guardan en ella, y otro dispositivo los recoge la próxima vez que abra Ajustes en ella.
+Las combinaciones se guardan en este navegador. Con una cuenta conectada también se guardan en ella y llegan a otro dispositivo la próxima vez que abras allí Configuración.
 
-Sin una cuenta, se quedan en este navegador. See [lo que la conexión añade](/docs/account-and-sync).
+Sin cuenta, permanecen en este navegador. Consulta [qué aporta la conexión](/docs/account-and-sync).
 
-## Limits {#limits}
+## Límites
 
-Cuatro atajos están fijados por el navegador: `Alt + V` abre el popup, `Ctrl + Shift + V` muestra o oculta los controles flotantes, `Ctrl + Shift + P` toggles Picture-in-Picture, and `Ctrl + Shift + C` toma una captura de pantalla. No se pueden cambiar dentro de la extensión; usted los cambia en la página de accesos de extensión de su navegador.
+El navegador controla cuatro atajos: `Alt + V` abre el popup, `Ctrl + Shift + V` muestra u oculta los controles flotantes, `Ctrl + Shift + P` activa imagen en imagen y `Ctrl + Shift + C` hace una captura. No se cambian dentro de la extensión; usa la página de atajos de extensiones del navegador.
 
-Cada llave de inicio está en [Atajos predeterminados](/docs/keyboard-shortcuts/defaults).
+Todos los atajos iniciales figuran en [Atajos predeterminados](/docs/keyboard-shortcuts/defaults).
 
-Las páginas del sitio comienzan con [YouTube](/docs/platforms/youtube).
+Las páginas de sitios empiezan por [YouTube](/docs/platforms/youtube).

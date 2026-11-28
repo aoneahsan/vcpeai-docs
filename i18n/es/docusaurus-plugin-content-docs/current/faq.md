@@ -1,58 +1,57 @@
 ---
-title: "Preguntas frecuentes"
-sidebar_label: "FAQ"
-description: "Respuestas cortas sobre velocidad, bucle A-B, impulso de audio, capturas de pantalla, filtros, atajos, sitios compatibles, Netflix, privacidad y eliminación de sus datos."
-unlisted: true
+title: Preguntas frecuentes
+sidebar_label: Preguntas frecuentes
+description: Respuestas sobre velocidad, bucle A-B, audio, capturas, filtros, atajos, sitios compatibles, privacidad y eliminación de datos.
 ---
 
 ## ¿Qué es Video Controls Plus? {#what-is-video-controls-plus}
 
-Una extensión del navegador que añade controles de reproducción al vídeo HTML5. Funciona en cualquier sitio que reproduce un video estándar, con herramientas adicionales en YouTube, Netflix y LinkedIn, y que envía para Chrome, Edge y Firefox. Para añadirlo, vea [Instala](/docs/getting-started/install).
+Es una extensión que añade controles de reproducción a vídeos HTML5. Funciona en cualquier sitio con vídeo estándar y ofrece herramientas adicionales en YouTube, Netflix y LinkedIn. Está disponible para Chrome, Edge y Firefox. Consulta [Instalación](/docs/getting-started/install).
 
-## ¿Cómo controlo la velocidad de reproducción de vídeo? {#how-do-i-control-video-playback-speed}
+## ¿Cómo controlo la velocidad de reproducción? {#how-do-i-control-video-playback-speed}
 
-Prensa `]` o `[` para los pasos 0.1x, o arrastrar el deslizador en el widget hasta 4x. Para cualquier cosa más rápido, escriba la velocidad en la entrada personalizada del widget o las cajas de velocidad personalizadas en la pestaña General en Ajustes, hasta 16x. El control de velocidad funciona sin cuenta. See [Control de velocidad](/docs/user-guide/speed-control).
+Pulsa `]` o `[` para cambiarla en pasos de 0,1x, o arrastra el control del widget hasta 4x. Para velocidades mayores, introduce un valor en el widget o en los campos de velocidad personalizada de la pestaña General de Configuración, hasta 16x. No necesitas una cuenta. Consulta [Velocidad](/docs/user-guide/speed-control).
 
 ## ¿Qué es el bucle A-B y cómo funciona? {#what-is-a-b-loop-and-how-does-it-work}
 
-Un bucle A-B replaya el estiramiento entre dos puntos que estableces; necesita un [cuenta conectada](/docs/account-and-sync). Prensa `Ctrl + Alt + A` al principio y `Ctrl + Alt + B` al final, y el video juega esa parte hasta que lo despejas con `Ctrl + Alt + Backspace`Véase [A-B loop](/docs/user-guide/ab-loop).
+Repite el fragmento comprendido entre dos puntos que eliges; necesitas una [cuenta conectada](/docs/account-and-sync). Pulsa `Ctrl + Alt + A` al principio y `Ctrl + Alt + B` al final. El vídeo repetirá ese tramo hasta que pulses `Ctrl + Alt + Backspace`. Consulta [Bucle A-B](/docs/user-guide/ab-loop).
 
-## ¿Puedo aumentar el audio más allá del 100%? {#can-i-boost-audio-beyond-100}
+## ¿Puedo amplificar el audio por encima del 100 %? {#can-i-boost-audio-beyond-100}
 
-Sí, hasta el 400%, después de ti [conectar su cuenta](/docs/account-and-sync). Prensa `Ctrl + Alt + U` para elevar el impulso y `Ctrl + Alt + Y` para bajarlo. See [Incremento de audio](/docs/user-guide/audio-boost).
+Sí, hasta el 400 %, después de [conectar tu cuenta](/docs/account-and-sync). Pulsa `Ctrl + Alt + U` para aumentarlo y `Ctrl + Alt + Y` para reducirlo. Consulta [Amplificación de audio](/docs/user-guide/audio-boost).
 
-## ¿Cómo tomo imágenes de vídeos? {#how-do-i-take-screenshots-of-videos}
+## ¿Cómo hago capturas de un vídeo? {#how-do-i-take-screenshots-of-videos}
 
-Prensa `Ctrl + Alt + C` para guardar el marco actual como PNG o JPEG; necesita una cuenta conectada. Usted elige descargar, portapapeles o ambos en Ajustes. See [Captura](/docs/user-guide/screenshots).
+Pulsa `Ctrl + Alt + C` para guardar el fotograma actual como PNG o JPEG; necesitas una cuenta conectada. En Configuración eliges si descargarlo, copiarlo al portapapeles o ambas cosas. Consulta [Capturas de pantalla](/docs/user-guide/screenshots).
 
-## ¿Qué filtros de vídeo están disponibles? {#what-video-filters-are-available}
+## ¿Qué filtros de vídeo hay? {#what-video-filters-are-available}
 
-Brillo, contraste y saturación del 0% al 200%, más grayscale, invert y modo nocturno. Puedes ahorrar hasta 20 presets, una vez conectado tu cuenta. See [Filtros de vídeo](/docs/user-guide/video-filters).
+Brillo, contraste y saturación del 0 % al 200 %, además de escala de grises, inversión de colores y modo nocturno. Puedes guardar hasta 20 ajustes predefinidos cuando conectas tu cuenta. Consulta [Filtros de vídeo](/docs/user-guide/video-filters).
 
-## ¿Cuáles son los atajos del teclado? {#what-are-the-keyboard-shortcuts}
+## ¿Cuáles son los atajos de teclado? {#what-are-the-keyboard-shortcuts}
 
-Las claves de letras y dígitos necesitan `Ctrl + Alt`; sólo `[`, `]`, `=`, `\`, `'`, `,`, `.` y `Esc` trabajar solo. Puedes cambiarlos en Ajustes. See [Atajos predeterminados](/docs/keyboard-shortcuts/defaults) y [Cambiar un atajo](/docs/keyboard-shortcuts/rebinding).
+Las teclas de letras y números requieren `Ctrl + Alt`; solo `[`, `]`, `=`, `\`, `'`, `,`, `.` y `Esc` funcionan por sí solas. Puedes cambiarlas en Configuración. Consulta [Atajos predeterminados](/docs/keyboard-shortcuts/defaults) y [Cambiar un atajo](/docs/keyboard-shortcuts/rebinding).
 
-## ¿Puedo tomar notas mientras veo videos? {#can-i-take-notes-while-watching-videos}
+## ¿Puedo tomar notas mientras veo vídeos? {#can-i-take-notes-while-watching-videos}
 
-Sí. Conecte una cuenta para guardar notas timetamped y exportarlas como Markdown, texto o JSON de la pestaña Herramientas del widget. `Ctrl + Alt + O` añade un marcador en el momento actual sin una cuenta. Un nuevo marcador guardado mientras conectado también aparece en la biblioteca de marcadores de su cuenta. See [Notas y marcadores](/docs/user-guide/notes-and-bookmarks).
+Sí. Conecta una cuenta para guardar notas con marca de tiempo y exportarlas como Markdown, texto o JSON desde la pestaña Herramientas del widget. `Ctrl + Alt + O` añade un marcador en el momento actual sin cuenta. Un marcador nuevo guardado con la cuenta conectada también aparece en su biblioteca de marcadores. Consulta [Notas y marcadores](/docs/user-guide/notes-and-bookmarks).
 
-## ¿Qué plataformas de vídeo soporta? {#which-video-platforms-does-it-support}
+## ¿En qué sitios funciona? {#which-video-platforms-does-it-support}
 
-Cualquier sitio que reproduce un vídeo HTML5 estándar, con herramientas adicionales en YouTube, Netflix y LinkedIn. Los videos incrustados en otras páginas también reciben los controles. See [Otros sitios](/docs/platforms/other-sites).
+En cualquier sitio que reproduzca vídeo HTML5 estándar, con herramientas adicionales en YouTube, Netflix y LinkedIn. También controla los vídeos incrustados en otras páginas. Consulta [Otros sitios](/docs/platforms/other-sites).
 
 ## ¿Funciona en Firefox? {#does-it-work-on-firefox}
 
-Sí. El add-on necesita Firefox 140 o más nuevo, y la conexión a su cuenta funciona allí de la misma manera que en Chrome y Edge: prensa **Conectarse a su cuenta** en el add-on y confirmar en el sitio web. No hay registro en el interior de la extensión en cualquier navegador. See [Cuenta y sincronización](/docs/account-and-sync).
+Sí. Requiere Firefox 140 o posterior. Para conectar tu cuenta, pulsa **Conectar con tu cuenta** en la extensión y confirma en el sitio web, igual que en Chrome y Edge. No hay un inicio de sesión dentro de la extensión. Consulta [Cuenta y sincronización](/docs/account-and-sync).
 
 ## ¿Funciona en Netflix? {#does-it-work-on-netflix}
 
-La velocidad y los controles centrales funcionan en Netflix; los extras Netflix están apagados hasta que los enciendas. Los enciende en Ajustes, en la pestaña Características Netflix. See [Netflix](/docs/platforms/netflix).
+La velocidad y los controles principales funcionan en Netflix. Las herramientas especiales están desactivadas hasta que las actives en Configuración, en la pestaña Funciones de Netflix. Consulta [Netflix](/docs/platforms/netflix).
 
 ## ¿Video Controls Plus recopila mis datos personales? {#does-video-controls-plus-collect-my-personal-data}
 
-Sí, algunos. Mientras que **Análisis de uso** encendido (el predeterminado), los eventos de uso se envían con o sin una cuenta, y su dirección IP va a ipapi.co para una búsqueda de ubicación a la mayoría de una vez al día. Una cuenta conectada también almacena datos y configuraciones de su cuenta. Apague el interruptor en la pestaña Datos de Privacidad & y las paradas de grabación de uso. See [Privacidad y permisos](/docs/privacy-and-permissions).
+Sí, algunos. Mientras **Estadísticas de uso** esté activado (la opción predeterminada), se envían eventos de uso tengas o no una cuenta, y tu dirección IP se envía a ipapi.co para consultar tu ubicación como máximo una vez al día. Una cuenta conectada también guarda los datos y ajustes de tu cuenta. Desactiva el interruptor en la pestaña Privacidad y datos para detener el registro de uso. Consulta [Privacidad y permisos](/docs/privacy-and-permissions).
 
-## ¿Cómo puedo eliminar mis datos? {#how-can-i-delete-my-data}
+## ¿Cómo elimino mis datos? {#how-can-i-delete-my-data}
 
-Abrir configuración, vaya a la pestaña Datos de Privacidad & y haga clic en **Eliminar todos los datos** menores **Sus datos**. Elimina la cuenta misma, los archivos almacenados bajo ella y todo guardado bajo ella, por lo que la extensión tiene que estar conectada a su cuenta. See [Cuenta y sincronización](/docs/account-and-sync).
+Abre Configuración, entra en la pestaña Privacidad y datos y pulsa **Eliminar todos los datos** en **Tus datos**. Se eliminan la cuenta, sus archivos y todo lo guardado en ella; por eso la extensión debe estar conectada a tu cuenta. Consulta [Cuenta y sincronización](/docs/account-and-sync).

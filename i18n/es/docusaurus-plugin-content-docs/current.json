@@ -1,10 +1,10 @@
 {
   "version.label": {
-    "message": "Siguiente",
+    "message": "Próxima",
     "description": "The label for version current"
   },
   "sidebar.docsSidebar.category.Getting started": {
-    "message": "Comienzo",
+    "message": "Primeros pasos",
     "description": "The label for category 'Getting started' in sidebar 'docsSidebar'"
   },
   "sidebar.docsSidebar.category.User guide": {
@@ -20,7 +20,7 @@
     "description": "The label for category 'Platforms' in sidebar 'docsSidebar'"
   },
   "sidebar.docsSidebar.link.Changelog": {
-    "message": "Cambio",
+    "message": "Registro de cambios",
     "description": "The label for link 'Changelog' in sidebar 'docsSidebar', linking to '/changelog'"
   }
 }

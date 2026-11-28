@@ -4,15 +4,15 @@
     "description": "The title in the navbar"
   },
   "logo.alt": {
-    "message": "Logo Video Controls Plus",
+    "message": "Logotipo de Video Controls Plus",
     "description": "The alt text of navbar logo"
   },
   "item.label.Docs": {
-    "message": "Docs",
+    "message": "Documentación",
     "description": "Navbar item with label Docs"
   },
   "item.label.Changelog": {
-    "message": "Cambio",
+    "message": "Registro de cambios",
     "description": "Navbar item with label Changelog"
   },
   "item.label.Product website": {

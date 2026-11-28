@@ -1,58 +1,57 @@
 ---
-title: "Video Controls Plus en YouTube"
-sidebar_label: "YouTube"
-description: "En YouTube los controles de núcleo funcionan como en cualquier sitio, y cada uno de los extras YouTube tiene su propio interruptor en Ajustes; la mayoría están por defecto."
-unlisted: true
+title: Video Controls Plus en YouTube
+sidebar_label: YouTube
+description: En YouTube funcionan los controles generales y cada función especial tiene su propio interruptor en Configuración; la mayoría viene activada.
 ---
 
-En YouTube se obtienen los mismos controles que en todas partes y un conjunto de extras hechos para YouTube: Comentario Buscar, un contador de disco, un bloqueador de canales y descargas de subtítulos y miniaturas están encendidos desde el principio, y cada uno tiene su propio interruptor en Ajustes. Los extras que están en ejecución por defecto sin una cuenta. Sólo la pestaña Características YouTube en Ajustes, donde los cambia, necesita una cuenta y [Cuenta y sincronización](/docs/account-and-sync) cubre eso.
+En YouTube tienes los mismos controles que en otros sitios y herramientas propias: Buscar comentarios, Contador de «No me gusta», Bloquear canales y descarga de subtítulos y miniaturas vienen activados. Cada una tiene un interruptor en Configuración. Las funciones activadas al instalar funcionan sin cuenta; solo la pestaña Funciones de YouTube, donde las configuras, requiere una cuenta. Consulta [Cuenta y sincronización](/docs/account-and-sync).
 
-## Los controles básicos {#the-core-controls}
+## Controles generales
 
-Velocidad, el widget y los atajos funcionan en YouTube como lo hacen en todas partes. Prensa `]` ir 0.1x más rápido, y la memoria de velocidad mantiene una velocidad para cada vídeo.
+Velocidad, widget y atajos funcionan igual que en otros sitios. Pulsa `]` para acelerar 0,1x. La memoria de velocidad conserva un valor por vídeo.
 
-## Qué pasa por defecto {#what-is-on-by-default}
+## Qué viene activado
 
-La mayoría de los extras YouTube están disponibles desde el principio. Unos pocos se apagan hasta que se enciendan.
+La mayoría de las funciones especiales de YouTube están activadas desde el inicio. Algunas esperan a que las enciendas.
 
-| Extra                 | Lo que hace                                                                          | Default                          |
-| --------------------- | ------------------------------------------------------------------------------------ | -------------------------------- |
-| Dislike Counter       | Muestra los recuentos desfavorables, utilizando la API de desfase de retorno YouTube | En, y en el menú de clic derecho |
-| Comentario Buscar     | Búsquedas dentro de los comentarios de un vídeo                                      | En, y en el menú de clic derecho |
-| Bloqueador de canales | Mantiene un canal fuera de sus recomendaciones                                       | En, y en el menú de clic derecho |
-| Thumbnail Downloader  | Descarga el vídeo miniatura                                                          | On                               |
-| Subtitle Downloader   | Descarga los subtítulos                                                              | On                               |
-| Shorts Blocker        | Oculta cortos de la alimentación YouTube                                             | Fuera.                           |
-| Auto ancho            | Siempre juega en el amplio diseño de teatro de YouTube                               | Fuera.                           |
-| Ad Skip               | Clicks YouTube's own Skip Botón de anuncios cuando YouTube lo muestra                | Fuera.                           |
+| Función | Acción | Estado inicial |
+|---|---|---|
+| Contador de «No me gusta» | Muestra recuentos con la API Return YouTube Dislike | Activada y en el menú contextual |
+| Buscar comentarios | Busca dentro de los comentarios de un vídeo | Activada y en el menú contextual |
+| Bloquear canales | Quita un canal de tus recomendaciones | Activada y en el menú contextual |
+| Descargar miniatura | Descarga la miniatura del vídeo | Activada |
+| Descargar subtítulos | Descarga los subtítulos | Activada |
+| Bloquear Shorts | Oculta Shorts del feed de YouTube | Desactivada |
+| Ancho automático | Usa siempre el modo cine ancho de YouTube | Desactivada |
+| Saltar anuncios | Pulsa el botón Saltar anuncio de YouTube cuando aparece | Desactivada |
 
-Anuncio Saltar haga clic en el botón YouTube muestra. No quita anuncios, y no hace nada hasta que el botón esté allí.
+Saltar anuncios pulsa el botón que muestra YouTube. No elimina anuncios ni actúa antes de que aparezca el botón.
 
-## Donde están los interruptores {#where-the-switches-are}
+## Dónde están los interruptores
 
-1. Abrir configuración.
-2. Ir a la **Características YouTube** tab.
-3. Conecta una cuenta si la pestaña te pide.
+1. Abre Configuración.
+2. Entra en **Funciones de YouTube**.
+3. Conecta una cuenta si la pestaña te lo pide.
 
-Los extras se agrupan: Comentarios, Discovery & Bloqueo, Navegación, Experiencia de visualización, Jugador, Productividad, Aprendizaje, Análisis, Avanzado y Descargas.
+Las funciones se agrupan en Comentarios, Descubrimiento y bloqueo, Navegación, Experiencia de visualización, Reproductor, Productividad, Aprendizaje, Estadísticas, Avanzado y Descargas. La [guía de las 62 funciones de YouTube](https://vcpeai.aoneahsan.com/blog/youtube-extras-guide) explica qué hace cada una y sus límites.
 
-Cada extra tiene dos interruptores.
+Cada función tiene dos interruptores.
 
-| Cambio                             | Lo que hace                                       |
-| ---------------------------------- | ------------------------------------------------- |
-| Habilitación                       | Activar o apagar el extra                         |
-| Mostrar en el menú de clic derecho | Añade el extra al menú de clic derecho en YouTube |
+| Interruptor | Acción |
+|---|---|
+| Activar | Enciende o apaga la función |
+| Mostrar en el menú contextual | La añade al menú que aparece al hacer clic derecho en YouTube |
 
-Los extras solo funcionan en youtube.com.
+Estas funciones solo se ejecutan en youtube.com.
 
-## Cómo corres un extra {#how-you-run-an-extra}
+## Cómo ejecutar una función
 
-Usted ejecuta un extra de la pestaña YouTube en el widget o desde el menú de clic derecho, y las etiquetas que hay en inglés hoy ([¿Por qué?](/docs/user-guide/display-and-widget)).
+Elige la función en la pestaña YouTube del widget o en el menú contextual. Las etiquetas del widget siguen el idioma del navegador si está en inglés, español, francés o alemán ([cambiar idioma](/docs/user-guide/display-and-widget)).
 
-Sólo aparecen los extras que marcó para el menú de clic derecho. Eso mantiene el menú corto.
+El menú contextual solo muestra las funciones que hayas marcado para él, de modo que siga siendo breve.
 
-## Claves relacionadas {#related-keys}
+## Atajos relacionados
 
-`Ctrl + Alt + X` copia un enlace al video con el timetamp actual. El resto de las teclas de inicio están en [Atajos predeterminados](/docs/keyboard-shortcuts/defaults), y [Cambiar un atajo](/docs/keyboard-shortcuts/rebinding) los mueve.
+`Ctrl + Alt + X` copia un enlace al vídeo con el momento actual. Los demás atajos están en [Atajos predeterminados](/docs/keyboard-shortcuts/defaults); puedes cambiarlos en [Cambiar un atajo](/docs/keyboard-shortcuts/rebinding).
 
 Siguiente: [Netflix](/docs/platforms/netflix).

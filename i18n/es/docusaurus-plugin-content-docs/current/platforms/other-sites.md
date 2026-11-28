@@ -1,55 +1,54 @@
 ---
-title: "Que sitios Video Controls Plus funciona en"
-sidebar_label: "Otros sitios"
-description: "Video Controls Plus trabaja en cualquier sitio que reproduce un vídeo HTML5 estándar, incluyendo reproductores integrados, con herramientas adicionales en YouTube, Netflix y LinkedIn."
-unlisted: true
+title: Sitios compatibles con Video Controls Plus
+sidebar_label: Otros sitios
+description: Video Controls Plus funciona con vídeos HTML5 estándar, incluidos los reproductores incrustados; tiene herramientas especiales para YouTube, Netflix y LinkedIn.
 ---
 
-Video Controls Plus trabaja en cualquier sitio que reproduce un vídeo HTML5 estándar, con herramientas adicionales en YouTube, Netflix y LinkedIn. Eso cubre Udemy, Vimeo, Twitch, Coursera, Khan Academy, Prime Video, y cualquier otro sitio con un vídeo estándar.
+Video Controls Plus funciona en cualquier sitio que reproduzca vídeo HTML5 estándar, con herramientas adicionales para YouTube, Netflix y LinkedIn. Entre ellos están Udemy, Vimeo, Twitch, Coursera, Khan Academy y Prime Video.
 
-## Lo que consigues en cualquier sitio {#what-you-get-on-any-site}
+## Qué recibes en cualquier sitio
 
-Los controles centrales son los mismos en todas partes: velocidad con `]` y `[`, el widget, y tus atajos.
+Los controles generales son los mismos: velocidad con `]` y `[`, widget y tus atajos.
 
-Los extras hechos para un sitio son sólo en tres sitios.
+Las herramientas propias de cada sitio solo aparecen en tres:
 
-| Sitio    | Extras                                             | Página                               |
-| -------- | -------------------------------------------------- | ------------------------------------ |
-| YouTube  | Extras YouTube, cada uno con su propio interruptor | [YouTube](/docs/platforms/youtube)   |
-| Netflix  | Extras Netflix, apagados hasta que los enciendas   | [Netflix](/docs/platforms/netflix)   |
-| LinkedIn | Herramientas LinkedIn que funcionan desde el menú  | [LinkedIn](/docs/platforms/linkedin) |
+| Sitio | Herramientas | Página |
+|---|---|---|
+| YouTube | Funciones especiales, cada una con su interruptor | [YouTube](/docs/platforms/youtube) |
+| Netflix | Funciones especiales desactivadas hasta que las enciendas | [Netflix](/docs/platforms/netflix) |
+| LinkedIn | Herramientas que se ejecutan desde el menú | [LinkedIn](/docs/platforms/linkedin) |
 
-## Videos embebidos {#embedded-videos}
+## Vídeos incrustados
 
-Un jugador YouTube o Vimeo dentro de un artículo o una página de curso obtiene los controles flotantes, los atajos del teclado y las acciones del clic derecho, y la extensión se carga en un marco integrado sólo cuando el marco contiene un vídeo.
+Un reproductor de YouTube o Vimeo dentro de un artículo o curso también recibe controles flotantes, atajos y acciones del menú contextual. La extensión solo entra en un marco incrustado si contiene un vídeo.
 
-## Compruebe un sitio en el popup {#check-a-site-in-the-popup}
+## Comprobar un sitio en el popup
 
-Abra el popup en el sitio. Muestra el nombre del sitio y uno de los tres estados.
+Abre el popup en el sitio. Muestra su nombre y uno de estos tres estados:
 
-| Popup shows       | Lo que significa                               |
-| ----------------- | ---------------------------------------------- |
-| Apoyo             | El sitio está en la lista incorporada          |
-| Enabled           | Usted ha habilitado la extensión en este sitio |
-| No está permitido | La extensión no está funcionando aquí          |
+| Estado | Significado |
+|---|---|
+| Compatible | El sitio está en la lista integrada |
+| Habilitado | Activaste la extensión en este sitio |
+| No habilitado | La extensión no funciona aquí |
 
-Cuando el popup muestra **No está permitido**, haga clic **Permitir en este sitio**. La lista incorporada está en Ajustes, en la pestaña Ajustes del Sitio, bajo **Sitios compatibles**.
+Si aparece **No habilitado**, pulsa **Habilitar en este sitio**. La lista integrada está en Configuración → Ajustes de sitios → **Sitios compatibles**.
 
-## Cuando los controles no aparecen {#when-the-controls-do-not-appear}
+## Si los controles no aparecen
 
-- El sitio se detiene. Abra el popup y haga clic **Resumen**Véase [Pausa por sitio](/docs/getting-started/pause-per-site).
-- El popup muestra **No está permitido**. Haga clic **Permitir en este sitio**.
-- La página no tiene vídeo HTML5 estándar, por lo que no hay nada que controlar.
-- El widget está escondido. Prensa `Esc` o `Ctrl + Alt + H`.
+- El sitio está en pausa. Abre el popup y pulsa **Reanudar**. Consulta [Pausa por sitio](/docs/getting-started/pause-per-site).
+- El popup dice **No habilitado**. Pulsa **Habilitar en este sitio**.
+- La página no contiene un vídeo HTML5 estándar, así que no hay nada que controlar.
+- El widget está oculto. Pulsa `Esc` o `Ctrl + Alt + H`.
 
-## Claves relacionadas {#related-keys}
+## Atajos relacionados
 
-| Clave            | Lo que hace                 |
-| ---------------- | --------------------------- |
-| `]` / `[`        | 0.1x más rápido o más lento |
-| `Esc`            | Ocultar o mostrar el widget |
+| Atajo | Acción |
+|---|---|
+| `]` / `[` | Aumentar o reducir la velocidad 0,1x |
+| `Esc` | Ocultar o mostrar el widget |
 | `Ctrl + Alt + H` | Ocultar o mostrar el widget |
 
-Son los mismos en cada sitio, y el resto de las llaves están cubiertas [Atajos predeterminados](/docs/keyboard-shortcuts/defaults) y dentro [Cambiar un atajo](/docs/keyboard-shortcuts/rebinding).
+Son los mismos en todos los sitios. Consulta los demás en [Atajos predeterminados](/docs/keyboard-shortcuts/defaults) y [Cambiar un atajo](/docs/keyboard-shortcuts/rebinding).
 
-Si los controles todavía no aparecen, vaya a [Solución de problemas](/docs/troubleshooting).
+Si aún no aparecen los controles, consulta [Solución de problemas](/docs/troubleshooting).

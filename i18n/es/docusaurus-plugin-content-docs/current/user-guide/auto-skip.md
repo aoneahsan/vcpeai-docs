@@ -1,63 +1,62 @@
 ---
-title: "Saltar intros, recaps y créditos automáticamente"
-sidebar_label: "Auto-skip"
-description: "Auto-skip hace clic en los botones de salto que Netflix, Prime Video y YouTube muestran; se apaga por defecto y necesita una cuenta."
-unlisted: true
+title: Saltar introducciones, recapitulaciones y créditos automáticamente
+sidebar_label: Salto automático
+description: El salto automático pulsa los botones que muestran Netflix, Prime Video y YouTube; empieza desactivado y requiere una cuenta.
 ---
 
-Auto-skip hace clic en el botón saltar para usted cuando Netflix, Prime Video o YouTube muestra uno. Los interruptores de salto están apagados hasta que los enciendas, y todos necesitan una cuenta. [Cuenta y sincronización](/docs/account-and-sync) cubre lo que la conexión añade.
+El salto automático pulsa por ti los botones de Netflix, Prime Video o YouTube cuando aparecen. Sus interruptores empiezan desactivados y todos requieren una cuenta. [Cuenta y sincronización](/docs/account-and-sync) explica qué se habilita al conectarla.
 
-## Lo que hace clic {#what-it-clicks}
+## Qué botones pulsa
 
-| Sitio                 | Lo que hace clic                                                                                                                   |
-| --------------------- | ---------------------------------------------------------------------------------------------------------------------------------- |
-| Netflix y Prime Video | El botón saltar para una introducción, el botón saltar para una recap, y el "Siguiente Episodio" rápido sobre los créditos finales |
-| YouTube               | El botón "Skip Ad" y el siguiente vídeo en la pantalla final                                                                       |
+| Sitio | Botones |
+|---|---|
+| Netflix y Prime Video | Saltar introducción, saltar recapitulación y el aviso «Siguiente episodio» sobre los créditos |
+| YouTube | «Saltar anuncio» y el siguiente vídeo de la pantalla final |
 
-Hace clic en los botones que muestra el sitio. Si el sitio no muestra ningún botón, no hay nada que hacer clic.
+Solo pulsa botones que el sitio muestra. Si no aparece ninguno, no hace nada.
 
-## Enciende. {#turn-it-on}
+## Activarlo
 
-1. Abrir configuración e ir a la pestaña Avanzado.
-2. Encontrar **Funciones de reproducción**.
-3. Enciende los que quieras.
+1. Abre Configuración y entra en Avanzado.
+2. Busca **Funciones de reproducción**.
+3. Activa las opciones que quieras.
 
-| Cambio                             | Default | Lo que hace                                                              |
-| ---------------------------------- | ------- | ------------------------------------------------------------------------ |
-| Auto Skip Intro                    | Fuera.  | Haga clic en el botón Saltar de entrada                                  |
-| Auto Skip Outro/Siguiente episodio | Fuera.  | Pulsa a través de los créditos finales y el impulso "Siguiente Episodio" |
-| Auto Skip Recap                    | Fuera.  | Haga clic en el botón de salto de recapita en Netflix y Prime Video      |
-| Mostrar notificación Skip          | On      | Muestra un breve aviso cada vez que salta                                |
+| Interruptor | Estado inicial | Acción |
+|---|---|---|
+| Saltar introducción automáticamente | Desactivado | Pulsa el botón de saltar introducción |
+| Saltar créditos/siguiente episodio automáticamente | Desactivado | Avanza tras los créditos y el aviso «Siguiente episodio» |
+| Saltar recapitulación automáticamente | Desactivado | Pulsa el botón de recapitulación en Netflix y Prime Video |
+| Mostrar aviso de salto | Activado | Muestra un aviso breve cada vez que salta |
 
-## Establecer el retraso {#set-the-delay}
+## Ajustar el retraso
 
-**Skip Delay** es cuánto tiempo la extensión espera después de que aparezca el botón, y 2 segundos es el más largo.
+**Retraso del salto** determina cuánto espera la extensión tras aparecer el botón. El máximo son dos segundos.
 
-| Opción         | Lo que hace                       |
-| -------------- | --------------------------------- |
-| Instant (0ms)  | Skips sin espera                  |
-| Rápido (250ms) | Espera 250ms                      |
-| Normal (500ms) | Espera 500ms. Este es el defecto. |
-| Despacio (1s)  | Espera 1 segundo                  |
-| Muy lento (2s) | Espera 2 segundos                 |
+| Opción | Espera |
+|---|---|
+| Instantáneo (0 ms) | Ninguna |
+| Rápido (250 ms) | 250 ms |
+| Normal (500 ms) | 500 ms; valor predeterminado |
+| Lento (1 s) | Un segundo |
+| Muy lento (2 s) | Dos segundos |
 
-Elige un retraso más lento si te gusta ver el botón antes de que se vaya.
+Elige un retraso mayor si prefieres ver el botón antes de que se pulse.
 
-## Pasar a mano {#skip-by-hand}
+## Saltar manualmente
 
-Prensa `Ctrl + Alt + S` para saltar la introducción, o haga clic **Skip Intro** en la pestaña Smart del widget; la llave funciona sólo en Netflix y Prime Video.
+Pulsa `Ctrl + Alt + S` o **Saltar introducción** en la pestaña Inteligente del widget. El atajo solo funciona en Netflix y Prime Video.
 
-## Otros saltando {#other-skipping}
+## Otros tipos de salto
 
-| Control      | Lo que salta                       | Donde                                                           |
-| ------------ | ---------------------------------- | --------------------------------------------------------------- |
-| Silence Skip | Las partes silenciosas de un vídeo | Widget, pestaña inteligente, **Silence Skip**                   |
-| SponsorBlock | Patrocinar segmentos               | Ajustes, Nueva pestaña Características, que necesita una cuenta |
+| Control | Qué salta | Dónde |
+|---|---|---|
+| Saltar silencio | Fragmentos sin sonido | Widget → Inteligente → **Saltar silencio** |
+| SponsorBlock | Segmentos patrocinados | Configuración → Funciones nuevas, requiere cuenta |
 
-Silence Skip funciona sin una cuenta.
+Saltar silencio no requiere cuenta.
 
-## Claves relacionadas {#related-keys}
+## Atajos relacionados
 
-`Ctrl + Alt + S` es la única llave de salto. Su fila está en [Atajos predeterminados](/docs/keyboard-shortcuts/defaults), y [Cambiar un atajo](/docs/keyboard-shortcuts/rebinding) lo mueve.
+`Ctrl + Alt + S` es el único atajo de salto. Está en [Atajos predeterminados](/docs/keyboard-shortcuts/defaults) y puedes cambiarlo en [Cambiar un atajo](/docs/keyboard-shortcuts/rebinding).
 
-Siguiente: [Visualización y widget](/docs/user-guide/display-and-widget).
+Siguiente: [Pantalla y widget](/docs/user-guide/display-and-widget).

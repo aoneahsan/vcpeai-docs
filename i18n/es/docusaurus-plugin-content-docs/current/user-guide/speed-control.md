@@ -1,71 +1,70 @@
 ---
-title: "Controla la velocidad de reproducción"
-sidebar_label: "Control de velocidad"
-description: "Cambiar la velocidad de vídeo en los pasos de 0.1x con las teclas de soporte o el deslizador widget hasta 4x, escriba una velocidad personalizada hasta 16x, y utilice 8 velocidades de preset."
-unlisted: true
+title: Controlar la velocidad de reproducción
+sidebar_label: Velocidad
+description: Cambia la velocidad en pasos de 0,1x con los corchetes o el widget hasta 4x, introduce un valor hasta 16x y usa ocho valores predefinidos.
 ---
 
-Prensa `]` o `[` para los pasos 0.1x, o arrastrar el deslizador en el widget hasta 4x. Las teclas de soporte funcionan solas, sin `Ctrl + Alt`, y el control de velocidad funciona sin una cuenta.
+Pulsa `]` o `[` para cambiar la velocidad en pasos de 0,1x, o arrastra el control del widget hasta 4x. Los corchetes funcionan solos, sin `Ctrl + Alt`, y no necesitas una cuenta.
 
-## Las teclas de velocidad {#the-speed-keys}
+## Atajos de velocidad
 
-| Clave            | Lo que hace                          |
-| ---------------- | ------------------------------------ |
-| `]`              | 0.1x más rápido                      |
-| `[`              | 0.1x más lento                       |
-| `=`              | Volver a su velocidad predeterminada |
-| `\`              | Mostrar la velocidad actual          |
-| `'`              | Sincronización a velocidad dinámica  |
-| `Ctrl + Alt + 1` | 0.5x                                 |
-| `Ctrl + Alt + 2` | 1x                                   |
-| `Ctrl + Alt + 3` | 1.5x                                 |
-| `Ctrl + Alt + 4` | 2x                                   |
-| `Ctrl + Alt + 5` | 2.5x                                 |
-| `Ctrl + Alt + 6` | 3x                                   |
-| `Ctrl + Alt + 7` | 3.5x                                 |
-| `Ctrl + Alt + 8` | 4x                                   |
+| Atajo | Acción |
+|---|---|
+| `]` | Aumentar 0,1x |
+| `[` | Reducir 0,1x |
+| `=` | Volver a tu velocidad predeterminada |
+| `\` | Mostrar la velocidad actual |
+| `'` | Aplicar la velocidad dinámica |
+| `Ctrl + Alt + 1` | 0,5x |
+| `Ctrl + Alt + 2` | 1x |
+| `Ctrl + Alt + 3` | 1,5x |
+| `Ctrl + Alt + 4` | 2x |
+| `Ctrl + Alt + 5` | 2,5x |
+| `Ctrl + Alt + 6` | 3x |
+| `Ctrl + Alt + 7` | 3,5x |
+| `Ctrl + Alt + 8` | 4x |
 
-## ¡Qué rápido! {#how-fast-it-goes}
+## Rango de velocidad
 
-El rango es 0.1x a 16x. El deslizador y las teclas de soporte paran en 4x. Introduzca una velocidad en la entrada personalizada en la pestaña Velocidad del widget, o en la **Velocidad personalizada (0.1x - 16x)** cajas en la pestaña General en Ajustes, y el video juega hasta 16x.
+Puedes elegir de 0,1x a 16x. El control deslizante y los corchetes llegan hasta 4x. Para ir más rápido, escribe un valor en el campo personalizado de la pestaña Velocidad del widget o en los campos **Velocidad personalizada (0,1x–16x)** de la pestaña General de Configuración.
 
-El paso es siempre 0.1x. Los ajustes no tienen control para la velocidad mínima, la velocidad máxima o el paso.
+El paso siempre es 0,1x. Configuración no tiene controles para cambiar el mínimo, el máximo ni el tamaño del paso.
 
-## Su velocidad predeterminada y la velocidad dinámica {#your-default-speed-and-the-dynamic-speed}
+## Velocidad predeterminada y dinámica
 
-Abrir Configuración e ir a la pestaña General.
+Abre Configuración y entra en la pestaña General.
 
-| Ajuste                    | Lo que es                                                               | Clave |
-| ------------------------- | ----------------------------------------------------------------------- | ----- |
-| Default Playback Speed    | La velocidad utilizada cuando se reinicia y cuando un nuevo vídeo carga | `=`   |
-| Velocidad dinámica actual | Una segunda velocidad que se establece aquí y aplicar con una llave     | `'`   |
+| Ajuste | Qué significa | Atajo |
+|---|---|---|
+| Velocidad de reproducción predeterminada | Se usa al restablecer y al cargar un vídeo nuevo | `=` |
+| Velocidad dinámica actual | Una segunda velocidad que configuras aquí y aplicas con un atajo | `'` |
 
-El `'` clave aplica la velocidad dinámica actual. No es la velocidad guardada para el video.
+La tecla `'` aplica la velocidad dinámica actual, no la velocidad guardada para ese vídeo.
 
-## Velocidades de Preset {#preset-speeds}
+## Velocidades predefinidas
 
-Hay 8 presets en `Ctrl + Alt + 1` a `Ctrl + Alt + 8`. Cada uno puede ser editado, y usted puede eliminar los que no utiliza. Lo haces en Ajustes, en la pestaña Atajos de teclado.
+Hay ocho valores predefinidos asignados a `Ctrl + Alt + 1` hasta `Ctrl + Alt + 8`. Puedes editarlos y quitar los que no uses en la pestaña Atajos de teclado de Configuración.
 
-Añadir un noveno preset para usar `Ctrl + Alt + 9`.
+Añade un noveno valor para usar `Ctrl + Alt + 9`.
 
-## Memoria de velocidad {#speed-memory}
+## Memoria de velocidad
 
-La extensión recuerda la velocidad que se establece para un vídeo, y lo aplica la próxima vez que abra ese vídeo. Eso está por defecto.
+La extensión recuerda la velocidad que elegiste para un vídeo y la aplica la próxima vez que lo abras. Esta función está activada de forma predeterminada.
 
-También puede recordar una velocidad para toda una lista de reproducción o curso; que se apaga por defecto, y la enciende en Ajustes en la pestaña Avanzado.
+También puede recordar una velocidad para toda una lista de reproducción o curso. Esa opción empieza desactivada y se activa en la pestaña Avanzado de Configuración.
 
-Cuando un video tiene más de una velocidad guardada, **Prioridad de la velocidad** decide cuál gana:
+Si un vídeo tiene varias velocidades guardadas, **Prioridad de velocidad** decide cuál se aplica:
 
-| Ajuste                    | Que velocidad gana                                                     |
-| ------------------------- | ---------------------------------------------------------------------- |
-| Playlist/Course first     | La velocidad guardada para la lista de reproducción o curso            |
-| Video primero             | La velocidad guardada para el vídeo                                    |
-| Global only (ignore save) | Su velocidad predeterminada, y las velocidades guardadas son ignoradas |
+| Ajuste | Velocidad que se aplica |
+|---|---|
+| Lista de reproducción/curso primero | La guardada para la lista o el curso |
+| Vídeo primero | La guardada para el vídeo |
+| Solo global (ignorar guardadas) | La predeterminada; se ignoran las guardadas |
 
-## Claves relacionadas {#related-keys}
+## Atajos relacionados
 
-`,` y `.` un paso atrás y adelante un marco.
+`,` y `.` retroceden y avanzan un fotograma.
 
-Todo el conjunto está dentro [Atajos predeterminados](/docs/keyboard-shortcuts/defaults), y [Cambiar un atajo](/docs/keyboard-shortcuts/rebinding) muestra cómo mover uno.
+El conjunto completo está en [Atajos predeterminados](/docs/keyboard-shortcuts/defaults). [Cambiar un atajo](/docs/keyboard-shortcuts/rebinding) explica cómo modificarlo.
 
-El próximo control es el [A-B loop](/docs/user-guide/ab-loop).
+Siguiente: [Bucle A-B](/docs/user-guide/ab-loop).

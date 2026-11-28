@@ -1,48 +1,47 @@
 ---
-title: "Guardar cuestionarios, palabras, entradas y vídeos diarios en tu biblioteca"
-sidebar_label: "Su biblioteca del vídeo"
-description: "Con una cuenta conectada, guarde un momento de prueba, una palabra, una entrada de diario, un vídeo de aprendizaje o un artículo de colección del widget, y busque todo lo que guardó."
-unlisted: true
+title: Guardar cuestionarios, palabras, entradas de diario y vídeos
+sidebar_label: Biblioteca desde el vídeo
+description: Con una cuenta conectada, guarda una pregunta, palabra, entrada de diario, vídeo de ruta o colección desde el widget y busca tu biblioteca.
 ---
 
-Desde la pestaña Herramientas del widget se puede guardar un cuestionario en el momento actual, una palabra con su línea de captura, una entrada de diario, y el vídeo mismo a una ruta de aprendizaje o una colección. Cada uno necesita [a una cuenta conectada](/docs/account-and-sync) y se guarda en su cuenta, con el título y la dirección del vídeo.
+Desde Herramientas del widget puedes guardar una pregunta en el momento actual, una palabra con su línea de subtítulos, una entrada de diario y el propio vídeo en una ruta de aprendizaje o colección. Cada acción requiere [una cuenta conectada](/docs/account-and-sync) y se guarda con el título y la dirección del vídeo.
 
-Señalado, cada sección muestra cómo conectarse.
+Si no has iniciado sesión, cada sección te explica cómo conectarte.
 
-## Quiz en este momento {#quiz-at-this-moment}
+## Cuestionario en este momento
 
-Under **Quiz en este momento**, escriba un **Pregunta** y su **Respuesta**, luego pulse **Guardar cuestionarios**Se guarda como una tarjeta flash.
+Escribe una **Pregunta** y su **Respuesta** en **Cuestionario en este momento** y pulsa **Guardar pregunta**. Se guarda como tarjeta de estudio.
 
-Cuando juegas más allá de ese momento en el mismo video, aparece el video pausas y la pregunta. Prensa **Respuesta del programa**Entonces **Lo sabía.** o **Aún no.**, que califica la tarjeta de la misma manera que la página de vocabulario. **Sin preguntas en este vídeo** los apaga para esta visita. Cada momento pide una vez por visita, y buscar más allá no pregunta.
+Al volver a pasar por ese momento del vídeo, la reproducción se pausa y aparece la pregunta. Pulsa **Mostrar respuesta** y después **Lo sabía** o **Todavía no** para calificarla como en la página Tarjetas de estudio. **Sin preguntas en este vídeo** las desactiva durante esta visita. Cada momento pregunta una vez por visita; saltar más allá de él no activa la pregunta.
 
-## Guarda una palabra {#save-a-word}
+## Guardar una palabra
 
-Tipo uno **Palabra** menores **Guarda una palabra** y prensa **Mira.**&#x41;parecen hasta tres significados. Prensa **Guardar palabra**, y se guarda como una tarjeta flash con la línea de captura en la pantalla como su ejemplo.
+Escribe una **Palabra** y pulsa **Buscar**. Aparecen hasta tres significados. Pulsa **Guardar palabra** para crear una tarjeta con la línea de subtítulos visible como ejemplo.
 
-La palabra se ve arriba en Wiktionary. Sólo la palabra es enviada.
+La búsqueda se hace en Wiktionary; solo se envía la palabra.
 
-## Entrada diaria {#diary-entry}
+## Entrada de diario
 
-Escoge un **Mood** (Feliz, Inspirado, Calma, Pensador, Triste o Frustrado), escribe **¿Qué significa este momento para ti?**, y prensa **Guardar en diario**. La entrada es un marcador en la carpeta "Diario", etiquetado con el estado de ánimo, por lo que puede editarlo en marcadores también.
+Elige un **Ánimo** (Feliz, Inspirado, Tranquilo, Reflexivo, Triste o Frustrado), escribe **Qué significó este momento para ti** y pulsa **Guardar en el diario**. La entrada se guarda como marcador en la carpeta «Diario», con el ánimo como etiqueta. También puedes editarla desde Marcadores.
 
-## Aprendizaje y Colección {#learning-path-and-collection}
+## Ruta de aprendizaje y colección
 
-Under **Vía de aprendizaje** o **Colección**, elegir uno de los suyos y prensa **Añadir este vídeo**. Un video que ya está allí es rechazado. Hacer caminos y colecciones en el sitio web primero; hasta que lo haga, el widget dice que todavía no hay ninguno.
+En **Ruta de aprendizaje** o **Colección**, elige una tuya y pulsa **Añadir este vídeo**. Si ya está incluido, la extensión rechaza el duplicado. Primero crea rutas y colecciones en el sitio web; hasta entonces, el widget indica que aún no tienes ninguna.
 
-Un video de aprendizaje-página está marcado por sí mismo una vez que Watch History muestra que lo vio, lo que significa que superó el 90% del vídeo y jugó al menos la mitad de él en el camino. Pasar al final no cuenta. Mira la historia está apagada hasta que la enciendes en Ajustes, en la **Privacidad Datos &** tab.
+Un vídeo de una ruta se marca automáticamente como terminado cuando el Historial de reproducción muestra que lo viste: debes pasar del 90 % y reproducir al menos la mitad. Saltar directamente al final no cuenta. El historial está desactivado hasta que lo enciendas en Configuración → **Privacidad y datos**.
 
-## Busca tu biblioteca {#search-your-library}
+## Buscar en tu biblioteca
 
-**Busca tu biblioteca** está en el ingenio **Tu biblioteca** menú y en la red de bibliotecas del popup. Abre la búsqueda del sitio web a través de sus notas, marcadores y entradas de diario, tarjetas flash y palabras guardadas, transcripciones, Ver más adelante, Ver historia, colecciones y caminos de aprendizaje. Tipo 2 a 100 caracteres. Usted consigue hasta 10 resultados para cada tipo, cada uno con un enlace a su momento.
+**Buscar en tu biblioteca** está en el menú **Tu biblioteca** del widget y en la cuadrícula de biblioteca del popup. Abre la búsqueda del sitio web entre notas, marcadores, diario, tarjetas, palabras, transcripciones, Ver más tarde, Historial, colecciones y rutas. Escribe entre 2 y 100 caracteres. Recibes hasta diez resultados por tipo, cada uno con enlace a su momento.
 
-## En el sitio web {#on-the-website}
+## En el sitio web
 
-| Página                | Lo que muestra                                                                                |
-| --------------------- | --------------------------------------------------------------------------------------------- |
-| Flashcards            | Tus momentos de prueba y palabras guardadas, para revisar                                     |
-| Vocabulario           | Tus palabras salvas, cada una ligando a su momento                                            |
-| Diario del clip       | Tus entradas diarias, las más nuevas primero, con un filtro de humor                          |
-| Progresos en el curso | Cada camino de aprendizaje está hecho y total, y el siguiente vídeo                           |
-| Colecciones           | Sus colecciones, con una descarga como JSON, CSV, Markdown o una lista de reproducción de M3U |
+| Página | Qué muestra |
+|---|---|
+| Tarjetas de estudio | Tus preguntas y palabras guardadas para repasarlas |
+| Vocabulario | Palabras guardadas con enlace al momento del vídeo |
+| Diario de clips | Entradas por día, de la más reciente a la más antigua, con filtro por ánimo |
+| Progreso de cursos | Vídeos terminados y totales de cada ruta, y cuál sigue |
+| Colecciones | Tus colecciones, descargables como JSON, CSV, Markdown o lista M3U |
 
 Siguiente: [Compartir y ver juntos](/docs/user-guide/share-and-watch-together).

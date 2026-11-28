@@ -1,61 +1,60 @@
 ---
-title: "Hacer vídeos más fáciles en los ojos con Comfort"
-sidebar_label: "Confort y accesibilidad"
-description: "Calentar la imagen, hacer los colores más fáciles de distinguir, reestilo las propias capciones de un sitio y añadir una guía de lectura; Comfort no necesita cuenta y no envía nada."
-unlisted: true
+title: Hacer los vídeos más cómodos para la vista
+sidebar_label: Comodidad y accesibilidad
+description: Calienta la imagen, diferencia mejor los colores, cambia el estilo de subtítulos existentes y añade una guía de lectura; sin cuenta ni envíos.
 ---
 
-El confort calienta la imagen, hace que los colores sean más fáciles de distinguir, reestilo las leyendas que un sitio ya muestra, y añade una guía de lectura sobre el vídeo. Ábrelo en la pestaña Vista del widget, bajo **Comfort**No necesita una cuenta.
+**Comodidad** calienta la imagen, facilita distinguir colores, cambia el estilo de los subtítulos que ya muestra el sitio y añade una guía de lectura. Está en Vista → **Comodidad** del widget. No requiere cuenta.
 
-Tus opciones Comfort se almacenan con tus otros ajustes, se sincronizan con tu cuenta sólo cuando se encuentra la sincronización de la nube, y nada se envía a ningún sitio.
+Tus elecciones se guardan junto con los demás ajustes y solo se sincronizan con tu cuenta si activas la sincronización en la nube. Estas herramientas no envían lo que ves a un servicio separado.
 
-## Donde está {#where-it-is}
+## Dónde está
 
-| Donde                                                                  | Lo que encuentras                                                                  |
-| ---------------------------------------------------------------------- | ---------------------------------------------------------------------------------- |
-| Widget, Ver ficha, **Comfort**                                         | Cambios rápidos para las cuatro herramientas, y **Más configuraciones de confort** |
-| Ajustes, ficha de características de vídeo, **Cómodo & accesibilidad** | Cada opción, y **Ajustes de comodidad**                                            |
-| Ajustes, atajos de teclado, **Comfort**                                | Cuatro atajos que comienzan sin llave                                              |
+| Lugar | Controles |
+|---|---|
+| Widget → Vista → **Comodidad** | Interruptores rápidos para cuatro herramientas y **Más ajustes de comodidad** |
+| Configuración → Funciones de vídeo → **Comodidad y accesibilidad** | Todas las opciones y **Restablecer ajustes de comodidad** |
+| Configuración → Atajos de teclado → **Comodidad** | Cuatro atajos inicialmente sin tecla |
 
-## Consolación de ojos {#eye-comfort}
+## Descanso visual
 
-Enciende **Consolación de ojos** y moverse **Warmth** (0% a 100%) para ver la noche. Sólo el vídeo cambia, nunca la página. Tick **También menor brillo** para suavizarlo más.
+Activa **Descanso visual** y ajusta **Calidez** entre 0 % y 100 % para ver vídeos por la noche. Solo cambia el vídeo, no la página. Marca **Reducir también el brillo** para suavizarlo más.
 
-**Enciende por sí mismo entre los tiempos fijados** lo activa y apaga por sí solo. Set **Desde** y **Hasta**, y comienza a las 21:00 y termina a las 07:00 hasta que las cambies.
+**Activar automáticamente entre horas establecidas** lo enciende y apaga según las horas **Desde** y **Hasta**. Los valores iniciales son 21:00 y 07:00.
 
-## Visión en color {#colour-vision}
+## Visión del color
 
-Escoge un **Tipo**: Green-weak, Red-weak, Blue-yellow o No color. Entonces escoge un **Modo**:
+Elige un **Tipo**: Dificultad con el verde, Dificultad con el rojo, Azul-amarillo o Sin color. Luego elige un **Modo**:
 
-- **Hacer colores más claros** cambia los colores para que sean más fáciles de distinguir.
-- **Mostrar cómo se ve** muestra el vídeo de la forma en que alguien con esa visión de color lo ve.
+- **Distinguir mejor los colores** cambia los colores para separarlos visualmente.
+- **Mostrar cómo se ve** representa el vídeo como lo percibe alguien con ese tipo de visión.
 
-## Estilo de capa {#caption-style}
+## Estilo de subtítulos
 
-El estilo de la captura reestila las leyendas que el sitio ya muestra, en YouTube, Netflix, Prime Video, Udemy, Coursera, Vimeo, Khan Academy, Video.js jugadores y videos con pistas WebVTT. No crea capciones.
+Cambia el estilo de los subtítulos existentes en YouTube, Netflix, Prime Video, Udemy, Coursera, Vimeo, Khan Academy, reproductores Video.js y vídeos con pistas WebVTT. No crea subtítulos.
 
-Elija un **Look de captura** y a **Tamaño del texto**.
+Elige un **Estilo de subtítulos** y un **Tamaño de texto**.
 
-| Mira.          | Lo que es                                                                                                         |
-| -------------- | ----------------------------------------------------------------------------------------------------------------- |
-| Default        | Texto blanco en una banda oscura                                                                                  |
-| Alto contraste | Texto blanco más audaz en negro sólido                                                                            |
-| Oscuro         | Texto de luz suave en gris oscuro                                                                                 |
-| Minimal        | Texto más pequeño en una banda más ligera                                                                         |
-| Gran impresión | Texto amarillo audaz                                                                                              |
-| Colorido       | Texto verde en púrpura profunda                                                                                   |
-| Fácil lectura  | Un sans-serif claro con letra más amplia y palabras espaciamiento y líneas más altas, texto oscuro sobre la crema |
+| Estilo | Apariencia |
+|---|---|
+| Predeterminado | Texto blanco sobre una franja oscura |
+| Alto contraste | Texto blanco grande y en negrita sobre negro |
+| Oscuro | Texto claro suave sobre gris oscuro |
+| Mínimo | Texto más pequeño sobre una franja clara |
+| Letra grande | Texto amarillo grande y en negrita |
+| Colorido | Texto verde en negrita sobre morado oscuro |
+| Lectura fácil | Tipografía sencilla sin remates, más espacio entre letras y palabras y líneas más altas, texto oscuro sobre crema |
 
-## Guía de lectura {#reading-guide}
+## Guía de lectura
 
-Una banda suave sostiene los ojos en una línea de capciones o texto en pantalla. Escoge un **Forma** (Band, Line o Spotlight), luego elija **Quédate ahí.** para mantenerlo a una altura en el vídeo o **Siga el puntero** para que se mueva donde vaya el ratón. **Altura en el vídeo** pone donde se sienta. **Fuerza** establece lo fuerte que es.
+Una franja suave ayuda a seguir una línea de subtítulos o texto en pantalla. Elige la **Forma** (Franja, Línea o Foco), y después **Quedarse fija** para mantenerla a una altura o **Seguir el puntero** para moverla con el ratón. **Altura en el vídeo** determina su posición y **Intensidad** su fuerza.
 
-## Con tus otros controles {#with-your-other-controls}
+## Junto con otros controles
 
-Confort funciona con [Filtros de vídeo](/docs/user-guide/video-filters) y los colores del cine al mismo tiempo. Apilan. La extensión los combina en un filtro en el vídeo, así que encender uno no apaga otro.
+Comodidad funciona al mismo tiempo que [Filtros de vídeo](/docs/user-guide/video-filters) y los colores de cine. Los efectos se acumulan y la extensión los combina en un solo filtro, de modo que activar uno no desactiva los demás.
 
-## Atajos {#shortcuts}
+## Atajos
 
-Los cuatro atajos Comfort comienzan sin llave: "Toggle eye comfort", "Toggle colour vision", "Toggle caption style" y "Toggle reading guide". Son opcionales. Dale una llave en Ajustes, como [Cambiar un atajo](/docs/keyboard-shortcuts/rebinding) espectáculos.
+«Activar o desactivar descanso visual», «Cambiar visión del color», «Cambiar estilo de subtítulos» y «Cambiar guía de lectura» no tienen tecla inicial. Son opcionales; asígnales una en Configuración siguiendo [Cambiar un atajo](/docs/keyboard-shortcuts/rebinding).
 
 Siguiente: [Efectos visuales y zoom](/docs/user-guide/visual-effects).

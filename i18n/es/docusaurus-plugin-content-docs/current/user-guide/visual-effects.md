@@ -1,50 +1,49 @@
 ---
-title: "Añade looks y efectos, y zoom la imagen"
-sidebar_label: "Efectos visuales y zoom"
-description: "Con una cuenta conectada, añadir 20 grados de color, cuatro looks de arte, afilar, vignette, grano de película, una superposición de texto y regiones borrosas; Zoom & ajuste no necesita ninguna cuenta."
-unlisted: true
+title: Añadir estilos y efectos y ampliar la imagen
+sidebar_label: Efectos visuales y zoom
+description: Con una cuenta, aplica 20 gradaciones, cuatro estilos, nitidez, viñeta, grano, texto y desenfoque; zoom y ajuste no requieren cuenta.
 ---
 
-Parece que los overlays & añaden notas de color, looks de arte, afilado, una viñeta, grano de película, un texto superpuesto y regiones borrosas al video. Se encuentra en la pestaña Filtros del widget, que necesita [a una cuenta conectada](/docs/account-and-sync)Como el resto de la ficha. **Zoom & ajuste** está en la pestaña Vista y no necesita ninguna cuenta.
+**Estilos y superposiciones** añade gradaciones de color, estilos artísticos, nitidez, viñeta, grano, texto y zonas desenfocadas. Está en Filtros del widget y, como esa pestaña, requiere [una cuenta conectada](/docs/account-and-sync). **Zoom y ajuste** está en Vista y no requiere cuenta.
 
-Cada efecto cambia sólo la imagen en la página, nunca el archivo de vídeo. Algunos sitios de streaming bloquean los efectos en el vídeo protegido, y la extensión no afirma que trabajan allí.
+Todos los efectos cambian solo la imagen en la página, nunca el archivo del vídeo. Algunos sitios de streaming bloquean los efectos sobre contenido protegido; la extensión no afirma que funcionen allí.
 
-## Parece que la superposición & {#looks--overlays}
+## Estilos y superposiciones
 
-Abra la pestaña Filtros del widget y encuentre **Parece que la superposición &**.
+Abre Filtros → **Estilos y superposiciones** en el widget.
 
-| Control                      | Lo que hace                                                                                                             |
-| ---------------------------- | ----------------------------------------------------------------------------------------------------------------------- |
-| **Grado de color**           | Uno de 20 grados, como Teal & naranja, Noir de película, Vintage 8mm, Golden hour y Moonlight, con un **Fuerza** slider |
-| **Luce de arte**             | Pintura al óleo, boceto al lápiz, grabado o grabado                                                                     |
-| **Sharpen**                  | 0% a 100%, en pasos de 10, aplicado antes de las herramientas de color                                                  |
-| **Vignette**                 | Oscurece los rincones de la imagen                                                                                      |
-| **Grano de película**        | Añade grano, quieto o en movimiento                                                                                     |
-| **Texto**                    | Ponga su **Texto superpuesto** en un rincón del vídeo                                                                   |
-| **Desenmascarar una región** | Arrastre una caja en el vídeo para difuminar esa parte                                                                  |
-| **Apaga todos los efectos**  | Pone la foto de nuevo                                                                                                   |
+| Control | Acción |
+|---|---|
+| **Gradación de color** | Una de 20, como Verde azulado y naranja, Cine negro, 8 mm antiguo, Hora dorada y Luz de luna, con deslizador de **Intensidad** |
+| **Estilo artístico** | Pintura al óleo, Boceto a lápiz, Grabado o Relieve de color |
+| **Nitidez** | De 0 % a 100 %, en pasos de 10, antes de los ajustes de color |
+| **Viñeta** | Oscurece las esquinas |
+| **Grano de película** | Añade grano fijo o en movimiento |
+| **Texto** | Coloca tu **Texto superpuesto** en una esquina |
+| **Desenfocar una zona** | Arrastra un recuadro para desenfocar esa parte |
+| **Desactivar todos los efectos** | Devuelve la imagen a su estado anterior |
 
-Una región borrosa se queda hasta que lo retire con **Eliminar las regiones borrosas** o el vídeo cambia. No se leen píxeles de vídeo. El borrón ocurre en la página.
+Una zona desenfocada permanece hasta que pulses **Quitar zonas desenfocadas** o cambie el vídeo. No se leen píxeles del vídeo: el desenfoque se aplica en la página.
 
-## Ajustes de efectos {#effects-settings}
+## Configuración de efectos
 
-Ajustes, ficha de características de vídeo, **Efectos** mantiene las opciones más finas: **Vignette fuerza**, **Fuerza de la abuela**, **Grano movido**, **Texto superpuesto** y **esquina de texto** (A la izquierda, a la derecha, a la izquierda o a la derecha). **Efectos de reasentamiento** los devuelve a sus defectos.
+Configuración → Funciones de vídeo → **Efectos** contiene opciones más detalladas: **Intensidad de viñeta**, **Intensidad de grano**, **Grano en movimiento**, **Texto superpuesto** y **Esquina del texto** (arriba a la izquierda, arriba a la derecha, abajo a la izquierda o abajo a la derecha). **Restablecer efectos** devuelve los valores iniciales.
 
-Los efectos funcionan con [Filtros de vídeo](/docs/user-guide/video-filters) y el [Herramientas de confort](/docs/user-guide/comfort-and-accessibility) al mismo tiempo, y siguen el video en pantalla completa.
+Los efectos funcionan al mismo tiempo que [Filtros de vídeo](/docs/user-guide/video-filters) y [Comodidad](/docs/user-guide/comfort-and-accessibility), y acompañan al vídeo en pantalla completa.
 
-## Zoom & ajuste {#zoom--fit}
+## Zoom y ajuste
 
-Abra la pestaña Vista del widget y encuentre **Zoom & ajuste**No se necesita ninguna cuenta.
+Abre Vista → **Zoom y ajuste** en el widget. No necesitas cuenta.
 
-1. Prensa **Zoom en** o **Fuera.**. El zoom va desde 1x a 4x en pasos trimestrales, y el pellizco en un trackpad también funciona.
-2. Utilice las cuatro flechas para mover la vista izquierda, arriba, abajo o derecha.
-3. Enciende **Magnificador: siga el puntero** y la parte zoom sigue el ratón.
-4. Escoge un **Fit**: Original, Llenar (cortar las barras), Stretch, 4:3, 16:9 o 21:9.
+1. Pulsa **Acercar** o **Alejar**. El zoom va de 1x a 4x en pasos de 0,25x; también puedes hacer un gesto de pellizco en el panel táctil.
+2. Usa las cuatro flechas para mover la vista a izquierda, arriba, abajo o derecha.
+3. Activa **Lupa: seguir el puntero** para que la zona ampliada siga al ratón.
+4. Elige un **Ajuste**: Original, Rellenar (recorta las franjas), Estirar, 4:3, 16:9 o 21:9.
 
-**Volver a la imagen original** Lo restaura. El zoom funciona con rotación, espejo y voltereta, y **Reset Transformación** deja el zoom donde está. Un nuevo vídeo comienza en Original, y nada aquí se almacena.
+**Volver a la imagen original** restablece estos cambios. El zoom funciona con giro, reflejo y volteo; **Restablecer transformación** deja intacto el zoom. Cada vídeo nuevo empieza en Original y no se guarda ningún ajuste de esta sección.
 
-## Atajos {#shortcuts}
+## Atajos
 
-Dos atajos opcionales comienzan sin llave: "Efectos de impacto en o apagado" y "Arrastre una región del vídeo". Ambos necesitan una cuenta conectada cuando estén presionados. Ponlos en [Cambiar un atajo](/docs/keyboard-shortcuts/rebinding).
+«Activar o desactivar efectos» y «Desenfocar una zona del vídeo» son atajos opcionales sin tecla inicial. Ambos requieren una cuenta al usarlos. Asígnales una en [Cambiar un atajo](/docs/keyboard-shortcuts/rebinding).
 
 Siguiente: [Herramientas de audio](/docs/user-guide/audio-tools).

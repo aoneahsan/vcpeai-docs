@@ -1,53 +1,52 @@
 ---
-title: "Video Controls Plus en LinkedIn"
-sidebar_label: "LinkedIn"
-description: "En LinkedIn funcionan los controles de vídeo del núcleo, y un conjunto de herramientas LinkedIn funcionan desde el widget o el menú de clic derecho; los interruptores están en Ajustes."
-unlisted: true
+title: Video Controls Plus en LinkedIn
+sidebar_label: LinkedIn
+description: Los controles de vídeo funcionan en LinkedIn y sus herramientas se ejecutan desde el widget o el menú contextual; sus interruptores están en Configuración.
 ---
 
-En LinkedIn hace mucho más que controlar un vídeo: marca su perfil, rastrea sus aplicaciones de trabajo y exporta sus publicaciones, y cada herramienta corre el momento en que lo elija del widget o el menú de clic derecho. Los controles de vídeo centrales funcionan como en cualquier sitio. Las herramientas que se ejecutan por defecto sin una cuenta. Para activar o apagar uno necesita la pestaña Características LinkedIn en Ajustes, y esa pestaña necesita una cuenta ([lo que la conexión añade](/docs/account-and-sync)).
+En LinkedIn hace más que controlar vídeos: evalúa la integridad de tu perfil, registra solicitudes de empleo y exporta publicaciones. Cada herramienta se ejecuta en cuanto la eliges en el widget o el menú contextual. Los controles de vídeo generales funcionan igual que en cualquier sitio. Las herramientas activadas al instalar funcionan sin cuenta; para cambiar su estado necesitas la pestaña Funciones de LinkedIn de Configuración, que sí requiere [una cuenta conectada](/docs/account-and-sync).
 
-## Las herramientas {#the-tools}
+## Herramientas
 
-Una herramienta abre su panel, o exporta o descarga, inmediatamente.
+Una herramienta abre su panel, exporta o descarga al instante. Cada una de las 48 tiene su sección, pasos, ejemplo y preguntas frecuentes en las páginas de LinkedIn del sitio web, empezando por [herramientas del perfil](https://vcpeai.aoneahsan.com/features/linkedin-profile).
 
-| Herramienta            | Lo que hace                                              | Default |
-| ---------------------- | -------------------------------------------------------- | ------- |
-| Perfil Scorer          | Analiza lo completa que es tu perfil                     | On      |
-| Headline Generator     | Genera titulares construidos alrededor de palabras clave | On      |
-| Job Tracker            | Seguimiento de sus aplicaciones de trabajo               | On      |
-| Post Exporter          | Exportaciones de puestos a CSV o JSON                    | On      |
-| Perfil de respaldo     | Retrocede su perfil                                      | On      |
-| Exportador de mensajes | Exporta mensajes a CSV o JSON                            | On      |
-| Filtro de alimentación | Filtros alimentan contenido                              | Fuera.  |
-| Modo de enfoque        | Bloques distracciones en LinkedIn                        | Fuera.  |
+| Herramienta | Acción | Estado inicial |
+|---|---|---|
+| Profile Scorer | Analiza la integridad del perfil | Activada |
+| Headline Generator | Genera titulares con palabras clave | Activada |
+| Job Tracker | Registra solicitudes de empleo | Activada |
+| Post Exporter | Exporta publicaciones a CSV o JSON | Activada |
+| Profile Backup | Crea una copia del perfil | Activada |
+| Message Exporter | Exporta mensajes a CSV o JSON | Activada |
+| Feed Filter | Filtra el contenido del feed | Desactivada |
+| Focus Mode | Bloquea distracciones en LinkedIn | Desactivada |
 
-## ¿Qué pasa? {#what-is-on-and-what-is-off}
+## Qué está activado y qué no
 
-Una herramienta que espera hasta que la elija está por defecto. Una herramienta que pone algo en la página LinkedIn cuando se carga, o que cambia la alimentación de LinkedIn, se apaga hasta que se enciende. Filtro de alimentación y modo de foco están en ese segundo grupo.
+Las herramientas que esperan a que las elijas vienen activadas. Las que añaden algo a la página al cargarla o modifican el feed empiezan desactivadas. Feed Filter y Focus Mode pertenecen a este segundo grupo.
 
-## Donde están los interruptores {#where-the-switches-are}
+## Dónde están los interruptores
 
-1. Abrir configuración.
-2. Ir a la **Características LinkedIn** tab.
-3. Conecta una cuenta si la pestaña te pide.
+1. Abre Configuración.
+2. Entra en **Funciones de LinkedIn**.
+3. Conecta una cuenta si la pestaña te lo pide.
 
-Las herramientas se agrupan: Perfil, Creación de Contenidos, Post & Feed, Conexiones, Mensajería, Trabajos, Análisis, Exportación, Privacidad y Productividad.
+Las herramientas se agrupan en Perfil, Creación de contenido, Publicaciones y feed, Conexiones, Mensajería, Empleos, Estadísticas, Exportación, Privacidad y Productividad.
 
-Cada herramienta tiene un interruptor de habilitación y un interruptor "Mostrar en el menú de clic derecho". Las herramientas funcionan sólo en linkedin.com.
+Cada herramienta tiene un interruptor de activación y otro para mostrarla en el menú contextual. Solo funcionan en linkedin.com.
 
-Los interruptores de encendido/apagado se aplican después de recargar la página LinkedIn. Las acciones del menú no necesitan recargar.
+Los cambios de los interruptores se aplican al recargar LinkedIn. Las acciones del menú no requieren recarga.
 
-## El botón info {#the-info-button}
+## Botón de información
 
-Cada panel abre una herramienta LinkedIn lleva un botón de información, y cuando lo hace el panel explica lo que es y cómo utilizarlo.
+Cada panel abierto por una herramienta de LinkedIn tiene un botón de información. Al pulsarlo, explica qué es el panel y cómo usarlo.
 
-## Escribir ayuda {#writing-help}
+## Ayuda para escribir
 
-LinkedIn escribiendo ayuda es una de las características de AI, y funciona de tres maneras. See [Características AI](/docs/ai-features) por lo que se envía y dónde.
+La ayuda para escribir en LinkedIn forma parte de las funciones de IA y tiene tres modos. [Funciones de IA](/docs/ai-features) explica qué se envía y adónde.
 
-## Claves relacionadas {#related-keys}
+## Atajos relacionados
 
-Las herramientas LinkedIn no tienen claves predeterminadas. Para las claves de vídeo centrales, [Atajos predeterminados](/docs/keyboard-shortcuts/defaults) tiene la mesa y [Cambiar un atajo](/docs/keyboard-shortcuts/rebinding) tiene los pasos.
+Las herramientas de LinkedIn no tienen atajos predeterminados. Para los controles generales de vídeo, consulta [Atajos predeterminados](/docs/keyboard-shortcuts/defaults) y [Cambiar un atajo](/docs/keyboard-shortcuts/rebinding).
 
-Para el resto, vea [Otros sitios](/docs/platforms/other-sites).
+Para el resto de sitios, consulta [Otros sitios](/docs/platforms/other-sites).

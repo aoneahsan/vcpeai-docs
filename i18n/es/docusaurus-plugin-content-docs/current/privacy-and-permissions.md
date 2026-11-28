@@ -1,134 +1,137 @@
 ---
-title: "Privacidad y permisos"
-sidebar_label: "Privacidad y permisos"
-description: "Qué Video Controls Plus almacena y registra, con y sin una cuenta, dónde viven los datos, y para qué se utiliza el permiso de cada navegador."
-unlisted: true
+title: Privacidad y permisos
+sidebar_label: Privacidad y permisos
+description: Qué guarda y registra Video Controls Plus con o sin cuenta, dónde residen los datos y para qué sirve cada permiso del navegador.
 ---
 
-Video Controls Plus mantiene su configuración en su navegador. Mientras que **Análisis de uso** El interruptor está encendido, y es por defecto, los eventos de uso se envían al backend del equipo con o sin una cuenta, y su dirección IP va a ipapi.co para una búsqueda de ubicación a la mayoría de una vez al día. Una cuenta conectada también almacena los datos de su cuenta y, con sincronización, su configuración.
+Video Controls Plus guarda tus ajustes en el navegador. Mientras **Estadísticas de uso** esté activado (la opción predeterminada), se envían eventos de uso al servidor del equipo, tengas o no cuenta. Tu dirección IP se envía a ipapi.co para consultar tu ubicación como máximo una vez al día. Una cuenta conectada también guarda tus datos y, si activas la sincronización, tus ajustes.
 
-Apaga el interruptor y no pasa ninguna grabación de uso.
+Al desactivar el interruptor se detiene todo ese registro de uso.
 
-No graba los videos que ves, sus títulos o sus direcciones, a menos que enciendas la Historia del reloj, que está apagado por defecto. Los artículos guardados son la otra excepción. Una cuenta conectada mantiene el título y la dirección de un vídeo sólo con algo que le guardas o empiezas de él: una nota, una marca de libros o entrada de diario, un elemento de alerta, una captura de pantalla subida, detalles de vídeo extraídos, una transcripción, una tarjeta flash guardada de un vídeo, un vídeo de aprendizaje, un artículo de colección o una fiesta de reloj.
+La extensión no registra los vídeos que ves, sus títulos ni sus direcciones salvo que actives el Historial de reproducción, que empieza desactivado. La otra excepción son los elementos que decides guardar. Una cuenta conectada conserva el título y la dirección del vídeo solo junto con algo que guardas o inicias desde él: nota, marcador o entrada de diario, elemento de Ver más tarde, captura subida, detalles extraídos, transcripción, tarjeta creada a partir del vídeo, vídeo de ruta de aprendizaje, elemento de colección o sesión compartida.
 
-Esta página es una lectura simple de la [Política de privacidad](https://vcpeai.aoneahsan.com/privacy)La política es el texto legal. Donde los dos difieren, la política es la que cuenta.
+Esta página explica en términos sencillos la [Política de privacidad](https://vcpeai.aoneahsan.com/privacy). La política es el texto legal; si difieren, prevalece la política.
 
-## Lo que queda en su navegador {#what-stays-in-your-browser}
+## Qué permanece en tu navegador
 
-Su configuración, sus atajos de teclado, la velocidad recordada para cada vídeo, su posición de reproducción, sus presets de filtro y su configuración de audio se almacenan en su navegador. Sólo van a su cuenta cuando conecta la extensión y enciende la sincronización.
+Tus ajustes, atajos, velocidad recordada por vídeo, posición de reproducción, filtros predefinidos y ajustes de audio se guardan en el navegador. Solo llegan a tu cuenta cuando conectas la extensión y activas la sincronización.
 
-La descarga de audio se procesa en su dispositivo. Una captura de pantalla se queda en su dispositivo a menos que elija una acción en la nube para ella, que sube la imagen.
+Las descargas de audio se procesan en tu dispositivo. Las capturas permanecen allí salvo que elijas subirlas a la nube.
 
-Los límites de reloj cuentan minutos en este dispositivo solamente, y su PIN es aplastado y nunca sincronizado. Los recuentos del temporizador de estudio y los capítulos hechos a partir de las leyendas de un vídeo permanecen en este navegador. GIFs, clips, time-lapses y hojas de contacto se hacen en el dispositivo y se guardan como descargas.
+Los límites de visualización cuentan minutos solo en este dispositivo. Su PIN se conserva guardado como hash y nunca se sincroniza. Los contadores del temporizador de estudio y los capítulos creados desde subtítulos permanecen en este navegador. GIF, clips, vídeos acelerados y hojas de contactos se crean en tu dispositivo y se descargan.
 
-## Lo que se registra {#what-is-recorded}
+## Qué se registra
 
-| Datos                                 | Cuando                                                                                                                                                                                                         | Lo que es                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                 |
-| ------------------------------------- | -------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------- | ----------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------- |
-| Eventos de uso                        | Mientras que la analítica de uso está en, con o sin una cuenta                                                                                                                                                 | El nombre del evento, el nombre de host del sitio, su navegador, su sistema operativo, la versión de extensión y un id de sesión, además de su cuenta cuando la extensión está conectada                                                                                                                                                                                                                                                                                                                                                                                                  |
-| Mapa de ubicación                     | Mientras que la analítica de Usage está en, al menos una vez al día                                                                                                                                            | Su dirección IP se envía a ipapi.co. El país, la ciudad y la zona horaria que regresa se guardan a su perfil cuando una cuenta está conectada; la región permanece en su navegador. La dirección IP no está almacenada.                                                                                                                                                                                                                                                                                                                                                                   |
-| Sitios, características y velocidades | Mientras que la analítica de uso está en, con una cuenta conectada                                                                                                                                             | Qué sitios, características y velocidades utilizaste                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                      |
-| Cuenta                                | Con una cuenta conectada                                                                                                                                                                                       | Dirección de correo electrónico, nombre de pantalla, foto de perfil y su cuenta de Google id                                                                                                                                                                                                                                                                                                                                                                                                                                                                                              |
-| Este navegador                        | Con una cuenta conectada                                                                                                                                                                                       | Un nombre de dispositivo, el navegador, el sistema operativo, la versión de extensión y cuando fue visto por última vez                                                                                                                                                                                                                                                                                                                                                                                                                                                                   |
-| Ajustes                               | Con una cuenta conectada y sincronización                                                                                                                                                                      | Tus ajustes, sincronizados con tu cuenta                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                  |
-| Lo que guardas en tu cuenta           | Con una cuenta conectada, cada una solo cuando la guardas                                                                                                                                                      | Notas, marcadores, elementos de relojería, capturas de pantalla subidas, detalles de vídeo extraídos (la acción del extracto de clic derecho) y transcripciones que guardas a la cuenta, cada una con el título y la dirección del vídeo. Un marcador también ahorra su timetamp, y una entrada de diario es un marcador que también tiene un estado de ánimo y sus palabras. Vocabulario guardado de un vídeo (un momento de prueba, o una palabra con la línea de captura en pantalla como su ejemplo), vídeos de aprendizaje y artículos de colección se mantienen de la misma manera. |
-| Ver historia                          | Sólo después de encender **Ver historia** en Ajustes, en **Privacidad Datos &** pestaña, y reproducir un video mientras está conectado. Está apagado por defecto para cada cuenta conectada en cada navegador. | Para cada sesión de visualización de 15 segundos o más: el título y la dirección del vídeo, la hora del reloj, la última posición, las partes del vídeo que tocaste, la fecha, la velocidad de reproducción y las características que utilizaste. Apagar el apagado impide que se registren nuevas sesiones. Lo que ya está allí se queda en su cuenta hasta que la borre en el sitio web o borre su cuenta.                                                                                                                                                                              |
-| Ver partidos                          | Cuando empiezas o te unes a una fiesta de reloj                                                                                                                                                                | La dirección y el título del video, el código del partido, y quién se unió y cuándo. Mientras el partido corre, juega, pausa, un salto a un nuevo tiempo y la velocidad se pasa a sus miembros a través de Supabase en tiempo real y no se almacenan.                                                                                                                                                                                                                                                                                                                                     |
-| Informes de error                     | Mientras que el seguimiento de errores de terceros está en                                                                                                                                                     | Crash reportes enviados a Sentry                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                          |
-| Texto de la AI                        | Sólo cuando empiezas una función de inteligencia artificial                                                                                                                                                    | Los títulos del vídeo, o el texto que está redactando. Un registro de uso para cada prestación compartida se mantiene durante 13 meses, sin el texto. See [Características AI](/docs/ai-features).                                                                                                                                                                                                                                                                                                                                                                                        |
-| Grabaciones de voz                    | Sólo cuando grabas con Habla                                                                                                                                                                                   | Su voz, hasta 2 minutos, con sus transcripciones y la nota propuesta. Los tres se eliminan dentro de 24 horas, o a la vez cuando pulsa **Disco** ([Política de privacidad](https://vcpeai.aoneahsan.com/privacy), 1.8).                                                                                                                                                                                                                                                                                                                                                                   |
+| Datos | Cuándo | Contenido |
+|---|---|---|
+| Eventos de uso | Mientras Estadísticas de uso está activado, con o sin cuenta | Nombre del evento, dominio del sitio, navegador, sistema operativo, versión de la extensión e ID de sesión; también tu cuenta si la extensión está conectada |
+| Consulta de ubicación | Mientras Estadísticas de uso está activado, como máximo una vez al día | Se envía tu IP a ipapi.co. Si tienes cuenta conectada, el país, la ciudad y la zona horaria devueltos se guardan en tu perfil; la región permanece en el navegador. No se guarda la IP. |
+| Sitios, funciones y velocidades | Mientras Estadísticas de uso está activado, con cuenta conectada | Qué sitios, funciones y velocidades utilizaste |
+| Cuenta | Con cuenta conectada | Correo, nombre visible, foto de perfil e ID de tu cuenta de Google |
+| Este navegador | Con cuenta conectada | Nombre del dispositivo, navegador, sistema operativo, versión de extensión y última actividad |
+| Ajustes | Con cuenta conectada y sincronización activada | Tus ajustes sincronizados con la cuenta |
+| Elementos guardados | Con cuenta conectada, solo cuando guardas cada elemento | Notas, marcadores, Ver más tarde, capturas subidas, detalles extraídos mediante el menú contextual y transcripciones guardadas, con título y dirección del vídeo. Los marcadores incluyen la marca de tiempo; una entrada de diario añade ánimo y tus palabras. Las tarjetas creadas desde un vídeo, los vídeos de rutas y los elementos de colecciones se guardan del mismo modo. |
+| Historial de reproducción | Solo después de activar **Historial de reproducción** en Configuración → **Privacidad y datos** y reproducir un vídeo con la cuenta conectada. Empieza desactivado por cuenta y navegador. | Por cada sesión de al menos 15 segundos: título y dirección del vídeo, tiempo visto, última posición, fragmentos reproducidos, fecha, velocidad y funciones usadas. Al apagarlo no se registran sesiones nuevas. Las anteriores siguen en tu cuenta hasta que las elimines en el sitio web o borres la cuenta. |
+| Sesiones compartidas | Al iniciar una sesión o unirte | Dirección y título del vídeo, código de sesión, participantes y hora de entrada. Durante la sesión, reproducción, pausa, saltos y velocidad se envían a los miembros mediante Supabase Realtime y no se almacenan. |
+| Informes de errores | Mientras Seguimiento de errores de terceros está activado | Informes de fallos enviados a Sentry |
+| Texto de IA | Solo al iniciar una función de IA | Subtítulos del vídeo o texto que redactas. Por cada ejecución del cupo compartido se guarda durante 13 meses un registro de uso sin el texto. Consulta [Funciones de IA](/docs/ai-features). |
+| Grabaciones de Speak | Solo al grabar con Speak | Tu voz, hasta dos minutos, sus transcripciones y la nota propuesta. Los tres se eliminan en un máximo de 24 horas o al pulsar **Descartar** ([Política de privacidad](https://vcpeai.aoneahsan.com/privacy), 1.8). |
 
-En eventos de uso un sitio es su nombre de host, como youtube.com. Las direcciones completas, las rutas de página y los títulos de página no son parte de un evento.
+En los eventos de uso, el sitio es su dominio, por ejemplo youtube.com. No se incluyen direcciones completas, rutas ni títulos de página.
 
-## El interruptor de análisis de uso {#the-usage-analytics-switch}
+## Interruptor Estadísticas de uso
 
-Abrir configuración, ir a la **Privacidad Datos &** y encontrar **Análisis de uso**Funciona con y sin una cuenta.
+Abre Configuración → **Privacidad y datos** y busca **Estadísticas de uso**. Funciona con y sin cuenta.
 
-Fuera, detiene tres cosas:
+Al desactivarlo se detienen tres cosas:
 
-1. Los eventos de uso no se envían al backend del equipo.
-2. Una cuenta conectada no registra qué sitios, características y velocidades utilizó.
-3. Su dirección IP no va a ipapi.co.
+1. No se envían eventos de uso al servidor del equipo.
+2. Una cuenta conectada deja de registrar qué sitios, funciones y velocidades utilizaste.
+3. Tu IP deja de enviarse a ipapi.co.
 
-Si el interruptor está apagado en este navegador o en su cuenta en el momento en que se conecta, termina en ambos.
+Si el interruptor está apagado en este navegador o en tu cuenta al conectarlos, termina apagado en ambos.
 
-## Tus otros interruptores {#your-other-switches}
+## Otros interruptores
 
 Están en la misma pestaña.
 
-| Cambio                             | Default | Lo que controla                                                                                                                                                                                                                                                 |
-| ---------------------------------- | ------- | --------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------- |
-| Seguimiento de errores de terceros | On      | Crash reporta a Sentry                                                                                                                                                                                                                                          |
-| Marketing                          | Fuera.  | Una cosa: una notificación ocasional del navegador sobre nuevas características u otro producto del equipo. El correo electrónico es separado: las noticias del producto llegan a los titulares de cuentas, cada email con un enlace de suscripción de un clic. |
-| Ajustes Sync                       | On      | Guardando tu configuración con tu cuenta                                                                                                                                                                                                                        |
+| Interruptor | Estado inicial | Qué controla |
+|---|---|---|
+| Seguimiento de errores de terceros | Activado | Informes de fallos a Sentry |
+| Comunicaciones de marketing | Desactivado | Una notificación ocasional del navegador sobre funciones nuevas u otro producto del equipo. El correo es independiente: los titulares de cuenta reciben novedades y cada mensaje incluye un enlace para darse de baja con un clic. |
+| Sincronización de ajustes | Activada | Guardar tus ajustes en la cuenta |
 
-El seguimiento de errores de terceros está separado de la analítica de Usage, por lo que el apagado no apaga el otro. Under **Sus datos** en la misma pestaña usted puede exportar o eliminar sus datos, y [Cuenta y sincronización](/docs/account-and-sync) tiene los pasos.
+El seguimiento de errores es independiente de las estadísticas de uso; desactivar uno no apaga el otro. En **Tus datos** puedes exportar o eliminar la información. [Cuenta y sincronización](/docs/account-and-sync) explica los pasos.
 
-## Donde viven sus datos {#where-your-data-lives}
+## Dónde residen tus datos
 
-| Servicio                 | Lo que tiene                                                                                                                                                      |
-| ------------------------ | ----------------------------------------------------------------------------------------------------------------------------------------------------------------- |
-| Supabase                 | La base de datos y el registro de su cuenta, y la sincronización en vivo de una fiesta de reloj                                                                   |
-| FilesHub                 | Capturas de pantalla almacenadas, grabaciones de voz de hasta 24 horas, y el correo electrónico que el equipo envía                                               |
-| Sentry                   | Crash reporta, mientras que el seguimiento de errores de terceros está en                                                                                         |
-| ipapi.co                 | Recibe su dirección IP para la búsqueda de ubicación, mientras que el análisis de uso está en                                                                     |
-| Anthropic, OpenAI y Groq | El texto de una IA que se ejecuta comienza, y el audio o transcripciones de una grabación de voz. [Características AI](/docs/ai-features) dice que uno tiene qué. |
+| Servicio | Qué almacena |
+|---|---|
+| Supabase | Base de datos e inicio de sesión de tu cuenta, y sincronización en vivo de sesiones compartidas |
+| FilesHub | Capturas almacenadas, grabaciones de Speak hasta 24 horas y correos del equipo |
+| Sentry | Informes de fallos mientras Seguimiento de errores de terceros está activado |
+| ipapi.co | Recibe tu IP para consultar la ubicación mientras Estadísticas de uso está activado |
+| Anthropic, OpenAI y Groq | Texto de una ejecución de IA que inicies, y audio o transcripciones de Speak. [Funciones de IA](/docs/ai-features) detalla qué recibe cada uno. |
 
-Cinco características contactan con un servicio propio, cada uno solo mientras utiliza la función: SponsorBlock (`sponsor.ajay.app`), Netflix traducción subtítulo o subtítulos duales (`api.mymemory.translated.net`), Netflix calificaciones con su propia clave (`www.omdbapi.com`), un resumen de AI que tiene que buscar las leyendas de un video (`video.google.com/timedtext`), y **Mira.** en el widget **Guarda una palabra** (`en.wiktionary.org`), que recibe sólo la única palabra que escribió. La sección de la política 5.9 enumera un servicio más, para una característica que estos docs no cubren todavía.
+Cinco funciones contactan con servicios propios solo al usarlas: SponsorBlock (`sponsor.ajay.app`), traducción o subtítulos dobles de Netflix (`api.mymemory.translated.net`), valoraciones de Netflix con tu clave (`www.omdbapi.com`), resúmenes de IA que necesitan obtener subtítulos (`video.google.com/timedtext`) y **Buscar** en **Guardar una palabra** del widget (`en.wiktionary.org`), que recibe únicamente la palabra escrita. La sección 5.9 de la política menciona otro servicio para una función aún no cubierta aquí.
 
-## Lo que no se recoge {#what-is-not-collected}
+## Qué no se recopila
 
-La política enumera estos como no recogidos: los vídeos que ves (a menos que enciendas la Historia del reloj), contenido de vídeo o archivos multimedia aparte de una captura de pantalla que elijas subir, tu navegación en páginas donde la extensión no hace nada, contraseñas, información de pago, y el contenido de páginas que visitas aparte del texto que envías a una IA, y lo que las cinco características anteriores envían a sus propios servicios.
+Según la política, no se recopilan los vídeos que ves (salvo que actives Historial), contenido de vídeo o archivos multimedia excepto capturas que decidas subir, tu navegación en páginas donde la extensión no actúa, contraseñas, datos de pago ni contenido de las páginas visitadas, excepto el texto que envíes tú mismo a una función de IA y los datos que las cinco funciones anteriores envían a sus servicios.
 
-Sus datos no se venden.
+Tus datos no se venden.
 
-## El micrófono {#the-microphone}
+## El micrófono
 
-Hablar es la única característica que sube tu voz, y el micrófono se pide por primera vez que la uses.
+Speak es la única función que sube tu voz. Se solicita el micrófono al usarla por primera vez.
 
-| Donde                  | Lo que ves                                                                                                                                                                                                                                                                          |
-| ---------------------- | ----------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------- |
-| La extensión           | **Habla una nota.** muestra "Permite el micrófono una vez". Prensa **Abra la página del micrófono**, y una pestaña llamada "Permitir el micrófono para hablar" se abre. Prensa **Permitir micrófono**, entonces elija Permitir en la propia caja de su navegador. Haz esto una vez. |
-| La aplicación Android  | La aplicación pide el permiso de micrófono cuando primero presione el registro en Habla.                                                                                                                                                                                            |
-| El complemento Firefox | Firefox también pide su permiso opcional de datos "comunicaciones personales" antes de que se grabe o envíe cualquier cosa.                                                                                                                                                         |
+| Dónde | Qué aparece |
+|---|---|
+| Extensión | **Dictar una nota** muestra «Permitir el micrófono una vez». Pulsa **Abrir la página del micrófono**; en «Permitir el micrófono para Speak», pulsa **Permitir micrófono** y después Permitir en el cuadro del navegador. Solo debes hacerlo una vez. |
+| Aplicación de Android | Pide permiso de micrófono la primera vez que pulsas grabar en Speak. |
+| Extensión de Firefox | Firefox también pide el permiso opcional «Comunicaciones personales» antes de grabar o enviar nada. |
 
-El micrófono está solo mientras grabas. Si lo bloqueas, la página te dice dónde cambiarla. Apaga en Ajustes, en el **Características de la AI** tab, y la extensión deja de ofrecerla.
+El micrófono solo se activa durante la grabación. Si lo bloqueas, la página te explica cómo volver a permitirlo. Al desactivar Speak en Configuración → **Funciones de IA**, la extensión deja de ofrecerlo.
 
-## Lo que cada permiso es para {#what-each-permission-is-for}
+## Para qué sirve cada permiso
 
-La extensión pide siete permisos y acceso a sitios, y en Chrome y Edge por un octavo, `offscreen`. No pide el `identity` permiso, porque no hay registro dentro de la extensión. El micrófono no es un permiso que pide para instalar.
+La extensión solicita siete permisos y acceso a sitios; en Chrome y Edge pide un octavo, `offscreen`. No solicita `identity` porque no se inicia sesión dentro de la extensión. El micrófono no se pide al instalar.
 
-| Permiso                     | ¿Por qué la extensión lo pide?                                                                                                                                                                                                                                                                           |
-| --------------------------- | -------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------- |
-| `storage`                   | Guarda tus ajustes, atajos, memoria de velocidad, presets de filtro y tema en el navegador                                                                                                                                                                                                               |
-| `activeTab`                 | Permite que el popup lea y cambie el vídeo en la pestaña en la que estás cuando lo abras                                                                                                                                                                                                                 |
-| `contextMenus`              | Añade los elementos del menú de clic derecho                                                                                                                                                                                                                                                             |
-| `alarms`                    | Los horarios para el temporizador de sueño, el envío de lotes de sincronización y uso apagados, la comprobación de una conexión de cuenta pendiente, los interruptores remotos refrescante, el levantamiento de una pausa por sitio cuando termina, y un cheque diario para una notificación de anuncio. |
-| `notifications`             | Muestra cambios de velocidad, estado de bucle y alertas del temporizador del sueño cuando el widget está oculto o el modo de visualización es Notification Only                                                                                                                                          |
-| `clipboardWrite`            | Copia un enlace a su portapapeles desde los elementos de clic derecho "Copy Page URL" y "Copy URL with Timestamp"; el portapapeles nunca se lee                                                                                                                                                          |
-| `scripting`                 | Lleva los controles a un vídeo incrustado dentro de otra página, y sólo en un marco que contiene un vídeo                                                                                                                                                                                                |
-| `offscreen` (Chrome y Edge) | Lets Speak graba en una página oculta de la extensión y envía la grabación desde allí, por lo que la grabación continúa mientras la carga corre. Firefox registra en su página de antecedentes y no lo necesita.                                                                                         |
-| Acceso a todos los sitios   | Encuentra y controla el vídeo en cualquier sitio que abra                                                                                                                                                                                                                                                |
+| Permiso | Motivo |
+|---|---|
+| `storage` | Guardar ajustes, atajos, memoria de velocidad, filtros y tema en el navegador |
+| `activeTab` | Permitir al popup leer y modificar el vídeo de la pestaña actual al abrirlo |
+| `contextMenus` | Añadir acciones al menú contextual |
+| `alarms` | Temporizadores de sueño, envío de lotes pendientes de sincronización y uso, comprobación de conexión de cuenta, actualización de interruptores remotos, fin de pausas por sitio y revisión diaria de avisos |
+| `notifications` | Mostrar cambios de velocidad, estado del bucle y avisos del temporizador cuando el widget está oculto o el modo es Solo avisos |
+| `clipboardWrite` | Copiar enlaces desde «Copiar URL de la página» y «Copiar URL con marca de tiempo»; nunca leer el portapapeles |
+| `scripting` | Llevar los controles a un vídeo incrustado, solo si el marco contiene un vídeo |
+| `offscreen` (Chrome y Edge) | Permitir que Speak grabe en una página oculta de la extensión y envíe el audio desde allí mientras continúa la carga. Firefox usa su página de fondo. |
+| Acceso a todos los sitios | Encontrar y controlar vídeos en cualquier sitio que abras |
 
-El acceso a todos los sitios es el amplio. La extensión lo necesita porque un vídeo puede estar en cualquier sitio. Mientras que un sitio es [para](/docs/getting-started/pause-per-site)La extensión no hace nada allí.
+El acceso a todos los sitios es el permiso más amplio. Hace falta porque un vídeo puede aparecer en cualquier sitio. Mientras un sitio está [en pausa](/docs/getting-started/pause-per-site), la extensión no actúa allí.
 
-## En Firefox {#on-firefox}
+## En Firefox
 
-Firefox pide tres permisos opcionales de datos, y cada una de las puertas lo que se envía.
+Firefox pide tres permisos opcionales de datos; cada uno controla qué se puede enviar.
 
-| Firefox permiso                 | Lo que cierra                                                                                                                                                                                                                                                                             |
-| ------------------------------- | ----------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------- |
-| Datos técnicos e de interacción | Los eventos de uso se envían sólo si se permite. El interruptor de análisis de Usage lo pide.                                                                                                                                                                                             |
-| Contenido del sitio web         | Contenido de página (una captura de pantalla que subes, una transcripción que guardas a la cuenta, capciones para una ejecución de AI, una palabra que guardas con su línea de captura) se envía sólo después de que lo permitas. El add-on pregunta la primera vez que usas uno de esos. |
-| Comunicaciones personales       | Una grabación de voz y sus transcripciones se envían sólo después de que usted lo permita. El add-on pregunta la primera vez que usas Habla.                                                                                                                                              |
+| Permiso de Firefox | Qué permite |
+|---|---|
+| Datos técnicos y de interacción | Solo se envían eventos de uso si lo permites. El interruptor Estadísticas de uso lo solicita. |
+| Contenido de sitios web | Solo se envía contenido de página después de permitirlo: una captura subida, una transcripción guardada, subtítulos para IA o una palabra con su línea de subtítulos. La extensión lo pide al usar una de esas funciones por primera vez. |
+| Comunicaciones personales | Solo se envían grabaciones de Speak y sus transcripciones después de permitirlo. Se pide al usar Speak por primera vez. |
 
-## Otras aplicaciones del mismo equipo {#other-apps-from-the-same-team}
+## Claves, asistentes y webhooks que conectas
 
-Ajustes tiene una pestaña que lista otras aplicaciones del mismo equipo. La lista viene con la extensión, y nada se busca para mostrarla. Los avisos mostrados a su lado son leídos en el backend del equipo. No hay red de anuncios ni anuncio SDK están en la extensión.
+Nada externo accede a tu biblioteca salvo que tú lo configures en **Cuenta → Otras aplicaciones** del sitio web. Una clave de acceso, un asistente como Claude o ChatGPT, o un webhook solo llega a las secciones que autorizas; nunca a tu inicio de sesión, pagos, notas de voz, historial de IA ni estadísticas de uso. Un mensaje de webhook incluye ID, vídeo y hora; el contenido escrito solo se añade si marcas **Incluir el contenido escrito** para esa dirección. El texto de una transcripción nunca sale en un webhook. Consulta permisos y revocación en [Video Controls Plus para desarrolladores](/docs/developers).
 
-## Texto legal y contacto {#legal-text-and-contact}
+## Otras aplicaciones del equipo
+
+Configuración tiene una pestaña con las otras aplicaciones del equipo. La lista viene incluida en la extensión; no se descarga nada para mostrarla. Los avisos junto a ella se leen del servidor del equipo. La extensión no contiene red ni SDK publicitario.
+
+## Textos legales y contacto
 
 - [Política de privacidad](https://vcpeai.aoneahsan.com/privacy)
-- [Términos](https://vcpeai.aoneahsan.com/terms)
+- [Términos del servicio](https://vcpeai.aoneahsan.com/terms)
 - [Eliminación de datos](https://vcpeai.aoneahsan.com/data-deletion)
-- [Contacta con el equipo](https://vcpeai.aoneahsan.com/contact)
+- [Contactar al equipo](https://vcpeai.aoneahsan.com/contact)

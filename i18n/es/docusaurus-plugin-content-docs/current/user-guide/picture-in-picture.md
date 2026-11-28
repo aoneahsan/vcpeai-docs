@@ -1,38 +1,37 @@
 ---
-title: "Ver en Imagen-en-Pictura"
-sidebar_label: "Picture-in-Picture"
-description: "Presione Ctrl + Alt + P para poner el vídeo en una ventana de imagen en foto, o déjelo entrar por su cuenta cuando se desplaza hacia fuera; funciona sin una cuenta."
-unlisted: true
+title: Ver un vídeo en imagen en imagen
+sidebar_label: Imagen en imagen
+description: Conecta una cuenta y pulsa Ctrl + Alt + P para abrir el vídeo en una ventana flotante, o permite que se abra al desplazarte por la página.
 ---
 
-Prensa `Ctrl + Alt + P` para poner el video en una ventana Picture-in-Picture, y presionarlo de nuevo para traerlo de vuelta. Funciona sin una cuenta.
+Conecta una cuenta y pulsa `Ctrl + Alt + P` para abrir el vídeo en una ventana de imagen en imagen. Vuelve a pulsar para devolverlo a la página.
 
-## Úsalo. {#use-it}
+## Cómo usarla
 
-1. Empieza el video.
-2. Prensa `Ctrl + Alt + P`.
-3. Cambia a otra pestaña. El video sigue jugando en su propia pequeña ventana.
-4. Prensa `Ctrl + Alt + P` otra vez para salir de Picture-in-Picture.
+1. Reproduce el vídeo.
+2. Pulsa `Ctrl + Alt + P`.
+3. Cambia a otra pestaña. El vídeo sigue reproduciéndose en su propia ventana pequeña.
+4. Pulsa `Ctrl + Alt + P` de nuevo para salir.
 
-Las llaves se quedan con él: `]` y `[` cambiar la velocidad de la pequeña ventana también, y el resto de los controles de velocidad siguen funcionando mientras está en Picture-in-Picture.
+Los atajos siguen funcionando: `]` y `[` también cambian la velocidad de la ventana pequeña, y los demás controles de velocidad permanecen disponibles.
 
-## Entra por su cuenta cuando te desplazas {#enter-on-its-own-when-you-scroll}
+## Abrirla automáticamente al desplazarte
 
-En una larga página el vídeo se desplaza hacia fuera de la vista cuando lee el texto debajo de él. La extensión puede llevarlo a Picture-in-Picture por su cuenta cuando eso sucede.
+En una página larga, el vídeo puede salir de la pantalla mientras lees el texto de abajo. La extensión puede abrirlo automáticamente en imagen en imagen cuando eso ocurre.
 
-1. Abrir configuración e ir a la pestaña Avanzado.
-2. Encontrar **Funciones de reproducción**.
-3. Asegúrate **Picture-in-Picture** está encendido.
-4. Enciende **Auto-enter PiP on Scroll**.
+1. Abre Configuración y entra en la pestaña Avanzado.
+2. Busca **Funciones de reproducción**.
+3. Comprueba que **Imagen en imagen** esté activada.
+4. Activa **Entrar automáticamente en imagen en imagen al desplazarte**.
 
-## Claves relacionadas {#related-keys}
+## Atajos relacionados
 
-| Clave            | Lo que hace                                                |
-| ---------------- | ---------------------------------------------------------- |
-| `Ctrl + Alt + P` | Imagen en foto o apagada                                   |
-| `Ctrl + Alt + Z` | Modo de teatro en o apagado                                |
-| `]` / `[`        | 0.1x más rápido o más lento, en la pequeña ventana también |
+| Atajo | Acción |
+|---|---|
+| `Ctrl + Alt + P` | Activar o desactivar imagen en imagen |
+| `Ctrl + Alt + Z` | Activar o desactivar el modo cine |
+| `]` / `[` | Aumentar o reducir la velocidad 0,1x, también en la ventana pequeña |
 
-Para mover a cualquiera de ellos, empezar desde [Atajos predeterminados](/docs/keyboard-shortcuts/defaults) y seguir [Cambiar un atajo](/docs/keyboard-shortcuts/rebinding).
+Para cambiar un atajo, consulta [Atajos predeterminados](/docs/keyboard-shortcuts/defaults) y [Cambiar un atajo](/docs/keyboard-shortcuts/rebinding).
 
-[Auto-skip](/docs/user-guide/auto-skip) viene después.
+Siguiente: [Salto automático](/docs/user-guide/auto-skip).

@@ -1,50 +1,49 @@
 ---
-title: "Características AI y lo que envían"
-sidebar_label: "Características AI"
-description: "Los resúmenes de vídeo y la ayuda de escritura LinkedIn se ejecutan en el subsidio compartido, su propia tecla OpenAI o Anthropic, o un modelo local. Hablar se ejecuta sólo con el subsidio compartido. Esto es lo que cada uno envía."
-unlisted: true
+title: Funciones de IA y datos que envían
+sidebar_label: Funciones de IA
+description: "Resúmenes, ayuda para escribir en LinkedIn y Speak: usa el cupo compartido, tu clave de OpenAI o Anthropic, o un modelo local; conoce qué envía cada opción."
 ---
 
-Video Controls Plus tiene tres características de AI: un resumen de un video YouTube hecho a partir de sus capciones, escribiendo ayuda en LinkedIn, y Habla, que convierte lo que dices en una nota. Cada uno funciona sólo cuando usted comienza. Su propia clave o un modelo local no necesita ninguna cuenta, y el subsidio compartido y Habla necesita un [cuenta conectada](/docs/account-and-sync).
+Video Controls Plus tiene tres funciones de IA: resumir un vídeo de YouTube a partir de sus subtítulos, ayudar a escribir en LinkedIn y convertir lo que dictas con Speak en una nota. Solo se ejecutan cuando las inicias. Tu propia clave o un modelo local no requieren cuenta; el cupo compartido y Speak necesitan una [cuenta conectada](/docs/account-and-sync).
 
-Abra el popup en una página de reloj YouTube y presione **Summarize este vídeo**. La escritura de ayuda comienza en LinkedIn ([Página de LinkedIn](/docs/platforms/linkedin)). Cada control de reproducción funciona sin AI.
+Abre el popup mientras ves un vídeo de YouTube y pulsa **Resumir este vídeo**. La ayuda para escribir se inicia en LinkedIn ([página de LinkedIn](/docs/platforms/linkedin)). Los controles de reproducción funcionan sin IA.
 
-## Tres maneras de ejecutarlo {#three-ways-to-run-it}
+## Tres formas de usarla {#three-ways-to-run-it}
 
-Elija uno en el **AI provider** tarjeta, en Ajustes → **Características de la AI**.
+Elige una opción en la tarjeta **Proveedor de IA**, en Configuración → **Funciones de IA**.
 
-| Opción en la tarjeta                         | Lo que necesitas            | Donde va tu texto                                                                                                                           |
-| -------------------------------------------- | --------------------------- | ------------------------------------------------------------------------------------------------------------------------------------------- |
-| **Prestaciones compartidas**                 | Una cuenta conectada        | Al servidor Video Controls Plus, que lo envía a Anthropic. Sólo en Pro o Team, cuando esa ruta no está disponible, va a OpenAI en su lugar. |
-| **Tu llave OpenAI** o **Tu llave Anthropic** | Tu clave de API, sin cuenta | Directamente desde su navegador a ese proveedor                                                                                             |
-| **Local (Ollama)**                           | Ollama en tu máquina        | En ninguna parte. Se queda en tu dispositivo.                                                                                               |
+| Opción | Qué necesitas | Adónde va tu texto |
+|---|---|---|
+| **Cupo compartido** | Una cuenta conectada | Al servidor de Video Controls Plus, que lo envía a Anthropic. Solo en Pro o Team, si esa ruta no está disponible, se envía a OpenAI. |
+| **Tu clave de OpenAI** o **Tu clave de Anthropic** | Tu clave de API, sin cuenta | Directamente desde el navegador al proveedor elegido |
+| **Local (Ollama)** | Ollama en tu equipo | A ninguna parte; permanece en tu dispositivo |
 
-Un resumen, una respuesta por escrito de LinkedIn o una propuesta de Hable usa 1 de las carreras diarias de su plan en el subsidio compartido, y la tarjeta AI del popup muestra cuántos has utilizado hoy. Cada plan funciona diariamente y su nivel de IA (Spark, Pulse o Surge) están en [Planes](https://vcpeai.aoneahsan.com/plans).
+Un resumen, una respuesta de escritura para LinkedIn o una propuesta de Speak consume una de las ejecuciones diarias de tu plan en el cupo compartido. La tarjeta de IA del popup muestra las que usaste hoy. Los cupos y niveles Spark, Pulse y Surge de cada plan están en [Planes](https://vcpeai.aoneahsan.com/plans).
 
-Libre, AI a veces pausa. La tarjeta dice "AI está descansando hasta ...", sus carreras están intactas, y todo lo demás funciona. En Pro y Team la carrera va a un segundo proveedor, y su propia clave y un modelo local no tienen límite del equipo.
+En Free, la IA a veces se pausa. La tarjeta indica «La IA descansa hasta…», no consume tus ejecuciones y los demás controles siguen funcionando. En Pro y Team, la solicitud usa otro proveedor; tu propia clave y un modelo local no tienen límite impuesto por el equipo.
 
-## Habla. {#speak}
+## Speak
 
-Dilo, entonces compruebe lo que fue escrito antes de que nada se salve. Hablar es en tres lugares:
+Dicta y revisa lo escrito antes de guardar nada. Speak aparece en tres lugares:
 
-- **La extensión:** **Habla una nota.** en el widget **Herramientas** tab, en cualquier video. Pinta la nota en ese momento del vídeo.
-- **El sitio web:** Notas, vocabulario, solicitudes de contacto y funciones.
-- **La aplicación Android:** las mismas cuatro páginas.
+- **Extensión:** **Dictar una nota** en Herramientas del widget, sobre cualquier vídeo. La nota queda vinculada a ese momento.
+- **Sitio web:** Notas, Tarjetas de estudio, Contacto y Solicitudes de funciones.
+- **Aplicación de Android:** las mismas cuatro páginas.
 
-Una grabación es de hasta 2 minutos. La primera vez, la extensión abre una página, "Permitir el micrófono para hablar", para preguntar una vez. Una grabación donde no se oyó nada, o que no subió, no utiliza ninguna ejecución. Hable sólo sobre el subsidio compartido.
+Puedes grabar hasta dos minutos. La primera vez, la extensión abre «Permitir el micrófono para Speak» para pedir acceso. Una grabación sin voz detectada o que no se pudo subir no consume ejecuciones. Speak solo funciona con el cupo compartido.
 
-## Lo que se envía {#what-is-sent}
+## Qué se envía
 
-| Característica             | Lo que se envía                                                                                                                                                                |
-| -------------------------- | ------------------------------------------------------------------------------------------------------------------------------------------------------------------------------ |
-| Resumen                    | El texto de la capción o transcripción del vídeo                                                                                                                               |
-| LinkedIn escribiendo ayuda | El texto que estás redactando                                                                                                                                                  |
-| Habla.                     | Su grabación, a nuestro servidor, que envía el audio para una transcripción y luego sólo las transcripciones a la AI (ver [Tres maneras de ejecutarlo](#three-ways-to-run-it)) |
+| Función | Datos enviados |
+|---|---|
+| Resumen de vídeo | Texto de subtítulos o transcripción del vídeo |
+| Ayuda de escritura en LinkedIn | El texto que estás redactando |
+| Speak | La grabación a nuestro servidor, que envía el audio para transcribirlo y después solo la transcripción a la IA (consulta [Tres formas de usarla](#three-ways-to-run-it)) |
 
-Mientras graba, el propio reconocimiento de voz de su navegador también puede enviar su voz al fabricante de su navegador. El video en sí nunca es enviado.
+Mientras grabas, el reconocimiento de voz de tu navegador puede enviar la voz al fabricante del navegador. Nunca se envía el vídeo en sí.
 
-## Lo que se mantiene {#what-is-kept}
+## Qué se conserva
 
-Su grabación, sus transcripciones y la propuesta se eliminan dentro de 24 horas, o a la vez cuando pulsa **Disco**, y si nuestro almacenamiento de archivos no puede ser alcanzado en ese momento, el archivo de audio se retira al siguiente cheque por hora. Para un resumen o ayuda de escritura, el equipo no almacena el texto que envía o la respuesta. Para cada pago compartido, el servidor mantiene un registro de uso durante 13 meses, sin su texto, y un recuento de las carreras de hoy. Una clave que agrega estancias en su navegador y va sólo a su proveedor.
+Tu grabación, sus transcripciones y la propuesta se eliminan en un máximo de 24 horas o inmediatamente al pulsar **Descartar**. Si nuestro almacenamiento no está disponible en ese momento, el audio se elimina en la siguiente comprobación por hora. El equipo no guarda el texto ni la respuesta de los resúmenes o la ayuda para escribir. Por cada ejecución del cupo compartido, el servidor conserva durante 13 meses un registro de uso sin tu texto y el número de ejecuciones de hoy. Una clave que añadas permanece en tu navegador y solo se envía a su proveedor.
 
-Sin AI, un resumen se remonta al generador incorporado de la extensión, sin modelo. El micrófono y todo lo demás están encendidos [Privacidad y permisos](/docs/privacy-and-permissions).
+Sin IA, el resumen usa el generador integrado de la extensión, sin modelo. Consulta el micrófono y los demás permisos en [Privacidad y permisos](/docs/privacy-and-permissions).

@@ -1,71 +1,70 @@
 ---
-title: "Video Controls Plus en Netflix"
-sidebar_label: "Netflix"
-description: "La velocidad y los controles centrales funcionan en Netflix; los extras Netflix están apagados hasta que los enciendas, y las teclas de recuperación se apoderan en un caso."
-unlisted: true
+title: Video Controls Plus en Netflix
+sidebar_label: Netflix
+description: Velocidad y controles generales funcionan en Netflix; las funciones especiales empiezan desactivadas y los atajos de recuperación actúan en un caso concreto.
 ---
 
-La velocidad y los controles centrales funcionan en Netflix; los extras Netflix están apagados hasta que los enciendas. Los cambias en la pestaña Características Netflix en Ajustes, que necesita una cuenta, y [Cuenta y sincronización](/docs/account-and-sync) cubre eso.
+En Netflix funcionan la velocidad y los controles generales. Las funciones especiales empiezan desactivadas y se encienden en la pestaña Funciones de Netflix de Configuración, que requiere una cuenta. Consulta [Cuenta y sincronización](/docs/account-and-sync).
 
-## Los controles básicos {#the-core-controls}
+## Controles generales
 
-Prensa `]` para ir 0.1x más rápido y `[` ir 0.1x más lento, con o sin una cuenta.
+Pulsa `]` para acelerar 0,1x o `[` para ralentizar 0,1x, con o sin cuenta.
 
-## Los extras Netflix son opt-in {#netflix-extras-are-opt-in}
+## Funciones especiales opcionales
 
-1. Abrir configuración.
-2. Ir a la **Características Netflix** tab.
-3. Conecta una cuenta si la pestaña te pide.
-4. Enciende un extra con su interruptor de habilitación.
-5. Recarga la página Netflix.
+1. Abre Configuración.
+2. Entra en **Funciones de Netflix**.
+3. Conecta una cuenta si la pestaña te lo pide.
+4. Enciende la función con su interruptor.
+5. Recarga la página de Netflix.
 
-Los interruptores de encendido / apagado se aplican después de esa recarga. Las acciones del menú no esperan a uno: abrir un panel, iniciar un temporizador, exportar o descargar desde el widget o el menú de clic derecho sucede inmediatamente.
+Los interruptores se aplican después de recargar. Las acciones del menú no esperan: abrir un panel, iniciar un temporizador, exportar o descargar desde el widget o el menú contextual ocurre al instante.
 
-Cada extra también tiene un interruptor "Mostrar en el menú de clic derecho". Los extras solo funcionan en netflix.com.
+Cada función también tiene un interruptor para mostrarla en el menú contextual. Solo funcionan en netflix.com. La [guía de las 50 funciones de Netflix](https://vcpeai.aoneahsan.com/blog/netflix-extras-guide) describe cada una y los límites impuestos por la protección de Netflix.
 
-| Extra               | Lo que hace                                           | Default |
-| ------------------- | ----------------------------------------------------- | ------- |
-| Skip Recap          | Skips "Previously on..." recaps                       | Fuera.  |
-| Dual Subtitles      | Muestra dos idiomas subtítulos a la vez               | Fuera.  |
-| Subtitle Downloader | Descargas subtítulos como SRT o VTT                   | Fuera.  |
-| Hora del sueño      | Pausas después del número de minutos que estableces   | Fuera.  |
-| Episode Navigator   | Movimientos entre episodios                           | Fuera.  |
-| Límites de reloj    | Establece un límite de visualización diario           | Fuera.  |
-| Diálogo Boost       | Aumenta las voces relativas a la música y los efectos | Fuera.  |
+| Función | Acción | Estado inicial |
+|---|---|---|
+| Saltar recapitulación | Salta el resumen «Anteriormente…» | Desactivada |
+| Subtítulos dobles | Muestra dos idiomas a la vez | Desactivada |
+| Descargar subtítulos | Los guarda en SRT o VTT | Desactivada |
+| Temporizador de sueño | Pausa después de los minutos elegidos | Desactivada |
+| Navegador de episodios | Cambia de episodio | Desactivada |
+| Límites de visualización | Establece un límite diario | Desactivada |
+| Realzar diálogos | Aumenta las voces frente a la música y los efectos | Desactivada |
 
-Watch Limits cuenta sólo mientras un vídeo está jugando en una pestaña visible. Una pestaña de fondo no utiliza el límite diario.
+El límite de visualización solo cuenta mientras un vídeo se reproduce en una pestaña visible. Una pestaña en segundo plano no consume el cupo diario.
 
-## Controles de recuperación Netflix {#netflix-recovery-controls}
+## Controles de recuperación de Netflix
 
-Netflix a veces muestra un "dispositivo no forma parte de la pantalla de Netflix Household". Cuando la extensión aclara esa pantalla, Netflix mantiene sus propios controles de jugador ocultos. Sólo entonces se activan los controles del teclado.
+A veces Netflix muestra una pantalla que indica que el dispositivo no forma parte de «Netflix Household». Cuando la extensión la despeja, Netflix mantiene ocultos sus controles. Solo entonces se activan los atajos de recuperación.
 
-Un pequeño aviso en el jugador le dice que están en y enlaces a la lista completa.
+Un pequeño aviso sobre el reproductor te indica que están activos y enlaza a la lista completa.
 
-| Clave                     | Lo que hace                        |
-| ------------------------- | ---------------------------------- |
-| `Space`                   | Jugar o pausar                     |
-| `←` / `→`                 | Atrás o adelante 10 segundos       |
-| `Shift + ←` / `Shift + →` | Atrás o adelante 1 minuto          |
-| `Ctrl + ←` / `Ctrl + →`   | Atrás o adelante 5 minutos         |
-| `Ctrl + 0`                | Saltar al comienzo                 |
-| `Ctrl + 1` a `Ctrl + 9`   | Salto del 10% al 90%               |
-| `Ctrl + -`                | Saltar a 1 minuto antes del final  |
-| `↑` / `↓`                 | Volumen arriba o abajo             |
-| `M`                       | Mute o unmute                      |
-| `F`                       | Pantalla completa en o apagado     |
-| `V`                       | Next subtitle track, including off |
-| `B`                       | Siguiente pista de audio           |
+| Atajo | Acción |
+|---|---|
+| `Space` | Reproducir o pausar |
+| `←` / `→` | Retroceder o avanzar 10 segundos |
+| `Shift + ←` / `Shift + →` | Retroceder o avanzar 1 minuto |
+| `Ctrl + ←` / `Ctrl + →` | Retroceder o avanzar 5 minutos |
+| `Ctrl + 0` | Ir al inicio |
+| `Ctrl + 1` a `Ctrl + 9` | Ir del 10 % al 90 % |
+| `Ctrl + -` | Ir a un minuto antes del final |
+| `↑` / `↓` | Subir o bajar volumen |
+| `M` | Silenciar o activar el sonido |
+| `F` | Activar o desactivar pantalla completa |
+| `V` | Pasar a la siguiente pista de subtítulos, incluida la opción de quitarlos |
+| `B` | Pasar a la siguiente pista de audio |
 
-Cada una de estas teclas se pueden cambiar en Ajustes, en la pestaña Atajos de teclado, bajo **Controles de recuperación Netflix**. Una llave puede pertenecer a sólo un atajo, por lo que una clave de recuperación no puede también ser uno de sus atajos generales.
+Puedes cambiar estos atajos en Configuración → Atajos de teclado → **Controles de recuperación de Netflix**. Cada combinación pertenece a una sola acción; un atajo de recuperación no puede duplicar uno general.
 
-## Limits {#limits}
+## Límites
 
-En cualquier otro momento estas llaves son propias de Netflix.
+Fuera de este caso, Netflix conserva sus propios controles de teclado.
 
-La extensión no corrige cada error Netflix. Limpia la pantalla de Household y le da controles de teclado.
+La extensión no resuelve todos los errores de Netflix. Despeja la pantalla de Household y te proporciona controles por teclado.
 
-## Claves relacionadas {#related-keys}
+## Atajos relacionados
 
-Las llaves generales están en [Atajos predeterminados](/docs/keyboard-shortcuts/defaults), y cualquier clave, recuperación o general, se mueve [Cambiar un atajo](/docs/keyboard-shortcuts/rebinding).
+Consulta los atajos generales en [Atajos predeterminados](/docs/keyboard-shortcuts/defaults) y modifica cualquiera, general o de recuperación, en [Cambiar un atajo](/docs/keyboard-shortcuts/rebinding).
 
 Siguiente sitio: [LinkedIn](/docs/platforms/linkedin).

@@ -1,51 +1,50 @@
 ---
-title: "Comparte un momento y observa juntos"
-sidebar_label: "Compartir y ver juntos"
-description: "Comparta un enlace en el momento actual con un código QR, registre un clip cuadrado o vertical, y comience una fiesta de reloj para hasta 20 personas que mantiene el juego, pausa, búsqueda y velocidad en el paso."
-unlisted: true
+title: Compartir un momento y ver vídeos juntos
+sidebar_label: Compartir y ver juntos
+description: Comparte un enlace al momento actual con QR, graba un clip cuadrado o vertical y organiza una sesión sincronizada para hasta 20 personas.
 ---
 
-**Compartir & ver juntos** en la pestaña Herramientas del widget comparte un enlace en el momento actual y registra un clip con forma de postes sociales. También comienza una fiesta de relojes. Compartir un momento no necesita cuenta, mientras que un clip social y una fiesta de reloj necesitan [a una cuenta conectada](/docs/account-and-sync), y en una fiesta cada persona que se une necesita uno.
+**Compartir y ver juntos**, en Herramientas del widget, crea un enlace al momento actual, graba un clip para redes sociales y organiza una sesión compartida. El enlace no requiere cuenta; los clips y sesiones sí necesitan [una cuenta conectada](/docs/account-and-sync). Cada participante de la sesión también necesita una.
 
-## Comparte este momento {#share-this-moment}
+## Compartir este momento
 
-Prensa **Comparte este momento**. El panel muestra el enlace en el momento actual, el mismo enlace `Ctrl + Alt + X` copias.
+Pulsa **Compartir este momento**. El panel muestra un enlace al tiempo actual, igual que el que copia `Ctrl + Alt + X`.
 
-- **Copiar el enlace** Lo pone en tu portapapeles.
-- El **Código QR** está hecho en tu dispositivo. **Guardar código QR** lo salva como un PNG.
-- Los botones a continuación lo envían a X, Facebook, LinkedIn, WhatsApp, Telegram, Reddit o Email.
+- **Copiar enlace** lo lleva al portapapeles.
+- El **código QR** se crea en tu dispositivo. **Guardar código QR** lo descarga como PNG.
+- Los botones inferiores lo comparten en X, Facebook, LinkedIn, WhatsApp, Telegram, Reddit o por correo.
 
-## Clip para social {#clip-for-social}
+## Clip para redes sociales
 
-Escoge un **Forma de clip**: Original, cuadrado 1:1 o vertical 9:16. Entonces presione **Clip para social**. Se registra con el [Grabador de clips](/docs/user-guide/capture-and-export), entrelazado al centro de la imagen, y **■ Parar clip** termina. No funciona en vídeo protegido.
+Elige una **Forma del clip**: Original, Cuadrado 1:1 o Vertical 9:16. Pulsa **Clip para redes**. Se graba con el [grabador de clips](/docs/user-guide/capture-and-export), recortando el centro de la imagen. **■ Detener clip** finaliza. No funciona en vídeo protegido.
 
-## Iniciar una fiesta de reloj {#start-a-watch-party}
+## Iniciar una sesión compartida
 
-1. Abre el video que quieres ver juntos.
-2. Prensa **Iniciar una fiesta de reloj**.
-3. Prensa **Copiar el enlace de invitación**, o compartir el código de partido de 10 caracteres.
-4. Un amigo que recibe el enlace de invitación ve una página web llamada "Usted está invitado a ver juntos" y prensa **Abrir el vídeo y unirse**. Un amigo con el código abre el mismo vídeo, lo escribe bajo **Código de partido** y prensas **Únase**.
+1. Abre el vídeo que quieres ver con otras personas.
+2. Pulsa **Iniciar sesión compartida**.
+3. Pulsa **Copiar enlace de invitación** o comparte el código de diez caracteres.
+4. Quien reciba el enlace verá una página llamada «Te invitaron a ver juntos» y pulsará **Abrir el vídeo y unirse**. Con el código, abre el mismo vídeo, lo escribe en **Código de sesión** y pulsa **Unirse**.
 
-Mientras la fiesta corre, el widget muestra quién está allí y el código. Juega, pausa, un salto a un nuevo tiempo y la velocidad se mantiene en el paso para todos, hasta 20 personas.
+Durante la sesión, el widget muestra quién está y el código. La reproducción, la pausa, los saltos y la velocidad se sincronizan para hasta 20 personas.
 
-**Vete.** te lleva fuera. **Fin de la fiesta** es para el anfitrión, y una fiesta también termina por sí misma después de 6 horas. Una persona puede tener hasta 3 fiestas corriendo a la vez.
+**Salir** te retira. **Terminar sesión** está disponible para quien la organiza. También termina sola después de seis horas. Cada persona puede tener hasta tres sesiones en marcha.
 
-No hay charla. Usa todo lo que ya hablas.
+No hay chat; pueden usar el medio por el que ya hablan.
 
-## Lo que una fiesta envía y guarda {#what-a-party-sends-and-keeps}
+## Qué se envía y conserva
 
-La sincronización en vivo pasa por Supabase en tiempo real y sólo los miembros del partido lo reciben. Los mensajes de juego, pausa, salto y velocidad no se almacenan.
+La sincronización en vivo usa Supabase Realtime y solo la reciben los participantes. Los mensajes de reproducción, pausa, salto y velocidad no se almacenan.
 
-La propia fiesta mantiene la dirección y el título del vídeo y el código de partido. También mantiene a quienes se unieron y cuándo. El [página de privacidad](/docs/privacy-and-permissions) tiene los detalles.
+La sesión conserva la dirección y el título del vídeo y el código. También registra quién se unió y cuándo. Consulta [Privacidad y permisos](/docs/privacy-and-permissions).
 
-## Mensajes que puede ver {#messages-you-may-see}
+## Mensajes que puedes ver
 
-| Mensaje                                                         | Lo que significa                                                         |
-| --------------------------------------------------------------- | ------------------------------------------------------------------------ |
-| "Esta fiesta de relojes ha terminado o el código no está bien." | Revise el código, o pregunte al host por uno nuevo                       |
-| "Esta fiesta de relojes está llena (20 personas)."              | El partido ha llegado a 20 personas                                      |
-| "Ya tienes 3 fiestas de reloj funcionando. Final primero".      | Termina una fiesta antes de empezar otra                                 |
-| "Conecte su cuenta para usar fiestas de reloj."                 | Conecta una cuenta, luego intenta de nuevo                               |
-| "Un código de partido es 10 letras y números."                  | El código que escriba es la longitud incorrecta o tiene otros caracteres |
+| Mensaje | Significado |
+|---|---|
+| «Esta sesión terminó o el código es incorrecto». | Comprueba el código o pide otro a quien la organiza |
+| «Esta sesión está llena (20 personas)». | Ya hay 20 participantes |
+| «Ya tienes 3 sesiones en marcha. Termina una primero». | Cierra una antes de iniciar otra |
+| «Conecta tu cuenta para usar sesiones compartidas». | Conecta una cuenta y vuelve a intentarlo |
+| «El código tiene 10 letras y números». | El código escrito tiene otra longitud o caracteres distintos |
 
 Siguiente: [Atajos predeterminados](/docs/keyboard-shortcuts/defaults).

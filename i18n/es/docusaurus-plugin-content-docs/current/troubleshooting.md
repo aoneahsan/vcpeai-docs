@@ -1,131 +1,130 @@
 ---
-title: "Cuando Video Controls Plus no está trabajando en un sitio"
-sidebar_label: "Solución de problemas"
-description: "Qué comprobar cuando Video Controls Plus no aparece en un sitio, una llave no hace nada, la conexión falla, o un ajuste no tiene efecto."
-unlisted: true
+title: Cuando Video Controls Plus no funciona en un sitio
+sidebar_label: Solución de problemas
+description: Comprueba por qué no aparecen los controles, no responde un atajo, falla la conexión o un ajuste no tiene efecto.
 ---
 
-Compruebe que el sitio no se detiene en el popup, a continuación, recargar la página. Eso es lo primero que hay que comprobar, y el resto está abajo, cada uno como lo que ves, por qué, y qué hacer.
+Comprueba primero en el popup que el sitio no esté en pausa y recarga la página. Si eso no lo resuelve, busca a continuación lo que ves, su causa y los pasos para solucionarlo.
 
-## Los controles no aparecen en un sitio {#the-controls-do-not-appear-on-a-site}
+## Los controles no aparecen en un sitio
 
-**¿Por qué?** el sitio se detiene, la extensión no está habilitada allí, o el widget está oculto.
+**Causa:** el sitio está en pausa, la extensión no está habilitada allí o el widget está oculto.
 
 1. Abre el popup en ese sitio.
-2. Si aparece **Pausa**, haga clic **Resumen**.
-3. Si aparece **No está permitido**, haga clic **Permitir en este sitio**.
+2. Si muestra **En pausa**, pulsa **Reanudar**.
+3. Si muestra **No habilitado**, pulsa **Habilitar en este sitio**.
 4. Recarga la página.
-5. Prensa `Esc` o `Ctrl + Alt + H` en caso de que el widget esté escondido.
+5. Pulsa `Esc` o `Ctrl + Alt + H` por si el widget estaba oculto.
 
-Si la página no tiene vídeo HTML5 estándar, no hay nada para la extensión para controlar, y [Otros sitios](/docs/platforms/other-sites) dice en qué sitios funciona.
+Si la página no contiene un vídeo HTML5 estándar, la extensión no tiene nada que controlar. [Otros sitios](/docs/platforms/other-sites) explica dónde funciona.
 
-## Una letra o clave digital no hace nada {#a-letter-or-digit-key-does-nothing}
+## Una letra o un número no hace nada
 
-**¿Por qué?** letras y claves de dígitos necesitan `Ctrl + Alt`Sólo `[`, `]`, `=`, `\`, `'`, `,`, `.` y `Esc` trabajar solo.
+**Causa:** las letras y los números requieren `Ctrl + Alt`. Solo `[`, `]`, `=`, `\`, `'`, `,`, `.` y `Esc` funcionan solos.
 
-1. Presione la tecla con `Ctrl + Alt`Por ejemplo `Ctrl + Alt + P`.
-2. Si todavía no hace nada, abra Ajustes, vaya a la pestaña Atajos de teclado, y compruebe que el atajo y su sección están activados.
+1. Pulsa la combinación completa, por ejemplo `Ctrl + Alt + P`.
+2. Si aún no responde, abre Configuración → Atajos de teclado y comprueba que estén activados tanto el atajo como su sección.
 
-La mesa completa está en [Atajos predeterminados](/docs/keyboard-shortcuts/defaults).
+La tabla completa está en [Atajos predeterminados](/docs/keyboard-shortcuts/defaults).
 
-## Bodas, impulso de audio, filtros o capturas de pantalla no están disponibles {#loop-audio-boost-filters-or-screenshots-are-unavailable}
+## No están disponibles el bucle, el audio, los filtros o las capturas
 
-**¿Por qué?** estos abiertos después de conectar la extensión a su cuenta. También es auto-esquip. La clave del marcador, `Ctrl + Alt + O`, también trabaja sin una cuenta y ahorra localmente.
+**Causa:** se habilitan al conectar la extensión a tu cuenta, al igual que el salto automático. El atajo de marcadores `Ctrl + Alt + O` sí funciona sin cuenta y los guarda en este navegador.
 
-1. Abrir Configuración e ir a la pestaña Cuenta & Sync.
-2. Prensa **Conectarse a su cuenta**, y confirmar en el sitio web.
+1. Abre Configuración → Cuenta y sincronización.
+2. Pulsa **Conectar con tu cuenta** y confirma en el sitio web.
 
-Esto es lo mismo en Chrome, Edge y Firefox. See [los pasos y lo que la conexión añade](/docs/account-and-sync).
+Funciona igual en Chrome, Edge y Firefox. Consulta [los pasos y las funciones de la cuenta](/docs/account-and-sync).
 
-## La pestaña de conexión no abrió {#the-connect-tab-did-not-open}
+## No se abrió la pestaña de conexión
 
-**¿Por qué?** el navegador no abrió la pestaña, o lo cerró.
+**Causa:** el navegador no la abrió o la cerraste.
 
-1. Vuelve a la extensión. Muestra **Esperando que te conectes...** y tu código.
-2. Prensa **Abra la página de nuevo**.
+1. Vuelve a la extensión. Muestra **Esperando a que conectes…** y tu código.
+2. Pulsa **Abrir la página de nuevo**.
 
-## El código en el sitio web es diferente {#the-code-on-the-website-is-different}
+## El código del sitio web es distinto
 
-**¿Por qué?** la página pertenece a otra solicitud, no la que este navegador está esperando.
+**Causa:** la página corresponde a otra solicitud, no a la que espera este navegador.
 
-1. Prensa **Cancelar** en la página.
-2. Empieza de nuevo desde la extensión con **Conectarse a su cuenta**.
+1. Pulsa **Cancelar** en la página.
+2. Empieza de nuevo desde **Conectar con tu cuenta** en la extensión.
 
-No presione **Conectar este navegador** mientras que los dos códigos difieren.
+No pulses **Conectar este navegador** si los códigos son distintos.
 
-## La solicitud de conexión se agotó del tiempo {#the-connect-request-ran-out-of-time}
+## Se agotó el tiempo para conectar
 
-**¿Por qué?** el código dura 10 minutos, y después de que el sitio web muestra **Esta solicitud ya no es válida.** y la extensión dice que la solicitud se quedó sin tiempo.
+**Causa:** el código dura diez minutos. Después, el sitio muestra **Esta solicitud ya no es válida** y la extensión indica que se agotó el tiempo.
 
 1. Vuelve a la extensión.
-2. Prensa **Inténtalo de nuevo.**, y confirmar en el sitio web dentro de 10 minutos.
+2. Pulsa **Intentar de nuevo** y confirma en el sitio dentro de diez minutos.
 
-## Demasiados intentos {#too-many-attempts}
+## Demasiados intentos
 
-**¿Por qué?** la extensión pidió conectar demasiadas veces en un corto tiempo.
+**Causa:** la extensión pidió conectarse muchas veces en poco tiempo.
 
 1. Espera unos minutos.
-2. Prensa **Inténtalo de nuevo.**.
+2. Pulsa **Intentar de nuevo**.
 
-## Conectado, pero sus listas están vacías {#connected-but-your-lists-are-empty}
+## La cuenta está conectada, pero las listas están vacías
 
-**¿Por qué?** una cuenta que existió antes de que 16.0.0 abra vacío hasta que terminemos de mover los datos de la nube vieja, que sigue este lanzamiento. Nada guardado en su navegador es afectado.
+**Causa:** una cuenta anterior a 16.0.0 aparece vacía hasta que terminemos de trasladar los datos antiguos de la nube, después de esta versión. Lo guardado en tu navegador no cambia.
 
-No hay paso para este. [Cuenta y sincronización](/docs/account-and-sync) dice lo que tiene una cuenta.
+No hay ningún paso que puedas realizar ahora. [Cuenta y sincronización](/docs/account-and-sync) explica qué almacena la cuenta.
 
-## En Firefox, una carga o una carrera de IA dice que Firefox necesita su permiso {#on-firefox-an-upload-or-an-ai-run-says-firefox-needs-your-permission}
+## En Firefox, una carga o función de IA pide permiso
 
-**¿Por qué?** en Firefox, el contenido de la página (una captura de pantalla que subes, una transcripción que guardas a la cuenta, capciones para una ejecución de AI) se envía sólo después de permitir "contenido web". El add-on pregunta la primera vez que usas uno de esos.
+**Causa:** Firefox solo envía contenido de página (una captura subida, una transcripción guardada o subtítulos para IA) tras permitir «contenido de sitios web». La extensión lo pide al usar una de esas funciones por primera vez.
 
 1. Permítelo cuando Firefox pregunte.
-2. O abre los permisos del add-on en Firefox y déjalo allí, luego prueba de nuevo.
+2. O abre los permisos de la extensión en Firefox, actívalo allí y vuelve a intentarlo.
 
-## La velocidad para en 4x {#the-speed-stops-at-4x}
+## La velocidad no pasa de 4x
 
-**¿Por qué?** el deslizador y el `[` y `]` Las llaves paran en 4x.
+**Causa:** el deslizador y las teclas `[` y `]` llegan hasta 4x.
 
-1. Abra el widget y escriba la velocidad en la entrada personalizada. Toma valores hasta 16x.
-2. O abrir Ajustes, ir a la pestaña General, y utilizar la **Velocidad personalizada (0.1x - 16x)** cajas.
+1. Escribe un valor hasta 16x en el campo personalizado del widget.
+2. O usa los campos **Velocidad personalizada (0,1x–16x)** en Configuración → General.
 
-## Un interruptor Netflix o LinkedIn no cambió nada {#a-netflix-or-linkedin-switch-changed-nothing}
+## Cambiaste un interruptor de Netflix o LinkedIn y no pasó nada
 
-**¿Por qué?** Los interruptores de encendido / apagado se aplican después de una recarga.
+**Causa:** los interruptores se aplican al recargar la página.
 
-1. Cambiar el interruptor en Ajustes.
-2. Recarga la página en ese sitio.
+1. Cambia el ajuste en Configuración.
+2. Recarga la página del sitio.
 
-En Netflix, cada extra comienza. See [Netflix](/docs/platforms/netflix).
+En Netflix todas las funciones especiales empiezan desactivadas. Consulta [Netflix](/docs/platforms/netflix).
 
-## La pestaña YouTube, Netflix o LinkedIn en Ajustes le pide que conecte {#the-youtube-netflix-or-linkedin-tab-in-settings-asks-you-to-connect}
+## Las pestañas de YouTube, Netflix o LinkedIn piden conectar la cuenta
 
-**¿Por qué?** esas pestañas necesitan una cuenta conectada, mientras que los extras YouTube y LinkedIn que están en por defecto todavía funcionan sin uno; sólo la pestaña donde los cambia se pregunta.
+**Causa:** esas pestañas de Configuración requieren cuenta. Las funciones de YouTube y LinkedIn que vienen activadas siguen funcionando sin ella; solo necesitas conectarte para cambiar sus interruptores.
 
-1. Conéctese en la pestaña Cuenta & Sync.
-2. Abre la pestaña otra vez.
+1. Conecta la cuenta desde Cuenta y sincronización.
+2. Vuelve a abrir la pestaña.
 
-## El widget está en inglés y Ajustes no {#the-widget-is-in-english-and-settings-is-not}
+## El widget muestra otro idioma que Configuración
 
-**¿Por qué?** el widget está en inglés hoy. Los ajustes y el popup están en inglés, español, francés y alemán.
+**Causa:** el widget sigue el idioma del navegador. Tiene etiquetas en inglés, español, francés y alemán; con otro idioma usa inglés.
 
-No hay paso para este. Es un límite de la construcción actual.
+Para cambiarlo, cambia el idioma del navegador y vuelve a abrir la página del vídeo.
 
-## Una nueva clave es rechazada {#a-new-key-is-refused}
+## Se rechaza un atajo nuevo
 
-**¿Por qué?** una llave puede pertenecer a sólo un atajo.
+**Causa:** cada combinación pertenece a una sola acción.
 
-1. Lee el mensaje. Nombra el atajo que sostiene la llave.
-2. Siga su enlace con ese atajo.
-3. Dale a ese atajo otra llave, o elige una llave diferente para la tuya.
+1. Lee el aviso: identifica la acción que ya usa esa combinación.
+2. Sigue el enlace a ese atajo.
+3. Cambia su tecla o elige otra para el tuyo.
 
-See [Cambiar un atajo](/docs/keyboard-shortcuts/rebinding).
+Consulta [Cambiar un atajo](/docs/keyboard-shortcuts/rebinding).
 
-## Tus atajos son diferentes en otro dispositivo {#your-shortcuts-are-different-on-another-device}
+## Los atajos son distintos en otro dispositivo
 
-**¿Por qué?** un dispositivo recoge tus llaves la próxima vez que abra Ajustes en él, mientras que está conectado a tu cuenta.
+**Causa:** un dispositivo recibe los atajos de tu cuenta la próxima vez que abras allí Configuración, siempre que esté conectado.
 
 1. Conecta la extensión en ese dispositivo.
-2. Abrir configuración.
+2. Abre Configuración.
 
-## Todavía está atrapado {#still-stuck}
+## Si sigues sin resolverlo
 
-Escribe al equipo a través del [página de contacto](https://vcpeai.aoneahsan.com/contact). Di qué sitio, qué navegador y qué clave.
+Escribe al equipo desde la [página de contacto](https://vcpeai.aoneahsan.com/contact). Indica el sitio, el navegador y la tecla.

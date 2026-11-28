@@ -1,66 +1,65 @@
 ---
-title: "Elija cómo aparecen los controles en la página"
-sidebar_label: "Visualización y widget"
-description: "Escoge el widget flotante o la notificación solamente, establece la posición, tamaño y cómo se abre, y elige un tema y un idioma."
-unlisted: true
+title: Elegir cómo aparecen los controles
+sidebar_label: Pantalla y widget
+description: Elige un widget flotante o solo avisos, ajusta su posición, tamaño y apertura y cambia el tema y el idioma.
 ---
 
-Usted elige cómo aparecen los controles en la página de Ajustes, en la pestaña General bajo **Modo de visualización**Funciona sin una cuenta.
+En Configuración → General → **Modo de visualización** eliges cómo aparecen los controles sobre la página. No requiere cuenta.
 
-## Modos de visualización {#display-modes}
+## Modos de visualización
 
-| Modo                | Lo que ves en la página                                                                                |
-| ------------------- | ------------------------------------------------------------------------------------------------------ |
-| Widget de flotación | El widget, un panel de control que puede arrastrar a cualquier lugar en la página. Este es el defecto. |
-| Notificación        | Un pequeño indicador de velocidad cuando la velocidad cambia, y ningún panel                           |
+| Modo | Qué aparece |
+|---|---|
+| Widget flotante | Panel de controles que puedes arrastrar a cualquier lugar. Es el modo inicial. |
+| Solo avisos | Un pequeño indicador cuando cambia la velocidad, sin panel |
 
-La pestaña Herramientas del widget tiene la misma opción bajo **Mostrar & Tema**, donde se etiquetan los dos modos **Flotación** y **Notificar**.
+Herramientas → **Pantalla y tema** del widget ofrece la misma elección como **Flotante** y **Avisos**.
 
-Notificación Sólo te queda cuando conduces todo desde el teclado, ya sabes tus llaves, y no quieres nada sentado en la parte superior de la página mientras juega el video.
+Solo avisos es útil si controlas todo con el teclado, conoces tus atajos y no quieres un panel encima del vídeo.
 
-## Ajustes del Widget {#widget-settings}
+## Ajustes del widget
 
-Estos están en la pestaña General, bajo el modo de visualización.
+Están debajo del modo de visualización en la pestaña General.
 
-| Ajuste              | Elecciones                                                                |
-| ------------------- | ------------------------------------------------------------------------- |
-| Posición del Widget | Izquierda superior, Izquierda superior, Izquierda inferior, Abajo derecho |
-| Widget Size         | Normal, Compacto, Minimal                                                 |
-| Abrir el Widget     | Click, Hover                                                              |
+| Ajuste | Opciones |
+|---|---|
+| Posición del widget | Arriba a la izquierda, arriba a la derecha, abajo a la izquierda, abajo a la derecha |
+| Tamaño del widget | Normal, Compacto, Mínimo |
+| Abrir widget al | Hacer clic o pasar el puntero |
 
-De la caja el widget es de tamaño normal y se abre en un clic.
+Al instalar, el widget tiene tamaño Normal y se abre con un clic.
 
-## Ocultar el widget {#hide-the-widget}
+## Ocultar el widget
 
-Prensa `Esc` o `Ctrl + Alt + H` para ocultar el widget, y presionar de nuevo para mostrarlo.
+Pulsa `Esc` o `Ctrl + Alt + H` para ocultarlo; vuelve a pulsar para mostrarlo.
 
-Para apagar toda la extensión en un sitio, utilice [Pausa por sitio](/docs/getting-started/pause-per-site).
+Para desactivar toda la extensión en un sitio, usa [Pausa por sitio](/docs/getting-started/pause-per-site).
 
-## Cambiar el tema {#change-the-theme}
+## Cambiar el tema
 
-Abra la pestaña Apariencia en Ajustes.
+Abre Apariencia en Configuración.
 
-| Opción                         | ¿Cuántos? |
-| ------------------------------ | --------- |
-| Esquemas de color              | 20        |
-| Familias de fuentes            | 11        |
-| Opciones de radio de fronteras | 6         |
-| Escalas de tamaño de la fuente | 5         |
+| Opción | Cantidad |
+|---|---|
+| Paletas de colores | 20 |
+| Familias tipográficas | 11 |
+| Radios de esquina | 6 |
+| Escalas de tamaño de letra | 5 |
 
-También hay un modo compacto y un interruptor de movimiento reducido. Las 11 fuentes vienen con la extensión, y ninguna de ellas está cargada de un servicio de fuentes remotas.
+También hay modo compacto y una opción para reducir el movimiento. Las once fuentes vienen incluidas en la extensión; ninguna se carga desde un servicio externo.
 
-## Cambiar el idioma {#change-the-language}
+## Cambiar el idioma
 
-Los ajustes y el popup están disponibles en inglés, español, francés y alemán: **Lenguaje autodetectado** sigue el idioma de su navegador, y **Idioma** te permite elegir uno mismo.
+Configuración y popup están disponibles en inglés, español, francés y alemán. **Detectar idioma automáticamente** sigue el del navegador; **Idioma** te permite elegirlo.
 
-El widget está en inglés hoy. Se mantiene en inglés cuando Settings está en español, francés o alemán.
+El widget sigue el idioma del navegador si es inglés, español, francés o alemán. Con otro idioma muestra inglés. La elección de idioma de Configuración no cambia el widget.
 
-## Claves relacionadas {#related-keys}
+## Atajos relacionados
 
-| Clave            | Lo que hace                 |
-| ---------------- | --------------------------- |
-| `Esc`            | Ocultar o mostrar el widget |
+| Atajo | Acción |
+|---|---|
+| `Esc` | Ocultar o mostrar el widget |
 | `Ctrl + Alt + H` | Ocultar o mostrar el widget |
-| `\`              | Mostrar la velocidad actual |
+| `\` | Mostrar la velocidad actual |
 
-Las teclas de inicio se enumeran en [Atajos predeterminados](/docs/keyboard-shortcuts/defaults), y [Cambiar un atajo](/docs/keyboard-shortcuts/rebinding) muestra cómo moverlos.
+Los atajos iniciales figuran en [Atajos predeterminados](/docs/keyboard-shortcuts/defaults). [Cambiar un atajo](/docs/keyboard-shortcuts/rebinding) explica cómo modificarlos.

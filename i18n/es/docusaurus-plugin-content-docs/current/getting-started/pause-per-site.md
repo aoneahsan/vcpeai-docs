@@ -1,41 +1,40 @@
 ---
-title: "Pausa la extensión en un sitio"
-sidebar_label: "Pausa por sitio"
-description: "Pausa Video Controls Plus en un solo sitio desde el popup, durante 1 hora, 4 horas, 1 día, 1 semana, o hasta que lo vuelvas a encender."
-unlisted: true
+title: Pausar la extensión en un sitio
+sidebar_label: Pausa por sitio
+description: Pausa Video Controls Plus en un solo sitio desde el popup durante 1 hora, 4 horas, 1 día, 1 semana o hasta que vuelvas a activarla.
 ---
 
-Abra el popup en el sitio y haga clic **Pausa en este sitio**. Eso apaga toda la extensión en ese sitio, sin widget y sin atajos, y nada cambia en sus otros sitios.
+Abre el popup en el sitio y pulsa **Pausar en este sitio**. Se desactiva toda la extensión allí: desaparecen el widget y los atajos. Los demás sitios no cambian.
 
-## Pausa un sitio {#pause-a-site}
+## Pausar un sitio
 
-1. Abra el sitio que desea pausar.
-2. Haga clic en el icono Video Controls Plus en la barra de herramientas.
-3. Haga clic **Pausa en este sitio**.
-4. Elige cuánto tiempo.
+1. Abre el sitio donde quieres pausar la extensión.
+2. Pulsa el icono de Video Controls Plus en la barra de herramientas.
+3. Pulsa **Pausar en este sitio**.
+4. Elige la duración.
 
-| Opción                        | ¿Qué pasa?                                        |
-| ----------------------------- | ------------------------------------------------- |
-| Hasta que vuelva a encenderlo | El sitio permanece pausado hasta que lo reanude   |
-| Por 1 hora                    | La pausa termina sola después de 1 hora           |
-| Por 4 horas                   | La pausa termina por su cuenta después de 4 horas |
-| Por 1 día                     | La pausa termina sola después de 1 día            |
-| Por 1 semana                  | La pausa termina sola después de 1 semana         |
+| Opción | Qué ocurre |
+|---|---|
+| Hasta que vuelva a activarla | El sitio permanece en pausa hasta que la reanudes |
+| Durante 1 hora | La pausa termina automáticamente después de 1 hora |
+| Durante 4 horas | La pausa termina automáticamente después de 4 horas |
+| Durante 1 día | La pausa termina automáticamente después de 1 día |
+| Durante 1 semana | La pausa termina automáticamente después de 1 semana |
 
-La página recarga. Mientras el sitio se detiene, no hay widget en él y no hay carreras de acceso directo.
+La página se recarga. Mientras el sitio esté en pausa, no aparecerá el widget ni funcionarán los atajos.
 
-## Resumen de un sitio {#resume-a-site}
+## Reanudar un sitio
 
-1. Abra el sitio de pausa.
-2. Abre el popup. Muestra **Pausa** y cuánto tiempo queda.
-3. Haga clic **Resumen**.
+1. Abre el sitio en pausa.
+2. Abre el popup. Muestra **En pausa** y el tiempo restante.
+3. Pulsa **Reanudar**.
 
-## Limits {#limits}
+## Límites
 
-La lista de sitios pausados se mantiene en este dispositivo y no se sincroniza con su cuenta, por lo que un sitio que pausa en su computadora portátil no se detiene en otro ordenador.
+La lista de sitios en pausa permanece en este dispositivo; no se sincroniza con tu cuenta. Si pausas un sitio en tu portátil, no quedará en pausa en otra computadora.
 
-El botón de pausa aparece sólo en un sitio donde se ejecuta la extensión. Si el popup dice **No está permitido**No hay nada que pausar.
+El botón de pausa solo aparece en un sitio donde funciona la extensión. Si el popup dice **No habilitado**, no hay nada que pausar.
 
-## Claves relacionadas {#related-keys}
+## Atajos relacionados
 
-Pausing no tiene atajo. Para ocultar sólo el widget, presione `Esc` o `Ctrl + Alt + H`. Ambos están [Atajos predeterminados](/docs/keyboard-shortcuts/defaults), y [Cambiar un atajo](/docs/keyboard-shortcuts/rebinding) los mueve.
+La pausa no tiene atajo. Para ocultar solo el widget, pulsa `Esc` o `Ctrl + Alt + H`. Ambos figuran en [Atajos predeterminados](/docs/keyboard-shortcuts/defaults) y puedes cambiarlos en [Cambiar un atajo](/docs/keyboard-shortcuts/rebinding).

@@ -1,32 +1,31 @@
 ---
-title: "Tours en el sitio web y la página Cómo funciona"
-sidebar_label: "Visitas web"
-description: "Comience un breve recorrido por una página web desde el encabezado, saltar a cualquier paso, y caminar a través de Video Controls Plus en seis pasos en la página Cómo funciona."
-unlisted: true
+title: Recorridos del sitio web y la página Cómo funciona
+sidebar_label: Recorridos del sitio web
+description: Inicia un recorrido breve desde la cabecera de una página, salta a cualquier paso y conoce Video Controls Plus en seis pasos en Cómo funciona.
 ---
 
-El sitio web de Video Controls Plus le puede mostrar alrededor de sus páginas, y un paseante de seis pasos explica todo el producto.
+El sitio web de Video Controls Plus puede guiarte por sus páginas. También hay un recorrido de seis pasos que explica el producto completo.
 
-## Visita una página {#take-a-tour-of-a-page}
+## Recorre una página
 
-1. Abra una de las páginas que tiene un recorrido: Inicio, Características, Planes, Instalación, Panel, Notas o Ajustes.
-2. Presione el botón de la gira en el encabezado, justo antes del botón de tema. Su nombre es "Tome un recorrido por esta página".
-3. Prensa **Siguiente** y **Atrás** para pasar por los pasos, o **Todos los pasos** para saltar a cualquiera de ellos.
-4. Prensa **Skip tour**, el botón de cierre o `Esc` para salir en cualquier momento.
+1. Abre una página con recorrido: Inicio, Funciones, Planes, Instalación, Panel, Notas o Configuración.
+2. Pulsa el botón de recorrido de la cabecera, justo antes del botón de tema. Se llama «Hacer un recorrido por esta página».
+3. Pulsa **Siguiente** y **Atrás** para recorrer los pasos, o **Todos los pasos** para saltar a uno.
+4. Pulsa **Omitir recorrido**, el botón de cerrar o `Esc` para salir cuando quieras.
 
-La primera vez que abres una de esas páginas, una pequeña pista apunta al botón: "¿Nuevo aquí? Tome un breve recorrido por esta página." Muestra una vez por página, y sale por sí mismo después de 8 segundos. Firmada, la pista recuerda las páginas que has visto en cada dispositivo.
+La primera vez que abres una de esas páginas, una pequeña pista señala el botón: «¿Es tu primera visita? Haz un recorrido breve por esta página». Aparece una vez por página y desaparece sola a los 8 segundos. Si iniciaste sesión, el sitio recuerda en todos tus dispositivos las páginas donde ya la viste.
 
-En un teléfono, cada paso se abre como una hoja en la parte inferior de la pantalla. Un paso cuya parte de la página no está en pantalla se deja fuera, por lo que un recorrido puede ser un paso o dos más corto en un teléfono. Los tours de Dashboard y Notes también tienen una versión corta para cuando se firma.
+En un teléfono, cada paso aparece en un panel desde la parte inferior. Si el elemento señalado no está en pantalla, ese paso se omite; por eso un recorrido móvil puede ser uno o dos pasos más corto. Los recorridos de Panel y Notas también tienen una versión breve para quienes no han iniciado sesión.
 
-## Camina por Video Controls Plus {#walk-through-video-controls-plus}
+## Conoce Video Controls Plus paso a paso
 
-El [Cómo funciona página](https://vcpeai.aoneahsan.com/how-it-works) tiene seis pasos, desde su primer vídeo para conectar su cuenta:
+La [página Cómo funciona](https://vcpeai.aoneahsan.com/how-it-works) presenta seis pasos, desde tu primer vídeo hasta conectar tu cuenta:
 
-1. Controle cualquier vídeo
-2. El widget y tus llaves
-3. Extras en YouTube, Netflix y LinkedIn
-4. Notas, capturas de pantalla y su biblioteca
-5. AI y hablar
+1. Controla cualquier vídeo
+2. El widget y tus teclas
+3. Herramientas adicionales en YouTube, Netflix y LinkedIn
+4. Notas, capturas y tu biblioteca
+5. IA y Speak
 6. Conecta la extensión a tu cuenta
 
-Mover entre pasos con **Atrás** y **Siguiente**, las teclas de flecha o un giro. Cada paso tiene su propia dirección, así que `/how-it-works?step=3` abre el paso 3. La calzada lo vincula como **Ver cómo funciona**.
+Avanza con **Atrás** y **Siguiente**, las flechas del teclado o un gesto de deslizamiento. Cada paso tiene una dirección propia: `/how-it-works?step=3` abre el tercero. En el pie de página encontrarás el enlace **Ver cómo funciona**.

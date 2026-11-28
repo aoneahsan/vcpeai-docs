@@ -1,56 +1,55 @@
 ---
-title: "Cambiar el equilibrio, voz, habitación y ruido"
-sidebar_label: "Herramientas de audio"
-description: "Con una cuenta conectada, establece el equilibrio izquierda-derecha, cambia una voz sin cambiar la velocidad, agrega una habitación, incluso en voz alta y establece un limitador; no en vídeo protegido."
-unlisted: true
+title: Ajustar balance, voz, ambiente y volumen
+sidebar_label: Herramientas de audio
+description: Con una cuenta conectada, ajusta balance, voz sin cambiar velocidad, ambiente, nivelación y limitador; no funciona en vídeo protegido.
 ---
 
-Las herramientas de audio cambian el equilibrio, la voz, la habitación y la ruidosidad del video que estás viendo, y se sientan en la pestaña Audio del widget, que necesita [a una cuenta conectada](/docs/account-and-sync) como el resto de esa ficha. Sólo cambian lo que escuchas en la página.
+Las herramientas de audio cambian el balance, la voz, el ambiente y el volumen del vídeo que ves. Están en la pestaña Audio del widget, que requiere [una cuenta conectada](/docs/account-and-sync). Solo modifican lo que escuchas en la página.
 
-No funcionan en video protegido, como Netflix y Disney+. El widget lo dice.
+No funcionan con vídeos protegidos, como los de Netflix y Disney+. El widget te lo indica.
 
-## Saldo {#balance}
+## Balance
 
-| Control                 | Lo que hace                                                                     |
-| ----------------------- | ------------------------------------------------------------------------------- |
-| **Izquierda / derecha** | mueve el sonido hacia la izquierda o el altavoz derecho; **Centre** es el medio |
-| **Mono**                | Juega ambos canales como uno                                                    |
-| **Swap L/R**            | Cierra los canales izquierdo y derecho                                          |
+| Control | Acción |
+|---|---|
+| **Izquierda / derecha** | Desplaza el sonido hacia un altavoz; **Centro** es el punto medio |
+| **Mono** | Reproduce ambos canales como uno |
+| **Intercambiar I/D** | Cambia los canales izquierdo y derecho |
 
-## Habitación Voz & {#voice--room}
+## Voz y ambiente
 
-Escoge un **Voz**: Chipmunk, Deep, Robot, Echo o Teléfono. Cada uno es un cambio de lanzamiento real, y la velocidad de vídeo nunca cambia. El botón Pitch bajo Advanced Audio es la voz profunda.
+Elige una **Voz**: Ardilla, Grave, Robot, Eco o Teléfono. Cada opción modifica el tono de verdad sin alterar la velocidad del vídeo. El botón Tono de Audio avanzado corresponde a la voz Grave.
 
-Escoge un **13.00 horas**: Pequeña habitación, Hall, Catedral o Cueva. **Salón mixto** establece cuánto de la habitación que escuchas.
+Elige un **Ambiente**: Sala pequeña, Salón, Catedral o Cueva. **Mezcla de ambiente** determina cuánto se oye ese efecto.
 
-**Fuera.** bajo cualquiera lo pone de vuelta.
+**Desactivado** devuelve cada control a su estado normal.
 
-## Loudness {#loudness}
+## Volumen
 
-**Incluso ruidosa** trae partes tranquilas hacia arriba y partes altas hacia abajo, por lo más 12 dB. Enciende para un video donde el altavoz es suave y la música no.
+**Nivelar volumen** sube las partes suaves y baja las fuertes hasta 12 dB. Úsalo si la voz se oye baja y la música no.
 
-**Limitador** impide que el sonido pase de un **Ceiling** Usted estableció, de -1 dB a -12 dB. Mantiene un momento repentino y fuerte en control.
+**Limitador** impide superar un **Techo** que eliges entre -1 dB y -12 dB, para contener un sonido repentino.
 
-**Apaga las herramientas de audio** apaga todos a la vez.
+**Desactivar herramientas de audio** apaga todas a la vez.
 
-## Configuración de herramientas de audio {#audio-tools-settings}
+## Ajustes de las herramientas
 
-Ajustes, ficha de características de vídeo, **Herramientas de audio** mantiene los mismos controles: **Saldo (izquierda / derecha)**, **Mono**, **Cierre a la izquierda y a la derecha**, **Voz**, **13.00 horas**, **Salón mixto**, **Incluso ruidosa**, **Limitador** y **Techo límite**. **Reiniciar herramientas de audio** Los pone de vuelta.
+En Configuración → Funciones de vídeo → **Herramientas de audio** están los mismos controles: **Balance (izquierda/derecha)**, **Mono**, **Intercambiar izquierda y derecha**, **Voz**, **Ambiente**, **Mezcla de ambiente**, **Nivelar volumen**, **Limitador** y **Techo del limitador**. **Restablecer herramientas de audio** vuelve a los valores iniciales.
 
-## Cuando no funciona {#when-it-does-not-work}
+## Si no funcionan
 
-El widget muestra uno de tres mensajes:
+El widget muestra uno de estos mensajes:
 
-| Mensaje                                                                                           | Lo que significa                                          |
-| ------------------------------------------------------------------------------------------------- | --------------------------------------------------------- |
-| "No disponible en vídeo protegido (Netflix, Disney+ y similar): su audio no puede ser procesado". | El sitio protege el vídeo, y el audio no se puede cambiar |
-| "No disponible en este vídeo: el sitio no permite que su audio sea procesado."                    | El vídeo viene de otro sitio que no lo permite            |
-| "Empieza cuando juega el video."                                                                  | Juego de prensa y las herramientas comienzan              |
+| Mensaje | Significado |
+|---|---|
+| «No disponible en vídeo protegido (Netflix, Disney+ y similares): no se puede procesar su audio». | El sitio protege el vídeo y no permite cambiar el audio |
+| «No disponible en este vídeo: el sitio no permite procesar su audio». | El vídeo procede de otro sitio que no lo permite |
+| «Se inicia cuando se reproduce el vídeo». | Pulsa Reproducir para iniciar las herramientas |
 
-[Incremento de audio](/docs/user-guide/audio-boost) y normalizar son controles separados en la misma pestaña, con sus propias teclas y su propia página, que también cubre los ocho botones de audio avanzados.
+La [amplificación de audio](/docs/user-guide/audio-boost) y la normalización son controles distintos de la misma pestaña, con sus propios atajos. Su página también explica los ocho botones de Audio avanzado.
 
-## Atajos {#shortcuts}
+## Atajos
 
-Dos atajos opcionales comienzan sin llave: "Iniciar herramientas de audio en o apagado" y "Swap izquierda y derecha". Cada una necesita una cuenta conectada. Dale una llave. [Cambiar un atajo](/docs/keyboard-shortcuts/rebinding).
+«Activar o desactivar herramientas de audio» e «Intercambiar izquierda y derecha» no tienen atajo inicial y requieren una cuenta. Asigna una tecla en [Cambiar un atajo](/docs/keyboard-shortcuts/rebinding).
 
 Siguiente: [Captura y exportación](/docs/user-guide/capture-and-export).

@@ -1,55 +1,54 @@
 ---
-title: "Establecer límites de reloj y utilizar Modo Focus"
-sidebar_label: "Ver límites y Modo de enfoque"
-description: "Establecer una cantidad diaria de vídeo, límites para sitios individuales y sitios bloqueados, bloquearlos con un PIN, y elegir lo que Focus Mode esconde; sin cuenta y nada se envía."
-unlisted: true
+title: Establecer límites de visualización y usar el modo de enfoque
+sidebar_label: Límites y modo de enfoque
+description: Limita el tiempo diario de vídeo, establece límites o bloqueos por sitio, protégelos con PIN y elige qué oculta el modo de enfoque; sin cuenta ni envíos.
 ---
 
-Ver límites establecer cuánto vídeo se ve en un día, en todos los sitios o en un sitio, y bloquear los sitios donde los vídeos no deben jugar. Focus Mode oscurece la página alrededor del vídeo y esconde lo que aleja tus ojos. Ambos están en la pestaña Características de Video en Ajustes. Tampoco necesita una cuenta.
+Los límites regulan cuánto tiempo ves vídeos al día en todos los sitios o en uno, y permiten bloquear sitios donde no quieres reproducirlos. El modo de enfoque oscurece el espacio alrededor del vídeo y oculta distracciones. Ambas opciones están en Configuración → Funciones de vídeo y funcionan sin cuenta.
 
-## Establecer un límite de reloj {#set-a-watch-limit}
+## Establecer un límite
 
-1. Abrir configuración, ir a la pestaña Características de vídeo y encontrar **Límites de reloj**.
-2. Enciende **Límites de reloj**.
-3. Set **Límite diario, todos los sitios**, de 30 minutos a 4 horas.
-4. Elija **Avisadme antes de un límite**: 5, 10 o 15 minutos antes.
-5. Under **Limitaciones del sitio**, escriba a **Sitio** y su **Minutos al día**, luego pulse **Añadir**.
-6. Under **Sitios bloqueados**, añadir un sitio donde los vídeos no juegan en absoluto.
+1. Abre Configuración → Funciones de vídeo → **Límites de visualización**.
+2. Activa **Límites de visualización**.
+3. Elige un **Límite diario para todos los sitios** de 30 minutos a 4 horas.
+4. Elige **Avisarme antes de llegar al límite**: 5, 10 o 15 minutos.
+5. En **Límites por sitio**, introduce un **Sitio** y sus **Minutos diarios**, y pulsa **Añadir**.
+6. En **Sitios bloqueados**, añade uno donde no deban reproducirse vídeos.
 
-La tarjeta muestra **Hoy en día en este dispositivo** con los minutos hasta ahora.
+La tarjeta muestra **Hoy en este dispositivo** y los minutos acumulados.
 
-## Cuando el tiempo se levanta {#when-time-is-up}
+## Cuando se acaba el tiempo
 
-El video se detiene bajo una capa que dice "Su tiempo de observación para hoy está levantado", o "Su tiempo en este sitio está listo para hoy" para un límite del sitio. Prensa **5 minutos más** para seguir un poco, o **Cerca**La cuenta comienza de nuevo a medianoche.
+El vídeo se pausa bajo una capa con «Terminó tu tiempo de vídeo por hoy» o, para un límite por sitio, «Terminó tu tiempo en este sitio por hoy». Pulsa **5 minutos más** para continuar un poco o **Cerrar**. El contador se reinicia a medianoche.
 
-En un sitio bloqueado la capa dice "Los vídeos en este sitio están bloqueados".
+En un sitio bloqueado, la capa indica «Los vídeos de este sitio están bloqueados».
 
-## Cierralo con un PIN {#lock-it-with-a-pin}
+## Protegerlo con PIN
 
-Establecer un **Nuevo PIN** de 4 a 8 dígitos y volver a escribir bajo **PIN otra vez**. Prensa **Cerradura**. Cambio de límites, desbloquear un sitio o tomar 5 minutos más y luego pedirlo. **Quitar el PIN** Quítatelo.
+Elige un **PIN nuevo** de 4 a 8 dígitos y repítelo en **Repetir PIN**. Pulsa **Bloquear**. Para cambiar límites, desbloquear un sitio o pedir cinco minutos más, tendrás que introducirlo. **Quitar PIN** retira la protección.
 
-Mantenga el PIN en algún lugar seguro. Es aplastado y permanece en este dispositivo, y nunca se sincroniza.
+Guarda el PIN en un lugar seguro. Se conserva guardado como hash en este dispositivo y no se sincroniza.
 
-## Lo que se cuenta {#what-is-counted}
+## Qué se cuenta
 
-Los minutos son contados con este dispositivo sólo, y sólo mientras están los límites, y la extensión no guarda nada excepto los minutos de hoy para cada sitio, que comienza de nuevo a medianoche. No se envía nada.
+Los minutos se cuentan solo en este dispositivo mientras los límites están activados. La extensión conserva únicamente los minutos de hoy por sitio y los reinicia a medianoche. No envía nada.
 
-Los límites de reloj ayudan a mantener hábitos, o ver a un niño, en el camino. No son impermeables: alguien que puede cambiar los datos de extensión del navegador puede conseguir alrededor de ellos.
+Pueden ayudarte con tus hábitos o con el tiempo de vídeo de un niño, pero no son infalibles: quien pueda modificar los datos de las extensiones del navegador puede eludirlos.
 
-La característica de YouTube de los límites de reloj, en [Extras YouTube](/docs/platforms/youtube), es separado y funciona como antes.
+Los límites propios de [YouTube](/docs/platforms/youtube) son independientes y siguen funcionando como antes.
 
-## Modo de enfoque {#focus-mode}
+## Modo de enfoque
 
-Gire el modo Focus desde el botón Focus del widget. Luego elija en Configuración, pestaña Características de vídeo, **Modo de enfoque**, cómo se comporta:
+Actívalo con el botón Enfoque del widget. Después, en Configuración → Funciones de vídeo → **Modo de enfoque**, elige su comportamiento:
 
-| Ajuste                                    | Lo que hace                                                                                                                 |
-| ----------------------------------------- | --------------------------------------------------------------------------------------------------------------------------- |
-| **Qué oscuro va la página**               | ¿Cuánto se oscurece la página alrededor del vídeo?                                                                          |
-| **Oculto**                                | Switches para Comentarios, Sidebar, encabezado del sitio, videos recomendados, pantallas finales y tarjetas, y chat en vivo |
-| **Inicio Modo de enfoque con cada vídeo** | Lo enciende cada vez que comienza un vídeo                                                                                  |
+| Ajuste | Acción |
+|---|---|
+| **Oscurecer la página** | Intensidad del oscurecimiento alrededor del vídeo |
+| **Ocultar** | Interruptores para Comentarios, Barra lateral, Cabecera, Vídeos recomendados, Pantallas finales y tarjetas, y Chat en vivo |
+| **Iniciar el modo de enfoque con cada vídeo** | Se activa al comenzar cada vídeo |
 
-Los cambios se aplican de inmediato a un modo Focus que ya está abierto. Funciona en YouTube, Netflix, Vimeo, Twitch y Udemy, y en otros sitios hasta donde sus páginas lo permitan.
+Los cambios se aplican al instante aunque ya esté activo. Funciona en YouTube, Netflix, Vimeo, Twitch y Udemy; en otros sitios, hasta donde lo permitan sus páginas.
 
-El modo de enfoque está separado del modo de teatro, que `Ctrl + Alt + Z` interruptores ([Atajos predeterminados](/docs/keyboard-shortcuts/defaults)). No son lo mismo.
+Es distinto del modo cine, que se activa con `Ctrl + Alt + Z` ([Atajos predeterminados](/docs/keyboard-shortcuts/defaults)).
 
 Siguiente: [Herramientas de estudio](/docs/user-guide/study-tools).
