@@ -1,26 +1,26 @@
 {
   "version.label": {
-    "message": "Next",
+    "message": "最新版",
     "description": "The label for version current"
   },
   "sidebar.docsSidebar.category.Getting started": {
-    "message": "Getting started",
+    "message": "はじめに",
     "description": "The label for category 'Getting started' in sidebar 'docsSidebar'"
   },
   "sidebar.docsSidebar.category.User guide": {
-    "message": "User guide",
+    "message": "使い方",
     "description": "The label for category 'User guide' in sidebar 'docsSidebar'"
   },
   "sidebar.docsSidebar.category.Keyboard shortcuts": {
-    "message": "Keyboard shortcuts",
+    "message": "キーボードショートカット",
     "description": "The label for category 'Keyboard shortcuts' in sidebar 'docsSidebar'"
   },
   "sidebar.docsSidebar.category.Platforms": {
-    "message": "Platforms",
+    "message": "対応サイト",
     "description": "The label for category 'Platforms' in sidebar 'docsSidebar'"
   },
   "sidebar.docsSidebar.link.Changelog": {
-    "message": "Changelog",
+    "message": "更新履歴",
     "description": "The label for link 'Changelog' in sidebar 'docsSidebar', linking to '/changelog'"
   }
 }

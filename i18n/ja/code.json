@@ -1,108 +1,108 @@
 {
   "feed.title": {
-    "message": "Feed"
+    "message": "更新フィード"
   },
   "feed.description": {
-    "message": "Video Controls Plus changelog entries, newest first, with RSS and Atom feeds."
+    "message": "Video Controls Plus の更新履歴を新しい順に掲載しています。RSS と Atom でも購読できます。"
   },
   "feed.heading": {
-    "message": "Feed"
+    "message": "更新フィード"
   },
   "home.lede": {
-    "message": "Control your online video player the way you want it, and get special features on each website."
+    "message": "オンライン動画を自分のペースで操作。サイトごとの専用機能も使えます。"
   },
   "home.gettingStarted.title": {
-    "message": "Getting started"
+    "message": "はじめに"
   },
   "home.gettingStarted.text": {
-    "message": "Install it, press your first key, and pause it on one site."
+    "message": "インストールして最初のキーを押すところから、サイトごとの一時停止まで。"
   },
   "home.userGuide.title": {
-    "message": "User guide"
+    "message": "使い方"
   },
   "home.userGuide.text": {
-    "message": "Speed, A-B loop, audio boost, filters, screenshots and notes, one page each."
+    "message": "再生速度、A-B ループ、音量増幅、フィルター、スクリーンショット、メモを個別に説明します。"
   },
   "home.keyboard.title": {
-    "message": "Keyboard shortcuts"
+    "message": "キーボードショートカット"
   },
   "home.keyboard.text": {
-    "message": "Every default key, and how to give a shortcut another key."
+    "message": "初期設定のキー一覧と、割り当てを変更する方法。"
   },
   "home.platforms.title": {
-    "message": "Platforms"
+    "message": "対応サイト"
   },
   "home.platforms.text": {
-    "message": "The extras on YouTube, Netflix and LinkedIn, and how other sites work."
+    "message": "YouTube、Netflix、LinkedIn の専用機能と、その他のサイトでの動作。"
   },
   "home.ai.title": {
-    "message": "AI features"
+    "message": "AI 機能"
   },
   "home.ai.text": {
-    "message": "Video summaries and LinkedIn writing help, and what each one sends."
+    "message": "動画の要約と LinkedIn の文章作成支援。それぞれ送信される内容も説明します。"
   },
   "home.account.title": {
-    "message": "Account and sync"
+    "message": "アカウントと同期"
   },
   "home.account.text": {
-    "message": "How to connect your account, how sync works, how to delete your data."
+    "message": "アカウントの接続、同期の仕組み、データの削除方法。"
   },
   "home.privacy.title": {
-    "message": "Privacy and permissions"
+    "message": "プライバシーと権限"
   },
   "home.privacy.text": {
-    "message": "What is recorded, and what each permission is for."
+    "message": "記録される情報と、各権限が必要な理由。"
   },
   "home.troubleshooting.title": {
-    "message": "Troubleshooting"
+    "message": "問題が起きたとき"
   },
   "home.troubleshooting.text": {
-    "message": "What you see, why it happens, and the step that fixes it."
+    "message": "症状ごとに原因と対処手順を確認できます。"
   },
   "home.faq.title": {
-    "message": "FAQ"
+    "message": "よくある質問"
   },
   "home.faq.text": {
-    "message": "Short answers to the questions people ask first."
+    "message": "最初によく寄せられる質問に短く答えます。"
   },
   "home.changelog.title": {
-    "message": "Changelog"
+    "message": "更新履歴"
   },
   "home.changelog.text": {
-    "message": "What changed in the last four releases."
+    "message": "直近 4 回のリリースで変わったこと。"
   },
   "home.readDocs": {
-    "message": "Read the docs"
+    "message": "使い方を見る"
   },
   "home.getExtension": {
-    "message": "Get the extension"
+    "message": "拡張機能を入手"
   },
   "home.sectionsAria": {
-    "message": "Documentation sections"
+    "message": "ドキュメントの分類"
   },
   "sitemap.changelog": {
-    "message": "Changelog"
+    "message": "更新履歴"
   },
   "sitemap.title": {
-    "message": "Sitemap"
+    "message": "サイトマップ"
   },
   "sitemap.description": {
-    "message": "Every Video Controls Plus documentation page and changelog entry."
+    "message": "Video Controls Plus のすべてのドキュメントと更新履歴。"
   },
   "sitemap.heading": {
-    "message": "Sitemap"
+    "message": "サイトマップ"
   },
   "sitemap.feed": {
-    "message": "Feed"
+    "message": "更新フィード"
   },
   "sitemap.filterAria": {
-    "message": "Filter pages"
+    "message": "ページを絞り込む"
   },
   "sitemap.filterPlaceholder": {
-    "message": "Filter pages"
+    "message": "ページを絞り込む"
   },
   "sitemap.noResults": {
-    "message": "No pages match “{query}”."
+    "message": "「{query}」に一致するページはありません。"
   },
   "theme.ErrorPageContent.title": {
     "message": "エラーが発生しました",
@@ -280,7 +280,7 @@
     "description": "The ARIA label to collapse the sidebar category"
   },
   "theme.IconExternalLink.ariaLabel": {
-    "message": "(opens in new tab)",
+    "message": "（新しいタブで開きます）",
     "description": "The ARIA label for the external link icon"
   },
   "theme.NavBar.navAriaLabel": {
@@ -360,11 +360,11 @@
     "description": "The ARIA label for hamburger menu button of mobile navigation"
   },
   "theme.navbar.mobileDropdown.collapseButton.expandAriaLabel": {
-    "message": "Expand the dropdown",
+    "message": "メニューを開く",
     "description": "The ARIA label of the button to expand the mobile dropdown navbar item"
   },
   "theme.navbar.mobileDropdown.collapseButton.collapseAriaLabel": {
-    "message": "Collapse the dropdown",
+    "message": "メニューを閉じる",
     "description": "The ARIA label of the button to collapse the mobile dropdown navbar item"
   },
   "theme.docs.sidebar.expandButtonTitle": {

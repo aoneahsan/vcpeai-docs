@@ -1,14 +1,14 @@
 {
   "title": {
-    "message": "Video Controls Plus changelog",
+    "message": "Video Controls Plus の更新履歴",
     "description": "The title for the blog used in SEO"
   },
   "description": {
-    "message": "Release notes for Video Controls Plus.",
+    "message": "Video Controls Plus のリリースノートです。",
     "description": "The description for the blog used in SEO"
   },
   "sidebar.title": {
-    "message": "Recent entries",
+    "message": "最近の更新",
     "description": "The label for the left sidebar"
   }
 }

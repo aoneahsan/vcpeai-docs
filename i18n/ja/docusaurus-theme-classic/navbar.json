@@ -4,19 +4,19 @@
     "description": "The title in the navbar"
   },
   "logo.alt": {
-    "message": "Video Controls Plus logo",
+    "message": "Video Controls Plus のロゴ",
     "description": "The alt text of navbar logo"
   },
   "item.label.Docs": {
-    "message": "Docs",
+    "message": "ドキュメント",
     "description": "Navbar item with label Docs"
   },
   "item.label.Changelog": {
-    "message": "Changelog",
+    "message": "更新履歴",
     "description": "Navbar item with label Changelog"
   },
   "item.label.Product website": {
-    "message": "Product website",
+    "message": "製品サイト",
     "description": "Navbar item with label Product website"
   }
 }
