@@ -465,5 +465,515 @@
   "theme.tags.tagsPageTitle": {
     "message": "Темы",
     "description": "The title of the tag list page"
+  },
+  "ecosystem.title": {
+    "message": "Что ещё создаёт Zaions?"
+  },
+  "ecosystem.description": {
+    "message": "Другие продукты команды Zaions, которая делает Video Controls Plus."
+  },
+  "ecosystem.eyebrow": {
+    "message": "За пределами видеоплеера / Zaions"
+  },
+  "ecosystem.intro": {
+    "message": "Команда Zaions работает не только с онлайн-видео. Здесь собраны её другие продукты: от переписки и записей о здоровье до пакетов для разработчиков и инструментов очистки компьютера. Откройте карточку, чтобы узнать задачу продукта, платформы и важное ограничение, затем перейдите на его сайт. У каждого продукта свои аккаунты и порядок работы; соседство здесь не означает связи с Video Controls Plus."
+  },
+  "ecosystem.viewsIntro": {
+    "message": "Смотрите карточки, читайте список по порядку или сравнивайте названия, категории и платформы в таблице. Во всех трёх видах показаны одни и те же продукты. Переключение сохраняет ваше место."
+  },
+  "ecosystem.otherProducts": {
+    "message": "Продукты команды: {count}"
+  },
+  "ecosystem.chooseView": {
+    "message": "Выберите вид списка продуктов"
+  },
+  "ecosystem.view.grid": {
+    "message": "Карточки"
+  },
+  "ecosystem.view.list": {
+    "message": "Список"
+  },
+  "ecosystem.view.table": {
+    "message": "Таблица"
+  },
+  "ecosystem.table.product": {
+    "message": "Продукт"
+  },
+  "ecosystem.table.category": {
+    "message": "Категория"
+  },
+  "ecosystem.table.platform": {
+    "message": "Где работает"
+  },
+  "ecosystem.table.description": {
+    "message": "Что делает"
+  },
+  "ecosystem.table.actions": {
+    "message": "Действия"
+  },
+  "ecosystem.visitNamedProduct": {
+    "message": "Открыть {name}"
+  },
+  "ecosystem.details": {
+    "message": "Подробнее"
+  },
+  "ecosystem.moreFromZaions": {
+    "message": "Другие продукты Zaions"
+  },
+  "ecosystem.carousel": {
+    "message": "карусель"
+  },
+  "ecosystem.sameTeam": {
+    "message": "От той же команды"
+  },
+  "ecosystem.seeAll": {
+    "message": "Все продукты"
+  },
+  "ecosystem.previousProduct": {
+    "message": "Предыдущий продукт"
+  },
+  "ecosystem.slide": {
+    "message": "слайд"
+  },
+  "ecosystem.positionOf": {
+    "message": "{position} из {total}"
+  },
+  "ecosystem.nextProduct": {
+    "message": "Следующий продукт"
+  },
+  "ecosystem.play": {
+    "message": "Продолжить"
+  },
+  "ecosystem.pause": {
+    "message": "Пауза"
+  },
+  "ecosystem.openProduct": {
+    "message": "Открыть {name}"
+  },
+  "ecosystem.anotherProduct": {
+    "message": "ЕЩЁ ОДИН ПРОДУКТ ZAIONS"
+  },
+  "ecosystem.visitProduct": {
+    "message": "Перейти на сайт продукта"
+  },
+  "ecosystem.readDocs": {
+    "message": "Читать документацию"
+  },
+  "ecosystem.backToProducts": {
+    "message": "Ко всем продуктам"
+  },
+  "ecosystem.category.web-app": {
+    "message": "Веб-приложение"
+  },
+  "ecosystem.category.mobile-app": {
+    "message": "Мобильное приложение"
+  },
+  "ecosystem.category.package": {
+    "message": "Пакет"
+  },
+  "ecosystem.category.saas-package": {
+    "message": "Сервис и пакет"
+  },
+  "ecosystem.category.desktop-app-cli": {
+    "message": "Приложение для компьютера и CLI"
+  },
+  "ecosystem.category.wordpress-plugin-saas": {
+    "message": "Плагин WordPress и сервис"
+  },
+  "ecosystem.product.achat.card": {
+    "message": "Найдите нужных людей по имени пользователя, приглашению или QR-коду, не сообщая номер телефона."
+  },
+  "ecosystem.product.achat.heading": {
+    "message": "Для чего нужен AchatAI?"
+  },
+  "ecosystem.product.achat.platformLabel": {
+    "message": "Веб и Android"
+  },
+  "ecosystem.product.achat.paragraph.1": {
+    "message": "AchatAI помогает переписываться с выбранными людьми в браузере и на Android. Номер телефона не нужен. Найдите собеседника по имени пользователя, ссылке-приглашению или QR-коду: обмениваться номерами не придётся. Если хотите начать разговор до создания аккаунта, доступны и анонимные комнаты."
+  },
+  "ecosystem.product.achat.paragraph.2": {
+    "message": "Здесь вы выбираете, с кем говорить и как вас найдут. Video Controls Plus решает другую задачу — даёт выбрать, как воспроизводится видео. Оба продукта делает команда Zaions, но для каждого свой способ начать."
+  },
+  "ecosystem.product.achat.paragraph.3": {
+    "message": "Откройте [AchatAI](https://achat.aoneahsan.com), чтобы посмотреть, как устроена переписка. Разговор начинается там, а не внутри видеоплеера."
+  },
+  "ecosystem.product.callvault.card": {
+    "message": "Воспроизводите, ищите, снабжайте заметками и выгружайте звонки из библиотеки телефона Android."
+  },
+  "ecosystem.product.callvault.heading": {
+    "message": "Для чего нужен CallVault?"
+  },
+  "ecosystem.product.callvault.platformLabel": {
+    "message": "Android"
+  },
+  "ecosystem.product.callvault.paragraph.1": {
+    "message": "CallVault хранит библиотеку телефонных звонков на Android. Воспроизведите нужный звонок: приложение записывает звук из источника, который доступен на вашем телефоне, а затем позволяет искать, добавлять заметки и выгружать полученные записи. Доступный источник звука важен: одинакового результата записи на всех телефонах обещать нельзя."
+  },
+  "ecosystem.product.callvault.paragraph.2": {
+    "message": "Записи можно оставить на телефоне. Личное облачное резервирование включается отдельным переключателем, если оно вам нужно. Так вы сами выбираете, где будет храниться разговор, к которому позднее потребуется вернуться."
+  },
+  "ecosystem.product.callvault.paragraph.3": {
+    "message": "Video Controls Plus помогает с онлайн-видео и учебными заметками; CallVault работает со звонками на Android. Это отдельные продукты одной команды. Откройте [CallVault](https://callvault.aoneahsan.com), чтобы посмотреть библиотеку звонков и выбор резервной копии."
+  },
+  "ecosystem.product.capacitor-auth-manager.card": {
+    "message": "Один способ вызвать вход через Google в веб-приложении, на Android и iOS без зависимости от Firebase."
+  },
+  "ecosystem.product.capacitor-auth-manager.heading": {
+    "message": "Для чего нужен Capacitor Auth Manager?"
+  },
+  "ecosystem.product.capacitor-auth-manager.platformLabel": {
+    "message": "Пакет npm"
+  },
+  "ecosystem.product.capacitor-auth-manager.paragraph.1": {
+    "message": "Capacitor Auth Manager даёт один вызов входа через Google для веб-приложения, Android и iOS. Один вызов, три платформы. Пакет предназначен разработчикам приложений Capacitor и не требует Firebase. Общий интерфейс позволяет держать вызов входа в одном месте, даже если под ним меняется платформа."
+  },
+  "ecosystem.product.capacitor-auth-manager.paragraph.2": {
+    "message": "Только Google. В версии 3.x это единственный поддерживаемый поставщик входа. Учитывайте ограничение, если вашему приложению нужны другие способы авторизации. Video Controls Plus подключается к аккаунту своим способом; этот отдельный пакет не добавляет новый вход в расширение."
+  },
+  "ecosystem.product.capacitor-auth-manager.paragraph.3": {
+    "message": "Установка и инструкции по платформам описаны [на странице пакета Capacitor Auth Manager](https://www.npmjs.com/package/capacitor-auth-manager)."
+  },
+  "ecosystem.product.clearhire.card": {
+    "message": "Превратите подтверждённый опыт работы в резюме, понятное системам ATS, и проверьте его текст."
+  },
+  "ecosystem.product.clearhire.heading": {
+    "message": "Для чего нужен ClearHire?"
+  },
+  "ecosystem.product.clearhire.platformLabel": {
+    "message": "Веб и Android"
+  },
+  "ecosystem.product.clearhire.paragraph.1": {
+    "message": "ClearHire помогает составить резюме для систем ATS из структурированной истории работы. Сохраните факты: внесите должности и подтверждения опыта, затем используйте редактор и проверки, чтобы подготовить документ для работодателя. Дополнительные инструменты помогают, например, усилить отдельный пункт и проверить готовое резюме."
+  },
+  "ecosystem.product.clearhire.paragraph.2": {
+    "message": "Это другой вид записи о вашем обучении, чем заметка к видео. Если вы посмотрели курс в Video Controls Plus и хотите описать настоящий приобретённый навык, в ClearHire можно работать над самим резюме. Продукты не переносят заметки и не подтверждают за вас прохождение курса. ClearHire также предлагает процессы подтверждения занятости для повышения доверия к профилю."
+  },
+  "ecosystem.product.clearhire.paragraph.3": {
+    "message": "Откройте [ClearHire](https://clearhire.aoneahsan.com), чтобы составить или проверить резюме."
+  },
+  "ecosystem.product.eatthis.card": {
+    "message": "Ищите продукты по питательному веществу, самочувствию или времени дня и смотрите состав одной порции."
+  },
+  "ecosystem.product.eatthis.heading": {
+    "message": "Для чего нужен Eat This?"
+  },
+  "ecosystem.product.eatthis.platformLabel": {
+    "message": "Android"
+  },
+  "ecosystem.product.eatthis.paragraph.1": {
+    "message": "Eat This помогает искать продукты по питательному веществу, самочувствию или времени дня. Начните с одной порции. Вместо долгого просмотра списка укажите, что хотите понять, посмотрите количество вещества в порции и сравните с более дешёвым вариантом среди предложенных."
+  },
+  "ecosystem.product.eatthis.paragraph.2": {
+    "message": "Это справочник о питании, отдельный от управления видео в Video Controls Plus. Общее в них — ответ на текущую задачу: выбрать скорость при просмотре или изучить порцию перед выбором еды. Вопрос о питании, требующий медицинского решения, нужно обсудить с врачом; продукт обозначает эту границу."
+  },
+  "ecosystem.product.eatthis.paragraph.3": {
+    "message": "Откройте [Eat This](https://eatthis.aoneahsan.com/) для поиска сведений о продуктах."
+  },
+  "ecosystem.product.empora.card": {
+    "message": "Включайте в одном плагине WordPress только те модули WooCommerce, которые нужны магазину."
+  },
+  "ecosystem.product.empora.heading": {
+    "message": "Для чего нужен Empora?"
+  },
+  "ecosystem.product.empora.platformLabel": {
+    "message": "WordPress / WooCommerce"
+  },
+  "ecosystem.product.empora.paragraph.1": {
+    "message": "Empora объединяет модули WooCommerce в одном плагине WordPress. Вы сами решаете, какие из них нужны вашему магазину: установка не обязывает включать всё сразу. Выберите задачу магазина, найдите подходящий модуль и включите его. Остальные могут оставаться выключенными."
+  },
+  "ecosystem.product.empora.paragraph.2": {
+    "message": "Веб-панель управляет лицензиями и необязательными подключениями магазина. Она предназначена для администрирования магазина и не связана с видеоаккаунтом или функциями Video Controls Plus. Если вы управляете магазином WooCommerce, изучите доступные модули и решите, какое подключение действительно требуется, прежде чем его включать. Так можно оценить действие каждого модуля отдельно."
+  },
+  "ecosystem.product.empora.paragraph.3": {
+    "message": "Откройте [Empora](https://empora.aoneahsan.com), чтобы изучить продукт на его собственном сайте."
+  },
+  "ecosystem.product.habitforge.card": {
+    "message": "Отмечайте привычку: верёвка крепнет с каждой отметкой и растрёпывается там, где был перерыв."
+  },
+  "ecosystem.product.habitforge.heading": {
+    "message": "Для чего нужен HabitForge?"
+  },
+  "ecosystem.product.habitforge.platformLabel": {
+    "message": "Веб и Android"
+  },
+  "ecosystem.product.habitforge.paragraph.1": {
+    "message": "HabitForge показывает привычку в виде верёвки. Каждая отметка делает её толще, а пропущенные дни оставляют заметный растрёпанный участок. Оглянувшись назад, вы увидите последовательность занятий без самостоятельного подсчёта серии. После перерыва можно продолжить."
+  },
+  "ecosystem.product.habitforge.paragraph.2": {
+    "message": "Есть друзья, испытания и таблица лидеров, из которой можно выйти. Один аккаунт работает в веб-версии и на Android. В Video Controls Plus можно записать заметку к просмотренному уроку; в HabitForge — отметить, удалось ли затем выполнить повторяющееся действие. Эти записи хранятся отдельно. Растрёпанный участок показывает перерыв, но не стирает прежние отметки."
+  },
+  "ecosystem.product.habitforge.paragraph.3": {
+    "message": "Откройте [HabitForge](https://habitforge.aoneahsan.com), чтобы изучить продукт на его собственном сайте."
+  },
+  "ecosystem.product.labflow.card": {
+    "message": "Проследите путь лабораторного образца от заказа до проверки и выдачи результата."
+  },
+  "ecosystem.product.labflow.heading": {
+    "message": "Для чего нужен LabFlow?"
+  },
+  "ecosystem.product.labflow.platformLabel": {
+    "message": "Веб и Android"
+  },
+  "ecosystem.product.labflow.paragraph.1": {
+    "message": "LabFlow сопровождает работу диагностической лаборатории: от пациента и заказа через образец и результат к его проверке. Черновой результат отличается от результата, выданного пациенту. Это важно, когда с одним образцом работают несколько сотрудников: каждый видит этап передачи и статус результата."
+  },
+  "ecosystem.product.labflow.paragraph.2": {
+    "message": "В этой же системе находятся счета, запасы и контроль качества. LabFlow предназначен для сотрудников диагностической лаборатории; это не личный дневник здоровья и не инструмент для разбора видеоурока. На сайте продукта можно изучить путь заказа до выдачи результата и действия сотрудников на каждом этапе. Перед выдачей результат проверяет персонал лаборатории, поэтому его статус для пациента ясен."
+  },
+  "ecosystem.product.labflow.paragraph.3": {
+    "message": "Откройте [LabFlow](https://labflow.aoneahsan.com), чтобы изучить продукт на его собственном сайте."
+  },
+  "ecosystem.product.lifewell.card": {
+    "message": "Храните показатели здоровья, воду, лекарства, сон и питание в одной записи."
+  },
+  "ecosystem.product.lifewell.heading": {
+    "message": "Для чего нужен LifeWell?"
+  },
+  "ecosystem.product.lifewell.platformLabel": {
+    "message": "Веб и Android"
+  },
+  "ecosystem.product.lifewell.paragraph.1": {
+    "message": "LifeWell объединяет показатели здоровья, воду, лекарства, сон и питание в одной записи. Можно также отмечать менструальный цикл, фертильность и этапы развития ребёнка. Когда понадобится оглянуться назад, повседневные сведения будут собраны вместе, а не разбросаны по заметкам."
+  },
+  "ecosystem.product.lifewell.paragraph.2": {
+    "message": "Продукт работает в браузере и на Android и синхронизирует записи между устройствами: начатое можно продолжить на другом экране. Эти записи не являются диагнозом или лечением. Video Controls Plus помогает управлять онлайн-видео и вести учебные заметки; LifeWell хранит сведения о здоровье в отдельном аккаунте. Каждая запись — часть истории, которую вы ведёте для себя."
+  },
+  "ecosystem.product.lifewell.paragraph.3": {
+    "message": "Откройте [LifeWell](https://lifewell.aoneahsan.com), чтобы изучить продукт на его собственном сайте."
+  },
+  "ecosystem.product.linux-cleanup.card": {
+    "message": "Сначала просмотрите пути кэша Linux, выполните пробный запуск и после очистки проверьте отчёт."
+  },
+  "ecosystem.product.linux-cleanup.heading": {
+    "message": "Для чего нужен linux-cleanup?"
+  },
+  "ecosystem.product.linux-cleanup.platformLabel": {
+    "message": "Linux: приложение и CLI"
+  },
+  "ecosystem.product.linux-cleanup.paragraph.1": {
+    "message": "linux-cleanup показывает пути кэша Linux, которые может удалить, до настоящего запуска. Вы можете изучить ограничения, просканировать систему и выполнить пробный запуск. Сканирование и пробный запуск ничего не удаляют. Сначала прочитайте список путей."
+  },
+  "ecosystem.product.linux-cleanup.paragraph.2": {
+    "message": "Приложение для Linux x86_64 доступно в форматах AppImage и .deb; после настоящей очистки оно показывает отчёт. Консольный инструмент с лицензией MIT запускается через npx. Это обслуживание компьютера, отдельное от управления видео в Video Controls Plus. Если хотите понять, что именно затронет очистка, начните с просмотра. После запуска отчёт сохранит сведения о выполненных действиях."
+  },
+  "ecosystem.product.linux-cleanup.paragraph.3": {
+    "message": "Откройте [linux-cleanup](https://linux-cleanup.aoneahsan.com/), чтобы изучить продукт на его собственном сайте."
+  },
+  "ecosystem.product.macleanup.card": {
+    "message": "Изучите разделы очистки macOS на настоящем пробном запуске до удаления файлов."
+  },
+  "ecosystem.product.macleanup.heading": {
+    "message": "Для чего нужен macleanup?"
+  },
+  "ecosystem.product.macleanup.platformLabel": {
+    "message": "macOS: приложение и CLI"
+  },
+  "ecosystem.product.macleanup.paragraph.1": {
+    "message": "macleanup помогает очищать macOS. Перед удалением доступен настоящий пробный запуск: инструмент показывает разделы очистки и предполагаемые действия. Личные папки он не трогает при любых настройках. Это ограничение встроено в продукт — его не нужно специально включать. Сначала проверьте список."
+  },
+  "ecosystem.product.macleanup.paragraph.2": {
+    "message": "Это инструмент для обслуживания Mac, а не управления видео в браузере. Если хотите освободить место, изучите разделы и результат пробного запуска, прежде чем запускать очистку. macleanup и Video Controls Plus созданы одним разработчиком, но не делят настройки и рабочий процесс. Запрет на очистку личных папок действует и при настоящем запуске."
+  },
+  "ecosystem.product.macleanup.paragraph.3": {
+    "message": "Откройте [macleanup](https://github.com/aoneahsan/macleanup), чтобы изучить страницу проекта."
+  },
+  "ecosystem.product.native-update.card": {
+    "message": "Доставляйте обновления пакета приложения Capacitor между релизами в магазине."
+  },
+  "ecosystem.product.native-update.heading": {
+    "message": "Для чего нужен Native Update?"
+  },
+  "ecosystem.product.native-update.platformLabel": {
+    "message": "Веб и npm"
+  },
+  "ecosystem.product.native-update.paragraph.1": {
+    "message": "Native Update доставляет пакеты приложения Capacitor между релизами в магазине. Разработчик может выпустить обновлённый пакет для установленного приложения, не ожидая, пока магазин опубликует каждое изменение веб-слоя. Проект также охватывает приглашения обновить приложение через магазин и оставить отзыв внутри приложения. Начните с процесса выпуска."
+  },
+  "ecosystem.product.native-update.paragraph.2": {
+    "message": "У проекта открытый исходный код и серверную часть можно разместить у себя. Это инструмент для разработчиков, которым нужно настроить процесс выпуска, а не кнопка обновления для пользователей Video Controls Plus. Если вы создаёте приложения на Capacitor, прочитайте инструкции по платформам и серверу, прежде чем выбирать способ доставки обновлений. У магазина остаётся собственный путь выпуска; пакет описывает и доставку сборки, и приглашения, связанные с обновлением через магазин."
+  },
+  "ecosystem.product.native-update.paragraph.3": {
+    "message": "Откройте [Native Update](https://nativeupdate.aoneahsan.com), чтобы изучить продукт на его собственном сайте."
+  },
+  "ecosystem.product.netcage.card": {
+    "message": "Выбирайте, каким приложениям Android доступны Wi-Fi и мобильные данные и когда действуют правила."
+  },
+  "ecosystem.product.netcage.heading": {
+    "message": "Для чего нужен NetCage?"
+  },
+  "ecosystem.product.netcage.platformLabel": {
+    "message": "Android"
+  },
+  "ecosystem.product.netcage.paragraph.1": {
+    "message": "NetCage позволяет выбрать, какие приложения Android могут пользоваться Wi-Fi, мобильными данными или обоими подключениями. Можно запретить доступ одному приложению, оставив остальной телефон в сети. Приложения объединяются в профили, а правила применяются в выбранные дни и часы. Сначала выберите приложение."
+  },
+  "ecosystem.product.netcage.paragraph.2": {
+    "message": "Управление работает на уровне сетевого подключения приложений Android. Оно не меняет видеоплеер сайта и подключение Video Controls Plus к аккаунту. Если вам нужно ограничить доступ приложения к сети по времени, изучите назначение и расписание правила до включения профиля. Расписание помогает применять одно и то же ограничение только в нужные часы."
+  },
+  "ecosystem.product.netcage.paragraph.3": {
+    "message": "Откройте [NetCage](https://netcage.aoneahsan.com), чтобы изучить продукт на его собственном сайте."
+  },
+  "ecosystem.product.pregnancypal.card": {
+    "message": "Храните недели беременности, симптомы и приёмы у врача вместе и возьмите с собой PDF с записями."
+  },
+  "ecosystem.product.pregnancypal.heading": {
+    "message": "Для чего нужен PregnancyPal?"
+  },
+  "ecosystem.product.pregnancypal.platformLabel": {
+    "message": "Веб и Android"
+  },
+  "ecosystem.product.pregnancypal.paragraph.1": {
+    "message": "PregnancyPal помогает вести записи о беременности по неделям: отмечать симптомы, настроение, показатели здоровья и приёмы у врача, а также хранить сведения о питании и упражнениях рядом с текущей неделей. Из записей можно создать PDF, который удобно взять на приём. Даты останутся вместе."
+  },
+  "ecosystem.product.pregnancypal.paragraph.2": {
+    "message": "Это личный дневник, а не медицинская консультация и не замена врачу. У продукта свои записи и свой порядок работы: видео и заметки из Video Controls Plus туда автоматически не попадают. На сайте PregnancyPal можно посмотреть недельный обзор и доступные записи. PDF позволяет принести собственные наблюдения на приём и обсудить их контекст с врачом."
+  },
+  "ecosystem.product.pregnancypal.paragraph.3": {
+    "message": "Откройте [PregnancyPal](https://pregnancypal.aoneahsan.com), чтобы изучить продукт на его собственном сайте."
+  },
+  "ecosystem.product.rentparty.card": {
+    "message": "Поставьте игру с торговлей недвижимостью на паузу и вернитесь к сохранённым деньгам и объектам."
+  },
+  "ecosystem.product.rentparty.heading": {
+    "message": "Для чего нужен RentParty?"
+  },
+  "ecosystem.product.rentparty.platformLabel": {
+    "message": "Веб и Android"
+  },
+  "ecosystem.product.rentparty.paragraph.1": {
+    "message": "RentParty — игра с торговлей недвижимостью, к которой можно вернуться в другой день. Передавайте один телефон по кругу, играйте против компьютерных соперников или откройте комнату в сети. После паузы состояние банка и права на объекты сохраняются до следующей партии."
+  },
+  "ecosystem.product.rentparty.paragraph.2": {
+    "message": "Возможность продолжить игру важна, когда всем нужно отложить телефон. RentParty — игра команды Zaions; Video Controls Plus — расширение для онлайн-видео. Их сеансы и элементы управления отдельны. Откройте RentParty и выберите, как присоединятся игроки. Следующему игроку не придётся восстанавливать прошлую партию по памяти и заново распределять имущество."
+  },
+  "ecosystem.product.rentparty.paragraph.3": {
+    "message": "Откройте [RentParty](https://rentparty.aoneahsan.com), чтобы изучить продукт на его собственном сайте."
+  },
+  "ecosystem.product.smsapp.card": {
+    "message": "Отправляйте отдельные, массовые и запланированные SMS со своего устройства Android."
+  },
+  "ecosystem.product.smsapp.heading": {
+    "message": "Для чего нужен SMS App?"
+  },
+  "ecosystem.product.smsapp.platformLabel": {
+    "message": "Android"
+  },
+  "ecosystem.product.smsapp.paragraph.1": {
+    "message": "SMS App отправляет текстовые сообщения через ваше устройство Android. Поддерживаются отдельные сообщения, партии сообщений и отправка по расписанию, а для более масштабной работы — регистрация устройств и управление пулом добровольцев. Телефон участвует в отправке, поэтому проверьте его настройку до планирования рассылки."
+  },
+  "ecosystem.product.smsapp.paragraph.2": {
+    "message": "Это приложение для Android отвечает за доставку SMS и связанные с ней настройки конфиденциальности. Оно не отправляет сообщения из Video Controls Plus, а аккаунт расширения не становится отправителем SMS. На сайте SMS App изучите порядок работы с устройством и сообщениями до подготовки партии. Расписание поможет только тогда, когда зарегистрированное устройство доступно для отправки в выбранное время."
+  },
+  "ecosystem.product.smsapp.paragraph.3": {
+    "message": "Откройте [SMS App](https://smsapp.aoneahsan.com), чтобы изучить продукт на его собственном сайте."
+  },
+  "ecosystem.product.strata-storage.card": {
+    "message": "Работайте через единый интерфейс с хранилищами браузера и нативными Keychain или Keystore."
+  },
+  "ecosystem.product.strata-storage.heading": {
+    "message": "Для чего нужен Strata Storage?"
+  },
+  "ecosystem.product.strata-storage.platformLabel": {
+    "message": "Пакет npm"
+  },
+  "ecosystem.product.strata-storage.paragraph.1": {
+    "message": "Strata Storage даёт разработчикам единый интерфейс для хранилищ браузера и устройства. В браузере пакет поддерживает localStorage, IndexedDB и cookies, а на нативных платформах — Keychain и Keystore. У него нет зависимостей. Выбирайте хранилище по свойствам данных."
+  },
+  "ecosystem.product.strata-storage.paragraph.2": {
+    "message": "Общий API делает обращения к хранилищу единообразными в веб-приложениях, iOS и Android, но свойства этих хранилищ различаются. Это пакет для разработчиков приложений, а не новая настройка Video Controls Plus. Изучите документацию пакета и решите, где и как долго ваше приложение должно хранить данные. Единый интерфейс не делает защиту браузерного хранилища такой же, как у нативного защищённого."
+  },
+  "ecosystem.product.strata-storage.paragraph.3": {
+    "message": "Откройте [Strata Storage](https://www.npmjs.com/package/strata-storage), чтобы изучить страницу пакета."
+  },
+  "ecosystem.product.tilawah.card": {
+    "message": "Изучайте записанные уроки Tajweed и Tafseer в удобном темпе."
+  },
+  "ecosystem.product.tilawah.heading": {
+    "message": "Для чего нужен Tilawah?"
+  },
+  "ecosystem.product.tilawah.platformLabel": {
+    "message": "Веб"
+  },
+  "ecosystem.product.tilawah.paragraph.1": {
+    "message": "Tilawah предлагает записанные уроки Tajweed и Tafseer, которые можно проходить в своём темпе. Отслеживание прогресса показывает, какие уроки вы прошли, без обязательного расписания живых занятий. Если хотите, чтобы преподаватель послушал ваше чтение, можно записаться на индивидуальный онлайн-урок с учётом вашего часового пояса."
+  },
+  "ecosystem.product.tilawah.paragraph.2": {
+    "message": "Это два разных способа учиться: возвращаться к записи, когда удобно, или договориться о времени с преподавателем. Обучение проходит в самом Tilawah. Video Controls Plus может менять скорость воспроизведения обычного онлайн-видео, но не записывает вас на урок Tilawah и не связывает аккаунты. Перед бронированием проверьте время живого занятия в своём часовом поясе."
+  },
+  "ecosystem.product.tilawah.paragraph.3": {
+    "message": "Откройте [Tilawah](https://tilawah.aoneahsan.com), чтобы изучить продукт на его собственном сайте."
+  },
+  "ecosystem.product.trizlink.card": {
+    "message": "Соберите брендированные короткие ссылки, страницу ссылок и аналитику переходов в одном месте."
+  },
+  "ecosystem.product.trizlink.heading": {
+    "message": "Для чего нужен Trizlink?"
+  },
+  "ecosystem.product.trizlink.platformLabel": {
+    "message": "Веб и Android"
+  },
+  "ecosystem.product.trizlink.paragraph.1": {
+    "message": "Trizlink объединяет короткие ссылки, страницу со ссылками и аналитику переходов. Можно создать брендированную короткую ссылку со своим адресным окончанием или разместить несколько направлений на одной странице. Когда по ссылке переходят, запись о клике помогает понять, что произошло. Сначала выберите страницу назначения."
+  },
+  "ecosystem.product.trizlink.paragraph.2": {
+    "message": "Также доступны собственные домены и встроенные инструменты. Ссылкой Trizlink вы управляете в этом продукте: это не элемент управления видео, а Video Controls Plus не создаёт её и не показывает её статистику. Откройте Trizlink, если нужен короткий адрес или одна страница для нескольких ссылок. Брендированное окончание помогает узнать ссылку, а аналитика показывает, пользовались ли ею."
+  },
+  "ecosystem.product.trizlink.paragraph.3": {
+    "message": "Откройте [Trizlink](https://trizlink.com), чтобы изучить продукт на его собственном сайте."
+  },
+  "ecosystem.product.waylock.card": {
+    "message": "Закрепите нужные остановки и перестройте остальные точки автомобильного маршрута на Android."
+  },
+  "ecosystem.product.waylock.heading": {
+    "message": "Для чего нужен Waylock?"
+  },
+  "ecosystem.product.waylock.platformLabel": {
+    "message": "Android"
+  },
+  "ecosystem.product.waylock.paragraph.1": {
+    "message": "Waylock помогает водителям и курьерам планировать маршрут на Android поверх Google Maps. Вы можете закрепить выбранные остановки и изменить порядок остальных. Если свернуть не туда, выбранный маршрут остаётся видимым, а вы решаете, вернуться к нему или построить новый. Закреплённые точки сохраняют своё место."
+  },
+  "ecosystem.product.waylock.paragraph.2": {
+    "message": "При доставке иногда нельзя менять порядок отдельных остановок, хотя остальной маршрут должен подстраиваться под дорогу. Это отдельная от браузерной навигации задача. На сайте Waylock можно посмотреть, как маршрут закрепляется и меняется на Android. Ошибка на повороте не стирает исходный выбор водителя: приложение показывает его рядом со следующим решением."
+  },
+  "ecosystem.product.waylock.paragraph.3": {
+    "message": "Откройте [Waylock](https://waylock.aoneahsan.com), чтобы изучить продукт на его собственном сайте."
+  },
+  "ecosystem.product.windowsweep.card": {
+    "message": "Просмотрите все пути очистки Windows при настоящем пробном запуске, прежде чем выбирать файлы для удаления."
+  },
+  "ecosystem.product.windowsweep.heading": {
+    "message": "Для чего нужен windowsweep?"
+  },
+  "ecosystem.product.windowsweep.platformLabel": {
+    "message": "Windows: приложение и CLI"
+  },
+  "ecosystem.product.windowsweep.paragraph.1": {
+    "message": "windowsweep показывает каждый путь очистки Windows до удаления. В 30 разделах доступен настоящий пробный запуск, а личные файлы выбираются по строкам и не добавляются незаметно. Программа не обращается к сети. Сначала прочитайте список запланированных изменений."
+  },
+  "ecosystem.product.windowsweep.paragraph.2": {
+    "message": "Инструмент можно запустить через npx или как приложение для Windows. Очистка выполняется на том компьютере, чьи пути вы хотите проверить; к Video Controls Plus в браузере она не относится. Начните с пробного запуска, изучите разделы и только потом решите, подходит ли этому компьютеру настоящая очистка. Отдельный выбор личных файлов делает удаление видимым решением, а не скрытым действием по умолчанию."
+  },
+  "ecosystem.product.windowsweep.paragraph.3": {
+    "message": "Откройте [windowsweep](https://windowsweep.aoneahsan.com), чтобы изучить продукт на его собственном сайте."
+  },
+  "ecosystem.product.ztools.card": {
+    "message": "Находите форматтеры, конвертеры, кодировщики и генераторы, работающие в браузере без загрузки файлов."
+  },
+  "ecosystem.product.ztools.heading": {
+    "message": "Для чего нужен ZTools?"
+  },
+  "ecosystem.product.ztools.platformLabel": {
+    "message": "Веб, Android и расширение Chrome"
+  },
+  "ecosystem.product.ztools.paragraph.1": {
+    "message": "ZTools собирает форматтеры, конвертеры, кодировщики и генераторы, которые работают в браузере, в каталог с поиском. Откройте инструмент под свою задачу и работайте прямо там: согласно перечню продуктов, файлы никуда не загружаются. Сначала найдите нужный инструмент."
+  },
+  "ecosystem.product.ztools.paragraph.2": {
+    "message": "Поддерживаются тёмная тема и работа без сети. ZTools предназначен для задач с файлами и текстом, а Video Controls Plus — для воспроизведения и изучения онлайн-видео. Если вам нужен конвертер, а не управление видео, перейдите в ZTools и выберите инструмент для своего типа данных. Поиск по каталогу помогает, когда задача известна, а название подходящего инструмента — нет."
+  },
+  "ecosystem.product.ztools.paragraph.3": {
+    "message": "Откройте [ZTools](https://ztools.zaions.com), чтобы изучить продукт на его собственном сайте."
   }
 }
